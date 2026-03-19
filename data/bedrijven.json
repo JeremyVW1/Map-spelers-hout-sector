@@ -7605,5 +7605,99 @@
     ],
     "btw": "BE0440.072.766",
     "website": "tuinhuisstore.be"
+  },
+  {
+    "naam": "Fruytier Scierie",
+    "provincie": "lux",
+    "grootte": "G",
+    "lat": 50.2267,
+    "lng": 5.3433,
+    "webshop": "Nee",
+    "info": "Top-20 Europese naaldhout-zagerij. 1M+ m3/jaar. Sparren, douglas. 5 zagerijen in BE. Marloie (Marche-en-Famenne). Sinds 1942.",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ],
+    "btw": "BE0428.884.411",
+    "website": "fruytier.com",
+    "adres": "Rue Saint Isidore 3, 6900 Marloie"
+  },
+  {
+    "naam": "Barthel Pauls Sohne",
+    "provincie": "lui",
+    "grootte": "G",
+    "lat": 50.4167,
+    "lng": 6.25,
+    "webshop": "Nee",
+    "info": "Grote zagerij Ostbelgien. Naaldhout, constructiehout, KVH, bois d'ossature. Bullange (Bullingen). Pelletproductie.",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ],
+    "website": "pauls.be",
+    "adres": "Bullange, 4760"
+  },
+  {
+    "naam": "Scierie Servais",
+    "provincie": "lux",
+    "grootte": "M",
+    "lat": 49.8614,
+    "lng": 5.2253,
+    "webshop": "Nee",
+    "info": "Zagerij en houthandel Bertrix. Constructiehout, dakbalken. Verkoop aan particulieren en professionals.",
+    "activiteiten": [
+      "houthandel"
+    ],
+    "btw": "BE0414.506.437",
+    "website": "scierieservais.be",
+    "adres": "Rue des Corettes 56, 6880 Bertrix"
+  },
+  {
+    "naam": "Le Bois au Jardin",
+    "provincie": "lux",
+    "grootte": "M",
+    "lat": 50.2267,
+    "lng": 5.3433,
+    "webshop": "Nee",
+    "info": "Specialist bois et amenagement jardin. Terrassen, bardage, tuinhuizen, carports. +20 jaar. Marche-en-Famenne.",
+    "activiteiten": [
+      "terrassen",
+      "tuinhuis",
+      "houthandel"
+    ],
+    "btw": "BE0864.637.907",
+    "website": "leboisaujardin.be",
+    "adres": "Rue des Deux Provinces 5, 6900 Marche-en-Famenne"
+  },
+  {
+    "naam": "Comptoir Commercial du Bois",
+    "provincie": "lui",
+    "grootte": "K",
+    "lat": 50.6283,
+    "lng": 6.0333,
+    "webshop": "Nee",
+    "info": "Houthandel rondhout. Duurzaam bosbeheer. Bosexploitatie, meten en transport. Eupen, Ostbelgien.",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ],
+    "btw": "BE0445.209.610",
+    "website": "",
+    "adres": "Buchenweg 30, 4700 Eupen"
+  },
+  {
+    "naam": "Scierie Poncelet",
+    "provincie": "lux",
+    "grootte": "K",
+    "lat": 49.8614,
+    "lng": 5.2253,
+    "webshop": "Nee",
+    "info": "Zagerij Bertrix, provincie Luxemburg. Naaldhout verwerking.",
+    "activiteiten": [
+      "houthandel"
+    ],
+    "btw": "BE0860.273.697",
+    "website": "",
+    "adres": "Bertrix, 6880"
   }
 ]
