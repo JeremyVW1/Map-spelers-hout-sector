@@ -14,7 +14,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
+    "groep_adres": "Industrielaan 5, 8790 Waregem",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houthandel Dequidt",
@@ -27,7 +31,10 @@
     "btw": "BE 0405.252.340",
     "adres": "Albert I Laan 27a, 8630 Veurne",
     "rechtsvorm": "NV",
-    "medewerkers": 7.1
+    "medewerkers": 7.1,
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Cras Woodshops Heule",
@@ -46,7 +53,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -64,7 +73,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
+    "groep_adres": "Industrielaan 5, 8790 Waregem",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Cras Woodshops Meulebeke",
@@ -81,7 +94,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
+    "groep_adres": "Industrielaan 5, 8790 Waregem",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Groep Debeuckelaere",
@@ -98,7 +115,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Agrodieren.be",
@@ -127,7 +148,8 @@
     "rechtsvorm": "BV",
     "website": "vandenbrouckehout.be",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -141,7 +163,11 @@
     "btw": "BE 0444.953.846",
     "adres": "Iepersestraat 459, 8800 Roeselare",
     "rechtsvorm": "NV",
-    "website": "www.botanica-wood.be"
+    "website": "www.botanica-wood.be",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houtmarkt",
@@ -150,7 +176,12 @@
     "lat": 51.2112,
     "lng": 3.2251,
     "webshop": "Ja",
-    "info": "FSC, tropisch hardhout, terras, tuinhout, isolatie. Brugge."
+    "info": "FSC, tropisch hardhout, terras, tuinhout, isolatie. Brugge.",
+    "activiteiten": [
+      "terrassen",
+      "online",
+      "houthandel"
+    ]
   },
   {
     "naam": "Woodcenter",
@@ -166,7 +197,9 @@
     "medewerkers": 6.4,
     "website": "www.woodcenter.be",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -180,7 +213,10 @@
     "btw": "BE 0424.854.258",
     "adres": "Ambachtenstraat 22, 8870 Izegem",
     "rechtsvorm": "NV",
-    "medewerkers": 8.3
+    "medewerkers": 8.3,
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Tavernier",
@@ -197,7 +233,8 @@
     "oprichting": "1965",
     "website": "houthandeltavernier.be",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -213,7 +250,11 @@
     "rechtsvorm": "NV",
     "medewerkers": 3.4,
     "oprichting": "1867",
-    "website": "www.eurowood.be"
+    "website": "www.eurowood.be",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Eurowood",
@@ -228,7 +269,11 @@
     "rechtsvorm": "NV",
     "medewerkers": 3.4,
     "oprichting": "1867",
-    "website": "www.eurowood.be"
+    "website": "www.eurowood.be",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Verwée Houthandel",
@@ -240,7 +285,10 @@
     "info": "Familiebedrijf 1895. Hout + plaatmateriaal. Kuurne (Kortrijk).",
     "btw": "BE 0405.379.331",
     "adres": "Heirweg 115, 8520 Kuurne",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Tieltse Houthandel",
@@ -252,7 +300,12 @@
     "info": "Constructie + buitenhout + vloeren + deuren. Tielt.",
     "btw": "BE 0421.695.127",
     "adres": "Deinsesteenweg 8, 8700 Tielt",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel",
+      "parket",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houthandel Messely",
@@ -263,7 +316,9 @@
     "webshop": "Nee",
     "info": "Terrasplanken, thermohout, tuinhout, parket. West-Vl.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ],
     "btw": "BE 0873.692.856",
     "adres": "Heule/Kortrijk",
@@ -280,7 +335,11 @@
     "btw": "BE 0405.565.710",
     "adres": "Iepersestraat 22, 8890 Moorslede",
     "rechtsvorm": "NV",
-    "medewerkers": 4.8
+    "medewerkers": 4.8,
+    "activiteiten": [
+      "terrassen",
+      "houthandel"
+    ]
   },
   {
     "naam": "Huys Houthandel",
@@ -289,7 +348,10 @@
     "lat": 51.2041,
     "lng": 3.2121,
     "webshop": "Nee",
-    "info": "Toonzaal, eiken tafels, FSC hout. Brugge."
+    "info": "Toonzaal, eiken tafels, FSC hout. Brugge.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Leirman",
@@ -302,7 +364,11 @@
     "btw": "BE 0405.494.642",
     "adres": "Cardijnlaan 4, 8600 Diksmuide",
     "rechtsvorm": "BV",
-    "oprichting": "1963"
+    "oprichting": "1963",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houthandel Beheyt",
@@ -313,7 +379,8 @@
     "webshop": "Nee",
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ],
     "btw": "BE 0450.980.714",
     "adres": "Ieperseweg 26, 8970 Poperinge",
@@ -330,7 +397,8 @@
     "webshop": "Nee",
     "info": "Fabrikant/importeur verlijmde panelen. Europees hardhout. Ledegem.",
     "activiteiten": [
-      "import"
+      "import",
+      "houthandel"
     ],
     "btw": "BE 0425.328.370",
     "adres": "Roeselarestraat 154, 8880 Ledegem",
@@ -346,7 +414,10 @@
     "info": "Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. West-Vl.",
     "btw": "BE 0414.807.335",
     "adres": "Zandstraat 210, 8200 Brugge",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Lagae Hout",
@@ -357,7 +428,8 @@
     "webshop": "Nee",
     "info": "Importeur hard- en zachthout. Exclusief importeur Benelux. Levert aan houthandels + industrie. West-Vl.",
     "activiteiten": [
-      "import"
+      "import",
+      "houthandel"
     ]
   },
   {
@@ -370,7 +442,12 @@
     "info": "Fijn hout maatwerk, groothandel B2B schrijnwerkers. Geen tuinhout focus. Gent.",
     "btw": "BE 0400.089.663",
     "adres": "Gent",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel",
+      "terrassen",
+      "import"
+    ]
   },
   {
     "naam": "V.E.H.",
@@ -379,7 +456,11 @@
     "lat": 50.7451,
     "lng": 3.6001,
     "webshop": "Nee",
-    "info": "Klein- en groothandel + creatie + plaatsing houten tuinproducten. 15+ jaar. Ronse."
+    "info": "Klein- en groothandel + creatie + plaatsing houten tuinproducten. 15+ jaar. Ronse.",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houthandel De Regge Gavere",
@@ -390,7 +471,9 @@
     "webshop": "Nee",
     "info": "Daktimmer, timmerhout, tuinhout, parket. Regio Gavere-Gent-Zuid.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ],
     "btw": "BE 0476.593.464",
     "adres": "Baaigemstraat 403, 9890 Gavere",
@@ -413,7 +496,8 @@
     "activiteiten": [
       "paarden",
       "online",
-      "import"
+      "import",
+      "terrassen"
     ]
   },
   {
@@ -446,7 +530,10 @@
     "btw": "BE 0439.774.145",
     "adres": "Wiedauwkaai 88, 9000 Gent",
     "rechtsvorm": "BV",
-    "medewerkers": 12.9
+    "medewerkers": 12.9,
+    "activiteiten": [
+      "terrassen"
+    ]
   },
   {
     "naam": "'t Houtboerke",
@@ -458,7 +545,10 @@
     "info": "Vakhandel breed, toonzaal. Gent (Langebruggekaai).",
     "btw": "BE 0445.566.431",
     "adres": "Langerbruggekaai 5, 9000 Gent",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Cras Woodshops Zottegem",
@@ -477,7 +567,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -497,7 +589,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -511,7 +605,11 @@
     "btw": "BE 0424.810.312",
     "adres": "Eekstraat 26, 9160 Lokeren",
     "rechtsvorm": "NV",
-    "medewerkers": 11
+    "medewerkers": 11,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "D'Haeseleer",
@@ -524,7 +622,10 @@
     "btw": "BE 0408.386.826",
     "adres": "Oudenaardsesteenweg 5, 9420 Erpe-Mere",
     "rechtsvorm": "BV",
-    "oprichting": "1971"
+    "oprichting": "1971",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Steyaert",
@@ -536,7 +637,10 @@
     "info": "1929, 4 generaties. Schrijnwerkers + aannemers + particulier. Eeklo.",
     "btw": "BE 0401.047.785",
     "adres": "Zuidmoerstraat 102, 9900 Eeklo",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houtshop Van der Gucht",
@@ -552,7 +656,9 @@
     "medewerkers": 45.7,
     "oprichting": "1968",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -567,7 +673,11 @@
     "adres": "Langendam 25A, 9940 Evergem",
     "rechtsvorm": "NV",
     "medewerkers": 15.5,
-    "website": "www.demeyer-nv.shop"
+    "website": "www.demeyer-nv.shop",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Hertecant Hout",
@@ -581,7 +691,8 @@
     "adres": "Dendermonde",
     "rechtsvorm": "NV",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ]
   },
   {
@@ -608,7 +719,10 @@
     "info": "Constructiehout vakman. Plaatmateriaal, isolatie. Vosselare (Deinze).",
     "btw": "BE 0436.895.918",
     "adres": "Landegemstraat 39, 9850 Deinze",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Prindal Hout",
@@ -624,7 +738,9 @@
     "medewerkers": 4.8,
     "oprichting": "1978",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -638,7 +754,10 @@
     "btw": "BE 0420.253.389",
     "adres": "Veldstraat 365, 9140 Temse",
     "rechtsvorm": "BV",
-    "oprichting": "1980"
+    "oprichting": "1980",
+    "activiteiten": [
+      "terrassen"
+    ]
   },
   {
     "naam": "De Regge Houthandel",
@@ -649,7 +768,9 @@
     "webshop": "Nee",
     "info": "Dak+tuinhout+parket. Regio Gent-Zuid. Gavere.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ],
     "btw": "BE 0476.593.464",
     "adres": "Baaigemstraat 403, 9890 Gavere",
@@ -672,7 +793,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -682,7 +805,11 @@
     "lat": 51.3021,
     "lng": 4.4501,
     "webshop": "Nee",
-    "info": "Fineerhout groothandel. Levering aan industrie en schrijnwerkers. Brasschaat."
+    "info": "Fineerhout groothandel. Levering aan industrie en schrijnwerkers. Brasschaat.",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Hubo (Antwerpen)",
@@ -694,7 +821,8 @@
     "info": "DHZ-keten Hubo. Tuinhout. Antwerpen. Webshop.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -706,7 +834,9 @@
     "webshop": "Ja",
     "info": "110+ jaar. FSC-pionier. Omzet €45M. Webshop + fysiek. 4 vestigingen: Schoten, Turnhout, Kontich, Leuven. Breed tuin+constructie+interieur. 📞 03 685 24 20 🌐 www.martenshout.be",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -731,7 +861,9 @@
     "webshop": "Ja",
     "info": "Vestiging Martens Hout. Breed gamma + Van Den Eynde plaatmateriaal. Kontich.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -743,7 +875,10 @@
     "webshop": "Beperkt",
     "info": "Dé hout- en bouwmarkt van Antwerpen. Particulier + professional. Kwaliteitshout, parket, laminaat, deuren, trappen, tuinhout. Sedert 1966. 📍 Boomsesteenweg 680-682, 2610 Wilrijk 📞 03 827 39 56 📧 woodtex@woodtex.be 🌐 www.woodtex.be",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -756,7 +891,9 @@
     "info": "⚠️ CRUCIALE B2B SPELER. Grootste tuinhout groothandel van België. Levert aan DHZ-ketens + houthandels. 20.000m² site. B2B-only. 📍 Fabriekstraat 40, 2547 Lint 📞 03 454 46 77 🌐 cartri.be",
     "activiteiten": [
       "dhz",
-      "import"
+      "import",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -768,7 +905,9 @@
     "webshop": "Ja",
     "info": "35+ jaar. Houten bijgebouwen op maat + constructiehout. Eigen atelier + impregneerinstallatie. Onderdeel Rivaco Groep. Westerlo.",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -781,7 +920,8 @@
     "info": "Webshop + showroom. Tuinhuizen, carports, speeltoestellen, poorten. Plaatsingsdienst. Kontich.",
     "activiteiten": [
       "tuinhuis",
-      "online"
+      "online",
+      "terrassen"
     ]
   },
   {
@@ -791,7 +931,12 @@
     "lat": 51.0731,
     "lng": 4.7401,
     "webshop": "Ja",
-    "info": "2e vestiging Tuinhoutcentrum. Showroom + plaatsing. Heist-op-den-Berg."
+    "info": "2e vestiging Tuinhoutcentrum. Showroom + plaatsing. Heist-op-den-Berg.",
+    "activiteiten": [
+      "online",
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Van Kooten Tuin & Buiten",
@@ -802,7 +947,10 @@
     "webshop": "Ja",
     "info": "Webshop + overdekte toonzaal. Tuinhout, hardhout, palen, hekwerk. Wommelgem.",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen",
+      "paarden"
     ]
   },
   {
@@ -812,7 +960,11 @@
     "lat": 51.2021,
     "lng": 4.6081,
     "webshop": "Nee",
-    "info": "50 jaar. Hout + plaatmateriaal. Constructie + interieur + gevel. Broechem (Ranst)."
+    "info": "50 jaar. Hout + plaatmateriaal. Constructie + interieur + gevel. Broechem (Ranst).",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Hendrickx Hout",
@@ -821,7 +973,11 @@
     "lat": 51.0471,
     "lng": 4.4801,
     "webshop": "Nee",
-    "info": "Groothandel Europees hardhout. Eik, Beuk, Es, Kastanje. FSC/PEFC. B2B. Leest (Mechelen)."
+    "info": "Groothandel Europees hardhout. Eik, Beuk, Es, Kastanje. FSC/PEFC. B2B. Leest (Mechelen).",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Carlens Houthandel",
@@ -830,7 +986,10 @@
     "lat": 51.0041,
     "lng": 4.8501,
     "webshop": "Nee",
-    "info": "Familiebedrijf 1934, 30 medewerkers. Houtzagerij. Groot- en detailhandel. Aarschot."
+    "info": "Familiebedrijf 1934, 30 medewerkers. Houtzagerij. Groot- en detailhandel. Aarschot.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houtbedrijf Lavrijsen",
@@ -841,7 +1000,8 @@
     "webshop": "Nee",
     "info": "1970, 23 FTE, €14,6M omzet. Eigen boomzagerij. Particulier + vakman + industrie + DHZ-winkel. Geel.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -853,7 +1013,10 @@
     "webshop": "Ja",
     "info": "Online + afhaallocaties. Tuinhout, constructiehout, gevelbekleding, tuinhuizen. Londerzeel.",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "terrassen",
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -863,7 +1026,10 @@
     "lat": 50.9151,
     "lng": 4.9521,
     "webshop": "Nee",
-    "info": "Familiebedrijf 3e generatie, 90 jaar. Boom- en houtzagerij. Tielt-Winge."
+    "info": "Familiebedrijf 3e generatie, 90 jaar. Boom- en houtzagerij. Tielt-Winge.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Martens Hout Leuven",
@@ -875,7 +1041,8 @@
     "info": "Vestiging Martens Hout. Breed gamma tuin+constructie+interieur. Webshop. Leuven.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -887,7 +1054,9 @@
     "webshop": "Ja",
     "info": "2e vestiging Belgo Garant aan A12. Houten bijgebouwen + constructiehout. Meise.",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -899,7 +1068,8 @@
     "webshop": "Ja",
     "info": "Groothandel tropisch hardhout + eco-alternatieven. Tuinhout, terrasplanken, gevelbekleding. Webshop. Lovenjoel.",
     "activiteiten": [
-      "online"
+      "online",
+      "terrassen"
     ]
   },
   {
@@ -911,7 +1081,8 @@
     "webshop": "Nee",
     "info": "Specialist breed houtgamma. Particulier + prof. Bertem (Leuven).",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -923,7 +1094,9 @@
     "webshop": "Ja",
     "info": "Online webshop B2B + B2C. Buitenhout: gevelbekleding, terrasvloeren, steigerhout. Vlaams-Brabant.",
     "activiteiten": [
-      "online"
+      "online",
+      "terrassen",
+      "parket"
     ]
   },
   {
@@ -933,7 +1106,10 @@
     "lat": 51.0021,
     "lng": 4.3181,
     "webshop": "Nee",
-    "info": "3e generatie. Hout + plaatmateriaal. Malderen + Tisselt."
+    "info": "3e generatie. Hout + plaatmateriaal. Malderen + Tisselt.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Cras Woodshops Evere",
@@ -952,7 +1128,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -964,7 +1142,8 @@
     "webshop": "Nee",
     "info": "Dominante speler Limburg. 6 filialen: Bree, Genk, Mol, Pelt, Sint-Truiden, Tongeren. Breed gamma: daktimmer, tuinhout, constructie. Prof + DHZ.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -974,7 +1153,12 @@
     "lat": 51.0621,
     "lng": 5.7161,
     "webshop": "Nee",
-    "info": "Hout, platen, vloeren, deuren, tuinhout, isolatie, dakvensters. Maaseik."
+    "info": "Hout, platen, vloeren, deuren, tuinhout, isolatie, dakvensters. Maaseik.",
+    "activiteiten": [
+      "houthandel",
+      "parket",
+      "terrassen"
+    ]
   },
   {
     "naam": "Walth Genk",
@@ -1057,7 +1241,10 @@
     "webshop": "Nee",
     "info": "Familiebedrijf 1975. Hout, plaatmateriaal, tuinhout, isolatie, vloeren + DHZ-winkel. Leopoldsburg.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "parket",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1069,7 +1256,9 @@
     "webshop": "Ja",
     "info": "Online webshop buitenhout. Gevelbekleding, terrasvloeren, steigerhout. B2B + B2C. Hasselt regio.",
     "activiteiten": [
-      "online"
+      "online",
+      "terrassen",
+      "parket"
     ]
   },
   {
@@ -1081,7 +1270,10 @@
     "webshop": "Nee",
     "info": "Houthandel + schrijnwerkerij + DHZ. Hout, platen, vloeren, deuren, tuinhout. Maaseik.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "parket",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1093,7 +1285,9 @@
     "webshop": "Nee",
     "info": "100+ jaar. 15.000m² stock. Breed: constructiehout, tuinhout, parket, isolatie, gevels. Prof + particulier. PEFC. Houdeng-Goegnies (La Louvière).",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1105,7 +1299,9 @@
     "webshop": "Nee",
     "info": "1948. 2 winkels. Grossiste + négociant. Volledig gamma bouw + tuin + afwerking. Zaagservice. PEFC. Bois-d'Haine (regio Centre).",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "import",
+      "houthandel"
     ]
   },
   {
@@ -1117,7 +1313,8 @@
     "webshop": "Nee",
     "info": "100+ jaar. Distributeur hout, parket, panelen, toiture, isolatie. 500m² showroom. Lid Pluswood groep. Tournai.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ]
   },
   {
@@ -1127,7 +1324,11 @@
     "lat": 50.4081,
     "lng": 4.1661,
     "webshop": "Nee",
-    "info": "Specialist hout gros-oeuvre en afwerking. Constructie + tuinhout. Binche. Depuis 1986."
+    "info": "Specialist hout gros-oeuvre en afwerking. Constructie + tuinhout. Binche. Depuis 1986.",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Mathias Bois",
@@ -1139,7 +1340,9 @@
     "info": "25+ jaar. Tuinhout + constructiehout. Tuinhuizen, carports, abris, schermen, terrassen. Webshop. Fleurus/Wagnelée (Henegouwen).",
     "activiteiten": [
       "tuinhuis",
-      "online"
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1149,7 +1352,12 @@
     "lat": 50.4371,
     "lng": 4.6031,
     "webshop": "Nee",
-    "info": "Grossiste. Constructiehout, tuinhout, dakmateriaal, terrassen. Levert Hainaut + Namur. Sambreville/Charleroi."
+    "info": "Grossiste. Constructiehout, tuinhout, dakmateriaal, terrassen. Levert Hainaut + Namur. Sambreville/Charleroi.",
+    "activiteiten": [
+      "terrassen",
+      "import",
+      "houthandel"
+    ]
   },
   {
     "naam": "Scierie Vancopenolle",
@@ -1158,7 +1366,10 @@
     "lat": 50.3951,
     "lng": 4.4441,
     "webshop": "Nee",
-    "info": "70 jaar. Zagerij bouw- en chauffagehout. Chêne + hêtre. Levert heel Wallonië + Hainaut. Charleroi regio."
+    "info": "70 jaar. Zagerij bouw- en chauffagehout. Chêne + hêtre. Levert heel Wallonië + Hainaut. Charleroi regio.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Brico (Mons/Bergen)",
@@ -1169,7 +1380,10 @@
     "webshop": "Ja",
     "info": "DHZ-keten Brico. Breed tuinhout + constructiehout. Mons. Levert ook naar Henegouwen/Vl. grensregio.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1194,7 +1408,10 @@
     "webshop": "Ja",
     "info": "DHZ-keten Brico. Tuinhout + constructiehout. Tournai/Doornik. Grens met WVL.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1204,7 +1421,11 @@
     "lat": 50.7181,
     "lng": 4.3831,
     "webshop": "Nee",
-    "info": "70+ jaar. Négociant hout + dérivés. Renovatie, isolatie, afwerking. Prof + particulier. Waterloo (Waals-Brabant)."
+    "info": "70+ jaar. Négociant hout + dérivés. Renovatie, isolatie, afwerking. Prof + particulier. Waterloo (Waals-Brabant).",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Bourguignon Bois",
@@ -1215,7 +1436,8 @@
     "webshop": "Ja",
     "info": "Familiebedrijf. Hout onder alle vormen + dérivés. Webshop. Waals-Brabant.",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -1227,7 +1449,9 @@
     "webshop": "Ja",
     "info": "Groot online négoce de bois. Webshop. Brut hout tot maatwerk. Waals-Brabant/Brussel.",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "import"
     ]
   },
   {
@@ -1237,7 +1461,10 @@
     "lat": 50.4901,
     "lng": 4.8351,
     "webshop": "Nee",
-    "info": "Espace Pro (Suarlée) + winkel (Namur). Lid Lignac inkoopgroep. Constructiehout, tuin, interieur. Atelier menuiserie. Suarlée (nabij Namen)."
+    "info": "Espace Pro (Suarlée) + winkel (Namur). Lid Lignac inkoopgroep. Constructiehout, tuin, interieur. Atelier menuiserie. Suarlée (nabij Namen).",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Brico (Nivelles/Nijvel)",
@@ -1248,7 +1475,10 @@
     "webshop": "Ja",
     "info": "DHZ-keten Brico. Breed tuinhout + constructiehout. Nivelles. Grens met Vl.-Brabant.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1260,7 +1490,9 @@
     "webshop": "Ja",
     "info": "DHZ-keten Gamma. Bouwhout + tuinhout. Wavre. Waals-Brabant.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online",
+      "terrassen"
     ]
   },
   {
@@ -1270,7 +1502,10 @@
     "lat": 50.4671,
     "lng": 4.8671,
     "webshop": "Nee",
-    "info": "Espace Pro + Libre-Service Namur. Lid Lignac groep. Breed constructiehout + tuin + interieur. Atelier menuiserie. Namen/Suarlée."
+    "info": "Espace Pro + Libre-Service Namur. Lid Lignac groep. Breed constructiehout + tuin + interieur. Atelier menuiserie. Namen/Suarlée.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "GEDE-BOIS",
@@ -1279,7 +1514,11 @@
     "lat": 50.4571,
     "lng": 4.8501,
     "webshop": "Nee",
-    "info": "Négociant + specialist bois et dérivés. Constructiehout, panelen, afwerking. Namen regio."
+    "info": "Négociant + specialist bois et dérivés. Constructiehout, panelen, afwerking. Namen regio.",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Gamma (Namen)",
@@ -1291,7 +1530,8 @@
     "info": "DHZ-keten Gamma. Bouwhout + tuinhout. Namen/Namur. Webshop.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -1304,7 +1544,9 @@
     "info": "DHZ-keten Brico. Breed tuinhout + constructiehout. Namen. Webshop.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1316,7 +1558,9 @@
     "webshop": "Ja",
     "info": "Online houthandel (NL-gebaseerd). Douglas + eikenhout. Levert België. FSC. Zagerijservice.",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -1344,7 +1588,8 @@
     "activiteiten": [
       "tuinhuis",
       "dhz",
-      "online"
+      "online",
+      "terrassen"
     ]
   },
   {
@@ -1356,7 +1601,8 @@
     "webshop": "Ja",
     "info": "Online goedkoop hout. Agressieve prijscommunicatie. Levert heel België.",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -1368,7 +1614,8 @@
     "webshop": "Ja",
     "info": "Online houtspecialist België. Buitenhout: tuinhout, gevelbekleding, thermowood, eik. Levering heel België.",
     "activiteiten": [
-      "online"
+      "online",
+      "terrassen"
     ]
   },
   {
@@ -1381,7 +1628,9 @@
     "info": "Online + afhaallocaties. Tuinhout, constructiehout, gevelbekleding, tuinhuizen. Londerzeel.",
     "activiteiten": [
       "tuinhuis",
-      "online"
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1393,7 +1642,8 @@
     "webshop": "Ja",
     "info": "Webshop groothandel tropisch + eco hardhout. Tuinhout, terrasplanken, gevelbekleding. Lovenjoel.",
     "activiteiten": [
-      "online"
+      "online",
+      "terrassen"
     ]
   },
   {
@@ -1410,7 +1660,9 @@
     "medewerkers": 4.8,
     "oprichting": "1978",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -1423,7 +1675,9 @@
     "info": "DHZ-keten. Hout op maat, tuinhout, constructiehout. Gent. Webshop.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1436,7 +1690,9 @@
     "info": "⚠️ DHZ-keten. Breed tuinhout + constructiehout. 152 winkels België. Webshop.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1462,7 +1718,8 @@
     "info": "⚠️ DHZ-keten. Tuinhout, webshop, hout op maat. Heel Vlaanderen.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -1475,7 +1732,9 @@
     "info": "DHZ-keten Brico. Tuinhout + constructiehout. Antwerpen. Webshop.",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1500,7 +1759,10 @@
     "webshop": "Ja",
     "info": "DHZ-keten Brico. Tuinhout + constructiehout. Brugge.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1512,7 +1774,8 @@
     "webshop": "Ja",
     "info": "DHZ-keten Gamma. Bouwhout. Kortrijk.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online"
     ]
   },
   {
@@ -1524,7 +1787,10 @@
     "webshop": "Ja",
     "info": "DHZ-keten Brico. Tuinhout + constructiehout. Hasselt.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1536,7 +1802,8 @@
     "webshop": "Ja",
     "info": "DHZ-keten Gamma. Bouwhout. Leuven.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "online"
     ]
   },
   {
@@ -1549,7 +1816,8 @@
     "info": "Bouwmarkt + webshop. Uitgebreid tuinhout gamma (o.a. Cartri). Geel (Kempen).",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -1562,7 +1830,12 @@
     "info": "40 jaar. Constructie + buitenhout + vloeren + isolatie + deuren. Particulier + vakman. FSC. Tielt.",
     "btw": "BE 0421.695.127",
     "adres": "Deinsesteenweg 8, 8700 Tielt",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel",
+      "parket",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houthandel Decadt (Vlamertinge)",
@@ -1576,7 +1849,9 @@
     "adres": "Vlamertinge (Ieper)",
     "rechtsvorm": "NV",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1591,7 +1866,8 @@
     "adres": "Vlamertinge (Ieper)",
     "rechtsvorm": "NV",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -1603,7 +1879,8 @@
     "webshop": "Nee",
     "info": "3 generaties. Drenkstation + houtschaverij. Breed gamma tuin + constructie. Toonzaal Gistel. Diksmuide.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ],
     "btw": "BE 0405.494.642",
     "adres": "Cardijnlaan 4, 8600 Diksmuide",
@@ -1617,7 +1894,10 @@
     "lat": 51.3201,
     "lng": 4.4151,
     "webshop": "Nee",
-    "info": "80+ jaar. Houtzagerij Kapellen (Antwerpen-Noord). Duurzaam hout. Particulier + industrie + meubelmakers."
+    "info": "80+ jaar. Houtzagerij Kapellen (Antwerpen-Noord). Duurzaam hout. Particulier + industrie + meubelmakers.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houtland (Dendermonde)",
@@ -1634,7 +1914,8 @@
     "oprichting": "1979",
     "website": "www.houtland.be",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "terrassen"
     ]
   },
   {
@@ -1647,7 +1928,11 @@
     "info": "Multi-vestiging: Aalst, Oudenaarde, Hoogstraten, Turnhout. Hout, tuinhout, plaatmateriaal, interieur.",
     "groep": "Janssens & Janssens Group",
     "groep_btw": "BE 0821.735.597",
-    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Janssens & Janssens (Oudenaarde)",
@@ -1659,7 +1944,10 @@
     "info": "Vestiging Janssens & Janssens groep. Schapen grazen het terrein ecologisch af. Oudenaarde.",
     "groep": "Janssens & Janssens Group",
     "groep_btw": "BE 0821.735.597",
-    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "De Meyer Outdoor Living (Evergem)",
@@ -1676,7 +1964,8 @@
     "website": "www.demeyer-nv.shop",
     "activiteiten": [
       "online",
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -1686,7 +1975,11 @@
     "lat": 51.0181,
     "lng": 4.0501,
     "webshop": "Nee",
-    "info": "40+ jaar fabricage tuinhout. Klein familiebedrijf Oudegem (Dendermonde)."
+    "info": "40+ jaar fabricage tuinhout. Klein familiebedrijf Oudegem (Dendermonde).",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Hertecant Hout (Dendermonde)",
@@ -1700,7 +1993,8 @@
     "adres": "Dendermonde",
     "rechtsvorm": "NV",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ]
   },
   {
@@ -1712,7 +2006,8 @@
     "webshop": "Nee",
     "info": "Eigen productielijn geïmpregneerd tuinhout + speeltoestellen. Levert tuincentra, DHZ-ketens, tuinaanleggers, particulieren. Turnhout. Levert heel België + FR + ES.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "terrassen"
     ]
   },
   {
@@ -1725,7 +2020,11 @@
     "info": "HQ Janssens & Janssens groep. Hout, tuinhout, plaatmateriaal, interieur. Hoogstraten (Antwerpen-Noord).",
     "groep": "Janssens & Janssens Group",
     "groep_btw": "BE 0821.735.597",
-    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Janssens & Janssens (Turnhout)",
@@ -1737,7 +2036,11 @@
     "info": "Vestiging Janssens & Janssens groep. Hout, tuinhout, plaatmateriaal. Turnhout.",
     "groep": "Janssens & Janssens Group",
     "groep_btw": "BE 0821.735.597",
-    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Janssens-Govaerts (Turnhout)",
@@ -1746,7 +2049,10 @@
     "lat": 51.3181,
     "lng": 4.9461,
     "webshop": "Nee",
-    "info": "Houthandel Turnhout. Begijnendreef. Lokale houtspecialist."
+    "info": "Houthandel Turnhout. Begijnendreef. Lokale houtspecialist.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Hout Luyten (Herentals/Morkhoven)",
@@ -1758,7 +2064,9 @@
     "info": "4 generaties. Breed gamma: parket, laminaat, deuren, daktimmer, plaatmateriaal, zagerij, terrasplanken, tuinhout, gevelbekleding. Morkhoven (Herentals).",
     "activiteiten": [
       "parket",
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -1770,7 +2078,8 @@
     "webshop": "Nee",
     "info": "Breed gamma houtsoorten (tropisch, Scandinavisch, Europees, Canadees). Impregneerd dakhout. Turnhout.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -1780,7 +2089,10 @@
     "lat": 51.0741,
     "lng": 4.7331,
     "webshop": "Nee",
-    "info": "Houtzagerij + houthandel. Familiebedrijf 1988. Heist-op-den-Berg."
+    "info": "Houtzagerij + houthandel. Familiebedrijf 1988. Heist-op-den-Berg.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Byttebier Hout (Lier)",
@@ -1803,7 +2115,8 @@
     "webshop": "Nee",
     "info": "Importeur/exporteur exotisch hout. B2B industrie + schrijnwerkers. Olen (Antwerpen).",
     "activiteiten": [
-      "import"
+      "import",
+      "houthandel"
     ]
   },
   {
@@ -1815,7 +2128,8 @@
     "webshop": "Nee",
     "info": "Breed gamma hout + plaatmateriaal. Kennis en service. Bornem (Antwerpen).",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -1825,7 +2139,10 @@
     "lat": 51.0011,
     "lng": 4.8421,
     "webshop": "Nee",
-    "info": "Familiebedrijf 1934, 30 medewerkers. 20.000m³ stock. Toonzaal 500m². Eigen drenkstation + schaverij. Aarschot (grens Vl.-Brabant/Antwerpen)."
+    "info": "Familiebedrijf 1934, 30 medewerkers. 20.000m³ stock. Toonzaal 500m². Eigen drenkstation + schaverij. Aarschot (grens Vl.-Brabant/Antwerpen).",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Cras Woodshops Merelbeke",
@@ -1844,7 +2161,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -1858,7 +2177,10 @@
     "btw": "BE 0426.353.305",
     "adres": "Lange Munte 7, 9860 Oosterzele",
     "rechtsvorm": "BV",
-    "oprichting": "1984"
+    "oprichting": "1984",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "N.V. Houthandel De Sutter",
@@ -1870,7 +2192,9 @@
     "info": "Hout, parket, plafonds, platen, deuren, isolatie, PVC, gevelbekleding, terrasplanken. DHZ + vakman. Oosterzele.",
     "activiteiten": [
       "parket",
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ],
     "btw": "BE 0425.103.686",
     "adres": "Issegem 5, 9860 Oosterzele",
@@ -1885,7 +2209,8 @@
     "webshop": "Nee",
     "info": "Houthandel + parket + laminaat. Dorpvaart 74, Moerbeke-Waas.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ],
     "btw": "BE 0405.597.580",
     "adres": "Dorpvaart 74, 9180 Lokeren",
@@ -1901,7 +2226,10 @@
     "info": "Verkoop, bewerken en plaatsen van hout. Particulier + industrie + schrijnwerkers. Meulebeke (WVL).",
     "btw": "BE 0418.979.523",
     "adres": "Kasteeldreef 10, 8760 Tielt",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houtvercruysse",
@@ -1913,7 +2241,11 @@
     "info": "Alleenverdeler populier blokplaten. Houthandel regio Tielt-Oost-Vlaanderen grens.",
     "btw": "BE 0421.483.212",
     "adres": "Bissegemstraat 165, 8560 Gullegem",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Eurowood Wielsbeke",
@@ -1928,7 +2260,11 @@
     "rechtsvorm": "NV",
     "medewerkers": 3.4,
     "oprichting": "1867",
-    "website": "www.eurowood.be"
+    "website": "www.eurowood.be",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Houthandel Van Tornhout (Vosselare)",
@@ -1940,7 +2276,10 @@
     "info": "Houthandel voor de vakman. Constructiehout, plaatmateriaal, isolatie, Gyproc. Vosselare (Nevele/Deinze).",
     "btw": "BE 0436.895.918",
     "adres": "Landegemstraat 39, 9850 Deinze",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel De Regge (Baaigem)",
@@ -1951,7 +2290,8 @@
     "webshop": "Nee",
     "info": "Parketvloeren, plafondhout, dakhout, timmerhout, plaatwerk, isolatie. Baaigem (Gavere).",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ],
     "btw": "BE 0476.593.464",
     "adres": "Baaigemstraat 403, 9890 Gavere",
@@ -1967,7 +2307,11 @@
     "info": "Houthandel Brusselsesteenweg, Melle (Merelbeke-Melle). Tuinhout + constructie.",
     "btw": "BE 0406.347.549",
     "adres": "Brusselsesteenweg 120, 9090 Melle",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Hout De Groote (Lokeren)",
@@ -1980,7 +2324,11 @@
     "btw": "BE 0424.810.312",
     "adres": "Eekstraat 26, 9160 Lokeren",
     "rechtsvorm": "NV",
-    "medewerkers": 11
+    "medewerkers": 11,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houthandel Tavernier (Jabbeke)",
@@ -1997,7 +2345,9 @@
     "oprichting": "1965",
     "website": "houthandeltavernier.be",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -2017,7 +2367,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -2035,7 +2387,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
+    "groep_adres": "Industrielaan 5, 8790 Waregem",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Groep Debeuckelaere (Roeselare)",
@@ -2052,7 +2408,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Groep Debeuckelaere (Tielt)",
@@ -2069,7 +2429,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Groep Debeuckelaere (Gits/Hooglede)",
@@ -2086,7 +2450,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Groep Debeuckelaere (Oostende)",
@@ -2103,7 +2471,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Botanica Wood (Roeselare)",
@@ -2118,7 +2490,8 @@
     "rechtsvorm": "NV",
     "website": "www.botanica-wood.be",
     "activiteiten": [
-      "agro"
+      "agro",
+      "terrassen"
     ]
   },
   {
@@ -2130,7 +2503,9 @@
     "webshop": "Nee",
     "info": "Terrasplanken, thermohout, tuinhout, parket. Moorslede (WVL).",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ],
     "btw": "BE 0873.692.856",
     "adres": "Heule/Kortrijk",
@@ -2147,7 +2522,11 @@
     "btw": "BE 0405.565.710",
     "adres": "Iepersestraat 22, 8890 Moorslede",
     "rechtsvorm": "NV",
-    "medewerkers": 4.8
+    "medewerkers": 4.8,
+    "activiteiten": [
+      "terrassen",
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Beheyt (Poperinge)",
@@ -2158,7 +2537,8 @@
     "webshop": "Nee",
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge (WVL).",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ],
     "btw": "BE 0450.980.714",
     "adres": "Ieperseweg 26, 8970 Poperinge",
@@ -2178,7 +2558,8 @@
     "adres": "Zuidmoerstraat 102, 9900 Eeklo",
     "rechtsvorm": "BV",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -2188,7 +2569,11 @@
     "lat": 50.8381,
     "lng": 4.1521,
     "webshop": "Nee",
-    "info": "4 generaties houtzagerij. FSC. Tuinhout, terrasplanken, houten gebouwen op maat. Zonnepanelen op machines. Lennik (Vl.-Brabant)."
+    "info": "4 generaties houtzagerij. FSC. Tuinhout, terrasplanken, houten gebouwen op maat. Zonnepanelen op machines. Lennik (Vl.-Brabant).",
+    "activiteiten": [
+      "terrassen",
+      "houthandel"
+    ]
   },
   {
     "naam": "Cras Woodshops (HQ Waregem)",
@@ -2207,7 +2592,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "agro"
+      "agro",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -2227,7 +2614,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -2247,7 +2636,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -2265,7 +2656,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
+    "groep_adres": "Industrielaan 5, 8790 Waregem",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Cras Woodshops Gits (Hooglede)",
@@ -2282,7 +2677,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
+    "groep_adres": "Industrielaan 5, 8790 Waregem",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Cras Woodshops Meulebeke",
@@ -2299,7 +2698,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
+    "groep_adres": "Industrielaan 5, 8790 Waregem",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Debeuckelaere HQ (Kortemark)",
@@ -2316,7 +2719,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Debeuckelaere Roeselare",
@@ -2333,7 +2740,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Debeuckelaere Tielt",
@@ -2350,7 +2761,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Debeuckelaere Gits (Hooglede)",
@@ -2367,7 +2782,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Debeuckelaere Oostende",
@@ -2384,7 +2803,11 @@
     "groep_rechtsvorm": "NV",
     "groep_oprichting": null,
     "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houtmagazijn Verdonckt (Avelgem)",
@@ -2397,7 +2820,11 @@
     "btw": null,
     "adres": "Doorniksesteenweg 202, 8580 Avelgem",
     "oprichting": "1920",
-    "website": "houtmagazijnverdonckt.be"
+    "website": "houtmagazijnverdonckt.be",
+    "activiteiten": [
+      "terrassen",
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Verwée (Kuurne)",
@@ -2409,7 +2836,10 @@
     "info": "Familiebedrijf 1895. 4e generatie. Hout + plaatmateriaal. Heirweg 115, Kuurne.",
     "btw": "BE 0405.379.331",
     "adres": "Heirweg 115, 8520 Kuurne",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "DB Hardwoods (Ledegem)",
@@ -2421,7 +2851,11 @@
     "info": "Fabrikant verlijmde panelen. Europees hardhout. B2B industrie + schrijnwerkers. Rollegem-Kapelle (Ledegem).",
     "btw": "BE 0425.328.370",
     "adres": "Roeselarestraat 154, 8880 Ledegem",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Houthandel Loose (Kortrijk)",
@@ -2433,7 +2867,10 @@
     "info": "Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. Kortrijk.",
     "btw": "BE 0414.807.335",
     "adres": "Zandstraat 210, 8200 Brugge",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Vanhaverbeke (Izegem)",
@@ -2446,7 +2883,11 @@
     "btw": "BE 0424.854.258",
     "adres": "Ambachtenstraat 22, 8870 Izegem",
     "rechtsvorm": "NV",
-    "medewerkers": 8.3
+    "medewerkers": 8.3,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Belgian Timber (Waregem)",
@@ -2457,7 +2898,8 @@
     "webshop": "Nee",
     "info": "Import + verdeling tropisch hardhout. B2B groothandel schrijnwerkers + aannemers. Waregem.",
     "activiteiten": [
-      "import"
+      "import",
+      "houthandel"
     ]
   },
   {
@@ -2469,7 +2911,9 @@
     "webshop": "Nee",
     "info": "Terrasplanken, thermohout, tuinhout, parket, platen. Moorslede.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ],
     "btw": "BE 0873.692.856",
     "adres": "Heule/Kortrijk",
@@ -2486,7 +2930,11 @@
     "btw": "BE 0405.565.710",
     "adres": "Iepersestraat 22, 8890 Moorslede",
     "rechtsvorm": "NV",
-    "medewerkers": 4.8
+    "medewerkers": 4.8,
+    "activiteiten": [
+      "terrassen",
+      "houthandel"
+    ]
   },
   {
     "naam": "Tieltse Houthandel (Tielt)",
@@ -2497,7 +2945,9 @@
     "webshop": "Nee",
     "info": "40 jaar. Constructie+buitenhout+parket+deuren+isolatie. FSC. B2B + particulier. Tielt.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ],
     "btw": "BE 0421.695.127",
     "adres": "Deinsesteenweg 8, 8700 Tielt",
@@ -2512,7 +2962,9 @@
     "webshop": "Ja",
     "info": "FSC, tropisch hardhout, terras, tuinhout, isolatie. Webshop + fysiek. Brugge.",
     "activiteiten": [
-      "online"
+      "online",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -2522,7 +2974,10 @@
     "lat": 51.2061,
     "lng": 3.2161,
     "webshop": "Nee",
-    "info": "Toonzaal, eiken tafels, FSC hout. Brugge."
+    "info": "Toonzaal, eiken tafels, FSC hout. Brugge.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Stock Super Shop (Gistel)",
@@ -2534,7 +2989,11 @@
     "info": "Tuinhout + bouwmaterialen. Rochesterlaan 3, Gistel.",
     "btw": "BE 0458.797.132",
     "adres": "Rochesterlaan 3, 8470 Gistel",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ]
   },
   {
     "naam": "Houthandel Dequidt (Veurne)",
@@ -2547,7 +3006,10 @@
     "btw": "BE 0405.252.340",
     "adres": "Albert I Laan 27a, 8630 Veurne",
     "rechtsvorm": "NV",
-    "medewerkers": 7.1
+    "medewerkers": 7.1,
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Decadt (Vlamertinge/Ieper)",
@@ -2561,7 +3023,9 @@
     "adres": "Vlamertinge (Ieper)",
     "rechtsvorm": "NV",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -2576,7 +3040,8 @@
     "adres": "Vlamertinge (Ieper)",
     "rechtsvorm": "NV",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -2588,7 +3053,8 @@
     "webshop": "Nee",
     "info": "3 generaties. Drenkstation + houtschaverij. Breed gamma tuin + constructie. Cardijnlaan 4, Diksmuide.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ],
     "btw": "BE 0405.494.642",
     "adres": "Cardijnlaan 4, 8600 Diksmuide",
@@ -2604,7 +3070,8 @@
     "webshop": "Nee",
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ],
     "btw": "BE 0450.980.714",
     "adres": "Ieperseweg 26, 8970 Poperinge",
@@ -2627,7 +3094,8 @@
     "website": "www.woodcenter.be",
     "activiteiten": [
       "tuinhuis",
-      "online"
+      "online",
+      "terrassen"
     ]
   },
   {
@@ -2639,7 +3107,8 @@
     "webshop": "Nee",
     "info": "Zaag/schaaf op maat, breed gamma hout + platen. Wevelgem regio.",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ],
     "btw": "BE 0414.807.335",
     "adres": "Zandstraat 210, 8200 Brugge",
@@ -2658,7 +3127,11 @@
     "rechtsvorm": "NV",
     "medewerkers": 3.4,
     "oprichting": "1867",
-    "website": "www.eurowood.be"
+    "website": "www.eurowood.be",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ]
   },
   {
     "naam": "Houthandel Beheyt (Poperinge)",
@@ -2669,7 +3142,8 @@
     "webshop": "Nee",
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ],
     "btw": "BE 0450.980.714",
     "adres": "Ieperseweg 26, 8970 Poperinge",
@@ -2686,7 +3160,8 @@
     "webshop": "Nee",
     "info": "Importeur hard- en zachthout. Exclusief importeur Benelux. Levert houthandels + industrie. West-Vlaanderen.",
     "activiteiten": [
-      "import"
+      "import",
+      "houthandel"
     ]
   },
   {
@@ -2702,7 +3177,8 @@
     "rechtsvorm": "BV",
     "website": "vandenbrouckehout.be",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "houthandel"
     ]
   },
   {
@@ -2718,7 +3194,8 @@
     "rechtsvorm": "NV",
     "website": "www.botanica-wood.be",
     "activiteiten": [
-      "agro"
+      "agro",
+      "terrassen"
     ]
   },
   {
@@ -2747,7 +3224,8 @@
     "adres": "Sint-Elooisstraat 90, 8020 Ruddervoorde",
     "website": "www.houtvanmaele.be",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ]
   },
   {
@@ -2847,7 +3325,9 @@
     "oprichting": "1920",
     "website": "houtmagazijnverdonckt.be",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -2912,7 +3392,8 @@
     "website": "goeminnetuinhout.be",
     "activiteiten": [
       "tuinhuis",
-      "paarden"
+      "paarden",
+      "terrassen"
     ],
     "rechtsvorm": "BV"
   },
@@ -2925,7 +3406,8 @@
     "webshop": "Nee",
     "info": "Fabrikant tuinhuizen, poolhouses, carports, bijgebouwen. Modern/landelijk/rustiek maatwerk. Eigen schrijnwerkers. Dealer netwerk gans BE. 📍 Avelgem (WVL) 🌐 www.woodstar.be",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "houthandel"
     ]
   },
   {
@@ -2938,7 +3420,8 @@
     "info": "Sedert 1989. Maatwerk tuinhuizen, carports, paardenstallen, windschermen, afsluitingen + poorten. Eigen atelier. WVL + OVL. 📍 Provinciebaan 6, 8680 Koekelare 🌐 www.houthoek.be",
     "activiteiten": [
       "tuinhuis",
-      "paarden"
+      "paarden",
+      "houthandel"
     ]
   },
   {
@@ -2974,7 +3457,8 @@
     "webshop": "Nee",
     "info": "Maatwerk tuinhuizen, poolhouses, carports. Thermo Ayous. WVL + OVL. 📍 Deerlijk 🌐 tuinconstructiesolieux.be",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "houthandel"
     ]
   },
   {
@@ -2992,7 +3476,8 @@
     "oprichting": "1979",
     "website": "www.houtland.be",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "terrassen"
     ]
   },
   {
@@ -3042,7 +3527,8 @@
     "webshop": "Ja",
     "info": "Eerste en enige fabrikant kastanje/robinia/eiken hekwerk in België. Kant-en-klare bouwpakketten. B2B + particulier + openbare besturen. Eigen productie BE. Grote stock. 🌐 www.naturae.be",
     "activiteiten": [
-      "paarden"
+      "paarden",
+      "online"
     ]
   },
   {
@@ -3056,7 +3542,8 @@
     "activiteiten": [
       "paarden",
       "agro",
-      "dhz"
+      "dhz",
+      "online"
     ]
   },
   {
@@ -3069,7 +3556,8 @@
     "info": "Directe import grote hoeveelheden: kastanje/robinia/azobe/grenen palen, schapen/paardenomheiningen, weidepoorten, prikkeldraad. Laagste prijs via directe inkoop. Levert groothandels, landbouwers, particulieren. 🌐 www.palenperpak.be",
     "activiteiten": [
       "paarden",
-      "agro"
+      "agro",
+      "online"
     ]
   },
   {
@@ -3123,7 +3611,8 @@
     "webshop": "Nee",
     "info": "B2B fabrikant + groothandel parketvloeren sedert 1988. Specialist Oude Vlaamse Stijl, visgraat, stijlpanelen, kopsparket. Eigen droogovens. Exclusief invoerder Solidfloor (België). Onderdeel Bremhove NV. 📍 Industriestraat 44, 9240 Zele 📞 052 44 45 57 📧 info@bjparket.be 🌐 www.bjparket.be | Omzet: brutomarge ~€589K",
     "activiteiten": [
-      "parket"
+      "parket",
+      "houthandel"
     ]
   },
   {
@@ -3147,7 +3636,8 @@
     "webshop": "Nee",
     "info": "Tuinhuizen, garages, carports, schermen, terrassen. Hout geïmpregneerd onder hoge druk. Diverse afmetingen en stijlen. 🌐 tuinweelde.be",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "terrassen"
     ]
   },
   {
@@ -3181,7 +3671,9 @@
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem",
     "activiteiten": [
-      "agro"
+      "agro",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -3199,7 +3691,9 @@
     "oprichting": "1965",
     "website": "houthandeltavernier.be",
     "activiteiten": [
-      "dhz"
+      "dhz",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -3215,7 +3709,9 @@
     "oprichting": "1920",
     "website": "houtmagazijnverdonckt.be",
     "activiteiten": [
-      "parket"
+      "parket",
+      "terrassen",
+      "houthandel"
     ]
   },
   {
@@ -3230,7 +3726,8 @@
     "adres": "Kerkstraat 88, 9890 Gavere",
     "website": "goeminnetuinhout.be",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "terrassen"
     ],
     "rechtsvorm": "BV"
   },
@@ -3245,7 +3742,10 @@
     "btw": "BE 0405.189.586",
     "rechtsvorm": "NV",
     "medewerkers": 9.9,
-    "adres": "Bruggestraat 130, 8730 Beernem"
+    "adres": "Bruggestraat 130, 8730 Beernem",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Himpe (Brugge)",
@@ -3257,7 +3757,10 @@
     "info": "Houthandel Torhoutse Steenweg 392, 8200 Brugge (Sint-Andries).",
     "btw": "BE 0421.693.147",
     "rechtsvorm": "NV",
-    "adres": "Torhoutse Steenweg 392, 8200 Brugge"
+    "adres": "Torhoutse Steenweg 392, 8200 Brugge",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Verbrugghe (Ieper)",
@@ -3270,7 +3773,10 @@
     "btw": "BE 0448.766.243",
     "rechtsvorm": "BV",
     "oprichting": "1992",
-    "adres": "Dehemlaan 4, 8900 Ieper"
+    "adres": "Dehemlaan 4, 8900 Ieper",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel N. De Vreese (Hooglede)",
@@ -3282,7 +3788,10 @@
     "info": "Houthandel. Kortemarktstraat 17B, 8830 Hooglede.",
     "btw": "BE 0444.570.301",
     "rechtsvorm": "NV",
-    "adres": "Kortemarktstraat 17B, 8830 Hooglede"
+    "adres": "Kortemarktstraat 17B, 8830 Hooglede",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Raes Marcel Houthandel (Hooglede)",
@@ -3294,7 +3803,10 @@
     "info": "Houthandel en zagerij. 8830 Hooglede.",
     "btw": "BE 0422.276.038",
     "rechtsvorm": "NV",
-    "adres": "8830 Hooglede"
+    "adres": "8830 Hooglede",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Horatec (Kuurne)",
@@ -3306,7 +3818,10 @@
     "info": "Houthandel/houtbewerking. 8520 Kuurne.",
     "btw": "BE 0867.686.675",
     "rechtsvorm": "NV",
-    "adres": "8520 Kuurne"
+    "adres": "8520 Kuurne",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Carpentier Hout (Kortemark)",
@@ -3318,7 +3833,10 @@
     "info": "Houthandel. 8610 Kortemark.",
     "btw": "BE 0443.598.618",
     "rechtsvorm": "BV",
-    "adres": "8610 Kortemark"
+    "adres": "8610 Kortemark",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Anseeuw (Jabbeke)",
@@ -3327,7 +3845,10 @@
     "lat": 51.18,
     "lng": 3.087,
     "webshop": "Nee",
-    "info": "Houthandel regio Jabbeke."
+    "info": "Houthandel regio Jabbeke.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Van Den Hende (Kuurne)",
@@ -3336,7 +3857,10 @@
     "lat": 50.853,
     "lng": 3.283,
     "webshop": "Nee",
-    "info": "Houthandel. Vlamingstraat 4, 8520 Kuurne."
+    "info": "Houthandel. Vlamingstraat 4, 8520 Kuurne.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Cube (Oostkamp)",
@@ -3345,7 +3869,10 @@
     "lat": 51.156,
     "lng": 3.239,
     "webshop": "Nee",
-    "info": "Houthandel regio Oostkamp."
+    "info": "Houthandel regio Oostkamp.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Huys Concept (Brugge)",
@@ -3357,7 +3884,10 @@
     "info": "Houthandel. Kleine Pathoekeweg 40, 8000 Brugge.",
     "btw": "BE 0405.118.124",
     "rechtsvorm": "NV",
-    "adres": "Kleine Pathoekeweg 40, 8000 Brugge"
+    "adres": "Kleine Pathoekeweg 40, 8000 Brugge",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Leirman en Zonen (Gistel)",
@@ -3369,7 +3899,10 @@
     "info": "Houthandel. 8470 Gistel. Vestiging van Leirman-groep.",
     "btw": "BE 0405.268.869",
     "rechtsvorm": "BV",
-    "adres": "8470 Gistel"
+    "adres": "8470 Gistel",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Deville-Claeys (Gent)",
@@ -3378,7 +3911,10 @@
     "lat": 51.054,
     "lng": 3.727,
     "webshop": "Nee",
-    "info": "Houthandel regio Gent."
+    "info": "Houthandel regio Gent.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "VC Wood Zottegem",
@@ -3387,7 +3923,10 @@
     "lat": 50.872,
     "lng": 3.811,
     "webshop": "Nee",
-    "info": "Houthandel. Zottegem."
+    "info": "Houthandel. Zottegem.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Van De Velde Hout (Wetteren)",
@@ -3396,7 +3935,10 @@
     "lat": 51.005,
     "lng": 3.881,
     "webshop": "Nee",
-    "info": "Houthandel. Wetteren."
+    "info": "Houthandel. Wetteren.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Mollaert (Aalst)",
@@ -3405,7 +3947,10 @@
     "lat": 50.937,
     "lng": 4.038,
     "webshop": "Nee",
-    "info": "Houthandel. Aalst."
+    "info": "Houthandel. Aalst.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Mannaert (Lebbeke)",
@@ -3414,7 +3959,10 @@
     "lat": 51.001,
     "lng": 4.136,
     "webshop": "Nee",
-    "info": "Houthandel. Lebbeke."
+    "info": "Houthandel. Lebbeke.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Van Peteghem Hout en Interieur (Lochristi)",
@@ -3423,7 +3971,10 @@
     "lat": 51.099,
     "lng": 3.831,
     "webshop": "Nee",
-    "info": "Houthandel en interieur. Lochristi."
+    "info": "Houthandel en interieur. Lochristi.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houtwereld (Maldegem)",
@@ -3432,7 +3983,10 @@
     "lat": 51.205,
     "lng": 3.437,
     "webshop": "Nee",
-    "info": "Houthandel. Maldegem."
+    "info": "Houthandel. Maldegem.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Van Impe-Moulart (Horebeke)",
@@ -3441,7 +3995,10 @@
     "lat": 50.836,
     "lng": 3.689,
     "webshop": "Nee",
-    "info": "Houthandel. Horebeke."
+    "info": "Houthandel. Horebeke.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel De Roose (Ninove)",
@@ -3450,7 +4007,10 @@
     "lat": 50.837,
     "lng": 4.024,
     "webshop": "Nee",
-    "info": "Houthandel. Ninove."
+    "info": "Houthandel. Ninove.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Dewahout (Deinze)",
@@ -3460,7 +4020,11 @@
     "lng": 3.525,
     "webshop": "Ja",
     "info": "Houthandel Deinze & Ronse. Ruim assortiment voor aannemer en particulier. 🌐 dewahout.be",
-    "website": "dewahout.be"
+    "website": "dewahout.be",
+    "activiteiten": [
+      "online",
+      "houthandel"
+    ]
   },
   {
     "naam": "Grimwood (Zulte)",
@@ -3469,7 +4033,10 @@
     "lat": 50.92,
     "lng": 3.45,
     "webshop": "Nee",
-    "info": "Houthandel. Zulte."
+    "info": "Houthandel. Zulte.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Hout-Bois Van Steenberge (Zottegem)",
@@ -3478,7 +4045,10 @@
     "lat": 50.868,
     "lng": 3.815,
     "webshop": "Nee",
-    "info": "Houthandel. Zottegem."
+    "info": "Houthandel. Zottegem.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Lemahieu Group (Gent)",
@@ -3487,7 +4057,10 @@
     "lat": 51.054,
     "lng": 3.721,
     "webshop": "Nee",
-    "info": "Houthandel. Gent."
+    "info": "Houthandel. Gent.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Nieuwparket (Knesselare)",
@@ -3508,7 +4081,10 @@
     "lat": 51.028,
     "lng": 4.1,
     "webshop": "Nee",
-    "info": "Houthandel. Dendermonde."
+    "info": "Houthandel. Dendermonde.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Hout Van Acker (Melsele)",
@@ -3517,7 +4093,10 @@
     "lat": 51.211,
     "lng": 4.288,
     "webshop": "Nee",
-    "info": "Houthandel deuren. Melsele (Beveren)."
+    "info": "Houthandel deuren. Melsele (Beveren).",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Van Bruyssel (Lokeren)",
@@ -3528,7 +4107,10 @@
     "webshop": "Nee",
     "info": "Houthandel. Lokeren.",
     "btw": "BE 0425.558.992",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Roger Van Acker (Beveren)",
@@ -3537,7 +4119,10 @@
     "lat": 51.212,
     "lng": 4.253,
     "webshop": "Nee",
-    "info": "Houthandel. Beveren-Waas."
+    "info": "Houthandel. Beveren-Waas.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Piet Louwette (Sint-Niklaas)",
@@ -3546,7 +4131,10 @@
     "lat": 51.156,
     "lng": 4.138,
     "webshop": "Nee",
-    "info": "Houthandel. Sint-Niklaas."
+    "info": "Houthandel. Sint-Niklaas.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Vandewalle Houthandel (Sint-Niklaas)",
@@ -3555,7 +4143,10 @@
     "lat": 51.157,
     "lng": 4.131,
     "webshop": "Nee",
-    "info": "Houthandel. Europark-Zuid, Sint-Niklaas."
+    "info": "Houthandel. Europark-Zuid, Sint-Niklaas.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel-Zagerij De Geyter (Lede)",
@@ -3565,7 +4156,10 @@
     "lng": 3.983,
     "webshop": "Nee",
     "info": "Houthandel en zagerij. Wichelsesteenweg 196, 9340 Lede.",
-    "adres": "Wichelsesteenweg 196, 9340 Lede"
+    "adres": "Wichelsesteenweg 196, 9340 Lede",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Van Herzeele (Nazareth)",
@@ -3575,7 +4169,10 @@
     "lng": 3.596,
     "webshop": "Nee",
     "info": "Houthandel. Boeregemstraat 22, 9810 Nazareth.",
-    "adres": "Boeregemstraat 22, 9810 Nazareth"
+    "adres": "Boeregemstraat 22, 9810 Nazareth",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Tilborghs Hout en Interieur (Kalmthout)",
@@ -3584,7 +4181,10 @@
     "lat": 51.384,
     "lng": 4.469,
     "webshop": "Nee",
-    "info": "Houthandel en interieur. Kalmthout."
+    "info": "Houthandel en interieur. Kalmthout.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Thiels (Herselt)",
@@ -3593,7 +4193,10 @@
     "lat": 51.052,
     "lng": 4.887,
     "webshop": "Nee",
-    "info": "Houthandel. Herselt."
+    "info": "Houthandel. Herselt.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel De Roover (Willebroek)",
@@ -3602,7 +4205,10 @@
     "lat": 51.064,
     "lng": 4.368,
     "webshop": "Nee",
-    "info": "Houthandel. Willebroek."
+    "info": "Houthandel. Willebroek.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Gijsbrechts (Hallaar)",
@@ -3611,7 +4217,10 @@
     "lat": 51.055,
     "lng": 4.596,
     "webshop": "Nee",
-    "info": "Houthandel. Hallaar (Heist-op-den-Berg)."
+    "info": "Houthandel. Hallaar (Heist-op-den-Berg).",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Segers (Schoten)",
@@ -3622,7 +4231,10 @@
     "webshop": "Nee",
     "info": "Houthandel. Schoten.",
     "btw": "BE 0474.349.103",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Marijnissen (Rijkevorsel)",
@@ -3633,7 +4245,10 @@
     "webshop": "Nee",
     "info": "Houthandel. Rijkevorsel.",
     "btw": "BE 0465.993.740",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houtzagerij Van Mechgelen (Arendonk)",
@@ -3644,7 +4259,10 @@
     "webshop": "Nee",
     "info": "Houtzagerij en houthandel. Arendonk.",
     "btw": "BE 0423.468.643",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Reynders (Meerhout)",
@@ -3653,7 +4271,10 @@
     "lat": 51.131,
     "lng": 5.075,
     "webshop": "Nee",
-    "info": "Houthandel. Meerhout."
+    "info": "Houthandel. Meerhout.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Hendricks (Mechelen)",
@@ -3662,7 +4283,10 @@
     "lat": 51.028,
     "lng": 4.481,
     "webshop": "Nee",
-    "info": "Houthandel. Mechelen."
+    "info": "Houthandel. Mechelen.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Helsen (Kasterlee)",
@@ -3671,7 +4295,10 @@
     "lat": 51.241,
     "lng": 4.969,
     "webshop": "Nee",
-    "info": "Houthandel. Kasterlee."
+    "info": "Houthandel. Kasterlee.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Vervecken (Arendonk)",
@@ -3680,7 +4307,10 @@
     "lat": 51.318,
     "lng": 5.088,
     "webshop": "Nee",
-    "info": "Houthandel. Arendonk."
+    "info": "Houthandel. Arendonk.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houthandel Coomans (Laakdal)",
@@ -3689,7 +4319,10 @@
     "lat": 51.087,
     "lng": 4.964,
     "webshop": "Nee",
-    "info": "Houthandel. Laakdal."
+    "info": "Houthandel. Laakdal.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Paulussen Houthandel (Retie)",
@@ -3700,7 +4333,10 @@
     "webshop": "Nee",
     "info": "Houthandel. Retie.",
     "btw": "BE 0471.393.175",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Houtbedrijf Van Den Broeck (Retie)",
@@ -3709,7 +4345,10 @@
     "lat": 51.27,
     "lng": 5.081,
     "webshop": "Nee",
-    "info": "Houtbedrijf. Retie."
+    "info": "Houtbedrijf. Retie.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Hout Feyen (Dessel)",
@@ -3718,7 +4357,10 @@
     "lat": 51.237,
     "lng": 5.115,
     "webshop": "Nee",
-    "info": "Houthandel. Dessel."
+    "info": "Houthandel. Dessel.",
+    "activiteiten": [
+      "houthandel"
+    ]
   },
   {
     "naam": "Hout- & Bouwmarkt Kasterlee",
@@ -3727,7 +4369,11 @@
     "lat": 51.243,
     "lng": 4.965,
     "webshop": "Nee",
-    "info": "Hout- en bouwmarkt. Kasterlee."
+    "info": "Hout- en bouwmarkt. Kasterlee.",
+    "activiteiten": [
+      "houthandel",
+      "dhz"
+    ]
   },
   {
     "naam": "DG Wood Construct (Izegem)",
@@ -3774,7 +4420,8 @@
     "webshop": "Nee",
     "info": "Terrasoverkapping, pergola, carport. Ninove.",
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "terrassen"
     ]
   },
   {
@@ -3858,7 +4505,8 @@
     "webshop": "Ja",
     "info": "Online hout op maat bestellen. 🌐 houtopmaatgezaagd.be",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -3870,7 +4518,9 @@
     "webshop": "Ja",
     "info": "Online hout webshop. Balken, hardhout, platen, tuinhout. 🌐 limtrade.be",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel",
+      "terrassen"
     ]
   },
   {
@@ -3882,7 +4532,8 @@
     "webshop": "Ja",
     "info": "Hout outlet / online houtverkoop. 🌐 woodlet.be",
     "activiteiten": [
-      "online"
+      "online",
+      "houthandel"
     ]
   },
   {
@@ -3894,7 +4545,8 @@
     "webshop": "Ja",
     "info": "Online hout webshop B2B en B2C. 🌐 dehoutboer.com",
     "activiteiten": [
-      "online"
+      "online",
+      "import"
     ]
   }
 ]
