@@ -3233,5 +3233,668 @@
       "tuinhuis"
     ],
     "rechtsvorm": "BV"
+  },
+  {
+    "naam": "Houthandel Driekoningen (Beernem)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 51.1339,
+    "lng": 3.3386,
+    "webshop": "Nee",
+    "info": "Houtzagerij en houthandel. Bruggestraat 130, 8730 Beernem. ~9.9 FTE.",
+    "btw": "BE 0405.189.586",
+    "rechtsvorm": "NV",
+    "medewerkers": 9.9,
+    "adres": "Bruggestraat 130, 8730 Beernem"
+  },
+  {
+    "naam": "Houthandel Himpe (Brugge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.1936,
+    "lng": 3.1866,
+    "webshop": "Nee",
+    "info": "Houthandel Torhoutse Steenweg 392, 8200 Brugge (Sint-Andries).",
+    "btw": "BE 0421.693.147",
+    "rechtsvorm": "NV",
+    "adres": "Torhoutse Steenweg 392, 8200 Brugge"
+  },
+  {
+    "naam": "Houthandel Verbrugghe (Ieper)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8503,
+    "lng": 2.885,
+    "webshop": "Nee",
+    "info": "Houthandel / VC Wood Ieper. Dehemlaan 4, 8900 Ieper. Opgericht 1992.",
+    "btw": "BE 0448.766.243",
+    "rechtsvorm": "BV",
+    "oprichting": "1992",
+    "adres": "Dehemlaan 4, 8900 Ieper"
+  },
+  {
+    "naam": "Houthandel N. De Vreese (Hooglede)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 50.985,
+    "lng": 3.074,
+    "webshop": "Nee",
+    "info": "Houthandel. Kortemarktstraat 17B, 8830 Hooglede.",
+    "btw": "BE 0444.570.301",
+    "rechtsvorm": "NV",
+    "adres": "Kortemarktstraat 17B, 8830 Hooglede"
+  },
+  {
+    "naam": "Raes Marcel Houthandel (Hooglede)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.987,
+    "lng": 3.071,
+    "webshop": "Nee",
+    "info": "Houthandel en zagerij. 8830 Hooglede.",
+    "btw": "BE 0422.276.038",
+    "rechtsvorm": "NV",
+    "adres": "8830 Hooglede"
+  },
+  {
+    "naam": "Horatec (Kuurne)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.852,
+    "lng": 3.281,
+    "webshop": "Nee",
+    "info": "Houthandel/houtbewerking. 8520 Kuurne.",
+    "btw": "BE 0867.686.675",
+    "rechtsvorm": "NV",
+    "adres": "8520 Kuurne"
+  },
+  {
+    "naam": "Carpentier Hout (Kortemark)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.024,
+    "lng": 3.044,
+    "webshop": "Nee",
+    "info": "Houthandel. 8610 Kortemark.",
+    "btw": "BE 0443.598.618",
+    "rechtsvorm": "BV",
+    "adres": "8610 Kortemark"
+  },
+  {
+    "naam": "Houthandel Anseeuw (Jabbeke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.18,
+    "lng": 3.087,
+    "webshop": "Nee",
+    "info": "Houthandel regio Jabbeke."
+  },
+  {
+    "naam": "Van Den Hende (Kuurne)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.853,
+    "lng": 3.283,
+    "webshop": "Nee",
+    "info": "Houthandel. Vlamingstraat 4, 8520 Kuurne."
+  },
+  {
+    "naam": "Cube (Oostkamp)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.156,
+    "lng": 3.239,
+    "webshop": "Nee",
+    "info": "Houthandel regio Oostkamp."
+  },
+  {
+    "naam": "Huys Concept (Brugge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.208,
+    "lng": 3.225,
+    "webshop": "Nee",
+    "info": "Houthandel. Kleine Pathoekeweg 40, 8000 Brugge.",
+    "btw": "BE 0405.118.124",
+    "rechtsvorm": "NV",
+    "adres": "Kleine Pathoekeweg 40, 8000 Brugge"
+  },
+  {
+    "naam": "Houthandel Leirman en Zonen (Gistel)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.158,
+    "lng": 2.971,
+    "webshop": "Nee",
+    "info": "Houthandel. 8470 Gistel. Vestiging van Leirman-groep.",
+    "btw": "BE 0405.268.869",
+    "rechtsvorm": "BV",
+    "adres": "8470 Gistel"
+  },
+  {
+    "naam": "Houthandel Deville-Claeys (Gent)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.054,
+    "lng": 3.727,
+    "webshop": "Nee",
+    "info": "Houthandel regio Gent."
+  },
+  {
+    "naam": "VC Wood Zottegem",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.872,
+    "lng": 3.811,
+    "webshop": "Nee",
+    "info": "Houthandel. Zottegem."
+  },
+  {
+    "naam": "Van De Velde Hout (Wetteren)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.005,
+    "lng": 3.881,
+    "webshop": "Nee",
+    "info": "Houthandel. Wetteren."
+  },
+  {
+    "naam": "Houthandel Mollaert (Aalst)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.937,
+    "lng": 4.038,
+    "webshop": "Nee",
+    "info": "Houthandel. Aalst."
+  },
+  {
+    "naam": "Mannaert (Lebbeke)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.001,
+    "lng": 4.136,
+    "webshop": "Nee",
+    "info": "Houthandel. Lebbeke."
+  },
+  {
+    "naam": "Van Peteghem Hout en Interieur (Lochristi)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.099,
+    "lng": 3.831,
+    "webshop": "Nee",
+    "info": "Houthandel en interieur. Lochristi."
+  },
+  {
+    "naam": "Houtwereld (Maldegem)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.205,
+    "lng": 3.437,
+    "webshop": "Nee",
+    "info": "Houthandel. Maldegem."
+  },
+  {
+    "naam": "Van Impe-Moulart (Horebeke)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.836,
+    "lng": 3.689,
+    "webshop": "Nee",
+    "info": "Houthandel. Horebeke."
+  },
+  {
+    "naam": "Houthandel De Roose (Ninove)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.837,
+    "lng": 4.024,
+    "webshop": "Nee",
+    "info": "Houthandel. Ninove."
+  },
+  {
+    "naam": "Dewahout (Deinze)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 50.982,
+    "lng": 3.525,
+    "webshop": "Ja",
+    "info": "Houthandel Deinze & Ronse. Ruim assortiment voor aannemer en particulier. 🌐 dewahout.be",
+    "website": "dewahout.be"
+  },
+  {
+    "naam": "Grimwood (Zulte)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.92,
+    "lng": 3.45,
+    "webshop": "Nee",
+    "info": "Houthandel. Zulte."
+  },
+  {
+    "naam": "Hout-Bois Van Steenberge (Zottegem)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.868,
+    "lng": 3.815,
+    "webshop": "Nee",
+    "info": "Houthandel. Zottegem."
+  },
+  {
+    "naam": "Lemahieu Group (Gent)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.054,
+    "lng": 3.721,
+    "webshop": "Nee",
+    "info": "Houthandel. Gent."
+  },
+  {
+    "naam": "Nieuwparket (Knesselare)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.143,
+    "lng": 3.431,
+    "webshop": "Nee",
+    "info": "Parketspecialist. Knesselare/Aalter.",
+    "activiteiten": [
+      "parket"
+    ]
+  },
+  {
+    "naam": "Quintelier (Dendermonde)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.028,
+    "lng": 4.1,
+    "webshop": "Nee",
+    "info": "Houthandel. Dendermonde."
+  },
+  {
+    "naam": "Hout Van Acker (Melsele)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.211,
+    "lng": 4.288,
+    "webshop": "Nee",
+    "info": "Houthandel deuren. Melsele (Beveren)."
+  },
+  {
+    "naam": "Houthandel Van Bruyssel (Lokeren)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.102,
+    "lng": 3.987,
+    "webshop": "Nee",
+    "info": "Houthandel. Lokeren.",
+    "btw": "BE 0425.558.992",
+    "rechtsvorm": "BV"
+  },
+  {
+    "naam": "Houthandel Roger Van Acker (Beveren)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.212,
+    "lng": 4.253,
+    "webshop": "Nee",
+    "info": "Houthandel. Beveren-Waas."
+  },
+  {
+    "naam": "Houthandel Piet Louwette (Sint-Niklaas)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.156,
+    "lng": 4.138,
+    "webshop": "Nee",
+    "info": "Houthandel. Sint-Niklaas."
+  },
+  {
+    "naam": "Vandewalle Houthandel (Sint-Niklaas)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.157,
+    "lng": 4.131,
+    "webshop": "Nee",
+    "info": "Houthandel. Europark-Zuid, Sint-Niklaas."
+  },
+  {
+    "naam": "Houthandel-Zagerij De Geyter (Lede)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.965,
+    "lng": 3.983,
+    "webshop": "Nee",
+    "info": "Houthandel en zagerij. Wichelsesteenweg 196, 9340 Lede.",
+    "adres": "Wichelsesteenweg 196, 9340 Lede"
+  },
+  {
+    "naam": "Houthandel Van Herzeele (Nazareth)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.958,
+    "lng": 3.596,
+    "webshop": "Nee",
+    "info": "Houthandel. Boeregemstraat 22, 9810 Nazareth.",
+    "adres": "Boeregemstraat 22, 9810 Nazareth"
+  },
+  {
+    "naam": "Tilborghs Hout en Interieur (Kalmthout)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.384,
+    "lng": 4.469,
+    "webshop": "Nee",
+    "info": "Houthandel en interieur. Kalmthout."
+  },
+  {
+    "naam": "Houthandel Thiels (Herselt)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.052,
+    "lng": 4.887,
+    "webshop": "Nee",
+    "info": "Houthandel. Herselt."
+  },
+  {
+    "naam": "Houthandel De Roover (Willebroek)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.064,
+    "lng": 4.368,
+    "webshop": "Nee",
+    "info": "Houthandel. Willebroek."
+  },
+  {
+    "naam": "Gijsbrechts (Hallaar)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.055,
+    "lng": 4.596,
+    "webshop": "Nee",
+    "info": "Houthandel. Hallaar (Heist-op-den-Berg)."
+  },
+  {
+    "naam": "Houthandel Segers (Schoten)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.253,
+    "lng": 4.497,
+    "webshop": "Nee",
+    "info": "Houthandel. Schoten.",
+    "btw": "BE 0474.349.103",
+    "rechtsvorm": "BV"
+  },
+  {
+    "naam": "Houthandel Marijnissen (Rijkevorsel)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.348,
+    "lng": 4.759,
+    "webshop": "Nee",
+    "info": "Houthandel. Rijkevorsel.",
+    "btw": "BE 0465.993.740",
+    "rechtsvorm": "BV"
+  },
+  {
+    "naam": "Houtzagerij Van Mechgelen (Arendonk)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.321,
+    "lng": 5.084,
+    "webshop": "Nee",
+    "info": "Houtzagerij en houthandel. Arendonk.",
+    "btw": "BE 0423.468.643",
+    "rechtsvorm": "BV"
+  },
+  {
+    "naam": "Houthandel Reynders (Meerhout)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.131,
+    "lng": 5.075,
+    "webshop": "Nee",
+    "info": "Houthandel. Meerhout."
+  },
+  {
+    "naam": "Houthandel Hendricks (Mechelen)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.028,
+    "lng": 4.481,
+    "webshop": "Nee",
+    "info": "Houthandel. Mechelen."
+  },
+  {
+    "naam": "Houthandel Helsen (Kasterlee)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.241,
+    "lng": 4.969,
+    "webshop": "Nee",
+    "info": "Houthandel. Kasterlee."
+  },
+  {
+    "naam": "Houthandel Vervecken (Arendonk)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.318,
+    "lng": 5.088,
+    "webshop": "Nee",
+    "info": "Houthandel. Arendonk."
+  },
+  {
+    "naam": "Houthandel Coomans (Laakdal)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.087,
+    "lng": 4.964,
+    "webshop": "Nee",
+    "info": "Houthandel. Laakdal."
+  },
+  {
+    "naam": "Paulussen Houthandel (Retie)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.266,
+    "lng": 5.084,
+    "webshop": "Nee",
+    "info": "Houthandel. Retie.",
+    "btw": "BE 0471.393.175",
+    "rechtsvorm": "BV"
+  },
+  {
+    "naam": "Houtbedrijf Van Den Broeck (Retie)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.27,
+    "lng": 5.081,
+    "webshop": "Nee",
+    "info": "Houtbedrijf. Retie."
+  },
+  {
+    "naam": "Hout Feyen (Dessel)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.237,
+    "lng": 5.115,
+    "webshop": "Nee",
+    "info": "Houthandel. Dessel."
+  },
+  {
+    "naam": "Hout- & Bouwmarkt Kasterlee",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.243,
+    "lng": 4.965,
+    "webshop": "Nee",
+    "info": "Hout- en bouwmarkt. Kasterlee."
+  },
+  {
+    "naam": "DG Wood Construct (Izegem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.915,
+    "lng": 3.216,
+    "webshop": "Nee",
+    "info": "Carports, houtwerk en houtbouw. Izegem. 🌐 dgwoodconstruct.be",
+    "activiteiten": [
+      "tuinhuis"
+    ]
+  },
+  {
+    "naam": "Koekuyt Tuindesign (Roeselare)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.946,
+    "lng": 3.126,
+    "webshop": "Nee",
+    "info": "Zwembaden, carports, garages, tuinhuisjes. Roeselare.",
+    "activiteiten": [
+      "tuinhuis"
+    ]
+  },
+  {
+    "naam": "Wood Arts (Avelgem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.774,
+    "lng": 3.444,
+    "webshop": "Nee",
+    "info": "Houten garages, carports, toegangspoorten. Avelgem. 🌐 woodarts.be",
+    "activiteiten": [
+      "tuinhuis"
+    ]
+  },
+  {
+    "naam": "CSS Outdoor Living (Ninove)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.834,
+    "lng": 4.028,
+    "webshop": "Nee",
+    "info": "Terrasoverkapping, pergola, carport. Ninove.",
+    "activiteiten": [
+      "tuinhuis"
+    ]
+  },
+  {
+    "naam": "Westparket (Waregem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.88,
+    "lng": 3.427,
+    "webshop": "Nee",
+    "info": "Parketspecialist. Desselgem/Waregem. 🌐 westparket.be",
+    "activiteiten": [
+      "parket"
+    ]
+  },
+  {
+    "naam": "JS Parket (Waregem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.878,
+    "lng": 3.431,
+    "webshop": "Nee",
+    "info": "Parket plaatsen, onderhouden, herstellen. Waregem. 🌐 jsparket.be",
+    "activiteiten": [
+      "parket"
+    ]
+  },
+  {
+    "naam": "Blondeel Parket (Knokke-Heist)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.347,
+    "lng": 3.264,
+    "webshop": "Nee",
+    "info": "Parketspecialist. Knokke-Heist.",
+    "activiteiten": [
+      "parket"
+    ]
+  },
+  {
+    "naam": "Ka-parket (Blankenberge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.313,
+    "lng": 3.131,
+    "webshop": "Nee",
+    "info": "Parketvloeren sinds 2002. Blankenberge. 🌐 ka-parket.be",
+    "activiteiten": [
+      "parket"
+    ]
+  },
+  {
+    "naam": "BV Parket (Diksmuide)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.033,
+    "lng": 2.864,
+    "webshop": "Nee",
+    "info": "Parketvloeren. Quick-step, Parador, Parky. Beerst/Diksmuide.",
+    "activiteiten": [
+      "parket"
+    ]
+  },
+  {
+    "naam": "Renoba Parket (Brugge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.209,
+    "lng": 3.224,
+    "webshop": "Nee",
+    "info": "Houten vloeren en parket. Brugge.",
+    "activiteiten": [
+      "parket"
+    ]
+  },
+  {
+    "naam": "HoutOpMaatGezaagd.be",
+    "provincie": "online",
+    "grootte": "K",
+    "lat": 51.05,
+    "lng": 3.72,
+    "webshop": "Ja",
+    "info": "Online hout op maat bestellen. 🌐 houtopmaatgezaagd.be",
+    "activiteiten": [
+      "online"
+    ]
+  },
+  {
+    "naam": "Limtrade.be",
+    "provincie": "online",
+    "grootte": "K",
+    "lat": 51,
+    "lng": 5.35,
+    "webshop": "Ja",
+    "info": "Online hout webshop. Balken, hardhout, platen, tuinhout. 🌐 limtrade.be",
+    "activiteiten": [
+      "online"
+    ]
+  },
+  {
+    "naam": "Woodlet.be",
+    "provincie": "online",
+    "grootte": "K",
+    "lat": 51.05,
+    "lng": 3.73,
+    "webshop": "Ja",
+    "info": "Hout outlet / online houtverkoop. 🌐 woodlet.be",
+    "activiteiten": [
+      "online"
+    ]
+  },
+  {
+    "naam": "De Houtboer (online)",
+    "provincie": "online",
+    "grootte": "K",
+    "lat": 51.5,
+    "lng": 5.47,
+    "webshop": "Ja",
+    "info": "Online hout webshop B2B en B2C. 🌐 dehoutboer.com",
+    "activiteiten": [
+      "online"
+    ]
   }
 ]
