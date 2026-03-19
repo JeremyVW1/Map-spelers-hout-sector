@@ -130,14 +130,6 @@ body {
   color: #333;
 }
 
-/* Scheidingslijn */
-.divider {
-  width: 1px;
-  height: 24px;
-  background: #ddd;
-  flex-shrink: 0;
-}
-
 /* Filterknoppen */
 .fb {
   font-size: 11px;

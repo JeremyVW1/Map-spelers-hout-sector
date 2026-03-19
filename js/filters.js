@@ -1,0 +1,138 @@
+/* ═══════════════════════════════════════════
+   Houtkaart — Filters & legenda
+   ═══════════════════════════════════════════ */
+
+let activeRegios = new Set();
+let activeActiviteiten = new Set();
+
+// ─── Filter UI bouwen ────────────────────────
+function buildFilters() {
+  const allBtn = document.getElementById("btn-all");
+  allBtn.onclick = () => {
+    activeRegios.clear();
+    activeActiviteiten.clear();
+    syncFilterButtons();
+    render();
+    updateCounter();
+  };
+
+  // Regio rij
+  const regioRow = document.getElementById("filter-regio");
+  addLabel(regioRow, "Regio:");
+  categorieen.filter((c) => c.type === "regio").forEach((c) => {
+    makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio");
+  });
+
+  // Activiteit rij
+  const actRow = document.getElementById("filter-activiteit");
+  addLabel(actRow, "Activiteit:");
+  categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
+    makeFilterBtn(actRow, c.label, c.id, c.kleur, "activiteit");
+  });
+}
+
+function addLabel(container, text) {
+  const el = document.createElement("span");
+  el.className = "filter-group-label";
+  el.textContent = text;
+  container.appendChild(el);
+}
+
+function makeFilterBtn(container, label, id, col, type) {
+  const b = document.createElement("button");
+  b.className = "fb";
+  b.dataset.filterId = id;
+  b.dataset.filterCol = col;
+  b.dataset.filterType = type;
+  b.textContent = label;
+  b.onclick = () => {
+    const set = type === "regio" ? activeRegios : activeActiviteiten;
+    set.has(id) ? set.delete(id) : set.add(id);
+    syncFilterButtons();
+    render();
+    updateCounter();
+  };
+  container.appendChild(b);
+}
+
+function syncFilterButtons() {
+  const allBtn = document.getElementById("btn-all");
+  const isAll = activeRegios.size === 0 && activeActiviteiten.size === 0;
+
+  allBtn.classList.toggle("on", isAll);
+  allBtn.style.background = isAll ? "#1a1a2e" : "";
+  allBtn.style.color = isAll ? "#fff" : "";
+  allBtn.style.borderColor = isAll ? "#1a1a2e" : "";
+
+  document.querySelectorAll(".fb[data-filter-id]").forEach((btn) => {
+    const set = btn.dataset.filterType === "regio" ? activeRegios : activeActiviteiten;
+    const active = set.has(btn.dataset.filterId);
+    btn.classList.toggle("on", active);
+    btn.style.background = active ? btn.dataset.filterCol : "";
+    btn.style.color = active ? "#fff" : "";
+    btn.style.borderColor = active ? btn.dataset.filterCol : "";
+  });
+}
+
+// ─── Legenda ─────────────────────────────────
+function buildLegend() {
+  const el = document.getElementById("legend-content");
+
+  // Regio
+  addLegendGroup(el, "Regio", categorieen.filter((c) => c.type === "regio"));
+
+  // Activiteit
+  addLegendGroup(el, "Activiteit", categorieen.filter((c) => c.type === "activiteit"));
+
+  // Grootte
+  const szGroup = document.createElement("div");
+  szGroup.className = "legend-group";
+  szGroup.innerHTML = '<span class="legend-group-title">Grootte</span>';
+  const szItems = document.createElement("div");
+  szItems.className = "legend-items";
+  [
+    { r: 13, l: "Groot / dominant" },
+    { r: 9, l: "Middelgroot" },
+    { r: 6, l: "Klein / lokaal" },
+  ].forEach((s) => {
+    const sp = document.createElement("div");
+    sp.className = "legend-item";
+    sp.innerHTML = `<svg width="${s.r * 2 + 4}" height="${s.r * 2 + 4}"><circle cx="${s.r + 2}" cy="${s.r + 2}" r="${s.r}" fill="#888" opacity=".75"/></svg><span>${s.l}</span>`;
+    szItems.appendChild(sp);
+  });
+  szGroup.appendChild(szItems);
+  el.appendChild(szGroup);
+
+  // Mobiel toggle
+  const toggle = document.getElementById("legend-toggle");
+  if (toggle) {
+    toggle.addEventListener("click", () => {
+      el.classList.toggle("collapsed");
+      toggle.textContent = el.classList.contains("collapsed")
+        ? "▸ Legenda tonen"
+        : "▾ Legenda verbergen";
+    });
+  }
+}
+
+function addLegendGroup(parent, title, items) {
+  const group = document.createElement("div");
+  group.className = "legend-group";
+  group.innerHTML = `<span class="legend-group-title">${title}</span>`;
+  const container = document.createElement("div");
+  container.className = "legend-items";
+  items.forEach((c) => {
+    const d = document.createElement("div");
+    d.className = "legend-item";
+    d.innerHTML = `<div class="legend-dot" style="background:${c.kleur}"></div><span>${c.label}</span>`;
+    container.appendChild(d);
+  });
+  group.appendChild(container);
+  parent.appendChild(group);
+}
+
+// ─── Counter ─────────────────────────────────
+function updateCounter() {
+  const el = document.getElementById("counter-num");
+  if (el) el.textContent = getVisibleCompanies().length;
+}
