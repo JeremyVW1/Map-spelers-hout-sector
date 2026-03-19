@@ -70,6 +70,8 @@ function addTargetZone() {
 }
 
 // ─── Eigen locatie markers ───────────────────
+const ownLabelMarkers = [];
+
 function addOwnLocations() {
   EIGEN_LOCATIES.forEach((loc) => {
     L.circle(loc.ll, {
@@ -77,13 +79,41 @@ function addOwnLocations() {
       fillOpacity: 0.07, weight: 2, dashArray: "7,4",
     }).addTo(map);
 
+    // Vast pijltje (altijd zichtbaar, klein)
     L.marker(loc.ll, {
       icon: L.divIcon({
-        html: `<div class="own-marker" style="background:#8B1A1A;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;white-space:nowrap;box-shadow:0 2px 8px rgba(139,26,26,0.4)">▼ ${loc.naam}</div>`,
+        html: `<div style="color:#8B1A1A;font-size:14px;font-weight:700;text-shadow:0 1px 3px rgba(0,0,0,0.3)">▼</div>`,
         className: "",
-        iconAnchor: [38, 26],
+        iconSize: [14, 14],
+        iconAnchor: [7, 0],
       }),
       zIndexOffset: 9999,
     }).addTo(map);
+
+    // Label met naam (alleen bij voldoende zoom)
+    const label = L.marker(loc.ll, {
+      icon: L.divIcon({
+        html: `<div class="own-marker" style="background:#8B1A1A;color:#fff;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;white-space:nowrap;box-shadow:0 2px 8px rgba(139,26,26,0.4)">${loc.naam}</div>`,
+        className: "",
+        iconAnchor: [30, -4],
+      }),
+      zIndexOffset: 9998,
+    });
+    ownLabelMarkers.push(label);
   });
+
+  // Toon/verberg labels op basis van zoomniveau
+  function updateOwnLabels() {
+    const zoom = map.getZoom();
+    ownLabelMarkers.forEach((m) => {
+      if (zoom >= 10) {
+        if (!map.hasLayer(m)) map.addLayer(m);
+      } else {
+        if (map.hasLayer(m)) map.removeLayer(m);
+      }
+    });
+  }
+
+  map.on("zoomend", updateOwnLabels);
+  updateOwnLabels();
 }
