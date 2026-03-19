@@ -276,17 +276,17 @@ body {
 .analyse-table tr:hover { background: #f0f4ff; }
 .td-naam { font-weight: 600; white-space: nowrap; }
 .td-adres { font-size: 10px; color: #666; max-width: 200px; }
-.td-btw { font-size: 10px; white-space: nowrap; }
+.td-btw { font-size: 10px; white-space: nowrap; width: 110px; max-width: 110px; }
 .td-btw a, .td-web a { color: #1565C0; text-decoration: none; }
 .td-btw a:hover, .td-web a:hover { text-decoration: underline; }
 .td-web { font-size: 10px; }
-.td-num { text-align: center; font-weight: 600; color: #2E7D32; }
+.td-num { text-align: center; font-weight: 600; color: #2E7D32; width: 40px; max-width: 40px; white-space: nowrap; }
 .td-dichtste { font-weight: 700; white-space: nowrap; }
 .td-dichtste.score-top { background: #c8e6c9; color: #1b5e20; }
 .td-dichtste.score-good { background: #e8f5e9; color: #2e7d32; }
 .td-dichtste.score-ok { background: #fff8e1; color: #f57f17; }
 
-.td-notes { min-width: 350px; width: 350px; }
+.td-notes { min-width: 500px; width: 500px; }
 .fav-note {
   width: 100%; min-height: 70px; padding: 8px 10px;
   border: 1px solid #ddd; border-radius: 4px; font: inherit; font-size: 14px;
