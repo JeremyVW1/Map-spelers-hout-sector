@@ -66,6 +66,38 @@ body {
 }
 #search-clear:hover { color: #333; }
 
+/* Zoeksuggesties */
+.search-suggestions {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0; right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  max-height: 280px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+.search-sug-item {
+  padding: 6px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  border-bottom: 1px solid #f0f2f5;
+  transition: background 0.1s;
+}
+.search-sug-item:last-child { border-bottom: none; }
+.search-sug-item:hover { background: #f0f4ff; }
+.sug-naam { font-weight: 600; color: #1a1a2e; white-space: nowrap; }
+.sug-naam b { color: #1565C0; }
+.sug-detail { font-size: 10px; color: #888; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sug-act { font-size: 9px; color: #999; white-space: nowrap; margin-left: auto; }
+
 /* Filterknoppen */
 .fb {
   font-size: 10px; padding: 3px 10px; border-radius: 14px;
