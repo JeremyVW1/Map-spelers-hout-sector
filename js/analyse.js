@@ -269,8 +269,8 @@ function renderOpportuniteiten(data) {
   el.innerHTML = `
     ${overnameCandidates.length ? `
     <div class="opp-section">
-      <h3>🎯 Overnamekandidaten</h3>
-      <p class="opp-desc">Kleine bedrijven in de groene zone, opgericht voor 2000 — mogelijk opvolgingsprobleem</p>
+      <h3>🎯 Overnamekandidaten <span class="opp-subtitle">(op basis van oprichtingsjaar en dus mogelijkheid geen opvolging)</span></h3>
+      <p class="opp-desc">Kleine bedrijven in de groene zone, opgericht voor 2000</p>
       <div class="opp-list">
         ${overnameCandidates.slice(0, 15).map(c => `
           <div class="opp-item">

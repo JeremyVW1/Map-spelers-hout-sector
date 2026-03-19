@@ -617,6 +617,11 @@ body {
   color: #1a1a2e;
   margin-bottom: 4px;
   padding-bottom: 6px;
+}
+.opp-subtitle {
+  font-weight: 400;
+  font-size: 11px;
+  color: #888;
   border-bottom: 2px solid #f0f2f5;
 }
 .opp-desc {
