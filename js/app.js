@@ -81,7 +81,7 @@ function addTargetZone() {
   // Berekend als punten die < 70km van BEIDE locaties liggen
   const hertsberghe = [51.1, 3.27];
   const drongen = [51.0334, 3.6431];
-  const maxKm = 70; // ~1 uur rijden
+  const maxKm = 38; // ~1 uur rijden via de weg ≈ 50km weg / 1.3 omwegfactor = ~38km hemelsbreed
 
   function distKm(lat1, lng1, lat2, lng2) {
     const R = 6371;
