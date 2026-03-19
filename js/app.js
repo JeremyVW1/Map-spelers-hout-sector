@@ -25,9 +25,12 @@ async function init() {
   buildLegend();
   initSearch();
 
-  // Standaard WVL + OVL
+  // Standaard WVL + OVL + alle activiteiten
   activeRegios.add("wvl");
   activeRegios.add("ovl");
+  categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
+    activeActiviteiten.add(c.id);
+  });
   syncFilterButtons();
 
   render();
