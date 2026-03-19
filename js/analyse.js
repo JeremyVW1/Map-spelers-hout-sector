@@ -155,6 +155,7 @@ function renderTop15() {
             <th>Website</th>
             <th>Digitaal</th>
             <th>Beoordeling</th>
+            <th>Notes</th>
           </tr>
         </thead>
         <tbody>
@@ -187,6 +188,7 @@ function renderTop15() {
         <td class="td-web">${webLink}</td>
         <td class="top15-digitaal">${c.digitaal}</td>
         <td class="top15-notitie">${c.notitie}</td>
+        <td class="td-notes"><textarea class="fav-note top15-note" data-top15="${c.naam.replace(/"/g, "&quot;")}" placeholder="Notitie…">${favNotes["top15_" + c.naam] || ""}</textarea></td>
       </tr>
     `;
   });
@@ -207,6 +209,11 @@ function renderTop15() {
         btn.innerHTML = active ? "★" : "☆";
       }
     });
+  });
+
+  // Notes auto-save voor top 15
+  el.querySelectorAll(".top15-note").forEach(ta => {
+    ta.addEventListener("input", () => saveNote("top15_" + ta.dataset.top15, ta.value));
   });
 }
 
