@@ -299,7 +299,7 @@ body {
 .star-btn.starred { color: #f9a825; }
 .td-star { width: 28px; text-align: center; padding: 2px !important; }
 .popup-header-row { display: flex; justify-content: space-between; align-items: flex-start; }
-.popup-header-row .star-btn { font-size: 22px; margin: -2px -4px 0 0; }
+.popup-header-row .star-btn { font-size: 28px; margin: -2px 12px 0 0; }
 .fav-count { font-size: 10px; background: #f9a825; color: #1a1a2e; border-radius: 8px; padding: 1px 5px; margin-left: 3px; font-weight: 700; }
 
 /* Favorieten tab */
