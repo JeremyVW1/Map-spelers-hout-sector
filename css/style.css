@@ -54,9 +54,9 @@ body {
 .search-wrap { position: relative; flex-shrink: 0; min-width: 200px; }
 .search-wrap svg { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); color: #999; pointer-events: none; }
 #search {
-  width: 100%; padding: 6px 30px 6px 32px;
+  width: 100%; padding: 5px 30px 5px 32px;
   border: 1.5px solid #ddd; border-radius: 20px;
-  font-size: 14px; outline: none; transition: border-color 0.2s; background: #fafafa;
+  font-size: 12px; outline: none; transition: border-color 0.2s; background: #fafafa;
 }
 #search:focus { border-color: #1a1a2e; background: #fff; }
 #search-clear {
