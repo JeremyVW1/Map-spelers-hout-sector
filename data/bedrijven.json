@@ -4966,5 +4966,368 @@
       "parket"
     ],
     "adres": "Knokke-Heist"
+  },
+  {
+    "naam": "Unilin / Quick-Step (Wielsbeke)",
+    "provincie": "wvl",
+    "grootte": "G",
+    "lat": 50.9042,
+    "lng": 3.3755,
+    "webshop": "Ja",
+    "info": "Grootste parket/laminaat/vinyl fabrikant België. Merken: Quick-Step, Pergo. Mohawk Industries. Ooigemstraat 3, 8710 Wielsbeke.",
+    "activiteiten": [
+      "parket",
+      "import",
+      "online"
+    ],
+    "adres": "Ooigemstraat 3, 8710 Wielsbeke"
+  },
+  {
+    "naam": "Decospan (Menen)",
+    "provincie": "wvl",
+    "grootte": "G",
+    "lat": 50.7958,
+    "lng": 3.1218,
+    "webshop": "Nee",
+    "info": "Parketfabrikant. Merken: Cabbani, The Twelve, Esco. Fineer en parket. Lageweg 33, 8930 Menen.",
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
+    "adres": "Lageweg 33, 8930 Menen"
+  },
+  {
+    "naam": "Deco-Floor Parketvloeren (Oostrozebeke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.9305,
+    "lng": 3.343,
+    "webshop": "Nee",
+    "info": "Levering, plaatsing en onderhoud parket en laminaat. Tieltsteenweg 45, 8780 Oostrozebeke. BTW: BE 0836.908.080.",
+    "activiteiten": [
+      "parket",
+      "agro"
+    ],
+    "btw": "BE 0836.908.080",
+    "adres": "Tieltsteenweg 45, 8780 Oostrozebeke"
+  },
+  {
+    "naam": "Floor Depot (Zulte)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 50.935,
+    "lng": 3.45,
+    "webshop": "Ja",
+    "info": "Grootste vloerenoutlet België. Laminaat, parket, vinyl. Groothandel aan outletprijzen. Olsenestraat 27, Zulte.",
+    "activiteiten": [
+      "parket",
+      "online"
+    ],
+    "adres": "Olsenestraat 27, 9800 Zulte"
+  },
+  {
+    "naam": "Gerko Parket (Ronse)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 50.75,
+    "lng": 3.605,
+    "webshop": "Nee",
+    "info": "Fabrikant en afwerker Franse witte eik parket sinds 1993. Nieuwe Pontstraat 3, 9600 Ronse. BTW: BE 0449.721.791.",
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
+    "btw": "BE 0449.721.791",
+    "adres": "Nieuwe Pontstraat 3, 9600 Ronse"
+  },
+  {
+    "naam": "Parket Lefevere (Sint-Eloois-Winkel)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8883,
+    "lng": 3.255,
+    "webshop": "Nee",
+    "info": "Parketvloeren, terrassen en trappen. Lalegno dealer. 't Lindeke 31 Zone C1, 8880 Sint-Eloois-Winkel.",
+    "activiteiten": [
+      "parket",
+      "terrassen"
+    ],
+    "adres": "'t Lindeke 31, 8880 Sint-Eloois-Winkel"
+  },
+  {
+    "naam": "Lecoutere Houthandel (Brugge)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 51.1936,
+    "lng": 3.17,
+    "webshop": "Nee",
+    "info": "Houthandel + Lalegno parketdealer. Dirk Martensstraat 16, 8200 Brugge. BTW: BE 0418.365.849.",
+    "activiteiten": [
+      "houthandel",
+      "parket"
+    ],
+    "btw": "BE 0418.365.849",
+    "adres": "Dirk Martensstraat 16, 8200 Brugge"
+  },
+  {
+    "naam": "Ardeco Parket & Producten (Spiere-Helkijn)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.734,
+    "lng": 3.348,
+    "webshop": "Ja",
+    "info": "Parket en onderhoudsproducten. Webshop. Industripark 12a bus 7, 8587 Spiere-Helkijn.",
+    "activiteiten": [
+      "parket",
+      "online"
+    ],
+    "adres": "Industripark 12a bus 7, 8587 Spiere-Helkijn"
+  },
+  {
+    "naam": "DS Parket (Roeselare)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.9463,
+    "lng": 3.1245,
+    "webshop": "Nee",
+    "info": "Parketlegger. Stormstraat 28, Roeselare.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Stormstraat 28, 8800 Roeselare"
+  },
+  {
+    "naam": "Renova Parket (Ingelmunster)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.922,
+    "lng": 3.259,
+    "webshop": "Nee",
+    "info": "Specialist renovatie en onderhoud parketvloeren. Lalegno dealer. Bruggestraat 279, 8770 Ingelmunster.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Bruggestraat 279, 8770 Ingelmunster"
+  },
+  {
+    "naam": "Roofloors (Kortrijk)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8275,
+    "lng": 3.2645,
+    "webshop": "Nee",
+    "info": "Vloerbekleding: tapijt, parket, vinyl en meer. Hoevestraat 17-A1, 8500 Kortrijk.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Hoevestraat 17-A1, 8500 Kortrijk"
+  },
+  {
+    "naam": "Interior by Cornelis (Oostende)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.212,
+    "lng": 2.895,
+    "webshop": "Nee",
+    "info": "Interieur, meubelen, parket, vinyl, laminaat. 2 showrooms Nieuwpoortsesteenweg, Oostende. Quick-Step dealer.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Nieuwpoortsesteenweg, 8400 Oostende"
+  },
+  {
+    "naam": "Atelier De Cuyper (Brugge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.2093,
+    "lng": 3.2247,
+    "webshop": "Nee",
+    "info": "Expert parketrenovatie. Renoveren, restaureren, schuren, herstellen en afwerken houten vloeren.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Brugge"
+  },
+  {
+    "naam": "Stichelbaut (Knokke-Heist)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.348,
+    "lng": 3.278,
+    "webshop": "Nee",
+    "info": "Verf- en decoratiespecialist. Parket, vloeren, raamdecoratie. Lalegno dealer. Vestigingen Knokke + Maldegem.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Knokke-Heist"
+  },
+  {
+    "naam": "Desomer-Plancke (Poperinge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.854,
+    "lng": 2.723,
+    "webshop": "Nee",
+    "info": "Houthandel en bouwmaterialen. Lalegno parketdealer. Poperinge.",
+    "activiteiten": [
+      "houthandel",
+      "parket"
+    ],
+    "adres": "Poperinge"
+  },
+  {
+    "naam": "Bouwcenter Frans Vlaeminck (Oostrozebeke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.93,
+    "lng": 3.34,
+    "webshop": "Nee",
+    "info": "Bouwmaterialen en Lalegno parketdealer. Oostrozebeke.",
+    "activiteiten": [
+      "houthandel",
+      "parket",
+      "agro"
+    ],
+    "adres": "Oostrozebeke"
+  },
+  {
+    "naam": "Multi Bazar (Pittem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51,
+    "lng": 3.27,
+    "webshop": "Nee",
+    "info": "Doe-het-zelf en bouwmaterialen. Lalegno parketdealer. Pittem.",
+    "activiteiten": [
+      "dhz",
+      "parket",
+      "houthandel"
+    ],
+    "adres": "Pittem"
+  },
+  {
+    "naam": "Stove Decor (Ingelmunster)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.92,
+    "lng": 3.25,
+    "webshop": "Nee",
+    "info": "Haarden en interieur. Lalegno parketdealer. Ingelmunster.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Ingelmunster"
+  },
+  {
+    "naam": "Verhelst Bouwmaterialen (Kuurne)",
+    "provincie": "wvl",
+    "grootte": "G",
+    "lat": 50.85,
+    "lng": 3.285,
+    "webshop": "Nee",
+    "info": "Grote multispecialist bouwmaterialen. Tegels, parket, laminaat. 11 vestigingen in WVL. Ringlaan 26b, 8520 Kuurne.",
+    "activiteiten": [
+      "houthandel",
+      "parket",
+      "dhz"
+    ],
+    "adres": "Ringlaan 26b, 8520 Kuurne"
+  },
+  {
+    "naam": "Impermo (Wevelgem)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 50.813,
+    "lng": 3.192,
+    "webshop": "Ja",
+    "info": "Grootste tegelaanbod Benelux. Ook parket en laminaat. Showrooms in Wevelgem, Oostende, Wetteren, Geel, Wilrijk, Sint-Truiden, Sint-Pieters-Leeuw.",
+    "activiteiten": [
+      "parket",
+      "online"
+    ],
+    "adres": "Kortrijkstraat 305, 8560 Wevelgem"
+  },
+  {
+    "naam": "Laminaatshop (Dendermonde)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51.0284,
+    "lng": 4.101,
+    "webshop": "Ja",
+    "info": "Laminaat, parket, vinyl. Quick-Step Experience Center. Showroom 650m². Baasrodestraat 114, 9200 Dendermonde. BTW: BE 0809.922.383.",
+    "activiteiten": [
+      "parket",
+      "online"
+    ],
+    "btw": "BE 0809.922.383",
+    "adres": "Baasrodestraat 114, 9200 Dendermonde"
+  },
+  {
+    "naam": "MBC Vloeren (Gent)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.0435,
+    "lng": 3.7174,
+    "webshop": "Nee",
+    "info": "PVC vloeren, parketvloeren en laminaat. Gent.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Gent"
+  },
+  {
+    "naam": "Declerck Luc (Zomergem/Lievegem)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.1167,
+    "lng": 3.5583,
+    "webshop": "Nee",
+    "info": "Houthandel en Lalegno parketdealer. Zomergem/Lievegem.",
+    "activiteiten": [
+      "houthandel",
+      "parket"
+    ],
+    "adres": "Zomergem"
+  },
+  {
+    "naam": "Bouwmaterialen Leus (Melle)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51,
+    "lng": 3.8,
+    "webshop": "Nee",
+    "info": "Bouwmaterialen sinds 1890. Showrooms Melle + Sleidinge. Tegels, vloeren, parket. Veerweg 54, Melle.",
+    "activiteiten": [
+      "houthandel",
+      "parket",
+      "dhz"
+    ],
+    "adres": "Veerweg 54, 9090 Melle"
+  },
+  {
+    "naam": "Renovest Projects (Ronse)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.752,
+    "lng": 3.6,
+    "webshop": "Nee",
+    "info": "Renovatieprojecten en Lalegno parketdealer. Ronse.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Ronse"
+  },
+  {
+    "naam": "Janssen Parketwerken (Knokke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.35,
+    "lng": 3.29,
+    "webshop": "Nee",
+    "info": "Parketwerken. Lalegno dealer. Knokke.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Knokke-Heist"
   }
 ]
