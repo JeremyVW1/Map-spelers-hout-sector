@@ -7113,5 +7113,122 @@
     ],
     "btw": "BE 0795.107.020",
     "adres": "Roesbruggestraat 9, 8972 Poperinge"
+  },
+  {
+    "naam": "Jadimex (Lovenjoel — Vlaams-Brabant)",
+    "provincie": "vbr",
+    "grootte": "M",
+    "lat": 50.8756,
+    "lng": 4.7725,
+    "webshop": "Ja",
+    "info": "Groothandel duurzaam tropisch hardhout. FSC-gecertificeerd. Paardenomheiningen, tuinhout, gevelbekleding, terrashout. Showroom Lovenjoel.",
+    "activiteiten": [
+      "houthandel",
+      "paarden",
+      "terrassen"
+    ],
+    "btw": "BE0459.170.086",
+    "adres": "Tiensesteenweg 225, 3360 Lovenjoel",
+    "website": "jadimex.be"
+  },
+  {
+    "naam": "Vernafix (Kortemark/Houthulst)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.0245,
+    "lng": 2.9476,
+    "webshop": "Nee",
+    "info": "Fabrikant tuinhout en houtconstructies. Carports, tuinhuizen, paardenafsluitingen, weidepoorten. FSC. Eigen productie in Houthulst. Catalogus paardenomheiningen.",
+    "activiteiten": [
+      "paarden",
+      "tuinhuis",
+      "terrassen"
+    ],
+    "btw": "BE0477.900.390",
+    "adres": "Koekelarestraat 78, 8610 Kortemark",
+    "website": "vernafix.be",
+    "rijtijd_hertsberge": 28,
+    "rijtijd_drongen": 45
+  },
+  {
+    "naam": "De Sutter Naturally (Kampenhout)",
+    "provincie": "vbr",
+    "grootte": "M",
+    "lat": 50.9565,
+    "lng": 4.5467,
+    "webshop": "Ja",
+    "info": "Fabrikant houten omheiningen, poorten en schuilstallen sinds 1977. Eigen productie Kampenhout. Densiforce-impregnatie. Doorsteekomheiningen zonder nagels. Post & Rail. Levert heel BE + NL.",
+    "activiteiten": [
+      "paarden",
+      "houthandel"
+    ],
+    "btw": "BE0417.444.349",
+    "oprichting": "1977",
+    "adres": "Vekestraat 48, 1910 Kampenhout",
+    "website": "desutter-naturally.be"
+  },
+  {
+    "naam": "Boerderijshop / Wilbos (Sint-Laureins)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.2085,
+    "lng": 3.5429,
+    "webshop": "Ja",
+    "info": "Webshop houten omheiningen, paardenomheiningen, post & rail, kastanje hekwerk, schapenhekken. B2B + particulier.",
+    "activiteiten": [
+      "paarden",
+      "online"
+    ],
+    "btw": "BE0688.581.224",
+    "oprichting": "2018",
+    "adres": "Zandstraat 3, 9988 Sint-Laureins",
+    "website": "boerderijshop.be",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 26
+  },
+  {
+    "naam": "'t Kempisch Domein (Ravels)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.3927,
+    "lng": 5.0803,
+    "webshop": "Ja",
+    "info": "Specialist kastanje, eiken en robinia hekwerk. Tuinpoorten, paardenomheiningen, schapenhekken. Eigen stock. B2B + particulier + openbare besturen.",
+    "activiteiten": [
+      "paarden",
+      "houthandel"
+    ],
+    "btw": "BE0463.888.741",
+    "adres": "Esdoornlaan 3, 2382 Ravels",
+    "website": "kempischdomein.com"
+  },
+  {
+    "naam": "Tuymans Omheiningen (Malle/Lille)",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.2885,
+    "lng": 4.7237,
+    "webshop": "Nee",
+    "info": "Professioneel geplaatste houten paardenomheiningen. Machine-geslaan met lasergeleiding. Actief in heel Vlaanderen + Wallonië.",
+    "activiteiten": [
+      "paarden"
+    ],
+    "btw": "BE0810.013.445",
+    "adres": "Broekzijstraat 60, 2275 Lille",
+    "website": "tuymansomheiningen.be"
+  },
+  {
+    "naam": "Houtstock (België)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.05,
+    "lng": 3.72,
+    "webshop": "Ja",
+    "info": "Webshop duurzaam kwaliteitshout. Weidepoorten, paardenomheiningen, kastanje hekwerk, palen. Levering heel België.",
+    "activiteiten": [
+      "paarden",
+      "online"
+    ],
+    "website": "houtstock.be"
   }
 ]
