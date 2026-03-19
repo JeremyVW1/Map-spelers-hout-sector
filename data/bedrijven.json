@@ -143,27 +143,6 @@
     ]
   },
   {
-    "naam": "Agrodieren.be",
-    "provincie": "wvl",
-    "grootte": "G",
-    "lat": 51.1269,
-    "lng": 3.2993,
-    "webshop": "Ja",
-    "info": "⚠️ DIRECTE CONCURRENT. Webshop + fysiek Beernem. Houten palen, weide-omheiningen, tuinschermen. 20.000+ klanten. Plaatsingsdienst.",
-    "activiteiten": [
-      "paarden",
-      "agro",
-      "online"
-    ],
-    "rijtijd_hertsberge": 7,
-    "rijtijd_drongen": 20,
-    "website": "agrodieren.be",
-    "btw": "BE0417.360.019",
-    "medewerkers": "~50",
-    "oprichting": "1977",
-    "adres": "Wellingstraat 109, 8730 Beernem"
-  },
-  {
     "naam": "Vandenbroucke Hout",
     "provincie": "wvl",
     "grootte": "M",
@@ -564,29 +543,6 @@
     "medewerkers": "3 FTE",
     "oprichting": "2002",
     "website": "houthandelderegge.be"
-  },
-  {
-    "naam": "EXZO",
-    "provincie": "ovl",
-    "grootte": "G",
-    "lat": 51.0819,
-    "lng": 3.4524,
-    "webshop": "Ja",
-    "info": "⚠️ MEEST DIRECTE CONCURRENT. Importeur + groothandel + webshop + productielijnen. Tuin+constructie+gevel+paardenomheining. FSC. Sedert 2011. 📍 Léon Bekaertlaan 3E, 9880 Aalter 📞 09 292 73 03 📧 info@exzo.be 🌐 www.exzo.be",
-    "btw": "BE 0688.738.206",
-    "adres": "Léon Bekaertlaan 3E, 9880 Aalter",
-    "rechtsvorm": "BV",
-    "medewerkers": 8.9,
-    "oprichting": "2011",
-    "website": "www.exzo.be",
-    "activiteiten": [
-      "paarden",
-      "online",
-      "import",
-      "terrassen"
-    ],
-    "rijtijd_hertsberge": 17,
-    "rijtijd_drongen": 13
   },
   {
     "naam": "Ecohout",
@@ -1012,7 +968,7 @@
     "lat": 51.1021,
     "lng": 4.5021,
     "webshop": "Nee",
-    "info": "⚠️ CRUCIALE B2B SPELER. Grootste tuinhout groothandel van België. Levert aan DHZ-ketens + houthandels. 20.000m² site. B2B-only. 📍 Fabriekstraat 40, 2547 Lint 📞 03 454 46 77 🌐 cartri.be",
+    "info": "CRUCIALE B2B SPELER. Grootste tuinhout groothandel van België. Levert aan DHZ-ketens + houthandels. 20.000m² site. B2B-only. 📍 Fabriekstraat 40, 2547 Lint 📞 03 454 46 77 🌐 cartri.be",
     "activiteiten": [
       "dhz",
       "import",
@@ -1712,7 +1668,7 @@
     "lat": 51.06,
     "lng": 3.75,
     "webshop": "Ja",
-    "info": "⚠️ GROOTSTE ONLINE BEDREIGING. 20.000+ artikelen. Heel Vlaanderen + Wallonië. Sterke SEO. Goedkope levering. Composiet, hardhout, DHZ, tuinhuizen.",
+    "info": "GROOTSTE ONLINE BEDREIGING. 20.000+ artikelen. Heel Vlaanderen + Wallonië. Sterke SEO. Goedkope levering. Composiet, hardhout, DHZ, tuinhuizen.",
     "activiteiten": [
       "tuinhuis",
       "dhz",
@@ -1828,7 +1784,7 @@
     "lat": 51.0428,
     "lng": 3.6981,
     "webshop": "Ja",
-    "info": "⚠️ DHZ-keten. Breed tuinhout + constructiehout. 152 winkels België. Webshop.",
+    "info": "DHZ-keten. Breed tuinhout + constructiehout. 152 winkels België. Webshop.",
     "activiteiten": [
       "online",
       "dhz",
@@ -1847,7 +1803,7 @@
     "lat": 51.0361,
     "lng": 3.7141,
     "webshop": "Ja",
-    "info": "⚠️ DHZ-keten. 400+ soorten bouwhout. 60+ winkels. Webshop + hout op maat zagen.",
+    "info": "DHZ-keten. 400+ soorten bouwhout. 60+ winkels. Webshop + hout op maat zagen.",
     "activiteiten": [
       "online",
       "dhz"
@@ -1864,7 +1820,7 @@
     "lat": 51.0298,
     "lng": 3.7051,
     "webshop": "Ja",
-    "info": "⚠️ DHZ-keten. Tuinhout, webshop, hout op maat. Heel Vlaanderen.",
+    "info": "DHZ-keten. Tuinhout, webshop, hout op maat. Heel Vlaanderen.",
     "activiteiten": [
       "online",
       "dhz",
@@ -3547,27 +3503,6 @@
     "oprichting": "1992"
   },
   {
-    "naam": "Agrodieren.be (Beernem)",
-    "provincie": "wvl",
-    "grootte": "G",
-    "lat": 51.1269,
-    "lng": 3.2993,
-    "webshop": "Ja",
-    "info": "⚠️ DIRECTE CONCURRENT. Webshop + fysiek. Houten palen, weide-omheiningen, tuinschermen. 20.000+ klanten. Beernem.",
-    "activiteiten": [
-      "paarden",
-      "agro",
-      "online"
-    ],
-    "rijtijd_hertsberge": 7,
-    "rijtijd_drongen": 20,
-    "website": "agrodieren.be",
-    "btw": "BE0417.360.019",
-    "medewerkers": "~50",
-    "oprichting": "1977",
-    "adres": "Wellingstraat 109, 8730 Beernem"
-  },
-  {
     "naam": "Hout Van Maele (Ruddervoorde/Oostkamp)",
     "provincie": "wvl",
     "grootte": "M",
@@ -3928,13 +3863,13 @@
     "oprichting": "1997"
   },
   {
-    "naam": "EXZO / Robiniahout.be (Aalter)",
+    "naam": "EXZO",
     "provincie": "wvl",
     "grootte": "G",
     "lat": 51.0829,
     "lng": 3.4534,
     "webshop": "Ja",
-    "info": "⚠️ DIRECTE CONCURRENT. Specialist robinia + kastanje paardenomheiningen, weidepoorten, hekwerk. Post & Rail. Webshop + showroom. 📍 Leon Bekaertlaan 3E, 9880 Aalter 📞 +32 (0)9 292 73 03 📧 info@robiniahout.be 🌐 www.robiniahout.be | www.ecohout.be",
+    "info": "Specialist robinia + kastanje paardenomheiningen, weidepoorten, hekwerk. Post & Rail. Webshop + showroom. 📍 Leon Bekaertlaan 3E, 9880 Aalter 📞 +32 (0)9 292 73 03 📧 info@robiniahout.be 🌐 www.robiniahout.be | www.ecohout.be",
     "btw": "BE 0688.738.206",
     "adres": "Léon Bekaertlaan 3E, 9880 Aalter",
     "rechtsvorm": "BV",
@@ -3964,28 +3899,6 @@
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 26,
     "website": "www.naturae.be"
-  },
-  {
-    "naam": "Agrodieren.be (Beernem) — paardenomheining",
-    "provincie": "wvl",
-    "grootte": "G",
-    "lat": 51.1269,
-    "lng": 3.2993,
-    "webshop": "Ja",
-    "info": "Ruim gamma paardenomheiningen: Cambridge, Manchester, Oxford, Bristol, York, Kensington, Westminster. Kastanje + robinia + geïmpregneerd grenen. Weidepoorten galvanisatie 1–6m. 📍 Beernem 🌐 www.agrodieren.be",
-    "activiteiten": [
-      "paarden",
-      "agro",
-      "dhz",
-      "online"
-    ],
-    "rijtijd_hertsberge": 8,
-    "rijtijd_drongen": 20,
-    "website": "www.agrodieren.be",
-    "btw": "BE0417.360.019",
-    "medewerkers": "~50",
-    "oprichting": "1977",
-    "adres": "Wellingstraat 109, 8730 Beernem"
   },
   {
     "naam": "Palenperpak (online B2B België)",
@@ -4102,13 +4015,13 @@
     "website": "tuinweelde.be"
   },
   {
-    "naam": "Agrodieren.be (Beernem) — volledig profiel",
+    "naam": "Agrodieren.be",
     "provincie": "wvl",
     "grootte": "G",
     "lat": 51.1269,
     "lng": 3.2993,
     "webshop": "Ja",
-    "info": "⚠️ DIRECTE CONCURRENT. Paardenomheiningen Cambridge/Manchester/York/Kensington, weidepoorten 1-6m galvanisatie, houten palen, tuinschermen, stro/hooi. 20.000+ klanten. Webshop + fysieke winkel. 📍 Beernem 🌐 www.agrodieren.be",
+    "info": "Paardenomheiningen Cambridge/Manchester/York/Kensington, weidepoorten 1-6m galvanisatie, houten palen, tuinschermen, stro/hooi. 20.000+ klanten. Webshop + fysieke winkel. 📍 Beernem 🌐 www.agrodieren.be",
     "activiteiten": [
       "paarden",
       "agro",
@@ -4451,7 +4364,7 @@
     "lat": 50.937,
     "lng": 4.038,
     "webshop": "Nee",
-    "info": "Houthandel. Aalst. ⚠️ Activiteiten stopgezet jan 2023.",
+    "info": "Houthandel. Aalst. Activiteiten stopgezet jan 2023.",
     "activiteiten": [
       "houthandel"
     ],
@@ -7704,11 +7617,13 @@
     "naam": "Durafence / Peter Müller",
     "provincie": "lui",
     "grootte": "K",
-    "lat": 50.3500,
+    "lat": 50.35,
     "lng": 6.1833,
     "webshop": "Nee",
     "info": "Paardenomheiningen in hout, gespecialiseerd in post-and-rail systemen. Duitstalig België.",
-    "activiteiten": ["paarden"],
+    "activiteiten": [
+      "paarden"
+    ],
     "btw": "BE0414.736.663",
     "website": "durafence.be",
     "adres": "Zur Morsheck 49, 4770 Möderscheid (Amel)"
@@ -7721,7 +7636,10 @@
     "lng": 4.0333,
     "webshop": "Nee",
     "info": "Houten omheiningen, paardenstallen en bijgebouwen. Kastanjehout specialist.",
-    "activiteiten": ["paarden", "tuinhuis"],
+    "activiteiten": [
+      "paarden",
+      "tuinhuis"
+    ],
     "btw": "BE0841.894.771",
     "website": "natuurhout.be",
     "adres": "Adolf Van Der Moerenstraat 39, 9240 Zele"
@@ -7734,7 +7652,10 @@
     "lng": 2.9667,
     "webshop": "Nee",
     "info": "Houten paardenomheiningen, draadafsluitingen, poorten. Plaatsing en levering.",
-    "activiteiten": ["paarden", "agro"],
+    "activiteiten": [
+      "paarden",
+      "agro"
+    ],
     "btw": "BE0894.671.184",
     "website": "afsluitingenvaneecke.be",
     "adres": "Amersveldestraat 177A, 8610 Handzame (Kortemark)"
@@ -7747,7 +7668,10 @@
     "lng": 3.7833,
     "webshop": "Nee",
     "info": "Houten afsluitingen, paardenomheiningen, tuinconstructies. Familiebedrijf.",
-    "activiteiten": ["paarden", "agro"],
+    "activiteiten": [
+      "paarden",
+      "agro"
+    ],
     "btw": "BE0842.612.769",
     "website": "",
     "adres": "Pelgrimsweg 1, 9620 Zottegem"
@@ -7756,11 +7680,14 @@
     "naam": "Schuilhokken.be",
     "provincie": "wvl",
     "grootte": "K",
-    "lat": 50.8500,
+    "lat": 50.85,
     "lng": 3.4667,
     "webshop": "Nee",
     "info": "Schuilhokken, paardenstallen, houten omheiningen. Ook tuinhuizen en carports.",
-    "activiteiten": ["paarden", "tuinhuis"],
+    "activiteiten": [
+      "paarden",
+      "tuinhuis"
+    ],
     "btw": "",
     "website": "schuilhokken.be",
     "adres": "Astweg 2, 8570 Anzegem"
@@ -7773,7 +7700,10 @@
     "lng": 5.2333,
     "webshop": "Ja",
     "info": "Breed assortiment omheiningen incl. houten paardenafsluitingen. Webshop aanwezig.",
-    "activiteiten": ["paarden", "agro"],
+    "activiteiten": [
+      "paarden",
+      "agro"
+    ],
     "btw": "BE0463.744.033",
     "website": "draadmagazijn.be",
     "adres": "De Weven 11, 3583 Paal-Beringen"

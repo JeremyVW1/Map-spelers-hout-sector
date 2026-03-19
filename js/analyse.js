@@ -139,10 +139,6 @@ function renderAnalyse() {
       ? `<a href="https://jaarrekening.be/nl/be/${c.btw.replace(/[^0-9]/g, '')}" target="_blank" rel="noopener">${c.btw}</a>`
       : "";
 
-    // Markeer waarschuwingen
-    const hasWarning = (c.info || "").includes("⚠️");
-    if (hasWarning) tr.classList.add("row-warning");
-
     // Gecombineerde score: gemiddelde rijtijd van beide vestigingen (lager = beter voor beide)
     const rH = c.rijtijd_hertsberge;
     const rD = c.rijtijd_drongen;
