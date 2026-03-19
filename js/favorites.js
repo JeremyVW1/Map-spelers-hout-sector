@@ -22,7 +22,7 @@ async function loadFavorites() {
   updateFavCount();
 }
 
-async function toggleFavorite(company) {
+function toggleFavorite(company) {
   const naam = company.naam;
   const wasActive = favorites.has(naam);
 
@@ -35,42 +35,29 @@ async function toggleFavorite(company) {
   // Update localStorage
   localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
 
-  // Sync naar Google Sheets
-  if (SHEET_SCRIPT_URL) {
-    try {
-      await fetch(SHEET_SCRIPT_URL, {
-        method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          action: wasActive ? "remove" : "add",
-          naam: company.naam,
-          provincie: PROV_LABELS[company.provincie] || company.provincie,
-          activiteiten: (company.activiteiten || []).map(a => categorieen.find(x => x.id === a)?.label || a).join(", "),
-          grootte: { G: "Groot", M: "Middelgroot", K: "Klein" }[company.grootte] || "",
-          adres: company.adres || "",
-          btw: company.btw || "",
-          website: company.website || "",
-          rijtijd_hertsberge: company.rijtijd_hertsberge != null ? company.rijtijd_hertsberge : "",
-          rijtijd_drongen: company.rijtijd_drongen != null ? company.rijtijd_drongen : "",
-        }),
-      });
-    } catch (e) { /* no-cors geeft altijd opaque response */ }
-  }
-
-  // Update UI — ster direct geel/grijs maken
+  // UI direct updaten — niet wachten op fetch
   updateStarButtons(naam);
   updateFavCount();
 
-  // Marker icon updaten zonder popup te sluiten
-  const openMarker = markers.find(m => m.isPopupOpen());
-  if (openMarker) {
-    const c = bedrijven.find(b => b.naam === naam);
-    if (c) {
-      const col = getActivityColor(c);
-      const r = GROOTTE_RADIUS[c.grootte] || 7;
-      openMarker.setIcon(makeIcon(col, r, c.grootte === "G", isFavorite(naam)));
-    }
+  // Sync naar Google Sheets op achtergrond (fire-and-forget)
+  if (SHEET_SCRIPT_URL) {
+    fetch(SHEET_SCRIPT_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        action: wasActive ? "remove" : "add",
+        naam: company.naam,
+        provincie: PROV_LABELS[company.provincie] || company.provincie,
+        activiteiten: (company.activiteiten || []).map(a => categorieen.find(x => x.id === a)?.label || a).join(", "),
+        grootte: { G: "Groot", M: "Middelgroot", K: "Klein" }[company.grootte] || "",
+        adres: company.adres || "",
+        btw: company.btw || "",
+        website: company.website || "",
+        rijtijd_hertsberge: company.rijtijd_hertsberge != null ? company.rijtijd_hertsberge : "",
+        rijtijd_drongen: company.rijtijd_drongen != null ? company.rijtijd_drongen : "",
+      }),
+    }).catch(() => {});
   }
 }
 

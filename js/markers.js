@@ -123,7 +123,11 @@ function render() {
       .bindPopup(buildPopup(c), { maxWidth: 300 });
     m.on("popupopen", () => {
       const btn = document.querySelector(".leaflet-popup .star-btn");
-      if (btn) btn.addEventListener("click", () => toggleFavorite(c));
+      if (btn) btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        toggleFavorite(c);
+      });
     });
     markers.push(m);
   });
