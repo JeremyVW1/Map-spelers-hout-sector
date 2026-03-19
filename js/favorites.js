@@ -58,12 +58,14 @@ async function toggleFavorite(company) {
     } catch (e) { /* no-cors geeft altijd opaque response */ }
   }
 
-  // Update UI
+  // Update UI — ster direct geel/grijs maken
   updateStarButtons(naam);
   updateFavCount();
   renderFavorieten();
   renderAnalyse();
-  render(); // Update goud randje op kaart
+
+  // Goud randje pas updaten als popup dicht is (anders sluit popup)
+  map.once("popupclose", () => render());
 }
 
 function isFavorite(naam) {
