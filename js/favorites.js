@@ -61,11 +61,17 @@ async function toggleFavorite(company) {
   // Update UI — ster direct geel/grijs maken
   updateStarButtons(naam);
   updateFavCount();
-  renderFavorieten();
-  renderAnalyse();
 
-  // Goud randje pas updaten als popup dicht is (anders sluit popup)
-  map.once("popupclose", () => render());
+  // Marker icon updaten zonder popup te sluiten
+  const openMarker = markers.find(m => m.isPopupOpen());
+  if (openMarker) {
+    const c = bedrijven.find(b => b.naam === naam);
+    if (c) {
+      const col = getActivityColor(c);
+      const r = GROOTTE_RADIUS[c.grootte] || 7;
+      openMarker.setIcon(makeIcon(col, r, c.grootte === "G", isFavorite(naam)));
+    }
+  }
 }
 
 function isFavorite(naam) {
