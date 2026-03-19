@@ -220,7 +220,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 19,
-    "rijtijd_drongen": 32
+    "rijtijd_drongen": 32,
+    "btw": "BE0424.964.621",
+    "website": "houtmarkt.be"
   },
   {
     "naam": "Woodcenter",
@@ -337,7 +339,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "medewerkers": "3 FTE",
+    "oprichting": "1895",
+    "website": "houtverwee.be"
   },
   {
     "naam": "Tieltse Houthandel",
@@ -485,7 +490,9 @@
     "rechtsvorm": "NV",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "medewerkers": "3 FTE",
+    "website": "houthandelmarcellose.be"
   },
   {
     "naam": "Lagae Hout",
@@ -589,7 +596,7 @@
     "lng": 3.4648,
     "webshop": "Ja",
     "info": "Ecologisch hardhout, FSC, thermohout, paardenomheiningen robinia/kastanje. Importeur + groothandel. Webshop. Onderdeel van EXZO. 📍 Aalter 📞 09 311 00 94 🌐 www.ecohout.be",
-    "btw": null,
+    "btw": "BE0688.738.206",
     "adres": "Aalter",
     "groep": "EXZO BV",
     "groep_btw": "BE 0688.738.206",
@@ -638,7 +645,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 16
+    "rijtijd_drongen": 16,
+    "omzet": "€14,5 mln",
+    "medewerkers": "33 FTE",
+    "oprichting": "1991",
+    "website": "houtboerke.be"
   },
   {
     "naam": "Cras Woodshops Zottegem",
@@ -2088,7 +2099,10 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "btw": "BE0421.140.049",
+    "medewerkers": "8 FTE",
+    "website": "janssensenjanssens.com"
   },
   {
     "naam": "Janssens & Janssens (Oudenaarde)",
@@ -2105,7 +2119,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 48,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "btw": "BE0421.140.049",
+    "medewerkers": "8 FTE",
+    "website": "janssensenjanssens.com"
   },
   {
     "naam": "De Meyer Outdoor Living (Evergem)",
@@ -2185,7 +2202,10 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "btw": "BE0421.140.049",
+    "medewerkers": "8 FTE",
+    "website": "janssensenjanssens.com"
   },
   {
     "naam": "Janssens & Janssens (Turnhout)",
@@ -2201,7 +2221,10 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "btw": "BE0421.140.049",
+    "medewerkers": "8 FTE",
+    "website": "janssensenjanssens.com"
   },
   {
     "naam": "Janssens-Govaerts (Turnhout)",
@@ -3116,7 +3139,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 41,
-    "rijtijd_drongen": 38
+    "rijtijd_drongen": 38,
+    "medewerkers": "3 FTE",
+    "oprichting": "1895",
+    "website": "houtverwee.be"
   },
   {
     "naam": "DB Hardwoods (Ledegem)",
@@ -3149,7 +3175,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 42,
-    "rijtijd_drongen": 38
+    "rijtijd_drongen": 38,
+    "medewerkers": "3 FTE",
+    "website": "houthandelmarcellose.be"
   },
   {
     "naam": "Houthandel Vanhaverbeke (Izegem)",
@@ -3258,7 +3286,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 19,
-    "rijtijd_drongen": 33
+    "rijtijd_drongen": 33,
+    "btw": "BE0424.964.621",
+    "website": "houtmarkt.be"
   },
   {
     "naam": "Huys Houthandel (Brugge)",
@@ -3411,7 +3441,9 @@
     ],
     "btw": "BE 0414.807.335",
     "adres": "Zandstraat 210, 8200 Brugge",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "medewerkers": "3 FTE",
+    "website": "houthandelmarcellose.be"
   },
   {
     "naam": "Eurowood (Wielsbeke)",
@@ -4517,7 +4549,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 13
+    "rijtijd_drongen": 13,
+    "btw": "BE0405.350.825",
+    "medewerkers": "70 FTE",
+    "oprichting": "1911",
+    "website": "lemahieu.be"
   },
   {
     "naam": "Nieuwparket (Knesselare)",
@@ -6119,7 +6155,10 @@
     ],
     "adres": "Eeklo",
     "rijtijd_hertsberge": 33,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "btw": "BE0414.308.180",
+    "medewerkers": "21 FTE",
+    "website": "fore.be"
   },
   {
     "naam": "COnect Woodbelievers (Oudenaarde)",
