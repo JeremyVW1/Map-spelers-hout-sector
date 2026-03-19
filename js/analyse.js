@@ -153,6 +153,8 @@ function renderTop15() {
             <th>Adres</th>
             <th>BTW</th>
             <th>Website</th>
+            <th>🚗 H</th>
+            <th>🚗 D</th>
             <th>Digitaal</th>
             <th>Beoordeling</th>
             <th>Notes</th>
@@ -186,6 +188,8 @@ function renderTop15() {
         <td class="td-adres">${c.adres}</td>
         <td class="td-btw">${btwLink}</td>
         <td class="td-web">${webLink}</td>
+        <td class="td-num">${bedrijf && bedrijf.rijtijd_hertsberge != null ? bedrijf.rijtijd_hertsberge + "'" : "—"}</td>
+        <td class="td-num">${bedrijf && bedrijf.rijtijd_drongen != null ? bedrijf.rijtijd_drongen + "'" : "—"}</td>
         <td class="top15-digitaal">${c.digitaal}</td>
         <td class="top15-notitie">${c.notitie}</td>
         <td class="td-notes"><textarea class="fav-note top15-note" data-top15="${c.naam.replace(/"/g, "&quot;")}" placeholder="Notitie…">${favNotes["top15_" + c.naam] || ""}</textarea></td>
