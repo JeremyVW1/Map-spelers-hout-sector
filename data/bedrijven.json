@@ -3784,7 +3784,8 @@
     ],
     "rijtijd_hertsberge": 48,
     "rijtijd_drongen": 32,
-    "website": "www.tuinhuizenfabrikant.be"
+    "website": "www.tuinhuizenfabrikant.be",
+    "btw": "BE0770.017.276"
   },
   {
     "naam": "Goeminne Tuinhout (Dikkelvenne/Gavere)",
@@ -4450,10 +4451,11 @@
     "lat": 50.937,
     "lng": 4.038,
     "webshop": "Nee",
-    "info": "Houthandel. Aalst.",
+    "info": "Houthandel. Aalst. ⚠️ Activiteiten stopgezet jan 2023.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "btw": "BE0422.030.172"
   },
   {
     "naam": "Mannaert (Lebbeke)",
@@ -5390,6 +5392,7 @@
       "parket"
     ],
     "adres": "Mandelstraat 69, 8870 Izegem",
+    "btw": "BE0643.989.334",
     "rijtijd_hertsberge": 30,
     "rijtijd_drongen": 44
   },
@@ -5494,6 +5497,8 @@
       "parket"
     ],
     "adres": "Deinze",
+    "btw": "BE0885.358.986",
+    "website": "parketmatthys.com",
     "rijtijd_hertsberge": 32,
     "rijtijd_drongen": 16
   },
@@ -5741,6 +5746,8 @@
       "parket"
     ],
     "adres": "Bruggestraat 279, 8770 Ingelmunster",
+    "btw": "BE0667.888.847",
+    "website": "renovaparket.be",
     "rijtijd_hertsberge": 28,
     "rijtijd_drongen": 38
   },
@@ -5829,7 +5836,9 @@
     ],
     "adres": "Oostrozebeke",
     "rijtijd_hertsberge": 30,
-    "rijtijd_drongen": 35
+    "rijtijd_drongen": 35,
+    "btw": "BE0407.113.156",
+    "oprichting": "1970"
   },
   {
     "naam": "Multi Bazar (Pittem)",
@@ -5844,7 +5853,9 @@
       "parket",
       "houthandel"
     ],
-    "adres": "Pittem",
+    "adres": "Brugsesteenweg 201, 8740 Pittem",
+    "btw": "BE0447.077.057",
+    "website": "multibazar.be",
     "rijtijd_hertsberge": 21,
     "rijtijd_drongen": 30
   },
@@ -5860,6 +5871,9 @@
       "parket"
     ],
     "adres": "Ingelmunster",
+    "btw": "BE0476.545.063",
+    "oprichting": "2001",
+    "website": "stovedecor.be",
     "rijtijd_hertsberge": 32,
     "rijtijd_drongen": 41
   },
@@ -5927,7 +5941,8 @@
     ],
     "adres": "Gent",
     "rijtijd_hertsberge": 34,
-    "rijtijd_drongen": 11
+    "rijtijd_drongen": 11,
+    "website": "mbc-vloeren.be"
   },
   {
     "naam": "Declerck Luc (Zomergem/Lievegem)",
@@ -5941,7 +5956,10 @@
       "houthandel",
       "parket"
     ],
-    "adres": "Zomergem",
+    "adres": "Stoktevijver 57C, 9932 Lievegem",
+    "btw": "BE0440.536.287",
+    "oprichting": "1990",
+    "website": "tegels-declerck.be",
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 18
   },
@@ -6042,8 +6060,11 @@
       "parket"
     ],
     "adres": "Nijverheidsstraat 32, 8760 Meulebeke",
+    "btw": "BE0870.825.517",
+    "oprichting": "2004",
     "rijtijd_hertsberge": 26,
-    "rijtijd_drongen": 33
+    "rijtijd_drongen": 33,
+    "website": "parketfldecor.be"
   },
   {
     "naam": "Dan-Parket (Izegem)",
@@ -6058,7 +6079,8 @@
     ],
     "adres": "Izegem",
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 44
+    "rijtijd_drongen": 44,
+    "btw": "BE0837.532.840"
   },
   {
     "naam": "Houtstudio (Roeselare)",
@@ -6150,7 +6172,11 @@
     ],
     "adres": "Moerkerke, 8340 Damme",
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 38
+    "rijtijd_drongen": 38,
+    "btw": "BE0812.053.613",
+    "oprichting": "2009",
+    "medewerkers": "5",
+    "website": "parketbedrijf-cornilly.be"
   },
   {
     "naam": "Vermeylen Parket (Westrozebeke)",
@@ -6179,7 +6205,10 @@
     ],
     "adres": "Gits, 8830 Hooglede",
     "rijtijd_hertsberge": 28,
-    "rijtijd_drongen": 44
+    "rijtijd_drongen": 44,
+    "btw": "BE0461.766.520",
+    "oprichting": "1997",
+    "medewerkers": "1-4"
   },
   {
     "naam": "Kurk en Parket Hoorewege (Aalter)",
@@ -6194,7 +6223,8 @@
     ],
     "adres": "Lostraat 17, 9880 Aalter",
     "rijtijd_hertsberge": 19,
-    "rijtijd_drongen": 14
+    "rijtijd_drongen": 14,
+    "website": "hoorewege.be"
   },
   {
     "naam": "Foré NV (Eeklo)",
@@ -6393,7 +6423,10 @@
     ],
     "adres": "Waregem",
     "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "btw": "BE0840.117.394",
+    "oprichting": "2011",
+    "website": "oakwoodprojects.be"
   },
   {
     "naam": "Tuinen Huyghe (Roeselare regio)",
@@ -6407,7 +6440,9 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "Roeselare",
+    "adres": "Roeselarestraat 15, 8920 Langemark",
+    "btw": "BE0821.463.702",
+    "website": "tuinenhuyghe.be",
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 44
   },
@@ -6424,7 +6459,8 @@
     ],
     "adres": "Torhout",
     "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 35
+    "rijtijd_drongen": 35,
+    "website": "decotuin.be"
   },
   {
     "naam": "Cornelis Hout (Evergem)",
@@ -6675,6 +6711,9 @@
       "terrassen"
     ],
     "adres": "Baliebrugstraat 10, 8020 Ruddervoorde",
+    "btw": "BE0673.191.381",
+    "oprichting": "1988",
+    "website": "marnixverkain.be",
     "rijtijd_hertsberge": 11,
     "rijtijd_drongen": 27
   },
@@ -6718,6 +6757,8 @@
       "terrassen"
     ],
     "adres": "Albert Serreynstraat 17, 8200 Sint-Andries",
+    "btw": "BE0761.356.166",
+    "website": "tuinendesoete.be",
     "rijtijd_hertsberge": 14,
     "rijtijd_drongen": 27
   },
@@ -6749,7 +6790,9 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "Zedelgem",
+    "adres": "Vlinderbeekstraat 2, 8880 Sint-Eloois-Winkel",
+    "btw": "BE0878.594.029",
+    "website": "tuinen-vandemaele.be",
     "rijtijd_hertsberge": 19,
     "rijtijd_drongen": 32
   },
@@ -6809,6 +6852,9 @@
       "houthandel"
     ],
     "adres": "Sint-Godelievestraat 26, 9880 Aalter",
+    "btw": "BE0648.552.391",
+    "oprichting": "2002",
+    "website": "steyaertmeubelen.be",
     "rijtijd_hertsberge": 19,
     "rijtijd_drongen": 14
   },
@@ -6872,7 +6918,8 @@
     ],
     "adres": "Noorwegenstraat 22, 9940 Evergem",
     "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 16
+    "rijtijd_drongen": 16,
+    "website": "moduus.be"
   },
   {
     "naam": "Tuincenter De Stercke (Lochristi)",
@@ -6886,6 +6933,8 @@
       "tuinhuis"
     ],
     "adres": "Antwerpse Steenweg 21a, 9080 Lochristi",
+    "btw": "BE0425.069.638",
+    "website": "tuincenterdestercke.be",
     "rijtijd_hertsberge": 44,
     "rijtijd_drongen": 24
   },
