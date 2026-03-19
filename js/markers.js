@@ -7,9 +7,9 @@ function makeIcon(col, r, isGroot, isFav) {
   const ring = isGroot
     ? `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 4}" fill="none" stroke="${col}" stroke-width="1.5" opacity="0.28"/>`
     : "";
-  const stroke = isFav ? "#f9a825" : "white";
+  const stroke  = isFav ? "#f9a825" : "white";
   const strokeW = isFav ? 2.5 : 1.8;
-  const glow = isFav ? `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#f9a825" stroke-width="1.5" opacity="0.5"/>` : "";
+  const glow    = isFav ? `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#f9a825" stroke-width="1.5" opacity="0.5"/>` : "";
   return L.divIcon({
     html: `<svg xmlns="http://www.w3.org/2000/svg" width="${s}" height="${s}">${ring}${glow}<circle cx="${s / 2}" cy="${s / 2}" r="${r}" fill="${col}" stroke="${stroke}" stroke-width="${strokeW}" opacity="0.93"/></svg>`,
     className: "", iconSize: [s, s], iconAnchor: [s / 2, s / 2],
@@ -17,19 +17,21 @@ function makeIcon(col, r, isGroot, isFav) {
 }
 
 function buildPopup(c) {
-  const col = getActivityColor(c);
-  const provLabel = PROV_LABELS[c.provincie] || c.provincie;
-  const sizeLabel = GROOTTE_LABELS[c.grootte] || "Onbekend";
+  const col       = getActivityColor(c);
+  const prov      = provLabel(c);
+  const sizeText  = GROOTTE_LABELS[c.grootte] || "Onbekend";
+  const acts      = c.activiteiten || [];
+  const actFirst  = acts.length > 0 ? (categorieen.find(cat => cat.id === acts[0])?.label || acts[0]) : "Onbekend";
+  const allActs   = actLabels(c);
 
-  // Contactgegevens uit info-veld extraheren (legacy)
+  // Contactgegevens uit info-veld (legacy)
   let info = c.info || "";
   let tel = "", mail = "";
-  const telMatch = info.match(/📞\s*([^\s📧🌐]+)/);
+  const telMatch  = info.match(/📞\s*([^\s📧🌐]+)/);
   const mailMatch = info.match(/📧\s*([^\s📞🌐]+)/);
-  if (telMatch) tel = telMatch[1].trim();
+  if (telMatch)  tel  = telMatch[1].trim();
   if (mailMatch) mail = mailMatch[1].trim();
 
-  // Strip contactdata uit info
   info = info
     .replace(/📍[^📞📧🌐]*/g, "").replace(/📞[^\s📧🌐]*/g, "")
     .replace(/📧[^\s📞🌐]*/g, "").replace(/🌐[^\s📞📧]*/g, "")
@@ -37,42 +39,41 @@ function buildPopup(c) {
     .replace(/\S+@\S+\.\S+/g, "").replace(/(?:https?:\/\/)?(?:www\.)\S+/gi, "")
     .replace(/\s*\|\s*/g, " ").replace(/\s{2,}/g, " ").trim();
 
-  const adres = c.adres || "";
+  const adres   = c.adres || "";
   const website = c.website || "";
-
-  // Activiteiten
-  const acts = c.activiteiten || [];
-  const actLabel = acts.length > 0 ? (categorieen.find(cat => cat.id === acts[0])?.label || acts[0]) : "Onbekend";
-  const allActLabels = acts.map(a => categorieen.find(cat => cat.id === a)?.label || a);
 
   // Contactblok
   let contactHtml = '<div class="popup-contact">';
-  if (adres) {
-    contactHtml += `<a href="https://www.google.com/maps/search/${encodeURIComponent(adres + ", België")}" target="_blank" rel="noopener" class="popup-link">📍 ${adres}</a>`;
-  }
-  if (tel) {
-    contactHtml += `<a href="tel:${tel.replace(/[^+\d]/g, "")}" class="popup-link">📞 ${tel}</a>`;
-  }
-  if (website) {
-    const url = website.startsWith("http") ? website : "https://" + website;
-    contactHtml += `<a href="${url}" target="_blank" rel="noopener" class="popup-link">🌐 ${website}</a>`;
-  }
+  if (adres)   contactHtml += `<a href="https://www.google.com/maps/search/${encodeURIComponent(adres + ", België")}" target="_blank" rel="noopener" class="popup-link">📍 ${escHtml(adres)}</a>`;
+  if (tel)     contactHtml += `<a href="tel:${tel.replace(/[^+\d]/g, "")}" class="popup-link">📞 ${escHtml(tel)}</a>`;
+  if (website) { const url = website.startsWith("http") ? website : "https://" + website; contactHtml += `<a href="${url}" target="_blank" rel="noopener" class="popup-link">🌐 ${escHtml(website)}</a>`; }
   contactHtml += "</div>";
 
   // Verrijkte bedrijfsdata
   let enrichHtml = "";
   if (c.btw || c.omzet || c.medewerkers || c.oprichting) {
     enrichHtml = '<div class="popup-enrich">';
-    if (c.groep) enrichHtml += `<b>Groep:</b> ${c.groep}<br>`;
-    if (c.btw) enrichHtml += `<b>BTW:</b> ${c.btw}<br>`;
-    if (c.omzet) enrichHtml += `<b>Omzet:</b> ${c.omzet}<br>`;
-    if (c.medewerkers) enrichHtml += `<b>Werknemers:</b> ${c.medewerkers}<br>`;
-    if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${c.oprichting}<br>`;
-    if (c.rechtsvorm) enrichHtml += `<b>Vorm:</b> ${c.rechtsvorm}<br>`;
-    if (c.btw) {
-      enrichHtml += `<a href="https://www.companyweb.be/nl/${c.btw.replace(/[^0-9]/g, "")}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 Jaarrekeningen bekijken</a>`;
-    }
+    if (c.groep)      enrichHtml += `<b>Groep:</b> ${escHtml(c.groep)}<br>`;
+    if (c.btw)        enrichHtml += `<b>BTW:</b> ${escHtml(c.btw)}<br>`;
+    if (c.omzet)      enrichHtml += `<b>Omzet:</b> ${escHtml(c.omzet)}<br>`;
+    if (c.medewerkers) enrichHtml += `<b>Werknemers:</b> ${escHtml(c.medewerkers)}<br>`;
+    if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${escHtml(c.oprichting)}<br>`;
+    if (c.rechtsvorm) enrichHtml += `<b>Vorm:</b> ${escHtml(c.rechtsvorm)}<br>`;
+    if (c.btw)        enrichHtml += `<a href="https://www.companyweb.be/nl/${c.btw.replace(/[^0-9]/g, "")}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 Jaarrekeningen bekijken</a>`;
     enrichHtml += "</div>";
+  }
+
+  // CompanyWeb financieel
+  let finHtml = "";
+  if (c.cw_brutomarge != null || c.cw_omzet != null || c.cw_winst != null || c.cw_fte != null) {
+    const yr = c.cw_jaar ? ` (${c.cw_jaar})` : "";
+    finHtml = `<div class="popup-financials">
+      <div class="popup-fin-title">📊 Financieel${yr}</div>
+      ${c.cw_omzet != null      ? `<span class="popup-fin-item"><b>Omzet:</b> ${fmtK(c.cw_omzet)}</span>` : ""}
+      ${c.cw_brutomarge != null  ? `<span class="popup-fin-item"><b>Brutomarge:</b> ${fmtK(c.cw_brutomarge)}</span>` : ""}
+      ${c.cw_winst != null       ? `<span class="popup-fin-item"><b>Winst:</b> <span class="${c.cw_winst >= 0 ? "fin-pos" : "fin-neg"}">${fmtK(c.cw_winst)}</span></span>` : ""}
+      ${c.cw_fte != null         ? `<span class="popup-fin-item"><b>Personeel:</b> ${c.cw_fte} FTE</span>` : ""}
+    </div>`;
   }
 
   // Rijtijden
@@ -86,23 +87,24 @@ function buildPopup(c) {
   }
 
   const starClass = isFavorite(c.naam) ? "starred" : "";
-  const starChar = isFavorite(c.naam) ? "★" : "☆";
+  const starChar  = isFavorite(c.naam) ? "★" : "☆";
 
   return `
     <div class="popup-header-row">
       <div>
-        <span class="popup-badge" style="background:${col}">${actLabel}</span>
-        <span class="popup-prov">${provLabel}</span>
+        <span class="popup-badge" style="background:${col}">${escHtml(actFirst)}</span>
+        <span class="popup-prov">${escHtml(prov)}</span>
       </div>
-      <button class="star-btn ${starClass}" data-naam="${c.naam.replace(/"/g, "&quot;")}" title="Favoriet">${starChar}</button>
+      <button class="star-btn ${starClass}" data-naam="${escHtml(c.naam)}" title="Favoriet">${starChar}</button>
     </div>
-    <span class="popup-name">${c.naam}</span>
-    ${info ? `<span class="popup-info">${info}</span>` : ""}
-    ${acts.length > 1 ? `<span class="popup-acts">📋 ${allActLabels.join(", ")}</span>` : ""}
+    <span class="popup-name">${escHtml(c.naam)}</span>
+    ${info ? `<span class="popup-info">${escHtml(info)}</span>` : ""}
+    ${acts.length > 1 ? `<span class="popup-acts">📋 ${escHtml(allActs.join(", "))}</span>` : ""}
     ${contactHtml}
     ${enrichHtml}
+    ${finHtml}
     ${rijtijdHtml}
-    <span class="popup-size ${c.grootte}">${sizeLabel}</span>
+    <span class="popup-size ${c.grootte}">${escHtml(sizeText)}</span>
   `;
 }
 
@@ -117,10 +119,11 @@ function render() {
 
   getVisibleCompanies().forEach(c => {
     const col = getActivityColor(c);
-    const r = GROOTTE_RADIUS[c.grootte] || 7;
-    const m = L.marker([c.lat, c.lng], { icon: makeIcon(col, r, c.grootte === "G", isFavorite(c.naam)) })
+    const r   = GROOTTE_RADIUS[c.grootte] || 7;
+    const m   = L.marker([c.lat, c.lng], { icon: makeIcon(col, r, c.grootte === "Groot", isFavorite(c.naam)) })
       .addTo(map)
       .bindPopup(buildPopup(c), { maxWidth: 300 });
+
     m.on("popupopen", () => {
       const btn = document.querySelector(".leaflet-popup .star-btn");
       if (btn) btn.addEventListener("click", (e) => {

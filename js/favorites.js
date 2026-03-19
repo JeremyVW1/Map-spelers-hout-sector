@@ -1,97 +1,89 @@
-/* Houtkaart — Favorieten (sterretjes) → Google Sheets sync */
+/* Houtkaart — Favorieten (sterretjes) + Google Sheets sync */
 
 const SHEET_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyWtnahLygglfAqkJoygx2yJwV9ZkfENq2zJqX9ZWYBHvtWnWhyNwfrVATTS-NMlDZa/exec";
 
-let favorites = new Set(); // Set van bedrijfsnamen
-let favNotes = {}; // { bedrijfsnaam: "notitie tekst" }
+let favorites = new Set();
+let favNotes  = {};
+let favNotesVincent = {};
 
 function loadNotes() {
   try { favNotes = JSON.parse(localStorage.getItem("houtkaart_notes") || "{}"); } catch { favNotes = {}; }
+  try { favNotesVincent = JSON.parse(localStorage.getItem("houtkaart_notes_vincent") || "{}"); } catch { favNotesVincent = {}; }
 }
 
-function saveNote(naam, text) {
-  favNotes[naam] = text;
-  localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
-  // Sync note naar Google Sheets
+function saveNote(naam, text, who) {
+  if (who === "vincent") {
+    favNotesVincent[naam] = text;
+    localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
+  } else {
+    favNotes[naam] = text;
+    localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
+  }
   if (SHEET_SCRIPT_URL) {
     fetch(SHEET_SCRIPT_URL, {
-      method: "POST",
-      mode: "no-cors",
+      method: "POST", mode: "no-cors",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "update_note", naam, notes: text }),
+      body: JSON.stringify({ action: "update_note", naam, notes: favNotes[naam] || "", notes_vincent: favNotesVincent[naam] || "" }),
     }).catch(() => {});
   }
 }
 
 async function loadFavorites() {
-  // Altijd localStorage laden als basis
   const stored = localStorage.getItem("houtkaart_favs");
   if (stored) favorites = new Set(JSON.parse(stored));
   loadNotes();
 
-  // Als Sheets script geconfigureerd is, ook daar van laden
   if (SHEET_SCRIPT_URL) {
     try {
-      const res = await fetch(SHEET_SCRIPT_URL);
+      const res  = await fetch(SHEET_SCRIPT_URL);
       const data = await res.json();
-      favorites = new Set(data.map(r => r.naam));
+      favorites  = new Set(data.map(r => r.naam));
       localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
-    } catch (e) { /* localStorage fallback is al geladen */ }
+    } catch { /* localStorage fallback is al geladen */ }
   }
-
   updateFavCount();
 }
 
 function toggleFavorite(company) {
-  const naam = company.naam;
+  const naam     = company.naam;
   const wasActive = favorites.has(naam);
 
-  if (wasActive) {
-    favorites.delete(naam);
-  } else {
-    favorites.add(naam);
-  }
-
-  // Update localStorage
+  wasActive ? favorites.delete(naam) : favorites.add(naam);
   localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
 
-  // UI direct updaten — niet wachten op fetch
   updateStarButtons(naam);
   updateFavCount();
 
-  // Sync naar Google Sheets op achtergrond (fire-and-forget)
   if (SHEET_SCRIPT_URL) {
     fetch(SHEET_SCRIPT_URL, {
-      method: "POST",
-      mode: "no-cors",
+      method: "POST", mode: "no-cors",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         action: wasActive ? "remove" : "add",
         naam: company.naam,
-        provincie: PROV_LABELS[company.provincie] || company.provincie,
-        activiteiten: (company.activiteiten || []).map(a => categorieen.find(x => x.id === a)?.label || a).join(", "),
-        grootte: { G: "Groot", M: "Middelgroot", K: "Klein" }[company.grootte] || "",
+        provincie: provLabel(company),
+        activiteiten: actLabel(company),
+        grootte: GROOTTE_LONG[company.grootte] || "",
         adres: company.adres || "",
         btw: company.btw || "",
         website: company.website || "",
         rijtijd_hertsberge: company.rijtijd_hertsberge != null ? company.rijtijd_hertsberge : "",
         rijtijd_drongen: company.rijtijd_drongen != null ? company.rijtijd_drongen : "",
         notes: favNotes[company.naam] || "",
+        notes_vincent: favNotesVincent[company.naam] || "",
       }),
     }).catch(() => {});
   }
 }
 
-function isFavorite(naam) {
-  return favorites.has(naam);
-}
+function isFavorite(naam)  { return favorites.has(naam); }
 
 function updateStarButtons(naam) {
   document.querySelectorAll(`.star-btn[data-naam="${CSS.escape(naam)}"]`).forEach(btn => {
     const active = isFavorite(naam);
     btn.classList.toggle("starred", active);
     btn.innerHTML = active ? "★" : "☆";
-    btn.title = active ? "Verwijder uit favorieten" : "Voeg toe aan favorieten";
+    btn.title     = active ? "Verwijder uit favorieten" : "Voeg toe aan favorieten";
   });
 }
 
@@ -100,91 +92,71 @@ function updateFavCount() {
   if (el) el.textContent = favorites.size;
 }
 
-// Favorieten tab renderen
 function renderFavorieten() {
-  const tbody = document.getElementById("fav-tbody");
+  const tbody    = document.getElementById("fav-tbody");
   const emptyMsg = document.getElementById("fav-empty");
-  const table = document.getElementById("fav-table");
+  const table    = document.getElementById("fav-table");
   if (!tbody) return;
 
   const favData = bedrijven.filter(c => isFavorite(c.naam));
 
   emptyMsg.style.display = favData.length === 0 ? "block" : "none";
-  table.style.display = favData.length === 0 ? "none" : "";
+  table.style.display    = favData.length === 0 ? "none"  : "";
 
   tbody.innerHTML = "";
   favData.forEach(c => {
+    // Zoek top15-data voor extra velden (digitaal, notitie, est_ebitda, opgericht)
+    const t = top15.find(e => e.naam === c.naam || c.naam.startsWith(e.naam));
+
+    const starClass = isFavorite(c.naam) ? "starred" : "";
+    const starChar  = isFavorite(c.naam) ? "★" : "☆";
+    const btwLink   = c.btw ? btwLinkHtml(c) : "";
+    const webLink   = webLinkHtml(c);
+    const margeStr  = c.cw_brutomarge ? fmtK(c.cw_brutomarge) : (t && t.brutomarge ? fmtK(t.brutomarge) : "—");
+    const ebitda    = t ? escHtml(t.est_ebitda) : "—";
+    const fte       = c.cw_fte != null ? c.cw_fte : (t ? t.fte : "—");
+    const opgericht = t ? escHtml(t.opgericht || "—") : (c.oprichting ? escHtml(c.oprichting) : "—");
+    const digitaal  = t ? escHtml(t.digitaal) : "—";
+    const notitie   = t ? escHtml(t.notitie) : "—";
+    const actText   = t ? escHtml(t.activiteit) : escHtml(actLabel(c));
+
     const tr = document.createElement("tr");
-    const acts = (c.activiteiten || []).map(a => categorieen.find(cat => cat.id === a)?.label || a).join(", ");
-    const provLabel = PROV_LABELS[c.provincie] || c.provincie;
-    const sizeLabel = { G: "Groot", M: "Midden", K: "Klein" }[c.grootte] || "";
-    const webLink = c.website ? `<a href="${c.website.startsWith('http') ? c.website : 'https://' + c.website}" target="_blank" rel="noopener">${c.website}</a>` : "";
-    const btwLink = c.btw ? `<a href="https://www.companyweb.be/nl/${c.btw.replace(/[^0-9]/g, '')}" target="_blank" rel="noopener">${c.btw}</a>` : "";
-
-    const rH = c.rijtijd_hertsberge;
-    const rD = c.rijtijd_drongen;
-    let scoreText = "", scoreClass = "";
-    if (rH != null && rD != null) {
-      const gem = Math.round((rH + rD) / 2);
-      scoreText = `⌀ ${gem}'`;
-      if (gem <= 30) scoreClass = "score-top";
-      else if (gem <= 45) scoreClass = "score-good";
-      else if (gem <= 60) scoreClass = "score-ok";
-    }
-
     tr.innerHTML = `
-      <td class="td-star"><button class="star-btn starred" data-naam="${c.naam.replace(/"/g, "&quot;")}">★</button></td>
-      <td class="td-naam">${c.naam}</td>
-      <td>${provLabel}</td>
-      <td>${acts}</td>
-      <td><span class="size-badge ${c.grootte}">${sizeLabel}</span></td>
-      <td class="td-adres">${c.adres || ""}</td>
+      <td class="td-star"><button class="star-btn ${starClass}" data-naam="${escHtml(c.naam)}">${starChar}</button></td>
+      <td class="td-naam">${escHtml(c.naam)}</td>
+      <td>${actText}</td>
+      <td class="td-num">${margeStr}</td>
+      <td class="td-num top15-ebitda">${ebitda}</td>
+      <td class="td-num">${fte}</td>
+      <td>${opgericht}</td>
+      <td class="td-adres">${escHtml(c.adres || "")}</td>
       <td class="td-btw">${btwLink}</td>
       <td class="td-web">${webLink}</td>
-      <td class="td-num">${rH != null ? rH + "'" : ""}</td>
-      <td class="td-num">${rD != null ? rD + "'" : ""}</td>
-      <td class="td-num td-dichtste ${scoreClass}">${scoreText}</td>
-      <td class="td-notes"><textarea class="fav-note" data-naam="${c.naam.replace(/"/g, "&quot;")}" placeholder="Notitie…">${favNotes[c.naam] || ""}</textarea></td>
+      <td class="td-num">${c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge + "'" : "—"}</td>
+      <td class="td-num">${c.rijtijd_drongen != null ? c.rijtijd_drongen + "'" : "—"}</td>
+      <td class="top15-digitaal">${digitaal}</td>
+      <td class="top15-notitie">${notitie}</td>
+      <td class="td-notes"><textarea class="fav-note" data-naam="${escHtml(c.naam)}" data-who="jeremy" placeholder="Notitie Jeremy…">${escHtml(favNotes[c.naam] || "")}</textarea></td>
+      <td class="td-notes"><textarea class="fav-note" data-naam="${escHtml(c.naam)}" data-who="vincent" placeholder="Notitie Vincent…">${escHtml(favNotesVincent[c.naam] || "")}</textarea></td>
     `;
     tbody.appendChild(tr);
   });
 
-  // Star click handlers
-  tbody.querySelectorAll(".star-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const c = bedrijven.find(b => b.naam === btn.dataset.naam);
-      if (c) toggleFavorite(c);
-    });
-  });
-
-  // Notes auto-save
-  tbody.querySelectorAll(".fav-note").forEach(ta => {
-    ta.addEventListener("input", () => saveNote(ta.dataset.naam, ta.value));
-  });
+  attachStarHandlers(tbody);
+  attachNoteHandlers(tbody);
 }
 
-// Favorieten CSV export
 function exportFavCSV() {
   const data = bedrijven.filter(c => isFavorite(c.naam));
   if (data.length === 0) return;
-  const header = ["Naam", "Regio", "Activiteiten", "Grootte", "Adres", "BTW", "Website", "Rijtijd Hertsberge", "Rijtijd Drongen", "Gem. rijtijd H+D", "Notes"];
-  const rows = data.map(c => [
-    c.naam,
-    PROV_LABELS[c.provincie] || c.provincie,
-    (c.activiteiten || []).join("; "),
-    { G: "Groot", M: "Middelgroot", K: "Klein" }[c.grootte] || "",
-    c.adres || "", c.btw || "", c.website || "",
-    c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge : "",
-    c.rijtijd_drongen != null ? c.rijtijd_drongen : "",
-    (c.rijtijd_hertsberge != null && c.rijtijd_drongen != null) ? Math.round((c.rijtijd_hertsberge + c.rijtijd_drongen) / 2) : "",
-    favNotes[c.naam] || "",
-  ]);
-  const csv = [header, ...rows].map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n");
-  const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8;" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "houtkaart_favorieten.csv";
-  a.click();
-  URL.revokeObjectURL(url);
+
+  const csv = buildCSV(data, ["Notes Jeremy", "Notes Vincent"]);
+  const lines = csv.split("\n");
+  const rows  = lines.map((line, i) => {
+    if (i === 0) return line;
+    const c = data[i - 1];
+    return line + `,"${String(favNotes[c.naam] || "").replace(/"/g, '""')}","${String(favNotesVincent[c.naam] || "").replace(/"/g, '""')}"`;
+  });
+
+  downloadCSV(rows.join("\n"), "houtkaart_favorieten.csv");
 }

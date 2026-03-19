@@ -53,7 +53,7 @@
 
   <!-- Analyse tab -->
   <div id="analyse-view" class="hidden">
-    <!-- Top 15 Overnamekandidaten -->
+    <!-- Top 25 Overnamekandidaten -->
     <div id="top15-section"></div>
 
     <div class="analyse-toolbar">
@@ -69,9 +69,10 @@
         <div class="analyse-filter-group analyse-filter-row">
           <select id="analyse-grootte">
             <option value="">Alle groottes</option>
-            <option value="G">Groot</option>
-            <option value="M">Middelgroot</option>
-            <option value="K">Klein</option>
+            <option value="Groot">Groot</option>
+            <option value="Middelgroot">Middelgroot</option>
+            <option value="Klein">Klein</option>
+            <option value="Micro">Micro</option>
           </select>
           <label class="analyse-check"><input type="checkbox" id="analyse-groene-zone"> Groene zone</label>
           <label class="analyse-check"><input type="checkbox" id="analyse-btw-only"> Enkel met BTW</label>
@@ -98,6 +99,10 @@
             <th data-sort="provincie">Regio</th>
             <th data-sort="activiteiten">Activiteit</th>
             <th data-sort="grootte">Grootte</th>
+            <th data-sort="cw_omzet">Omzet</th>
+            <th data-sort="cw_brutomarge">Brutomarge</th>
+            <th data-sort="cw_winst">Winst</th>
+            <th data-sort="cw_fte">FTE</th>
             <th data-sort="adres">Adres</th>
             <th data-sort="btw">BTW</th>
             <th data-sort="website">Website</th>
@@ -125,16 +130,20 @@
           <tr>
             <th>★</th>
             <th>Naam</th>
-            <th>Regio</th>
             <th>Activiteit</th>
-            <th>Grootte</th>
+            <th>Brutomarge</th>
+            <th>Est. EBITDA</th>
+            <th>FTE</th>
+            <th>Opgericht</th>
             <th>Adres</th>
             <th>BTW</th>
             <th>Website</th>
             <th>🚗 H</th>
             <th>🚗 D</th>
-            <th>⌀ H+D</th>
-            <th>Notes</th>
+            <th>Digitaal</th>
+            <th>Beoordeling</th>
+            <th>Notes Jeremy</th>
+            <th>Notes Vincent</th>
           </tr>
         </thead>
         <tbody id="fav-tbody"></tbody>
