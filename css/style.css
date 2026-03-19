@@ -312,14 +312,15 @@ body {
 .fav-toolbar h2 { font-size: 22px; color: #1a1a2e; margin: 0; }
 .fav-subtitle { font-size: 13px; color: #888; flex: 1; }
 .fav-empty { text-align: center; padding: 40px 20px; color: #999; font-size: 16px; }
-#fav-table.analyse-table { font-size: 14px; }
-#fav-table.analyse-table th { font-size: 12px; padding: 10px 12px; }
-#fav-table.analyse-table td { padding: 8px 12px; }
-#fav-table .td-naam { font-size: 15px; }
-#fav-table .td-adres { font-size: 13px; max-width: none; }
-#fav-table .td-btw, #fav-table .td-web { font-size: 13px; }
-#fav-table .td-num { font-size: 14px; }
-#fav-table .size-badge { font-size: 11px; padding: 2px 8px; }
+#fav-table.analyse-table { font-size: 18px; }
+#fav-table.analyse-table th { font-size: 15px; padding: 14px 16px; }
+#fav-table.analyse-table td { padding: 12px 16px; font-size: 16px; }
+#fav-table .td-naam { font-size: 18px; }
+#fav-table .td-adres { font-size: 15px; max-width: none; }
+#fav-table .td-btw, #fav-table .td-web { font-size: 15px; }
+#fav-table .td-num { font-size: 16px; }
+#fav-table .size-badge { font-size: 14px; padding: 3px 10px; }
+#fav-table .star-btn { font-size: 24px; }
 
 /* Puls-animatie eigen locaties */
 @keyframes pulse {
