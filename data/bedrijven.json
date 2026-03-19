@@ -5832,5 +5832,456 @@
       "tuinhuis"
     ],
     "adres": "Kalmthout"
+  },
+  {
+    "naam": "Rodi NV (Brugge)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 51.1936,
+    "lng": 3.17,
+    "webshop": "Nee",
+    "info": "Houtconstructies op maat: tuinhuizen, garages, carports, afsluitingen. Eigen atelier. Brugse Steenweg 278, Brugge.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "adres": "Brugse Steenweg 278, 8000 Brugge"
+  },
+  {
+    "naam": "Daniel Decadt Houthandel (Proven/Poperinge)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 50.9,
+    "lng": 2.7,
+    "webshop": "Nee",
+    "info": "Pionier in houten constructies WVL. Houthandel + zusterbedrijf Decadt Construct. Tuinhuizen, poolhouses, carports op maat. Roesbruggestraat 5, 8972 Proven. BTW: BE 0450.706.045.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel",
+      "terrassen"
+    ],
+    "btw": "BE 0450.706.045",
+    "adres": "Roesbruggestraat 5, 8972 Proven"
+  },
+  {
+    "naam": "Geoff's Eiken Bijgebouwen (Ooigem/Wielsbeke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.895,
+    "lng": 3.37,
+    "webshop": "Nee",
+    "info": "Schrijnwerkerij gespecialiseerd in massief eiken bijgebouwen: carports, poolhouses, tuinkantoren. Ooigem, Wielsbeke.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "adres": "Ooigem, 8710 Wielsbeke"
+  },
+  {
+    "naam": "Fierens BVBA (Zedelgem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.1372,
+    "lng": 3.1375,
+    "webshop": "Nee",
+    "info": "Daktimmerwerken, massieve houtbouw, bijgebouwen, poolhouses, carports. Remi Claeysstraat 1, 8210 Zedelgem. BTW: BE 0879.946.386.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "btw": "BE 0879.946.386",
+    "adres": "Remi Claeysstraat 1, 8210 Zedelgem"
+  },
+  {
+    "naam": "Schrijnwerken Moerman (Brugge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.2,
+    "lng": 3.22,
+    "webshop": "Nee",
+    "info": "Schrijnwerker met 12 jaar ervaring. Tuinhuizen, carports, buitenschrijnwerk. Oude Hoogweg 59, 8310 Brugge. BTW: BE 0751.859.074.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "btw": "BE 0751.859.074",
+    "adres": "Oude Hoogweg 59, 8310 Brugge"
+  },
+  {
+    "naam": "Marnix Verkain Tuinhout (Ruddervoorde/Oostkamp)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.11,
+    "lng": 3.18,
+    "webshop": "Nee",
+    "info": "Tuinhout specialist. Carports, tuinhuizen, poorten, afsluitingen, terrassen, zwembaden. Baliebrugstraat 10, 8020 Ruddervoorde.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "adres": "Baliebrugstraat 10, 8020 Ruddervoorde"
+  },
+  {
+    "naam": "Verde Tuinhuizen (Rekkem/Menen)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 50.76,
+    "lng": 3.11,
+    "webshop": "Nee",
+    "info": "2 winkels + 2 expoterreinen. Tuinhuizen (klassiek, cottage, modern), carports, garages, houten speeltoestellen. Rekkem, regio Kortrijk-Wevelgem.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Rekkem, 8930 Menen"
+  },
+  {
+    "naam": "Woodproject (Menen)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 50.7958,
+    "lng": 3.1218,
+    "webshop": "Nee",
+    "info": "Specialist houten bijgebouwen. Showroom Menen. Poolhouses, tuinhuizen, carports, tuinkamers. Van ontwerp tot afwerking.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "adres": "Menen"
+  },
+  {
+    "naam": "Tuinen De Soete (Sint-Andries/Brugge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.185,
+    "lng": 3.19,
+    "webshop": "Nee",
+    "info": "Tuinontwerp en -aanleg. Tuinhuizen, carports, poolhouses, houtbergingen. Albert Serreynstraat 17, 8200 Sint-Andries.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "adres": "Albert Serreynstraat 17, 8200 Sint-Andries"
+  },
+  {
+    "naam": "Espeel Jonas Houtbouw (regio Waregem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8822,
+    "lng": 3.42,
+    "webshop": "Nee",
+    "info": "Carports en houten bijgebouwen in eigen beheer. Padouk, eik, ceder, thermowood. Regio Waregem-Kortrijk-Meulebeke.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "adres": "regio Waregem"
+  },
+  {
+    "naam": "Tuinen Vandemaele (Zedelgem regio)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.14,
+    "lng": 3.13,
+    "webshop": "Nee",
+    "info": "Tuinaanleg. Poolhouses, tuinhuizen, houten bijgebouwen op maat. Actief in heel WVL.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "adres": "Zedelgem"
+  },
+  {
+    "naam": "Vetrabo Garden Dream (Sint-Gillis-Waas)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51.17,
+    "lng": 4.11,
+    "webshop": "Nee",
+    "info": "Tuinhuizen op maat. Classic Line en Trend Line collecties. Showroom + buitenexpo 24/7 toegankelijk. Kluizenhof 27, 9170 Sint-Gillis-Waas. BTW: BE 0440.559.647.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "btw": "BE 0440.559.647",
+    "adres": "Kluizenhof 27, 9170 Sint-Gillis-Waas"
+  },
+  {
+    "naam": "Garden Home (Dendermonde)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.03,
+    "lng": 4.1,
+    "webshop": "Nee",
+    "info": "Tuinhuizen en garages. Prefab panelen, snelle plaatsing (ook weekends). Sleutelbloemlaan 10, 9200 Dendermonde.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "adres": "Sleutelbloemlaan 10, 9200 Dendermonde"
+  },
+  {
+    "naam": "Gardenas NV (Dendermonde)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51.028,
+    "lng": 4.101,
+    "webshop": "Nee",
+    "info": "Fabrikant tuinhuizen, blokhutten en tuinartikelen in hout. Eigen zagerij. FSC-gecertificeerd. Wissenstraat 3, 9200 Dendermonde. BTW: BE 0446.780.416.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "btw": "BE 0446.780.416",
+    "adres": "Wissenstraat 3, 9200 Dendermonde"
+  },
+  {
+    "naam": "Steyaert Meubelen (Aalter)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.0895,
+    "lng": 3.432,
+    "webshop": "Nee",
+    "info": "Houtatelier: schrijnwerk, eiken bijgebouwen, poolhouses, ramen, deuren, meubelen op maat. Sint-Godelievestraat 26, 9880 Aalter.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "adres": "Sint-Godelievestraat 26, 9880 Aalter"
+  },
+  {
+    "naam": "VDB Woodsolutions (Maldegem)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.205,
+    "lng": 3.435,
+    "webshop": "Nee",
+    "info": "Houten bijgebouwen op maat sinds 2017. Poolhouses, carports. Fortuinstraat 40, 9990 Maldegem. BTW: BE 0674.594.418.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "btw": "BE 0674.594.418",
+    "adres": "Fortuinstraat 40, 9990 Maldegem"
+  },
+  {
+    "naam": "De Saegher Construction (Moerbeke-Waas)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.175,
+    "lng": 3.97,
+    "webshop": "Nee",
+    "info": "Totaalprojecten: poolhouses, tuinhuizen, carports, renovatie. 3D ontwerp. Bergstraat 81, 9180 Moerbeke-Waas. BTW: BE 0700.640.304.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "btw": "BE 0700.640.304",
+    "adres": "Bergstraat 81, 9180 Moerbeke-Waas"
+  },
+  {
+    "naam": "Systimber (De Pinte)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51.001,
+    "lng": 3.65,
+    "webshop": "Nee",
+    "info": "Houten bijgebouwen en woningen in houtschakelbouw (gepatenteerd systeem). Tuinkantoren, bijgebouwen. Productie in Merelbeke. Experience center De Pinte. Den Beer 18, 9840 De Pinte.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Den Beer 18, 9840 De Pinte"
+  },
+  {
+    "naam": "moduus (Evergem)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51.11,
+    "lng": 3.63,
+    "webshop": "Nee",
+    "info": "Architecturale houten bijgebouwen en tuinkantoren. Onderdeel Aktual groep (40 jaar ervaring). Experience center Evergem. Noorwegenstraat 22, 9940 Evergem.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Noorwegenstraat 22, 9940 Evergem"
+  },
+  {
+    "naam": "Tuincenter De Stercke (Lochristi)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.101,
+    "lng": 3.83,
+    "webshop": "Nee",
+    "info": "Tuincenter + officieel Christiaens Yvan dealer/servicepunt. 40 jaar ervaring. Plaatsing tuinhuizen van A tot Z. Antwerpse Steenweg 21a, 9080 Lochristi.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Antwerpse Steenweg 21a, 9080 Lochristi"
+  },
+  {
+    "naam": "SDP Schrijnwerken (Moerbeke-Waas)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.175,
+    "lng": 3.97,
+    "webshop": "Nee",
+    "info": "Tuinhuizen, carports, poolhouses, houten terrassen, houtskeletbouw. Ooststraat 37, 9180 Moerbeke-Waas. BTW: BE 0828.419.293.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen",
+      "houthandel"
+    ],
+    "btw": "BE 0828.419.293",
+    "adres": "Ooststraat 37, 9180 Moerbeke-Waas"
+  },
+  {
+    "naam": "De Wilde Houtconstructies (Staden)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 50.98,
+    "lng": 3.015,
+    "webshop": "Nee",
+    "info": "Familiebedrijf, 30+ jaar. Houten dakconstructies, eiken bijgebouwen, gevelbekleding. Eik, thermowood, ceder, oregon. Kapelleriestraat 28, 8840 Staden.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "adres": "Kapelleriestraat 28, 8840 Staden"
+  },
+  {
+    "naam": "DB Chalets / Tuinhuizen Deinze",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.9833,
+    "lng": 3.5261,
+    "webshop": "Nee",
+    "info": "Officieel Christiaens Yvan dealer. Van tuinhuis tot poolhouse. Expo terrein. Kapellestraat 98C, 9800 Deinze.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Kapellestraat 98C, 9800 Deinze"
+  },
+  {
+    "naam": "Vergo Tuinen (Waregem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.876,
+    "lng": 3.4055,
+    "webshop": "Nee",
+    "info": "Tuinaannemer. Tuinhuizen op maat, houten gebouwen, zwemvijvers. Regio Waregem-Kortrijk.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "adres": "Waregem"
+  },
+  {
+    "naam": "Solid Wood Builds (Kortrijk regio)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8275,
+    "lng": 3.2645,
+    "webshop": "Nee",
+    "info": "Eiken bijgebouwen in massieve houtbouw. Bouwpakketten. Regio Kortrijk.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "regio Kortrijk"
+  },
+  {
+    "naam": "VEH Outdoor Living (Ronse)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 50.751,
+    "lng": 3.601,
+    "webshop": "Ja",
+    "info": "Tuinhuizen, poolhouses, terrassen, carports, poorten, afsluitingen. 25+ jaar ervaring. Webshop tuinmeubels. Nieuwe Pontstraat 2, 9600 Ronse. BTW: BE 0462.924.481.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen",
+      "online"
+    ],
+    "btw": "BE 0462.924.481",
+    "adres": "Nieuwe Pontstraat 2, 9600 Ronse"
+  },
+  {
+    "naam": "Felke (Stekene)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51.21,
+    "lng": 4.035,
+    "webshop": "Nee",
+    "info": "Producent houten bijgebouwen en woonuitbreidingen. 30+ jaar expertise. Belevingspark. Stekene. Zusterbedrijf Bogarden.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Stekene"
+  },
+  {
+    "naam": "Bogarden (Stekene)",
+    "provincie": "ovl",
+    "grootte": "M",
+    "lat": 51.21,
+    "lng": 4.035,
+    "webshop": "Nee",
+    "info": "Exclusief design houten bijgebouwen: poolhouses, gastenverblijven, buitenkeukens, carports. Kantoren Stekene + Knokke. Zusterbedrijf Felke.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Stekene"
+  },
+  {
+    "naam": "JT Renovaties & Tuinconcepten (Sint-Niklaas)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.155,
+    "lng": 4.133,
+    "webshop": "Nee",
+    "info": "Carports, poolhouses, tuinhuizen, pergola's, bijgebouwen. Oude Heirbaan 70, 9100 Sint-Niklaas. BTW: BE 0788.707.988.",
+    "activiteiten": [
+      "tuinhuis",
+      "terrassen"
+    ],
+    "btw": "BE 0788.707.988",
+    "adres": "Oude Heirbaan 70, 9100 Sint-Niklaas"
+  },
+  {
+    "naam": "De Saegher (Moerbeke-Waas) — T Houtproject",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.175,
+    "lng": 3.975,
+    "webshop": "Nee",
+    "info": "Alias: T Houtproject. Poolhouses, tuinhuizen, carports, 3D-ontwerp. Bergstraat 81, 9180 Moerbeke-Waas.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "adres": "Bergstraat 81, 9180 Moerbeke-Waas"
+  },
+  {
+    "naam": "Vandenauweele (Gistel)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.158,
+    "lng": 2.97,
+    "webshop": "Nee",
+    "info": "Schrijnwerkerij sinds 1988. Houten bijgebouwen, ramen, deuren, dakkapellen, keukens, interieur. Brandhout. Torhoutse Baan 97, 8470 Gistel. BTW: BE 0433.187.251.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "btw": "BE 0433.187.251",
+    "adres": "Torhoutse Baan 97, 8470 Gistel"
+  },
+  {
+    "naam": "Decadt Construct (Proven/Poperinge)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.9,
+    "lng": 2.705,
+    "webshop": "Nee",
+    "info": "Zusterbedrijf Daniel Decadt houthandel. Ontwerp en bouw houten tuinhuizen, bijgebouwen, garages, carports op maat. 9.5 VTE. Roesbruggestraat 9, 8972 Poperinge. BTW: BE 0795.107.020.",
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "btw": "BE 0795.107.020",
+    "adres": "Roesbruggestraat 9, 8972 Poperinge"
   }
 ]
