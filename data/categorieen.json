@@ -1,0 +1,77 @@
+[
+  {
+    "id": "wvl",
+    "label": "West-Vlaanderen",
+    "kleur": "#1565C0"
+  },
+  {
+    "id": "ovl",
+    "label": "Oost-Vlaanderen",
+    "kleur": "#2E7D32"
+  },
+  {
+    "id": "ant",
+    "label": "Antwerpen",
+    "kleur": "#6A1B9A"
+  },
+  {
+    "id": "vbr",
+    "label": "Vlaams-Brabant",
+    "kleur": "#E65100"
+  },
+  {
+    "id": "lim",
+    "label": "Limburg",
+    "kleur": "#00838F"
+  },
+  {
+    "id": "hai",
+    "label": "Henegouwen (Wallonië)",
+    "kleur": "#880E4F"
+  },
+  {
+    "id": "bwa",
+    "label": "Waals-Brabant (Wallonië)",
+    "kleur": "#BF360C"
+  },
+  {
+    "id": "nam",
+    "label": "Namen (Wallonië)",
+    "kleur": "#4527A0"
+  },
+  {
+    "id": "online",
+    "label": "Online webshop",
+    "kleur": "#C62828"
+  },
+  {
+    "id": "dhz",
+    "label": "DHZ-keten (Brico/Gamma/Hubo/…)",
+    "kleur": "#7B1FA2"
+  },
+  {
+    "id": "agro",
+    "label": "Agro / Weide / Dier",
+    "kleur": "#558B2F"
+  },
+  {
+    "id": "import",
+    "label": "Importeur / B2B Groothandel",
+    "kleur": "#795548"
+  },
+  {
+    "id": "parket",
+    "label": "Parket (handel/productie)",
+    "kleur": "#D84315"
+  },
+  {
+    "id": "tuinhuis",
+    "label": "Tuinhuizen / Poolhouse",
+    "kleur": "#00695C"
+  },
+  {
+    "id": "paarden",
+    "label": "Paardenomheining / Weide",
+    "kleur": "#4A148C"
+  }
+]
