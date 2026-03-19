@@ -192,7 +192,7 @@ function renderTop15() {
         <td class="td-num">${bedrijf && bedrijf.rijtijd_drongen != null ? bedrijf.rijtijd_drongen + "'" : "—"}</td>
         <td class="top15-digitaal">${c.digitaal}</td>
         <td class="top15-notitie">${c.notitie}</td>
-        <td class="td-notes"><textarea class="fav-note top15-note" data-top15="${c.naam.replace(/"/g, "&quot;")}" placeholder="Notitie…">${favNotes["top15_" + c.naam] || ""}</textarea></td>
+        <td class="td-notes"><textarea class="fav-note top15-note" data-naam="${dataNaam}" placeholder="Notitie…">${favNotes[bedrijf ? bedrijf.naam : c.naam] || ""}</textarea></td>
       </tr>
     `;
   });
@@ -215,9 +215,9 @@ function renderTop15() {
     });
   });
 
-  // Notes auto-save voor top 15
+  // Notes auto-save voor top 15 (zelfde key als favorieten)
   el.querySelectorAll(".top15-note").forEach(ta => {
-    ta.addEventListener("input", () => saveNote("top15_" + ta.dataset.top15, ta.value));
+    ta.addEventListener("input", () => saveNote(ta.dataset.naam, ta.value));
   });
 }
 
