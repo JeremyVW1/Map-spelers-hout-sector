@@ -1,6 +1,4 @@
-/* ═══════════════════════════════════════════
-   Houtkaart — Entry point
-   ═══════════════════════════════════════════ */
+/* Houtkaart — Entry point */
 
 let bedrijven = [];
 let categorieen = [];
@@ -13,9 +11,7 @@ async function init() {
   bedrijven = await bedrijvenRes.json();
   categorieen = await catRes.json();
 
-  // Lookup maps vullen
-  categorieen.forEach((c) => {
-    KLEUR_MAP[c.id] = c.kleur;
+  categorieen.forEach(c => {
     PROV_LABELS[c.id] = c.label;
     if (c.type === "activiteit") ACT_KLEUR[c.id] = c.kleur;
   });
@@ -30,11 +26,8 @@ async function init() {
   // Standaard WVL + OVL + alle activiteiten
   activeRegios.add("wvl");
   activeRegios.add("ovl");
-  categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
-    activeActiviteiten.add(c.id);
-  });
+  categorieen.filter(c => c.type === "activiteit").forEach(c => activeActiviteiten.add(c.id));
   syncFilterButtons();
-
   render();
   updateCounter();
 }
@@ -44,20 +37,12 @@ function initTabs() {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
-
-      const tab = btn.dataset.tab;
-      const kaartEls = [document.getElementById("controls"), document.getElementById("map"), document.getElementById("legend")];
-      const analyseEl = document.getElementById("analyse-view");
-
-      if (tab === "kaart") {
-        kaartEls.forEach(el => el.classList.remove("hidden"));
-        analyseEl.classList.add("hidden");
-        setTimeout(() => map.invalidateSize(), 100);
-      } else {
-        kaartEls.forEach(el => el.classList.add("hidden"));
-        analyseEl.classList.remove("hidden");
-        renderAnalyse();
-      }
+      const isKaart = btn.dataset.tab === "kaart";
+      [document.getElementById("controls"), document.getElementById("map"), document.getElementById("legend")]
+        .forEach(el => el.classList.toggle("hidden", !isKaart));
+      document.getElementById("analyse-view").classList.toggle("hidden", isKaart);
+      if (isKaart) setTimeout(() => map.invalidateSize(), 100);
+      else renderAnalyse();
     });
   });
 }

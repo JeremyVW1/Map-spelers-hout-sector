@@ -1,14 +1,10 @@
-/* ═══════════════════════════════════════════
-   Houtkaart — Filters & legenda
-   ═══════════════════════════════════════════ */
+/* Houtkaart — Filters & legenda */
 
 let activeRegios = new Set();
 let activeActiviteiten = new Set();
 
-// ─── Filter UI bouwen ────────────────────────
 function buildFilters() {
-  const allBtn = document.getElementById("btn-all");
-  allBtn.onclick = () => {
+  document.getElementById("btn-all").onclick = () => {
     activeRegios.clear();
     activeActiviteiten.clear();
     syncFilterButtons();
@@ -16,23 +12,14 @@ function buildFilters() {
     updateCounter();
   };
 
-  // Regio rij
   const regioRow = document.getElementById("filter-regio");
   addLabel(regioRow, "Regio:");
-
-  // Groene zone knop VOORAAN
   makeFilterBtn(regioRow, "🟢 Max 1u rijden voor V&J", "groene_zone", "#2E7D32", "regio");
+  categorieen.filter(c => c.type === "regio").forEach(c => makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio"));
 
-  categorieen.filter((c) => c.type === "regio").forEach((c) => {
-    makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio");
-  });
-
-  // Activiteit rij
   const actRow = document.getElementById("filter-activiteit");
   addLabel(actRow, "Activiteit:");
-  categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
-    makeFilterBtn(actRow, c.label, c.id, c.kleur, "activiteit");
-  });
+  categorieen.filter(c => c.type === "activiteit").forEach(c => makeFilterBtn(actRow, c.label, c.id, c.kleur, "activiteit"));
 }
 
 function addLabel(container, text) {
@@ -60,15 +47,14 @@ function makeFilterBtn(container, label, id, col, type) {
 }
 
 function syncFilterButtons() {
-  const allBtn = document.getElementById("btn-all");
   const isAll = activeRegios.size === 0 && activeActiviteiten.size === 0;
-
+  const allBtn = document.getElementById("btn-all");
   allBtn.classList.toggle("on", isAll);
   allBtn.style.background = isAll ? "#1a1a2e" : "";
   allBtn.style.color = isAll ? "#fff" : "";
   allBtn.style.borderColor = isAll ? "#1a1a2e" : "";
 
-  document.querySelectorAll(".fb[data-filter-id]").forEach((btn) => {
+  document.querySelectorAll(".fb[data-filter-id]").forEach(btn => {
     const set = btn.dataset.filterType === "regio" ? activeRegios : activeActiviteiten;
     const active = set.has(btn.dataset.filterId);
     btn.classList.toggle("on", active);
@@ -78,12 +64,11 @@ function syncFilterButtons() {
   });
 }
 
-// ─── Legenda ─────────────────────────────────
+// Legenda
 function buildLegend() {
   const el = document.getElementById("legend-content");
 
-  // Activiteit (= markerkleuren)
-  addLegendGroup(el, "Activiteit", categorieen.filter((c) => c.type === "activiteit"));
+  addLegendGroup(el, "Activiteit", categorieen.filter(c => c.type === "activiteit"));
 
   // Grootte
   const szGroup = document.createElement("div");
@@ -91,34 +76,25 @@ function buildLegend() {
   szGroup.innerHTML = '<span class="legend-group-title">Grootte</span>';
   const szItems = document.createElement("div");
   szItems.className = "legend-items";
-  [
-    { r: 13, l: "Groot / dominant" },
-    { r: 9, l: "Middelgroot" },
-    { r: 6, l: "Klein / lokaal" },
-  ].forEach((s) => {
-    const sp = document.createElement("div");
-    sp.className = "legend-item";
-    sp.innerHTML = `<svg width="${s.r * 2 + 4}" height="${s.r * 2 + 4}"><circle cx="${s.r + 2}" cy="${s.r + 2}" r="${s.r}" fill="#888" opacity=".75"/></svg><span>${s.l}</span>`;
-    szItems.appendChild(sp);
+  [{ r: 13, l: "Groot / dominant" }, { r: 9, l: "Middelgroot" }, { r: 6, l: "Klein / lokaal" }].forEach(s => {
+    const d = document.createElement("div");
+    d.className = "legend-item";
+    d.innerHTML = `<svg width="${s.r * 2 + 4}" height="${s.r * 2 + 4}"><circle cx="${s.r + 2}" cy="${s.r + 2}" r="${s.r}" fill="#888" opacity=".75"/></svg><span>${s.l}</span>`;
+    szItems.appendChild(d);
   });
   szGroup.appendChild(szItems);
   el.appendChild(szGroup);
 
-  // Doelgebied
+  // Zone
   const zoneGroup = document.createElement("div");
   zoneGroup.className = "legend-group";
   zoneGroup.innerHTML = '<span class="legend-group-title">Zone</span>';
   const zoneItems = document.createElement("div");
   zoneItems.className = "legend-items";
-  const zoneItem = document.createElement("div");
-  zoneItem.className = "legend-item";
-  zoneItem.innerHTML = `<div class="legend-dot" style="background:#4CAF50;border:1.5px dashed #2E7D32;opacity:0.7"></div><span>Max 1u rijden voor V&J</span>`;
-  zoneItems.appendChild(zoneItem);
-  // Eigen locaties
-  const ownItem = document.createElement("div");
-  ownItem.className = "legend-item";
-  ownItem.innerHTML = `<div style="color:#8B1A1A;font-size:12px;font-weight:700;flex-shrink:0;width:12px;text-align:center">&#9660;</div><span>Eigen locatie</span>`;
-  zoneItems.appendChild(ownItem);
+  zoneItems.innerHTML = `
+    <div class="legend-item"><div class="legend-dot" style="background:#4CAF50;border:1.5px dashed #2E7D32;opacity:0.7"></div><span>Max 1u rijden voor V&amp;J</span></div>
+    <div class="legend-item"><div style="color:#8B1A1A;font-size:12px;font-weight:700;flex-shrink:0;width:12px;text-align:center">&#9660;</div><span>Eigen locatie</span></div>
+  `;
   zoneGroup.appendChild(zoneItems);
   el.appendChild(zoneGroup);
 
@@ -127,9 +103,7 @@ function buildLegend() {
   if (toggle) {
     toggle.addEventListener("click", () => {
       el.classList.toggle("collapsed");
-      toggle.textContent = el.classList.contains("collapsed")
-        ? "▸ Legenda tonen"
-        : "▾ Legenda verbergen";
+      toggle.textContent = el.classList.contains("collapsed") ? "▸ Legenda tonen" : "▾ Legenda verbergen";
     });
   }
 }
@@ -140,7 +114,7 @@ function addLegendGroup(parent, title, items) {
   group.innerHTML = `<span class="legend-group-title">${title}</span>`;
   const container = document.createElement("div");
   container.className = "legend-items";
-  items.forEach((c) => {
+  items.forEach(c => {
     const d = document.createElement("div");
     d.className = "legend-item";
     d.innerHTML = `<div class="legend-dot" style="background:${c.kleur}"></div><span>${c.label}</span>`;
@@ -150,7 +124,6 @@ function addLegendGroup(parent, title, items) {
   parent.appendChild(group);
 }
 
-// ─── Counter ─────────────────────────────────
 function updateCounter() {
   const el = document.getElementById("counter-num");
   if (el) el.textContent = getVisibleCompanies().length;
