@@ -48,10 +48,35 @@ function matchesSearch(company) {
   return words.every((w) => haystack.includes(w));
 }
 
+// Regio-ids voor lookup
+const REGIO_IDS = new Set(["wvl", "ovl", "ant", "vbr", "lim", "hai", "bwa", "nam"]);
+
 function getVisibleCompanies() {
   return bedrijven.filter((c) => {
-    // Multi-filter: als er filters actief zijn, moet de provincie in de set zitten
-    if (activeFilters.size > 0 && !activeFilters.has(c.provincie)) return false;
+    const isRegioBedrijf = REGIO_IDS.has(c.provincie);
+    const bedrijfActiviteiten = c.activiteiten || [];
+
+    // Regio filter check
+    const passRegio = activeRegios.size === 0 ||
+      (isRegioBedrijf && activeRegios.has(c.provincie));
+
+    // Activiteit filter check: bedrijf heeft minstens 1 van de geselecteerde activiteiten
+    const passActiviteit = activeActiviteiten.size === 0 ||
+      bedrijfActiviteiten.some((a) => activeActiviteiten.has(a));
+
+    // Regio + Activiteit = AND logica
+    if (activeRegios.size > 0 && activeActiviteiten.size > 0) {
+      // Bedrijf moet in juiste regio zitten EN minstens 1 activiteit matchen
+      if (!passRegio || !passActiviteit) return false;
+    } else if (activeRegios.size > 0) {
+      // Alleen regio geselecteerd: toon regio-bedrijven + activiteit-bedrijven die matchen
+      if (!passRegio && isRegioBedrijf) return false;
+      if (!isRegioBedrijf) return false; // verberg pure activiteit-bedrijven
+    } else if (activeActiviteiten.size > 0) {
+      // Alleen activiteit geselecteerd: toon alle bedrijven die die activiteit hebben
+      if (!passActiviteit) return false;
+    }
+
     if (!matchesSearch(c)) return false;
     return true;
   });

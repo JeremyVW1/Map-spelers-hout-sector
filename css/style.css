@@ -315,6 +315,21 @@ body {
   border: 1.5px solid rgba(0,0,0,0.08);
 }
 
+/* ─── VERRIJKTE DATA IN POPUP ─────────────── */
+.popup-enrich {
+  font-size: 11px;
+  color: #444;
+  background: #f8f9fa;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 6px 8px;
+  margin: 6px 0;
+  line-height: 1.6;
+}
+.popup-enrich b {
+  color: #333;
+}
+
 /* ─── PULS-ANIMATIE eigen locaties ────────── */
 @keyframes pulse {
   0% { transform: scale(1); opacity: 0.8; }

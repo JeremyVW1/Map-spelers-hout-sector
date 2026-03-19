@@ -5,7 +5,8 @@
 let bedrijven = [];
 let categorieen = [];
 let markers = [];
-let activeFilters = new Set(); // leeg = alles tonen
+let activeRegios = new Set();      // geselecteerde regio's
+let activeActiviteiten = new Set(); // geselecteerde activiteiten
 let map;
 
 const KLEUR_MAP = {};
@@ -67,6 +68,11 @@ async function init() {
   buildFilters();
   buildLegend();
   initSearch();
+
+  // Standaard: WVL + OVL geselecteerd
+  activeRegios.add("wvl");
+  activeRegios.add("ovl");
+  syncFilterButtons();
 
   // Eerste render
   render();
@@ -209,12 +215,26 @@ function buildPopup(c) {
   const hasWarning = info.includes("⚠️");
   const infoClass = hasWarning ? "popup-info popup-warning" : "popup-info";
 
+  // Verrijkte data
+  let enrichHtml = "";
+  if (c.btw || c.groep_btw) {
+    enrichHtml += '<div class="popup-enrich">';
+    if (c.groep) enrichHtml += `<b>Groep:</b> ${c.groep}<br>`;
+    enrichHtml += `<b>BTW:</b> ${c.btw || c.groep_btw || "?"}<br>`;
+    if (c.groep_omzet) enrichHtml += `<b>Omzet:</b> ${c.groep_omzet}<br>`;
+    const fte = c.medewerkers || c.groep_medewerkers;
+    if (fte) enrichHtml += `<b>FTE:</b> ${fte}<br>`;
+    if (c.rechtsvorm || c.groep_rechtsvorm) enrichHtml += `<b>Vorm:</b> ${c.rechtsvorm || c.groep_rechtsvorm}<br>`;
+    enrichHtml += "</div>";
+  }
+
   return `
     <span class="popup-badge" style="background:${col}">${provLabel}</span>
     <span class="popup-name">${c.naam}</span>
     <span class="popup-coords">📍 ${c.lat.toFixed(3)}, ${c.lng.toFixed(3)}</span>
     <span class="${infoClass}">${info}</span>
     ${contactHtml}
+    ${enrichHtml}
     <span class="popup-webshop">🌐 Webshop: <b>${c.webshop}</b></span>
     <span class="popup-size ${c.grootte}">${sizeLabel}</span>
   `;
@@ -239,20 +259,18 @@ function render() {
   });
 }
 
-// ─── FILTERS (multi-select) ─────────────────
+// ─── FILTERS (regio + activiteit, AND logica) ──
 function buildFilters() {
   const bar = document.getElementById("controls");
 
-  // "Alles" knop (reset)
+  // "Reset" knop
   const allBtn = document.createElement("button");
-  allBtn.className = "fb on";
+  allBtn.className = "fb";
   allBtn.id = "btn-all";
-  allBtn.style.background = "#1a1a2e";
-  allBtn.style.color = "#fff";
-  allBtn.style.borderColor = "#1a1a2e";
   allBtn.textContent = "🗺 Alles";
   allBtn.onclick = () => {
-    activeFilters.clear();
+    activeRegios.clear();
+    activeActiviteiten.clear();
     syncFilterButtons();
     render();
     updateCounter();
@@ -266,7 +284,7 @@ function buildFilters() {
   bar.appendChild(regioLabel);
 
   categorieen.filter((c) => c.type === "regio").forEach((c) => {
-    makeFilterBtn(bar, c.label, c.id, c.kleur);
+    makeFilterBtn(bar, c.label, c.id, c.kleur, "regio");
   });
 
   // Scheidingslijn
@@ -281,23 +299,24 @@ function buildFilters() {
   bar.appendChild(actLabel);
 
   categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
-    makeFilterBtn(bar, c.label, c.id, c.kleur);
+    makeFilterBtn(bar, c.label, c.id, c.kleur, "activiteit");
   });
 }
 
-function makeFilterBtn(container, label, id, col) {
+function makeFilterBtn(container, label, id, col, type) {
   const b = document.createElement("button");
   b.className = "fb";
   b.dataset.filterId = id;
   b.dataset.filterCol = col;
+  b.dataset.filterType = type;
   b.textContent = label;
 
   b.onclick = () => {
-    // Toggle deze filter
-    if (activeFilters.has(id)) {
-      activeFilters.delete(id);
+    const set = type === "regio" ? activeRegios : activeActiviteiten;
+    if (set.has(id)) {
+      set.delete(id);
     } else {
-      activeFilters.add(id);
+      set.add(id);
     }
     syncFilterButtons();
     render();
@@ -309,7 +328,7 @@ function makeFilterBtn(container, label, id, col) {
 
 function syncFilterButtons() {
   const allBtn = document.getElementById("btn-all");
-  const isAll = activeFilters.size === 0;
+  const isAll = activeRegios.size === 0 && activeActiviteiten.size === 0;
 
   // "Alles" knop
   if (isAll) {
@@ -328,7 +347,10 @@ function syncFilterButtons() {
   document.querySelectorAll(".fb[data-filter-id]").forEach((btn) => {
     const id = btn.dataset.filterId;
     const col = btn.dataset.filterCol;
-    if (activeFilters.has(id)) {
+    const type = btn.dataset.filterType;
+    const set = type === "regio" ? activeRegios : activeActiviteiten;
+
+    if (set.has(id)) {
       btn.classList.add("on");
       btn.style.background = col;
       btn.style.color = "#fff";
