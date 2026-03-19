@@ -110,7 +110,7 @@ function renderAnalyse() {
     const provLabel = PROV_LABELS[c.provincie] || c.provincie;
     const sizeLabel = { G: "Groot", M: "Midden", K: "Klein" }[c.grootte] || "";
     const webLink = c.website ? `<a href="${c.website.startsWith('http') ? c.website : 'https://' + c.website}" target="_blank" rel="noopener">${c.website}</a>` : "";
-    const btwLink = c.btw ? `<a href="https://jaarrekening.be/nl/be/${c.btw.replace(/[^0-9]/g, '')}" target="_blank" rel="noopener">${c.btw}</a>` : "";
+    const btwLink = c.btw ? `<a href="https://www.companyweb.be/nl/${c.btw.replace(/[^0-9]/g, '')}" target="_blank" rel="noopener">${c.btw}</a>` : "";
 
     const rH = c.rijtijd_hertsberge;
     const rD = c.rijtijd_drongen;
@@ -222,7 +222,7 @@ function renderOpportuniteiten(data) {
             <span class="opp-name">${c.naam}</span>
             <span class="opp-detail">Opgericht ${c.oprichting} · ${(c.activiteiten || []).map(a => categorieen.find(x => x.id === a)?.label || a).join(", ")}</span>
             ${makeWebLink(c)}
-            ${c.btw ? `<a href="https://jaarrekening.be/nl/be/${c.btw.replace(/[^0-9]/g, '')}" target="_blank" class="opp-link">📊 Jaarrekening</a>` : ""}
+            ${c.btw ? `<a href="https://www.companyweb.be/nl/${c.btw.replace(/[^0-9]/g, '')}" target="_blank" class="opp-link">📊 Jaarrekening</a>` : ""}
           </div>
         `).join("")}
       </div>

@@ -67,7 +67,7 @@ function buildPopup(c) {
     if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${c.oprichting}<br>`;
     if (c.rechtsvorm) enrichHtml += `<b>Vorm:</b> ${c.rechtsvorm}<br>`;
     if (c.btw) {
-      enrichHtml += `<a href="https://jaarrekening.be/nl/be/${c.btw.replace(/[^0-9]/g, "")}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 Jaarrekeningen bekijken</a>`;
+      enrichHtml += `<a href="https://www.companyweb.be/nl/${c.btw.replace(/[^0-9]/g, "")}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 Jaarrekeningen bekijken</a>`;
     }
     enrichHtml += "</div>";
   }
