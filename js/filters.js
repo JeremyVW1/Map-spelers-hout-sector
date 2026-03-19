@@ -19,12 +19,13 @@ function buildFilters() {
   // Regio rij
   const regioRow = document.getElementById("filter-regio");
   addLabel(regioRow, "Regio:");
+
+  // Groene zone knop VOORAAN
+  makeFilterBtn(regioRow, "🟢 Max 1u rijden voor V&J", "groene_zone", "#2E7D32", "regio");
+
   categorieen.filter((c) => c.type === "regio").forEach((c) => {
     makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio");
   });
-
-  // Groene zone knop in de regio-rij
-  makeFilterBtn(regioRow, "🟢 Max 1u rijden", "groene_zone", "#2E7D32", "regio");
 
   // Activiteit rij
   const actRow = document.getElementById("filter-activiteit");
@@ -111,7 +112,7 @@ function buildLegend() {
   zoneItems.className = "legend-items";
   const zoneItem = document.createElement("div");
   zoneItem.className = "legend-item";
-  zoneItem.innerHTML = `<div class="legend-dot" style="background:#4CAF50;border:1.5px dashed #2E7D32;opacity:0.7"></div><span>Max 1u rijden</span>`;
+  zoneItem.innerHTML = `<div class="legend-dot" style="background:#4CAF50;border:1.5px dashed #2E7D32;opacity:0.7"></div><span>Max 1u rijden voor V&J</span>`;
   zoneItems.appendChild(zoneItem);
   // Eigen locaties
   const ownItem = document.createElement("div");

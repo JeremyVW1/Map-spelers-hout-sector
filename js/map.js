@@ -52,6 +52,7 @@ function addTargetZone() {
     for (let r = maxKm; r > 0; r -= 2) {
       const lat = midLat + (r / 111) * Math.cos((angle * Math.PI) / 180);
       const lng = midLng + (r / (111 * Math.cos((midLat * Math.PI) / 180))) * Math.sin((angle * Math.PI) / 180);
+      if (lat > 51.45) continue; // niet in Nederland
       if (distKm(lat, lng, h[0], h[1]) <= maxKm &&
           distKm(lat, lng, d[0], d[1]) <= maxKm) {
         points.push([lat, lng]);

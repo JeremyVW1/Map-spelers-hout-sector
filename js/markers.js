@@ -52,31 +52,54 @@ function buildPopup(c) {
 
   // Verrijkte KBO data
   let enrichHtml = "";
-  if (c.btw || c.groep_btw) {
+  if (c.btw || c.groep_btw || c.omzet || c.medewerkers || c.oprichting) {
     enrichHtml += '<div class="popup-enrich">';
     if (c.groep) enrichHtml += `<b>Groep:</b> ${c.groep}<br>`;
-    enrichHtml += `<b>BTW:</b> ${c.btw || c.groep_btw || "?"}<br>`;
-    if (c.groep_omzet) enrichHtml += `<b>Omzet:</b> ${c.groep_omzet}<br>`;
+    if (c.btw || c.groep_btw) enrichHtml += `<b>BTW:</b> ${c.btw || c.groep_btw}<br>`;
+    if (c.omzet || c.groep_omzet) enrichHtml += `<b>Omzet:</b> ${c.omzet || c.groep_omzet}<br>`;
     const fte = c.medewerkers || c.groep_medewerkers;
-    if (fte) enrichHtml += `<b>FTE:</b> ${fte}<br>`;
+    if (fte) enrichHtml += `<b>Werknemers:</b> ${fte}<br>`;
+    if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${c.oprichting}<br>`;
     if (c.rechtsvorm || c.groep_rechtsvorm)
       enrichHtml += `<b>Vorm:</b> ${c.rechtsvorm || c.groep_rechtsvorm}<br>`;
     enrichHtml += "</div>";
   }
 
+  // Activiteiten labels
   const acts = c.activiteiten || [];
   const actLabel = acts.length > 0
     ? categorieen.find((cat) => cat.id === acts[0])?.label || acts[0]
     : "Onbekend";
+  const allActLabels = acts.map(a => categorieen.find(cat => cat.id === a)?.label || a);
+
+  // Website klikbaar
+  let websiteHtml = "";
+  if (c.website) {
+    const url = c.website.startsWith("http") ? c.website : "https://" + c.website;
+    websiteHtml = `<a href="${url}" target="_blank" rel="noopener" class="popup-website">🌐 ${c.website}</a>`;
+  }
+
+  // Rijtijden
+  let rijtijdHtml = "";
+  if (c.rijtijd_hertsberge != null || c.rijtijd_drongen != null) {
+    rijtijdHtml = '<div class="popup-rijtijd">';
+    if (c.rijtijd_hertsberge != null) rijtijdHtml += `🚗 Hertsberge: <b>${c.rijtijd_hertsberge} min</b>`;
+    if (c.rijtijd_hertsberge != null && c.rijtijd_drongen != null) rijtijdHtml += " &nbsp;|&nbsp; ";
+    if (c.rijtijd_drongen != null) rijtijdHtml += `Drongen: <b>${c.rijtijd_drongen} min</b>`;
+    rijtijdHtml += "</div>";
+  }
 
   return `
     <span class="popup-badge" style="background:${col}">${actLabel}</span>
     <span class="popup-prov">${provLabel}</span>
     <span class="popup-name">${c.naam}</span>
     <span class="popup-coords">📍 ${c.lat.toFixed(3)}, ${c.lng.toFixed(3)}</span>
+    ${acts.length > 1 ? `<span class="popup-acts">📋 ${allActLabels.join(", ")}</span>` : ""}
     <span class="${infoClass}">${info}</span>
     ${contactHtml}
+    ${websiteHtml}
     ${enrichHtml}
+    ${rijtijdHtml}
     <span class="popup-webshop">🌐 Webshop: <b>${c.webshop}</b></span>
     <span class="popup-size ${c.grootte}">${sizeLabel}</span>
   `;
