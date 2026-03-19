@@ -7699,5 +7699,83 @@
     "btw": "BE0860.273.697",
     "website": "",
     "adres": "Bertrix, 6880"
+  },
+  {
+    "naam": "Durafence / Peter Müller",
+    "provincie": "lui",
+    "grootte": "K",
+    "lat": 50.3500,
+    "lng": 6.1833,
+    "webshop": "Nee",
+    "info": "Paardenomheiningen in hout, gespecialiseerd in post-and-rail systemen. Duitstalig België.",
+    "activiteiten": ["paarden"],
+    "btw": "BE0414.736.663",
+    "website": "durafence.be",
+    "adres": "Zur Morsheck 49, 4770 Möderscheid (Amel)"
+  },
+  {
+    "naam": "Natuurhout",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.0667,
+    "lng": 4.0333,
+    "webshop": "Nee",
+    "info": "Houten omheiningen, paardenstallen en bijgebouwen. Kastanjehout specialist.",
+    "activiteiten": ["paarden", "tuinhuis"],
+    "btw": "BE0841.894.771",
+    "website": "natuurhout.be",
+    "adres": "Adolf Van Der Moerenstraat 39, 9240 Zele"
+  },
+  {
+    "naam": "Afsluitingen Van Eecke",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.0167,
+    "lng": 2.9667,
+    "webshop": "Nee",
+    "info": "Houten paardenomheiningen, draadafsluitingen, poorten. Plaatsing en levering.",
+    "activiteiten": ["paarden", "agro"],
+    "btw": "BE0894.671.184",
+    "website": "afsluitingenvaneecke.be",
+    "adres": "Amersveldestraat 177A, 8610 Handzame (Kortemark)"
+  },
+  {
+    "naam": "Gebroeders Van Cleemputte",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.8667,
+    "lng": 3.7833,
+    "webshop": "Nee",
+    "info": "Houten afsluitingen, paardenomheiningen, tuinconstructies. Familiebedrijf.",
+    "activiteiten": ["paarden", "agro"],
+    "btw": "BE0842.612.769",
+    "website": "",
+    "adres": "Pelgrimsweg 1, 9620 Zottegem"
+  },
+  {
+    "naam": "Schuilhokken.be",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8500,
+    "lng": 3.4667,
+    "webshop": "Nee",
+    "info": "Schuilhokken, paardenstallen, houten omheiningen. Ook tuinhuizen en carports.",
+    "activiteiten": ["paarden", "tuinhuis"],
+    "btw": "",
+    "website": "schuilhokken.be",
+    "adres": "Astweg 2, 8570 Anzegem"
+  },
+  {
+    "naam": "Draadmagazijn",
+    "provincie": "lim",
+    "grootte": "K",
+    "lat": 51.0333,
+    "lng": 5.2333,
+    "webshop": "Ja",
+    "info": "Breed assortiment omheiningen incl. houten paardenafsluitingen. Webshop aanwezig.",
+    "activiteiten": ["paarden", "agro"],
+    "btw": "BE0463.744.033",
+    "website": "draadmagazijn.be",
+    "adres": "De Weven 11, 3583 Paal-Beringen"
   }
 ]

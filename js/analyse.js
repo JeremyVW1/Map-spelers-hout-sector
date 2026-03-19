@@ -143,6 +143,18 @@ function renderAnalyse() {
     const hasWarning = (c.info || "").includes("⚠️");
     if (hasWarning) tr.classList.add("row-warning");
 
+    // Bepaal dichtste vestiging
+    const rH = c.rijtijd_hertsberge;
+    const rD = c.rijtijd_drongen;
+    let dichtsteText = "";
+    if (rH != null && rD != null) {
+      dichtsteText = rH <= rD ? `H ${rH}'` : `D ${rD}'`;
+    } else if (rH != null) {
+      dichtsteText = `H ${rH}'`;
+    } else if (rD != null) {
+      dichtsteText = `D ${rD}'`;
+    }
+
     tr.innerHTML = `
       <td class="td-naam">${c.naam}</td>
       <td>${provLabel}</td>
@@ -151,8 +163,9 @@ function renderAnalyse() {
       <td class="td-adres">${c.adres || ""}</td>
       <td class="td-btw">${btwLink}</td>
       <td class="td-web">${webLink}</td>
-      <td class="td-num">${c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge + "'" : ""}</td>
-      <td class="td-num">${c.rijtijd_drongen != null ? c.rijtijd_drongen + "'" : ""}</td>
+      <td class="td-num">${rH != null ? rH + "'" : ""}</td>
+      <td class="td-num">${rD != null ? rD + "'" : ""}</td>
+      <td class="td-num td-dichtste">${dichtsteText}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -161,6 +174,14 @@ function renderAnalyse() {
 function getSortValue(c, key) {
   if (key === "activiteiten") return (c.activiteiten || [])[0] || "";
   if (key === "rijtijd_hertsberge" || key === "rijtijd_drongen") return c[key] != null ? c[key] : 999;
+  if (key === "dichtste") {
+    const rH = c.rijtijd_hertsberge;
+    const rD = c.rijtijd_drongen;
+    if (rH != null && rD != null) return Math.min(rH, rD);
+    if (rH != null) return rH;
+    if (rD != null) return rD;
+    return 999;
+  }
   return c[key] || "";
 }
 
@@ -230,10 +251,7 @@ function renderOpportuniteiten(data) {
     return c.grootte === "K" && yr && yr < 2000;
   }).sort((a, b) => parseInt(a.oprichting) - parseInt(b.oprichting));
 
-  // 2. Bedrijven met waarschuwing (gestopt, failliet, etc.)
-  const warnings = data.filter(c => (c.info || "").includes("⚠️"));
-
-  // 3. Concurrentie-dichtheid per activiteit in groene zone
+  // 2. Concurrentie-dichtheid per activiteit in groene zone
   const actInZone = {};
   allInZone.forEach(c => (c.activiteiten || []).forEach(a => {
     actInZone[a] = (actInZone[a] || 0) + 1;
@@ -243,22 +261,10 @@ function renderOpportuniteiten(data) {
     actTotal[a] = (actTotal[a] || 0) + 1;
   }));
 
-  // 4. Dichtste concurrenten — bedrijven < 10km van elkaar
-  const clusters = findClusters(allInZone, 10);
-
-  // 5. Witte vlekken — activiteiten met weinig spelers in zone
+  // 3. Witte vlekken — activiteiten met weinig spelers in zone
   const witteVlekken = Object.entries(actInZone)
     .filter(([, n]) => n <= 3)
     .sort((a, b) => a[1] - b[1]);
-
-  // 6. Grote spelers zonder eigen vestiging dichtbij
-  const groteVeraf = bedrijven.filter(c =>
-    c.grootte === "G" &&
-    c.rijtijd_hertsberge != null &&
-    c.rijtijd_hertsberge > 30 &&
-    c.rijtijd_drongen != null &&
-    c.rijtijd_drongen > 30
-  );
 
   el.innerHTML = `
     ${overnameCandidates.length ? `
@@ -278,21 +284,6 @@ function renderOpportuniteiten(data) {
     </div>
     ` : ""}
 
-    ${warnings.length ? `
-    <div class="opp-section">
-      <h3>⚠️ Gestopt / problemen</h3>
-      <p class="opp-desc">Bedrijven met waarschuwing — klantenbasis mogelijk vrij</p>
-      <div class="opp-list">
-        ${warnings.map(c => `
-          <div class="opp-item opp-warning">
-            <span class="opp-name">${c.naam}</span>
-            <span class="opp-detail">${c.info}</span>
-            ${makeWebLink(c)}
-          </div>
-        `).join("")}
-      </div>
-    </div>
-    ` : ""}
 
     <div class="opp-section">
       <h3>📊 Marktverzadiging in groene zone</h3>
@@ -326,67 +317,14 @@ function renderOpportuniteiten(data) {
     </div>
     ` : ""}
 
-    ${clusters.length ? `
-    <div class="opp-section">
-      <h3>🏘️ Concurrentieclusters</h3>
-      <p class="opp-desc">Bedrijven met dezelfde activiteit binnen 10km — hoge lokale concurrentie</p>
-      <div class="opp-list">
-        ${clusters.slice(0, 10).map(cl => `
-          <div class="opp-item">
-            <span class="opp-name">${cl.names.join(" ↔ ")}</span>
-            <span class="opp-detail">${cl.activity} · ${cl.distKm.toFixed(1)}km van elkaar</span>
-          </div>
-        `).join("")}
-      </div>
-    </div>
-    ` : ""}
 
-    ${groteVeraf.length ? `
-    <div class="opp-section">
-      <h3>🏢 Grote spelers buiten bereik</h3>
-      <p class="opp-desc">Dominante bedrijven die > 30 min rijden van beide vestigingen — hun markt is moeilijk te bedienen vanuit V&J</p>
-      <div class="opp-list">
-        ${groteVeraf.map(c => `
-          <div class="opp-item">
-            <span class="opp-name">${c.naam}</span>
-            <span class="opp-detail">🚗 H: ${c.rijtijd_hertsberge}' · D: ${c.rijtijd_drongen}' · ${(c.activiteiten || []).map(a => { const cat = categorieen.find(x => x.id === a); return cat ? cat.label : a; }).join(", ")}</span>
-            ${makeWebLink(c)}
-          </div>
-        `).join("")}
-      </div>
-    </div>
-    ` : ""}
   `;
-}
-
-function findClusters(companies, maxKm) {
-  const clusters = [];
-  for (let i = 0; i < companies.length; i++) {
-    for (let j = i + 1; j < companies.length; j++) {
-      const a = companies[i], b = companies[j];
-      const sharedActs = (a.activiteiten || []).filter(act => (b.activiteiten || []).includes(act));
-      if (sharedActs.length === 0) continue;
-      const d = distKmUtil(a.lat, a.lng, b.lat, b.lng);
-      if (d <= maxKm && d > 0) {
-        const actLabel = sharedActs.map(id => {
-          const cat = categorieen.find(c => c.id === id);
-          return cat ? cat.label : id;
-        }).join(", ");
-        clusters.push({
-          names: [a.naam.replace(/\s*\([^)]*\)/, ""), b.naam.replace(/\s*\([^)]*\)/, "")],
-          activity: actLabel,
-          distKm: d,
-        });
-      }
-    }
-  }
-  return clusters.sort((a, b) => a.distKm - b.distKm);
 }
 
 // ─── CSV Export ───────────────────────────────
 function exportCSV() {
   const data = getAnalyseFiltered();
-  const header = ["Naam", "Regio", "Activiteiten", "Grootte", "Adres", "BTW", "Website", "Omzet", "Medewerkers", "Oprichting", "Rijtijd Hertsberge", "Rijtijd Drongen"];
+  const header = ["Naam", "Regio", "Activiteiten", "Grootte", "Adres", "BTW", "Website", "Omzet", "Medewerkers", "Oprichting", "Rijtijd Hertsberge", "Rijtijd Drongen", "Dichtste vestiging"];
   const rows = data.map(c => [
     c.naam,
     PROV_LABELS[c.provincie] || c.provincie,
@@ -400,6 +338,7 @@ function exportCSV() {
     c.oprichting || "",
     c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge : "",
     c.rijtijd_drongen != null ? c.rijtijd_drongen : "",
+    (() => { const h = c.rijtijd_hertsberge, d = c.rijtijd_drongen; if (h != null && d != null) return h <= d ? `H ${h}'` : `D ${d}'`; if (h != null) return `H ${h}'`; if (d != null) return `D ${d}'`; return ""; })(),
   ]);
 
   const csv = [header, ...rows].map(r =>
