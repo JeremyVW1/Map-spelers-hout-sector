@@ -45,7 +45,12 @@ function buildPopup(c) {
     .replace(/📞[^\s📧🌐]*/g, "")
     .replace(/📧[^\s📞🌐]*/g, "")
     .replace(/🌐[^\s📞📧]*/g, "")
+    .replace(/\+32[\s.\-/\d]{6,}/g, "")               // telefoon +32...
+    .replace(/0\d{1,3}[\s.\-/]\d{2}[\s.\-/\d]{4,}/g, "")  // telefoon 0xx/xx.xx.xx
+    .replace(/\S+@\S+\.\S+/g, "")                      // email
+    .replace(/(?:https?:\/\/)?(?:www\.)\S+/gi, "")      // website www...
     .replace(/\s*\|\s*/g, " ")
+    .replace(/\s{2,}/g, " ")
     .trim();
 
   // Website: gebruik c.website als dat er is, anders uit info
@@ -58,18 +63,15 @@ function buildPopup(c) {
     : "Onbekend";
   const allActLabels = acts.map(a => categorieen.find(cat => cat.id === a)?.label || a);
 
-  // ─── Contactblok: adres, tel, website (elk klikbaar) ───
+  // ─── Contactblok: adres, tel, website (compact onder elkaar) ───
   let contactHtml = '<div class="popup-contact">';
   if (adres) {
     const mapsUrl = "https://www.google.com/maps/search/" + encodeURIComponent(adres + ", België");
-    contactHtml += `<a href="${mapsUrl}" target="_blank" rel="noopener" class="popup-link">📍 ${adres}</a><br>`;
+    contactHtml += `<a href="${mapsUrl}" target="_blank" rel="noopener" class="popup-link">📍 ${adres}</a>`;
   }
   if (tel) {
     const telClean = tel.replace(/[^+\d]/g, "");
-    contactHtml += `<a href="tel:${telClean}" class="popup-link">📞 ${tel}</a><br>`;
-  }
-  if (mail) {
-    contactHtml += `<a href="mailto:${mail}" class="popup-link">📧 ${mail}</a><br>`;
+    contactHtml += `<a href="tel:${telClean}" class="popup-link">📞 ${tel}</a>`;
   }
   if (website) {
     const url = website.startsWith("http") ? website : "https://" + website;
