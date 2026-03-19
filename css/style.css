@@ -378,6 +378,312 @@ body {
   color: #1B5E20;
 }
 
+/* ─── TABS ──────────────────────────────── */
+.header-center {
+  display: flex;
+  gap: 2px;
+}
+.tab-btn {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.6);
+  padding: 3px 16px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.15s;
+}
+.tab-btn:hover {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+}
+.tab-btn.active {
+  background: rgba(255,255,255,0.22);
+  color: #fff;
+  border-color: rgba(255,255,255,0.3);
+}
+.hidden { display: none !important; }
+
+/* ─── ANALYSE TAB ───────────────────────── */
+#analyse-view {
+  flex: 1;
+  overflow-y: auto;
+  background: #f0f2f5;
+  padding: 12px 16px;
+}
+.analyse-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.analyse-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.analyse-filters select {
+  font-size: 11px;
+  padding: 4px 8px;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+.analyse-check {
+  font-size: 11px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.analyse-check input { cursor: pointer; }
+.analyse-btn {
+  font-size: 11px;
+  padding: 5px 14px;
+  border: 1.5px solid #1a1a2e;
+  border-radius: 6px;
+  background: #1a1a2e;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.15s;
+}
+.analyse-btn:hover { opacity: 0.85; }
+
+/* Stats */
+.analyse-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.stat-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  min-width: 100px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.stat-card.stat-wide {
+  flex: 1 1 100%;
+}
+.stat-num {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1;
+}
+.stat-label {
+  font-size: 10px;
+  color: #888;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-top: 2px;
+}
+.stat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+.stat-chip {
+  font-size: 11px;
+  padding: 2px 8px;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+.stat-chip b { margin-left: 2px; }
+.stat-bar-group { margin-top: 4px; }
+.stat-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+.stat-bar-label {
+  font-size: 10px;
+  color: #666;
+  width: 45px;
+  flex-shrink: 0;
+}
+.stat-bar {
+  flex: 1;
+  height: 12px;
+  background: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s;
+}
+.stat-bar-fill.G { background: #b71c1c; }
+.stat-bar-fill.M { background: #e65100; }
+.stat-bar-fill.K { background: #2E7D32; }
+.stat-bar-num {
+  font-size: 10px;
+  font-weight: 700;
+  color: #555;
+  width: 25px;
+  text-align: right;
+}
+
+/* Opportuniteiten */
+.analyse-opps {
+  margin-bottom: 16px;
+}
+.opp-section {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.opp-section h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 2px;
+}
+.opp-desc {
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 8px;
+}
+.opp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.opp-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 4px 8px;
+  background: #fafafa;
+  border-radius: 4px;
+  flex-wrap: wrap;
+}
+.opp-item.opp-warning { background: #fff5f5; }
+.opp-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+.opp-detail {
+  font-size: 11px;
+  color: #777;
+}
+.opp-link {
+  font-size: 10px;
+  color: #1565C0;
+  text-decoration: none;
+  margin-left: auto;
+}
+.opp-link:hover { text-decoration: underline; }
+
+/* Marktverzadiging bars */
+.opp-saturation { margin-top: 6px; }
+.sat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.sat-label {
+  font-size: 11px;
+  font-weight: 600;
+  width: 110px;
+  flex-shrink: 0;
+}
+.sat-bar {
+  flex: 1;
+  height: 14px;
+  background: #eee;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.sat-fill {
+  height: 100%;
+  border-radius: 7px;
+  transition: width 0.3s;
+  opacity: 0.75;
+}
+.sat-nums {
+  font-size: 10px;
+  color: #666;
+  white-space: nowrap;
+  width: 80px;
+  text-align: right;
+}
+
+/* Tabel */
+.analyse-table-wrap {
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.analyse-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+.analyse-table th {
+  background: #f5f5f5;
+  padding: 6px 8px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 700;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid #e0e0e0;
+  white-space: nowrap;
+  user-select: none;
+}
+.analyse-table th:hover { background: #eee; }
+.analyse-table td {
+  padding: 5px 8px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: top;
+}
+.analyse-table tr:hover { background: #f8f9ff; }
+.analyse-table tr.row-warning { background: #fff8f8; }
+.td-naam { font-weight: 600; white-space: nowrap; }
+.td-adres { font-size: 10px; color: #666; max-width: 200px; }
+.td-btw { font-size: 10px; white-space: nowrap; }
+.td-btw a { color: #1565C0; text-decoration: none; }
+.td-btw a:hover { text-decoration: underline; }
+.td-web { font-size: 10px; }
+.td-web a { color: #1565C0; text-decoration: none; }
+.td-web a:hover { text-decoration: underline; }
+.td-num { text-align: center; font-weight: 600; color: #2E7D32; }
+.size-badge {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+.size-badge.G { background: #fde8e8; color: #b71c1c; }
+.size-badge.M { background: #fff3e0; color: #bf360c; }
+.size-badge.K { background: #e8f5e9; color: #1b5e20; }
+
 /* ─── PULS-ANIMATIE eigen locaties ────────── */
 @keyframes pulse {
   0% { transform: scale(1); opacity: 0.8; }
@@ -394,8 +700,22 @@ body {
     padding: 3px 10px;
   }
   #header .header-left h1 {
-    font-size: 12px;
+    font-size: 11px;
   }
+  .tab-btn {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+  #analyse-view {
+    padding: 8px;
+  }
+  .analyse-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .stat-card { min-width: 70px; }
+  .sat-label { width: 80px; font-size: 10px; }
+  .analyse-table { font-size: 10px; }
   #controls {
     padding: 3px 8px;
     gap: 2px;

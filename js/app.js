@@ -24,6 +24,8 @@ async function init() {
   buildFilters();
   buildLegend();
   initSearch();
+  initAnalyse();
+  initTabs();
 
   // Standaard WVL + OVL + alle activiteiten
   activeRegios.add("wvl");
@@ -35,6 +37,29 @@ async function init() {
 
   render();
   updateCounter();
+}
+
+function initTabs() {
+  document.querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const tab = btn.dataset.tab;
+      const kaartEls = [document.getElementById("controls"), document.getElementById("map"), document.getElementById("legend")];
+      const analyseEl = document.getElementById("analyse-view");
+
+      if (tab === "kaart") {
+        kaartEls.forEach(el => el.classList.remove("hidden"));
+        analyseEl.classList.add("hidden");
+        setTimeout(() => map.invalidateSize(), 100);
+      } else {
+        kaartEls.forEach(el => el.classList.add("hidden"));
+        analyseEl.classList.remove("hidden");
+        renderAnalyse();
+      }
+    });
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);
