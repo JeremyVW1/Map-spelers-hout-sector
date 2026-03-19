@@ -20,7 +20,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln",
+    "medewerkers": "230 FTE",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Houthandel Dequidt",
@@ -60,7 +65,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 35
+    "rijtijd_drongen": 35,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Cras Woodshops Menen",
@@ -104,7 +114,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 28,
-    "rijtijd_drongen": 35
+    "rijtijd_drongen": 35,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Groep Debeuckelaere",
@@ -142,7 +157,10 @@
     ],
     "rijtijd_hertsberge": 7,
     "rijtijd_drongen": 20,
-    "website": "agrodieren.be"
+    "website": "agrodieren.be",
+    "btw": "BE0417.360.019",
+    "medewerkers": "~50",
+    "oprichting": "1977"
   },
   {
     "naam": "Vandenbroucke Hout",
@@ -161,7 +179,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 10,
-    "rijtijd_drongen": 21
+    "rijtijd_drongen": 21,
+    "omzet": "€9,8 mln",
+    "medewerkers": "18 FTE",
+    "oprichting": "1974"
   },
   {
     "naam": "Botanica Wood",
@@ -180,7 +201,9 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 45
+    "rijtijd_drongen": 45,
+    "medewerkers": "6 FTE",
+    "oprichting": "1992"
   },
   {
     "naam": "Houtmarkt",
@@ -233,7 +256,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 43
+    "rijtijd_drongen": 43,
+    "oprichting": "1983",
+    "website": "hout-vanhaverbeke.be"
   },
   {
     "naam": "Houthandel Tavernier",
@@ -330,7 +355,11 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 28
+    "rijtijd_drongen": 28,
+    "omzet": "€1,8 mln",
+    "medewerkers": "3 FTE",
+    "oprichting": "1981",
+    "website": "tieltsehouthandel.be"
   },
   {
     "naam": "Houthandel Messely",
@@ -574,7 +603,10 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 35,
-    "rijtijd_drongen": 12
+    "rijtijd_drongen": 12,
+    "omzet": "n.b.",
+    "oprichting": "1990",
+    "website": "desindo.be"
   },
   {
     "naam": "'t Houtboerke",
@@ -637,7 +669,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 19
+    "rijtijd_drongen": 19,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Hout De Groote",
@@ -687,7 +724,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "omzet": "€12 mln",
+    "medewerkers": "49 FTE",
+    "oprichting": "1929",
+    "website": "steyaerthoutshop.be"
   },
   {
     "naam": "Houtshop Van der Gucht",
@@ -1748,7 +1789,8 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 34,
-    "rijtijd_drongen": 13
+    "rijtijd_drongen": 13,
+    "website": "leenbakker.be"
   },
   {
     "naam": "Brico (Gent)",
@@ -1765,7 +1807,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 34,
-    "rijtijd_drongen": 11
+    "rijtijd_drongen": 11,
+    "oprichting": "1973",
+    "website": "brico.be"
   },
   {
     "naam": "Gamma (Gent)",
@@ -1780,7 +1824,9 @@
       "dhz"
     ],
     "rijtijd_hertsberge": 33,
-    "rijtijd_drongen": 13
+    "rijtijd_drongen": 13,
+    "oprichting": "1978",
+    "website": "gamma.be"
   },
   {
     "naam": "Hubo (Gent)",
@@ -1796,7 +1842,9 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 12
+    "rijtijd_drongen": 12,
+    "oprichting": "1969",
+    "website": "hubo.be"
   },
   {
     "naam": "Brico (Antwerpen)",
@@ -1841,7 +1889,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 19,
-    "rijtijd_drongen": 32
+    "rijtijd_drongen": 32,
+    "oprichting": "1973",
+    "website": "brico.be"
   },
   {
     "naam": "Gamma (Kortrijk)",
@@ -1856,7 +1906,9 @@
       "online"
     ],
     "rijtijd_hertsberge": 43,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "oprichting": "1978",
+    "website": "gamma.be"
   },
   {
     "naam": "Brico (Hasselt)",
@@ -1917,7 +1969,11 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 28
+    "rijtijd_drongen": 28,
+    "omzet": "€1,8 mln",
+    "medewerkers": "3 FTE",
+    "oprichting": "1981",
+    "website": "tieltsehouthandel.be"
   },
   {
     "naam": "Houthandel Decadt (Vlamertinge)",
@@ -2252,7 +2308,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 12
+    "rijtijd_drongen": 12,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Sackx-Coussement Houthandel",
@@ -2493,7 +2554,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 46
+    "rijtijd_drongen": 46,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Groep Debeuckelaere (Roeselare)",
@@ -2516,7 +2582,10 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 45
+    "rijtijd_drongen": 45,
+    "btw": "BE0424.964.621",
+    "oprichting": "1996",
+    "website": "debeuckelaere.com"
   },
   {
     "naam": "Groep Debeuckelaere (Tielt)",
@@ -2539,7 +2608,10 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 19,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "btw": "BE0424.964.621",
+    "oprichting": "1996",
+    "website": "debeuckelaere.com"
   },
   {
     "naam": "Groep Debeuckelaere (Gits/Hooglede)",
@@ -2562,7 +2634,10 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 23,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "btw": "BE0424.964.621",
+    "oprichting": "1996",
+    "website": "debeuckelaere.com"
   },
   {
     "naam": "Groep Debeuckelaere (Oostende)",
@@ -2602,7 +2677,9 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 45
+    "rijtijd_drongen": 45,
+    "medewerkers": "6 FTE",
+    "oprichting": "1992"
   },
   {
     "naam": "Houthandel Messely (Moorslede)",
@@ -2672,7 +2749,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "omzet": "€12 mln",
+    "medewerkers": "49 FTE",
+    "oprichting": "1929",
+    "website": "steyaerthoutshop.be"
   },
   {
     "naam": "Zagerij & Houthandel Van der Perre (Lennik)",
@@ -2709,7 +2790,12 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln",
+    "medewerkers": "230 FTE",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Cras Woodshops Heule (Kortrijk)",
@@ -2733,7 +2819,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 36
+    "rijtijd_drongen": 36,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Cras Woodshops Menen",
@@ -2778,7 +2869,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 46
+    "rijtijd_drongen": 46,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Cras Woodshops Gits (Hooglede)",
@@ -2801,7 +2897,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 24,
-    "rijtijd_drongen": 38
+    "rijtijd_drongen": 38,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Cras Woodshops Meulebeke",
@@ -2824,7 +2925,12 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 28,
-    "rijtijd_drongen": 35
+    "rijtijd_drongen": 35,
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878",
+    "website": "cras.be"
   },
   {
     "naam": "Debeuckelaere HQ (Kortemark)",
@@ -2868,7 +2974,10 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 45
+    "rijtijd_drongen": 45,
+    "btw": "BE0424.964.621",
+    "oprichting": "1996",
+    "website": "debeuckelaere.com"
   },
   {
     "naam": "Debeuckelaere Tielt",
@@ -2891,7 +3000,10 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 19,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "btw": "BE0424.964.621",
+    "oprichting": "1996",
+    "website": "debeuckelaere.com"
   },
   {
     "naam": "Debeuckelaere Gits (Hooglede)",
@@ -2914,7 +3026,10 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 23,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "btw": "BE0424.964.621",
+    "oprichting": "1996",
+    "website": "debeuckelaere.com"
   },
   {
     "naam": "Debeuckelaere Oostende",
@@ -3021,7 +3136,9 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 30,
-    "rijtijd_drongen": 45
+    "rijtijd_drongen": 45,
+    "oprichting": "1983",
+    "website": "hout-vanhaverbeke.be"
   },
   {
     "naam": "Belgian Timber (Waregem)",
@@ -3089,7 +3206,11 @@
     "adres": "Deinsesteenweg 8, 8700 Tielt",
     "rechtsvorm": "BV",
     "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "omzet": "€1,8 mln",
+    "medewerkers": "3 FTE",
+    "oprichting": "1981",
+    "website": "tieltsehouthandel.be"
   },
   {
     "naam": "Houtmarkt Brugge",
@@ -3325,7 +3446,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 9,
-    "rijtijd_drongen": 21
+    "rijtijd_drongen": 21,
+    "omzet": "€9,8 mln",
+    "medewerkers": "18 FTE",
+    "oprichting": "1974"
   },
   {
     "naam": "Botanica Wood (Roeselare)",
@@ -3344,7 +3468,9 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 46
+    "rijtijd_drongen": 46,
+    "medewerkers": "6 FTE",
+    "oprichting": "1992"
   },
   {
     "naam": "Agrodieren.be (Beernem)",
@@ -3361,7 +3487,10 @@
     ],
     "rijtijd_hertsberge": 7,
     "rijtijd_drongen": 20,
-    "website": "agrodieren.be"
+    "website": "agrodieren.be",
+    "btw": "BE0417.360.019",
+    "medewerkers": "~50",
+    "oprichting": "1977"
   },
   {
     "naam": "Hout Van Maele (Ruddervoorde/Oostkamp)",
@@ -3371,7 +3500,7 @@
     "lng": 3.2451,
     "webshop": "Nee",
     "info": "Houthandel + parket voor professioneel en particulier. Hout op maat, stockvoorraad, isolatie, gyproc, interieur. 📍 Sint-Elooisstraat 90, 8020 Ruddervoorde (Oostkamp) 🌐 www.houtvanmaele.be",
-    "btw": null,
+    "btw": "BE0803.507.319",
     "adres": "Sint-Elooisstraat 90, 8020 Ruddervoorde",
     "website": "www.houtvanmaele.be",
     "activiteiten": [
@@ -3379,7 +3508,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 6,
-    "rijtijd_drongen": 30
+    "rijtijd_drongen": 30,
+    "medewerkers": "4 FTE",
+    "oprichting": "2023"
   },
   {
     "naam": "Willton Parketvloeren (Ruddervoorde)",
@@ -3544,7 +3675,11 @@
     ],
     "rijtijd_hertsberge": 39,
     "rijtijd_drongen": 27,
-    "website": "dubois-parquet.be"
+    "website": "dubois-parquet.be",
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (Cras groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878"
   },
   {
     "naam": "Yvan Christiaens Tuinhuizen (Kaster/WVL)",
@@ -3580,7 +3715,9 @@
     ],
     "rechtsvorm": "BV",
     "rijtijd_hertsberge": 49,
-    "rijtijd_drongen": 28
+    "rijtijd_drongen": 28,
+    "medewerkers": "5 FTE",
+    "oprichting": "1992"
   },
   {
     "naam": "Woodstar Tuinhuizen (Avelgem)",
@@ -3637,7 +3774,9 @@
     ],
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 44,
-    "website": "ostyn.be"
+    "website": "ostyn.be",
+    "btw": "BE0458.025.288",
+    "oprichting": "1992"
   },
   {
     "naam": "Tuinconstructies Olieux (Deerlijk)",
@@ -3748,7 +3887,10 @@
     ],
     "rijtijd_hertsberge": 8,
     "rijtijd_drongen": 20,
-    "website": "www.agrodieren.be"
+    "website": "www.agrodieren.be",
+    "btw": "BE0417.360.019",
+    "medewerkers": "~50",
+    "oprichting": "1977"
   },
   {
     "naam": "Palenperpak (online B2B België)",
@@ -3784,7 +3926,9 @@
       "agro"
     ],
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 45
+    "rijtijd_drongen": 45,
+    "medewerkers": "6 FTE",
+    "oprichting": "1992"
   },
   {
     "naam": "Afsluitingenwoodline (OVL/WVL)",
@@ -3842,7 +3986,11 @@
     ],
     "rijtijd_hertsberge": 39,
     "rijtijd_drongen": 27,
-    "website": "dubois-parquet.be"
+    "website": "dubois-parquet.be",
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln (Cras groep)",
+    "medewerkers": "400+ (groep)",
+    "oprichting": "1878"
   },
   {
     "naam": "Tuinweelde (OVL)",
@@ -3873,7 +4021,10 @@
     ],
     "rijtijd_hertsberge": 8,
     "rijtijd_drongen": 20,
-    "website": "www.agrodieren.be"
+    "website": "www.agrodieren.be",
+    "btw": "BE0417.360.019",
+    "medewerkers": "~50",
+    "oprichting": "1977"
   },
   {
     "naam": "Cras Woodshops (HQ Waregem) — contact",
@@ -3898,7 +4049,11 @@
     ],
     "rijtijd_hertsberge": 39,
     "rijtijd_drongen": 27,
-    "website": "www.craswoodshops.be"
+    "website": "www.craswoodshops.be",
+    "btw": "BE0882.268.745",
+    "omzet": "€112 mln",
+    "medewerkers": "230 FTE",
+    "oprichting": "1878"
   },
   {
     "naam": "Houthandel Tavernier (Jabbeke)",
@@ -3955,7 +4110,9 @@
     ],
     "rechtsvorm": "BV",
     "rijtijd_hertsberge": 49,
-    "rijtijd_drongen": 29
+    "rijtijd_drongen": 29,
+    "medewerkers": "5 FTE",
+    "oprichting": "1992"
   },
   {
     "naam": "Houthandel Driekoningen (Beernem)",
@@ -4270,7 +4427,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 16
+    "rijtijd_drongen": 16,
+    "btw": "BE0464.989.591",
+    "omzet": "€22 mln",
+    "medewerkers": "32 FTE"
   },
   {
     "naam": "Grimwood (Zulte)",
@@ -4918,7 +5078,11 @@
     "btw": "BE 0462.371.281",
     "adres": "Sprietestraat 326, 8792 Waregem",
     "rijtijd_hertsberge": 41,
-    "rijtijd_drongen": 31
+    "rijtijd_drongen": 31,
+    "omzet": "€30-40 mln",
+    "medewerkers": "~100",
+    "oprichting": "2003",
+    "website": "lalegno.com"
   },
   {
     "naam": "Cappelle Marnix Parket (Tielt)",
@@ -5288,7 +5452,12 @@
     ],
     "adres": "Ooigemstraat 3, 8710 Wielsbeke",
     "rijtijd_hertsberge": 35,
-    "rijtijd_drongen": 30
+    "rijtijd_drongen": 30,
+    "btw": "BE0405.414.072",
+    "omzet": "€1.640 mln",
+    "medewerkers": "2.229 FTE",
+    "oprichting": "1960",
+    "website": "unilin.com"
   },
   {
     "naam": "Decospan (Menen)",
@@ -5563,7 +5732,12 @@
     ],
     "adres": "Ringlaan 26b, 8520 Kuurne",
     "rijtijd_hertsberge": 41,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "btw": "BE0405.301.929",
+    "omzet": "€117 mln",
+    "medewerkers": "270 FTE",
+    "oprichting": "1960",
+    "website": "verhelst.be"
   },
   {
     "naam": "Impermo (Wevelgem)",
@@ -5682,7 +5856,12 @@
     ],
     "adres": "Wakkensteenweg 37B, 8710 Sint-Baafs-Vijve",
     "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 33
+    "rijtijd_drongen": 33,
+    "btw": "BE0441.533.409",
+    "omzet": "€168 mln",
+    "medewerkers": "~500",
+    "oprichting": "2001",
+    "website": "balterio.com"
   },
   {
     "naam": "Claerhout Interiors (Harelbeke)",
@@ -5961,7 +6140,9 @@
     "btw": "BE 0429.145.717",
     "adres": "Steenovenstraat 5, 8850 Ardooie",
     "rijtijd_hertsberge": 23,
-    "rijtijd_drongen": 33
+    "rijtijd_drongen": 33,
+    "medewerkers": "6 FTE",
+    "website": "defreyne.be"
   },
   {
     "naam": "Chaletpark (Roeselare)",
@@ -6007,7 +6188,12 @@
     ],
     "adres": "8760 Meulebeke",
     "rijtijd_hertsberge": 26,
-    "rijtijd_drongen": 33
+    "rijtijd_drongen": 33,
+    "btw": "BE0436.912.051",
+    "omzet": "€14,4 mln (Carpentier)",
+    "medewerkers": "32 FTE (Carpentier)",
+    "oprichting": "1989",
+    "website": "livinlodge.be"
   },
   {
     "naam": "Woodsome (Lendelede)",
@@ -6024,7 +6210,10 @@
     "btw": "BE 0462.698.809",
     "adres": "Kortrijksestraat 102A, 8860 Lendelede",
     "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 43
+    "rijtijd_drongen": 43,
+    "medewerkers": "13 FTE",
+    "oprichting": "1998",
+    "website": "woodsome.be"
   },
   {
     "naam": "Oakwood Projects (Waregem)",
@@ -6086,7 +6275,11 @@
     ],
     "adres": "Noorwegenstraat 53, 9940 Evergem",
     "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 16
+    "rijtijd_drongen": 16,
+    "btw": "BE0417.760.489",
+    "medewerkers": "7 FTE",
+    "oprichting": "1977",
+    "website": "cornelishout.be"
   },
   {
     "naam": "Green Oak Buildings (Ninove)",
@@ -6129,7 +6322,9 @@
     "btw": "BE 0506.712.063",
     "adres": "Aalterbaan 205, 9990 Maldegem",
     "rijtijd_hertsberge": 27,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "medewerkers": "7 FTE",
+    "website": "vanhauwood.be"
   },
   {
     "naam": "Chalets Baka (Aalst/Erembodegem)",
@@ -6231,7 +6426,10 @@
     ],
     "adres": "Brugse Steenweg 278, 8000 Brugge",
     "rijtijd_hertsberge": 17,
-    "rijtijd_drongen": 30
+    "rijtijd_drongen": 30,
+    "btw": "BE0436.045.385",
+    "medewerkers": "2 FTE",
+    "website": "rodinv.be"
   },
   {
     "naam": "Daniel Decadt Houthandel (Proven/Poperinge)",
