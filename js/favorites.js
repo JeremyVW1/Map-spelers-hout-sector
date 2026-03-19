@@ -1,6 +1,6 @@
 /* Houtkaart — Favorieten (sterretjes) → Google Sheets sync */
 
-const SHEET_SCRIPT_URL = ""; // ← Vul hier je Google Apps Script URL in
+const SHEET_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyWtnahLygglfAqkJoygx2yJwV9ZkfENq2zJqX9ZWYBHvtWnWhyNwfrVATTS-NMlDZa/exec";
 
 let favorites = new Set(); // Set van bedrijfsnamen
 
