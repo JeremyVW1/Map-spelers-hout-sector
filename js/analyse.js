@@ -1,20 +1,22 @@
 /* Houtkaart — Analyse tab */
 
-let analyseSortKey = "naam";
+let analyseSortKey = "dichtste";
 let analyseSortAsc = true;
 let analyseActiveActs = new Set();
 let analyseActiveRegios = new Set();
 
-function buildAnalyseCheckboxes(container, items, activeSet) {
+function buildAnalyseCheckboxes(container, items, activeSet, defaultIds) {
+  const allOn = !defaultIds; // als geen defaultIds → alles aan
   items.forEach(c => {
+    const on = allOn || defaultIds.has(c.id);
     const label = document.createElement("label");
-    label.className = "analyse-act-label checked";
+    label.className = "analyse-act-label" + (on ? " checked" : "");
     label.style.borderColor = c.kleur;
     label.style.color = c.kleur;
     const cb = document.createElement("input");
     cb.type = "checkbox";
     cb.value = c.id;
-    cb.checked = true;
+    cb.checked = on;
     cb.addEventListener("change", () => {
       cb.checked ? activeSet.add(c.id) : activeSet.delete(c.id);
       label.classList.toggle("checked", cb.checked);
@@ -23,19 +25,20 @@ function buildAnalyseCheckboxes(container, items, activeSet) {
     label.appendChild(cb);
     label.appendChild(document.createTextNode(" " + c.label));
     container.appendChild(label);
-    activeSet.add(c.id);
+    if (on) activeSet.add(c.id);
   });
 }
 
 function initAnalyse() {
-  // Regio checkboxes
+  // Regio checkboxes — standaard alleen WVL + OVL
   buildAnalyseCheckboxes(
     document.getElementById("analyse-regio-checks"),
     categorieen.filter(c => c.type === "regio"),
-    analyseActiveRegios
+    analyseActiveRegios,
+    new Set(["wvl", "ovl"])
   );
 
-  // Activiteit checkboxes
+  // Activiteit checkboxes — standaard alles aan
   buildAnalyseCheckboxes(
     document.getElementById("analyse-activiteit-checks"),
     categorieen.filter(c => c.type === "activiteit"),

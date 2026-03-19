@@ -3540,22 +3540,23 @@
     "oprichting": "1991"
   },
   {
-    "naam": "Quadrowood (Ruiselede)",
+    "naam": "Quadrowood",
     "provincie": "wvl",
     "grootte": "M",
-    "lat": 51.0401,
-    "lng": 3.3981,
+    "lat": 51.1048,
+    "lng": 3.2632,
     "webshop": "Nee",
-    "info": "Groothandel parketvloeren + toebehoren. Import massief + meerlaags parket, teakvloeren, industrieel hoogkant parket. Verdeler Oscarono, Parital, Alberani, Vermeister. 📍 Kapellestraat 13B, 8755 Ruiselede 📞 +32 059 33 94 40 📧 info@quadrowood.be 🌐 www.quadrowood.com",
+    "info": "Groothandel parketvloeren + toebehoren. Import massief + meerlaags parket, teakvloeren, industrieel hoogkant parket. Verdeler Oscarono, Parital, Alberani, Vermeister.",
     "activiteiten": [
       "parket"
     ],
-    "rijtijd_hertsberge": 22,
+    "rijtijd_hertsberge": 5,
     "rijtijd_drongen": 18,
     "website": "www.quadrowood.com",
     "btw": "BE0886.560.402",
     "oprichting": "2007",
-    "medewerkers": "1-5"
+    "medewerkers": "1-5",
+    "adres": "Blauwhuisstraat 24, 8020 Hertsberge"
   },
   {
     "naam": "Parket Vanrobaeys (Zwevezele/Wingene)",
