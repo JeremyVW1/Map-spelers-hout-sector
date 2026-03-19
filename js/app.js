@@ -261,13 +261,8 @@ function render() {
 
 // ─── FILTERS (regio + activiteit, AND logica) ──
 function buildFilters() {
-  const bar = document.getElementById("controls");
-
-  // "Reset" knop
-  const allBtn = document.createElement("button");
-  allBtn.className = "fb";
-  allBtn.id = "btn-all";
-  allBtn.textContent = "🗺 Alles";
+  // "Alles" knop (al in HTML)
+  const allBtn = document.getElementById("btn-all");
   allBtn.onclick = () => {
     activeRegios.clear();
     activeActiviteiten.clear();
@@ -275,31 +270,25 @@ function buildFilters() {
     render();
     updateCounter();
   };
-  bar.appendChild(allBtn);
 
-  // Regio label + knoppen
+  // Regio rij
+  const regioRow = document.getElementById("filter-regio");
   const regioLabel = document.createElement("span");
   regioLabel.className = "filter-group-label";
   regioLabel.textContent = "Regio:";
-  bar.appendChild(regioLabel);
-
+  regioRow.appendChild(regioLabel);
   categorieen.filter((c) => c.type === "regio").forEach((c) => {
-    makeFilterBtn(bar, c.label, c.id, c.kleur, "regio");
+    makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio");
   });
 
-  // Scheidingslijn
-  const div = document.createElement("div");
-  div.className = "divider";
-  bar.appendChild(div);
-
-  // Activiteit label + knoppen
+  // Activiteit rij
+  const actRow = document.getElementById("filter-activiteit");
   const actLabel = document.createElement("span");
   actLabel.className = "filter-group-label";
   actLabel.textContent = "Activiteit:";
-  bar.appendChild(actLabel);
-
+  actRow.appendChild(actLabel);
   categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
-    makeFilterBtn(bar, c.label, c.id, c.kleur, "activiteit");
+    makeFilterBtn(actRow, c.label, c.id, c.kleur, "activiteit");
   });
 }
 

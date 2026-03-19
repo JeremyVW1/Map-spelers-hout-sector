@@ -127,14 +127,110 @@ const enrichment = {
     rechtsvorm: "NV",
   },
   "Goeminne Tuinhout": {
-    btw: null, adres: "Dikkelvenne (Gavere)",
-    website: "goeminnetuinhout.be",
+    btw: "BE 0446.722.414", adres: "Kerkstraat 88, 9890 Gavere",
+    rechtsvorm: "BV", website: "goeminnetuinhout.be",
+  },
+
+  // ═══ BATCH 2 — WVL ═══
+  "Dequidt": {
+    btw: "BE 0405.252.340", adres: "Albert I Laan 27a, 8630 Veurne",
+    rechtsvorm: "NV", medewerkers: 7.1,
+  },
+  "Verwée": {
+    btw: "BE 0405.379.331", adres: "Heirweg 115, 8520 Kuurne",
+    rechtsvorm: "NV",
+  },
+  "Tieltse Houthandel": {
+    btw: "BE 0421.695.127", adres: "Deinsesteenweg 8, 8700 Tielt",
+    rechtsvorm: "BV",
+  },
+  "Messely": {
+    btw: "BE 0873.692.856", adres: "Heule/Kortrijk",
+    rechtsvorm: "BV",
+  },
+  "Geldhof": {
+    btw: "BE 0405.565.710", adres: "Iepersestraat 22, 8890 Moorslede",
+    rechtsvorm: "NV", medewerkers: 4.8,
+  },
+  "Leirman": {
+    btw: "BE 0405.494.642", adres: "Cardijnlaan 4, 8600 Diksmuide",
+    rechtsvorm: "BV", oprichting: "1963",
+  },
+  "Beheyt": {
+    btw: "BE 0450.980.714", adres: "Ieperseweg 26, 8970 Poperinge",
+    rechtsvorm: "BV", oprichting: "1993", website: "www.beheyt.be",
+  },
+  "DB Hardwoods": {
+    btw: "BE 0425.328.370", adres: "Roeselarestraat 154, 8880 Ledegem",
+    rechtsvorm: "NV",
+  },
+  "Db Hardwoods": {
+    btw: "BE 0425.328.370", adres: "Roeselarestraat 154, 8880 Ledegem",
+    rechtsvorm: "NV",
+  },
+  "Loose": {
+    btw: "BE 0414.807.335", adres: "Zandstraat 210, 8200 Brugge",
+    rechtsvorm: "NV",
+  },
+  "Houtvercruysse": {
+    btw: "BE 0421.483.212", adres: "Bissegemstraat 165, 8560 Gullegem",
+    rechtsvorm: "BV",
+  },
+  "Desmet": {
+    btw: "BE 0418.979.523", adres: "Kasteeldreef 10, 8760 Tielt",
+    rechtsvorm: "BV",
+  },
+  "Stock Super Shop": {
+    btw: "BE 0458.797.132", adres: "Rochesterlaan 3, 8470 Gistel",
+    rechtsvorm: "NV",
+  },
+
+  // ═══ BATCH 2 — OVL ═══
+  "De Regge": {
+    btw: "BE 0476.593.464", adres: "Baaigemstraat 403, 9890 Gavere",
+    rechtsvorm: "BV",
+  },
+  "Houtboerke": {
+    btw: "BE 0445.566.431", adres: "Langerbruggekaai 5, 9000 Gent",
+    rechtsvorm: "NV",
+  },
+  "Van Tornhout": {
+    btw: "BE 0436.895.918", adres: "Landegemstraat 39, 9850 Deinze",
+    rechtsvorm: "BV",
+  },
+  "Verhofstede": {
+    btw: "BE 0420.253.389", adres: "Veldstraat 365, 9140 Temse",
+    rechtsvorm: "BV", oprichting: "1980",
+  },
+  "Sackx": {
+    btw: "BE 0426.353.305", adres: "Lange Munte 7, 9860 Oosterzele",
+    rechtsvorm: "BV", oprichting: "1984",
+  },
+  "De Sutter": {
+    btw: "BE 0425.103.686", adres: "Issegem 5, 9860 Oosterzele",
+    rechtsvorm: "NV",
+  },
+  "Waasland": {
+    btw: "BE 0405.597.580", adres: "Dorpvaart 74, 9180 Lokeren",
+    rechtsvorm: "BV",
+  },
+  "Rouckhout": {
+    btw: "BE 0406.347.549", adres: "Brusselsesteenweg 120, 9090 Melle",
+    rechtsvorm: "BV",
+  },
+
+  // ═══ GROEP Janssens & Janssens ═══
+  "_groep_janssens": {
+    groep: "Janssens & Janssens Group",
+    groep_btw: "BE 0821.735.597",
+    groep_adres: "Industriepark De Bruwaan 39, 9700 Oudenaarde",
   },
 };
 
 // Match groepen aan vestigingen
 const crasNames = ["Cras Woodshops", "Cras Wood"];
 const debNames = ["Debeuckelaere", "Debeuckelae"];
+const janssensNames = ["Janssens & Janssens", "Janssens en Janssens"];
 
 let updated = 0;
 
@@ -148,6 +244,12 @@ bedrijven.forEach((b) => {
   // Check groep Debeuckelaere
   if (debNames.some((n) => b.naam.includes(n))) {
     Object.assign(b, enrichment["_groep_debeuckelaere"]);
+    updated++;
+    return;
+  }
+  // Check groep Janssens & Janssens
+  if (janssensNames.some((n) => b.naam.includes(n))) {
+    Object.assign(b, enrichment["_groep_janssens"]);
     updated++;
     return;
   }

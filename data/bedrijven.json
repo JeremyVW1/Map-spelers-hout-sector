@@ -23,7 +23,11 @@
     "lat": 51.0721,
     "lng": 2.6611,
     "webshop": "Nee",
-    "info": "Houthandel voor professionelen. Veurne regio."
+    "info": "Houthandel voor professionelen. Veurne regio.",
+    "btw": "BE 0405.252.340",
+    "adres": "Albert I Laan 27a, 8630 Veurne",
+    "rechtsvorm": "NV",
+    "medewerkers": 7.1
   },
   {
     "naam": "Cras Woodshops Heule",
@@ -233,7 +237,10 @@
     "lat": 50.8521,
     "lng": 3.2681,
     "webshop": "Nee",
-    "info": "Familiebedrijf 1895. Hout + plaatmateriaal. Kuurne (Kortrijk)."
+    "info": "Familiebedrijf 1895. Hout + plaatmateriaal. Kuurne (Kortrijk).",
+    "btw": "BE 0405.379.331",
+    "adres": "Heirweg 115, 8520 Kuurne",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Tieltse Houthandel",
@@ -242,7 +249,10 @@
     "lat": 50.9931,
     "lng": 3.3261,
     "webshop": "Nee",
-    "info": "Constructie + buitenhout + vloeren + deuren. Tielt."
+    "info": "Constructie + buitenhout + vloeren + deuren. Tielt.",
+    "btw": "BE 0421.695.127",
+    "adres": "Deinsesteenweg 8, 8700 Tielt",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Houthandel Messely",
@@ -254,7 +264,10 @@
     "info": "Terrasplanken, thermohout, tuinhout, parket. West-Vl.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0873.692.856",
+    "adres": "Heule/Kortrijk",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Geldhof Hout",
@@ -263,7 +276,11 @@
     "lat": 50.8981,
     "lng": 3.0501,
     "webshop": "Nee",
-    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede."
+    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede.",
+    "btw": "BE 0405.565.710",
+    "adres": "Iepersestraat 22, 8890 Moorslede",
+    "rechtsvorm": "NV",
+    "medewerkers": 4.8
   },
   {
     "naam": "Huys Houthandel",
@@ -281,7 +298,11 @@
     "lat": 51.0901,
     "lng": 3.1101,
     "webshop": "Nee",
-    "info": "3 generaties, drenkstation, zaagservice, tuinhout. West-Vl."
+    "info": "3 generaties, drenkstation, zaagservice, tuinhout. West-Vl.",
+    "btw": "BE 0405.494.642",
+    "adres": "Cardijnlaan 4, 8600 Diksmuide",
+    "rechtsvorm": "BV",
+    "oprichting": "1963"
   },
   {
     "naam": "Houthandel Beheyt",
@@ -293,7 +314,12 @@
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0450.980.714",
+    "adres": "Ieperseweg 26, 8970 Poperinge",
+    "rechtsvorm": "BV",
+    "oprichting": "1993",
+    "website": "www.beheyt.be"
   },
   {
     "naam": "Db Hardwoods",
@@ -305,7 +331,10 @@
     "info": "Fabrikant/importeur verlijmde panelen. Europees hardhout. Ledegem.",
     "activiteiten": [
       "import"
-    ]
+    ],
+    "btw": "BE 0425.328.370",
+    "adres": "Roeselarestraat 154, 8880 Ledegem",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Houthandel Loose",
@@ -314,7 +343,10 @@
     "lat": 50.8741,
     "lng": 3.0881,
     "webshop": "Nee",
-    "info": "Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. West-Vl."
+    "info": "Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. West-Vl.",
+    "btw": "BE 0414.807.335",
+    "adres": "Zandstraat 210, 8200 Brugge",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Lagae Hout",
@@ -359,7 +391,10 @@
     "info": "Daktimmer, timmerhout, tuinhout, parket. Regio Gavere-Gent-Zuid.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0476.593.464",
+    "adres": "Baaigemstraat 403, 9890 Gavere",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "EXZO",
@@ -420,7 +455,10 @@
     "lat": 51.0535,
     "lng": 3.7348,
     "webshop": "Beperkt",
-    "info": "Vakhandel breed, toonzaal. Gent (Langebruggekaai)."
+    "info": "Vakhandel breed, toonzaal. Gent (Langebruggekaai).",
+    "btw": "BE 0445.566.431",
+    "adres": "Langerbruggekaai 5, 9000 Gent",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Cras Woodshops Zottegem",
@@ -567,7 +605,10 @@
     "lat": 51.0011,
     "lng": 3.5412,
     "webshop": "Nee",
-    "info": "Constructiehout vakman. Plaatmateriaal, isolatie. Vosselare (Deinze)."
+    "info": "Constructiehout vakman. Plaatmateriaal, isolatie. Vosselare (Deinze).",
+    "btw": "BE 0436.895.918",
+    "adres": "Landegemstraat 39, 9850 Deinze",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Prindal Hout",
@@ -593,7 +634,11 @@
     "lat": 51.1181,
     "lng": 4.2081,
     "webshop": "Nee",
-    "info": "FSC, eeuwenhout, toonzaal. Terrassen, gevels, tuinhout. Temse."
+    "info": "FSC, eeuwenhout, toonzaal. Terrassen, gevels, tuinhout. Temse.",
+    "btw": "BE 0420.253.389",
+    "adres": "Veldstraat 365, 9140 Temse",
+    "rechtsvorm": "BV",
+    "oprichting": "1980"
   },
   {
     "naam": "De Regge Houthandel",
@@ -605,7 +650,10 @@
     "info": "Dak+tuinhout+parket. Regio Gent-Zuid. Gavere.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0476.593.464",
+    "adres": "Baaigemstraat 403, 9890 Gavere",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Cras Woodshops Antwerpen",
@@ -1511,7 +1559,10 @@
     "lat": 50.9931,
     "lng": 3.3301,
     "webshop": "Nee",
-    "info": "40 jaar. Constructie + buitenhout + vloeren + isolatie + deuren. Particulier + vakman. FSC. Tielt."
+    "info": "40 jaar. Constructie + buitenhout + vloeren + isolatie + deuren. Particulier + vakman. FSC. Tielt.",
+    "btw": "BE 0421.695.127",
+    "adres": "Deinsesteenweg 8, 8700 Tielt",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Houthandel Decadt (Vlamertinge)",
@@ -1553,7 +1604,11 @@
     "info": "3 generaties. Drenkstation + houtschaverij. Breed gamma tuin + constructie. Toonzaal Gistel. Diksmuide.",
     "activiteiten": [
       "dhz"
-    ]
+    ],
+    "btw": "BE 0405.494.642",
+    "adres": "Cardijnlaan 4, 8600 Diksmuide",
+    "rechtsvorm": "BV",
+    "oprichting": "1963"
   },
   {
     "naam": "Thys Hout (Kapellen)",
@@ -1589,7 +1644,10 @@
     "lat": 50.9371,
     "lng": 4.0401,
     "webshop": "Nee",
-    "info": "Multi-vestiging: Aalst, Oudenaarde, Hoogstraten, Turnhout. Hout, tuinhout, plaatmateriaal, interieur."
+    "info": "Multi-vestiging: Aalst, Oudenaarde, Hoogstraten, Turnhout. Hout, tuinhout, plaatmateriaal, interieur.",
+    "groep": "Janssens & Janssens Group",
+    "groep_btw": "BE 0821.735.597",
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
   },
   {
     "naam": "Janssens & Janssens (Oudenaarde)",
@@ -1598,7 +1656,10 @@
     "lat": 50.8501,
     "lng": 3.6001,
     "webshop": "Nee",
-    "info": "Vestiging Janssens & Janssens groep. Schapen grazen het terrein ecologisch af. Oudenaarde."
+    "info": "Vestiging Janssens & Janssens groep. Schapen grazen het terrein ecologisch af. Oudenaarde.",
+    "groep": "Janssens & Janssens Group",
+    "groep_btw": "BE 0821.735.597",
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
   },
   {
     "naam": "De Meyer Outdoor Living (Evergem)",
@@ -1661,7 +1722,10 @@
     "lat": 51.4001,
     "lng": 4.7651,
     "webshop": "Nee",
-    "info": "HQ Janssens & Janssens groep. Hout, tuinhout, plaatmateriaal, interieur. Hoogstraten (Antwerpen-Noord)."
+    "info": "HQ Janssens & Janssens groep. Hout, tuinhout, plaatmateriaal, interieur. Hoogstraten (Antwerpen-Noord).",
+    "groep": "Janssens & Janssens Group",
+    "groep_btw": "BE 0821.735.597",
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
   },
   {
     "naam": "Janssens & Janssens (Turnhout)",
@@ -1670,7 +1734,10 @@
     "lat": 51.3211,
     "lng": 4.9481,
     "webshop": "Nee",
-    "info": "Vestiging Janssens & Janssens groep. Hout, tuinhout, plaatmateriaal. Turnhout."
+    "info": "Vestiging Janssens & Janssens groep. Hout, tuinhout, plaatmateriaal. Turnhout.",
+    "groep": "Janssens & Janssens Group",
+    "groep_btw": "BE 0821.735.597",
+    "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
   },
   {
     "naam": "Janssens-Govaerts (Turnhout)",
@@ -1787,7 +1854,11 @@
     "lat": 50.9321,
     "lng": 3.8521,
     "webshop": "Nee",
-    "info": "Hout (hard+zacht), plaatmateriaal, bouwmaterialen. Zaag- en schaafwerk op maat. Particulier + bedrijven. Scheldewindeke (Oosterzele)."
+    "info": "Hout (hard+zacht), plaatmateriaal, bouwmaterialen. Zaag- en schaafwerk op maat. Particulier + bedrijven. Scheldewindeke (Oosterzele).",
+    "btw": "BE 0426.353.305",
+    "adres": "Lange Munte 7, 9860 Oosterzele",
+    "rechtsvorm": "BV",
+    "oprichting": "1984"
   },
   {
     "naam": "N.V. Houthandel De Sutter",
@@ -1800,7 +1871,10 @@
     "activiteiten": [
       "parket",
       "dhz"
-    ]
+    ],
+    "btw": "BE 0425.103.686",
+    "adres": "Issegem 5, 9860 Oosterzele",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Houthandel Waasland (Moerbeke)",
@@ -1812,7 +1886,10 @@
     "info": "Houthandel + parket + laminaat. Dorpvaart 74, Moerbeke-Waas.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0405.597.580",
+    "adres": "Dorpvaart 74, 9180 Lokeren",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Houthandel Desmet (Meulebeke)",
@@ -1821,7 +1898,10 @@
     "lat": 50.9441,
     "lng": 3.2951,
     "webshop": "Nee",
-    "info": "Verkoop, bewerken en plaatsen van hout. Particulier + industrie + schrijnwerkers. Meulebeke (WVL)."
+    "info": "Verkoop, bewerken en plaatsen van hout. Particulier + industrie + schrijnwerkers. Meulebeke (WVL).",
+    "btw": "BE 0418.979.523",
+    "adres": "Kasteeldreef 10, 8760 Tielt",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Houtvercruysse",
@@ -1830,7 +1910,10 @@
     "lat": 50.9581,
     "lng": 3.5731,
     "webshop": "Nee",
-    "info": "Alleenverdeler populier blokplaten. Houthandel regio Tielt-Oost-Vlaanderen grens."
+    "info": "Alleenverdeler populier blokplaten. Houthandel regio Tielt-Oost-Vlaanderen grens.",
+    "btw": "BE 0421.483.212",
+    "adres": "Bissegemstraat 165, 8560 Gullegem",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Eurowood Wielsbeke",
@@ -1854,7 +1937,10 @@
     "lat": 51.0051,
     "lng": 3.5801,
     "webshop": "Nee",
-    "info": "Houthandel voor de vakman. Constructiehout, plaatmateriaal, isolatie, Gyproc. Vosselare (Nevele/Deinze)."
+    "info": "Houthandel voor de vakman. Constructiehout, plaatmateriaal, isolatie, Gyproc. Vosselare (Nevele/Deinze).",
+    "btw": "BE 0436.895.918",
+    "adres": "Landegemstraat 39, 9850 Deinze",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Houthandel De Regge (Baaigem)",
@@ -1866,7 +1952,10 @@
     "info": "Parketvloeren, plafondhout, dakhout, timmerhout, plaatwerk, isolatie. Baaigem (Gavere).",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0476.593.464",
+    "adres": "Baaigemstraat 403, 9890 Gavere",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Hub. Rouckhout (Melle)",
@@ -1875,7 +1964,10 @@
     "lat": 51.0001,
     "lng": 3.8121,
     "webshop": "Nee",
-    "info": "Houthandel Brusselsesteenweg, Melle (Merelbeke-Melle). Tuinhout + constructie."
+    "info": "Houthandel Brusselsesteenweg, Melle (Merelbeke-Melle). Tuinhout + constructie.",
+    "btw": "BE 0406.347.549",
+    "adres": "Brusselsesteenweg 120, 9090 Melle",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Hout De Groote (Lokeren)",
@@ -2039,7 +2131,10 @@
     "info": "Terrasplanken, thermohout, tuinhout, parket. Moorslede (WVL).",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0873.692.856",
+    "adres": "Heule/Kortrijk",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Geldhof Hout (Moorslede)",
@@ -2048,7 +2143,11 @@
     "lat": 50.8951,
     "lng": 3.0591,
     "webshop": "Nee",
-    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede."
+    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede.",
+    "btw": "BE 0405.565.710",
+    "adres": "Iepersestraat 22, 8890 Moorslede",
+    "rechtsvorm": "NV",
+    "medewerkers": 4.8
   },
   {
     "naam": "Houthandel Beheyt (Poperinge)",
@@ -2060,7 +2159,12 @@
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge (WVL).",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0450.980.714",
+    "adres": "Ieperseweg 26, 8970 Poperinge",
+    "rechtsvorm": "BV",
+    "oprichting": "1993",
+    "website": "www.beheyt.be"
   },
   {
     "naam": "Houthandel Steyaert (Eeklo)",
@@ -2302,7 +2406,10 @@
     "lat": 50.8521,
     "lng": 3.2831,
     "webshop": "Nee",
-    "info": "Familiebedrijf 1895. 4e generatie. Hout + plaatmateriaal. Heirweg 115, Kuurne."
+    "info": "Familiebedrijf 1895. 4e generatie. Hout + plaatmateriaal. Heirweg 115, Kuurne.",
+    "btw": "BE 0405.379.331",
+    "adres": "Heirweg 115, 8520 Kuurne",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "DB Hardwoods (Ledegem)",
@@ -2311,7 +2418,10 @@
     "lat": 50.8671,
     "lng": 3.1221,
     "webshop": "Nee",
-    "info": "Fabrikant verlijmde panelen. Europees hardhout. B2B industrie + schrijnwerkers. Rollegem-Kapelle (Ledegem)."
+    "info": "Fabrikant verlijmde panelen. Europees hardhout. B2B industrie + schrijnwerkers. Rollegem-Kapelle (Ledegem).",
+    "btw": "BE 0425.328.370",
+    "adres": "Roeselarestraat 154, 8880 Ledegem",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Houthandel Loose (Kortrijk)",
@@ -2320,7 +2430,10 @@
     "lat": 50.8291,
     "lng": 3.2641,
     "webshop": "Nee",
-    "info": "Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. Kortrijk."
+    "info": "Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. Kortrijk.",
+    "btw": "BE 0414.807.335",
+    "adres": "Zandstraat 210, 8200 Brugge",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Houthandel Vanhaverbeke (Izegem)",
@@ -2357,7 +2470,10 @@
     "info": "Terrasplanken, thermohout, tuinhout, parket, platen. Moorslede.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0873.692.856",
+    "adres": "Heule/Kortrijk",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Hout Geldhof (Moorslede)",
@@ -2366,7 +2482,11 @@
     "lat": 50.8951,
     "lng": 3.0641,
     "webshop": "Nee",
-    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede."
+    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede.",
+    "btw": "BE 0405.565.710",
+    "adres": "Iepersestraat 22, 8890 Moorslede",
+    "rechtsvorm": "NV",
+    "medewerkers": 4.8
   },
   {
     "naam": "Tieltse Houthandel (Tielt)",
@@ -2378,7 +2498,10 @@
     "info": "40 jaar. Constructie+buitenhout+parket+deuren+isolatie. FSC. B2B + particulier. Tielt.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0421.695.127",
+    "adres": "Deinsesteenweg 8, 8700 Tielt",
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Houtmarkt Brugge",
@@ -2408,7 +2531,10 @@
     "lat": 51.1561,
     "lng": 2.9701,
     "webshop": "Nee",
-    "info": "Tuinhout + bouwmaterialen. Rochesterlaan 3, Gistel."
+    "info": "Tuinhout + bouwmaterialen. Rochesterlaan 3, Gistel.",
+    "btw": "BE 0458.797.132",
+    "adres": "Rochesterlaan 3, 8470 Gistel",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Houthandel Dequidt (Veurne)",
@@ -2417,7 +2543,11 @@
     "lat": 51.0721,
     "lng": 2.6641,
     "webshop": "Nee",
-    "info": "Hout voor tuin en interieur. Familiebedrijf. Veurne."
+    "info": "Hout voor tuin en interieur. Familiebedrijf. Veurne.",
+    "btw": "BE 0405.252.340",
+    "adres": "Albert I Laan 27a, 8630 Veurne",
+    "rechtsvorm": "NV",
+    "medewerkers": 7.1
   },
   {
     "naam": "Houthandel Decadt (Vlamertinge/Ieper)",
@@ -2459,7 +2589,11 @@
     "info": "3 generaties. Drenkstation + houtschaverij. Breed gamma tuin + constructie. Cardijnlaan 4, Diksmuide.",
     "activiteiten": [
       "dhz"
-    ]
+    ],
+    "btw": "BE 0405.494.642",
+    "adres": "Cardijnlaan 4, 8600 Diksmuide",
+    "rechtsvorm": "BV",
+    "oprichting": "1963"
   },
   {
     "naam": "Houthandel Beheyt (Poperinge)",
@@ -2471,7 +2605,12 @@
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0450.980.714",
+    "adres": "Ieperseweg 26, 8970 Poperinge",
+    "rechtsvorm": "BV",
+    "oprichting": "1993",
+    "website": "www.beheyt.be"
   },
   {
     "naam": "Woodcenter (Wevelgem)",
@@ -2501,7 +2640,10 @@
     "info": "Zaag/schaaf op maat, breed gamma hout + platen. Wevelgem regio.",
     "activiteiten": [
       "dhz"
-    ]
+    ],
+    "btw": "BE 0414.807.335",
+    "adres": "Zandstraat 210, 8200 Brugge",
+    "rechtsvorm": "NV"
   },
   {
     "naam": "Eurowood (Wielsbeke)",
@@ -2528,7 +2670,12 @@
     "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "btw": "BE 0450.980.714",
+    "adres": "Ieperseweg 26, 8970 Poperinge",
+    "rechtsvorm": "BV",
+    "oprichting": "1993",
+    "website": "www.beheyt.be"
   },
   {
     "naam": "Lagae Hout (WVL — importeur)",
@@ -2760,13 +2907,14 @@
     "lng": 3.6621,
     "webshop": "Nee",
     "info": "30+ jaar. Tuinhuizen, carports, poolhouses, paardenstallen, terrassen, afsluitingen op maat. Showtuin (sedert 2010). Eigen kraanwagen voor levering. 📍 Dikkelvenne (Gavere, OVL) 📞 09 384 21 13 📧 goeminne.tuinhout@skynet.be 🌐 goeminnetuinhout.be",
-    "btw": null,
-    "adres": "Dikkelvenne (Gavere)",
+    "btw": "BE 0446.722.414",
+    "adres": "Kerkstraat 88, 9890 Gavere",
     "website": "goeminnetuinhout.be",
     "activiteiten": [
       "tuinhuis",
       "paarden"
-    ]
+    ],
+    "rechtsvorm": "BV"
   },
   {
     "naam": "Woodstar Tuinhuizen (Avelgem)",
@@ -3078,11 +3226,12 @@
     "lng": 3.6631,
     "webshop": "Nee",
     "info": "30+ jaar. Tuinhuizen, carports, poolhouses, terrassen, afsluitingen op maat. Showtuin. Kraanlevering. 📍 Dikkelvenne (Gavere) 📞 09 384 21 13 📧 goeminne.tuinhout@skynet.be 🌐 goeminnetuinhout.be",
-    "btw": null,
-    "adres": "Dikkelvenne (Gavere)",
+    "btw": "BE 0446.722.414",
+    "adres": "Kerkstraat 88, 9890 Gavere",
     "website": "goeminnetuinhout.be",
     "activiteiten": [
       "tuinhuis"
-    ]
+    ],
+    "rechtsvorm": "BV"
   }
 ]
