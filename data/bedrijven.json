@@ -5329,5 +5329,259 @@
       "parket"
     ],
     "adres": "Knokke-Heist"
+  },
+  {
+    "naam": "Balterio / Spanolux (Sint-Baafs-Vijve)",
+    "provincie": "wvl",
+    "grootte": "G",
+    "lat": 50.901,
+    "lng": 3.354,
+    "webshop": "Nee",
+    "info": "Laminaatfabrikant. Divisie van Spanolux NV. Wakkensteenweg 37B, 8710 Sint-Baafs-Vijve.",
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
+    "adres": "Wakkensteenweg 37B, 8710 Sint-Baafs-Vijve"
+  },
+  {
+    "naam": "Claerhout Interiors (Harelbeke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8545,
+    "lng": 3.305,
+    "webshop": "Nee",
+    "info": "Parketlegger. Massieve plankvloeren, stijlparketten, verouderd parket. Kortrijksesteenweg 20, 8530 Harelbeke.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Kortrijksesteenweg 20, 8530 Harelbeke"
+  },
+  {
+    "naam": "FL Decor (Meulebeke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.951,
+    "lng": 3.287,
+    "webshop": "Nee",
+    "info": "Parket specialist. Nijverheidsstraat 32, 8760 Meulebeke.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Nijverheidsstraat 32, 8760 Meulebeke"
+  },
+  {
+    "naam": "Dan-Parket (Izegem)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.913,
+    "lng": 3.215,
+    "webshop": "Nee",
+    "info": "Parketlegger regio Izegem.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Izegem"
+  },
+  {
+    "naam": "Houtstudio (Roeselare)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.947,
+    "lng": 3.126,
+    "webshop": "Nee",
+    "info": "Parket bij de vakman. Breed assortiment parketvloeren, van modern tot klassiek. Eigen plaatsingsteam. Roeselare.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Roeselare"
+  },
+  {
+    "naam": "Kyndt Parket (Knokke-Heist)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.346,
+    "lng": 3.292,
+    "webshop": "Nee",
+    "info": "Parketlegger Westkapelle, Knokke-Heist.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Knokke-Heist"
+  },
+  {
+    "naam": "Solid International (Brugge)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 51.2,
+    "lng": 3.22,
+    "webshop": "Nee",
+    "info": "Distributeur massief en meerlagig eiken parket + binnendeuren. Brugge.",
+    "activiteiten": [
+      "parket",
+      "import",
+      "houthandel"
+    ],
+    "adres": "Brugge"
+  },
+  {
+    "naam": "Revan Flooring (Oostende)",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 51.2055,
+    "lng": 2.876,
+    "webshop": "Nee",
+    "info": "Vloeren: parket, vinyl, kurk, spuitkurk, traprenovatie. Torhoutsesteenweg 649, Oostende. Vestiging ook in Roeselare.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Torhoutsesteenweg 649, 8400 Oostende"
+  },
+  {
+    "naam": "Antiek Bouw (Ieper)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8503,
+    "lng": 2.885,
+    "webshop": "Nee",
+    "info": "Hout, parket, antieke bouwmaterialen. Lalegno dealer. Ieper.",
+    "activiteiten": [
+      "parket",
+      "houthandel"
+    ],
+    "adres": "Ieper"
+  },
+  {
+    "naam": "Cornilly (Moerkerke/Damme)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.24,
+    "lng": 3.355,
+    "webshop": "Nee",
+    "info": "Parketlegger Moerkerke (Damme).",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Moerkerke, 8340 Damme"
+  },
+  {
+    "naam": "Vermeylen Parket (Westrozebeke)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.915,
+    "lng": 2.993,
+    "webshop": "Nee",
+    "info": "Parket en schilderwerken. Westrozebeke.",
+    "activiteiten": [
+      "parket",
+      "agro"
+    ],
+    "adres": "Westrozebeke"
+  },
+  {
+    "naam": "Vanhaelewyn (Gits/Hooglede)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.982,
+    "lng": 3.105,
+    "webshop": "Nee",
+    "info": "Parketlegger Gits (Hooglede).",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Gits, 8830 Hooglede"
+  },
+  {
+    "naam": "Kurk en Parket Hoorewege (Aalter)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.0895,
+    "lng": 3.432,
+    "webshop": "Nee",
+    "info": "Specialist kurk en parket. Showroom 1200+ opties. Lalegno dealer. Lostraat 17, 9880 Aalter.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Lostraat 17, 9880 Aalter"
+  },
+  {
+    "naam": "Foré NV (Eeklo)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.185,
+    "lng": 3.561,
+    "webshop": "Nee",
+    "info": "Houthandel en parketdealer. Eeklo.",
+    "activiteiten": [
+      "houthandel",
+      "parket"
+    ],
+    "adres": "Eeklo"
+  },
+  {
+    "naam": "COnect Woodbelievers (Oudenaarde)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.845,
+    "lng": 3.605,
+    "webshop": "Nee",
+    "info": "Hout en parketspecialist. Oudenaarde.",
+    "activiteiten": [
+      "parket",
+      "houthandel"
+    ],
+    "adres": "Oudenaarde"
+  },
+  {
+    "naam": "Het Parketpunt (Sint-Niklaas)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.155,
+    "lng": 4.133,
+    "webshop": "Nee",
+    "info": "Interieurprojecten en decoratie. Laminaat, parket, vloeren, keukens. Driekoningenstraat 101, Sint-Niklaas.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Driekoningenstraat 101, 9100 Sint-Niklaas"
+  },
+  {
+    "naam": "DL Parket (Dendermonde)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.03,
+    "lng": 4.1,
+    "webshop": "Nee",
+    "info": "Parketlegger Dendermonde.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Dendermonde"
+  },
+  {
+    "naam": "Lumaco (Ronse)",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 50.751,
+    "lng": 3.601,
+    "webshop": "Nee",
+    "info": "Parket en vloeren. Ronse.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Ronse"
+  },
+  {
+    "naam": "Stavan (Kuurne)",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.855,
+    "lng": 3.28,
+    "webshop": "Nee",
+    "info": "Parketbedrijf Kuurne.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Kuurne"
   }
 ]
