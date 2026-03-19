@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Houtblokje / wood log -->
+  <rect x="8" y="18" width="48" height="32" rx="3" fill="#8B5E3C" stroke="#5D3A1A" stroke-width="2"/>
+  <!-- Houtnerf lijnen -->
+  <line x1="14" y1="24" x2="50" y2="24" stroke="#6B4226" stroke-width="1.5" opacity="0.5"/>
+  <line x1="14" y1="30" x2="50" y2="30" stroke="#6B4226" stroke-width="1.5" opacity="0.5"/>
+  <line x1="14" y1="36" x2="50" y2="36" stroke="#6B4226" stroke-width="1.5" opacity="0.5"/>
+  <line x1="14" y1="42" x2="50" y2="42" stroke="#6B4226" stroke-width="1.5" opacity="0.5"/>
+  <!-- Dwarsdoorsnede (jaarringen) rechts -->
+  <ellipse cx="56" cy="34" rx="8" ry="16" fill="#C4956A" stroke="#5D3A1A" stroke-width="2"/>
+  <ellipse cx="56" cy="34" rx="5" ry="11" fill="none" stroke="#A07050" stroke-width="1" opacity="0.6"/>
+  <ellipse cx="56" cy="34" rx="2.5" ry="6" fill="none" stroke="#A07050" stroke-width="1" opacity="0.6"/>
+  <circle cx="56" cy="34" r="1.5" fill="#5D3A1A" opacity="0.5"/>
+</svg>

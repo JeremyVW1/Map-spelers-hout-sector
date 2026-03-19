@@ -50,17 +50,16 @@ function syncFilterButtons() {
   const isAll = activeRegios.size === 0 && activeActiviteiten.size === 0;
   const allBtn = document.getElementById("btn-all");
   allBtn.classList.toggle("on", isAll);
-  allBtn.style.background = isAll ? "#1a1a2e" : "";
-  allBtn.style.color = isAll ? "#fff" : "";
-  allBtn.style.borderColor = isAll ? "#1a1a2e" : "";
+  if (isAll) allBtn.style.cssText = "background:#1a1a2e;color:#fff;border-color:#1a1a2e";
+  else allBtn.style.cssText = "";
 
   document.querySelectorAll(".fb[data-filter-id]").forEach(btn => {
     const set = btn.dataset.filterType === "regio" ? activeRegios : activeActiviteiten;
     const active = set.has(btn.dataset.filterId);
     btn.classList.toggle("on", active);
-    btn.style.background = active ? btn.dataset.filterCol : "";
-    btn.style.color = active ? "#fff" : "";
-    btn.style.borderColor = active ? btn.dataset.filterCol : "";
+    const col = btn.dataset.filterCol;
+    if (active) btn.style.cssText = `background:${col};color:#fff;border-color:${col}`;
+    else btn.style.cssText = "";
   });
 }
 

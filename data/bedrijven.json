@@ -287,27 +287,6 @@
     "rijtijd_drongen": 33
   },
   {
-    "naam": "Eurowood",
-    "provincie": "wvl",
-    "grootte": "M",
-    "lat": 50.9011,
-    "lng": 3.3741,
-    "webshop": "Nee",
-    "info": "5 generaties (1867). Specialist kwaliteitsvolle gevierschaalde Europese eik. Wielsbeke.",
-    "btw": "BE 0433.136.771",
-    "adres": "Rijksweg 442, 8710 Wielsbeke",
-    "rechtsvorm": "NV",
-    "medewerkers": 3.4,
-    "oprichting": "1867",
-    "website": "www.eurowood.be",
-    "activiteiten": [
-      "houthandel",
-      "import"
-    ],
-    "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 33
-  },
-  {
     "naam": "Verwée Houthandel",
     "provincie": "wvl",
     "grootte": "K",
@@ -3203,23 +3182,6 @@
     "website": "belgiantimber.be"
   },
   {
-    "naam": "Houthandel Messely (Moorslede)",
-    "provincie": "wvl",
-    "grootte": "K",
-    "lat": 50.8441,
-    "lng": 3.2339,
-    "webshop": "Nee",
-    "info": "Terrasplanken, thermohout, tuinhout, parket, platen. Moorslede.",
-    "activiteiten": [
-      "parket",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0873.692.856",
-    "adres": "Mellestraat 226, 8501 Heule",
-    "rechtsvorm": "BV"
-  },
-  {
     "naam": "Hout Geldhof (Moorslede)",
     "provincie": "wvl",
     "grootte": "K",
@@ -3361,23 +3323,6 @@
       "dhz",
       "houthandel"
     ]
-  },
-  {
-    "naam": "Houthandel Leirman (Diksmuide)",
-    "provincie": "wvl",
-    "grootte": "M",
-    "lat": 51.035,
-    "lng": 2.863,
-    "webshop": "Nee",
-    "info": "3 generaties. Drenkstation + houtschaverij. Breed gamma tuin + constructie. Cardijnlaan 4, Diksmuide.",
-    "activiteiten": [
-      "dhz",
-      "houthandel"
-    ],
-    "btw": "BE 0405.494.642",
-    "adres": "Cardijnlaan 4, 8600 Diksmuide",
-    "rechtsvorm": "BV",
-    "oprichting": "1963"
   },
   {
     "naam": "Houthandel Beheyt (Poperinge)",
@@ -4010,26 +3955,6 @@
     "adres": "Industriestraat 44, 9240 Zele"
   },
   {
-    "naam": "Dubois-Parquet (Waregem — Cras Group)",
-    "provincie": "wvl",
-    "grootte": "G",
-    "lat": 50.8811,
-    "lng": 3.4341,
-    "webshop": "Nee",
-    "info": "Producent massief parketvloeren. Onderdeel Cras Woodgroup (€112M+). Eigen productie solidevloeren. Verdeeld via Cras Woodshops. 📍 Waregem 🌐 dubois-parquet.be",
-    "activiteiten": [
-      "parket"
-    ],
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 27,
-    "website": "dubois-parquet.be",
-    "btw": "BE0882.268.745",
-    "omzet": "€112 mln (Cras groep)",
-    "medewerkers": "400+ (groep)",
-    "oprichting": "1878",
-    "adres": "Industrielaan 5, 8790 Waregem"
-  },
-  {
     "naam": "Tuinweelde (OVL)",
     "provincie": "ovl",
     "grootte": "M",
@@ -4113,25 +4038,6 @@
       "terrassen",
       "houthandel"
     ]
-  },
-  {
-    "naam": "Houtmagazijn Verdonckt (Avelgem)",
-    "provincie": "wvl",
-    "grootte": "M",
-    "lat": 50.7679,
-    "lng": 3.4441,
-    "webshop": "Nee",
-    "info": "Sedert 1920. PEFC. Specialist Douglas. Schaverij + drenkstation. Constructiehout, gevelbekleding, terrassen, parket. 📍 Doorniksesteenweg 202, 8580 Avelgem 📞 056 64 40 42 🌐 houtmagazijnverdonckt.be",
-    "btw": "BE0419.536.480",
-    "adres": "Doorniksesteenweg 202, 8580 Avelgem",
-    "oprichting": "1920",
-    "website": "houtmagazijnverdonckt.be",
-    "activiteiten": [
-      "parket",
-      "terrassen",
-      "houthandel"
-    ],
-    "medewerkers": "21"
   },
   {
     "naam": "Goeminne Tuinhout (Dikkelvenne)",

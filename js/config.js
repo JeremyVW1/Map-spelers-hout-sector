@@ -5,7 +5,6 @@ const ACT_KLEUR = {};
 
 const GROOTTE_LABELS = { G: "GROTE / DOMINANTE SPELER", M: "Middelgrote speler", K: "Lokale speler" };
 const GROOTTE_RADIUS = { G: 13, M: 9, K: 6 };
-const REGIO_IDS = new Set(["wvl", "ovl", "ant", "vbr", "lim", "hai", "bwa", "nam", "lui", "lux"]);
 
 const EIGEN_LOCATIES = [
   { naam: "Drongen", ll: [51.0428, 3.6388] },
