@@ -156,8 +156,9 @@ body {
 .analyse-check:hover { background: #eef1f6; border-color: #c0c0c0; }
 .analyse-check input { cursor: pointer; accent-color: #1a1a2e; }
 
-/* Activiteiten checkboxes */
+/* Regio & activiteit checkboxes */
 .analyse-act-checks { display: flex; flex-wrap: wrap; gap: 4px; }
+.analyse-act-checks + .analyse-act-checks { margin-left: 6px; padding-left: 10px; border-left: 2px solid #e0e0e0; }
 .analyse-act-label {
   font-size: 10px; font-weight: 600; display: flex; align-items: center; gap: 3px;
   padding: 3px 8px; border: 1.5px solid #d0d0d0; border-radius: 14px;

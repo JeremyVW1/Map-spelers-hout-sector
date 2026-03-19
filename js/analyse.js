@@ -3,19 +3,10 @@
 let analyseSortKey = "naam";
 let analyseSortAsc = true;
 let analyseActiveActs = new Set();
+let analyseActiveRegios = new Set();
 
-function initAnalyse() {
-  const regioSel = document.getElementById("analyse-regio");
-  categorieen.filter(c => c.type === "regio").forEach(c => {
-    const opt = document.createElement("option");
-    opt.value = c.id;
-    opt.textContent = c.label;
-    regioSel.appendChild(opt);
-  });
-
-  // Activiteit checkboxes
-  const actContainer = document.getElementById("analyse-activiteit-checks");
-  categorieen.filter(c => c.type === "activiteit").forEach(c => {
+function buildAnalyseCheckboxes(container, items, activeSet) {
+  items.forEach(c => {
     const label = document.createElement("label");
     label.className = "analyse-act-label checked";
     label.style.borderColor = c.kleur;
@@ -25,23 +16,39 @@ function initAnalyse() {
     cb.value = c.id;
     cb.checked = true;
     cb.addEventListener("change", () => {
-      cb.checked ? analyseActiveActs.add(c.id) : analyseActiveActs.delete(c.id);
+      cb.checked ? activeSet.add(c.id) : activeSet.delete(c.id);
       label.classList.toggle("checked", cb.checked);
       renderAnalyse();
     });
     label.appendChild(cb);
     label.appendChild(document.createTextNode(" " + c.label));
-    actContainer.appendChild(label);
-    analyseActiveActs.add(c.id);
+    container.appendChild(label);
+    activeSet.add(c.id);
   });
+}
+
+function initAnalyse() {
+  // Regio checkboxes
+  buildAnalyseCheckboxes(
+    document.getElementById("analyse-regio-checks"),
+    categorieen.filter(c => c.type === "regio"),
+    analyseActiveRegios
+  );
+
+  // Activiteit checkboxes
+  buildAnalyseCheckboxes(
+    document.getElementById("analyse-activiteit-checks"),
+    categorieen.filter(c => c.type === "activiteit"),
+    analyseActiveActs
+  );
 
   // Standaard filters
   document.getElementById("analyse-groene-zone").checked = true;
   document.getElementById("analyse-btw-only").checked = true;
 
-  document.querySelectorAll(".analyse-filters select, .analyse-filters > label input").forEach(el => {
-    el.addEventListener("change", renderAnalyse);
-  });
+  document.querySelectorAll(".analyse-filters select, .analyse-filters > label input").forEach(el =>
+    el.addEventListener("change", renderAnalyse)
+  );
 
   // Sortering
   document.querySelectorAll("#analyse-table th[data-sort]").forEach(th => {
@@ -57,13 +64,12 @@ function initAnalyse() {
 }
 
 function getAnalyseFiltered() {
-  const regio = document.getElementById("analyse-regio").value;
   const grootte = document.getElementById("analyse-grootte").value;
   const groeneZone = document.getElementById("analyse-groene-zone").checked;
   const btwOnly = document.getElementById("analyse-btw-only").checked;
 
   return bedrijven.filter(c => {
-    if (regio && c.provincie !== regio) return false;
+    if (analyseActiveRegios.size > 0 && !analyseActiveRegios.has(c.provincie)) return false;
     if (analyseActiveActs.size > 0 && !(c.activiteiten || []).some(a => analyseActiveActs.has(a))) return false;
     if (grootte && c.grootte !== grootte) return false;
     if (groeneZone && !inGroeneZone(c)) return false;
