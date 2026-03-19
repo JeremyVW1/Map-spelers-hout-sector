@@ -18,6 +18,7 @@
     <div class="header-center">
       <button class="tab-btn active" data-tab="kaart">Kaart</button>
       <button class="tab-btn" data-tab="analyse">Analyse</button>
+      <button class="tab-btn" data-tab="favorieten">★ Favorieten <span id="fav-count" class="fav-count">0</span></button>
     </div>
     <div class="header-right">
       <div class="counter"><span id="counter-num">0</span> bedrijven</div>
@@ -89,6 +90,7 @@
       <table class="analyse-table" id="analyse-table">
         <thead>
           <tr>
+            <th data-sort="favoriet">★</th>
             <th data-sort="naam">Naam ▾</th>
             <th data-sort="provincie">Regio</th>
             <th data-sort="activiteiten">Activiteit</th>
@@ -106,6 +108,36 @@
     </div>
   </div>
 
+  <!-- Favorieten tab -->
+  <div id="favorieten-view" class="hidden">
+    <div class="fav-toolbar">
+      <h2>★ Favorieten</h2>
+      <span class="fav-subtitle">Bedrijven met een ster worden automatisch naar Google Sheets gestuurd</span>
+      <button id="fav-export" class="analyse-btn">📥 Exporteer favorieten CSV</button>
+    </div>
+    <div class="fav-empty" id="fav-empty">Nog geen favorieten — klik op ☆ bij een bedrijf op de kaart of in de analyse.</div>
+    <div class="analyse-table-wrap">
+      <table class="analyse-table" id="fav-table">
+        <thead>
+          <tr>
+            <th>★</th>
+            <th>Naam</th>
+            <th>Regio</th>
+            <th>Activiteit</th>
+            <th>Grootte</th>
+            <th>Adres</th>
+            <th>BTW</th>
+            <th>Website</th>
+            <th>🚗 H</th>
+            <th>🚗 D</th>
+            <th>⌀ H+D</th>
+          </tr>
+        </thead>
+        <tbody id="fav-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <script src="js/config.js"></script>
@@ -113,6 +145,7 @@
   <script src="js/markers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/search.js"></script>
+  <script src="js/favorites.js"></script>
   <script src="js/analyse.js"></script>
   <script src="js/app.js"></script>
 </body>

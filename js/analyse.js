@@ -123,7 +123,11 @@ function renderAnalyse() {
       else if (gem <= 60) scoreClass = "score-ok";
     }
 
+    const starClass = isFavorite(c.naam) ? "starred" : "";
+    const starChar = isFavorite(c.naam) ? "★" : "☆";
+
     tr.innerHTML = `
+      <td class="td-star"><button class="star-btn ${starClass}" data-naam="${c.naam.replace(/"/g, "&quot;")}">${starChar}</button></td>
       <td class="td-naam">${c.naam}</td>
       <td>${provLabel}</td>
       <td>${acts}</td>
@@ -137,9 +141,18 @@ function renderAnalyse() {
     `;
     tbody.appendChild(tr);
   });
+
+  // Star click handlers
+  tbody.querySelectorAll(".star-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const c = bedrijven.find(b => b.naam === btn.dataset.naam);
+      if (c) toggleFavorite(c);
+    });
+  });
 }
 
 function getSortValue(c, key) {
+  if (key === "favoriet") return isFavorite(c.naam) ? 0 : 1;
   if (key === "activiteiten") return (c.activiteiten || [])[0] || "";
   if (key === "rijtijd_hertsberge" || key === "rijtijd_drongen") return c[key] != null ? c[key] : 999;
   if (key === "dichtste") {

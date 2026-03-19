@@ -16,6 +16,8 @@ async function init() {
     if (c.type === "activiteit") ACT_KLEUR[c.id] = c.kleur;
   });
 
+  await loadFavorites();
+
   initMap();
   buildFilters();
   buildLegend();
@@ -31,19 +33,27 @@ async function init() {
   syncFilterButtons();
   render();
   updateCounter();
+
+  document.getElementById("fav-export").addEventListener("click", exportFavCSV);
 }
 
 function initTabs() {
+  const kaartEls = [document.getElementById("controls"), document.getElementById("map"), document.getElementById("legend")];
+
   document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
-      const isKaart = btn.dataset.tab === "kaart";
-      [document.getElementById("controls"), document.getElementById("map"), document.getElementById("legend")]
-        .forEach(el => el.classList.toggle("hidden", !isKaart));
-      document.getElementById("analyse-view").classList.toggle("hidden", isKaart);
-      if (isKaart) setTimeout(() => map.invalidateSize(), 100);
-      else renderAnalyse();
+
+      const tab = btn.dataset.tab;
+
+      kaartEls.forEach(el => el.classList.toggle("hidden", tab !== "kaart"));
+      document.getElementById("analyse-view").classList.toggle("hidden", tab !== "analyse");
+      document.getElementById("favorieten-view").classList.toggle("hidden", tab !== "favorieten");
+
+      if (tab === "kaart") setTimeout(() => map.invalidateSize(), 100);
+      else if (tab === "analyse") renderAnalyse();
+      else if (tab === "favorieten") renderFavorieten();
     });
   });
 }

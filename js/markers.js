@@ -2,13 +2,16 @@
 
 let markers = [];
 
-function makeIcon(col, r, isGroot) {
+function makeIcon(col, r, isGroot, isFav) {
   const s = r * 2 + 8;
   const ring = isGroot
     ? `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 4}" fill="none" stroke="${col}" stroke-width="1.5" opacity="0.28"/>`
     : "";
+  const stroke = isFav ? "#f9a825" : "white";
+  const strokeW = isFav ? 2.5 : 1.8;
+  const glow = isFav ? `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#f9a825" stroke-width="1.5" opacity="0.5"/>` : "";
   return L.divIcon({
-    html: `<svg xmlns="http://www.w3.org/2000/svg" width="${s}" height="${s}">${ring}<circle cx="${s / 2}" cy="${s / 2}" r="${r}" fill="${col}" stroke="white" stroke-width="1.8" opacity="0.93"/></svg>`,
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="${s}" height="${s}">${ring}${glow}<circle cx="${s / 2}" cy="${s / 2}" r="${r}" fill="${col}" stroke="${stroke}" stroke-width="${strokeW}" opacity="0.93"/></svg>`,
     className: "", iconSize: [s, s], iconAnchor: [s / 2, s / 2],
   });
 }
@@ -82,9 +85,17 @@ function buildPopup(c) {
     rijtijdHtml += "</div>";
   }
 
+  const starClass = isFavorite(c.naam) ? "starred" : "";
+  const starChar = isFavorite(c.naam) ? "★" : "☆";
+
   return `
-    <span class="popup-badge" style="background:${col}">${actLabel}</span>
-    <span class="popup-prov">${provLabel}</span>
+    <div class="popup-header-row">
+      <div>
+        <span class="popup-badge" style="background:${col}">${actLabel}</span>
+        <span class="popup-prov">${provLabel}</span>
+      </div>
+      <button class="star-btn ${starClass}" data-naam="${c.naam.replace(/"/g, "&quot;")}" title="Favoriet">${starChar}</button>
+    </div>
     <span class="popup-name">${c.naam}</span>
     ${info ? `<span class="popup-info">${info}</span>` : ""}
     ${acts.length > 1 ? `<span class="popup-acts">📋 ${allActLabels.join(", ")}</span>` : ""}
@@ -107,9 +118,13 @@ function render() {
   getVisibleCompanies().forEach(c => {
     const col = getActivityColor(c);
     const r = GROOTTE_RADIUS[c.grootte] || 7;
-    const m = L.marker([c.lat, c.lng], { icon: makeIcon(col, r, c.grootte === "G") })
+    const m = L.marker([c.lat, c.lng], { icon: makeIcon(col, r, c.grootte === "G", isFavorite(c.naam)) })
       .addTo(map)
       .bindPopup(buildPopup(c), { maxWidth: 300 });
+    m.on("popupopen", () => {
+      const btn = document.querySelector(".leaflet-popup .star-btn");
+      if (btn) btn.addEventListener("click", () => toggleFavorite(c));
+    });
     markers.push(m);
   });
 }
