@@ -91,6 +91,11 @@ function buildPopup(c) {
     if (c.medewerkers) enrichHtml += `<b>Werknemers:</b> ${c.medewerkers}<br>`;
     if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${c.oprichting}<br>`;
     if (c.rechtsvorm) enrichHtml += `<b>Vorm:</b> ${c.rechtsvorm}<br>`;
+    // Link naar jaarrekeningen
+    if (c.btw) {
+      const btwNum = c.btw.replace(/[^0-9]/g, "");
+      enrichHtml += `<a href="https://jaarrekening.be/nl/be/${btwNum}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 Jaarrekeningen bekijken</a>`;
+    }
     enrichHtml += "</div>";
   }
 

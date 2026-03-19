@@ -146,8 +146,8 @@
     "naam": "Agrodieren.be",
     "provincie": "wvl",
     "grootte": "G",
-    "lat": 51.1348,
-    "lng": 3.3261,
+    "lat": 51.1269,
+    "lng": 3.2993,
     "webshop": "Ja",
     "info": "⚠️ DIRECTE CONCURRENT. Webshop + fysiek Beernem. Houten palen, weide-omheiningen, tuinschermen. 20.000+ klanten. Plaatsingsdienst.",
     "activiteiten": [
@@ -160,7 +160,8 @@
     "website": "agrodieren.be",
     "btw": "BE0417.360.019",
     "medewerkers": "~50",
-    "oprichting": "1977"
+    "oprichting": "1977",
+    "adres": "Wellingstraat 109, 8730 Beernem"
   },
   {
     "naam": "Vandenbroucke Hout",
@@ -407,7 +408,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 15,
-    "rijtijd_drongen": 28
+    "rijtijd_drongen": 28,
+    "btw": "BE0405.118.124",
+    "medewerkers": "5 FTE",
+    "oprichting": "1943",
+    "website": "huys-houthandel.be"
   },
   {
     "naam": "Houthandel Leirman",
@@ -462,7 +467,10 @@
     "adres": "Roeselarestraat 154, 8880 Ledegem",
     "rechtsvorm": "NV",
     "rijtijd_hertsberge": 33,
-    "rijtijd_drongen": 47
+    "rijtijd_drongen": 47,
+    "omzet": "€13,7 mln",
+    "medewerkers": "3 FTE",
+    "website": "dbhardwoods.com"
   },
   {
     "naam": "Houthandel Loose",
@@ -509,7 +517,11 @@
       "import"
     ],
     "rijtijd_hertsberge": 34,
-    "rijtijd_drongen": 11
+    "rijtijd_drongen": 11,
+    "omzet": "€15,5 mln",
+    "medewerkers": "38 FTE",
+    "oprichting": "1968",
+    "website": "hanssenswoodgroup.be"
   },
   {
     "naam": "V.E.H.",
@@ -541,7 +553,10 @@
     "adres": "Baaigemstraat 403, 9890 Gavere",
     "rechtsvorm": "BV",
     "rijtijd_hertsberge": 45,
-    "rijtijd_drongen": 24
+    "rijtijd_drongen": 24,
+    "medewerkers": "3 FTE",
+    "oprichting": "2002",
+    "website": "houthandelderegge.be"
   },
   {
     "naam": "EXZO",
@@ -767,7 +782,8 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 16
+    "rijtijd_drongen": 16,
+    "oprichting": "1997"
   },
   {
     "naam": "Hertecant Hout",
@@ -833,7 +849,8 @@
       "online",
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "website": "prindal.be"
   },
   {
     "naam": "Verhofstede (Hout-Idee)",
@@ -1772,7 +1789,8 @@
       "online",
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "website": "prindal.be"
   },
   {
     "naam": "Leenbakker (Gent)",
@@ -2108,7 +2126,8 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 17
+    "rijtijd_drongen": 17,
+    "oprichting": "1997"
   },
   {
     "naam": "Valcke Tuinhout (Oudegem)",
@@ -2380,7 +2399,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 28,
-    "rijtijd_drongen": 34
+    "rijtijd_drongen": 34,
+    "medewerkers": "5 FTE",
+    "oprichting": "1911",
+    "website": "houthandeldesmet.be"
   },
   {
     "naam": "Houtvercruysse",
@@ -2398,7 +2420,11 @@
       "import"
     ],
     "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 21
+    "rijtijd_drongen": 21,
+    "omzet": "€1,3 mln",
+    "medewerkers": "8 FTE",
+    "oprichting": "1981",
+    "website": "houtvercruysse.be"
   },
   {
     "naam": "Eurowood Wielsbeke",
@@ -2436,7 +2462,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 30,
-    "rijtijd_drongen": 10
+    "rijtijd_drongen": 10,
+    "medewerkers": "6 FTE",
+    "oprichting": "1989",
+    "website": "houthandelvantornhout.be"
   },
   {
     "naam": "Houthandel De Regge (Baaigem)",
@@ -2454,7 +2483,10 @@
     "adres": "Baaigemstraat 403, 9890 Gavere",
     "rechtsvorm": "BV",
     "rijtijd_hertsberge": 48,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "medewerkers": "3 FTE",
+    "oprichting": "2002",
+    "website": "houthandelderegge.be"
   },
   {
     "naam": "Hub. Rouckhout (Melle)",
@@ -3240,7 +3272,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 17,
-    "rijtijd_drongen": 31
+    "rijtijd_drongen": 31,
+    "btw": "BE0405.118.124",
+    "medewerkers": "5 FTE",
+    "oprichting": "1943",
+    "website": "huys-houthandel.be"
   },
   {
     "naam": "Stock Super Shop (Gistel)",
@@ -3476,8 +3512,8 @@
     "naam": "Agrodieren.be (Beernem)",
     "provincie": "wvl",
     "grootte": "G",
-    "lat": 51.1348,
-    "lng": 3.3261,
+    "lat": 51.1269,
+    "lng": 3.2993,
     "webshop": "Ja",
     "info": "⚠️ DIRECTE CONCURRENT. Webshop + fysiek. Houten palen, weide-omheiningen, tuinschermen. 20.000+ klanten. Beernem.",
     "activiteiten": [
@@ -3490,7 +3526,8 @@
     "website": "agrodieren.be",
     "btw": "BE0417.360.019",
     "medewerkers": "~50",
-    "oprichting": "1977"
+    "oprichting": "1977",
+    "adres": "Wellingstraat 109, 8730 Beernem"
   },
   {
     "naam": "Hout Van Maele (Ruddervoorde/Oostkamp)",
@@ -3660,7 +3697,8 @@
     "info": "Specialist massief parket. Erkend parketplaatser. Toonzaal. 📍 Mgr. Meulemanstraat 29, 9520 Sint-Lievens-Houtem",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "website": "parketverliefde.be"
   },
   {
     "naam": "Dubois-Parquet (Waregem — Cras Group)",
@@ -3759,7 +3797,10 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "website": "www.filip-valcke.be"
+    "website": "www.filip-valcke.be",
+    "btw": "BE0874.963.259",
+    "medewerkers": "1-4",
+    "oprichting": "1968"
   },
   {
     "naam": "Ostyn / Poolhouse Plaza (WVL)",
@@ -3831,7 +3872,8 @@
       "online"
     ],
     "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 17
+    "rijtijd_drongen": 17,
+    "oprichting": "1997"
   },
   {
     "naam": "EXZO / Robiniahout.be (Aalter)",
@@ -3875,8 +3917,8 @@
     "naam": "Agrodieren.be (Beernem) — paardenomheining",
     "provincie": "wvl",
     "grootte": "G",
-    "lat": 51.1358,
-    "lng": 3.3271,
+    "lat": 51.1269,
+    "lng": 3.2993,
     "webshop": "Ja",
     "info": "Ruim gamma paardenomheiningen: Cambridge, Manchester, Oxford, Bristol, York, Kensington, Westminster. Kastanje + robinia + geïmpregneerd grenen. Weidepoorten galvanisatie 1–6m. 📍 Beernem 🌐 www.agrodieren.be",
     "activiteiten": [
@@ -3890,7 +3932,8 @@
     "website": "www.agrodieren.be",
     "btw": "BE0417.360.019",
     "medewerkers": "~50",
-    "oprichting": "1977"
+    "oprichting": "1977",
+    "adres": "Wellingstraat 109, 8730 Beernem"
   },
   {
     "naam": "Palenperpak (online B2B België)",
@@ -4010,8 +4053,8 @@
     "naam": "Agrodieren.be (Beernem) — volledig profiel",
     "provincie": "wvl",
     "grootte": "G",
-    "lat": 51.1358,
-    "lng": 3.3281,
+    "lat": 51.1269,
+    "lng": 3.2993,
     "webshop": "Ja",
     "info": "⚠️ DIRECTE CONCURRENT. Paardenomheiningen Cambridge/Manchester/York/Kensington, weidepoorten 1-6m galvanisatie, houten palen, tuinschermen, stro/hooi. 20.000+ klanten. Webshop + fysieke winkel. 📍 Beernem 🌐 www.agrodieren.be",
     "activiteiten": [
@@ -4024,7 +4067,8 @@
     "website": "www.agrodieren.be",
     "btw": "BE0417.360.019",
     "medewerkers": "~50",
-    "oprichting": "1977"
+    "oprichting": "1977",
+    "adres": "Wellingstraat 109, 8730 Beernem"
   },
   {
     "naam": "Cras Woodshops (HQ Waregem) — contact",
@@ -4130,7 +4174,8 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 10,
-    "rijtijd_drongen": 22
+    "rijtijd_drongen": 22,
+    "website": "houthandeldriekoningen.be"
   },
   {
     "naam": "Houthandel Himpe (Brugge)",
@@ -4147,7 +4192,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 15,
-    "rijtijd_drongen": 29
+    "rijtijd_drongen": 29,
+    "medewerkers": "1 FTE",
+    "oprichting": "1981"
   },
   {
     "naam": "Houthandel Verbrugghe (Ieper)",
@@ -5028,7 +5075,10 @@
     "btw": "BE 0479.474.463",
     "adres": "Ter Ferrants 16, 8520 Kuurne",
     "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 38
+    "rijtijd_drongen": 38,
+    "medewerkers": "1 FTE",
+    "oprichting": "2003",
+    "website": "parketcenter.be"
   },
   {
     "naam": "Parket Atelier (Ruiselede)",
@@ -5218,7 +5268,8 @@
     ],
     "adres": "Destelbergen",
     "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 19
+    "rijtijd_drongen": 19,
+    "website": "parketlounge.be"
   },
   {
     "naam": "Vermeersch Parket (Zedelgem)",
@@ -5234,7 +5285,10 @@
     "btw": "BE 0684.639.757",
     "adres": "Torhoutsesteenweg 155, 8210 Zedelgem",
     "rijtijd_hertsberge": 17,
-    "rijtijd_drongen": 32
+    "rijtijd_drongen": 32,
+    "medewerkers": "1 FTE",
+    "oprichting": "1911",
+    "website": "vermeerschparket.be"
   },
   {
     "naam": "Parket Bram Bossuyt (Izegem)",
@@ -5504,7 +5558,9 @@
     ],
     "adres": "Olsenestraat 27, 9800 Zulte",
     "rijtijd_hertsberge": 42,
-    "rijtijd_drongen": 36
+    "rijtijd_drongen": 36,
+    "medewerkers": "1-20",
+    "website": "floor-depot.be"
   },
   {
     "naam": "Gerko Parket (Ronse)",
@@ -5552,7 +5608,9 @@
     "btw": "BE 0418.365.849",
     "adres": "Dirk Martensstraat 16, 8200 Brugge",
     "rijtijd_hertsberge": 17,
-    "rijtijd_drongen": 30
+    "rijtijd_drongen": 30,
+    "medewerkers": "4 FTE",
+    "website": "lecouterehout.be"
   },
   {
     "naam": "Ardeco Parket & Producten (Spiere-Helkijn)",
@@ -5814,7 +5872,10 @@
     ],
     "adres": "Veerweg 54, 9090 Melle",
     "rijtijd_hertsberge": 35,
-    "rijtijd_drongen": 15
+    "rijtijd_drongen": 15,
+    "btw": "BE0469.391.809",
+    "medewerkers": "5 FTE",
+    "website": "leus.be"
   },
   {
     "naam": "Renovest Projects (Ronse)",
@@ -5951,7 +6012,12 @@
     ],
     "adres": "Brugge",
     "rijtijd_hertsberge": 16,
-    "rijtijd_drongen": 29
+    "rijtijd_drongen": 29,
+    "btw": "BE0472.587.562",
+    "omzet": "€9,2 mln",
+    "medewerkers": "13 FTE",
+    "oprichting": "2000",
+    "website": "solidintl.com"
   },
   {
     "naam": "Revan Flooring (Oostende)",
@@ -6172,7 +6238,9 @@
     "btw": "BE 0463.456.201",
     "adres": "Krekelstraat 247, 8870 Izegem",
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 44
+    "rijtijd_drongen": 44,
+    "medewerkers": "1 FTE",
+    "website": "ddchalet.be"
   },
   {
     "naam": "Livinlodge (Meulebeke)",
