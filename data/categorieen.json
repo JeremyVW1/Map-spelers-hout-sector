@@ -7,6 +7,8 @@
   { "id": "hai",        "label": "Henegouwen",             "kleur": "#880E4F", "type": "regio" },
   { "id": "bwa",        "label": "Waals-Brabant",          "kleur": "#BF360C", "type": "regio" },
   { "id": "nam",        "label": "Namen",                  "kleur": "#4527A0", "type": "regio" },
+  { "id": "lui",        "label": "Luik",                   "kleur": "#AD1457", "type": "regio" },
+  { "id": "lux",        "label": "Luxemburg",              "kleur": "#1B5E20", "type": "regio" },
   { "id": "houthandel", "label": "Houthandel",             "kleur": "#5D4037", "type": "activiteit" },
   { "id": "parket",     "label": "Parket",                 "kleur": "#D84315", "type": "activiteit" },
   { "id": "tuinhuis",   "label": "Tuinhuizen / Carport",   "kleur": "#00695C", "type": "activiteit" },

@@ -7230,5 +7230,380 @@
       "online"
     ],
     "website": "houtstock.be"
+  },
+  {
+    "naam": "De Slagmolen",
+    "provincie": "lim",
+    "grootte": "M",
+    "lat": 50.8768,
+    "lng": 5.5174,
+    "webshop": "Nee",
+    "info": "Houthandel Bilzen, Limburg. Eigen vierkantschaaf- en cirkelzaagmachines. Eik, douglas, populier op maat. ~23 medewerkers.",
+    "activiteiten": [
+      "houthandel"
+    ],
+    "btw": "BE0479.240.277",
+    "website": "deslagmolen.be",
+    "adres": "Kieleberg 20, 3740 Bilzen"
+  },
+  {
+    "naam": "Timberfence",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8361,
+    "lng": 2.9961,
+    "webshop": "Nee",
+    "info": "Specialist houten omheiningen, poorten en schuilstallen. Tropisch hardhout, geimpregneerd naaldhout, acacia. Geluwe (Wervik).",
+    "activiteiten": [
+      "paarden",
+      "agro"
+    ],
+    "btw": "BE0752.847.484",
+    "website": "timberfence.be",
+    "adres": "Ieperstraat 213, 8940 Geluwe"
+  },
+  {
+    "naam": "MKS Omheiningen",
+    "provincie": "lim",
+    "grootte": "K",
+    "lat": 51.0479,
+    "lng": 5.5766,
+    "webshop": "Nee",
+    "info": "Afsluitingen, omheiningen, poorten, carports, blokhutten. Oudsbergen, Limburg. Opgericht 2008.",
+    "activiteiten": [
+      "paarden",
+      "agro",
+      "tuinhuis"
+    ],
+    "btw": "BE0896.012.754",
+    "website": "mks-omheiningen.be",
+    "adres": "Eindstraat 1A, 3660 Opglabbeek"
+  },
+  {
+    "naam": "Country Fences",
+    "provincie": "lux",
+    "grootte": "K",
+    "lat": 50.282,
+    "lng": 5.9215,
+    "webshop": "Nee",
+    "info": "Specialist clotures equestres, rurales et forestieres. Bihain (Vielsalm), province de Luxembourg.",
+    "activiteiten": [
+      "paarden",
+      "agro"
+    ],
+    "website": "countryfences.be",
+    "adres": "Bihain 36, 6690 Vielsalm"
+  },
+  {
+    "naam": "Afsluitingen Woodline",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.8667,
+    "lng": 2.965,
+    "webshop": "Nee",
+    "info": "Duurzame houten omheiningen op maat voor heel Vlaanderen. Paardenomheiningen, weideafsluitingen, tuinafsluitingen.",
+    "activiteiten": [
+      "paarden",
+      "agro"
+    ],
+    "website": "afsluitingenwoodline.be",
+    "adres": "Frezenbergstraat 17, 8980 Zonnebeke"
+  },
+  {
+    "naam": "Stevens Gates & Fences",
+    "provincie": "ovl",
+    "grootte": "K",
+    "lat": 51.1746,
+    "lng": 3.9568,
+    "webshop": "Ja",
+    "info": "Houten weidepoorten, afsluitingen, weidepalen, kastanjehouten rollen. Webshop + plaatsing. Moerbeke-Waas.",
+    "activiteiten": [
+      "paarden",
+      "agro",
+      "online"
+    ],
+    "website": "houtenweide-omheining.be",
+    "adres": "Dorpvaart 2A, 9180 Moerbeke-Waas"
+  },
+  {
+    "naam": "Horse Facilities",
+    "provincie": "bwa",
+    "grootte": "K",
+    "lat": 50.6318,
+    "lng": 4.5634,
+    "webshop": "Nee",
+    "info": "Expert clotures equestres par vibronfoncage. Paddocks, pistes, prairies. Court-Saint-Etienne. Actief in heel Belgie.",
+    "activiteiten": [
+      "paarden",
+      "agro"
+    ],
+    "website": "horsefacilities.be",
+    "adres": "Court-Saint-Etienne, 1490"
+  },
+  {
+    "naam": "Eddy De Prins",
+    "provincie": "ant",
+    "grootte": "M",
+    "lat": 51.3198,
+    "lng": 4.8483,
+    "webshop": "Nee",
+    "info": "Familiebedrijf schrijnwerkerij. Houten terrassen (eik, HOTwood, Kebony, Accoya), gevelbekleding. Beerse.",
+    "activiteiten": [
+      "terrassen",
+      "houthandel"
+    ],
+    "btw": "BE0431.362.661",
+    "website": "eddydeprins.be",
+    "adres": "Industrieweg 11, 2340 Beerse"
+  },
+  {
+    "naam": "Scierie Hontoir",
+    "provincie": "nam",
+    "grootte": "M",
+    "lat": 50.466,
+    "lng": 5.017,
+    "webshop": "Nee",
+    "info": "Zagerij sinds 1924, 4 generaties. Hout brut + bewerkt, parket, tuinhout, constructiehout. Faulx-les-Tombes.",
+    "activiteiten": [
+      "houthandel",
+      "parket"
+    ],
+    "btw": "BE0417.665.469",
+    "website": "hontoir.be",
+    "adres": "Route de Jausse 9, 5340 Faulx-les-Tombes"
+  },
+  {
+    "naam": "Scierie Mahy",
+    "provincie": "lux",
+    "grootte": "K",
+    "lat": 50.0838,
+    "lng": 5.1505,
+    "webshop": "Nee",
+    "info": "Zagerij eik en beuk sinds 1901. Chanly (Wellin), prov. Luxemburg. Waterkrachtcentrale. FSC.",
+    "activiteiten": [
+      "houthandel"
+    ],
+    "btw": "BE0452.846.181",
+    "website": "mahy.be",
+    "adres": "Rue du Moulin 85, 6921 Chanly"
+  },
+  {
+    "naam": "Pirson Bois",
+    "provincie": "nam",
+    "grootte": "K",
+    "lat": 50.2988,
+    "lng": 4.5741,
+    "webshop": "Nee",
+    "info": "Familiebedrijf zagerij sinds 1891. Specialist eikenhout: balken, chevrons, droog eik op kwartier. Stave (Mettet).",
+    "activiteiten": [
+      "houthandel"
+    ],
+    "website": "pirson-bois.be",
+    "adres": "Rue Bois Saint-Jean 44, 5646 Stave"
+  },
+  {
+    "naam": "Nowak Tuinhuizen",
+    "provincie": "lim",
+    "grootte": "M",
+    "lat": 51.0091,
+    "lng": 5.5859,
+    "webshop": "Nee",
+    "info": "Ontwerp, fabricage en plaatsing tuinhuizen, carports, garages, cottages, poolhouses. As, Limburg. +30 jaar.",
+    "activiteiten": [
+      "tuinhuis"
+    ],
+    "btw": "BE0450.088.908",
+    "website": "nowak.be",
+    "adres": "Vennekeslaan 9, 3665 As"
+  },
+  {
+    "naam": "Houthandel Wienen",
+    "provincie": "lim",
+    "grootte": "M",
+    "lat": 50.9927,
+    "lng": 5.351,
+    "webshop": "Nee",
+    "info": "Houtgroothandel sinds 1991. Daktimmer, tuinhout, plaatmateriaal. Zonhoven, Limburg.",
+    "activiteiten": [
+      "houthandel"
+    ],
+    "btw": "BE0445.002.247",
+    "website": "houthandelwienen.be",
+    "adres": "Senator A. Jeurissenlaan 1050, 3520 Zonhoven"
+  },
+  {
+    "naam": "Muffels Leon Bosontginning",
+    "provincie": "lim",
+    "grootte": "K",
+    "lat": 50.963,
+    "lng": 5.5009,
+    "webshop": "Nee",
+    "info": "Bosontginning & houthandel sinds jaren 80. Brandhout, tuinhout, carports, blokhutten. Genk, Limburg.",
+    "activiteiten": [
+      "houthandel",
+      "tuinhuis"
+    ],
+    "btw": "BE0434.002.843",
+    "website": "muffelsleon.be",
+    "adres": "Geleenlaan 15, 3600 Genk"
+  },
+  {
+    "naam": "D'Hont Houtimport",
+    "provincie": "vbr",
+    "grootte": "K",
+    "lat": 50.7522,
+    "lng": 4.012,
+    "webshop": "Nee",
+    "info": "Houtzagerij & houttransport sinds 1938. Exotisch hout, eik en beuk import uit Frankrijk. Galmaarden.",
+    "activiteiten": [
+      "houthandel",
+      "import"
+    ],
+    "website": "dhonthoutimport.com",
+    "adres": "Statiestraat 162, 1570 Galmaarden"
+  },
+  {
+    "naam": "Scierie Lemercier",
+    "provincie": "bwa",
+    "grootte": "K",
+    "lat": 50.6828,
+    "lng": 4.3679,
+    "webshop": "Nee",
+    "info": "Zagerij en verkoop zaagmachines. Hout op maat, beuk, eik. Braine-l'Alleud, Waals-Brabant. Sinds 1992.",
+    "activiteiten": [
+      "houthandel"
+    ],
+    "website": "lemercier.be",
+    "adres": "Dreve de Colipain 10, 1420 Braine-l'Alleud"
+  },
+  {
+    "naam": "Naturae Omheiningen",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 50.862,
+    "lng": 2.948,
+    "webshop": "Ja",
+    "info": "Eerste en enige fabrikant van omheiningen in Belgie. Kastanje, robinia, eik. Bouwpakketten. Zonnebeke.",
+    "activiteiten": [
+      "paarden",
+      "agro",
+      "online"
+    ],
+    "btw": "BE0760.796.635",
+    "website": "naturae.be",
+    "adres": "Ieperstraat 193, 8980 Zonnebeke"
+  },
+  {
+    "naam": "Parquet Philippe",
+    "provincie": "lui",
+    "grootte": "K",
+    "lat": 50.5175,
+    "lng": 5.2372,
+    "webshop": "Nee",
+    "info": "Parketspecialist +20 jaar ervaring. Schuren, strippen, onderhoud parket en houten trappen. Huy, Luik.",
+    "activiteiten": [
+      "parket"
+    ],
+    "btw": "BE0674.963.216",
+    "website": "parquet-philippe.be",
+    "adres": "Grand-Route 80, 4500 Huy"
+  },
+  {
+    "naam": "Parquet Beaudry",
+    "provincie": "lui",
+    "grootte": "K",
+    "lat": 50.5225,
+    "lng": 5.243,
+    "webshop": "Nee",
+    "info": "Parqueteurs schrijnwerkers, prov. Luik. Plaatsing en renovatie parket + terrassen. Heel Wallonie.",
+    "activiteiten": [
+      "parket",
+      "terrassen"
+    ],
+    "website": "parquet-beaudry.be",
+    "adres": "Rue Joseph Wauters 60, 4500 Ben-Ahin"
+  },
+  {
+    "naam": "Parquets Buyse Eric",
+    "provincie": "bwa",
+    "grootte": "K",
+    "lat": 50.6318,
+    "lng": 4.8027,
+    "webshop": "Nee",
+    "info": "Parketlegger sinds 1987. Plaatsing, renovatie, behandeling parket. Perwez, Brabant wallon.",
+    "activiteiten": [
+      "parket"
+    ],
+    "website": "parquets-buyse.be",
+    "adres": "Thorembais-Saint-Trond, 1360 Perwez"
+  },
+  {
+    "naam": "Gemo Decor",
+    "provincie": "wvl",
+    "grootte": "K",
+    "lat": 51.097,
+    "lng": 3.216,
+    "webshop": "Nee",
+    "info": "Parket en parketvloeren, parketrenovatie. Oostkamp, West-Vlaanderen.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Oostkamp, 8020"
+  },
+  {
+    "naam": "Parket Service Antwerpen",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.2194,
+    "lng": 4.4025,
+    "webshop": "Nee",
+    "info": "Specialist parketvloeren +25 jaar ervaring. Klassiek tot modern parket. Heel Vlaanderen.",
+    "activiteiten": [
+      "parket"
+    ],
+    "website": "parketservice.be",
+    "adres": "Antwerpen"
+  },
+  {
+    "naam": "Schillemans Parket",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.2623,
+    "lng": 4.7091,
+    "webshop": "Nee",
+    "info": "Parketlegger Zoersel, Antwerpen. Vloeren leggen, renoveren, onderhouden.",
+    "activiteiten": [
+      "parket"
+    ],
+    "adres": "Zoersel, 2980"
+  },
+  {
+    "naam": "Captain Services",
+    "provincie": "ant",
+    "grootte": "K",
+    "lat": 51.3109,
+    "lng": 4.894,
+    "webshop": "Nee",
+    "info": "Paardenomheiningen, stapmolens, paddockomheining. Vosselaar, Antwerpen. Ook actief in Nederland.",
+    "activiteiten": [
+      "paarden"
+    ],
+    "website": "captain-services.com",
+    "adres": "Vosselaar, 2350"
+  },
+  {
+    "naam": "Tuinhuisstore",
+    "provincie": "wvl",
+    "grootte": "M",
+    "lat": 51.054,
+    "lng": 3.7174,
+    "webshop": "Ja",
+    "info": "Online specialist tuinhuizen, blokhutten, tuinbergingen. +10 jaar expertise. Showrooms WVL en OVL.",
+    "activiteiten": [
+      "tuinhuis",
+      "online"
+    ],
+    "btw": "BE0440.072.766",
+    "website": "tuinhuisstore.be"
   }
 ]

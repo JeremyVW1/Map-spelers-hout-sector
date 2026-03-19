@@ -5,6 +5,7 @@
 
 let analyseSortKey = "naam";
 let analyseSortAsc = true;
+let analyseActiveActs = new Set();
 
 function initAnalyse() {
   // Vul regio dropdown
@@ -16,17 +17,40 @@ function initAnalyse() {
     regioSel.appendChild(opt);
   });
 
-  // Vul activiteit dropdown
-  const actSel = document.getElementById("analyse-activiteit");
+  // Vul activiteit checkboxes
+  const actContainer = document.getElementById("analyse-activiteit-checks");
   categorieen.filter(c => c.type === "activiteit").forEach(c => {
-    const opt = document.createElement("option");
-    opt.value = c.id;
-    opt.textContent = c.label;
-    actSel.appendChild(opt);
+    const label = document.createElement("label");
+    label.className = "analyse-act-label";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.value = c.id;
+    cb.checked = true; // standaard alles aan
+    cb.addEventListener("change", () => {
+      if (cb.checked) {
+        analyseActiveActs.add(c.id);
+        label.classList.add("checked");
+      } else {
+        analyseActiveActs.delete(c.id);
+        label.classList.remove("checked");
+      }
+      renderAnalyse();
+    });
+    label.appendChild(cb);
+    label.appendChild(document.createTextNode(" " + c.label));
+    label.style.borderColor = c.kleur;
+    label.style.color = c.kleur;
+    label.classList.add("checked");
+    actContainer.appendChild(label);
+    analyseActiveActs.add(c.id);
   });
 
+  // Standaard: groene zone aan, BTW aan
+  document.getElementById("analyse-groene-zone").checked = true;
+  document.getElementById("analyse-btw-only").checked = true;
+
   // Filters → re-render
-  document.querySelectorAll(".analyse-filters select, .analyse-filters input").forEach(el => {
+  document.querySelectorAll(".analyse-filters select, .analyse-filters > label input").forEach(el => {
     el.addEventListener("change", renderAnalyse);
   });
 
@@ -51,14 +75,15 @@ function initAnalyse() {
 
 function getAnalyseFiltered() {
   const regio = document.getElementById("analyse-regio").value;
-  const act = document.getElementById("analyse-activiteit").value;
   const grootte = document.getElementById("analyse-grootte").value;
   const groeneZone = document.getElementById("analyse-groene-zone").checked;
   const btwOnly = document.getElementById("analyse-btw-only").checked;
 
   return bedrijven.filter(c => {
     if (regio && c.provincie !== regio) return false;
-    if (act && !(c.activiteiten || []).includes(act)) return false;
+    // Activiteiten: minstens 1 actieve activiteit moet matchen
+    const cActs = c.activiteiten || [];
+    if (analyseActiveActs.size > 0 && !cActs.some(a => analyseActiveActs.has(a))) return false;
     if (grootte && c.grootte !== grootte) return false;
     if (groeneZone && !inGroeneZone(c)) return false;
     if (btwOnly && !c.btw) return false;
@@ -137,6 +162,13 @@ function getSortValue(c, key) {
   if (key === "activiteiten") return (c.activiteiten || [])[0] || "";
   if (key === "rijtijd_hertsberge" || key === "rijtijd_drongen") return c[key] != null ? c[key] : 999;
   return c[key] || "";
+}
+
+// Helper: maak website link HTML
+function makeWebLink(c) {
+  if (!c.website) return "";
+  const url = c.website.startsWith("http") ? c.website : "https://" + c.website;
+  return `<a href="${url}" target="_blank" rel="noopener" class="opp-link">🌐 ${c.website}</a>`;
 }
 
 // ─── Statistieken ─────────────────────────────
@@ -238,6 +270,7 @@ function renderOpportuniteiten(data) {
           <div class="opp-item">
             <span class="opp-name">${c.naam}</span>
             <span class="opp-detail">Opgericht ${c.oprichting} · ${(c.activiteiten || []).map(a => { const cat = categorieen.find(x => x.id === a); return cat ? cat.label : a; }).join(", ")}</span>
+            ${makeWebLink(c)}
             ${c.btw ? `<a href="https://jaarrekening.be/nl/be/${c.btw.replace(/[^0-9]/g, '')}" target="_blank" class="opp-link">📊 Jaarrekening</a>` : ""}
           </div>
         `).join("")}
@@ -254,6 +287,7 @@ function renderOpportuniteiten(data) {
           <div class="opp-item opp-warning">
             <span class="opp-name">${c.naam}</span>
             <span class="opp-detail">${c.info}</span>
+            ${makeWebLink(c)}
           </div>
         `).join("")}
       </div>
@@ -316,6 +350,7 @@ function renderOpportuniteiten(data) {
           <div class="opp-item">
             <span class="opp-name">${c.naam}</span>
             <span class="opp-detail">🚗 H: ${c.rijtijd_hertsberge}' · D: ${c.rijtijd_drongen}' · ${(c.activiteiten || []).map(a => { const cat = categorieen.find(x => x.id === a); return cat ? cat.label : a; }).join(", ")}</span>
+            ${makeWebLink(c)}
           </div>
         `).join("")}
       </div>
