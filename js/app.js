@@ -193,7 +193,28 @@ function buildFilters() {
   // "Alles" knop
   makeFilterBtn(bar, "🗺 Alles", "all", null);
 
-  categorieen.forEach((c) => {
+  // Regio label + knoppen
+  const regioLabel = document.createElement("span");
+  regioLabel.className = "filter-group-label";
+  regioLabel.textContent = "Regio:";
+  bar.appendChild(regioLabel);
+
+  categorieen.filter((c) => c.type === "regio").forEach((c) => {
+    makeFilterBtn(bar, c.label, c.id, c.kleur);
+  });
+
+  // Scheidingslijn
+  const div = document.createElement("div");
+  div.className = "divider";
+  bar.appendChild(div);
+
+  // Activiteit label + knoppen
+  const actLabel = document.createElement("span");
+  actLabel.className = "filter-group-label";
+  actLabel.textContent = "Activiteit:";
+  bar.appendChild(actLabel);
+
+  categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
     makeFilterBtn(bar, c.label, c.id, c.kleur);
   });
 }
@@ -237,28 +258,54 @@ function makeFilterBtn(container, label, id, col) {
 function buildLegend() {
   const el = document.getElementById("legend-content");
 
-  categorieen.forEach((c) => {
+  // Regio groep
+  const regioGroup = document.createElement("div");
+  regioGroup.className = "legend-group";
+  regioGroup.innerHTML = '<span class="legend-group-title">Regio</span>';
+  const regioItems = document.createElement("div");
+  regioItems.className = "legend-items";
+  categorieen.filter((c) => c.type === "regio").forEach((c) => {
     const d = document.createElement("div");
     d.className = "legend-item";
     d.innerHTML = `<div class="legend-dot" style="background:${c.kleur}"></div><span>${c.label}</span>`;
-    el.appendChild(d);
+    regioItems.appendChild(d);
   });
+  regioGroup.appendChild(regioItems);
+  el.appendChild(regioGroup);
 
-  // Grootte indicatoren
-  const sz = document.createElement("div");
-  sz.className = "legend-sizes";
-  sz.innerHTML = "<b>Grootte:</b>";
-  [
-    { r: 13, l: "Groot" },
-    { r: 9, l: "Midden" },
-    { r: 6, l: "Klein" },
-  ].forEach((s) => {
-    const sp = document.createElement("span");
-    sp.style.cssText = "display:flex;align-items:center;gap:3px";
-    sp.innerHTML = `<svg width="${s.r * 2 + 4}" height="${s.r * 2 + 4}"><circle cx="${s.r + 2}" cy="${s.r + 2}" r="${s.r}" fill="#888" opacity=".75"/></svg>${s.l}`;
-    sz.appendChild(sp);
+  // Activiteit groep
+  const actGroup = document.createElement("div");
+  actGroup.className = "legend-group";
+  actGroup.innerHTML = '<span class="legend-group-title">Activiteit</span>';
+  const actItems = document.createElement("div");
+  actItems.className = "legend-items";
+  categorieen.filter((c) => c.type === "activiteit").forEach((c) => {
+    const d = document.createElement("div");
+    d.className = "legend-item";
+    d.innerHTML = `<div class="legend-dot" style="background:${c.kleur}"></div><span>${c.label}</span>`;
+    actItems.appendChild(d);
   });
-  el.appendChild(sz);
+  actGroup.appendChild(actItems);
+  el.appendChild(actGroup);
+
+  // Grootte groep
+  const szGroup = document.createElement("div");
+  szGroup.className = "legend-group";
+  szGroup.innerHTML = '<span class="legend-group-title">Grootte</span>';
+  const szItems = document.createElement("div");
+  szItems.className = "legend-items";
+  [
+    { r: 13, l: "Groot / dominant" },
+    { r: 9, l: "Middelgroot" },
+    { r: 6, l: "Klein / lokaal" },
+  ].forEach((s) => {
+    const sp = document.createElement("div");
+    sp.className = "legend-item";
+    sp.innerHTML = `<svg width="${s.r * 2 + 4}" height="${s.r * 2 + 4}"><circle cx="${s.r + 2}" cy="${s.r + 2}" r="${s.r}" fill="#888" opacity=".75"/></svg><span>${s.l}</span>`;
+    szItems.appendChild(sp);
+  });
+  szGroup.appendChild(szItems);
+  el.appendChild(szGroup);
 
   // Mobiel toggle
   const toggle = document.getElementById("legend-toggle");
