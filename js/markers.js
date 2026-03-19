@@ -18,7 +18,7 @@ function makeIcon(col, r, isGroot) {
 }
 
 function buildPopup(c) {
-  const col = KLEUR_MAP[c.provincie] || "#888";
+  const col = getActivityColor(c);
   const provLabel = PROV_LABELS[c.provincie] || c.provincie;
   const sizeLabel = GROOTTE_LABELS[c.grootte] || "Onbekend";
 
@@ -64,8 +64,14 @@ function buildPopup(c) {
     enrichHtml += "</div>";
   }
 
+  const acts = c.activiteiten || [];
+  const actLabel = acts.length > 0
+    ? categorieen.find((cat) => cat.id === acts[0])?.label || acts[0]
+    : "Onbekend";
+
   return `
-    <span class="popup-badge" style="background:${col}">${provLabel}</span>
+    <span class="popup-badge" style="background:${col}">${actLabel}</span>
+    <span class="popup-prov">${provLabel}</span>
     <span class="popup-name">${c.naam}</span>
     <span class="popup-coords">📍 ${c.lat.toFixed(3)}, ${c.lng.toFixed(3)}</span>
     <span class="${infoClass}">${info}</span>
@@ -76,13 +82,19 @@ function buildPopup(c) {
   `;
 }
 
+function getActivityColor(c) {
+  const acts = c.activiteiten || [];
+  if (acts.length === 0) return "#888";
+  return ACT_KLEUR[acts[0]] || "#888";
+}
+
 function render() {
   markers.forEach((m) => map.removeLayer(m));
   markers = [];
 
   const visible = getVisibleCompanies();
   visible.forEach((c) => {
-    const col = KLEUR_MAP[c.provincie] || "#888";
+    const col = getActivityColor(c);
     const r = GROOTTE_RADIUS[c.grootte] || 7;
     const icon = makeIcon(col, r, c.grootte === "G");
     const m = L.marker([c.lat, c.lng], { icon })

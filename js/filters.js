@@ -78,10 +78,7 @@ function syncFilterButtons() {
 function buildLegend() {
   const el = document.getElementById("legend-content");
 
-  // Regio
-  addLegendGroup(el, "Regio", categorieen.filter((c) => c.type === "regio"));
-
-  // Activiteit
+  // Activiteit (= markerkleuren)
   addLegendGroup(el, "Activiteit", categorieen.filter((c) => c.type === "activiteit"));
 
   // Grootte
@@ -102,6 +99,24 @@ function buildLegend() {
   });
   szGroup.appendChild(szItems);
   el.appendChild(szGroup);
+
+  // Doelgebied
+  const zoneGroup = document.createElement("div");
+  zoneGroup.className = "legend-group";
+  zoneGroup.innerHTML = '<span class="legend-group-title">Zone</span>';
+  const zoneItems = document.createElement("div");
+  zoneItems.className = "legend-items";
+  const zoneItem = document.createElement("div");
+  zoneItem.className = "legend-item";
+  zoneItem.innerHTML = `<div class="legend-dot" style="background:#4CAF50;border:1.5px dashed #2E7D32;opacity:0.7"></div><span>Max 1u rijden</span>`;
+  zoneItems.appendChild(zoneItem);
+  // Eigen locaties
+  const ownItem = document.createElement("div");
+  ownItem.className = "legend-item";
+  ownItem.innerHTML = `<div style="color:#8B1A1A;font-size:12px;font-weight:700;flex-shrink:0;width:12px;text-align:center">&#9660;</div><span>Eigen locatie</span>`;
+  zoneItems.appendChild(ownItem);
+  zoneGroup.appendChild(zoneItems);
+  el.appendChild(zoneGroup);
 
   // Mobiel toggle
   const toggle = document.getElementById("legend-toggle");

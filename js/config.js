@@ -4,6 +4,7 @@
 
 const KLEUR_MAP = {};
 const PROV_LABELS = {};
+const ACT_KLEUR = {}; // activiteit → kleur mapping
 
 const GROOTTE_LABELS = {
   G: "GROTE / DOMINANTE SPELER",

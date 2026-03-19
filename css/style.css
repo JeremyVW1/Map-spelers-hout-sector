@@ -183,6 +183,11 @@ body {
   font-weight: 700;
   margin-bottom: 6px;
 }
+.popup-prov {
+  font-size: 10px;
+  color: #888;
+  margin-left: 6px;
+}
 .popup-name {
   font-size: 15px;
   font-weight: 700;

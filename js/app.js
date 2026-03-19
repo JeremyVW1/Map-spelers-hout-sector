@@ -17,6 +17,7 @@ async function init() {
   categorieen.forEach((c) => {
     KLEUR_MAP[c.id] = c.kleur;
     PROV_LABELS[c.id] = c.label;
+    if (c.type === "activiteit") ACT_KLEUR[c.id] = c.kleur;
   });
 
   initMap();
