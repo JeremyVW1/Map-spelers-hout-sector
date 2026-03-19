@@ -113,9 +113,9 @@ function buildPopup(c) {
     <span class="popup-badge" style="background:${col}">${actLabel}</span>
     <span class="popup-prov">${provLabel}</span>
     <span class="popup-name">${c.naam}</span>
-    ${contactHtml}
     ${info ? `<span class="${infoClass}">${info}</span>` : ""}
     ${acts.length > 1 ? `<span class="popup-acts">📋 ${allActLabels.join(", ")}</span>` : ""}
+    ${contactHtml}
     ${enrichHtml}
     ${rijtijdHtml}
     <span class="popup-size ${c.grootte}">${sizeLabel}</span>
