@@ -3117,14 +3117,15 @@
     "lng": 3.4441,
     "webshop": "Nee",
     "info": "Sedert 1920. PEFC. Specialist Douglas. Schaverij + drenkstation + toonzaal. Constructiehout, gevelbekleding, terrassen. Doorniksesteenweg 202, Avelgem.",
-    "btw": null,
+    "btw": "BE0419.536.480",
     "adres": "Doorniksesteenweg 202, 8580 Avelgem",
     "oprichting": "1920",
     "website": "houtmagazijnverdonckt.be",
     "activiteiten": [
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "medewerkers": "21"
   },
   {
     "naam": "Houthandel Verwée (Kuurne)",
@@ -3215,7 +3216,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "btw": "BE0809.271.097",
+    "oprichting": "2009",
+    "medewerkers": "1-4"
   },
   {
     "naam": "Houthandel Messely (Moorslede)",
@@ -3596,7 +3600,9 @@
     ],
     "rijtijd_hertsberge": 5,
     "rijtijd_drongen": 29,
-    "website": "www.willton.be"
+    "website": "www.willton.be",
+    "btw": "BE0444.059.862",
+    "oprichting": "1991"
   },
   {
     "naam": "Quadrowood (Ruiselede)",
@@ -3611,7 +3617,10 @@
     ],
     "rijtijd_hertsberge": 22,
     "rijtijd_drongen": 18,
-    "website": "www.quadrowood.com"
+    "website": "www.quadrowood.com",
+    "btw": "BE0886.560.402",
+    "oprichting": "2007",
+    "medewerkers": "1-5"
   },
   {
     "naam": "Parket Vanrobaeys (Zwevezele/Wingene)",
@@ -3626,7 +3635,9 @@
     ],
     "rijtijd_hertsberge": 18,
     "rijtijd_drongen": 37,
-    "website": "www.parketvanrobaeys.be"
+    "website": "www.parketvanrobaeys.be",
+    "btw": "BE0472.360.405",
+    "oprichting": "2000"
   },
   {
     "naam": "Parketlounge (Tielt–Roeselare regio)",
@@ -3641,7 +3652,8 @@
     ],
     "rijtijd_hertsberge": 30,
     "rijtijd_drongen": 45,
-    "website": "www.parketlounge.be"
+    "website": "www.parketlounge.be",
+    "btw": "BE0645.709.303"
   },
   {
     "naam": "De Voogt Parket (Brugge)",
@@ -3656,7 +3668,8 @@
     ],
     "rijtijd_hertsberge": 20,
     "rijtijd_drongen": 33,
-    "website": "www.devoogtparket.be"
+    "website": "www.devoogtparket.be",
+    "btw": "BE0507.715.321"
   },
   {
     "naam": "Stals & Zoon Parket (regio Oostkamp)",
@@ -3671,7 +3684,8 @@
     ],
     "rijtijd_hertsberge": 11,
     "rijtijd_drongen": 25,
-    "website": "stalsparket.be"
+    "website": "stalsparket.be",
+    "btw": "BE0450.745.736"
   },
   {
     "naam": "W&A Parket (Kruishoutem)",
@@ -3686,7 +3700,8 @@
     ],
     "rijtijd_hertsberge": 43,
     "rijtijd_drongen": 27,
-    "website": "wa-parket.be"
+    "website": "wa-parket.be",
+    "btw": "BE0442.151.932"
   },
   {
     "naam": "Houtmagazijn Verdonckt — parket (Avelgem)",
@@ -3696,7 +3711,7 @@
     "lng": 3.4441,
     "webshop": "Nee",
     "info": "Sedert 1920. Houthandel + parketvloeren toonzaal. Constructiehout, gevelbekleding, terrassen, parket. PEFC. Schaverij + drenkstation. 📍 Doorniksesteenweg 202, 8580 Avelgem 📞 056 64 40 42 🌐 houtmagazijnverdonckt.be",
-    "btw": null,
+    "btw": "BE0419.536.480",
     "adres": "Doorniksesteenweg 202, 8580 Avelgem",
     "oprichting": "1920",
     "website": "houtmagazijnverdonckt.be",
@@ -3704,7 +3719,8 @@
       "parket",
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "medewerkers": "21"
   },
   {
     "naam": "Contesse Vloerbedekkingen (Nazareth)",
@@ -3719,7 +3735,8 @@
     ],
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 20,
-    "website": "contesse.be"
+    "website": "contesse.be",
+    "btw": "BE0899.257.997"
   },
   {
     "naam": "Parket Danny Verliefde (Sint-Lievens-Houtem)",
@@ -4161,7 +4178,7 @@
     "lng": 3.4441,
     "webshop": "Nee",
     "info": "Sedert 1920. PEFC. Specialist Douglas. Schaverij + drenkstation. Constructiehout, gevelbekleding, terrassen, parket. 📍 Doorniksesteenweg 202, 8580 Avelgem 📞 056 64 40 42 🌐 houtmagazijnverdonckt.be",
-    "btw": null,
+    "btw": "BE0419.536.480",
     "adres": "Doorniksesteenweg 202, 8580 Avelgem",
     "oprichting": "1920",
     "website": "houtmagazijnverdonckt.be",
@@ -4169,7 +4186,8 @@
       "parket",
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "medewerkers": "21"
   },
   {
     "naam": "Goeminne Tuinhout (Dikkelvenne)",
@@ -4332,7 +4350,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 42,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "btw": "BE0415.150.102",
+    "oprichting": "1975",
+    "medewerkers": "10-19"
   },
   {
     "naam": "Cube (Oostkamp)",
@@ -4392,7 +4413,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 16
+    "rijtijd_drongen": 16,
+    "btw": "BE0463.492.526",
+    "oprichting": "1998",
+    "medewerkers": "5-9",
+    "website": "houthandel-deville-claeys.be"
   },
   {
     "naam": "VC Wood Zottegem",
@@ -4454,7 +4479,10 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 44,
-    "rijtijd_drongen": 23
+    "rijtijd_drongen": 23,
+    "btw": "BE0416.083.775",
+    "oprichting": "1976",
+    "website": "vanpeteghemhout.be"
   },
   {
     "naam": "Houtwereld (Maldegem)",
@@ -4468,7 +4496,11 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 27,
-    "rijtijd_drongen": 25
+    "rijtijd_drongen": 25,
+    "btw": "BE0897.670.860",
+    "oprichting": "2008",
+    "medewerkers": "4",
+    "website": "vc-wood.com"
   },
   {
     "naam": "Van Impe-Moulart (Horebeke)",
@@ -4525,7 +4557,9 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 27
+    "rijtijd_drongen": 27,
+    "btw": "BE0434.804.082",
+    "website": "grimwood.be"
   },
   {
     "naam": "Hout-Bois Van Steenberge (Zottegem)",
@@ -4569,7 +4603,9 @@
       "parket"
     ],
     "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 18
+    "rijtijd_drongen": 18,
+    "btw": "BE0472.899.447",
+    "website": "nieuwparket.be"
   },
   {
     "naam": "Quintelier (Dendermonde)",
@@ -4671,7 +4707,8 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 18
+    "rijtijd_drongen": 18,
+    "btw": "BE0419.657.731"
   },
   {
     "naam": "Tilborghs Hout en Interieur (Kalmthout)",
@@ -4887,7 +4924,9 @@
     ],
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 42,
-    "website": "dgwoodconstruct.be"
+    "website": "dgwoodconstruct.be",
+    "btw": "BE0746.601.971",
+    "oprichting": "2020"
   },
   {
     "naam": "Koekuyt Tuindesign (Roeselare)",
@@ -4901,7 +4940,9 @@
       "tuinhuis"
     ],
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 46
+    "rijtijd_drongen": 46,
+    "btw": "BE0444.082.826",
+    "website": "koekuyt-tuindesign.be"
   },
   {
     "naam": "Wood Arts (Avelgem)",
@@ -4944,7 +4985,9 @@
     ],
     "rijtijd_hertsberge": 38,
     "rijtijd_drongen": 27,
-    "website": "westparket.be"
+    "website": "westparket.be",
+    "btw": "BE0826.402.386",
+    "oprichting": "2010"
   },
   {
     "naam": "JS Parket (Waregem)",
@@ -4959,7 +5002,8 @@
     ],
     "rijtijd_hertsberge": 39,
     "rijtijd_drongen": 26,
-    "website": "jsparket.be"
+    "website": "jsparket.be",
+    "btw": "BE0808.801.440"
   },
   {
     "naam": "Blondeel Parket (Knokke-Heist)",
@@ -5084,7 +5128,10 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Gistelsteenweg 2B, 8490 Jabbeke"
+    "adres": "Gistelsteenweg 2B, 8490 Jabbeke",
+    "btw": "BE0520.371.841",
+    "oprichting": "1964",
+    "website": "parket-reyserhove.be"
   },
   {
     "naam": "Parket Vanackere (Wevelgem)",
@@ -5291,7 +5338,9 @@
     ],
     "adres": "Boelare 114, 9900 Eeklo",
     "rijtijd_hertsberge": 34,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "btw": "BE0820.804.496",
+    "website": "floorever.be"
   },
   {
     "naam": "Parketlounge (Destelbergen)",
@@ -5307,7 +5356,8 @@
     "adres": "Destelbergen",
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 19,
-    "website": "parketlounge.be"
+    "website": "parketlounge.be",
+    "btw": "BE0645.709.303"
   },
   {
     "naam": "Vermeersch Parket (Zedelgem)",
@@ -5975,7 +6025,10 @@
     ],
     "adres": "Kortrijksesteenweg 20, 8530 Harelbeke",
     "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 35
+    "rijtijd_drongen": 35,
+    "btw": "BE0461.058.519",
+    "oprichting": "1997",
+    "website": "claerhout.cc"
   },
   {
     "naam": "FL Decor (Meulebeke)",
@@ -6176,7 +6229,10 @@
     ],
     "adres": "Oudenaarde",
     "rijtijd_hertsberge": 49,
-    "rijtijd_drongen": 29
+    "rijtijd_drongen": 29,
+    "btw": "BE0867.442.492",
+    "oprichting": "2004",
+    "website": "conectwoodbelievers.com"
   },
   {
     "naam": "Het Parketpunt (Sint-Niklaas)",
@@ -6799,7 +6855,9 @@
     ],
     "adres": "Den Beer 18, 9840 De Pinte",
     "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 11
+    "rijtijd_drongen": 11,
+    "btw": "BE0876.453.792",
+    "website": "systimber.com"
   },
   {
     "naam": "moduus (Evergem)",
