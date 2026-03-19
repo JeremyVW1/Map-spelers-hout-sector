@@ -286,9 +286,9 @@ body {
 .td-dichtste.score-good { background: #e8f5e9; color: #2e7d32; }
 .td-dichtste.score-ok { background: #fff8e1; color: #f57f17; }
 
-.td-notes { min-width: 200px; }
+.td-notes { min-width: 350px; width: 350px; }
 .fav-note {
-  width: 100%; min-height: 50px; padding: 6px 8px;
+  width: 100%; min-height: 70px; padding: 8px 10px;
   border: 1px solid #ddd; border-radius: 4px; font: inherit; font-size: 14px;
   resize: vertical; background: #fafafa;
 }
