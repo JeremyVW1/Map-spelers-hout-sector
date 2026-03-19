@@ -23,7 +23,8 @@ async function init() {
   initAnalyse();
   initTabs();
 
-  // Standaard WVL + OVL + alle activiteiten
+  // Standaard groene zone + WVL + OVL + alle activiteiten
+  activeRegios.add("groene_zone");
   activeRegios.add("wvl");
   activeRegios.add("ovl");
   categorieen.filter(c => c.type === "activiteit").forEach(c => activeActiviteiten.add(c.id));
