@@ -54,9 +54,9 @@ body {
 .search-wrap { position: relative; flex-shrink: 0; min-width: 200px; }
 .search-wrap svg { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); color: #999; pointer-events: none; }
 #search {
-  width: 100%; padding: 4px 28px 4px 30px;
+  width: 100%; padding: 6px 30px 6px 32px;
   border: 1.5px solid #ddd; border-radius: 20px;
-  font-size: 11px; outline: none; transition: border-color 0.2s; background: #fafafa;
+  font-size: 14px; outline: none; transition: border-color 0.2s; background: #fafafa;
 }
 #search:focus { border-color: #1a1a2e; background: #fff; }
 #search-clear {
@@ -82,12 +82,12 @@ body {
   z-index: 1000;
 }
 .search-sug-item {
-  padding: 6px 12px;
+  padding: 8px 12px;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 13px;
   border-bottom: 1px solid #f0f2f5;
   transition: background 0.1s;
 }
@@ -95,12 +95,12 @@ body {
 .search-sug-item:hover { background: #f0f4ff; }
 .sug-naam { font-weight: 600; color: #1a1a2e; white-space: nowrap; }
 .sug-naam b { color: #1565C0; }
-.sug-detail { font-size: 10px; color: #888; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sug-act { font-size: 9px; color: #999; white-space: nowrap; margin-left: auto; }
+.sug-detail { font-size: 11px; color: #888; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sug-act { font-size: 10px; color: #999; white-space: nowrap; margin-left: auto; }
 
 /* Filterknoppen */
 .fb {
-  font-size: 10px; padding: 3px 10px; border-radius: 14px;
+  font-size: 12px; padding: 4px 12px; border-radius: 14px;
   border: 1.5px solid #d0d0d0; background: #fff; color: #555;
   cursor: pointer; white-space: nowrap; transition: all 0.15s;
   flex-shrink: 0; font-weight: 500; line-height: 1.3;
@@ -108,8 +108,8 @@ body {
 .fb:hover { border-color: #888; background: #f5f5f5; }
 .fb.on { color: #fff !important; border-color: transparent !important; font-weight: 600; box-shadow: 0 1px 4px rgba(0,0,0,0.15); }
 .filter-group-label {
-  font-size: 9px; font-weight: 700; color: #aaa;
-  text-transform: uppercase; letter-spacing: 0.4px; flex-shrink: 0; padding: 0 1px;
+  font-size: 11px; font-weight: 700; color: #999;
+  text-transform: uppercase; letter-spacing: 0.4px; flex-shrink: 0; padding: 0 2px;
 }
 
 /* Map */
