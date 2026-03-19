@@ -298,29 +298,79 @@ body {
 }
 .own-marker { animation: pulse 2s ease-in-out infinite; }
 
-/* Responsive */
+/* Responsive — tablet */
 @media (max-width: 768px) {
-  #header { padding: 3px 10px; }
-  #header .header-left h1 { font-size: 11px; }
-  .tab-btn { padding: 3px 10px; font-size: 10px; }
-  #analyse-view { padding: 8px; }
-  .analyse-toolbar { flex-direction: column; align-items: stretch; }
-  .stat-card { min-width: 70px; }
-  .sat-label { width: 80px; font-size: 10px; }
-  .analyse-table { font-size: 10px; }
-  #controls { padding: 3px 8px; gap: 2px; }
-  .search-wrap { min-width: 140px; flex: 1; }
-  .fb { font-size: 9px; padding: 2px 8px; }
+  #header { padding: 6px 10px; flex-wrap: wrap; gap: 6px; }
+  #header .header-left { order: 1; flex: 1 1 100%; }
+  #header .header-left h1 { font-size: 16px; }
+  #header .header-center { order: 2; }
+  #header .header-right { order: 3; margin-left: auto; }
+  .tab-btn { padding: 5px 16px; font-size: 12px; }
+  .counter { font-size: 12px; padding: 4px 12px; }
+
+  #controls { padding: 4px 8px; gap: 3px; }
+  .controls-top { flex-wrap: wrap; }
+  .search-wrap { min-width: 0; flex: 1 1 100%; order: -1; }
+  #search { font-size: 14px; padding: 8px 32px 8px 34px; }
+  .fb { font-size: 10px; padding: 4px 10px; }
+  .filter-row { flex-wrap: wrap; }
+
+  #map { min-height: 50vh; }
+
   #legend { padding: 2px 8px; flex-wrap: wrap; }
-  #legend-toggle { display: block; background: none; border: none; cursor: pointer; font-size: 10px; color: #888; padding: 2px 4px; width: 100%; }
+  #legend-toggle { display: block; background: none; border: none; cursor: pointer; font-size: 11px; color: #888; padding: 4px; width: 100%; }
   #legend-content { flex-wrap: wrap; }
   #legend-content.collapsed { display: none; }
-  .legend-group { padding: 2px 8px; border-right: none; border-bottom: 1px solid #eee; width: 100%; }
+  .legend-group { padding: 4px 8px; border-right: none; border-bottom: 1px solid #eee; width: 100%; }
+
   .filter-group-label { display: none; }
-  .leaflet-popup-content { min-width: 200px !important; max-width: 260px !important; }
+  .leaflet-popup-content { min-width: 200px !important; max-width: 280px !important; }
+
+  /* Analyse mobiel */
+  #analyse-view { padding: 8px; }
+  .analyse-toolbar { flex-direction: column; align-items: stretch; }
+  .analyse-filter-row { flex-wrap: wrap; }
+  .analyse-act-checks { gap: 3px; }
+  .analyse-act-label { font-size: 9px; padding: 2px 6px; }
+  .stat-card { min-width: 70px; padding: 10px 12px; }
+  .stat-num { font-size: 22px; }
+  .sat-label { width: 80px; font-size: 10px; }
+  .analyse-table { font-size: 10px; }
+  .analyse-table th { padding: 6px 6px; font-size: 9px; }
+  .analyse-table td { padding: 4px 6px; }
+  .td-adres, .td-web, .td-btw { max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
 
+/* Responsive — telefoon */
 @media (max-width: 480px) {
-  .search-wrap { min-width: 100px; flex: 1; }
-  #header .header-left h1 { font-size: 11px; }
+  #header .header-left h1 { font-size: 14px; }
+  .tab-btn { padding: 4px 12px; font-size: 11px; }
+  .counter { font-size: 11px; }
+
+  #search { font-size: 16px; padding: 10px 32px 10px 34px; border-radius: 12px; }
+  .search-wrap svg { width: 16px; height: 16px; left: 10px; }
+  #search-clear { font-size: 18px; right: 10px; }
+  .search-suggestions { max-height: 60vh; }
+  .search-sug-item { padding: 10px 12px; font-size: 13px; }
+  .sug-naam { font-size: 13px; }
+  .sug-detail { font-size: 11px; }
+
+  .fb { font-size: 11px; padding: 5px 10px; border-radius: 8px; }
+  .filter-row { gap: 4px; }
+
+  .leaflet-popup-content { min-width: 180px !important; max-width: 250px !important; font-size: 13px; }
+  .popup-name { font-size: 16px; }
+  .popup-info { font-size: 13px; }
+  .popup-contact { font-size: 12px; }
+  .popup-link { font-size: 12px; padding: 3px 0; }
+  .popup-enrich { font-size: 12px; }
+  .popup-rijtijd { font-size: 11px; }
+
+  .opp-section h3 { font-size: 13px; }
+  .opp-item { padding: 8px 10px; }
+  .opp-name { font-size: 12px; }
+
+  .stat-card.stat-wide { min-width: 0; }
+  .stat-chips { gap: 3px; }
+  .stat-chip { font-size: 10px; padding: 2px 6px; }
 }
