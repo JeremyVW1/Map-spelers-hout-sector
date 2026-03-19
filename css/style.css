@@ -15,16 +15,16 @@ body {
 #header {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: #fff;
-  padding: 4px 16px;
+  padding: 8px 16px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
 }
-#header .header-left h1 { font-size: 14px; font-weight: 700; letter-spacing: 0.3px; }
+#header .header-left h1 { font-size: 18px; font-weight: 700; letter-spacing: 0.3px; }
 #header .header-right { display: flex; align-items: center; gap: 10px; }
-.counter { background: rgba(255,255,255,0.12); padding: 3px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+.counter { background: rgba(255,255,255,0.12); padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; }
 .counter span { color: #7ecbff; font-weight: 700; }
 
 /* Controls */
@@ -128,7 +128,7 @@ body {
 .header-center { display: flex; gap: 3px; background: rgba(0,0,0,0.25); border-radius: 8px; padding: 3px; }
 .tab-btn {
   background: transparent; border: none; color: rgba(255,255,255,0.55);
-  padding: 6px 22px; font-size: 12px; font-weight: 700; cursor: pointer;
+  padding: 7px 24px; font-size: 14px; font-weight: 700; cursor: pointer;
   border-radius: 6px; transition: all 0.2s; letter-spacing: 0.3px; text-transform: uppercase;
 }
 .tab-btn:hover { background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.85); }
