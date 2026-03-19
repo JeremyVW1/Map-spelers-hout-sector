@@ -52,20 +52,24 @@
   <div id="analyse-view" class="hidden">
     <div class="analyse-toolbar">
       <div class="analyse-filters">
-        <div id="analyse-regio-checks" class="analyse-act-checks">
-          <!-- Wordt via JS opgebouwd -->
+        <div class="analyse-filter-group">
+          <span class="analyse-group-label">Regio:</span>
+          <div id="analyse-regio-checks" class="analyse-act-checks"></div>
         </div>
-        <div id="analyse-activiteit-checks" class="analyse-act-checks">
-          <!-- Wordt via JS opgebouwd -->
+        <div class="analyse-filter-group">
+          <span class="analyse-group-label">Activiteiten:</span>
+          <div id="analyse-activiteit-checks" class="analyse-act-checks"></div>
         </div>
-        <select id="analyse-grootte">
-          <option value="">Alle groottes</option>
-          <option value="G">Groot</option>
-          <option value="M">Middelgroot</option>
-          <option value="K">Klein</option>
-        </select>
-        <label class="analyse-check"><input type="checkbox" id="analyse-groene-zone"> Groene zone</label>
-        <label class="analyse-check"><input type="checkbox" id="analyse-btw-only"> Enkel met BTW</label>
+        <div class="analyse-filter-group analyse-filter-row">
+          <select id="analyse-grootte">
+            <option value="">Alle groottes</option>
+            <option value="G">Groot</option>
+            <option value="M">Middelgroot</option>
+            <option value="K">Klein</option>
+          </select>
+          <label class="analyse-check"><input type="checkbox" id="analyse-groene-zone"> Groene zone</label>
+          <label class="analyse-check"><input type="checkbox" id="analyse-btw-only"> Enkel met BTW</label>
+        </div>
       </div>
       <div class="analyse-actions">
         <button id="analyse-export" class="analyse-btn">📥 Exporteer CSV</button>
