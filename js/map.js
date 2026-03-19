@@ -40,9 +40,9 @@ function distKm(lat1, lng1, lat2, lng2) {
 
 // ─── Doelgebied (overlap max 1u rijden) ──────
 function addTargetZone() {
-  const h = EIGEN_LOCATIES[1].ll; // Hertsberghe
-  const d = EIGEN_LOCATIES[0].ll; // Drongen
-  const maxKm = 38; // ~50km weg / 1.3 omwegfactor
+  const h = EIGEN_LOCATIES[1].ll; // Hertsberge (Rapaertstraat)
+  const d = EIGEN_LOCATIES[0].ll; // Drongen (Sint-Gerolfstraat)
+  const maxKm = 40; // OSRM-gevalideerd: alle randpunten < 60min rijden
 
   const midLat = (h[0] + d[0]) / 2;
   const midLng = (h[1] + d[1]) / 2;

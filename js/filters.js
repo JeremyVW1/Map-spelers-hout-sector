@@ -23,6 +23,9 @@ function buildFilters() {
     makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio");
   });
 
+  // Groene zone knop in de regio-rij
+  makeFilterBtn(regioRow, "🟢 Max 1u rijden", "groene_zone", "#2E7D32", "regio");
+
   // Activiteit rij
   const actRow = document.getElementById("filter-activiteit");
   addLabel(actRow, "Activiteit:");
