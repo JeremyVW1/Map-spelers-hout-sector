@@ -189,25 +189,24 @@ function renderOpportuniteiten(data) {
   const el = document.getElementById("analyse-opps");
   if (!el) return;
 
-  const allInZone = bedrijven.filter(c => inGroeneZone(c));
-
-  const overnameCandidates = allInZone.filter(c => {
+  // Gebruik gefilterde data (regio + activiteit + grootte + groene zone + BTW filters)
+  const overnameCandidates = data.filter(c => {
     const yr = parseInt(c.oprichting);
     return c.grootte === "K" && yr && yr < 2000;
   }).sort((a, b) => parseInt(a.oprichting) - parseInt(b.oprichting));
 
-  const actInZone = {};
-  allInZone.forEach(c => (c.activiteiten || []).forEach(a => { actInZone[a] = (actInZone[a] || 0) + 1; }));
+  const actFiltered = {};
+  data.forEach(c => (c.activiteiten || []).forEach(a => { actFiltered[a] = (actFiltered[a] || 0) + 1; }));
   const actTotal = {};
   bedrijven.forEach(c => (c.activiteiten || []).forEach(a => { actTotal[a] = (actTotal[a] || 0) + 1; }));
 
-  const witteVlekken = Object.entries(actInZone).filter(([, n]) => n <= 3).sort((a, b) => a[1] - b[1]);
+  const witteVlekken = Object.entries(actFiltered).filter(([, n]) => n <= 3).sort((a, b) => a[1] - b[1]);
 
   el.innerHTML = `
     ${overnameCandidates.length ? `
     <div class="opp-section">
       <h3>🎯 Overnamekandidaten <span class="opp-subtitle">(op basis van oprichtingsjaar en dus mogelijkheid geen opvolging)</span></h3>
-      <p class="opp-desc">Kleine bedrijven in de groene zone, opgericht voor 2000</p>
+      <p class="opp-desc">Kleine bedrijven opgericht voor 2000 (binnen huidige filters)</p>
       <div class="opp-list">
         ${overnameCandidates.slice(0, 15).map(c => `
           <div class="opp-item">
@@ -220,10 +219,10 @@ function renderOpportuniteiten(data) {
       </div>
     </div>` : ""}
     <div class="opp-section">
-      <h3>📊 Marktverzadiging in groene zone</h3>
-      <p class="opp-desc">Aantal spelers per activiteit in de groene zone vs. totaal</p>
+      <h3>📊 Marktverzadiging</h3>
+      <p class="opp-desc">Aantal spelers per activiteit (gefilterd vs. totaal)</p>
       <div class="opp-saturation">
-        ${Object.entries(actInZone).sort((a, b) => b[1] - a[1]).map(([id, n]) => {
+        ${Object.entries(actFiltered).sort((a, b) => b[1] - a[1]).map(([id, n]) => {
           const cat = categorieen.find(c => c.id === id);
           const total = actTotal[id] || 0;
           const pct = total ? Math.round(n / total * 100) : 0;
@@ -238,7 +237,7 @@ function renderOpportuniteiten(data) {
     ${witteVlekken.length ? `
     <div class="opp-section">
       <h3>🔍 Witte vlekken</h3>
-      <p class="opp-desc">Activiteiten met ≤ 3 spelers in de groene zone — ruimte voor groei</p>
+      <p class="opp-desc">Activiteiten met ≤ 3 spelers binnen huidige filters — ruimte voor groei</p>
       <div class="opp-list">
         ${witteVlekken.map(([id, n]) => {
           const cat = categorieen.find(c => c.id === id);
