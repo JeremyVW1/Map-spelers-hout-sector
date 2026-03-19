@@ -38,6 +38,50 @@ function distKm(lat1, lng1, lat2, lng2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
+// ─── Belgisch-Nederlandse grens (west → oost) ─
+// Vereenvoudigde maar nauwkeurige grenscoördinaten
+const BE_NL_GRENS = [
+  [51.3753, 2.5390],  // Kust – De Panne / Sluis
+  [51.3480, 3.3680],  // Zeeuws-Vlaanderen west
+  [51.3760, 3.3850],  // Sas van Gent
+  [51.3480, 3.4480],  // Zelzate
+  [51.3660, 3.5850],  // Kanaal Terneuzen
+  [51.3920, 3.8300],  // Hulst omgeving
+  [51.4260, 4.0200],  // Kieldrecht / Doel
+  [51.4480, 4.2400],  // Essen grensovergang
+  [51.4960, 4.3700],  // Essen – Nispen
+  [51.4830, 4.5200],  // Merksplas
+  [51.4420, 4.6300],  // Turnhout-noord
+  [51.4480, 4.7800],  // Ravels
+  [51.4870, 4.9400],  // Hilvarenbeek
+  [51.4380, 5.0400],  // Poppel / Reusel
+  [51.4470, 5.2200],  // Postel
+  [51.3970, 5.3700],  // Lommel-noord
+  [51.3720, 5.4700],  // Overpelt
+  [51.3260, 5.5800],  // Hamont
+  [51.2400, 5.7000],  // Kinrooi
+  [51.1700, 5.8600],  // Maaseik – Echt
+];
+
+// Check of een punt boven de BE-NL grens ligt (= in Nederland)
+function isAboveBorder(lat, lng) {
+  // Zoek de twee dichtstbijzijnde grenspunten qua lengtegraad
+  if (lng < BE_NL_GRENS[0][1] || lng > BE_NL_GRENS[BE_NL_GRENS.length - 1][1]) {
+    return lat > 51.35; // fallback buiten grensdata
+  }
+  for (let i = 0; i < BE_NL_GRENS.length - 1; i++) {
+    const [lat1, lng1] = BE_NL_GRENS[i];
+    const [lat2, lng2] = BE_NL_GRENS[i + 1];
+    if (lng >= lng1 && lng <= lng2) {
+      // Lineair interpoleren
+      const t = (lng - lng1) / (lng2 - lng1);
+      const grensLat = lat1 + t * (lat2 - lat1);
+      return lat > grensLat;
+    }
+  }
+  return lat > 51.35;
+}
+
 // ─── Doelgebied (overlap max 1u rijden) ──────
 function addTargetZone() {
   const h = EIGEN_LOCATIES[1].ll; // Hertsberge (Rapaertstraat)
@@ -48,11 +92,11 @@ function addTargetZone() {
   const midLng = (h[1] + d[1]) / 2;
   const points = [];
 
-  for (let angle = 0; angle < 360; angle += 5) {
-    for (let r = maxKm; r > 0; r -= 2) {
+  for (let angle = 0; angle < 360; angle += 2) {
+    for (let r = maxKm; r > 0; r -= 1) {
       const lat = midLat + (r / 111) * Math.cos((angle * Math.PI) / 180);
       const lng = midLng + (r / (111 * Math.cos((midLat * Math.PI) / 180))) * Math.sin((angle * Math.PI) / 180);
-      if (lat > 51.45) continue; // niet in Nederland
+      if (isAboveBorder(lat, lng)) continue; // niet in Nederland
       if (distKm(lat, lng, h[0], h[1]) <= maxKm &&
           distKm(lat, lng, d[0], d[1]) <= maxKm) {
         points.push([lat, lng]);
