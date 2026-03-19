@@ -9,7 +9,7 @@ let analyseActiveRegios = new Set();
 const TOP15 = [
   {
     rang: 1, naam: "Eurowood", adres: "Rijksweg 442, 8710 Wielsbeke",
-    btw: "BE 0433.136.771", website: "eurowood.be", opgericht: "1867",
+    btw: "BE 0433.136.771", website: "eurowoodnv.be", opgericht: "1867",
     fte: 3.4, brutomarge: 755000, est_ebitda: "~€590K",
     activiteit: "Eiken import/handel", grootte: "M",
     digitaal: "Basis website, geen webshop",
@@ -32,7 +32,7 @@ const TOP15 = [
     notitie: "Sterke brutomarge €906K met beperkt team. Actief in afsluitingen (agro) = stabiele vraag. Opgericht 1991, mogelijk opvolgingsvraag."
   },
   {
-    rang: 4, naam: "Bouwcentrum Leus", adres: "Veerweg 54, 9090 Melle",
+    rang: 4, naam: "Bouwmaterialen Leus (Melle)", adres: "Veerweg 54, 9090 Melle",
     btw: "BE 0469.391.809", website: "leus.be", opgericht: "1999",
     fte: 5, brutomarge: 908000, est_ebitda: "~€670K",
     activiteit: "Bouwmaterialen + hout", grootte: "M",
@@ -104,7 +104,7 @@ const TOP15 = [
     notitie: "Brutomarge €288K, 5 FTE. EBITDA laag maar bedrijf is goedkoop over te nemen. Opgericht 1978 → mogelijke opvolging. Breed aanbod: verkoop, verwerking, plaatsing."
   },
   {
-    rang: 13, naam: "Janssens & Janssens Oudenaarde", adres: "Ind.park De Bruwaan 39, 9700 Oudenaarde",
+    rang: 13, naam: "Janssens & Janssens (Oudenaarde)", adres: "Ind.park De Bruwaan 39, 9700 Oudenaarde",
     btw: "BE 0421.140.049", website: "janssensenjanssens.com", opgericht: "1980",
     fte: 8, brutomarge: 517000, est_ebitda: "~€130-170K",
     activiteit: "Houthandel & interieur", grootte: "M",
@@ -143,6 +143,7 @@ function renderTop15() {
         <thead>
           <tr>
             <th>#</th>
+            <th>★</th>
             <th>Naam</th>
             <th>Activiteit</th>
             <th>Brutomarge</th>
@@ -165,9 +166,16 @@ function renderTop15() {
     const webLink = c.website ? `<a href="https://${c.website}" target="_blank" rel="noopener">${c.website}</a>` : "";
     const margeStr = c.brutomarge ? `€${Math.round(c.brutomarge / 1000)}K` : "—";
 
+    // Zoek het bedrijf in bedrijven array voor de ster
+    const bedrijf = bedrijven.find(b => b.naam === c.naam || b.naam.startsWith(c.naam));
+    const starClass = bedrijf && isFavorite(bedrijf.naam) ? "starred" : "";
+    const starChar = bedrijf && isFavorite(bedrijf.naam) ? "★" : "☆";
+    const dataNaam = bedrijf ? bedrijf.naam.replace(/"/g, "&quot;") : c.naam.replace(/"/g, "&quot;");
+
     html += `
       <tr class="top15-row">
         <td class="top15-rang">${c.rang}</td>
+        <td class="td-star"><button class="star-btn ${starClass}" data-naam="${dataNaam}">${starChar}</button></td>
         <td class="top15-naam">${c.naam}</td>
         <td>${c.activiteit}</td>
         <td class="td-num">${margeStr}</td>
@@ -185,6 +193,21 @@ function renderTop15() {
 
   html += `</tbody></table></div>`;
   el.innerHTML = html;
+
+  // Star click handlers voor top 15
+  el.querySelectorAll(".star-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const c = bedrijven.find(b => b.naam === btn.dataset.naam);
+      if (c) {
+        toggleFavorite(c);
+        // Update ster direct
+        const active = isFavorite(c.naam);
+        btn.classList.toggle("starred", active);
+        btn.innerHTML = active ? "★" : "☆";
+      }
+    });
+  });
 }
 
 function buildAnalyseCheckboxes(container, items, activeSet, defaultIds) {
