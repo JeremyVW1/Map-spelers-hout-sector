@@ -298,6 +298,25 @@ body {
 .size-badge.M { background: #fff3e0; color: #bf360c; }
 .size-badge.K { background: #e8f5e9; color: #1b5e20; }
 
+/* Top 15 */
+#top15-section { margin-bottom: 24px; }
+.top15-header { padding: 16px 20px 8px; }
+.top15-header h2 { margin: 0; font-size: 20px; color: #1B5E20; }
+.top15-subtitle { margin: 4px 0 0; font-size: 12px; color: #666; }
+.top15-table-wrap { overflow-x: auto; padding: 0 12px 12px; }
+.top15-table { border-collapse: collapse; width: 100%; font-size: 12px; }
+.top15-table th { background: #1B5E20; color: #fff; padding: 8px 10px; text-align: left; font-size: 11px; white-space: nowrap; position: sticky; top: 0; }
+.top15-table td { padding: 8px 10px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+.top15-row:hover { background: #f0f8f0; }
+.top15-rang { font-size: 18px; font-weight: 800; color: #1B5E20; text-align: center; min-width: 30px; }
+.top15-row:nth-child(1) .top15-rang { color: #FFD700; }
+.top15-row:nth-child(2) .top15-rang { color: #C0C0C0; }
+.top15-row:nth-child(3) .top15-rang { color: #CD7F32; }
+.top15-naam { font-weight: 700; font-size: 14px; white-space: nowrap; }
+.top15-ebitda { font-weight: 700; color: #2E7D32; white-space: nowrap; }
+.top15-digitaal { font-size: 11px; color: #888; max-width: 140px; }
+.top15-notitie { font-size: 11px; color: #444; max-width: 300px; line-height: 1.4; }
+
 /* Star / Favorieten */
 .star-btn {
   background: none; border: none; cursor: pointer; font-size: 18px; color: #ccc;
