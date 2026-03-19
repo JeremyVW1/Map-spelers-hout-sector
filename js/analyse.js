@@ -143,16 +143,17 @@ function renderAnalyse() {
     const hasWarning = (c.info || "").includes("⚠️");
     if (hasWarning) tr.classList.add("row-warning");
 
-    // Bepaal dichtste vestiging
+    // Gecombineerde score: gemiddelde rijtijd van beide vestigingen (lager = beter voor beide)
     const rH = c.rijtijd_hertsberge;
     const rD = c.rijtijd_drongen;
-    let dichtsteText = "";
+    let scoreText = "";
+    let scoreClass = "";
     if (rH != null && rD != null) {
-      dichtsteText = rH <= rD ? `H ${rH}'` : `D ${rD}'`;
-    } else if (rH != null) {
-      dichtsteText = `H ${rH}'`;
-    } else if (rD != null) {
-      dichtsteText = `D ${rD}'`;
+      const gem = Math.round((rH + rD) / 2);
+      scoreText = `⌀ ${gem}'`;
+      if (gem <= 30) scoreClass = "score-top";
+      else if (gem <= 45) scoreClass = "score-good";
+      else if (gem <= 60) scoreClass = "score-ok";
     }
 
     tr.innerHTML = `
@@ -165,7 +166,7 @@ function renderAnalyse() {
       <td class="td-web">${webLink}</td>
       <td class="td-num">${rH != null ? rH + "'" : ""}</td>
       <td class="td-num">${rD != null ? rD + "'" : ""}</td>
-      <td class="td-num td-dichtste">${dichtsteText}</td>
+      <td class="td-num td-dichtste ${scoreClass}">${scoreText}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -177,10 +178,8 @@ function getSortValue(c, key) {
   if (key === "dichtste") {
     const rH = c.rijtijd_hertsberge;
     const rD = c.rijtijd_drongen;
-    if (rH != null && rD != null) return Math.min(rH, rD);
-    if (rH != null) return rH;
-    if (rD != null) return rD;
-    return 999;
+    if (rH != null && rD != null) return Math.round((rH + rD) / 2);
+    return 999; // geen data voor beide → achteraan
   }
   return c[key] || "";
 }
@@ -324,7 +323,7 @@ function renderOpportuniteiten(data) {
 // ─── CSV Export ───────────────────────────────
 function exportCSV() {
   const data = getAnalyseFiltered();
-  const header = ["Naam", "Regio", "Activiteiten", "Grootte", "Adres", "BTW", "Website", "Omzet", "Medewerkers", "Oprichting", "Rijtijd Hertsberge", "Rijtijd Drongen", "Dichtste vestiging"];
+  const header = ["Naam", "Regio", "Activiteiten", "Grootte", "Adres", "BTW", "Website", "Omzet", "Medewerkers", "Oprichting", "Rijtijd Hertsberge", "Rijtijd Drongen", "Gem. rijtijd H+D"];
   const rows = data.map(c => [
     c.naam,
     PROV_LABELS[c.provincie] || c.provincie,
@@ -338,7 +337,7 @@ function exportCSV() {
     c.oprichting || "",
     c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge : "",
     c.rijtijd_drongen != null ? c.rijtijd_drongen : "",
-    (() => { const h = c.rijtijd_hertsberge, d = c.rijtijd_drongen; if (h != null && d != null) return h <= d ? `H ${h}'` : `D ${d}'`; if (h != null) return `H ${h}'`; if (d != null) return `D ${d}'`; return ""; })(),
+    (() => { const h = c.rijtijd_hertsberge, d = c.rijtijd_drongen; if (h != null && d != null) return Math.round((h + d) / 2); return ""; })(),
   ]);
 
   const csv = [header, ...rows].map(r =>

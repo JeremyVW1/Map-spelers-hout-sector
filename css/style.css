@@ -754,7 +754,10 @@ body {
 .td-web a { color: #1565C0; text-decoration: none; }
 .td-web a:hover { text-decoration: underline; }
 .td-num { text-align: center; font-weight: 600; color: #2E7D32; }
-.td-dichtste { background: #e8f5e9; font-weight: 700; white-space: nowrap; }
+.td-dichtste { font-weight: 700; white-space: nowrap; }
+.td-dichtste.score-top { background: #c8e6c9; color: #1b5e20; }
+.td-dichtste.score-good { background: #e8f5e9; color: #2e7d32; }
+.td-dichtste.score-ok { background: #fff8e1; color: #f57f17; }
 .size-badge {
   display: inline-block;
   font-size: 9px;
