@@ -73,8 +73,61 @@ async function init() {
   updateCounter();
 }
 
+// ─── DOELGEBIED (max 1u rijden van Hertsberghe EN Drongen) ──
+function addTargetZone() {
+  // Hertsberghe: 51.100, 3.270  |  Drongen: 51.033, 3.643
+  // 1 uur rijden ≈ 60-70km straal
+  // Overlappend gebied: ruwweg een ellips rond de E40 corridor
+  // Berekend als punten die < 70km van BEIDE locaties liggen
+  const hertsberghe = [51.1, 3.27];
+  const drongen = [51.0334, 3.6431];
+  const maxKm = 70; // ~1 uur rijden
+
+  function distKm(lat1, lng1, lat2, lng2) {
+    const R = 6371;
+    const dLat = ((lat2 - lat1) * Math.PI) / 180;
+    const dLng = ((lng2 - lng1) * Math.PI) / 180;
+    const a = Math.sin(dLat / 2) ** 2 + Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+
+  // Genereer polygoon punten via sampling
+  const points = [];
+  for (let angle = 0; angle < 360; angle += 5) {
+    // Zoek de maximale afstand langs deze hoek vanuit het middelpunt
+    const midLat = (hertsberghe[0] + drongen[0]) / 2;
+    const midLng = (hertsberghe[1] + drongen[1]) / 2;
+
+    for (let r = maxKm; r > 0; r -= 2) {
+      const lat = midLat + (r / 111) * Math.cos((angle * Math.PI) / 180);
+      const lng = midLng + (r / (111 * Math.cos((midLat * Math.PI) / 180))) * Math.sin((angle * Math.PI) / 180);
+
+      const d1 = distKm(lat, lng, hertsberghe[0], hertsberghe[1]);
+      const d2 = distKm(lat, lng, drongen[0], drongen[1]);
+
+      if (d1 <= maxKm && d2 <= maxKm) {
+        points.push([lat, lng]);
+        break;
+      }
+    }
+  }
+
+  if (points.length > 2) {
+    L.polygon(points, {
+      color: "#2E7D32",
+      weight: 2,
+      fillColor: "#4CAF50",
+      fillOpacity: 0.08,
+      dashArray: "8,4",
+    }).addTo(map);
+  }
+}
+
 // ─── EIGEN LOCATIES ─────────────────────────
 function addOwnLocations() {
+  // Teken eerst het doelgebied (onder de markers)
+  addTargetZone();
+
   const locs = [
     { naam: "Drongen", ll: [51.0334, 3.6431] },
     { naam: "Hertsberghe", ll: [51.1, 3.27] },
