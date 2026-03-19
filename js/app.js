@@ -85,8 +85,8 @@ function addTargetZone() {
   // 1 uur rijden ≈ 60-70km straal
   // Overlappend gebied: ruwweg een ellips rond de E40 corridor
   // Berekend als punten die < 70km van BEIDE locaties liggen
-  const hertsberghe = [51.1, 3.27];
-  const drongen = [51.0334, 3.6431];
+  const hertsberghe = [51.1292, 3.2031];
+  const drongen = [51.0536, 3.6536];
   const maxKm = 38; // ~1 uur rijden via de weg ≈ 50km weg / 1.3 omwegfactor = ~38km hemelsbreed
 
   function distKm(lat1, lng1, lat2, lng2) {
@@ -135,9 +135,9 @@ function addOwnLocations() {
   addTargetZone();
 
   const locs = [
-    { naam: "Drongen", ll: [51.0334, 3.6431] },
-    { naam: "Hertsberghe", ll: [51.1, 3.27] },
-    { naam: "Koksijde", ll: [51.1031, 2.6531] },
+    { naam: "Drongen", ll: [51.0536, 3.6536] },
+    { naam: "Hertsberghe", ll: [51.1292, 3.2031] },
+    { naam: "Koksijde", ll: [51.0900, 2.6522] },
   ];
 
   locs.forEach((loc) => {
