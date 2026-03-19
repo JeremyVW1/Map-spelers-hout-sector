@@ -285,6 +285,14 @@ body {
 .td-dichtste.score-top { background: #c8e6c9; color: #1b5e20; }
 .td-dichtste.score-good { background: #e8f5e9; color: #2e7d32; }
 .td-dichtste.score-ok { background: #fff8e1; color: #f57f17; }
+
+.td-notes { min-width: 200px; }
+.fav-note {
+  width: 100%; min-height: 50px; padding: 6px 8px;
+  border: 1px solid #ddd; border-radius: 4px; font: inherit; font-size: 14px;
+  resize: vertical; background: #fafafa;
+}
+.fav-note:focus { border-color: #4CAF50; outline: none; background: #fff; }
 .size-badge { display: inline-block; font-size: 9px; font-weight: 700; padding: 1px 6px; border-radius: 4px; }
 .size-badge.G { background: #fde8e8; color: #b71c1c; }
 .size-badge.M { background: #fff3e0; color: #bf360c; }

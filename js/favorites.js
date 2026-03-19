@@ -3,11 +3,31 @@
 const SHEET_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyWtnahLygglfAqkJoygx2yJwV9ZkfENq2zJqX9ZWYBHvtWnWhyNwfrVATTS-NMlDZa/exec";
 
 let favorites = new Set(); // Set van bedrijfsnamen
+let favNotes = {}; // { bedrijfsnaam: "notitie tekst" }
+
+function loadNotes() {
+  try { favNotes = JSON.parse(localStorage.getItem("houtkaart_notes") || "{}"); } catch { favNotes = {}; }
+}
+
+function saveNote(naam, text) {
+  favNotes[naam] = text;
+  localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
+  // Sync note naar Google Sheets
+  if (SHEET_SCRIPT_URL) {
+    fetch(SHEET_SCRIPT_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "update_note", naam, notes: text }),
+    }).catch(() => {});
+  }
+}
 
 async function loadFavorites() {
   // Altijd localStorage laden als basis
   const stored = localStorage.getItem("houtkaart_favs");
   if (stored) favorites = new Set(JSON.parse(stored));
+  loadNotes();
 
   // Als Sheets script geconfigureerd is, ook daar van laden
   if (SHEET_SCRIPT_URL) {
@@ -56,6 +76,7 @@ function toggleFavorite(company) {
         website: company.website || "",
         rijtijd_hertsberge: company.rijtijd_hertsberge != null ? company.rijtijd_hertsberge : "",
         rijtijd_drongen: company.rijtijd_drongen != null ? company.rijtijd_drongen : "",
+        notes: favNotes[company.naam] || "",
       }),
     }).catch(() => {});
   }
@@ -123,6 +144,7 @@ function renderFavorieten() {
       <td class="td-num">${rH != null ? rH + "'" : ""}</td>
       <td class="td-num">${rD != null ? rD + "'" : ""}</td>
       <td class="td-num td-dichtste ${scoreClass}">${scoreText}</td>
+      <td class="td-notes"><textarea class="fav-note" data-naam="${c.naam.replace(/"/g, "&quot;")}" placeholder="Notitie…">${favNotes[c.naam] || ""}</textarea></td>
     `;
     tbody.appendChild(tr);
   });
@@ -134,13 +156,18 @@ function renderFavorieten() {
       if (c) toggleFavorite(c);
     });
   });
+
+  // Notes auto-save
+  tbody.querySelectorAll(".fav-note").forEach(ta => {
+    ta.addEventListener("input", () => saveNote(ta.dataset.naam, ta.value));
+  });
 }
 
 // Favorieten CSV export
 function exportFavCSV() {
   const data = bedrijven.filter(c => isFavorite(c.naam));
   if (data.length === 0) return;
-  const header = ["Naam", "Regio", "Activiteiten", "Grootte", "Adres", "BTW", "Website", "Rijtijd Hertsberge", "Rijtijd Drongen", "Gem. rijtijd H+D"];
+  const header = ["Naam", "Regio", "Activiteiten", "Grootte", "Adres", "BTW", "Website", "Rijtijd Hertsberge", "Rijtijd Drongen", "Gem. rijtijd H+D", "Notes"];
   const rows = data.map(c => [
     c.naam,
     PROV_LABELS[c.provincie] || c.provincie,
@@ -150,6 +177,7 @@ function exportFavCSV() {
     c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge : "",
     c.rijtijd_drongen != null ? c.rijtijd_drongen : "",
     (c.rijtijd_hertsberge != null && c.rijtijd_drongen != null) ? Math.round((c.rijtijd_hertsberge + c.rijtijd_drongen) / 2) : "",
+    favNotes[c.naam] || "",
   ]);
   const csv = [header, ...rows].map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n");
   const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8;" });
