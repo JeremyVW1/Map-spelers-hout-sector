@@ -50,7 +50,8 @@ function matchesSearch(company) {
 
 function getVisibleCompanies() {
   return bedrijven.filter((c) => {
-    if (activeFilter !== "all" && c.provincie !== activeFilter) return false;
+    // Multi-filter: als er filters actief zijn, moet de provincie in de set zitten
+    if (activeFilters.size > 0 && !activeFilters.has(c.provincie)) return false;
     if (!matchesSearch(c)) return false;
     return true;
   });

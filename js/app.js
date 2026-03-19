@@ -5,7 +5,7 @@
 let bedrijven = [];
 let categorieen = [];
 let markers = [];
-let activeFilter = "all";
+let activeFilters = new Set(); // leeg = alles tonen
 let map;
 
 const KLEUR_MAP = {};
@@ -239,12 +239,25 @@ function render() {
   });
 }
 
-// ─── FILTERS ────────────────────────────────
+// ─── FILTERS (multi-select) ─────────────────
 function buildFilters() {
   const bar = document.getElementById("controls");
 
-  // "Alles" knop
-  makeFilterBtn(bar, "🗺 Alles", "all", null);
+  // "Alles" knop (reset)
+  const allBtn = document.createElement("button");
+  allBtn.className = "fb on";
+  allBtn.id = "btn-all";
+  allBtn.style.background = "#1a1a2e";
+  allBtn.style.color = "#fff";
+  allBtn.style.borderColor = "#1a1a2e";
+  allBtn.textContent = "🗺 Alles";
+  allBtn.onclick = () => {
+    activeFilters.clear();
+    syncFilterButtons();
+    render();
+    updateCounter();
+  };
+  bar.appendChild(allBtn);
 
   // Regio label + knoppen
   const regioLabel = document.createElement("span");
@@ -274,37 +287,59 @@ function buildFilters() {
 
 function makeFilterBtn(container, label, id, col) {
   const b = document.createElement("button");
-  b.className = "fb" + (id === "all" ? " on" : "");
-  if (id === "all") {
-    b.style.background = "#1a1a2e";
-    b.style.color = "#fff";
-    b.style.borderColor = "#1a1a2e";
-  }
+  b.className = "fb";
+  b.dataset.filterId = id;
+  b.dataset.filterCol = col;
   b.textContent = label;
 
   b.onclick = () => {
-    activeFilter = id;
-    document.querySelectorAll(".fb").forEach((x) => {
-      x.classList.remove("on");
-      x.style.background = "";
-      x.style.color = "";
-      x.style.borderColor = "";
-    });
-    b.classList.add("on");
-    if (col) {
-      b.style.background = col;
-      b.style.color = "#fff";
-      b.style.borderColor = col;
+    // Toggle deze filter
+    if (activeFilters.has(id)) {
+      activeFilters.delete(id);
     } else {
-      b.style.background = "#1a1a2e";
-      b.style.color = "#fff";
-      b.style.borderColor = "#1a1a2e";
+      activeFilters.add(id);
     }
+    syncFilterButtons();
     render();
     updateCounter();
   };
 
   container.appendChild(b);
+}
+
+function syncFilterButtons() {
+  const allBtn = document.getElementById("btn-all");
+  const isAll = activeFilters.size === 0;
+
+  // "Alles" knop
+  if (isAll) {
+    allBtn.classList.add("on");
+    allBtn.style.background = "#1a1a2e";
+    allBtn.style.color = "#fff";
+    allBtn.style.borderColor = "#1a1a2e";
+  } else {
+    allBtn.classList.remove("on");
+    allBtn.style.background = "";
+    allBtn.style.color = "";
+    allBtn.style.borderColor = "";
+  }
+
+  // Alle categorie-knoppen
+  document.querySelectorAll(".fb[data-filter-id]").forEach((btn) => {
+    const id = btn.dataset.filterId;
+    const col = btn.dataset.filterCol;
+    if (activeFilters.has(id)) {
+      btn.classList.add("on");
+      btn.style.background = col;
+      btn.style.color = "#fff";
+      btn.style.borderColor = col;
+    } else {
+      btn.classList.remove("on");
+      btn.style.background = "";
+      btn.style.color = "";
+      btn.style.borderColor = "";
+    }
+  });
 }
 
 // ─── LEGENDA ────────────────────────────────
