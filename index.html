@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Houthandel Kaart — Vlaanderen + Aangrenzend Wallonië</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Arial,sans-serif;background:#eee;display:flex;flex-direction:column;height:100vh}
+  #header{background:#1a1a2e;color:#fff;padding:10px 16px;flex-shrink:0}
+  #header h1{font-size:16px;font-weight:700}
+  #header p{font-size:11px;opacity:.6;margin-top:2px}
+  #controls{background:#fff;padding:8px 14px;border-bottom:1px solid #ddd;display:flex;flex-wrap:wrap;gap:5px;align-items:center;flex-shrink:0}
+  .fb{font-size:11px;padding:4px 11px;border-radius:20px;border:1.5px solid #ccc;background:#fff;color:#444;cursor:pointer;white-space:nowrap}
+  .fb:hover{border-color:#888}
+  .fb.on{color:#fff!important;border-color:transparent!important}
+  #map{flex:1;min-height:0}
+  #legend{background:#fff;border-top:1px solid #ddd;padding:7px 14px;display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;flex-shrink:0}
+  .li{display:flex;align-items:center;gap:5px;font-size:11px;color:#444}
+  .ld{width:11px;height:11px;border-radius:50%;flex-shrink:0;border:1.5px solid rgba(0,0,0,.1)}
+  .sz{display:flex;align-items:center;gap:10px;font-size:11px;color:#777;padding-left:12px;border-left:1px solid #ddd}
+  .leaflet-popup-content{font-family:Arial,sans-serif;line-height:1.5;min-width:240px;max-width:280px}
+  .pb{display:inline-block;font-size:10px;padding:2px 7px;border-radius:10px;color:#fff;margin-bottom:5px;font-weight:700}
+  .pn{font-size:14px;font-weight:700;color:#111;display:block;margin-bottom:1px}
+  .pl{font-size:11px;color:#888;display:block;margin-bottom:3px}
+  .pi{font-size:11px;color:#333;display:block;margin-bottom:3px;line-height:1.45}
+  .pm{font-size:11px;color:#555;display:block;margin-bottom:4px}
+  .pt{font-size:11px;font-weight:700;display:block;padding:3px 8px;border-radius:4px;margin-top:3px}
+  .pt.G{background:#fde8e8;color:#b71c1c}
+  .pt.M{background:#fff3e0;color:#bf360c}
+  .pt.K{background:#e8f5e9;color:#1b5e20}
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>🌲 Houthandel Kaart — Volledig Vlaanderen + Aangrenzend Wallonië (90+ spelers)</h1>
+  <p>Open in browser voor volledige kaart | Klik op stip voor details | Filter per regio | Scroll om in te zoomen | ▼ Drongen = jouw locatie</p>
+</div>
+<div id="controls" id="fbar"></div>
+<div id="map"></div>
+<div id="legend"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const CATS=[
+  // Vlaamse provincies
+  {id:"wvl",    label:"West-Vlaanderen",                col:"#1565C0"},
+  {id:"ovl",    label:"Oost-Vlaanderen",                col:"#2E7D32"},
+  {id:"ant",    label:"Antwerpen",                      col:"#6A1B9A"},
+  {id:"vbr",    label:"Vlaams-Brabant",                 col:"#E65100"},
+  {id:"lim",    label:"Limburg",                        col:"#00838F"},
+  // Wallonië (aangrenzend)
+  {id:"hai",    label:"Henegouwen (Wallonië)",          col:"#880E4F"},
+  {id:"bwa",    label:"Waals-Brabant (Wallonië)",       col:"#BF360C"},
+  {id:"nam",    label:"Namen (Wallonië)",               col:"#4527A0"},
+  // Overige categorieën
+  {id:"online", label:"Online webshop",                 col:"#C62828"},
+  {id:"dhz",    label:"DHZ-keten (Brico/Gamma/Hubo/…)", col:"#7B1FA2"},
+  {id:"agro",   label:"Agro / Weide / Dier",            col:"#558B2F"},
+  {id:"import", label:"Importeur / B2B Groothandel",    col:"#795548"},
+];
+const CC={};CATS.forEach(c=>CC[c.id]=c.col);
+
+// s = G (groot/dominant), M (middelgroot), K (klein/lokaal)
+const COMP=[
+
+  // ═══════════════════════════════════════
+  // WEST-VLAANDEREN
+  // ═══════════════════════════════════════
+  {n:"Cras Woodshops (HQ Waregem)",   p:"wvl",s:"G",ll:[50.8802,3.4318],w:"Nee", i:"Marktleider België. €112M omzet. 12 vestigingen. 200+ medewerkers. Houthandel v/h Jaar. Constructie+interieur+gevel. Waregem."},
+  {n:"Houthandel Dequidt",            p:"wvl",s:"K",ll:[51.0721,2.6611],w:"Nee", i:"Houthandel voor professionelen. Veurne regio."},
+  {n:"Cras Woodshops Heule",          p:"wvl",s:"G",ll:[50.8681,3.2901],w:"Nee", i:"Vestiging Cras Woodgroup. Breed pro gamma. Heule (Kortrijk)."},
+  {n:"Cras Woodshops Menen",          p:"wvl",s:"G",ll:[50.7971,3.1201],w:"Nee", i:"Vestiging Cras Woodgroup. Constructie+interieur. Menen."},
+  {n:"Cras Woodshops Meulebeke",      p:"wvl",s:"G",ll:[50.9441,3.2831],w:"Nee", i:"Vestiging Cras Woodgroup. Meulebeke."},
+  {n:"Groep Debeuckelaere",           p:"wvl",s:"G",ll:[50.9992,2.9781],w:"Nee", i:"Groothandel + fabrikant Magnumboard. 6 vestigingen: Kortemark, Roeselare, Oostende, Tielt, Gits, Erpe-Mere. B2B constructie."},
+  {n:"Agrodieren.be",                 p:"agro",s:"G",ll:[51.1348,3.3261],w:"Ja",  i:"⚠️ DIRECTE CONCURRENT. Webshop + fysiek Beernem. Houten palen, weide-omheiningen, tuinschermen. 20.000+ klanten. Plaatsingsdienst."},
+  {n:"Vandenbroucke Hout",            p:"wvl",s:"M",ll:[51.1391,3.3311],w:"Nee", i:"Breed gamma + zagerij. Levert OVL+WVL. DHZ + vakman. Beernem."},
+  {n:"Botanica Wood",                 p:"wvl",s:"M",ll:[50.9441,3.1221],w:"Beperkt",i:"Specialist tuinaannemers B2B. Buitenhout, eigen atelier. Roeselare. Sinds 1992."},
+  {n:"Houtmarkt",                     p:"wvl",s:"M",ll:[51.2112,3.2251],w:"Ja",  i:"FSC, tropisch hardhout, terras, tuinhout, isolatie. Brugge."},
+  {n:"Woodcenter",                    p:"wvl",s:"M",ll:[50.8031,3.1831],w:"Ja",  i:"Webshop + fysieke winkel. Tuinhout + constructiehout. Wevelgem."},
+  {n:"Houthandel Vanhaverbeke",       p:"wvl",s:"M",ll:[50.9171,3.2141],w:"Nee", i:"5 generaties. Vanhardhout tak. Schrijnwerkers + aannemers + particulier + industrie. Izegem."},
+  {n:"Houthandel Tavernier",          p:"wvl",s:"M",ll:[51.1751,3.0911],w:"Nee", i:"Groot levergebied OVL+WVL. Vakman + DHZ. Zagerijservice. Jabbeke."},
+  {n:"Eurowood",                      p:"wvl",s:"M",ll:[50.9011,3.3741],w:"Nee", i:"5 generaties (1867). Specialist Europese eik. Wielsbeke."},
+  {n:"Eurowood",                      p:"wvl",s:"M",ll:[50.9011,3.3741],w:"Nee", i:"5 generaties (1867). Specialist kwaliteitsvolle gevierschaalde Europese eik. Wielsbeke."},
+  {n:"Verwée Houthandel",             p:"wvl",s:"K",ll:[50.8521,3.2681],w:"Nee", i:"Familiebedrijf 1895. Hout + plaatmateriaal. Kuurne (Kortrijk)."},
+  {n:"Tieltse Houthandel",            p:"wvl",s:"K",ll:[50.9931,3.3261],w:"Nee", i:"Constructie + buitenhout + vloeren + deuren. Tielt."},
+  {n:"Houthandel Messely",            p:"wvl",s:"K",ll:[50.9041,3.0601],w:"Nee", i:"Terrasplanken, thermohout, tuinhout, parket. West-Vl."},
+  {n:"Geldhof Hout",                  p:"wvl",s:"K",ll:[50.8981,3.0501],w:"Nee", i:"Massief hout, gevelbekleding, plaatmateriaal. Moorslede."},
+  {n:"Huys Houthandel",               p:"wvl",s:"K",ll:[51.2041,3.2121],w:"Nee", i:"Toonzaal, eiken tafels, FSC hout. Brugge."},
+  {n:"Houthandel Leirman",            p:"wvl",s:"K",ll:[51.0901,3.1101],w:"Nee", i:"3 generaties, drenkstation, zaagservice, tuinhout. West-Vl."},
+  {n:"Houthandel Beheyt",             p:"wvl",s:"K",ll:[50.8551,2.7231],w:"Nee", i:"Hout, platen, isolatie, dakmaterialen, parket. Poperinge."},
+  {n:"Db Hardwoods",                  p:"wvl",s:"K",ll:[50.8881,3.1581],w:"Nee", i:"Fabrikant/importeur verlijmde panelen. Europees hardhout. Ledegem."},
+  {n:"Houthandel Loose",              p:"wvl",s:"K",ll:[50.8741,3.0881],w:"Nee", i:"Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. West-Vl."},
+  {n:"Lagae Hout",                    p:"import",s:"G",ll:[50.8211,2.8491],w:"Nee",i:"Importeur hard- en zachthout. Exclusief importeur Benelux. Levert aan houthandels + industrie. West-Vl."},
+
+  // ═══════════════════════════════════════
+  // OOST-VLAANDEREN
+  // ═══════════════════════════════════════
+  {n:"Hanssens Hout",                 p:"ovl",s:"K",ll:[51.0612,3.7098],w:"Nee", i:"Fijn hout maatwerk, groothandel B2B schrijnwerkers. Geen tuinhout focus. Gent."},
+  {n:"V.E.H.",                        p:"ovl",s:"K",ll:[50.7451,3.6001],w:"Nee", i:"Klein- en groothandel + creatie + plaatsing houten tuinproducten. 15+ jaar. Ronse."},
+  {n:"Houthandel De Regge Gavere",    p:"ovl",s:"K",ll:[50.9151,3.6681],w:"Nee", i:"Daktimmer, timmerhout, tuinhout, parket. Regio Gavere-Gent-Zuid."},
+  {n:"EXZO",                          p:"ovl",s:"G",ll:[51.0819,3.4524],w:"Ja",  i:"⚠️ MEEST DIRECTE CONCURRENT. Importeur + groothandel + webshop + productielijnen. Tuin+constructie+gevel. FSC. Aalter."},
+  {n:"Ecohout",                       p:"ovl",s:"M",ll:[51.0741,3.4648],w:"Ja",  i:"Ecologisch hardhout, FSC, thermohout. Importeur. Webshop. Gekoppeld aan EXZO. Aalter."},
+  {n:"Desindo",                       p:"ovl",s:"G",ll:[51.0548,3.7201],w:"Nee", i:"Groothandel tuinhout 30+ jaar. Familiebedrijf. B2B. Terrasplanken, gevelbekleding, afsluitingen. Gent."},
+  {n:"'t Houtboerke",                 p:"ovl",s:"M",ll:[51.0535,3.7348],w:"Beperkt",i:"Vakhandel breed, toonzaal. Gent (Langebruggekaai)."},
+  {n:"Cras Woodshops Zottegem",       p:"ovl",s:"G",ll:[50.8682,3.8118],w:"Nee", i:"Vestiging Cras Woodgroup (€112M). Breed pro gamma. Zottegem."},
+  {n:"Cras Woodshops Gent",           p:"ovl",s:"G",ll:[51.0512,3.7721],w:"Nee", i:"Vestiging Cras Woodgroup. Breed gamma schrijnwerkers + aannemers. Gent."},
+  {n:"Hout De Groote",                p:"ovl",s:"M",ll:[51.1002,3.9941],w:"Nee", i:"Buitenshowroom, kraanwagen. Tuinhout + houtskeletbouw. Lokeren."},
+  {n:"D'Haeseleer",                   p:"ovl",s:"M",ll:[50.9612,3.9781],w:"Nee", i:"90+ jaar, 4 generaties. 2 locaties: Schoonaarde + Erpe."},
+  {n:"Houthandel Steyaert",           p:"ovl",s:"M",ll:[51.1851,3.5741],w:"Nee", i:"1929, 4 generaties. Schrijnwerkers + aannemers + particulier. Eeklo."},
+  {n:"Houtshop Van der Gucht",        p:"ovl",s:"M",ll:[51.1231,4.2141],w:"Ja",  i:"50+ jaar. Webshop + fysiek + toonzaal. Tuinhout + constructie + interieur. Temse."},
+  {n:"De Meyer Outdoor Living",       p:"ovl",s:"K",ll:[51.1128,3.7061],w:"Beperkt",i:"Tuinhout Evergem. A-kwaliteit. Plaatsingsdienst. Levering elke vrijdag."},
+  {n:"Hertecant Hout",                p:"ovl",s:"K",ll:[51.0281,4.1008],w:"Nee", i:"Constructie + schrijnwerk, interieur, parket. B2B. Dendermonde."},
+  {n:"Hout Koklenberg",               p:"ovl",s:"M",ll:[51.1618,4.1421],w:"Nee", i:"5 generaties. Importeur Europees hardhout. B2B-only. Sint-Niklaas."},
+  {n:"Van Tornhout",                  p:"ovl",s:"K",ll:[51.0011,3.5412],w:"Nee", i:"Constructiehout vakman. Plaatmateriaal, isolatie. Vosselare (Deinze)."},
+  {n:"Prindal Hout",                  p:"ovl",s:"M",ll:[50.8431,3.8721],w:"Ja",  i:"Productie + distributie. Tuinhout, rondhouten palen, weg- en waterbouw. FSC/PEFC. Webshop. Denderwindeke."},
+  {n:"Verhofstede (Hout-Idee)",       p:"ovl",s:"K",ll:[51.1181,4.2081],w:"Nee", i:"FSC, eeuwenhout, toonzaal. Terrassen, gevels, tuinhout. Temse."},
+  {n:"De Regge Houthandel",           p:"ovl",s:"K",ll:[50.9281,3.6724],w:"Nee", i:"Dak+tuinhout+parket. Regio Gent-Zuid. Gavere."},
+
+  // ═══════════════════════════════════════
+  // ANTWERPEN
+  // ═══════════════════════════════════════
+  {n:"Cras Woodshops Antwerpen",      p:"ant",s:"G",ll:[51.2301,4.4101],w:"Nee", i:"Vestiging(en) Cras Woodgroup (€112M) in Antwerpen regio. Breed pro gamma."},
+  {n:"Dimec",                         p:"ant",s:"M",ll:[51.3021,4.4501],w:"Nee", i:"Fineerhout groothandel. Levering aan industrie en schrijnwerkers. Brasschaat."},
+  {n:"Hubo (Antwerpen)",              p:"dhz",s:"G",ll:[51.2041,4.4301],w:"Ja",  i:"DHZ-keten Hubo. Tuinhout. Antwerpen. Webshop."},
+  {n:"Martens Hout (HQ Schoten)",     p:"ant",s:"G",ll:[51.2558,4.4951],w:"Ja",  i:"110+ jaar. FSC-pionier. Webshop + fysiek. Schoten, Turnhout, Kontich, Leuven. Breed tuin+constructie+interieur."},
+  {n:"Martens Hout Turnhout",         p:"ant",s:"G",ll:[51.3241,4.9481],w:"Ja",  i:"Vestiging Martens Hout. Breed gamma. Webshop. Turnhout."},
+  {n:"Martens Hout Kontich",          p:"ant",s:"G",ll:[51.1261,4.4541],w:"Ja",  i:"Vestiging Martens Hout. Breed gamma + Van Den Eynde plaatmateriaal. Kontich."},
+  {n:"Woodtex",                       p:"ant",s:"G",ll:[51.2101,4.4201],w:"Beperkt",i:"Dé hout- en bouwmarkt van Antwerpen. Particulier + professional. Kwaliteitshout. Antwerpen. Sinds 1966."},
+  {n:"Cartri",                        p:"import",s:"G",ll:[51.1021,4.5021],w:"Nee",i:"⚠️ CRUCIALE B2B SPELER. Grootste tuinhout groothandel van België. Levert aan DHZ-ketens + houthandels. 20.000m² Lint. B2B-only."},
+  {n:"Belgo Garant (Westerlo)",       p:"ant",s:"G",ll:[51.0981,4.9121],w:"Ja",  i:"35+ jaar. Houten bijgebouwen op maat + constructiehout. Eigen atelier + impregneerinstallatie. Onderdeel Rivaco Groep. Westerlo."},
+  {n:"Tuinhoutcentrum Kontich",       p:"ant",s:"M",ll:[51.1341,4.4561],w:"Ja",  i:"Webshop + showroom. Tuinhuizen, carports, speeltoestellen, poorten. Plaatsingsdienst. Kontich."},
+  {n:"Tuinhoutcentrum Heist",         p:"ant",s:"M",ll:[51.0731,4.7401],w:"Ja",  i:"2e vestiging Tuinhoutcentrum. Showroom + plaatsing. Heist-op-den-Berg."},
+  {n:"Van Kooten Tuin & Buiten",      p:"ant",s:"M",ll:[51.2031,4.5281],w:"Ja",  i:"Webshop + overdekte toonzaal. Tuinhout, hardhout, palen, hekwerk. Wommelgem."},
+  {n:"Houthandel Van den Heurck",     p:"ant",s:"M",ll:[51.2021,4.6081],w:"Nee", i:"50 jaar. Hout + plaatmateriaal. Constructie + interieur + gevel. Broechem (Ranst)."},
+  {n:"Hendrickx Hout",                p:"ant",s:"M",ll:[51.0471,4.4801],w:"Nee", i:"Groothandel Europees hardhout. Eik, Beuk, Es, Kastanje. FSC/PEFC. B2B. Leest (Mechelen)."},
+  {n:"Carlens Houthandel",            p:"ant",s:"M",ll:[51.0041,4.8501],w:"Nee", i:"Familiebedrijf 1934, 30 medewerkers. Houtzagerij. Groot- en detailhandel. Aarschot."},
+  {n:"Houtbedrijf Lavrijsen",         p:"ant",s:"M",ll:[51.1631,4.9891],w:"Nee", i:"1970, 23 FTE, €14,6M omzet. Eigen boomzagerij. Particulier + vakman + industrie + DHZ-winkel. Geel."},
+  {n:"Bear Wood",                     p:"ant",s:"M",ll:[51.0071,4.3181],w:"Ja",  i:"Online + afhaallocaties. Tuinhout, constructiehout, gevelbekleding, tuinhuizen. Londerzeel."},
+
+  // ═══════════════════════════════════════
+  // VLAAMS-BRABANT
+  // ═══════════════════════════════════════
+  {n:"Houtzagerij Jos Broos",         p:"vbr",s:"K",ll:[50.9151,4.9521],w:"Nee", i:"Familiebedrijf 3e generatie, 90 jaar. Boom- en houtzagerij. Tielt-Winge."},
+  {n:"Martens Hout Leuven",           p:"vbr",s:"G",ll:[50.8801,4.7001],w:"Ja",  i:"Vestiging Martens Hout. Breed gamma tuin+constructie+interieur. Webshop. Leuven."},
+  {n:"Belgo Garant (Meise)",          p:"vbr",s:"G",ll:[50.9481,4.3081],w:"Ja",  i:"2e vestiging Belgo Garant aan A12. Houten bijgebouwen + constructiehout. Meise."},
+  {n:"Jadimex",                       p:"vbr",s:"M",ll:[50.8581,4.7441],w:"Ja",  i:"Groothandel tropisch hardhout + eco-alternatieven. Tuinhout, terrasplanken, gevelbekleding. Webshop. Lovenjoel."},
+  {n:"Houthandel Vandenhoeck",        p:"vbr",s:"M",ll:[50.8631,4.6481],w:"Nee", i:"Specialist breed houtgamma. Particulier + prof. Bertem (Leuven)."},
+  {n:"De Houtbeer",                   p:"vbr",s:"M",ll:[50.9101,4.5501],w:"Ja",  i:"Online webshop B2B + B2C. Buitenhout: gevelbekleding, terrasvloeren, steigerhout. Vlaams-Brabant."},
+  {n:"Houthandel Van Hemelrijck",     p:"vbr",s:"K",ll:[51.0021,4.3181],w:"Nee", i:"3e generatie. Hout + plaatmateriaal. Malderen + Tisselt."},
+  {n:"Cras Woodshops Evere",          p:"vbr",s:"G",ll:[50.8681,4.3841],w:"Nee", i:"Vestiging Cras Woodgroup. Vroeger Steenhoudt. Breed gamma. Evere (Brussel-rand)."},
+
+  // ═══════════════════════════════════════
+  // LIMBURG
+  // ═══════════════════════════════════════
+  {n:"Walth (6 vestigingen overzicht)",p:"lim",s:"G",ll:[51.1551,5.4001],w:"Nee", i:"Dominante speler Limburg. 6 filialen: Bree, Genk, Mol, Pelt, Sint-Truiden, Tongeren. Breed gamma: daktimmer, tuinhout, constructie. Prof + DHZ."},
+  {n:"Ardel",                         p:"lim",s:"K",ll:[51.0621,5.7161],w:"Nee", i:"Hout, platen, vloeren, deuren, tuinhout, isolatie, dakvensters. Maaseik."},
+  {n:"Walth Genk",                    p:"lim",s:"G",ll:[50.9667,5.4961],w:"Nee", i:"Hoofdvestiging Walth (vroeger Genk Hout). Dominante speler Limburg. Compleet gamma. Genk."},
+  {n:"Walth Pelt",                    p:"lim",s:"M",ll:[51.2101,5.4301],w:"Nee", i:"Walth-filiaal. Breed gamma vakman + DHZ. Noord-Limburg. Pelt."},
+  {n:"Walth Bree",                    p:"lim",s:"M",ll:[51.1371,5.5951],w:"Nee", i:"Walth-filiaal. Breed gamma vakman + DHZ. Bree."},
+  {n:"Walth Sint-Truiden",            p:"lim",s:"M",ll:[50.8181,5.1861],w:"Nee", i:"Walth-filiaal. Breed gamma vakman + DHZ. Sint-Truiden."},
+  {n:"Walth Tongeren",                p:"lim",s:"M",ll:[50.7801,5.4641],w:"Nee", i:"Walth-filiaal. Breed gamma vakman + DHZ. Tongeren."},
+  {n:"Walth Mol",                     p:"lim",s:"M",ll:[51.1901,5.1181],w:"Nee", i:"Walth-filiaal. Breed gamma vakman + DHZ. Mol (Kempen)."},
+  {n:"Houthandel Kimpen",             p:"lim",s:"M",ll:[51.1181,5.2501],w:"Nee", i:"Familiebedrijf 1975. Hout, plaatmateriaal, tuinhout, isolatie, vloeren + DHZ-winkel. Leopoldsburg."},
+  {n:"De Houtbeer (Limburg)",         p:"lim",s:"M",ll:[50.9301,5.3801],w:"Ja",  i:"Online webshop buitenhout. Gevelbekleding, terrasvloeren, steigerhout. B2B + B2C. Hasselt regio."},
+  {n:"LBM Houthandel",                p:"lim",s:"K",ll:[51.0721,5.7061],w:"Nee", i:"Houthandel + schrijnwerkerij + DHZ. Hout, platen, vloeren, deuren, tuinhout. Maaseik."},
+
+  // ═══════════════════════════════════════
+  // HENEGOUWEN (WALLONIË — GRENS VLAANDEREN)
+  // ═══════════════════════════════════════
+  {n:"Huart Bois",                    p:"hai",s:"G",ll:[50.4771,4.1701],w:"Nee", i:"100+ jaar. 15.000m² stock. Breed: constructiehout, tuinhout, parket, isolatie, gevels. Prof + particulier. PEFC. Houdeng-Goegnies (La Louvière)."},
+  {n:"Goffaux Bois",                  p:"hai",s:"G",ll:[50.5021,4.2151],w:"Nee", i:"1948. 2 winkels. Grossiste + négociant. Volledig gamma bouw + tuin + afwerking. Zaagservice. PEFC. Bois-d'Haine (regio Centre)."},
+  {n:"Dapsens-Soyer",                 p:"hai",s:"M",ll:[50.6071,3.3881],w:"Nee", i:"100+ jaar. Distributeur hout, parket, panelen, toiture, isolatie. 500m² showroom. Lid Pluswood groep. Tournai."},
+  {n:"La Boiserie",                   p:"hai",s:"M",ll:[50.4081,4.1661],w:"Nee", i:"Specialist hout gros-oeuvre en afwerking. Constructie + tuinhout. Binche. Depuis 1986."},
+  {n:"Mathias Bois",                  p:"hai",s:"M",ll:[50.4871,4.5181],w:"Ja",  i:"25+ jaar. Tuinhout + constructiehout. Tuinhuizen, carports, abris, schermen, terrassen. Webshop. Fleurus/Wagnelée (Henegouwen)."},
+  {n:"Wathelet Bois",                 p:"hai",s:"M",ll:[50.4371,4.6031],w:"Nee", i:"Grossiste. Constructiehout, tuinhout, dakmateriaal, terrassen. Levert Hainaut + Namur. Sambreville/Charleroi."},
+  {n:"Scierie Vancopenolle",          p:"hai",s:"K",ll:[50.3951,4.4441],w:"Nee", i:"70 jaar. Zagerij bouw- en chauffagehout. Chêne + hêtre. Levert heel Wallonië + Hainaut. Charleroi regio."},
+  {n:"Brico (Mons/Bergen)",           p:"dhz",s:"G",ll:[50.4541,3.9521],w:"Ja",  i:"DHZ-keten Brico. Breed tuinhout + constructiehout. Mons. Levert ook naar Henegouwen/Vl. grensregio."},
+  {n:"Gamma (Charleroi)",             p:"dhz",s:"G",ll:[50.4081,4.4441],w:"Ja",  i:"DHZ-keten Gamma. 400+ soorten bouwhout. Charleroi. Webshop."},
+  {n:"Brico (Tournai/Doornik)",       p:"dhz",s:"G",ll:[50.6041,3.3881],w:"Ja",  i:"DHZ-keten Brico. Tuinhout + constructiehout. Tournai/Doornik. Grens met WVL."},
+
+  // ═══════════════════════════════════════
+  // WAALS-BRABANT (WALLONIË — GRENS VLAANDEREN)
+  // ═══════════════════════════════════════
+  {n:"Lhoir & Marteau",               p:"bwa",s:"M",ll:[50.7181,4.3831],w:"Nee", i:"70+ jaar. Négociant hout + dérivés. Renovatie, isolatie, afwerking. Prof + particulier. Waterloo (Waals-Brabant)."},
+  {n:"Bourguignon Bois",              p:"bwa",s:"M",ll:[50.5881,4.8761],w:"Ja",  i:"Familiebedrijf. Hout onder alle vormen + dérivés. Webshop. Waals-Brabant."},
+  {n:"Diffusion Menuiserie",          p:"bwa",s:"M",ll:[50.6051,4.5501],w:"Ja",  i:"Groot online négoce de bois. Webshop. Brut hout tot maatwerk. Waals-Brabant/Brussel."},
+  {n:"Carlier Bois (Namur/Suarlée)",  p:"bwa",s:"M",ll:[50.4901,4.8351],w:"Nee", i:"Espace Pro (Suarlée) + winkel (Namur). Lid Lignac inkoopgroep. Constructiehout, tuin, interieur. Atelier menuiserie. Suarlée (nabij Namen)."},
+  {n:"Brico (Nivelles/Nijvel)",       p:"dhz",s:"G",ll:[50.5981,4.3281],w:"Ja",  i:"DHZ-keten Brico. Breed tuinhout + constructiehout. Nivelles. Grens met Vl.-Brabant."},
+  {n:"Gamma (Wavre)",                 p:"dhz",s:"G",ll:[50.7151,4.5981],w:"Ja",  i:"DHZ-keten Gamma. Bouwhout + tuinhout. Wavre. Waals-Brabant."},
+
+  // ═══════════════════════════════════════
+  // NAMEN / NAMUR (WALLONIË — GRENS LIMBURG/VL.-BRABANT)
+  // ═══════════════════════════════════════
+  {n:"Carlier Bois (Namen)",          p:"nam",s:"M",ll:[50.4671,4.8671],w:"Nee", i:"Espace Pro + Libre-Service Namur. Lid Lignac groep. Breed constructiehout + tuin + interieur. Atelier menuiserie. Namen/Suarlée."},
+  {n:"GEDE-BOIS",                     p:"nam",s:"M",ll:[50.4571,4.8501],w:"Nee", i:"Négociant + specialist bois et dérivés. Constructiehout, panelen, afwerking. Namen regio."},
+  {n:"Gamma (Namen)",                 p:"dhz",s:"G",ll:[50.4681,4.8781],w:"Ja",  i:"DHZ-keten Gamma. Bouwhout + tuinhout. Namen/Namur. Webshop."},
+  {n:"Brico (Namen)",                 p:"dhz",s:"G",ll:[50.4561,4.8611],w:"Ja",  i:"DHZ-keten Brico. Breed tuinhout + constructiehout. Namen. Webshop."},
+
+  // ═══════════════════════════════════════
+  // ONLINE WEBSHOPS (NATIONAAL/BENELUX)
+  // ═══════════════════════════════════════
+  {n:"Tuinhout-compleet.be",          p:"online",s:"M",ll:[51.0420,3.8100],w:"Ja",  i:"Online houthandel (NL-gebaseerd). Douglas + eikenhout. Levert België. FSC. Zagerijservice."},
+  {n:"Hout Koklenberg (import)",      p:"import",s:"M",ll:[51.1618,4.1521],w:"Nee", i:"Importeur Europees hardhout, stammen rechtstreeks uit bos. B2B-only. Sint-Niklaas."},
+  {n:"Gadero.be",                     p:"online",s:"G",ll:[51.0600,3.7500],w:"Ja",  i:"⚠️ GROOTSTE ONLINE BEDREIGING. 20.000+ artikelen. Heel Vlaanderen + Wallonië. Sterke SEO. Goedkope levering. Composiet, hardhout, DHZ, tuinhuizen."},
+  {n:"Houthandelbelgie.be",           p:"online",s:"M",ll:[51.0540,3.7800],w:"Ja",  i:"Online goedkoop hout. Agressieve prijscommunicatie. Levert heel België."},
+  {n:"HOUTvakman.be",                 p:"online",s:"M",ll:[51.0480,3.7950],w:"Ja",  i:"Online houtspecialist België. Buitenhout: tuinhout, gevelbekleding, thermowood, eik. Levering heel België."},
+  {n:"Bear Wood (online)",            p:"online",s:"M",ll:[51.0071,4.2981],w:"Ja",  i:"Online + afhaallocaties. Tuinhout, constructiehout, gevelbekleding, tuinhuizen. Londerzeel."},
+  {n:"Jadimex (online)",              p:"online",s:"M",ll:[50.8581,4.7341],w:"Ja",  i:"Webshop groothandel tropisch + eco hardhout. Tuinhout, terrasplanken, gevelbekleding. Lovenjoel."},
+  {n:"Prindal (webshop)",             p:"online",s:"M",ll:[50.8431,3.8621],w:"Ja",  i:"Webshop tuinhout, rondhouten palen, weg- en waterbouw. FSC/PEFC. Denderwindeke."},
+
+  // ═══════════════════════════════════════
+  // DHZ-KETENS — ALLE ZELFDE KLEUR
+  // ═══════════════════════════════════════
+  {n:"Leenbakker (Gent)",             p:"dhz",s:"M",ll:[51.0181,3.7281],w:"Ja",  i:"DHZ-keten. Hout op maat, tuinhout, constructiehout. Gent. Webshop."},
+  {n:"Brico (Gent)",                  p:"dhz",s:"G",ll:[51.0428,3.6981],w:"Ja",  i:"⚠️ DHZ-keten. Breed tuinhout + constructiehout. 152 winkels België. Webshop."},
+  {n:"Gamma (Gent)",                  p:"dhz",s:"G",ll:[51.0361,3.7141],w:"Ja",  i:"⚠️ DHZ-keten. 400+ soorten bouwhout. 60+ winkels. Webshop + hout op maat zagen."},
+  {n:"Hubo (Gent)",                   p:"dhz",s:"G",ll:[51.0298,3.7051],w:"Ja",  i:"⚠️ DHZ-keten. Tuinhout, webshop, hout op maat. Heel Vlaanderen."},
+  {n:"Brico (Antwerpen)",             p:"dhz",s:"G",ll:[51.2181,4.4021],w:"Ja",  i:"DHZ-keten Brico. Tuinhout + constructiehout. Antwerpen. Webshop."},
+  {n:"Gamma (Antwerpen)",             p:"dhz",s:"G",ll:[51.2101,4.4181],w:"Ja",  i:"DHZ-keten Gamma. Bouwhout. Antwerpen. Webshop."},
+  {n:"Brico (Brugge)",                p:"dhz",s:"G",ll:[51.2081,3.2301],w:"Ja",  i:"DHZ-keten Brico. Tuinhout + constructiehout. Brugge."},
+  {n:"Gamma (Kortrijk)",              p:"dhz",s:"G",ll:[50.8281,3.2641],w:"Ja",  i:"DHZ-keten Gamma. Bouwhout. Kortrijk."},
+  {n:"Brico (Hasselt)",               p:"dhz",s:"G",ll:[50.9301,5.3301],w:"Ja",  i:"DHZ-keten Brico. Tuinhout + constructiehout. Hasselt."},
+  {n:"Gamma (Leuven)",                p:"dhz",s:"G",ll:[50.8781,4.7021],w:"Ja",  i:"DHZ-keten Gamma. Bouwhout. Leuven."},
+  {n:"Cevo Bouwmarkt",                p:"dhz",s:"M",ll:[51.0981,4.9721],w:"Ja",  i:"Bouwmarkt + webshop. Uitgebreid tuinhout gamma (o.a. Cartri). Geel (Kempen)."},
+];
+
+// ─── KAART ────────────────────────────────
+const map=L.map("map",{center:[50.80,4.20],zoom:8,zoomControl:true,scrollWheelZoom:true});
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+  attribution:'© <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',maxZoom:19
+}).addTo(map);
+
+// Drongen marker
+L.circle([51.0334,3.6431],{radius:2500,color:"#8B1A1A",fillColor:"#8B1A1A",fillOpacity:.07,weight:2,dashArray:"7,4"}).addTo(map);
+L.marker([51.0334,3.6431],{
+  icon:L.divIcon({html:`<div style="background:#8B1A1A;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;white-space:nowrap;box-shadow:0 1px 5px rgba(0,0,0,.3)">▼ Drongen</div>`,className:"",iconAnchor:[38,26]}),
+  zIndexOffset:9999
+}).addTo(map);
+
+// Wallonië grens indicatie (lichte arcering via rectangle)
+L.rectangle([[49.4,2.5],[50.75,6.4]],{color:"#880E4F",weight:0,fillColor:"#f0e6ec",fillOpacity:0.08}).addTo(map);
+
+const SZ={G:13,M:9,K:6};
+function mkIcon(col,r,isG){
+  const s=r*2+8;
+  const ring=isG?`<circle cx="${s/2}" cy="${s/2}" r="${r+4}" fill="none" stroke="${col}" stroke-width="1.5" opacity="0.28"/>`:"";
+  return L.divIcon({
+    html:`<svg xmlns="http://www.w3.org/2000/svg" width="${s}" height="${s}">${ring}<circle cx="${s/2}" cy="${s/2}" r="${r}" fill="${col}" stroke="white" stroke-width="1.8" opacity="0.93"/></svg>`,
+    className:"",iconSize:[s,s],iconAnchor:[s/2,s/2]
+  });
+}
+
+const provLbl={
+  wvl:"West-Vlaanderen",ovl:"Oost-Vlaanderen",ant:"Antwerpen",
+  vbr:"Vlaams-Brabant",lim:"Limburg",
+  hai:"Henegouwen (Wallonië)",bwa:"Waals-Brabant (Wallonië)",nam:"Namen (Wallonië)",
+  online:"Online",dhz:"DHZ-keten",agro:"Agro/Weide",import:"B2B Groothandel"
+};
+const sLbl={G:"⬛ GROTE / DOMINANTE SPELER",M:"▪ Middelgrote speler",K:"• Lokale speler"};
+
+let markers=[],activeFilter="all";
+
+function render(){
+  markers.forEach(m=>map.removeLayer(m));markers=[];
+  COMP.forEach(c=>{
+    if(activeFilter!=="all"&&c.p!==activeFilter) return;
+    const col=CC[c.p]||"#888";
+    const r=SZ[c.s]||7;
+    const icon=mkIcon(col,r,c.s==="G");
+    const pop=`<span class="pb" style="background:${col}">${provLbl[c.p]||c.p}</span>
+<span class="pn">${c.n}</span>
+<span class="pl">📍 ${c.ll[0].toFixed(3)}, ${c.ll[1].toFixed(3)}</span>
+<span class="pi">${c.i}</span>
+<span class="pm">🌐 Webshop: <b>${c.w}</b></span>
+<span class="pt ${c.s}">${sLbl[c.s]||"Lokale speler"}</span>`;
+    const m=L.marker(c.ll,{icon}).addTo(map).bindPopup(pop,{maxWidth:290});
+    markers.push(m);
+  });
+}
+
+// ─── FILTERS ──────────────────────────────
+const fbarEl=document.getElementById("controls");
+function mkBtn(label,id,col){
+  const b=document.createElement("button");
+  b.className="fb"+(id==="all"?" on":"");
+  if(id==="all"){b.style.background="#1a1a2e";b.style.color="#fff";b.style.borderColor="#1a1a2e";}
+  b.textContent=label;
+  b.onclick=()=>{
+    activeFilter=id;
+    document.querySelectorAll(".fb").forEach(x=>{x.classList.remove("on");x.style.background="";x.style.color="";x.style.borderColor="";});
+    b.classList.add("on");
+    if(col){b.style.background=col;b.style.color="#fff";b.style.borderColor=col;}
+    else{b.style.background="#1a1a2e";b.style.color="#fff";b.style.borderColor="#1a1a2e";}
+    render();
+  };
+  fbarEl.appendChild(b);
+}
+mkBtn("🗺 Alles","all",null);
+CATS.forEach(c=>mkBtn(c.label,c.id,c.col));
+
+// ─── LEGENDE ──────────────────────────────
+const legEl=document.getElementById("legend");
+CATS.forEach(c=>{
+  const d=document.createElement("div");d.className="li";
+  d.innerHTML=`<div class="ld" style="background:${c.col}"></div><span>${c.label}</span>`;
+  legEl.appendChild(d);
+});
+const sz=document.createElement("div");sz.className="sz";
+sz.innerHTML="<b>Grootte:</b>";
+[{r:13,l:"Groot/dominant"},{r:9,l:"Middelgroot"},{r:6,l:"Lokaal/klein"}].forEach(s=>{
+  const sp=document.createElement("span");sp.style.cssText="display:flex;align-items:center;gap:3px";
+  sp.innerHTML=`<svg width="${s.r*2+4}" height="${s.r*2+4}"><circle cx="${s.r+2}" cy="${s.r+2}" r="${s.r}" fill="#888" opacity=".75"/></svg>${s.l}`;
+  sz.appendChild(sp);
+});
+legEl.appendChild(sz);
+
+render();
+</script>
+</body>
+</html>
