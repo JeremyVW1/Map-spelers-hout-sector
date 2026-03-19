@@ -23,47 +23,33 @@ function buildPopup(c) {
   const sizeLabel = GROOTTE_LABELS[c.grootte] || "Onbekend";
 
   // Extraheer contactgegevens uit info
-  let info = c.info;
-  let contactHtml = "";
+  let info = c.info || "";
+  let adres = "", tel = "", mail = "", web = "";
+
+  const adresMatch = info.match(/📍\s*([^📞📧🌐]+)/);
   const telMatch = info.match(/📞\s*([^\s📧🌐]+)/);
   const mailMatch = info.match(/📧\s*([^\s📞🌐]+)/);
-  const webMatch = info.match(/🌐\s*([^\s📞📧]+(?:\s*\|\s*[^\s📞📧]+)*)/);
-  const adresMatch = info.match(/📍\s*([^📞📧🌐]+)/);
+  const webMatch = info.match(/🌐\s*([^\s📞📧]+)/);
 
-  if (adresMatch || telMatch || mailMatch || webMatch) {
-    contactHtml = '<div class="popup-contact">';
-    if (adresMatch) contactHtml += `📍 ${adresMatch[1].trim()}<br>`;
-    if (telMatch) contactHtml += `📞 ${telMatch[1].trim()}<br>`;
-    if (mailMatch) contactHtml += `📧 ${mailMatch[1].trim()}<br>`;
-    if (webMatch) contactHtml += `🌐 ${webMatch[1].trim()}`;
-    contactHtml += "</div>";
+  if (adresMatch) adres = adresMatch[1].trim();
+  if (telMatch) tel = telMatch[1].trim();
+  if (mailMatch) mail = mailMatch[1].trim();
+  if (webMatch) web = webMatch[1].trim();
 
-    info = info
-      .replace(/📍[^📞📧🌐]*/g, "")
-      .replace(/📞[^\s📧🌐]*/g, "")
-      .replace(/📧[^\s📞🌐]*/g, "")
-      .replace(/🌐[^\s📞📧]*/g, "")
-      .replace(/\s*\|\s*/g, " ")
-      .trim();
-  }
+  // Gebruik c.adres als apart veld bestaat
+  if (c.adres) adres = c.adres;
 
-  const hasWarning = info.includes("⚠️");
-  const infoClass = hasWarning ? "popup-info popup-warning" : "popup-info";
+  // Strip contactdata uit info → overblijvende tekst is beschrijving
+  info = info
+    .replace(/📍[^📞📧🌐]*/g, "")
+    .replace(/📞[^\s📧🌐]*/g, "")
+    .replace(/📧[^\s📞🌐]*/g, "")
+    .replace(/🌐[^\s📞📧]*/g, "")
+    .replace(/\s*\|\s*/g, " ")
+    .trim();
 
-  // Verrijkte KBO data
-  let enrichHtml = "";
-  if (c.btw || c.groep_btw || c.omzet || c.medewerkers || c.oprichting) {
-    enrichHtml += '<div class="popup-enrich">';
-    if (c.groep) enrichHtml += `<b>Groep:</b> ${c.groep}<br>`;
-    if (c.btw || c.groep_btw) enrichHtml += `<b>BTW:</b> ${c.btw || c.groep_btw}<br>`;
-    if (c.omzet || c.groep_omzet) enrichHtml += `<b>Omzet:</b> ${c.omzet || c.groep_omzet}<br>`;
-    const fte = c.medewerkers || c.groep_medewerkers;
-    if (fte) enrichHtml += `<b>Werknemers:</b> ${fte}<br>`;
-    if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${c.oprichting}<br>`;
-    if (c.rechtsvorm || c.groep_rechtsvorm)
-      enrichHtml += `<b>Vorm:</b> ${c.rechtsvorm || c.groep_rechtsvorm}<br>`;
-    enrichHtml += "</div>";
-  }
+  // Website: gebruik c.website als dat er is, anders uit info
+  const website = c.website || web || "";
 
   // Activiteiten labels
   const acts = c.activiteiten || [];
@@ -72,11 +58,40 @@ function buildPopup(c) {
     : "Onbekend";
   const allActLabels = acts.map(a => categorieen.find(cat => cat.id === a)?.label || a);
 
-  // Website klikbaar
-  let websiteHtml = "";
-  if (c.website) {
-    const url = c.website.startsWith("http") ? c.website : "https://" + c.website;
-    websiteHtml = `<a href="${url}" target="_blank" rel="noopener" class="popup-website">🌐 ${c.website}</a>`;
+  // ─── Contactblok: adres, tel, website (elk klikbaar) ───
+  let contactHtml = '<div class="popup-contact">';
+  if (adres) {
+    const mapsUrl = "https://www.google.com/maps/search/" + encodeURIComponent(adres + ", België");
+    contactHtml += `<a href="${mapsUrl}" target="_blank" rel="noopener" class="popup-link">📍 ${adres}</a><br>`;
+  }
+  if (tel) {
+    const telClean = tel.replace(/[^+\d]/g, "");
+    contactHtml += `<a href="tel:${telClean}" class="popup-link">📞 ${tel}</a><br>`;
+  }
+  if (mail) {
+    contactHtml += `<a href="mailto:${mail}" class="popup-link">📧 ${mail}</a><br>`;
+  }
+  if (website) {
+    const url = website.startsWith("http") ? website : "https://" + website;
+    contactHtml += `<a href="${url}" target="_blank" rel="noopener" class="popup-link">🌐 ${website}</a>`;
+  }
+  contactHtml += "</div>";
+
+  // Info = korte beschrijving (zonder contact-data)
+  const hasWarning = info.includes("⚠️");
+  const infoClass = hasWarning ? "popup-info popup-warning" : "popup-info";
+
+  // Verrijkte bedrijfsdata
+  let enrichHtml = "";
+  if (c.btw || c.omzet || c.medewerkers || c.oprichting) {
+    enrichHtml += '<div class="popup-enrich">';
+    if (c.groep) enrichHtml += `<b>Groep:</b> ${c.groep}<br>`;
+    if (c.btw) enrichHtml += `<b>BTW:</b> ${c.btw}<br>`;
+    if (c.omzet) enrichHtml += `<b>Omzet:</b> ${c.omzet}<br>`;
+    if (c.medewerkers) enrichHtml += `<b>Werknemers:</b> ${c.medewerkers}<br>`;
+    if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${c.oprichting}<br>`;
+    if (c.rechtsvorm) enrichHtml += `<b>Vorm:</b> ${c.rechtsvorm}<br>`;
+    enrichHtml += "</div>";
   }
 
   // Rijtijden
@@ -93,14 +108,11 @@ function buildPopup(c) {
     <span class="popup-badge" style="background:${col}">${actLabel}</span>
     <span class="popup-prov">${provLabel}</span>
     <span class="popup-name">${c.naam}</span>
-    <span class="popup-coords">📍 ${c.lat.toFixed(3)}, ${c.lng.toFixed(3)}</span>
-    ${acts.length > 1 ? `<span class="popup-acts">📋 ${allActLabels.join(", ")}</span>` : ""}
-    <span class="${infoClass}">${info}</span>
     ${contactHtml}
-    ${websiteHtml}
+    ${info ? `<span class="${infoClass}">${info}</span>` : ""}
+    ${acts.length > 1 ? `<span class="popup-acts">📋 ${allActLabels.join(", ")}</span>` : ""}
     ${enrichHtml}
     ${rijtijdHtml}
-    <span class="popup-webshop">🌐 Webshop: <b>${c.webshop}</b></span>
     <span class="popup-size ${c.grootte}">${sizeLabel}</span>
   `;
 }
