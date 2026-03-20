@@ -49,6 +49,9 @@ async function init() {
   updateCounter();
 
   document.getElementById("fav-export").addEventListener("click", exportFavCSV);
+
+  // Start auto-sync: elke 30s notes ophalen uit Google Sheets
+  startAutoSync();
 }
 
 function initTabs() {
