@@ -40,16 +40,19 @@ async function loadFavorites() {
 
       // Alleen overschrijven als Sheet data bevat (voorkom wissen bij lege response)
       if (data.length > 0) {
-        favorites = new Set(data.map(r => r.naam));
+        // Sheet headers kunnen hoofdletters hebben (Naam vs naam)
+        const getName = r => r.naam || r.Naam || "";
+        favorites = new Set(data.map(getName));
         localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
 
         // Sync notes terug vanuit Google Sheets
         let notesChanged = false;
         data.forEach(r => {
+          const naam       = getName(r);
           const sheetNote  = r.notes || r[""] || "";
           const sheetNoteV = r.notes_vincent || "";
-          if (sheetNote && !favNotes[r.naam])        { favNotes[r.naam] = sheetNote; notesChanged = true; }
-          if (sheetNoteV && !favNotesVincent[r.naam]) { favNotesVincent[r.naam] = sheetNoteV; notesChanged = true; }
+          if (sheetNote && !favNotes[naam])        { favNotes[naam] = sheetNote; notesChanged = true; }
+          if (sheetNoteV && !favNotesVincent[naam]) { favNotesVincent[naam] = sheetNoteV; notesChanged = true; }
         });
         if (notesChanged) {
           localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
