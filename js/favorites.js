@@ -39,6 +39,25 @@ async function loadFavorites() {
       const data = await res.json();
       favorites  = new Set(data.map(r => r.naam));
       localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
+
+      // Sync notes terug vanuit Google Sheets (Jeremy = "" of "notes" kolom)
+      let notesChanged = false;
+      data.forEach(r => {
+        const sheetNote = r.notes || r[""] || "";
+        const sheetNoteV = r.notes_vincent || "";
+        if (sheetNote && !favNotes[r.naam]) {
+          favNotes[r.naam] = sheetNote;
+          notesChanged = true;
+        }
+        if (sheetNoteV && !favNotesVincent[r.naam]) {
+          favNotesVincent[r.naam] = sheetNoteV;
+          notesChanged = true;
+        }
+      });
+      if (notesChanged) {
+        localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
+        localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
+      }
     } catch { /* localStorage fallback is al geladen */ }
   }
   updateFavCount();
