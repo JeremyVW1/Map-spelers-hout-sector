@@ -42,13 +42,15 @@ async function loadFavorites() {
       const data = await res.json();
 
       if (data.length > 0) {
-        const getName = r => r.naam || r.Naam || "";
+        const getName = r => r.Naam || r.naam || "";
 
         // Favorieten uit Sheet
         favorites = new Set(data.map(getName));
         localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
 
         // Notes uit Sheet OVERSCHRIJVEN lokale notes (Sheet = waarheid)
+        favNotes = {};
+        favNotesVincent = {};
         data.forEach(r => {
           const naam       = getName(r);
           const sheetNote  = r.notes || r[""] || "";
@@ -59,7 +61,7 @@ async function loadFavorites() {
         localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
         localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
       }
-    } catch { /* localStorage fallback is al geladen */ }
+    } catch (e) { console.warn("Sheet sync mislukt:", e); }
   }
   updateFavCount();
 }
