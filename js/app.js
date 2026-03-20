@@ -11,7 +11,6 @@ async function init() {
       fetch("data/categorieen.json"),
       fetch("data/top15.json"),
     ]);
-
     if (!bedrijvenRes.ok) throw new Error("bedrijven.json laden mislukt");
     if (!catRes.ok)       throw new Error("categorieen.json laden mislukt");
 
@@ -39,7 +38,6 @@ async function init() {
   initAnalyse();
   initTabs();
 
-  // Standaard groene zone + WVL + OVL + alle activiteiten
   activeRegios.add("groene_zone");
   activeRegios.add("wvl");
   activeRegios.add("ovl");
@@ -49,8 +47,6 @@ async function init() {
   updateCounter();
 
   document.getElementById("fav-export").addEventListener("click", exportFavCSV);
-
-  // Start auto-sync: elke 30s notes ophalen uit Google Sheets
   startAutoSync();
 }
 
@@ -67,9 +63,9 @@ function initTabs() {
       document.getElementById("analyse-view").classList.toggle("hidden", tab !== "analyse");
       document.getElementById("favorieten-view").classList.toggle("hidden", tab !== "favorieten");
 
-      if (tab === "kaart")       setTimeout(() => map.invalidateSize(), 100);
-      else if (tab === "analyse")    renderAnalyse();
-      else if (tab === "favorieten") renderFavorieten();
+      if (tab === "kaart")            setTimeout(() => map.invalidateSize(), 100);
+      else if (tab === "analyse")     renderAnalyse();
+      else if (tab === "favorieten")  renderFavorieten();
     });
   });
 }
