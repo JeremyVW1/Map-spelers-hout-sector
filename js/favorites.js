@@ -1,4 +1,4 @@
-/* Houtkaart — Favorieten (sterretjes) + Google Sheets sync */
+/* Houtkaart — Favorieten + Notes + Google Sheets sync */
 /* Google Sheets = enige bron van waarheid. localStorage = offline fallback. */
 
 const SHEET_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyWtnahLygglfAqkJoygx2yJwV9ZkfENq2zJqX9ZWYBHvtWnWhyNwfrVATTS-NMlDZa/exec";
@@ -7,67 +7,116 @@ let favorites = new Set();
 let favNotes  = {};
 let favNotesVincent = {};
 
+/* ─── Lokale fallback ─── */
 function loadNotesLocal() {
   try { favNotes = JSON.parse(localStorage.getItem("houtkaart_notes") || "{}"); } catch { favNotes = {}; }
   try { favNotesVincent = JSON.parse(localStorage.getItem("houtkaart_notes_vincent") || "{}"); } catch { favNotesVincent = {}; }
 }
 
+function saveNotesLocal() {
+  localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
+  localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
+}
+
+/* ─── Note opslaan → lokaal + Blad1 + Top25 tegelijk ─── */
 function saveNote(naam, text, who) {
   if (who === "vincent") {
     favNotesVincent[naam] = text;
-    localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
   } else {
     favNotes[naam] = text;
-    localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
   }
-  if (SHEET_SCRIPT_URL) {
+  saveNotesLocal();
+
+  // Sync alle textareas met dezelfde naam (Top25 ↔ Favorieten)
+  document.querySelectorAll(`.fav-note[data-naam="${CSS.escape(naam)}"][data-who="${who}"]`).forEach(ta => {
+    if (ta.value !== text) ta.value = text;
+  });
+
+  if (!SHEET_SCRIPT_URL) return;
+
+  const noteJ = favNotes[naam] || "";
+  const noteV = favNotesVincent[naam] || "";
+
+  // Sync naar Blad1 (favorieten)
+  if (favorites.has(naam)) {
     fetch(SHEET_SCRIPT_URL, {
       method: "POST", mode: "no-cors",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "update_note", naam, notes: favNotes[naam] || "", notes_vincent: favNotesVincent[naam] || "" }),
+      body: JSON.stringify({ action: "update_note", naam, notes: noteJ, notes_vincent: noteV }),
+    }).catch(() => {});
+  }
+
+  // Sync naar Top25 tab
+  const inTop25 = top15.some(t => {
+    const b = bedrijven.find(x => x.naam === t.naam || x.naam.startsWith(t.naam));
+    return (b && b.naam === naam) || t.naam === naam;
+  });
+  if (inTop25) {
+    fetch(SHEET_SCRIPT_URL, {
+      method: "POST", mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "update_top25_note", naam, notes_jeremy: noteJ, notes_vincent: noteV }),
     }).catch(() => {});
   }
 }
 
+/* ─── Laden: Sheets = waarheid, localStorage = fallback ─── */
 async function loadFavorites() {
   // Stap 1: localStorage als snelle fallback
   const stored = localStorage.getItem("houtkaart_favs");
   if (stored) favorites = new Set(JSON.parse(stored));
   loadNotesLocal();
 
-  // Stap 2: Google Sheets is de bron van waarheid
-  if (SHEET_SCRIPT_URL) {
-    try {
-      const res  = await fetch(SHEET_SCRIPT_URL);
-      const data = await res.json();
+  if (!SHEET_SCRIPT_URL) { updateFavCount(); return; }
 
-      if (data.length > 0) {
-        const getName = r => r.Naam || r.naam || "";
+  // Stap 2: Laad favorieten + notes uit Blad1
+  try {
+    const res = await fetch(SHEET_SCRIPT_URL);
+    const data = await res.json();
 
-        // Favorieten uit Sheet
-        favorites = new Set(data.map(getName));
-        localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
+    if (data.length > 0) {
+      const getName = r => r.Naam || r.naam || "";
+      favorites = new Set(data.map(getName));
+      localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
 
-        // Notes uit Sheet OVERSCHRIJVEN lokale notes (Sheet = waarheid)
-        favNotes = {};
-        favNotesVincent = {};
-        data.forEach(r => {
-          const naam       = getName(r);
-          const sheetNote  = r.notes || r[""] || "";
-          const sheetNoteV = r.notes_vincent || "";
-          if (sheetNote)  favNotes[naam] = sheetNote;
-          if (sheetNoteV) favNotesVincent[naam] = sheetNoteV;
-        });
-        localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
-        localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
-      }
-    } catch (e) { console.warn("Sheet sync mislukt:", e); }
-  }
+      favNotes = {};
+      favNotesVincent = {};
+      data.forEach(r => {
+        const naam = getName(r);
+        const nJ = r.notes || r[""] || "";
+        const nV = r.notes_vincent || "";
+        if (nJ) favNotes[naam] = nJ;
+        if (nV) favNotesVincent[naam] = nV;
+      });
+    }
+  } catch (e) { console.warn("Blad1 sync mislukt:", e); }
+
+  // Stap 3: Laad Top25 notes (overschrijven/aanvullen)
+  try {
+    const res = await fetch(SHEET_SCRIPT_URL + "?tab=top25");
+    const data = await res.json();
+
+    if (data.length > 0) {
+      data.forEach(r => {
+        const naam = r.Naam || r.naam || "";
+        const nJ = r["Notes Jeremy"] || "";
+        const nV = r["Notes Vincent"] || "";
+        // Match top25 naam naar bedrijven.json naam
+        const bedrijf = bedrijven.find(b => b.naam === naam || b.naam.startsWith(naam));
+        const key = bedrijf ? bedrijf.naam : naam;
+        if (nJ && !favNotes[key]) favNotes[key] = nJ;
+        if (nV && !favNotesVincent[key]) favNotesVincent[key] = nV;
+      });
+    }
+  } catch (e) { console.warn("Top25 sync mislukt:", e); }
+
+  saveNotesLocal();
   updateFavCount();
 }
 
+/* ─── Favoriet toggle → Blad1 sync ─── */
 function toggleFavorite(company) {
-  const naam     = company.naam;
+  const naam = company.naam;
   const wasActive = favorites.has(naam);
 
   wasActive ? favorites.delete(naam) : favorites.add(naam);
@@ -82,8 +131,8 @@ function toggleFavorite(company) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         action: wasActive ? "remove" : "add",
-        naam: company.naam,
-        provincie: provLabel(company),
+        naam,
+        regio: provLabel(company),
         activiteiten: actLabel(company),
         grootte: GROOTTE_LONG[company.grootte] || "",
         adres: company.adres || "",
@@ -91,21 +140,21 @@ function toggleFavorite(company) {
         website: company.website || "",
         rijtijd_hertsberge: company.rijtijd_hertsberge != null ? company.rijtijd_hertsberge : "",
         rijtijd_drongen: company.rijtijd_drongen != null ? company.rijtijd_drongen : "",
-        notes: favNotes[company.naam] || "",
-        notes_vincent: favNotesVincent[company.naam] || "",
+        notes: favNotes[naam] || "",
+        notes_vincent: favNotesVincent[naam] || "",
       }),
     }).catch(() => {});
   }
 }
 
-function isFavorite(naam)  { return favorites.has(naam); }
+function isFavorite(naam) { return favorites.has(naam); }
 
 function updateStarButtons(naam) {
   document.querySelectorAll(`.star-btn[data-naam="${CSS.escape(naam)}"]`).forEach(btn => {
     const active = isFavorite(naam);
     btn.classList.toggle("starred", active);
     btn.innerHTML = active ? "★" : "☆";
-    btn.title     = active ? "Verwijder uit favorieten" : "Voeg toe aan favorieten";
+    btn.title = active ? "Verwijder uit favorieten" : "Voeg toe aan favorieten";
   });
 }
 
@@ -114,6 +163,7 @@ function updateFavCount() {
   if (el) el.textContent = favorites.size;
 }
 
+/* ─── Favorieten tabel — zelfde kolommen als Top 25 ─── */
 function renderFavorieten() {
   const tbody    = document.getElementById("fav-tbody");
   const emptyMsg = document.getElementById("fav-empty");
@@ -167,6 +217,7 @@ function renderFavorieten() {
   attachNoteHandlers(tbody);
 }
 
+/* ─── CSV Export ─── */
 function exportFavCSV() {
   const data = bedrijven.filter(c => isFavorite(c.naam));
   if (data.length === 0) return;
