@@ -1,4 +1,5 @@
 /* Houtkaart — Favorieten (sterretjes) + Google Sheets sync */
+/* Google Sheets = enige bron van waarheid. localStorage = offline fallback. */
 
 const SHEET_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyWtnahLygglfAqkJoygx2yJwV9ZkfENq2zJqX9ZWYBHvtWnWhyNwfrVATTS-NMlDZa/exec";
 
@@ -6,7 +7,7 @@ let favorites = new Set();
 let favNotes  = {};
 let favNotesVincent = {};
 
-function loadNotes() {
+function loadNotesLocal() {
   try { favNotes = JSON.parse(localStorage.getItem("houtkaart_notes") || "{}"); } catch { favNotes = {}; }
   try { favNotesVincent = JSON.parse(localStorage.getItem("houtkaart_notes_vincent") || "{}"); } catch { favNotesVincent = {}; }
 }
@@ -29,35 +30,34 @@ function saveNote(naam, text, who) {
 }
 
 async function loadFavorites() {
+  // Stap 1: localStorage als snelle fallback
   const stored = localStorage.getItem("houtkaart_favs");
   if (stored) favorites = new Set(JSON.parse(stored));
-  loadNotes();
+  loadNotesLocal();
 
+  // Stap 2: Google Sheets is de bron van waarheid
   if (SHEET_SCRIPT_URL) {
     try {
       const res  = await fetch(SHEET_SCRIPT_URL);
       const data = await res.json();
 
-      // Alleen overschrijven als Sheet data bevat (voorkom wissen bij lege response)
       if (data.length > 0) {
-        // Sheet headers kunnen hoofdletters hebben (Naam vs naam)
         const getName = r => r.naam || r.Naam || "";
+
+        // Favorieten uit Sheet
         favorites = new Set(data.map(getName));
         localStorage.setItem("houtkaart_favs", JSON.stringify([...favorites]));
 
-        // Sync notes terug vanuit Google Sheets
-        let notesChanged = false;
+        // Notes uit Sheet OVERSCHRIJVEN lokale notes (Sheet = waarheid)
         data.forEach(r => {
           const naam       = getName(r);
           const sheetNote  = r.notes || r[""] || "";
           const sheetNoteV = r.notes_vincent || "";
-          if (sheetNote && !favNotes[naam])        { favNotes[naam] = sheetNote; notesChanged = true; }
-          if (sheetNoteV && !favNotesVincent[naam]) { favNotesVincent[naam] = sheetNoteV; notesChanged = true; }
+          if (sheetNote)  favNotes[naam] = sheetNote;
+          if (sheetNoteV) favNotesVincent[naam] = sheetNoteV;
         });
-        if (notesChanged) {
-          localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
-          localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
-        }
+        localStorage.setItem("houtkaart_notes", JSON.stringify(favNotes));
+        localStorage.setItem("houtkaart_notes_vincent", JSON.stringify(favNotesVincent));
       }
     } catch { /* localStorage fallback is al geladen */ }
   }
@@ -125,7 +125,6 @@ function renderFavorieten() {
 
   tbody.innerHTML = "";
   favData.forEach(c => {
-    // Zoek top15-data voor extra velden (digitaal, notitie, est_ebitda, opgericht)
     const t = top15.find(e => e.naam === c.naam || c.naam.startsWith(e.naam));
 
     const starClass = isFavorite(c.naam) ? "starred" : "";
