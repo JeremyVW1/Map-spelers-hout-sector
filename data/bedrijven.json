@@ -47,7 +47,9 @@
     "medewerkers": 7.1,
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 39,
+    "rijtijd_drongen": 54
   },
   {
     "naam": "Cras Woodshops Heule",
@@ -481,7 +483,9 @@
     "adres": "Ieperseweg 26, 8970 Poperinge",
     "rechtsvorm": "BV",
     "oprichting": "1993",
-    "website": "www.beheyt.be"
+    "website": "www.beheyt.be",
+    "rijtijd_hertsberge": 60,
+    "rijtijd_drongen": 69
   },
   {
     "naam": "Db Hardwoods",
@@ -543,7 +547,9 @@
     "activiteiten": [
       "import",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 63
   },
   {
     "naam": "Hanssens Hout",
@@ -829,7 +835,9 @@
       "online",
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "De Meyer Outdoor Living",
@@ -870,7 +878,9 @@
     "activiteiten": [
       "parket",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Hout Koklenberg",
@@ -884,7 +894,9 @@
     "adres": "Europark-Noord 47, 9100 Sint-Niklaas",
     "activiteiten": [
       "import"
-    ]
+    ],
+    "rijtijd_hertsberge": 56,
+    "rijtijd_drongen": 36
   },
   {
     "naam": "Van Tornhout",
@@ -925,7 +937,9 @@
       "houthandel",
       "terrassen"
     ],
-    "website": "prindal.be"
+    "website": "prindal.be",
+    "rijtijd_hertsberge": 61,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "Verhofstede (Hout-Idee)",
@@ -941,7 +955,9 @@
     "oprichting": "1980",
     "activiteiten": [
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 60,
+    "rijtijd_drongen": 39
   },
   {
     "naam": "De Regge Houthandel",
@@ -1511,7 +1527,9 @@
     "activiteiten": [
       "parket",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 56,
+    "rijtijd_drongen": 58
   },
   {
     "naam": "La Boiserie",
@@ -1608,7 +1626,9 @@
       "online",
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 59
   },
   {
     "naam": "Lhoir & Marteau",
@@ -1774,7 +1794,9 @@
     "adres": "Europark-Noord 47, 9100 Sint-Niklaas",
     "activiteiten": [
       "import"
-    ]
+    ],
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 36
   },
   {
     "naam": "Gadero.be",
@@ -1876,7 +1898,9 @@
     "bizzy_ebitda": 353664.59,
     "cw_fte": 5.3,
     "email": "info@prindalhout.com",
-    "tel": "+32 54 33 10 16"
+    "tel": "+32 54 33 10 16",
+    "rijtijd_hertsberge": 61,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "Leenbakker (Gent)",
@@ -2099,7 +2123,9 @@
       "parket",
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 53,
+    "rijtijd_drongen": 62
   },
   {
     "naam": "Houthandel Decadt Daniel (Proven)",
@@ -2115,7 +2141,9 @@
     "activiteiten": [
       "dhz",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 55,
+    "rijtijd_drongen": 64
   },
   {
     "naam": "Houthandel Leirman (Diksmuide)",
@@ -2165,7 +2193,9 @@
     "activiteiten": [
       "tuinhuis",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Janssens & Janssens (Aalst)",
@@ -2189,7 +2219,9 @@
     "cw_brutomarge": 517328,
     "cw_winst": 1907,
     "cw_fte": 8,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "Janssens & Janssens (Oudenaarde)",
@@ -2253,7 +2285,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Hertecant Hout (Dendermonde)",
@@ -2269,7 +2303,9 @@
     "activiteiten": [
       "parket",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Durcolo (Turnhout)",
@@ -2419,7 +2455,9 @@
     "activiteiten": [
       "dhz",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 60,
+    "rijtijd_drongen": 39
   },
   {
     "naam": "Carlens Houthandel (Aarschot)",
@@ -2978,7 +3016,9 @@
     "adres": "Ieperseweg 26, 8970 Poperinge",
     "rechtsvorm": "BV",
     "oprichting": "1993",
-    "website": "www.beheyt.be"
+    "website": "www.beheyt.be",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 68
   },
   {
     "naam": "Houthandel Steyaert (Eeklo)",
@@ -3018,7 +3058,9 @@
     "activiteiten": [
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Cras Woodshops Heule (Kortrijk)",
@@ -3505,7 +3547,9 @@
     "medewerkers": 7.1,
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 55
   },
   {
     "naam": "Houthandel Decadt (Vlamertinge/Ieper)",
@@ -3522,7 +3566,9 @@
       "parket",
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 63
   },
   {
     "naam": "Houthandel Decadt Daniel (Proven/Poperinge)",
@@ -3543,7 +3589,9 @@
     "cw_omzet": 13460408,
     "cw_fte": 16.2,
     "email": "stefaan.decadt@decadt-hout.be",
-    "tel": "+32 57 20 06 03"
+    "tel": "+32 57 20 06 03",
+    "rijtijd_hertsberge": 55,
+    "rijtijd_drongen": 64
   },
   {
     "naam": "Woodcenter (Wevelgem)",
@@ -3602,7 +3650,9 @@
     "activiteiten": [
       "import",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 63
   },
   {
     "naam": "Vandenbroucke Hout (Beernem)",
@@ -4369,7 +4419,9 @@
     "adres": "Dehemlaan 4, 8900 Ieper",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 50,
+    "rijtijd_drongen": 59
   },
   {
     "naam": "Houthandel N. De Vreese (Hooglede)",
@@ -4594,7 +4646,9 @@
     "activiteiten": [
       "houthandel"
     ],
-    "btw": "BE0422.030.172"
+    "btw": "BE0422.030.172",
+    "rijtijd_hertsberge": 48,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "Mannaert (Lebbeke)",
@@ -4606,7 +4660,9 @@
     "info": "Houthandel. Lebbeke.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 63,
+    "rijtijd_drongen": 43
   },
   {
     "naam": "Van Peteghem Hout en Interieur (Lochristi)",
@@ -4680,7 +4736,9 @@
     "info": "Houthandel. Ninove.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 55,
+    "rijtijd_drongen": 34
   },
   {
     "naam": "Dewahout (Deinze)",
@@ -4797,7 +4855,9 @@
     "info": "Houthandel. Dendermonde.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Hout Van Acker (Melsele)",
@@ -4838,7 +4898,9 @@
     "info": "Houthandel. Beveren-Waas.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 63,
+    "rijtijd_drongen": 42
   },
   {
     "naam": "Houthandel Piet Louwette (Sint-Niklaas)",
@@ -4850,7 +4912,9 @@
     "info": "Houthandel. Sint-Niklaas.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 55,
+    "rijtijd_drongen": 35
   },
   {
     "naam": "Vandewalle Houthandel (Sint-Niklaas)",
@@ -4862,7 +4926,9 @@
     "info": "Houthandel. Europark-Zuid, Sint-Niklaas.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Houthandel-Zagerij De Geyter (Lede)",
@@ -5166,7 +5232,9 @@
     "activiteiten": [
       "tuinhuis",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 34
   },
   {
     "naam": "Westparket (Waregem)",
@@ -5518,7 +5586,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Nieuwpoort"
+    "adres": "Nieuwpoort",
+    "rijtijd_hertsberge": 33,
+    "rijtijd_drongen": 48
   },
   {
     "naam": "Gustaaf Seghers & Zonen (Beveren)",
@@ -5532,7 +5602,9 @@
       "parket"
     ],
     "btw": "BE 0641.748.337",
-    "adres": "Zillebeek 26, 9120 Beveren"
+    "adres": "Zillebeek 26, 9120 Beveren",
+    "rijtijd_hertsberge": 63,
+    "rijtijd_drongen": 42
   },
   {
     "naam": "De Waegeneer Parketvloeren (Aalst)",
@@ -5545,7 +5617,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Erembodegem, 9320 Aalst"
+    "adres": "Erembodegem, 9320 Aalst",
+    "rijtijd_hertsberge": 45,
+    "rijtijd_drongen": 24
   },
   {
     "naam": "Parket Valentin (Erembodegem/Aalst)",
@@ -5561,7 +5635,9 @@
       "houthandel"
     ],
     "btw": "BE 0831.482.218",
-    "adres": "Dreefstraat 32, 9320 Erembodegem"
+    "adres": "Dreefstraat 32, 9320 Erembodegem",
+    "rijtijd_hertsberge": 48,
+    "rijtijd_drongen": 27
   },
   {
     "naam": "Floorever (Eeklo)",
@@ -5787,7 +5863,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Aalstsesteenweg 168, 9506 Smeerebbe-Vloerzegem"
+    "adres": "Aalstsesteenweg 168, 9506 Smeerebbe-Vloerzegem",
+    "rijtijd_hertsberge": 60,
+    "rijtijd_drongen": 39
   },
   {
     "naam": "Parket Idee (Sint-Niklaas)",
@@ -5801,7 +5879,9 @@
       "parket"
     ],
     "btw": "BE 0840.910.519",
-    "adres": "Nieuwkerkenstraat 129, 9100 Sint-Niklaas"
+    "adres": "Nieuwkerkenstraat 129, 9100 Sint-Niklaas",
+    "rijtijd_hertsberge": 61,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "PDW Parketvloeren (Hamme)",
@@ -5814,7 +5894,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Roodkruisstraat 100, 9220 Hamme"
+    "adres": "Roodkruisstraat 100, 9220 Hamme",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "Heylen & Co Parket (Scheldewindeke)",
@@ -6062,7 +6144,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Nieuwpoortsesteenweg, 8400 Oostende"
+    "adres": "Nieuwpoortsesteenweg, 8400 Oostende",
+    "rijtijd_hertsberge": 26,
+    "rijtijd_drongen": 41
   },
   {
     "naam": "Atelier De Cuyper (Brugge)",
@@ -6106,7 +6190,9 @@
       "houthandel",
       "parket"
     ],
-    "adres": "Poperinge"
+    "adres": "Poperinge",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 68
   },
   {
     "naam": "Bouwcenter Frans Vlaeminck (Oostrozebeke)",
@@ -6236,7 +6322,9 @@
       "online"
     ],
     "btw": "BE 0809.922.383",
-    "adres": "Baasrodestraat 114, 9200 Dendermonde"
+    "adres": "Baasrodestraat 114, 9200 Dendermonde",
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "MBC Vloeren (Deinze)",
@@ -6489,7 +6577,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Torhoutsesteenweg 649, 8400 Oostende"
+    "adres": "Torhoutsesteenweg 649, 8400 Oostende",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 45
   },
   {
     "naam": "Antiek Bouw (Ieper)",
@@ -6503,7 +6593,9 @@
       "parket",
       "houthandel"
     ],
-    "adres": "Ieper"
+    "adres": "Ieper",
+    "rijtijd_hertsberge": 50,
+    "rijtijd_drongen": 59
   },
   {
     "naam": "Cornilly (Moerkerke/Damme)",
@@ -6639,7 +6731,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Driekoningenstraat 101, 9100 Sint-Niklaas"
+    "adres": "Driekoningenstraat 101, 9100 Sint-Niklaas",
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 34
   },
   {
     "naam": "DL Parket (Dendermonde)",
@@ -6652,7 +6746,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Dendermonde"
+    "adres": "Dendermonde",
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Lumaco (Ronse)",
@@ -6890,7 +6986,9 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Ring Oost 13/A, 9400 Ninove"
+    "adres": "Ring Oost 13/A, 9400 Ninove",
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 33
   },
   {
     "naam": "Exclusive Oakwood (Vlierzele)",
@@ -6942,7 +7040,9 @@
       "tuinhuis",
       "online"
     ],
-    "adres": "D'Uitseweg 139, 9320 Aalst"
+    "adres": "D'Uitseweg 139, 9320 Aalst",
+    "rijtijd_hertsberge": 48,
+    "rijtijd_drongen": 27
   },
   {
     "naam": "Callewood (Oost-Vlaanderen)",
@@ -6987,7 +7087,9 @@
       "tuinhuis",
       "online"
     ],
-    "adres": "Elversele, 9140 Temse"
+    "adres": "Elversele, 9140 Temse",
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 33
   },
   {
     "naam": "Primewood (Westmalle)",
@@ -7053,7 +7155,9 @@
       "terrassen"
     ],
     "btw": "BE 0450.706.045",
-    "adres": "Roesbruggestraat 5, 8972 Proven"
+    "adres": "Roesbruggestraat 5, 8972 Proven",
+    "rijtijd_hertsberge": 63,
+    "rijtijd_drongen": 74
   },
   {
     "naam": "Geoff's Eiken Bijgebouwen (Ooigem/Wielsbeke)",
@@ -7238,7 +7342,9 @@
       "tuinhuis"
     ],
     "btw": "BE 0440.559.647",
-    "adres": "Kluizenhof 27, 9170 Sint-Gillis-Waas"
+    "adres": "Kluizenhof 27, 9170 Sint-Gillis-Waas",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "Garden Home (Dendermonde)",
@@ -7252,7 +7358,9 @@
       "tuinhuis",
       "houthandel"
     ],
-    "adres": "Sleutelbloemlaan 10, 9200 Dendermonde"
+    "adres": "Sleutelbloemlaan 10, 9200 Dendermonde",
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Gardenas NV (Dendermonde)",
@@ -7267,7 +7375,9 @@
       "houthandel"
     ],
     "btw": "BE 0446.780.416",
-    "adres": "Wissenstraat 3, 9200 Dendermonde"
+    "adres": "Wissenstraat 3, 9200 Dendermonde",
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 36
   },
   {
     "naam": "Steyaert Meubelen (Aalter)",
@@ -7519,7 +7629,9 @@
       "terrassen"
     ],
     "btw": "BE 0788.707.988",
-    "adres": "Oude Heirbaan 70, 9100 Sint-Niklaas"
+    "adres": "Oude Heirbaan 70, 9100 Sint-Niklaas",
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 34
   },
   {
     "naam": "De Saegher (Moerbeke-Waas) — T Houtproject",
@@ -7566,7 +7678,9 @@
       "houthandel"
     ],
     "btw": "BE 0795.107.020",
-    "adres": "Roesbruggestraat 9, 8972 Poperinge"
+    "adres": "Roesbruggestraat 9, 8972 Poperinge",
+    "rijtijd_hertsberge": 64,
+    "rijtijd_drongen": 75
   },
   {
     "naam": "Jadimex (Lovenjoel — Vlaams-Brabant)",
@@ -7926,7 +8040,9 @@
       "import"
     ],
     "website": "dhonthoutimport.com",
-    "adres": "Statiestraat 162, 1570 Galmaarden"
+    "adres": "Statiestraat 162, 1570 Galmaarden",
+    "rijtijd_hertsberge": 67,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Scierie Lemercier",

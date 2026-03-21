@@ -33,15 +33,9 @@ function distKm(lat1, lng1, lat2, lng2) {
 }
 
 function inGroeneZone(c) {
-  // Primair: rijtijd ≤ 75 min van beide locaties
-  if (c.rijtijd_hertsberge != null && c.rijtijd_drongen != null) {
-    return c.rijtijd_hertsberge <= GROENE_ZONE_MIN && c.rijtijd_drongen <= GROENE_ZONE_MIN;
-  }
-  // Fallback: afstand ≤ 55km (≈ 75 min) voor bedrijven zonder rijtijd
-  const h = EIGEN_LOCATIES[1].ll;
-  const d = EIGEN_LOCATIES[0].ll;
-  return distKm(c.lat, c.lng, h[0], h[1]) <= GROENE_ZONE_KM
-      && distKm(c.lat, c.lng, d[0], d[1]) <= GROENE_ZONE_KM;
+  // Alleen bedrijven met rijtijd data — max 70 min van beide locaties
+  if (c.rijtijd_hertsberge == null || c.rijtijd_drongen == null) return false;
+  return c.rijtijd_hertsberge <= GROENE_ZONE_MIN && c.rijtijd_drongen <= GROENE_ZONE_MIN;
 }
 
 /* ─── Formattering ─── */
