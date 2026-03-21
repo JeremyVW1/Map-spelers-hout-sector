@@ -1,8 +1,8 @@
 /* Houtkaart — Configuratie, constanten & gedeelde hulpfuncties */
 
 /* ─── Constanten ─── */
-const GROENE_ZONE_KM      = 55;   // fallback voor bedrijven zonder rijtijd
-const GROENE_ZONE_MIN     = 75;   // max 75 min rijden van beide locaties
+const GROENE_ZONE_KM      = 50;   // fallback voor bedrijven zonder rijtijd
+const GROENE_ZONE_MIN     = 70;   // max 70 min rijden van beide locaties
 const SEARCH_DEBOUNCE_MS  = 150;
 const SEARCH_MAX_RESULTS  = 8;
 const DEFAULT_REGIOS      = ["wvl", "ovl"];

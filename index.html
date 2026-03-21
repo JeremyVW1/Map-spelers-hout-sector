@@ -19,6 +19,7 @@
       <button class="tab-btn active" data-tab="kaart">Kaart</button>
       <button class="tab-btn" data-tab="analyse">Analyse</button>
       <button class="tab-btn" data-tab="favorieten">★ Favorieten <span id="fav-count" class="fav-count">0</span></button>
+      <button class="tab-btn" data-tab="twijfel">● Twijfel <span id="orange-count" class="fav-count orange-count">0</span></button>
     </div>
     <div class="header-right">
       <div class="counter"><span id="counter-num">0</span> bedrijven</div>
@@ -128,7 +129,7 @@
       <table class="analyse-table" id="fav-table">
         <thead>
           <tr>
-            <th>★</th>
+            <th>Status</th>
             <th>Naam</th>
             <th>Activiteit</th>
             <th>Brutomarge</th>
@@ -147,6 +148,41 @@
           </tr>
         </thead>
         <tbody id="fav-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Twijfel (oranje) tab -->
+  <div id="twijfel-view" class="hidden">
+    <div class="fav-toolbar">
+      <h2 style="color:#e65100">● Twijfelgevallen / Nog te onderzoeken</h2>
+      <span class="fav-subtitle">Bedrijven met oranje status — twijfel of nog te onderzoeken</span>
+      <button id="twijfel-export" class="analyse-btn">📥 Exporteer twijfel CSV</button>
+    </div>
+    <div class="fav-empty" id="twijfel-empty">Nog geen twijfelgevallen — klik op de oranje ● bij een bedrijf.</div>
+    <div class="analyse-table-wrap">
+      <table class="analyse-table" id="twijfel-table">
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Naam</th>
+            <th>Activiteit</th>
+            <th>Brutomarge</th>
+            <th>Est. EBITDA</th>
+            <th>FTE</th>
+            <th>Opgericht</th>
+            <th>Adres</th>
+            <th>BTW</th>
+            <th>Website</th>
+            <th>🚗 H</th>
+            <th>🚗 D</th>
+            <th>Digitaal</th>
+            <th>Beoordeling</th>
+            <th>Notes Jeremy</th>
+            <th>Notes Vincent</th>
+          </tr>
+        </thead>
+        <tbody id="twijfel-tbody"></tbody>
       </table>
     </div>
   </div>

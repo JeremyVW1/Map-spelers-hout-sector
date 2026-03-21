@@ -1872,7 +1872,11 @@
       "houthandel",
       "terrassen"
     ],
-    "website": "prindal.be"
+    "website": "prindal.be",
+    "bizzy_ebitda": 353664.59,
+    "cw_fte": 5.3,
+    "email": "info@prindalhout.com",
+    "tel": "+32 54 33 10 16"
   },
   {
     "naam": "Leenbakker (Gent)",
@@ -2646,7 +2650,10 @@
     "cw_brutomarge": 558171,
     "cw_winst": 278849,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "bizzy_ebitda": 400489.37,
+    "email": "info@houthandelderegge.be",
+    "tel": "+32 466 44 92 66"
   },
   {
     "naam": "Hub. Rouckhout (Melle)",
@@ -2931,7 +2938,10 @@
     "cw_fte": 2,
     "cw_jaar": 2025,
     "rijtijd_hertsberge": 35,
-    "rijtijd_drongen": 41
+    "rijtijd_drongen": 41,
+    "bizzy_ebitda": 633131.68,
+    "email": "info@houthandel-messely.be",
+    "tel": "+32 475 62 18 46"
   },
   {
     "naam": "Geldhof Hout (Moorslede)",
@@ -3011,41 +3021,6 @@
     ]
   },
   {
-    "naam": "Cras Woodshops (HQ Waregem)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8802,
-    "lng": 3.4311,
-    "webshop": "Nee",
-    "info": "Marktleider België. HQ + productie. €112M+ omzet, 450+ medewerkers, 17 vestigingen. Collstrop tuinhout. FSC. Industrielaan 5, Waregem.",
-    "groep": "Cras NV",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem",
-    "activiteiten": [
-      "agro",
-      "terrassen",
-      "houthandel"
-    ],
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 26,
-    "btw": "BE0882.268.745",
-    "omzet": "€112 mln",
-    "medewerkers": "230 FTE",
-    "oprichting": "1878",
-    "website": "cras.be",
-    "adres": "Industrielaan 5, 8790 Waregem",
-    "cw_brutomarge": 7764420,
-    "cw_winst": -4757862,
-    "cw_omzet": 112336185,
-    "cw_fte": 230.4,
-    "cw_jaar": 2024
-  },
-  {
     "naam": "Cras Woodshops Heule (Kortrijk)",
     "provincie": "wvl",
     "grootte": "Groot",
@@ -3079,30 +3054,6 @@
     "cw_omzet": 112336185,
     "cw_fte": 230.4,
     "cw_jaar": 2024
-  },
-  {
-    "naam": "Cras Woodshops Menen",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.7981,
-    "lng": 3.1181,
-    "webshop": "Nee",
-    "info": "Vestiging Cras. Breed gamma. Menen.",
-    "groep": "Cras NV",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem",
-    "activiteiten": [
-      "dhz",
-      "houthandel",
-      "terrassen"
-    ],
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 48
   },
   {
     "naam": "Cras Woodshops Ardooie",
@@ -3166,40 +3117,6 @@
     "oprichting": "1878",
     "website": "cras.be",
     "adres": "Bruggestraat 177, 8830 Gits",
-    "cw_brutomarge": 7764420,
-    "cw_winst": -4757862,
-    "cw_omzet": 112336185,
-    "cw_fte": 230.4,
-    "cw_jaar": 2024
-  },
-  {
-    "naam": "Cras Woodshops Meulebeke",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.9441,
-    "lng": 3.2881,
-    "webshop": "Nee",
-    "info": "Vestiging Cras. Meulebeke (regio Tielt).",
-    "groep": "Cras NV",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem",
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "rijtijd_hertsberge": 28,
-    "rijtijd_drongen": 35,
-    "btw": "BE0882.268.745",
-    "omzet": "€112 mln (groep)",
-    "medewerkers": "400+ (groep)",
-    "oprichting": "1878",
-    "website": "cras.be",
-    "adres": "Rijksweg 391, 8760 Meulebeke",
     "cw_brutomarge": 7764420,
     "cw_winst": -4757862,
     "cw_omzet": 112336185,
@@ -3414,7 +3331,10 @@
     "cw_fte": 3,
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 53
+    "rijtijd_drongen": 53,
+    "bizzy_ebitda": 822225.92,
+    "email": "info@dbhardwoods.com",
+    "tel": "+32 56 50 30 71"
   },
   {
     "naam": "Houthandel Loose (Sint-Andries/Brugge)",
@@ -3506,34 +3426,6 @@
     ],
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 52
-  },
-  {
-    "naam": "Tieltse Houthandel (Tielt)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 50.9941,
-    "lng": 3.3281,
-    "webshop": "Nee",
-    "info": "40 jaar. Constructie+buitenhout+parket+deuren+isolatie. FSC. B2B + particulier. Tielt.",
-    "activiteiten": [
-      "parket",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0421.695.127",
-    "adres": "Deinsesteenweg 8, 8700 Tielt",
-    "rechtsvorm": "BV",
-    "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 27,
-    "omzet": "€1,8 mln",
-    "medewerkers": "3 FTE",
-    "oprichting": "1981",
-    "website": "tieltsehouthandel.be",
-    "cw_brutomarge": 287000,
-    "cw_winst": 116000,
-    "cw_omzet": 1653000,
-    "cw_fte": 2.5,
-    "cw_jaar": 2024
   },
   {
     "naam": "Houtmarkt Brugge",
@@ -3646,25 +3538,12 @@
     "activiteiten": [
       "dhz",
       "houthandel"
-    ]
-  },
-  {
-    "naam": "Houthandel Beheyt (Poperinge)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 50.8571,
-    "lng": 2.7281,
-    "webshop": "Nee",
-    "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
-    "activiteiten": [
-      "parket",
-      "houthandel"
     ],
-    "btw": "BE 0450.980.714",
-    "adres": "Ieperseweg 26, 8970 Poperinge",
-    "rechtsvorm": "BV",
-    "oprichting": "1993",
-    "website": "www.beheyt.be"
+    "bizzy_ebitda": 631729.76,
+    "cw_omzet": 13460408,
+    "cw_fte": 16.2,
+    "email": "stefaan.decadt@decadt-hout.be",
+    "tel": "+32 57 20 06 03"
   },
   {
     "naam": "Woodcenter (Wevelgem)",
@@ -3713,24 +3592,6 @@
     "cw_jaar": 2024
   },
   {
-    "naam": "Houthandel Beheyt (Poperinge)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 50.8561,
-    "lng": 2.7231,
-    "webshop": "Nee",
-    "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
-    "activiteiten": [
-      "parket",
-      "houthandel"
-    ],
-    "btw": "BE 0450.980.714",
-    "adres": "Ieperseweg 26, 8970 Poperinge",
-    "rechtsvorm": "BV",
-    "oprichting": "1993",
-    "website": "www.beheyt.be"
-  },
-  {
     "naam": "Lagae Hout (WVL — importeur)",
     "provincie": "wvl",
     "grootte": "Groot",
@@ -3767,32 +3628,10 @@
     "cw_brutomarge": 1839503,
     "cw_winst": 421003,
     "cw_fte": 16.4,
-    "cw_jaar": 2024
-  },
-  {
-    "naam": "Botanica Wood (Roeselare)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9431,
-    "lng": 3.1211,
-    "webshop": "Beperkt",
-    "info": "B2B specialist tuinaannemers. Buitenhout, boompalen, weideafsluitingen, terrasplanken. Eigen atelier. Roeselare. Verkooppunten ook FR.",
-    "btw": "BE 0444.953.846",
-    "adres": "Iepersestraat 459, 8800 Roeselare",
-    "rechtsvorm": "NV",
-    "website": "www.botanica-wood.be",
-    "activiteiten": [
-      "agro",
-      "terrassen"
-    ],
-    "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 46,
-    "medewerkers": "6 FTE",
-    "oprichting": "1992",
-    "cw_brutomarge": 759932,
-    "cw_winst": 58775,
-    "cw_fte": 6.4,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "bizzy_ebitda": 750414.37,
+    "email": "info@vandenbroucke.be",
+    "tel": "+32 50 78 84 95"
   },
   {
     "naam": "Hout Van Maele (Ruddervoorde/Oostkamp)",
@@ -3879,7 +3718,10 @@
     "cw_brutomarge": 648705,
     "cw_winst": 202744,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "bizzy_ebitda": 423137.05,
+    "email": "info@parketvanrobaeys.be",
+    "tel": "+32 51 65 76 57"
   },
   {
     "naam": "Parketlounge (Tielt–Roeselare regio)",
@@ -4202,7 +4044,11 @@
       "terrassen"
     ],
     "rijtijd_hertsberge": 55,
-    "rijtijd_drongen": 35
+    "rijtijd_drongen": 35,
+    "bizzy_ebitda": 833251.02,
+    "cw_fte": 23.7,
+    "email": "sales@houtland.be",
+    "tel": "+32 52 42 26 06"
   },
   {
     "naam": "De Meyer Outdoor Living (Evergem) — tuinhuizen",
@@ -4227,7 +4073,10 @@
     "cw_brutomarge": 1352082,
     "cw_winst": 159,
     "cw_fte": 15.5,
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "bizzy_ebitda": 380165.69,
+    "email": "verkoop@demeyer-nv.com",
+    "tel": "+32 9 378 03 20"
   },
   {
     "naam": "EXZO",
@@ -4434,28 +4283,6 @@
     "cw_omzet": 112336185,
     "cw_fte": 230.4,
     "cw_jaar": 2024
-  },
-  {
-    "naam": "Houthandel Tavernier (Jabbeke)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.1871,
-    "lng": 3.0991,
-    "webshop": "Nee",
-    "info": "Breed gamma constructie+tuinhout+gevel+thermowood. Levert heel de E40-corridor (Brugge-Gent) + breed WVL+OVL. 📍 Jabbeke 📞 050 81 15 61 🌐 houthandeltavernier.be",
-    "btw": "BE 0405.143.462",
-    "adres": "Gistelsteenweg 569, 8490 Jabbeke",
-    "rechtsvorm": "NV",
-    "medewerkers": 9.3,
-    "oprichting": "1965",
-    "website": "houthandeltavernier.be",
-    "activiteiten": [
-      "dhz",
-      "terrassen",
-      "houthandel"
-    ],
-    "rijtijd_hertsberge": 17,
-    "rijtijd_drongen": 32
   },
   {
     "naam": "Goeminne Tuinhout (Dikkelvenne)",
@@ -4801,7 +4628,10 @@
     "cw_brutomarge": 1227282,
     "cw_winst": 813182,
     "cw_fte": 3.3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "bizzy_ebitda": 990482.01,
+    "email": "info@vanpeteghemhout.be",
+    "tel": "+32 9 355 56 49"
   },
   {
     "naam": "Houtwereld (Maldegem)",
@@ -5554,7 +5384,10 @@
     "cw_brutomarge": 440509,
     "cw_winst": 268430,
     "cw_fte": 0.8,
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "bizzy_ebitda": 372157.05,
+    "email": "info@parketcenter.be",
+    "tel": "+32 56 32 36 29"
   },
   {
     "naam": "Parket Atelier (Ruiselede)",
@@ -6296,7 +6129,10 @@
     "cw_brutomarge": 1683719,
     "cw_winst": 611982,
     "cw_fte": 21.6,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "bizzy_ebitda": 776923.67,
+    "email": "info@bcfv.be",
+    "tel": "+32 56 67 19 25"
   },
   {
     "naam": "Multi Bazar (Pittem)",
@@ -7254,7 +7090,10 @@
     "cw_brutomarge": 1372695,
     "cw_winst": 167528,
     "cw_fte": 14.4,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "bizzy_ebitda": 386043.09,
+    "email": "fierensbvba@skynet.be",
+    "tel": "+32 50 20 95 56"
   },
   {
     "naam": "Schrijnwerken Moerman (Brugge)",

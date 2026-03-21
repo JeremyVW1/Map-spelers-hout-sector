@@ -41,11 +41,11 @@ function isAboveBorder(lat, lng) {
   return lat > 51.35;
 }
 
-// Doelgebied: overlap ≤40km van Hertsberge én Drongen, afgekapt op BE-NL grens
+// Doelgebied: overlap ≤55km (≈75 min) van Hertsberge én Drongen, afgekapt op BE-NL grens
 function addTargetZone() {
   const h = EIGEN_LOCATIES[1].ll;
   const d = EIGEN_LOCATIES[0].ll;
-  const maxKm = 40;
+  const maxKm = GROENE_ZONE_KM;
   const midLat = (h[0] + d[0]) / 2;
   const midLng = (h[1] + d[1]) / 2;
   const points = [];

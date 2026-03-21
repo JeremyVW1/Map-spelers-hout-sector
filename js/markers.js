@@ -2,16 +2,28 @@
 
 let markers = [];
 
-function makeIcon(col, r, isGroot, isFav) {
+function makeIcon(col, r, isGroot, isFav, isOr, isRd) {
   const s = r * 2 + 8;
   const ring = isGroot
     ? `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 4}" fill="none" stroke="${col}" stroke-width="1.5" opacity="0.28"/>`
     : "";
-  const stroke  = isFav ? "#f9a825" : "white";
-  const strokeW = isFav ? 2.5 : 1.8;
-  const glow    = isFav ? `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#f9a825" stroke-width="1.5" opacity="0.5"/>` : "";
+
+  // Status ring: rood > oranje > favoriet
+  let statusRing = "";
+  let stroke = "white", strokeW = 1.8;
+  if (isRd) {
+    statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#c62828" stroke-width="2.5" opacity="0.8"/>`;
+    stroke = "#c62828"; strokeW = 2;
+  } else if (isOr) {
+    statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#e65100" stroke-width="2.5" opacity="0.8"/>`;
+    stroke = "#e65100"; strokeW = 2;
+  } else if (isFav) {
+    statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#f9a825" stroke-width="1.5" opacity="0.5"/>`;
+    stroke = "#f9a825"; strokeW = 2.5;
+  }
+
   return L.divIcon({
-    html: `<svg xmlns="http://www.w3.org/2000/svg" width="${s}" height="${s}">${ring}${glow}<circle cx="${s / 2}" cy="${s / 2}" r="${r}" fill="${col}" stroke="${stroke}" stroke-width="${strokeW}" opacity="0.93"/></svg>`,
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="${s}" height="${s}">${ring}${statusRing}<circle cx="${s / 2}" cy="${s / 2}" r="${r}" fill="${col}" stroke="${stroke}" stroke-width="${strokeW}" opacity="0.93"/></svg>`,
     className: "", iconSize: [s, s], iconAnchor: [s / 2, s / 2],
   });
 }
@@ -86,8 +98,25 @@ function buildPopup(c) {
     rijtijdHtml += "</div>";
   }
 
-  const starClass = isFavorite(c.naam) ? "starred" : "";
-  const starChar  = isFavorite(c.naam) ? "★" : "☆";
+  const isFav = isFavorite(c.naam);
+  const isOr  = isOrange(c.naam);
+  const isRd  = isRed(c.naam);
+  const hasStatus = isFav || isOr || isRd;
+
+  // Als er een status is: toon alleen die knop. Anders: toon alle 3.
+  let actionsHtml = "";
+  if (!hasStatus) {
+    actionsHtml = `
+      <button class="star-btn" data-naam="${escHtml(c.naam)}" title="Favoriet">☆</button>
+      <button class="orange-btn" data-naam="${escHtml(c.naam)}" title="Twijfel">●</button>
+      <button class="red-btn" data-naam="${escHtml(c.naam)}" title="Niet interessant">●</button>`;
+  } else if (isFav) {
+    actionsHtml = `<button class="star-btn starred" data-naam="${escHtml(c.naam)}" title="Verwijder uit favorieten">★</button>`;
+  } else if (isOr) {
+    actionsHtml = `<button class="orange-btn marked-orange" data-naam="${escHtml(c.naam)}" title="Verwijder twijfel">●</button>`;
+  } else if (isRd) {
+    actionsHtml = `<button class="red-btn marked-red" data-naam="${escHtml(c.naam)}" title="Verwijder niet-interessant">●</button>`;
+  }
 
   return `
     <div class="popup-header-row">
@@ -95,7 +124,7 @@ function buildPopup(c) {
         <span class="popup-badge" style="background:${col}">${escHtml(actFirst)}</span>
         <span class="popup-prov">${escHtml(prov)}</span>
       </div>
-      <button class="star-btn ${starClass}" data-naam="${escHtml(c.naam)}" title="Favoriet">${starChar}</button>
+      <div class="popup-actions">${actionsHtml}</div>
     </div>
     <span class="popup-name">${escHtml(c.naam)}</span>
     ${info ? `<span class="popup-info">${escHtml(info)}</span>` : ""}
@@ -120,16 +149,34 @@ function render() {
   getVisibleCompanies().forEach(c => {
     const col = getActivityColor(c);
     const r   = GROOTTE_RADIUS[c.grootte] || 7;
-    const m   = L.marker([c.lat, c.lng], { icon: makeIcon(col, r, c.grootte === "Groot", isFavorite(c.naam)) })
-      .addTo(map)
-      .bindPopup(buildPopup(c), { maxWidth: 300 });
+    const m   = L.marker([c.lat, c.lng], {
+      icon: makeIcon(col, r, c.grootte === "Groot", isFavorite(c.naam), isOrange(c.naam), isRed(c.naam))
+    }).addTo(map).bindPopup(buildPopup(c), { maxWidth: 300 });
 
     m.on("popupopen", () => {
-      const btn = document.querySelector(".leaflet-popup .star-btn");
-      if (btn) btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        e.preventDefault();
+      const popup = document.querySelector(".leaflet-popup");
+      if (!popup) return;
+
+      const starBtn = popup.querySelector(".star-btn");
+      if (starBtn) starBtn.addEventListener("click", e => {
+        e.stopPropagation(); e.preventDefault();
         toggleFavorite(c);
+      });
+
+      const orangeBtn = popup.querySelector(".orange-btn");
+      if (orangeBtn) orangeBtn.addEventListener("click", e => {
+        e.stopPropagation(); e.preventDefault();
+        toggleOrange(c);
+        m.closePopup();
+        render();
+      });
+
+      const redBtn = popup.querySelector(".red-btn");
+      if (redBtn) redBtn.addEventListener("click", e => {
+        e.stopPropagation(); e.preventDefault();
+        toggleRed(c);
+        m.closePopup();
+        render();
       });
     });
     markers.push(m);

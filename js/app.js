@@ -47,6 +47,7 @@ async function init() {
   updateCounter();
 
   document.getElementById("fav-export").addEventListener("click", exportFavCSV);
+  document.getElementById("twijfel-export").addEventListener("click", exportTwijfelCSV);
   startAutoSync();
 }
 
@@ -62,10 +63,12 @@ function initTabs() {
       kaartEls.forEach(el => el.classList.toggle("hidden", tab !== "kaart"));
       document.getElementById("analyse-view").classList.toggle("hidden", tab !== "analyse");
       document.getElementById("favorieten-view").classList.toggle("hidden", tab !== "favorieten");
+      document.getElementById("twijfel-view").classList.toggle("hidden", tab !== "twijfel");
 
       if (tab === "kaart")            setTimeout(() => map.invalidateSize(), 100);
       else if (tab === "analyse")     renderAnalyse();
       else if (tab === "favorieten")  renderFavorieten();
+      else if (tab === "twijfel")     renderTwijfel();
     });
   });
 }

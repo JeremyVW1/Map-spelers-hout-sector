@@ -14,7 +14,7 @@ function buildFilters() {
 
   const regioRow = document.getElementById("filter-regio");
   addLabel(regioRow, "Regio:");
-  makeFilterBtn(regioRow, "🟢 Max 1:15 rijden voor V&J", "groene_zone", "#2E7D32", "regio");
+  makeFilterBtn(regioRow, "🟢 Max 1:10 rijden voor V&J", "groene_zone", "#2E7D32", "regio");
   categorieen.filter(c => c.type === "regio").forEach(c => makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio"));
 
   const actRow = document.getElementById("filter-activiteit");
@@ -91,9 +91,23 @@ function buildLegend() {
   const zoneItems = document.createElement("div");
   zoneItems.className = "legend-items";
   zoneItems.innerHTML = `
-    <div class="legend-item"><div class="legend-dot" style="background:#4CAF50;border:1.5px dashed #2E7D32;opacity:0.7"></div><span>Max 1u rijden voor V&amp;J</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:#4CAF50;border:1.5px dashed #2E7D32;opacity:0.7"></div><span>Max 1:10 rijden voor V&amp;J</span></div>
     <div class="legend-item"><div style="color:#8B1A1A;font-size:12px;font-weight:700;flex-shrink:0;width:12px;text-align:center">&#9660;</div><span>Eigen locatie</span></div>
   `;
+
+  // Status
+  const statusGroup = document.createElement("div");
+  statusGroup.className = "legend-group";
+  statusGroup.innerHTML = '<span class="legend-group-title">Status</span>';
+  const statusItems = document.createElement("div");
+  statusItems.className = "legend-items";
+  statusItems.innerHTML = `
+    <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #f9a825;background:transparent"></div><span>Favoriet</span></div>
+    <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #e65100;background:transparent"></div><span>Twijfel</span></div>
+    <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #c62828;background:transparent"></div><span>Niet interessant</span></div>
+  `;
+  statusGroup.appendChild(statusItems);
+  el.appendChild(statusGroup);
   zoneGroup.appendChild(zoneItems);
   el.appendChild(zoneGroup);
 
