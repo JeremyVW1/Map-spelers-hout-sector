@@ -137,20 +137,17 @@ async function _fetchSheetData() {
     _parseBlad1(blad1);
     _parseTop25(top25);
 
-    // Twijfel/Rood tabs: alleen parsen als de response NIET gelijk is aan Blad1
-    // (oude script zonder nieuwe tabs stuurt Blad1 terug als fallback)
-    const blad1Json = JSON.stringify(blad1);
+    // Reset oranje/rood — Sheet is bron van waarheid, niet localStorage
+    markedOrange.clear(); orangeNotes = {}; orangeNotesVincent = {};
+    markedRed.clear();    redNotes = {};    redNotesVincent = {};
+
     try {
       const twijfelData = await res3.json();
-      if (JSON.stringify(twijfelData) !== blad1Json) {
-        _parseStatusTab(twijfelData, markedOrange, orangeNotes, orangeNotesVincent);
-      }
+      if (Array.isArray(twijfelData)) _parseStatusTab(twijfelData, markedOrange, orangeNotes, orangeNotesVincent);
     } catch {}
     try {
       const redData = await res4.json();
-      if (JSON.stringify(redData) !== blad1Json) {
-        _parseStatusTab(redData, markedRed, redNotes, redNotesVincent);
-      }
+      if (Array.isArray(redData)) _parseStatusTab(redData, markedRed, redNotes, redNotesVincent);
     } catch {}
     return true;
   } catch (e) {
