@@ -397,14 +397,14 @@ function _statusRow(c, t, notesJ, notesV, statusClass) {
   if (!hasStatus) {
     statusHtml = `
       <button class="star-btn" data-naam="${escHtml(c.naam)}" title="Favoriet">☆</button>
-      <button class="orange-btn" data-naam="${escHtml(c.naam)}" title="Twijfel">●</button>
-      <button class="red-btn" data-naam="${escHtml(c.naam)}" title="Niet interessant">●</button>`;
+      <button class="orange-btn" data-naam="${escHtml(c.naam)}" title="Twijfel">?</button>
+      <button class="red-btn" data-naam="${escHtml(c.naam)}" title="Niet interessant">✕</button>`;
   } else if (isFav) {
     statusHtml = `<button class="star-btn starred" data-naam="${escHtml(c.naam)}" title="Verwijder uit favorieten">★</button>`;
   } else if (isOr) {
-    statusHtml = `<button class="orange-btn marked-orange" data-naam="${escHtml(c.naam)}" title="Verwijder twijfel">●</button>`;
+    statusHtml = `<button class="orange-btn marked-orange" data-naam="${escHtml(c.naam)}" title="Verwijder twijfel">?</button>`;
   } else if (isRd) {
-    statusHtml = `<button class="red-btn marked-red" data-naam="${escHtml(c.naam)}" title="Verwijder niet-interessant">●</button>`;
+    statusHtml = `<button class="red-btn marked-red" data-naam="${escHtml(c.naam)}" title="Verwijder niet-interessant">✕</button>`;
   }
 
   return `
