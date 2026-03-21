@@ -14,7 +14,7 @@ function buildFilters() {
 
   const regioRow = document.getElementById("filter-regio");
   addLabel(regioRow, "Regio:");
-  makeFilterBtn(regioRow, "🟢 Max 1u rijden voor V&J", "groene_zone", "#2E7D32", "regio");
+  makeFilterBtn(regioRow, "🟢 Max 1:15 rijden voor V&J", "groene_zone", "#2E7D32", "regio");
   categorieen.filter(c => c.type === "regio").forEach(c => makeFilterBtn(regioRow, c.label, c.id, c.kleur, "regio"));
 
   const actRow = document.getElementById("filter-activiteit");

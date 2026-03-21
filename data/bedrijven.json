@@ -103,7 +103,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 49
   },
   {
     "naam": "Cras Woodshops Meulebeke",
@@ -158,7 +160,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 36,
+    "rijtijd_drongen": 55
   },
   {
     "naam": "Vandenbroucke Hout",
@@ -251,7 +255,9 @@
       "online",
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 38,
+    "rijtijd_drongen": 45
   },
   {
     "naam": "Houthandel Vanhaverbeke",
@@ -294,7 +300,9 @@
     "activiteiten": [
       "dhz",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 17,
+    "rijtijd_drongen": 32
   },
   {
     "naam": "Eurowood",
@@ -392,7 +400,9 @@
     "cw_brutomarge": 768033,
     "cw_winst": 405877,
     "cw_fte": 2,
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "rijtijd_hertsberge": 38,
+    "rijtijd_drongen": 43
   },
   {
     "naam": "Geldhof Hout",
@@ -409,7 +419,9 @@
     "activiteiten": [
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 39,
+    "rijtijd_drongen": 54
   },
   {
     "naam": "Huys Houthandel",
@@ -516,7 +528,9 @@
     "cw_brutomarge": 196121,
     "cw_winst": 6407,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "rijtijd_hertsberge": 15,
+    "rijtijd_drongen": 30
   },
   {
     "naam": "Lagae Hout",
@@ -570,7 +584,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 60,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "Houthandel De Regge Gavere",
@@ -694,7 +710,9 @@
       "dhz",
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "Cras Woodshops Gent",
@@ -746,7 +764,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "D'Haeseleer",
@@ -762,7 +782,9 @@
     "oprichting": "1971",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 47,
+    "rijtijd_drongen": 26
   },
   {
     "naam": "Houthandel Steyaert",
@@ -2106,7 +2128,9 @@
     "btw": "BE 0405.494.642",
     "adres": "Cardijnlaan 4, 8600 Diksmuide",
     "rechtsvorm": "BV",
-    "oprichting": "1963"
+    "oprichting": "1963",
+    "rijtijd_hertsberge": 42,
+    "rijtijd_drongen": 57
   },
   {
     "naam": "Thys Hout (Kapellen)",
@@ -2458,7 +2482,9 @@
     "cw_brutomarge": 65198,
     "cw_winst": 3319,
     "cw_fte": 1.7,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "rijtijd_hertsberge": 47,
+    "rijtijd_drongen": 26
   },
   {
     "naam": "N.V. Houthandel De Sutter",
@@ -2476,7 +2502,9 @@
     ],
     "btw": "BE 0425.103.686",
     "adres": "Issegem 5, 9860 Oosterzele",
-    "rechtsvorm": "NV"
+    "rechtsvorm": "NV",
+    "rijtijd_hertsberge": 46,
+    "rijtijd_drongen": 25
   },
   {
     "naam": "Houthandel Waasland (Moerbeke)",
@@ -2492,7 +2520,9 @@
     ],
     "btw": "BE 0405.597.580",
     "adres": "Dorpvaart 74, 9180 Lokeren",
-    "rechtsvorm": "BV"
+    "rechtsvorm": "BV",
+    "rijtijd_hertsberge": 56,
+    "rijtijd_drongen": 35
   },
   {
     "naam": "Houthandel Desmet (Meulebeke)",
@@ -2655,7 +2685,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "Houthandel Tavernier (Jabbeke)",
@@ -2675,7 +2707,9 @@
       "dhz",
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 17,
+    "rijtijd_drongen": 32
   },
   {
     "naam": "Cras Woodshops Oostende",
@@ -2697,7 +2731,9 @@
       "dhz",
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 28,
+    "rijtijd_drongen": 43
   },
   {
     "naam": "Cras Woodshops Roeselare",
@@ -2845,7 +2881,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 25,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "Botanica Wood (Roeselare)",
@@ -2891,7 +2929,9 @@
     "cw_brutomarge": 768033,
     "cw_winst": 405877,
     "cw_fte": 2,
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 41
   },
   {
     "naam": "Geldhof Hout (Moorslede)",
@@ -2908,7 +2948,9 @@
     "activiteiten": [
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 52
   },
   {
     "naam": "Houthandel Beheyt (Poperinge)",
@@ -3058,7 +3100,9 @@
       "dhz",
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 39,
+    "rijtijd_drongen": 48
   },
   {
     "naam": "Cras Woodshops Ardooie",
@@ -3181,7 +3225,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 56
   },
   {
     "naam": "Debeuckelaere Roeselare",
@@ -3295,7 +3341,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 25,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "Houtmagazijn Verdonckt (Avelgem)",
@@ -3317,7 +3365,9 @@
     "cw_brutomarge": 1068646,
     "cw_winst": -319032,
     "cw_fte": 16.7,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 44
   },
   {
     "naam": "Houthandel Verwée (Kuurne)",
@@ -3362,7 +3412,9 @@
     "cw_winst": 275331,
     "cw_omzet": 12577720,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 53
   },
   {
     "naam": "Houthandel Loose (Sint-Andries/Brugge)",
@@ -3451,7 +3503,9 @@
     "activiteiten": [
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 52
   },
   {
     "naam": "Tieltse Houthandel (Tielt)",
@@ -3541,7 +3595,9 @@
     "activiteiten": [
       "houthandel",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 26,
+    "rijtijd_drongen": 41
   },
   {
     "naam": "Houthandel Dequidt (Veurne)",
@@ -3627,7 +3683,9 @@
       "tuinhuis",
       "online",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 38,
+    "rijtijd_drongen": 45
   },
   {
     "naam": "Eurowood (Wielsbeke)",
@@ -3920,7 +3978,9 @@
     "cw_brutomarge": 1068646,
     "cw_winst": -319032,
     "cw_fte": 16.7,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 44
   },
   {
     "naam": "Contesse Vloerbedekkingen (Nazareth)",
@@ -3955,7 +4015,9 @@
       "parket"
     ],
     "website": "parketverliefde.be",
-    "adres": "Mgr. Meulemanstraat 29, 9520 Sint-Lievens-Houtem"
+    "adres": "Mgr. Meulemanstraat 29, 9520 Sint-Lievens-Houtem",
+    "rijtijd_hertsberge": 47,
+    "rijtijd_drongen": 26
   },
   {
     "naam": "Dubois-Parquet (Waregem — Cras Group)",
@@ -4040,7 +4102,9 @@
       "houthandel"
     ],
     "website": "www.woodstar.be",
-    "adres": "Avelgem (WVL)"
+    "adres": "Avelgem (WVL)",
+    "rijtijd_hertsberge": 66,
+    "rijtijd_drongen": 45
   },
   {
     "naam": "De Houthoek (Koekelare)",
@@ -4056,7 +4120,9 @@
       "houthandel"
     ],
     "website": "www.houthoek.be",
-    "adres": "Provinciebaan 6, 8680 Koekelare"
+    "adres": "Provinciebaan 6, 8680 Koekelare",
+    "rijtijd_hertsberge": 29,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Filip Valcke Tuinhuizen (Diksmuide)",
@@ -4073,7 +4139,9 @@
     "btw": "BE0874.963.259",
     "medewerkers": "1-4",
     "oprichting": "1968",
-    "adres": "Wijnendalestraat 49, 8600 Diksmuide"
+    "adres": "Wijnendalestraat 49, 8600 Diksmuide",
+    "rijtijd_hertsberge": 38,
+    "rijtijd_drongen": 53
   },
   {
     "naam": "Ostyn / Poolhouse Plaza (WVL)",
@@ -4132,7 +4200,9 @@
     "activiteiten": [
       "tuinhuis",
       "terrassen"
-    ]
+    ],
+    "rijtijd_hertsberge": 55,
+    "rijtijd_drongen": 35
   },
   {
     "naam": "De Meyer Outdoor Living (Evergem) — tuinhuizen",
@@ -4272,7 +4342,9 @@
       "paarden"
     ],
     "website": "www.houthoek.be",
-    "adres": "Koekelare"
+    "adres": "Koekelare",
+    "rijtijd_hertsberge": 29,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "BJ Parket (Zele — OVL)",
@@ -4287,7 +4359,9 @@
       "houthandel"
     ],
     "website": "www.bjparket.be",
-    "adres": "Industriestraat 44, 9240 Zele"
+    "adres": "Industriestraat 44, 9240 Zele",
+    "rijtijd_hertsberge": 52,
+    "rijtijd_drongen": 31
   },
   {
     "naam": "Tuinweelde (OVL)",
@@ -4301,7 +4375,9 @@
       "tuinhuis",
       "terrassen"
     ],
-    "website": "tuinweelde.be"
+    "website": "tuinweelde.be",
+    "rijtijd_hertsberge": 50,
+    "rijtijd_drongen": 29
   },
   {
     "naam": "Agrodieren.be",
@@ -4377,7 +4453,9 @@
       "dhz",
       "terrassen",
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 17,
+    "rijtijd_drongen": 32
   },
   {
     "naam": "Goeminne Tuinhout (Dikkelvenne)",
@@ -4479,7 +4557,9 @@
     "adres": "Kortemarktstraat 17B, 8830 Hooglede",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 29,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Raes Marcel Houthandel (Hooglede)",
@@ -4494,7 +4574,9 @@
     "adres": "8830 Hooglede",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 29,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Horatec (Kuurne)",
@@ -4530,7 +4612,9 @@
     "adres": "8610 Kortemark",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 27,
+    "rijtijd_drongen": 45
   },
   {
     "naam": "Houthandel Anseeuw (Jabbeke)",
@@ -4542,7 +4626,9 @@
     "info": "Houthandel regio Jabbeke.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 16,
+    "rijtijd_drongen": 31
   },
   {
     "naam": "Van Den Hende (Kuurne)",
@@ -4615,7 +4701,9 @@
     "adres": "8470 Gistel",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 25,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "Houthandel Deville-Claeys (Gent)",
@@ -4650,7 +4738,9 @@
     "info": "Houthandel. Zottegem.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 47,
+    "rijtijd_drongen": 27
   },
   {
     "naam": "Van De Velde Hout (Wetteren)",
@@ -4662,7 +4752,9 @@
     "info": "Houthandel. Wetteren.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 20
   },
   {
     "naam": "Houthandel Mollaert (Aalst)",
@@ -4744,7 +4836,9 @@
     "info": "Houthandel. Horebeke.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Houthandel De Roose (Ninove)",
@@ -4814,7 +4908,9 @@
     "info": "Houthandel. Zottegem.",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 48,
+    "rijtijd_drongen": 27
   },
   {
     "naam": "Lemahieu Group (Gent)",
@@ -4898,7 +4994,9 @@
     "activiteiten": [
       "houthandel"
     ],
-    "adres": "Lokeren, 9160"
+    "adres": "Lokeren, 9160",
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "Houthandel Roger Van Acker (Beveren)",
@@ -4947,7 +5045,9 @@
     "adres": "Wichelsesteenweg 196, 9340 Lede",
     "activiteiten": [
       "houthandel"
-    ]
+    ],
+    "rijtijd_hertsberge": 48,
+    "rijtijd_drongen": 27
   },
   {
     "naam": "Houthandel Van Herzeele (Nazareth)",
@@ -5291,7 +5391,9 @@
     "info": "Parketspecialist. Knokke-Heist.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 48
   },
   {
     "naam": "Ka-parket (Blankenberge)",
@@ -5304,7 +5406,9 @@
     "activiteiten": [
       "parket"
     ],
-    "website": "ka-parket.be"
+    "website": "ka-parket.be",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 45
   },
   {
     "naam": "BV Parket (Diksmuide)",
@@ -5316,7 +5420,9 @@
     "info": "Parketvloeren. Quick-step, Parador, Parky. Beerst/Diksmuide.",
     "activiteiten": [
       "parket"
-    ]
+    ],
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 55
   },
   {
     "naam": "Renoba Parket (Brugge)",
@@ -5408,7 +5514,9 @@
     "adres": "Gistelsteenweg 2B, 8490 Jabbeke",
     "btw": "BE0520.371.841",
     "oprichting": "1964",
-    "website": "parket-reyserhove.be"
+    "website": "parket-reyserhove.be",
+    "rijtijd_hertsberge": 17,
+    "rijtijd_drongen": 32
   },
   {
     "naam": "Parket Vanackere (Wevelgem)",
@@ -5421,7 +5529,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Roeselarestraat 305, 8560 Wevelgem"
+    "adres": "Roeselarestraat 305, 8560 Wevelgem",
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 42
   },
   {
     "naam": "Parket Center (Kuurne)",
@@ -5477,7 +5587,9 @@
       "import"
     ],
     "btw": "BE 0887.365.995",
-    "adres": "Hogeweg 245, 8930 Menen"
+    "adres": "Hogeweg 245, 8930 Menen",
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Lalegno (Waregem)",
@@ -5707,7 +5819,9 @@
       "parket",
       "houthandel"
     ],
-    "adres": "'t Walletje 80, 8300 Knokke-Heist"
+    "adres": "'t Walletje 80, 8300 Knokke-Heist",
+    "rijtijd_hertsberge": 33,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Parketvloeren G. Mulliez (Oostrozebeke)",
@@ -5743,7 +5857,9 @@
       "terrassen"
     ],
     "btw": "BE 0892.082.472",
-    "adres": "Salinusstraat 41, 8560 Wevelgem"
+    "adres": "Salinusstraat 41, 8560 Wevelgem",
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 42
   },
   {
     "naam": "Emex Interior (Knokke-Heist)",
@@ -5756,7 +5872,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Natiënlaan 201, 8300 Knokke-Heist"
+    "adres": "Natiënlaan 201, 8300 Knokke-Heist",
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Proworks (Poelkapelle)",
@@ -5770,7 +5888,9 @@
       "parket",
       "terrassen"
     ],
-    "adres": "Poelkapelle"
+    "adres": "Poelkapelle",
+    "rijtijd_hertsberge": 45,
+    "rijtijd_drongen": 60
   },
   {
     "naam": "Guy Van Borm (Ardooie)",
@@ -5819,7 +5939,9 @@
       "online"
     ],
     "btw": "BE 1017.207.029",
-    "adres": "Gentsesteenweg 44A, 9420 Erpe-Mere"
+    "adres": "Gentsesteenweg 44A, 9420 Erpe-Mere",
+    "rijtijd_hertsberge": 41,
+    "rijtijd_drongen": 21
   },
   {
     "naam": "Floordesign (Geraardsbergen)",
@@ -5872,7 +5994,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Scheldewindeke"
+    "adres": "Scheldewindeke",
+    "rijtijd_hertsberge": 41,
+    "rijtijd_drongen": 20
   },
   {
     "naam": "Luc Callant Decoratieteam (Knokke)",
@@ -5885,7 +6009,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Knokke-Heist"
+    "adres": "Knokke-Heist",
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 48
   },
   {
     "naam": "Unilin / Quick-Step (Wielsbeke)",
@@ -5926,7 +6052,9 @@
       "parket",
       "import"
     ],
-    "adres": "Lageweg 33, 8930 Menen"
+    "adres": "Lageweg 33, 8930 Menen",
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 49
   },
   {
     "naam": "Deco-Floor Parketvloeren (Oostrozebeke)",
@@ -5980,7 +6108,9 @@
       "import"
     ],
     "btw": "BE 0449.721.791",
-    "adres": "Nieuwe Pontstraat 3, 9600 Ronse"
+    "adres": "Nieuwe Pontstraat 3, 9600 Ronse",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "Parket Lefevere (Sint-Eloois-Winkel)",
@@ -6033,7 +6163,9 @@
       "parket",
       "online"
     ],
-    "adres": "Industripark 12a bus 7, 8587 Spiere-Helkijn"
+    "adres": "Industripark 12a bus 7, 8587 Spiere-Helkijn",
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 49
   },
   {
     "naam": "DS Parket (Roeselare)",
@@ -6125,7 +6257,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Knokke-Heist"
+    "adres": "Knokke-Heist",
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 47
   },
   {
     "naam": "Desomer-Plancke (Poperinge)",
@@ -6249,7 +6383,9 @@
       "parket",
       "online"
     ],
-    "adres": "Kortrijkstraat 305, 8560 Wevelgem"
+    "adres": "Kortrijkstraat 305, 8560 Wevelgem",
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 42
   },
   {
     "naam": "Laminaatshop (Dendermonde)",
@@ -6340,7 +6476,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Ronse"
+    "adres": "Ronse",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "Janssen Parketwerken (Knokke)",
@@ -6353,7 +6491,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Knokke-Heist"
+    "adres": "Knokke-Heist",
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 47
   },
   {
     "naam": "Balterio / Spanolux (Sint-Baafs-Vijve)",
@@ -6471,7 +6611,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Knokke-Heist"
+    "adres": "Knokke-Heist",
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 47
   },
   {
     "naam": "Solid International (Brugge)",
@@ -6562,7 +6704,9 @@
       "parket",
       "agro"
     ],
-    "adres": "Westrozebeke"
+    "adres": "Westrozebeke",
+    "rijtijd_hertsberge": 42,
+    "rijtijd_drongen": 58
   },
   {
     "naam": "Vanhaelewyn (Gits/Hooglede)",
@@ -6685,7 +6829,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Ronse"
+    "adres": "Ronse",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "Stavan (Kuurne)",
@@ -6736,7 +6882,9 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Meensesteenweg 635, 8800 Roeselare"
+    "adres": "Meensesteenweg 635, 8800 Roeselare",
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 51
   },
   {
     "naam": "D&D Chalet & Tuincenter (Izegem)",
@@ -6919,7 +7067,9 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Sint-Fledericusstraat 29B, 9520 Vlierzele"
+    "adres": "Sint-Fledericusstraat 29B, 9520 Vlierzele",
+    "rijtijd_hertsberge": 46,
+    "rijtijd_drongen": 25
   },
   {
     "naam": "Vanhauwood (Maldegem)",
@@ -7157,7 +7307,9 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Rekkem, 8930 Menen"
+    "adres": "Rekkem, 8930 Menen",
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "Woodproject (Menen)",
@@ -7171,7 +7323,9 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "Menen"
+    "adres": "Menen",
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 49
   },
   {
     "naam": "Tuinen De Soete (Sint-Andries/Brugge)",
@@ -7323,7 +7477,9 @@
       "tuinhuis"
     ],
     "btw": "BE 0700.640.304",
-    "adres": "Bergstraat 81, 9180 Moerbeke-Waas"
+    "adres": "Bergstraat 81, 9180 Moerbeke-Waas",
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Systimber (De Pinte)",
@@ -7397,7 +7553,9 @@
       "houthandel"
     ],
     "btw": "BE 0828.419.293",
-    "adres": "Ooststraat 37, 9180 Moerbeke-Waas"
+    "adres": "Ooststraat 37, 9180 Moerbeke-Waas",
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "De Wilde Houtconstructies (Staden)",
@@ -7411,7 +7569,9 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "Kapelleriestraat 28, 8840 Staden"
+    "adres": "Kapelleriestraat 28, 8840 Staden",
+    "rijtijd_hertsberge": 36,
+    "rijtijd_drongen": 54
   },
   {
     "naam": "DB Chalets / Tuinhuizen Deinze",
@@ -7473,7 +7633,9 @@
       "online"
     ],
     "btw": "BE 0462.924.481",
-    "adres": "Nieuwe Pontstraat 2, 9600 Ronse"
+    "adres": "Nieuwe Pontstraat 2, 9600 Ronse",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "Felke (Stekene)",
@@ -7486,7 +7648,9 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Stekene"
+    "adres": "Stekene",
+    "rijtijd_hertsberge": 64,
+    "rijtijd_drongen": 43
   },
   {
     "naam": "Bogarden (Stekene)",
@@ -7499,7 +7663,9 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Stekene"
+    "adres": "Stekene",
+    "rijtijd_hertsberge": 64,
+    "rijtijd_drongen": 43
   },
   {
     "naam": "JT Renovaties & Tuinconcepten (Sint-Niklaas)",
@@ -7527,7 +7693,9 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Bergstraat 81, 9180 Moerbeke-Waas"
+    "adres": "Bergstraat 81, 9180 Moerbeke-Waas",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   },
   {
     "naam": "Vandenauweele (Gistel)",
@@ -7542,7 +7710,9 @@
       "houthandel"
     ],
     "btw": "BE 0433.187.251",
-    "adres": "Torhoutse Baan 97, 8470 Gistel"
+    "adres": "Torhoutse Baan 97, 8470 Gistel",
+    "rijtijd_hertsberge": 27,
+    "rijtijd_drongen": 42
   },
   {
     "naam": "Decadt Construct (Proven/Poperinge)",
@@ -7678,7 +7848,9 @@
       "paarden",
       "online"
     ],
-    "website": "houtstock.be"
+    "website": "houtstock.be",
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 10
   },
   {
     "naam": "De Slagmolen",
@@ -7709,7 +7881,9 @@
     ],
     "btw": "BE0752.847.484",
     "website": "timberfence.be",
-    "adres": "Ieperstraat 213, 8940 Geluwe"
+    "adres": "Ieperstraat 213, 8940 Geluwe",
+    "rijtijd_hertsberge": 47,
+    "rijtijd_drongen": 56
   },
   {
     "naam": "MKS Omheiningen",
@@ -7756,7 +7930,9 @@
       "agro"
     ],
     "website": "afsluitingenwoodline.be",
-    "adres": "Frezenbergstraat 17, 8980 Zonnebeke"
+    "adres": "Frezenbergstraat 17, 8980 Zonnebeke",
+    "rijtijd_hertsberge": 43,
+    "rijtijd_drongen": 52
   },
   {
     "naam": "Stevens Gates & Fences",
@@ -7772,7 +7948,9 @@
       "online"
     ],
     "website": "houtenweide-omheining.be",
-    "adres": "Dorpvaart 2A, 9180 Moerbeke-Waas"
+    "adres": "Dorpvaart 2A, 9180 Moerbeke-Waas",
+    "rijtijd_hertsberge": 58,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Horse Facilities",
@@ -7940,7 +8118,9 @@
     ],
     "btw": "BE0760.796.635",
     "website": "naturae.be",
-    "adres": "Ieperstraat 193, 8980 Zonnebeke"
+    "adres": "Ieperstraat 193, 8980 Zonnebeke",
+    "rijtijd_hertsberge": 43,
+    "rijtijd_drongen": 51
   },
   {
     "naam": "Parquet Philippe",
@@ -7997,7 +8177,9 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Oostkamp, 8020"
+    "adres": "Oostkamp, 8020",
+    "rijtijd_hertsberge": 6,
+    "rijtijd_drongen": 30
   },
   {
     "naam": "Parket Service Antwerpen",
@@ -8054,7 +8236,9 @@
     ],
     "btw": "BE0440.072.766",
     "website": "tuinhuisstore.be",
-    "adres": "België"
+    "adres": "België",
+    "rijtijd_hertsberge": 35,
+    "rijtijd_drongen": 11
   },
   {
     "naam": "Fruytier Scierie",
@@ -8179,7 +8363,9 @@
     ],
     "btw": "BE0841.894.771",
     "website": "natuurhout.be",
-    "adres": "Adolf Van Der Moerenstraat 39, 9240 Zele"
+    "adres": "Adolf Van Der Moerenstraat 39, 9240 Zele",
+    "rijtijd_hertsberge": 52,
+    "rijtijd_drongen": 31
   },
   {
     "naam": "Afsluitingen Van Eecke",
@@ -8195,7 +8381,9 @@
     ],
     "btw": "BE0894.671.184",
     "website": "afsluitingenvaneecke.be",
-    "adres": "Amersveldestraat 177A, 8610 Handzame (Kortemark)"
+    "adres": "Amersveldestraat 177A, 8610 Handzame (Kortemark)",
+    "rijtijd_hertsberge": 33,
+    "rijtijd_drongen": 52
   },
   {
     "naam": "Gebroeders Van Cleemputte",
@@ -8211,7 +8399,9 @@
     ],
     "btw": "BE0842.612.769",
     "website": "",
-    "adres": "Pelgrimsweg 1, 9620 Zottegem"
+    "adres": "Pelgrimsweg 1, 9620 Zottegem",
+    "rijtijd_hertsberge": 51,
+    "rijtijd_drongen": 31
   },
   {
     "naam": "Schuilhokken.be",
@@ -8227,7 +8417,9 @@
     ],
     "btw": "",
     "website": "schuilhokken.be",
-    "adres": "Astweg 2, 8570 Anzegem"
+    "adres": "Astweg 2, 8570 Anzegem",
+    "rijtijd_hertsberge": 42,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "Draadmagazijn",
