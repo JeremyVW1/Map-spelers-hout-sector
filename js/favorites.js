@@ -136,8 +136,22 @@ async function _fetchSheetData() {
     const top25 = await res2.json();
     _parseBlad1(blad1);
     _parseTop25(top25);
-    try { _parseStatusTab(await res3.json(), markedOrange, orangeNotes, orangeNotesVincent); } catch {}
-    try { _parseStatusTab(await res4.json(), markedRed, redNotes, redNotesVincent); } catch {}
+
+    // Twijfel/Rood tabs: alleen parsen als de response NIET gelijk is aan Blad1
+    // (oude script zonder nieuwe tabs stuurt Blad1 terug als fallback)
+    const blad1Json = JSON.stringify(blad1);
+    try {
+      const twijfelData = await res3.json();
+      if (JSON.stringify(twijfelData) !== blad1Json) {
+        _parseStatusTab(twijfelData, markedOrange, orangeNotes, orangeNotesVincent);
+      }
+    } catch {}
+    try {
+      const redData = await res4.json();
+      if (JSON.stringify(redData) !== blad1Json) {
+        _parseStatusTab(redData, markedRed, redNotes, redNotesVincent);
+      }
+    } catch {}
     return true;
   } catch (e) {
     console.warn("Sheet sync mislukt:", e);
