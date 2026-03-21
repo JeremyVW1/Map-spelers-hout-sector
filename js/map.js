@@ -41,32 +41,71 @@ function isAboveBorder(lat, lng) {
   return lat > 51.35;
 }
 
-// Doelgebied: overlap ≤55km (≈75 min) van Hertsberge én Drongen, afgekapt op BE-NL grens
+// Doelgebied: convex hull rond alle bedrijven met rijtijd ≤70 min + marge
 function addTargetZone() {
-  const h = EIGEN_LOCATIES[1].ll;
-  const d = EIGEN_LOCATIES[0].ll;
-  const maxKm = GROENE_ZONE_KM;
-  const midLat = (h[0] + d[0]) / 2;
-  const midLng = (h[1] + d[1]) / 2;
-  const points = [];
+  // Verzamel alle bedrijven in de groene zone
+  const pts = bedrijven
+    .filter(c => inGroeneZone(c))
+    .map(c => [c.lat, c.lng]);
 
-  for (let angle = 0; angle < 360; angle += 2) {
-    for (let r = maxKm; r > 0; r -= 1) {
-      const lat = midLat + (r / 111) * Math.cos((angle * Math.PI) / 180);
-      const lng = midLng + (r / (111 * Math.cos((midLat * Math.PI) / 180))) * Math.sin((angle * Math.PI) / 180);
-      if (isAboveBorder(lat, lng)) continue;
-      if (distKm(lat, lng, h[0], h[1]) <= maxKm && distKm(lat, lng, d[0], d[1]) <= maxKm) {
-        points.push([lat, lng]);
-        break;
-      }
-    }
+  if (pts.length < 3) return;
+
+  // Convex hull (Graham scan)
+  const hull = _convexHull(pts);
+  if (hull.length < 3) return;
+
+  // Maak de vorm zachter: voeg marge toe (~5km) en smooth
+  const center = hull.reduce((a, p) => [a[0] + p[0] / hull.length, a[1] + p[1] / hull.length], [0, 0]);
+  const expanded = hull.map(p => {
+    const dx = p[0] - center[0];
+    const dy = p[1] - center[1];
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    const margin = 0.045; // ~5km in graden
+    return [
+      p[0] + (dx / dist) * margin,
+      p[1] + (dy / dist) * margin,
+    ];
+  });
+
+  // Filter punten boven BE-NL grens
+  const clipped = expanded.map(p => isAboveBorder(p[0], p[1]) ? _clipToBorder(p, center) : p);
+
+  L.polygon(clipped, {
+    color: "#2E7D32", weight: 2, fillColor: "#4CAF50", fillOpacity: 0.08, dashArray: "8,4",
+  }).addTo(map);
+}
+
+function _clipToBorder(point, center) {
+  // Schuif punt naar beneden tot net onder de grens
+  let [lat, lng] = point;
+  for (let i = 0; i < 50; i++) {
+    lat -= 0.005;
+    if (!isAboveBorder(lat, lng)) return [lat, lng];
+  }
+  return [lat, lng];
+}
+
+function _convexHull(points) {
+  const pts = points.slice().sort((a, b) => a[1] - b[1] || a[0] - b[0]);
+  if (pts.length <= 2) return pts;
+
+  function cross(O, A, B) {
+    return (A[0] - O[0]) * (B[1] - O[1]) - (A[1] - O[1]) * (B[0] - O[0]);
   }
 
-  if (points.length > 2) {
-    L.polygon(points, {
-      color: "#2E7D32", weight: 2, fillColor: "#4CAF50", fillOpacity: 0.08, dashArray: "8,4",
-    }).addTo(map);
+  const lower = [];
+  for (const p of pts) {
+    while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], p) <= 0) lower.pop();
+    lower.push(p);
   }
+  const upper = [];
+  for (let i = pts.length - 1; i >= 0; i--) {
+    while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], pts[i]) <= 0) upper.pop();
+    upper.push(pts[i]);
+  }
+  lower.pop();
+  upper.pop();
+  return lower.concat(upper);
 }
 
 // Eigen locatie markers
