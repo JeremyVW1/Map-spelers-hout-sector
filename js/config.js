@@ -1,7 +1,8 @@
 /* Houtkaart — Configuratie, constanten & gedeelde hulpfuncties */
 
 /* ─── Constanten ─── */
-const GROENE_ZONE_KM      = 40;
+const GROENE_ZONE_KM      = 55;   // fallback voor bedrijven zonder rijtijd
+const GROENE_ZONE_MIN     = 75;   // max 75 min rijden van beide locaties
 const SEARCH_DEBOUNCE_MS  = 150;
 const SEARCH_MAX_RESULTS  = 8;
 const DEFAULT_REGIOS      = ["wvl", "ovl"];
@@ -32,6 +33,11 @@ function distKm(lat1, lng1, lat2, lng2) {
 }
 
 function inGroeneZone(c) {
+  // Primair: rijtijd ≤ 75 min van beide locaties
+  if (c.rijtijd_hertsberge != null && c.rijtijd_drongen != null) {
+    return c.rijtijd_hertsberge <= GROENE_ZONE_MIN && c.rijtijd_drongen <= GROENE_ZONE_MIN;
+  }
+  // Fallback: afstand ≤ 55km (≈ 75 min) voor bedrijven zonder rijtijd
   const h = EIGEN_LOCATIES[1].ll;
   const d = EIGEN_LOCATIES[0].ll;
   return distKm(c.lat, c.lng, h[0], h[1]) <= GROENE_ZONE_KM
