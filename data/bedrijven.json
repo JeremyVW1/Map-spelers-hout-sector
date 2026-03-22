@@ -8393,5 +8393,974 @@
     "btw": "BE0463.744.033",
     "website": "draadmagazijn.be",
     "adres": "De Weven 11, 3583 Paal-Beringen"
+  },
+  {
+    "naam": "AFSLUITINGEN DE SOETE",
+    "lat": 50.8868222,
+    "lng": 3.4323622,
+    "adres": "Waregem",
+    "btw": "BE0847.512.853",
+    "website": "https://www.afsluitingen-de-soete.be/",
+    "email": "info@afsluitingen-de-soete.be",
+    "tel": "+32 56 72 83 68",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 859823.4,
+    "cw_fte": 5,
+    "rijtijd_hertsberge": 38,
+    "rijtijd_drongen": 31
+  },
+  {
+    "naam": "Boncquet Robert",
+    "lat": 50.7715779,
+    "lng": 3.8827287,
+    "adres": "Geraardsbergen",
+    "btw": "BE0417.013.886",
+    "website": "https://boncquet.be/",
+    "email": "info@boncquet.be",
+    "tel": "+32 56 48 48 42",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 424279.34,
+    "cw_fte": 7,
+    "rijtijd_hertsberge": 60,
+    "rijtijd_drongen": 40
+  },
+  {
+    "naam": "CALLANT LUC DECORATIETEAM",
+    "lat": 51.3433866,
+    "lng": 3.2884738,
+    "adres": "Knokke-Heist",
+    "btw": "BE0836.883.435",
+    "website": "https://luccallant.be/",
+    "email": "info@luccallant.be",
+    "tel": "+32 50 60 65 68",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 357130.97,
+    "cw_fte": 5.2,
+    "rijtijd_hertsberge": 33,
+    "rijtijd_drongen": 46
+  },
+  {
+    "naam": "CARPENTIER KENNETH",
+    "lat": 51.0333408,
+    "lng": 2.8647185,
+    "adres": "Diksmuide",
+    "btw": "BE0661.774.580",
+    "website": "https://winsolcarpentier.be/",
+    "email": "info@kennethcarpentier.be",
+    "tel": "+32 51 24 56 49",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 350132.41,
+    "cw_fte": 11,
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 55
+  },
+  {
+    "naam": "CLOETENS",
+    "lat": 51.3112589,
+    "lng": 3.1323429,
+    "adres": "Blankenberge",
+    "btw": "BE0454.032.056",
+    "website": "https://www.cloetensdeuren.be/",
+    "email": "info@cloetensdeuren.be",
+    "tel": "+32 15 55 04 56",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 377161.69,
+    "cw_fte": 17.8,
+    "rijtijd_hertsberge": 28,
+    "rijtijd_drongen": 43
+  },
+  {
+    "naam": "CLPA",
+    "lat": 51.2185075,
+    "lng": 3.6190769,
+    "adres": "Kaprijke",
+    "btw": "BE0476.213.877",
+    "website": "https://www.clpa.be/",
+    "email": "info@clpa.be",
+    "tel": "+32 9 373 91 41",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 555233.8,
+    "cw_fte": 0,
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 30
+  },
+  {
+    "naam": "Cachet Schrijnwerken",
+    "lat": 51.0601502,
+    "lng": 3.3070748,
+    "adres": "Wingene",
+    "btw": "BE0635.583.887",
+    "website": "https://cachetschrijnwerk.be/",
+    "email": "info@cachetschrijnwerk.be",
+    "tel": "+32 51 57 10 19",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 584405.83,
+    "cw_fte": 8.8,
+    "rijtijd_hertsberge": 12,
+    "rijtijd_drongen": 27
+  },
+  {
+    "naam": "D'HOKER & Co",
+    "lat": 50.8877794,
+    "lng": 4.061375,
+    "adres": "Denderleeuw",
+    "btw": "BE0862.588.732",
+    "website": "http://dhoker.be/",
+    "email": "schrijnwerkerij@dhoker.be",
+    "tel": "+32 53 66 26 48",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 681681.49,
+    "cw_fte": 0,
+    "rijtijd_hertsberge": 52,
+    "rijtijd_drongen": 31
+  },
+  {
+    "naam": "DE COENE INTERIOR DECORATION",
+    "lat": 50.7736409,
+    "lng": 3.2948511,
+    "adres": "Bellegem",
+    "btw": "BE0649.598.310",
+    "website": "https://www.decoene.eu/",
+    "email": "info@decoene.eu",
+    "tel": "+32 56 22 15 15",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 503122.74,
+    "cw_fte": 34.1,
+    "rijtijd_hertsberge": 44,
+    "rijtijd_drongen": 40
+  },
+  {
+    "naam": "DE LAERE DECOR",
+    "lat": 50.8089591,
+    "lng": 3.1841013,
+    "adres": "Wevelgem",
+    "btw": "BE0429.262.216",
+    "website": "https://delaeredecor.be/",
+    "email": "info@delaeredecor.be",
+    "tel": "+32 56 25 77 33",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 584905.11,
+    "cw_fte": 33.8,
+    "rijtijd_hertsberge": 36,
+    "rijtijd_drongen": 43
+  },
+  {
+    "naam": "DEBBAUT",
+    "lat": 51.3433866,
+    "lng": 3.2884738,
+    "adres": "Knokke-Heist",
+    "btw": "BE0426.332.024",
+    "website": "https://www.debbaut.be/",
+    "email": "info@debbaut.be",
+    "tel": "+32 50 60 90 09",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 409680.51,
+    "cw_fte": 7.2,
+    "rijtijd_hertsberge": 33,
+    "rijtijd_drongen": 46
+  },
+  {
+    "naam": "DHONDT INTERIEUR",
+    "lat": 51.1920224,
+    "lng": 3.1780136,
+    "adres": "Sint-Andries",
+    "btw": "BE0865.787.950",
+    "website": "https://www.dhondt.be/",
+    "email": "info@dhondt.be",
+    "tel": "+32 467 09 75 88",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 489477.31,
+    "cw_fte": 23.4,
+    "rijtijd_hertsberge": 17,
+    "rijtijd_drongen": 32
+  },
+  {
+    "naam": "DM - Line",
+    "lat": 51.1253635,
+    "lng": 4.2133313,
+    "adres": "Temse",
+    "btw": "BE0454.833.592",
+    "website": "https://www.dm-line.be/",
+    "email": "info@dm-line.be",
+    "tel": "+32 52 39 93 00",
+    "provincie": "ovl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 498585.57,
+    "cw_fte": 32.9,
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 36
+  },
+  {
+    "naam": "De Ruyver",
+    "lat": 51.0378815,
+    "lng": 3.8134662,
+    "adres": "Destelbergen",
+    "btw": "BE0424.912.359",
+    "website": "https://www.deruyvernv.be/",
+    "email": "",
+    "tel": "+32 9 228 23 76",
+    "provincie": "ovl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 396291.57,
+    "cw_fte": 24.3,
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 16
+  },
+  {
+    "naam": "Decruy",
+    "lat": 50.977425,
+    "lng": 2.9524442,
+    "adres": "Houthulst",
+    "btw": "BE0407.172.049",
+    "website": "https://www.decruy.be/",
+    "email": "alexanderdecruy@decruy.be",
+    "tel": "+32 51 70 28 01",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 415232.78,
+    "cw_fte": 68.5,
+    "rijtijd_hertsberge": 42,
+    "rijtijd_drongen": 59
+  },
+  {
+    "naam": "EUROFIBA",
+    "lat": 51.0601502,
+    "lng": 3.3070748,
+    "adres": "Wingene",
+    "btw": "BE0448.244.324",
+    "website": "https://www.eurofiba.be/",
+    "email": "",
+    "tel": "+32 51 70 00 00",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 659601.36,
+    "cw_fte": 14,
+    "rijtijd_hertsberge": 12,
+    "rijtijd_drongen": 27
+  },
+  {
+    "naam": "EUROPEN",
+    "lat": 51.126109,
+    "lng": 3.8003582,
+    "adres": "Desteldonk",
+    "btw": "BE0480.111.693",
+    "website": "https://europenramen.be/",
+    "email": "info@europenramen.be",
+    "tel": "+32 9 336 26 74",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 532751.35,
+    "cw_fte": 1,
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 25
+  },
+  {
+    "naam": "EUROPORT COMPANY",
+    "lat": 50.99519,
+    "lng": 3.2667652,
+    "adres": "Pittem",
+    "btw": "BE0423.861.690",
+    "website": "https://www.europort.be/",
+    "email": "info@europort.be",
+    "tel": "+32 51 46 62 83",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 570857.47,
+    "cw_fte": 15.2,
+    "rijtijd_hertsberge": 20,
+    "rijtijd_drongen": 31
+  },
+  {
+    "naam": "FLOORMASTERS",
+    "lat": 51.2258565,
+    "lng": 2.919496,
+    "adres": "Ostend",
+    "btw": "BE0795.175.316",
+    "website": "https://floormasters.be/",
+    "email": "info@floormasters.be",
+    "tel": "+32 59 24 20 40",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 375490.26,
+    "cw_fte": 2,
+    "rijtijd_hertsberge": 24,
+    "rijtijd_drongen": 39
+  },
+  {
+    "naam": "GEBR. HOLVOET GHV.",
+    "lat": 50.9202812,
+    "lng": 3.2549979,
+    "adres": "Ingelmunster",
+    "btw": "BE0428.253.713",
+    "website": "https://www.holvoetgebroeders.be/",
+    "email": "info@holvoetgebroeders.be",
+    "tel": "+32 51 31 02 06",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 375460.88,
+    "cw_fte": 24.6,
+    "rijtijd_hertsberge": 29,
+    "rijtijd_drongen": 40
+  },
+  {
+    "naam": "GEBROEDERS DEMASURE",
+    "lat": 50.8085182,
+    "lng": 3.4753524,
+    "adres": "Tiegem",
+    "btw": "BE0420.846.772",
+    "website": "https://www.demasure.be/",
+    "email": "info@demasure.be",
+    "tel": "+32 56 68 96 58",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 847073.63,
+    "cw_fte": 24.3,
+    "rijtijd_hertsberge": 50,
+    "rijtijd_drongen": 35
+  },
+  {
+    "naam": "GPG Deuren & Dressings",
+    "lat": 51.0312293,
+    "lng": 4.098112,
+    "adres": "Dendermonde",
+    "btw": "BE0656.922.503",
+    "website": "https://www.gpgdeurenendressings.be/",
+    "email": "info@gpgdeurenendressings.be",
+    "tel": "+32 3 434 10 80",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 360599.19,
+    "cw_fte": 4.8,
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 36
+  },
+  {
+    "naam": "HOUTBEDRIJF DIERICK",
+    "lat": 50.9569377,
+    "lng": 3.6418029,
+    "adres": "Eke",
+    "btw": "BE0428.183.437",
+    "website": "https://www.dierick.be/",
+    "email": "info@dierick.be",
+    "tel": "+32 9 385 58 13",
+    "provincie": "ovl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 983682.51,
+    "cw_fte": 26.3,
+    "rijtijd_hertsberge": 36,
+    "rijtijd_drongen": 16
+  },
+  {
+    "naam": "INTERIEUR TER DOEL",
+    "lat": 51.3111156,
+    "lng": 4.2643189,
+    "adres": "Doel",
+    "btw": "BE0479.667.869",
+    "website": "https://www.terdoel.be/",
+    "email": "info@terdoel.be",
+    "tel": "+32 2 451 16 16",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 950292.64,
+    "cw_fte": 7,
+    "rijtijd_hertsberge": 76,
+    "rijtijd_drongen": 55
+  },
+  {
+    "naam": "INTERIEUR VANESCH",
+    "lat": 51.1864843,
+    "lng": 2.8229746,
+    "adres": "Middelkerke",
+    "btw": "BE0659.791.426",
+    "website": "http://www.interieurvanesch.be/",
+    "email": "info@interieurvanesch.be",
+    "tel": "+32 473 36 05 86",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 350361.16,
+    "cw_fte": 5.9,
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 49
+  },
+  {
+    "naam": "JACOBS BINNENDEUREN",
+    "lat": 50.8214549,
+    "lng": 4.0037422,
+    "adres": "Ninove",
+    "btw": "BE0837.442.768",
+    "website": "https://www.jacobs-deuren.be/",
+    "email": "info@jacobs-deuren.be",
+    "tel": "+32 54 32 63 06",
+    "provincie": "ovl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 520125.72,
+    "cw_fte": 16.1,
+    "rijtijd_hertsberge": 56,
+    "rijtijd_drongen": 36
+  },
+  {
+    "naam": "KUBRIEK",
+    "lat": 51.1912194,
+    "lng": 3.1007692,
+    "adres": "Jabbeke",
+    "btw": "BE0737.772.201",
+    "website": "https://www.kubriek.be/",
+    "email": "info@kubriek.be",
+    "tel": "+32 50 68 62 08",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 415462.16,
+    "cw_fte": 0,
+    "rijtijd_hertsberge": 18,
+    "rijtijd_drongen": 33
+  },
+  {
+    "naam": "L.A. RAMEN JEAN LANSSENS",
+    "lat": 50.9642783,
+    "lng": 3.4191602,
+    "adres": "Dentergem",
+    "btw": "BE0412.458.054",
+    "website": "https://www.laramen.be/",
+    "email": "ferdy@laramen.be",
+    "tel": "+32 51 63 61 09",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 363397.81,
+    "cw_fte": 30.3,
+    "rijtijd_hertsberge": 27,
+    "rijtijd_drongen": 28
+  },
+  {
+    "naam": "MEUBELEN VANDERMEEREN",
+    "lat": 51.0724273,
+    "lng": 2.6621323,
+    "adres": "Veurne",
+    "btw": "BE0432.858.738",
+    "website": "https://www.vandermeeren.be/",
+    "email": "info@vandermeeren.be",
+    "tel": "+32 58 31 03 20",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 708652.97,
+    "cw_fte": 24.4,
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 55
+  },
+  {
+    "naam": "MONSEREZ PROJECTS",
+    "lat": 50.99519,
+    "lng": 3.2667652,
+    "adres": "Pittem",
+    "btw": "BE0424.724.792",
+    "website": "http://www.monserez.com/",
+    "email": "info@monserez.com",
+    "tel": "+32 51 46 73 47",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 596224.46,
+    "cw_fte": 13,
+    "rijtijd_hertsberge": 20,
+    "rijtijd_drongen": 31
+  },
+  {
+    "naam": "PDV-Deuren",
+    "lat": 50.9449511,
+    "lng": 3.1243935,
+    "adres": "Roeselare",
+    "btw": "BE0637.940.987",
+    "website": "https://www.pdvdeuren.be/",
+    "email": "info@pdvdeuren.be",
+    "tel": "+32 478 76 11 94",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 400282.18,
+    "cw_fte": 0.4,
+    "rijtijd_hertsberge": 31,
+    "rijtijd_drongen": 47
+  },
+  {
+    "naam": "PLEYSIER STEVEN",
+    "lat": 51.0903321,
+    "lng": 2.9784762,
+    "adres": "Koekelare",
+    "btw": "BE0883.160.452",
+    "website": "https://www.pleysiersteven.be/",
+    "email": "info@pleysiersteven.be",
+    "tel": "+32 51 58 93 67",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 419841,
+    "cw_fte": 8,
+    "rijtijd_hertsberge": 32,
+    "rijtijd_drongen": 48
+  },
+  {
+    "naam": "PROJEKT  &  DESIGN",
+    "lat": 50.8530626,
+    "lng": 3.1260861,
+    "adres": "Ledegem",
+    "btw": "BE0439.155.523",
+    "website": "https://www.projektdesign.be/",
+    "email": "info@projektdesign.be",
+    "tel": "+32 56 50 19 09",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 400360.28,
+    "cw_fte": 7.1,
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 49
+  },
+  {
+    "naam": "Placabois",
+    "lat": 50.8089591,
+    "lng": 3.1841013,
+    "adres": "Wevelgem",
+    "btw": "BE0405.435.353",
+    "website": "http://www.placabois.be/",
+    "email": "placabois@placabois.be",
+    "tel": "+32 56 60 21 12",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 781865.85,
+    "cw_fte": 14,
+    "rijtijd_hertsberge": 36,
+    "rijtijd_drongen": 43
+  },
+  {
+    "naam": "R. PARREIN - BOUDEN",
+    "lat": 50.8521947,
+    "lng": 2.8846047,
+    "adres": "Ieper",
+    "btw": "BE0434.673.331",
+    "website": "https://www.parreinbouden.be/",
+    "email": "claude.marechal@trappenparrein.be",
+    "tel": "+32 57 21 90 10",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 367646.29,
+    "cw_fte": 16.6,
+    "rijtijd_hertsberge": 51,
+    "rijtijd_drongen": 60
+  },
+  {
+    "naam": "SCHRIJNWERKERIJ BORRA",
+    "lat": 50.977425,
+    "lng": 2.9524442,
+    "adres": "Houthulst",
+    "btw": "BE0466.586.727",
+    "website": "https://borra.be/",
+    "email": "info@borra.be",
+    "tel": "+32 51 70 33 70",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 535084.34,
+    "cw_fte": 30.4,
+    "rijtijd_hertsberge": 42,
+    "rijtijd_drongen": 59
+  },
+  {
+    "naam": "Schrijnwerk Van de Walle",
+    "lat": 51.1001986,
+    "lng": 3.7644128,
+    "adres": "Oostakker",
+    "btw": "BE0429.946.659",
+    "website": "https://schrijnwerkvandewalle.be/",
+    "email": "info@schrijnwerkvandewalle.be",
+    "tel": "+32 9 355 53 63",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 778802.76,
+    "cw_fte": 7,
+    "rijtijd_hertsberge": 44,
+    "rijtijd_drongen": 21
+  },
+  {
+    "naam": "Schrijnwerkerij Verplancke",
+    "lat": 51.1912194,
+    "lng": 3.1007692,
+    "adres": "Jabbeke",
+    "btw": "BE0633.496.013",
+    "website": "http://schrijnwerkerijverplancke.be/",
+    "email": "schrijnwerkerijverplancke@gmail.com",
+    "tel": "+32 498 67 07 26",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 352820.95,
+    "cw_fte": 0,
+    "rijtijd_hertsberge": 18,
+    "rijtijd_drongen": 33
+  },
+  {
+    "naam": "TIMMERWERKEN JORIS",
+    "lat": 50.8961176,
+    "lng": 2.8556799,
+    "adres": "Boezinge",
+    "btw": "BE0866.439.830",
+    "website": "https://www.timmerwerken-joris.be/",
+    "email": "info@timmerwerken-joris.be",
+    "tel": "+32 475 73 35 85",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 646386,
+    "cw_fte": 0,
+    "rijtijd_hertsberge": 52,
+    "rijtijd_drongen": 60
+  },
+  {
+    "naam": "TUINEN HOFLACK",
+    "lat": 50.9122567,
+    "lng": 2.9338635,
+    "adres": "Langemark-Poelkapelle",
+    "btw": "BE0871.273.301",
+    "website": "https://www.tuinenhoflack.be/",
+    "email": "info@tuinenhoflack.be",
+    "tel": "+32 57 48 91 67",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 546894.9,
+    "cw_fte": 15.7,
+    "rijtijd_hertsberge": 46,
+    "rijtijd_drongen": 62
+  },
+  {
+    "naam": "TWEEPUNTEEN",
+    "lat": 50.8276429,
+    "lng": 3.2659884,
+    "adres": "Kortrijk",
+    "btw": "BE0644.854.218",
+    "website": "http://www.tweepunteen.be/",
+    "email": "info@tweepunteen.be",
+    "tel": "+32 56 44 69 70",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 439849.38,
+    "cw_fte": 22.8,
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 40
+  },
+  {
+    "naam": "The Veneer",
+    "lat": 50.7937353,
+    "lng": 3.1670445,
+    "adres": "Menen",
+    "btw": "BE0679.599.519",
+    "website": "https://www.theveneer.com/",
+    "email": "info@decospan.com",
+    "tel": "+32 56 52 88 00",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 388774.68,
+    "cw_fte": 1.9,
+    "rijtijd_hertsberge": 42,
+    "rijtijd_drongen": 45
+  },
+  {
+    "naam": "VAN DEN NEST HOUT – BOUW & INTERIEUR",
+    "lat": 50.9847481,
+    "lng": 4.0525271,
+    "adres": "Gijzegem",
+    "btw": "BE0422.486.765",
+    "website": "https://www.vandennest.be/",
+    "email": "info@vandennest.be",
+    "tel": "+32 53 21 58 43",
+    "provincie": "ovl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 591707.84,
+    "cw_fte": 17.4,
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 33
+  },
+  {
+    "naam": "VAN RAEMDONCK INTERIEUR",
+    "lat": 51.1186217,
+    "lng": 4.0785953,
+    "adres": "Waasmunster",
+    "btw": "BE0452.406.416",
+    "website": "https://www.vanraemdonck-haarden.be/",
+    "email": "info@vanraemdonck-haarden.be",
+    "tel": "+32 52 46 01 55",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 486870.83,
+    "cw_fte": 2.7,
+    "rijtijd_hertsberge": 50,
+    "rijtijd_drongen": 29
+  },
+  {
+    "naam": "VAN dE VELDE HOUT",
+    "lat": 51.0068804,
+    "lng": 3.8855494,
+    "adres": "Wetteren",
+    "btw": "BE0415.909.868",
+    "website": "https://www.vandevelde-hout.be/",
+    "email": "verkoop@vdvhout.be",
+    "tel": "+32 9 369 04 57",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 542907.26,
+    "cw_fte": 8,
+    "rijtijd_hertsberge": 41,
+    "rijtijd_drongen": 21
+  },
+  {
+    "naam": "VANHARDHOUT",
+    "lat": 50.9198305,
+    "lng": 3.215435,
+    "adres": "Izegem",
+    "btw": "BE0454.797.069",
+    "website": "https://www.vanhardhout.be/",
+    "email": "info@vanhardhout.be",
+    "tel": "+32 51 30 60 85",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 353179.51,
+    "cw_fte": 3,
+    "rijtijd_hertsberge": 31,
+    "rijtijd_drongen": 44
+  },
+  {
+    "naam": "VANHOUTTE JEROEN",
+    "lat": 50.8530626,
+    "lng": 3.1260861,
+    "adres": "Ledegem",
+    "btw": "BE0882.449.976",
+    "website": "https://www.paintdoors.be/",
+    "email": "info@paintdoors.be",
+    "tel": "+32 56 50 24 78",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 603049,
+    "cw_fte": 7.6,
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 49
+  },
+  {
+    "naam": "VERADA",
+    "lat": 50.7828566,
+    "lng": 3.3755864,
+    "adres": "Zwevegem",
+    "btw": "BE0844.802.890",
+    "website": "https://www.verada.be/",
+    "email": "info@verada.be",
+    "tel": "+32 56 64 96 56",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 633021.6,
+    "cw_fte": 15.8,
+    "rijtijd_hertsberge": 53,
+    "rijtijd_drongen": 44
+  },
+  {
+    "naam": "VERHULST-DYNAMIC",
+    "lat": 50.8553795,
+    "lng": 2.8218204,
+    "adres": "Vlamertinge",
+    "btw": "BE0438.309.247",
+    "website": "https://www.verhulst.co/",
+    "email": "info@verhulst.co",
+    "tel": "+32 57 20 13 28",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 667157.63,
+    "cw_fte": 38,
+    "rijtijd_hertsberge": 53,
+    "rijtijd_drongen": 61
+  },
+  {
+    "naam": "Vanhoeck Flooring",
+    "lat": 50.9840526,
+    "lng": 3.5274017,
+    "adres": "Deinze",
+    "btw": "BE0474.745.912",
+    "website": "http://www.vanhoeckflooring.com/",
+    "email": "vanhoeckflooring@gmail.com",
+    "tel": "+32 497 91 10 29",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 363138.09,
+    "cw_fte": 0,
+    "rijtijd_hertsberge": 33,
+    "rijtijd_drongen": 17
+  },
+  {
+    "naam": "WILLEMS",
+    "lat": 50.7526199,
+    "lng": 3.6014477,
+    "adres": "Ronse",
+    "btw": "BE0425.385.283",
+    "website": "https://willems-zout.be/",
+    "email": "info@willems-zout.be",
+    "tel": "+32 87 78 34 77",
+    "provincie": "ovl",
+    "grootte": "Groot",
+    "activiteiten": [
+      "schrijnwerk"
+    ],
+    "bizzy_ebitda": 848635,
+    "cw_fte": 80.4,
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 38
   }
 ]
