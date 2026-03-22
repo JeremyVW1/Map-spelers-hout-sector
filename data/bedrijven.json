@@ -8123,5 +8123,296 @@
     "email": "info@willems-zout.be",
     "tel": "+32 87 78 34 77",
     "info": "Groot bedrijf. schrijnwerk. Ronse. 80.4 FTE."
+  },
+  {
+    "naam": "Cras Woodshops Menen",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 50.7971,
+    "lng": 3.1201,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ],
+    "info": "Vestiging Cras Woodgroup. Constructie+interieur. Menen.",
+    "groep": "Cras NV",
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 49,
+    "webshop": "Nee",
+    "groep_btw": "BE 0882.268.745",
+    "groep_omzet": "€112.336.185",
+    "groep_medewerkers": 230,
+    "groep_rechtsvorm": "NV",
+    "groep_oprichting": "2006",
+    "groep_website": "www.cras.be",
+    "groep_adres": "Industrielaan 5, 8790 Waregem"
+  },
+  {
+    "naam": "Cras Woodshops Zottegem",
+    "provincie": "ovl",
+    "grootte": "Groot",
+    "lat": 50.8682,
+    "lng": 3.8118,
+    "activiteiten": [
+      "dhz",
+      "houthandel",
+      "terrassen"
+    ],
+    "info": "Vestiging Cras Woodgroup (€112M). Breed pro gamma. Zottegem.",
+    "groep": "Cras NV",
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 28,
+    "webshop": "Nee",
+    "groep_btw": "BE 0882.268.745",
+    "groep_omzet": "€112.336.185",
+    "groep_medewerkers": 230,
+    "groep_rechtsvorm": "NV",
+    "groep_oprichting": "2006",
+    "groep_website": "www.cras.be",
+    "groep_adres": "Industrielaan 5, 8790 Waregem"
+  },
+  {
+    "naam": "Cras Woodshops Oostende",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 51.2341,
+    "lng": 2.9201,
+    "activiteiten": [
+      "dhz",
+      "houthandel",
+      "terrassen"
+    ],
+    "info": "Vestiging Cras Woodgroup (€112M). Breed gamma. Oostende.",
+    "groep": "Cras NV",
+    "rijtijd_hertsberge": 28,
+    "rijtijd_drongen": 43,
+    "webshop": "Nee",
+    "groep_btw": "BE 0882.268.745",
+    "groep_omzet": "€112.336.185",
+    "groep_medewerkers": 230,
+    "groep_rechtsvorm": "NV",
+    "groep_oprichting": "2006",
+    "groep_website": "www.cras.be",
+    "groep_adres": "Industrielaan 5, 8790 Waregem"
+  },
+  {
+    "naam": "Groep Debeuckelaere",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 50.9992,
+    "lng": 2.9781,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ],
+    "info": "Groothandel + fabrikant Magnumboard. 6 vestigingen: Kortemark, Roeselare, Oostende, Tielt, Gits, Erpe-Mere. B2B constructie.",
+    "groep": "Debeuckelaere Gebroeders NV",
+    "rijtijd_hertsberge": 36,
+    "rijtijd_drongen": 55,
+    "webshop": "Nee",
+    "groep_btw": "BE 0424.964.621",
+    "groep_rechtsvorm": "NV",
+    "groep_website": "www.debeuckelaere.be",
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+  },
+  {
+    "naam": "Groep Debeuckelaere (Oostende)",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "lat": 51.2281,
+    "lng": 2.9141,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ],
+    "info": "Vestiging Debeuckelaere. Oostende.",
+    "groep": "Debeuckelaere Gebroeders NV",
+    "rijtijd_hertsberge": 25,
+    "rijtijd_drongen": 40,
+    "webshop": "Nee",
+    "groep_btw": "BE 0424.964.621",
+    "groep_rechtsvorm": "NV",
+    "groep_website": "www.debeuckelaere.be",
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+  },
+  {
+    "naam": "Debeuckelaere HQ (Kortemark)",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 51.0041,
+    "lng": 2.9851,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ],
+    "info": "HQ + Magnumboard producent. Amersveldestraat 213, Kortemark. B2B Houtmassiefbouw.",
+    "groep": "Debeuckelaere Gebroeders NV",
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 56,
+    "webshop": "Nee",
+    "groep_btw": "BE 0424.964.621",
+    "groep_rechtsvorm": "NV",
+    "groep_website": "www.debeuckelaere.be",
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+  },
+  {
+    "naam": "Debeuckelaere Oostende",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "lat": 51.2281,
+    "lng": 2.9151,
+    "activiteiten": [
+      "houthandel",
+      "terrassen"
+    ],
+    "info": "Vestiging Debeuckelaere (Houtmarkt). Leo Baekelandlaan 1, Oostende.",
+    "groep": "Debeuckelaere Gebroeders NV",
+    "rijtijd_hertsberge": 25,
+    "rijtijd_drongen": 40,
+    "webshop": "Nee",
+    "groep_btw": "BE 0424.964.621",
+    "groep_rechtsvorm": "NV",
+    "groep_website": "www.debeuckelaere.be",
+    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
+  },
+  {
+    "naam": "Lagae Hout (WVL — importeur)",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 50.8211,
+    "lng": 2.8501,
+    "activiteiten": [
+      "import",
+      "houthandel"
+    ],
+    "info": "Importeur hard- en zachthout. Exclusief importeur Benelux. Levert houthandels + industrie. West-Vlaanderen.",
+    "rijtijd_hertsberge": 54,
+    "rijtijd_drongen": 63,
+    "webshop": "Nee"
+  },
+  {
+    "naam": "Brico (Tournai/Doornik)",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 50.6041,
+    "lng": 3.3881,
+    "activiteiten": [
+      "dhz",
+      "online",
+      "terrassen",
+      "houthandel"
+    ],
+    "info": "DHZ-keten Brico. Tuinhout + constructiehout. Tournai/Doornik. Grens met WVL.",
+    "rijtijd_hertsberge": 57,
+    "rijtijd_drongen": 59,
+    "webshop": "Ja"
+  },
+  {
+    "naam": "Leenbakker (Gent)",
+    "provincie": "ovl",
+    "grootte": "Middelgroot",
+    "lat": 51.0181,
+    "lng": 3.7281,
+    "activiteiten": [
+      "online",
+      "dhz",
+      "terrassen",
+      "houthandel"
+    ],
+    "website": "leenbakker.be",
+    "info": "DHZ-keten. Hout op maat, tuinhout, constructiehout. Gent. Webshop.",
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 12,
+    "webshop": "Ja"
+  },
+  {
+    "naam": "Brico (Gent)",
+    "provincie": "ovl",
+    "grootte": "Groot",
+    "lat": 51.0428,
+    "lng": 3.6981,
+    "activiteiten": [
+      "online",
+      "dhz",
+      "terrassen",
+      "houthandel"
+    ],
+    "website": "brico.be",
+    "info": "DHZ-keten. Breed tuinhout + constructiehout. 152 winkels België. Webshop.",
+    "oprichting": "1973",
+    "rijtijd_hertsberge": 33,
+    "rijtijd_drongen": 9,
+    "webshop": "Ja"
+  },
+  {
+    "naam": "Gamma (Gent)",
+    "provincie": "ovl",
+    "grootte": "Groot",
+    "lat": 51.0361,
+    "lng": 3.7141,
+    "activiteiten": [
+      "online",
+      "dhz"
+    ],
+    "website": "gamma.be",
+    "info": "DHZ-keten. 400+ soorten bouwhout. 60+ winkels. Webshop + hout op maat zagen.",
+    "oprichting": "1978",
+    "rijtijd_hertsberge": 31,
+    "rijtijd_drongen": 11,
+    "webshop": "Ja"
+  },
+  {
+    "naam": "Hubo (Gent)",
+    "provincie": "ovl",
+    "grootte": "Groot",
+    "lat": 51.0298,
+    "lng": 3.7051,
+    "activiteiten": [
+      "online",
+      "dhz",
+      "terrassen"
+    ],
+    "website": "hubo.be",
+    "info": "DHZ-keten. Tuinhout, webshop, hout op maat. Heel Vlaanderen.",
+    "oprichting": "1969",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 10,
+    "webshop": "Ja"
+  },
+  {
+    "naam": "Brico (Brugge)",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 51.2081,
+    "lng": 3.2301,
+    "activiteiten": [
+      "dhz",
+      "online",
+      "terrassen",
+      "houthandel"
+    ],
+    "website": "brico.be",
+    "info": "DHZ-keten Brico. Tuinhout + constructiehout. Brugge.",
+    "oprichting": "1973",
+    "rijtijd_hertsberge": 19,
+    "rijtijd_drongen": 35,
+    "webshop": "Ja"
+  },
+  {
+    "naam": "Gamma (Kortrijk)",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 50.8281,
+    "lng": 3.2641,
+    "activiteiten": [
+      "dhz",
+      "online"
+    ],
+    "website": "gamma.be",
+    "info": "DHZ-keten Gamma. Bouwhout. Kortrijk.",
+    "oprichting": "1978",
+    "rijtijd_hertsberge": 42,
+    "rijtijd_drongen": 41,
+    "webshop": "Ja"
   }
 ]
