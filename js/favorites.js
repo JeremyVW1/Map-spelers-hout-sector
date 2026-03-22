@@ -483,20 +483,26 @@ function renderTwijfel() {
  * ════════════════════════════════════════════════════ */
 
 function _attachAllHandlers(container) {
-  attachStarHandlers(container);
   attachNoteHandlers(container);
+  container.querySelectorAll(".star-btn").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation(); e.preventDefault();
+      const c = bedrijvenMap.get(btn.dataset.naam);
+      if (c) { toggleFavorite(c); refreshMarkerIcon(c.naam); renderFavorieten(); renderTwijfel(); }
+    });
+  });
   container.querySelectorAll(".orange-btn").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation(); e.preventDefault();
       const c = bedrijvenMap.get(btn.dataset.naam);
-      if (c) toggleOrange(c);
+      if (c) { toggleOrange(c); refreshMarkerIcon(c.naam); renderFavorieten(); renderTwijfel(); }
     });
   });
   container.querySelectorAll(".red-btn").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation(); e.preventDefault();
       const c = bedrijvenMap.get(btn.dataset.naam);
-      if (c) toggleRed(c);
+      if (c) { toggleRed(c); refreshMarkerIcon(c.naam); renderFavorieten(); renderTwijfel(); }
     });
   });
 }

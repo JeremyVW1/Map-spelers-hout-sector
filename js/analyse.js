@@ -203,7 +203,13 @@ function renderAnalyse() {
 }
 
 function _attachAnalyseHandlers(container) {
-  attachStarHandlers(container);
+  container.querySelectorAll(".star-btn").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation(); e.preventDefault();
+      const c = bedrijvenMap.get(btn.dataset.naam);
+      if (c) { toggleFavorite(c); refreshMarkerIcon(c.naam); renderAnalyse(); }
+    });
+  });
   container.querySelectorAll(".orange-btn").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation(); e.preventDefault();
