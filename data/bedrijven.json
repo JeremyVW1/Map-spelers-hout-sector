@@ -193,7 +193,9 @@
     "cw_jaar": 2024,
     "email": "info@vandenbroucke.be",
     "tel": "+32 50 78 84 95",
-    "bizzy_ebitda": 750414.37
+    "bizzy_ebitda": 750414.37,
+    "bizzy_fte": 15.0,
+    "bron": "bizzy"
   },
   {
     "naam": "Botanica Wood",
@@ -411,7 +413,9 @@
     "email": "info@houthandel-messely.be",
     "tel": "+32 475 62 18 46",
     "website": "http://www.houthandel-messely.be/",
-    "bizzy_ebitda": 633131.68
+    "bizzy_ebitda": 633131.68,
+    "bizzy_fte": 2.0,
+    "bron": "bizzy"
   },
   {
     "naam": "Geldhof Hout",
@@ -522,7 +526,9 @@
     "email": "info@dbhardwoods.com",
     "tel": "+32 56 50 30 71",
     "bizzy_ebitda": 822225.92,
-    "bizzy_revenue": 12577720.07
+    "bizzy_revenue": 12577720.07,
+    "bizzy_fte": 3.0,
+    "bron": "bizzy"
   },
   {
     "naam": "Houthandel Loose",
@@ -632,7 +638,9 @@
     "cw_jaar": 2024,
     "email": "info@houthandelderegge.be",
     "tel": "+32 466 44 92 66",
-    "bizzy_ebitda": 400489.37
+    "bizzy_ebitda": 400489.37,
+    "bizzy_fte": 3.0,
+    "bron": "bizzy"
   },
   {
     "naam": "Ecohout",
@@ -879,7 +887,9 @@
     "cw_jaar": 2025,
     "email": "verkoop@demeyer-nv.com",
     "tel": "+32 9 378 03 20",
-    "bizzy_ebitda": 380165.69
+    "bizzy_ebitda": 380165.69,
+    "bizzy_fte": 17.0,
+    "bron": "bizzy"
   },
   {
     "naam": "Hertecant Hout",
@@ -960,7 +970,9 @@
     "email": "info@prindalhout.com",
     "tel": "+32 54 33 10 16",
     "bizzy_ebitda": 353664.59,
-    "cw_fte": 5.3
+    "cw_fte": 5.3,
+    "bizzy_fte": 5.3,
+    "bron": "bizzy"
   },
   {
     "naam": "Verhofstede (Hout-Idee)",
@@ -1005,7 +1017,9 @@
     "email": "info@houthandelderegge.be",
     "tel": "+32 466 44 92 66",
     "website": "http://houthandelderegge.be/",
-    "bizzy_ebitda": 400489.37
+    "bizzy_ebitda": 400489.37,
+    "bizzy_fte": 3.0,
+    "bron": "bizzy"
   },
   {
     "naam": "Cras Woodshops Antwerpen",
@@ -1926,7 +1940,8 @@
     "tel": "+32 54 33 10 16",
     "rijtijd_hertsberge": 61,
     "rijtijd_drongen": 40,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 5.3
   },
   {
     "naam": "Leenbakker (Gent)",
@@ -2157,7 +2172,9 @@
     "website": "https://www.decadt-hout.be/",
     "bizzy_ebitda": 631729.76,
     "bizzy_revenue": 13460407.6,
-    "cw_fte": 16.2
+    "cw_fte": 16.2,
+    "bizzy_fte": 16.2,
+    "bron": "bizzy"
   },
   {
     "naam": "Houthandel Decadt Daniel (Proven)",
@@ -2181,7 +2198,9 @@
     "website": "https://www.decadt-hout.be/",
     "bizzy_ebitda": 631729.76,
     "bizzy_revenue": 13460407.6,
-    "cw_fte": 16.2
+    "cw_fte": 16.2,
+    "bizzy_fte": 16.2,
+    "bron": "bizzy"
   },
   {
     "naam": "Houthandel Leirman (Diksmuide)",
@@ -2237,7 +2256,9 @@
     "email": "sales@houtland.be",
     "tel": "+32 52 42 26 06",
     "bizzy_ebitda": 833251.02,
-    "cw_fte": 23.7
+    "cw_fte": 23.7,
+    "bizzy_fte": 23.7,
+    "bron": "bizzy"
   },
   {
     "naam": "Janssens & Janssens (Aalst)",
@@ -2317,7 +2338,9 @@
     "cw_jaar": 2025,
     "email": "verkoop@demeyer-nv.com",
     "tel": "+32 9 378 03 20",
-    "bizzy_ebitda": 380165.69
+    "bizzy_ebitda": 380165.69,
+    "bizzy_fte": 17.0,
+    "bron": "bizzy"
   },
   {
     "naam": "Valcke Tuinhout (Oudegem)",
@@ -2737,7 +2760,8 @@
     "bizzy_ebitda": 400489.37,
     "email": "info@houthandelderegge.be",
     "tel": "+32 466 44 92 66",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 3.0
   },
   {
     "naam": "Hub. Rouckhout (Melle)",
@@ -3027,7 +3051,8 @@
     "email": "info@houthandel-messely.be",
     "tel": "+32 475 62 18 46",
     "bron": "bizzy",
-    "website": "http://www.houthandel-messely.be/"
+    "website": "http://www.houthandel-messely.be/",
+    "bizzy_fte": 2.0
   },
   {
     "naam": "Geldhof Hout (Moorslede)",
@@ -3427,7 +3452,8 @@
     "tel": "+32 56 50 30 71",
     "bron": "bizzy",
     "website": "https://www.dbhardwoods.com/",
-    "bizzy_revenue": 12577720.07
+    "bizzy_revenue": 12577720.07,
+    "bizzy_fte": 3.0
   },
   {
     "naam": "Houthandel Loose (Sint-Andries/Brugge)",
@@ -3625,7 +3651,9 @@
     "website": "https://www.decadt-hout.be/",
     "bizzy_ebitda": 631729.76,
     "bizzy_revenue": 13460407.6,
-    "cw_fte": 16.2
+    "cw_fte": 16.2,
+    "bizzy_fte": 16.2,
+    "bron": "bizzy"
   },
   {
     "naam": "Houthandel Decadt Daniel (Proven/Poperinge)",
@@ -3651,7 +3679,8 @@
     "rijtijd_drongen": 64,
     "bron": "bizzy",
     "website": "https://www.decadt-hout.be/",
-    "bizzy_revenue": 13460407.6
+    "bizzy_revenue": 13460407.6,
+    "bizzy_fte": 16.2
   },
   {
     "naam": "Woodcenter (Wevelgem)",
@@ -3742,7 +3771,8 @@
     "bizzy_ebitda": 750414.37,
     "email": "info@vandenbroucke.be",
     "tel": "+32 50 78 84 95",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 15.0
   },
   {
     "naam": "Hout Van Maele (Ruddervoorde/Oostkamp)",
@@ -3833,7 +3863,8 @@
     "bizzy_ebitda": 423137.05,
     "email": "info@parketvanrobaeys.be",
     "tel": "+32 51 65 76 57",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 2.0
   },
   {
     "naam": "Parketlounge (Tielt–Roeselare regio)",
@@ -4161,7 +4192,8 @@
     "cw_fte": 23.7,
     "email": "sales@houtland.be",
     "tel": "+32 52 42 26 06",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 23.7
   },
   {
     "naam": "De Meyer Outdoor Living (Evergem) — tuinhuizen",
@@ -4190,7 +4222,8 @@
     "bizzy_ebitda": 380165.69,
     "email": "verkoop@demeyer-nv.com",
     "tel": "+32 9 378 03 20",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 17.0
   },
   {
     "naam": "EXZO",
@@ -4752,7 +4785,8 @@
     "bizzy_ebitda": 990482.01,
     "email": "info@vanpeteghemhout.be",
     "tel": "+32 9 355 56 49",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 4.0
   },
   {
     "naam": "Houtwereld (Maldegem)",
@@ -5523,7 +5557,8 @@
     "bizzy_ebitda": 372157.05,
     "email": "info@parketcenter.be",
     "tel": "+32 56 32 36 29",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.8
   },
   {
     "naam": "Parket Atelier (Ruiselede)",
@@ -6288,7 +6323,8 @@
     "email": "info@bcfv.be",
     "tel": "+32 56 67 19 25",
     "bron": "bizzy",
-    "website": "https://www.bcfv.be/"
+    "website": "https://www.bcfv.be/",
+    "bizzy_fte": 20.7
   },
   {
     "naam": "Multi Bazar (Pittem)",
@@ -7269,7 +7305,8 @@
     "email": "fierensbvba@skynet.be",
     "tel": "+32 50 20 95 56",
     "bron": "bizzy",
-    "website": "https://www.fierensbvba.be/"
+    "website": "https://www.fierensbvba.be/",
+    "bizzy_fte": 15.0
   },
   {
     "naam": "Schrijnwerken Moerman (Brugge)",
@@ -8482,7 +8519,8 @@
     "cw_fte": 5,
     "rijtijd_hertsberge": 38,
     "rijtijd_drongen": 31,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 5.0
   },
   {
     "naam": "Boncquet Robert",
@@ -8502,7 +8540,8 @@
     "cw_fte": 7,
     "rijtijd_hertsberge": 60,
     "rijtijd_drongen": 40,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 7.0
   },
   {
     "naam": "CALLANT LUC DECORATIETEAM",
@@ -8522,7 +8561,8 @@
     "cw_fte": 5.2,
     "rijtijd_hertsberge": 33,
     "rijtijd_drongen": 46,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 5.2
   },
   {
     "naam": "CARPENTIER KENNETH",
@@ -8542,7 +8582,8 @@
     "cw_fte": 11,
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 55,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 11.0
   },
   {
     "naam": "CLOETENS",
@@ -8562,7 +8603,8 @@
     "cw_fte": 17.8,
     "rijtijd_hertsberge": 28,
     "rijtijd_drongen": 43,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 17.8
   },
   {
     "naam": "CLPA",
@@ -8582,7 +8624,8 @@
     "cw_fte": 0,
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 30,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.0
   },
   {
     "naam": "Cachet Schrijnwerken",
@@ -8602,7 +8645,8 @@
     "cw_fte": 8.8,
     "rijtijd_hertsberge": 12,
     "rijtijd_drongen": 27,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 8.8
   },
   {
     "naam": "D'HOKER & Co",
@@ -8622,7 +8666,8 @@
     "cw_fte": 0,
     "rijtijd_hertsberge": 52,
     "rijtijd_drongen": 31,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.0
   },
   {
     "naam": "DE COENE INTERIOR DECORATION",
@@ -8642,7 +8687,8 @@
     "cw_fte": 34.1,
     "rijtijd_hertsberge": 44,
     "rijtijd_drongen": 40,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 34.1
   },
   {
     "naam": "DE LAERE DECOR",
@@ -8662,7 +8708,8 @@
     "cw_fte": 33.8,
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 43,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 33.8
   },
   {
     "naam": "DEBBAUT",
@@ -8682,7 +8729,8 @@
     "cw_fte": 7.2,
     "rijtijd_hertsberge": 33,
     "rijtijd_drongen": 46,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 7.2
   },
   {
     "naam": "DHONDT INTERIEUR",
@@ -8702,7 +8750,8 @@
     "cw_fte": 23.4,
     "rijtijd_hertsberge": 17,
     "rijtijd_drongen": 32,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 23.4
   },
   {
     "naam": "DM - Line",
@@ -8722,7 +8771,8 @@
     "cw_fte": 32.9,
     "rijtijd_hertsberge": 57,
     "rijtijd_drongen": 36,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 32.9
   },
   {
     "naam": "De Ruyver",
@@ -8742,7 +8792,8 @@
     "cw_fte": 24.3,
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 16,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 24.3
   },
   {
     "naam": "Decruy",
@@ -8763,7 +8814,8 @@
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 59,
     "bron": "bizzy",
-    "bizzy_revenue": 10210263.79
+    "bizzy_revenue": 10210263.79,
+    "bizzy_fte": 68.5
   },
   {
     "naam": "EUROFIBA",
@@ -8783,7 +8835,8 @@
     "cw_fte": 14,
     "rijtijd_hertsberge": 12,
     "rijtijd_drongen": 27,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 14.0
   },
   {
     "naam": "EUROPEN",
@@ -8803,7 +8856,8 @@
     "cw_fte": 1,
     "rijtijd_hertsberge": 49,
     "rijtijd_drongen": 25,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 1.0
   },
   {
     "naam": "EUROPORT COMPANY",
@@ -8823,7 +8877,8 @@
     "cw_fte": 15.2,
     "rijtijd_hertsberge": 20,
     "rijtijd_drongen": 31,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 15.2
   },
   {
     "naam": "FLOORMASTERS",
@@ -8843,7 +8898,8 @@
     "cw_fte": 2,
     "rijtijd_hertsberge": 24,
     "rijtijd_drongen": 39,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 2.0
   },
   {
     "naam": "GEBR. HOLVOET GHV.",
@@ -8864,7 +8920,8 @@
     "rijtijd_hertsberge": 29,
     "rijtijd_drongen": 40,
     "bron": "bizzy",
-    "bizzy_revenue": 10510298.37
+    "bizzy_revenue": 10510298.37,
+    "bizzy_fte": 24.6
   },
   {
     "naam": "GEBROEDERS DEMASURE",
@@ -8884,7 +8941,8 @@
     "cw_fte": 24.3,
     "rijtijd_hertsberge": 50,
     "rijtijd_drongen": 35,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 24.3
   },
   {
     "naam": "GPG Deuren & Dressings",
@@ -8904,7 +8962,8 @@
     "cw_fte": 4.8,
     "rijtijd_hertsberge": 57,
     "rijtijd_drongen": 36,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 4.8
   },
   {
     "naam": "HOUTBEDRIJF DIERICK",
@@ -8924,7 +8983,8 @@
     "cw_fte": 26.3,
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 16,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 26.3
   },
   {
     "naam": "INTERIEUR TER DOEL",
@@ -8944,7 +9004,8 @@
     "cw_fte": 7,
     "rijtijd_hertsberge": 76,
     "rijtijd_drongen": 55,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 7.0
   },
   {
     "naam": "INTERIEUR VANESCH",
@@ -8964,7 +9025,8 @@
     "cw_fte": 5.9,
     "rijtijd_hertsberge": 34,
     "rijtijd_drongen": 49,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 5.9
   },
   {
     "naam": "JACOBS BINNENDEUREN",
@@ -8984,7 +9046,8 @@
     "cw_fte": 16.1,
     "rijtijd_hertsberge": 56,
     "rijtijd_drongen": 36,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 16.1
   },
   {
     "naam": "KUBRIEK",
@@ -9004,7 +9067,8 @@
     "cw_fte": 0,
     "rijtijd_hertsberge": 18,
     "rijtijd_drongen": 33,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.0
   },
   {
     "naam": "L.A. RAMEN JEAN LANSSENS",
@@ -9024,7 +9088,8 @@
     "cw_fte": 30.3,
     "rijtijd_hertsberge": 27,
     "rijtijd_drongen": 28,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 30.3
   },
   {
     "naam": "MEUBELEN VANDERMEEREN",
@@ -9044,7 +9109,8 @@
     "cw_fte": 24.4,
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 55,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 24.4
   },
   {
     "naam": "MONSEREZ PROJECTS",
@@ -9064,7 +9130,8 @@
     "cw_fte": 13,
     "rijtijd_hertsberge": 20,
     "rijtijd_drongen": 31,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 13.0
   },
   {
     "naam": "PDV-Deuren",
@@ -9084,7 +9151,8 @@
     "cw_fte": 0.4,
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 47,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.4
   },
   {
     "naam": "PLEYSIER STEVEN",
@@ -9100,11 +9168,12 @@
     "activiteiten": [
       "schrijnwerk"
     ],
-    "bizzy_ebitda": 419841,
+    "bizzy_ebitda": 419841.0,
     "cw_fte": 8,
     "rijtijd_hertsberge": 32,
     "rijtijd_drongen": 48,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 8.0
   },
   {
     "naam": "PROJEKT  &  DESIGN",
@@ -9124,7 +9193,8 @@
     "cw_fte": 7.1,
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 49,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 7.1
   },
   {
     "naam": "Placabois",
@@ -9144,7 +9214,8 @@
     "cw_fte": 14,
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 43,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 14.0
   },
   {
     "naam": "R. PARREIN - BOUDEN",
@@ -9164,7 +9235,8 @@
     "cw_fte": 16.6,
     "rijtijd_hertsberge": 51,
     "rijtijd_drongen": 60,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 16.6
   },
   {
     "naam": "SCHRIJNWERKERIJ BORRA",
@@ -9184,7 +9256,8 @@
     "cw_fte": 30.4,
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 59,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 30.4
   },
   {
     "naam": "Schrijnwerk Van de Walle",
@@ -9204,7 +9277,8 @@
     "cw_fte": 7,
     "rijtijd_hertsberge": 44,
     "rijtijd_drongen": 21,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 7.0
   },
   {
     "naam": "Schrijnwerkerij Verplancke",
@@ -9224,7 +9298,8 @@
     "cw_fte": 0,
     "rijtijd_hertsberge": 18,
     "rijtijd_drongen": 33,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.0
   },
   {
     "naam": "TIMMERWERKEN JORIS",
@@ -9240,11 +9315,12 @@
     "activiteiten": [
       "schrijnwerk"
     ],
-    "bizzy_ebitda": 646386,
+    "bizzy_ebitda": 646386.0,
     "cw_fte": 0,
     "rijtijd_hertsberge": 52,
     "rijtijd_drongen": 60,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.0
   },
   {
     "naam": "TUINEN HOFLACK",
@@ -9264,7 +9340,8 @@
     "cw_fte": 15.7,
     "rijtijd_hertsberge": 46,
     "rijtijd_drongen": 62,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 15.7
   },
   {
     "naam": "TWEEPUNTEEN",
@@ -9284,7 +9361,8 @@
     "cw_fte": 22.8,
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 40,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 22.8
   },
   {
     "naam": "The Veneer",
@@ -9305,7 +9383,8 @@
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 45,
     "bron": "bizzy",
-    "bizzy_revenue": 1677354.05
+    "bizzy_revenue": 1677354.05,
+    "bizzy_fte": 1.9
   },
   {
     "naam": "VAN DEN NEST HOUT – BOUW & INTERIEUR",
@@ -9325,7 +9404,8 @@
     "cw_fte": 17.4,
     "rijtijd_hertsberge": 54,
     "rijtijd_drongen": 33,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 17.4
   },
   {
     "naam": "VAN RAEMDONCK INTERIEUR",
@@ -9345,7 +9425,8 @@
     "cw_fte": 2.7,
     "rijtijd_hertsberge": 50,
     "rijtijd_drongen": 29,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 2.7
   },
   {
     "naam": "VAN dE VELDE HOUT",
@@ -9365,7 +9446,8 @@
     "cw_fte": 8,
     "rijtijd_hertsberge": 41,
     "rijtijd_drongen": 21,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 8.0
   },
   {
     "naam": "VANHARDHOUT",
@@ -9385,7 +9467,8 @@
     "cw_fte": 3,
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 44,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 3.0
   },
   {
     "naam": "VANHOUTTE JEROEN",
@@ -9401,11 +9484,12 @@
     "activiteiten": [
       "schrijnwerk"
     ],
-    "bizzy_ebitda": 603049,
+    "bizzy_ebitda": 603049.0,
     "cw_fte": 7.6,
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 49,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 7.6
   },
   {
     "naam": "VERADA",
@@ -9425,7 +9509,8 @@
     "cw_fte": 15.8,
     "rijtijd_hertsberge": 53,
     "rijtijd_drongen": 44,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 15.8
   },
   {
     "naam": "VERHULST-DYNAMIC",
@@ -9445,7 +9530,8 @@
     "cw_fte": 38,
     "rijtijd_hertsberge": 53,
     "rijtijd_drongen": 61,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 38.0
   },
   {
     "naam": "Vanhoeck Flooring",
@@ -9465,7 +9551,8 @@
     "cw_fte": 0,
     "rijtijd_hertsberge": 33,
     "rijtijd_drongen": 17,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_fte": 0.0
   },
   {
     "naam": "WILLEMS",
@@ -9481,11 +9568,12 @@
     "activiteiten": [
       "schrijnwerk"
     ],
-    "bizzy_ebitda": 848635,
+    "bizzy_ebitda": 848635.0,
     "cw_fte": 80.4,
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 38,
     "bron": "bizzy",
-    "bizzy_revenue": 28723613
+    "bizzy_revenue": 28723613.0,
+    "bizzy_fte": 80.4
   }
 ]

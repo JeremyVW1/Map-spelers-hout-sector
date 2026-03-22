@@ -189,7 +189,7 @@ function _sortVal(c, key) {
   if (key === "activiteiten") return (c.activiteiten || [])[0] || "";
   if (key === "dichtste") return gemRijtijd(c) ?? 999;
   if (key === "rijtijd_hertsberge" || key === "rijtijd_drongen") return c[key] ?? 999;
-  if (["cw_omzet", "cw_brutomarge", "cw_winst", "cw_fte", "bizzy_ebitda"].includes(key)) return c[key] ?? -999999999;
+  if (["cw_omzet", "cw_brutomarge", "cw_winst", "cw_fte", "bizzy_ebitda", "bizzy_revenue", "bizzy_fte"].includes(key)) return c[key] ?? -999999999;
   return c[key] || "";
 }
 

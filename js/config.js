@@ -111,8 +111,10 @@ function buildTableRow(c, opts) {
   h += `<td class="td-num">${c.cw_omzet ? fmtK(c.cw_omzet) : ""}</td>`;
   h += `<td class="td-num">${c.cw_brutomarge ? fmtK(c.cw_brutomarge) : ""}</td>`;
   h += `<td class="td-num" style="color:#1565C0;font-weight:600">${c.bizzy_ebitda ? fmtK(c.bizzy_ebitda) : ""}</td>`;
+  h += `<td class="td-num" style="color:#1565C0">${c.bizzy_revenue ? fmtK(c.bizzy_revenue) : ""}</td>`;
   const wClass = c.cw_winst != null ? (c.cw_winst >= 0 ? "fin-pos" : "fin-neg") : "";
   h += `<td class="td-num ${wClass}">${c.cw_winst != null ? fmtK(c.cw_winst) : ""}</td>`;
+  h += `<td class="td-num" style="color:#1565C0">${c.bizzy_fte != null ? c.bizzy_fte : ""}</td>`;
   h += `<td class="td-num">${c.cw_fte != null ? c.cw_fte : ""}</td>`;
 
   h += `<td class="td-adres">${escHtml(c.adres || "")}</td>`;
@@ -136,13 +138,13 @@ function buildTableRow(c, opts) {
 
 /* ─── Gedeelde CSV bouwer ─── */
 function buildCSV(data, extraCols) {
-  const base = ["Naam", "Regio", "Activiteiten", "Grootte", "Omzet (CW)", "Brutomarge (CW)", "EBITDA (Bizzy)", "Winst (CW)", "FTE (CW)", "Adres", "BTW", "Website", "Rijtijd Hertsberge", "Rijtijd Drongen", "Gem. rijtijd H+D"];
+  const base = ["Naam", "Regio", "Activiteiten", "Grootte", "Omzet (CW)", "Brutomarge (CW)", "EBITDA (Bizzy)", "Omzet (Bizzy)", "Winst (CW)", "FTE (Bizzy)", "FTE (CW)", "Adres", "BTW", "Website", "Rijtijd Hertsberge", "Rijtijd Drongen", "Gem. rijtijd H+D"];
   const header = extraCols ? [...base, ...extraCols] : base;
 
   const rows = data.map(c => {
     const baseRow = [
       c.naam, provLabel(c), actLabel(c), sizeLabelLong(c),
-      c.cw_omzet || "", c.cw_brutomarge || "", c.bizzy_ebitda != null ? c.bizzy_ebitda : "", c.cw_winst != null ? c.cw_winst : "", c.cw_fte != null ? c.cw_fte : "",
+      c.cw_omzet || "", c.cw_brutomarge || "", c.bizzy_ebitda != null ? c.bizzy_ebitda : "", c.bizzy_revenue != null ? c.bizzy_revenue : "", c.cw_winst != null ? c.cw_winst : "", c.bizzy_fte != null ? c.bizzy_fte : "", c.cw_fte != null ? c.cw_fte : "",
       c.adres || "", c.btw || "", c.website || "",
       c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge : "",
       c.rijtijd_drongen != null ? c.rijtijd_drongen : "",
