@@ -465,15 +465,16 @@ function renderTwijfel() {
   data.forEach(c => {
     const t = _top25Match(c);
     const tr = document.createElement("tr");
-    tr.innerHTML = _statusRow(c, t, orangeNotes, orangeNotesVincent, "status-note");
-    // Tag textareas with status
-    tr.querySelectorAll(".status-note").forEach(ta => ta.dataset.status = "orange");
+    tr.innerHTML = _statusRow(c, t, orangeNotes, orangeNotesVincent, "fav-note");
     tbody.appendChild(tr);
   });
 
   _attachAllHandlers(tbody);
-  // Attach status note handlers
-  tbody.querySelectorAll(".status-note").forEach(ta => {
+  // Override note handlers voor twijfel: opslaan in orangeNotes
+  tbody.querySelectorAll(".fav-note").forEach(ta => {
+    ta.replaceWith(ta.cloneNode(true));
+  });
+  tbody.querySelectorAll(".fav-note").forEach(ta => {
     ta.addEventListener("input", () => saveStatusNote(ta.dataset.naam, ta.value, ta.dataset.who || "jeremy", "orange"));
   });
 }
