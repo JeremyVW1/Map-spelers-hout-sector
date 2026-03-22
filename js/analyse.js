@@ -5,6 +5,25 @@ let analyseSortAsc      = true;
 let analyseActiveActs   = new Set();
 let analyseActiveRegios = new Set();
 
+function _top25StatusHtml(naam) {
+  const isFav = isFavorite(naam);
+  const isOr  = isOrange(naam);
+  const isRd  = isRed(naam);
+  const hasStatus = isFav || isOr || isRd;
+  if (!hasStatus) {
+    return `<button class="star-btn" data-naam="${escHtml(naam)}" title="Favoriet">☆</button>
+      <button class="orange-btn" data-naam="${escHtml(naam)}" title="Twijfel">?</button>
+      <button class="red-btn" data-naam="${escHtml(naam)}" title="Niet interessant">✕</button>`;
+  } else if (isFav) {
+    return `<button class="star-btn starred" data-naam="${escHtml(naam)}" title="Verwijder uit favorieten">★</button>`;
+  } else if (isOr) {
+    return `<button class="orange-btn marked-orange" data-naam="${escHtml(naam)}" title="Verwijder twijfel">?</button>`;
+  } else if (isRd) {
+    return `<button class="red-btn marked-red" data-naam="${escHtml(naam)}" title="Verwijder niet-interessant">✕</button>`;
+  }
+  return "";
+}
+
 /* ════════════════════════════════════════════════════
  *  Top 25 Overnamekandidaten
  * ════════════════════════════════════════════════════ */
@@ -34,14 +53,13 @@ function renderTop25() {
   top15.forEach(c => {
     const b = bedrijven.find(x => x.naam === c.naam || x.naam.startsWith(c.naam));
     const naam = b ? b.naam : c.naam;
-    const on = b && isFavorite(b.naam);
     const isBizzy = b && b.bron === "bizzy";
     const ebitdaVal = b && b.bizzy_ebitda ? fmtK(b.bizzy_ebitda) : escHtml(c.est_ebitda);
 
     html += `
       <tr class="top15-row">
         <td class="top15-rang">${c.rang}</td>
-        <td class="td-star"><button class="star-btn ${on ? "starred" : ""}" data-naam="${escHtml(naam)}">${on ? "★" : "☆"}</button></td>
+        <td class="td-status">${_top25StatusHtml(naam)}</td>
         <td class="top15-naam">${escHtml(c.naam)}</td>
         <td>${isBizzy ? '<span class="bizzy-badge">Bizzy</span>' : ""}</td>
         <td>${escHtml(c.activiteit)}</td>
@@ -63,7 +81,7 @@ function renderTop25() {
 
   html += `</tbody></table></div>`;
   el.innerHTML = html;
-  attachStarHandlers(el);
+  _attachAnalyseHandlers(el);
   attachNoteHandlers(el);
 }
 
@@ -181,11 +199,29 @@ function renderAnalyse() {
     tr.innerHTML = buildTableRow(c, {});
     tbody.appendChild(tr);
   });
-  attachStarHandlers(tbody);
+  _attachAnalyseHandlers(tbody);
+}
+
+function _attachAnalyseHandlers(container) {
+  attachStarHandlers(container);
+  container.querySelectorAll(".orange-btn").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation(); e.preventDefault();
+      const c = bedrijvenMap.get(btn.dataset.naam);
+      if (c) { toggleOrange(c); refreshMarkerIcon(c.naam); renderAnalyse(); }
+    });
+  });
+  container.querySelectorAll(".red-btn").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation(); e.preventDefault();
+      const c = bedrijvenMap.get(btn.dataset.naam);
+      if (c) { toggleRed(c); refreshMarkerIcon(c.naam); renderAnalyse(); }
+    });
+  });
 }
 
 function _sortVal(c, key) {
-  if (key === "favoriet") return isFavorite(c.naam) ? 0 : 1;
+  if (key === "favoriet") return isFavorite(c.naam) ? 0 : isOrange(c.naam) ? 1 : isRed(c.naam) ? 2 : 3;
   if (key === "activiteiten") return (c.activiteiten || [])[0] || "";
   if (key === "dichtste") return gemRijtijd(c) ?? 999;
   if (key === "rijtijd_hertsberge" || key === "rijtijd_drongen") return c[key] ?? 999;

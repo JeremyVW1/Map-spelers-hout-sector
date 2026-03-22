@@ -85,12 +85,28 @@ function buildTableRow(c, opts) {
   const gem = gemRijtijd(c);
   const sc  = rijtijdClass(gem);
   const st  = scoreText(c);
-  const starClass = isFavorite(c.naam) ? "starred" : "";
-  const starChar  = isFavorite(c.naam) ? "★" : "☆";
+  const isFav = isFavorite(c.naam);
+  const isOr  = isOrange(c.naam);
+  const isRd  = isRed(c.naam);
+  const hasStatus = isFav || isOr || isRd;
+
+  let statusHtml = "";
+  if (!hasStatus) {
+    statusHtml = `
+      <button class="star-btn" data-naam="${escHtml(c.naam)}" title="Favoriet">☆</button>
+      <button class="orange-btn" data-naam="${escHtml(c.naam)}" title="Twijfel">?</button>
+      <button class="red-btn" data-naam="${escHtml(c.naam)}" title="Niet interessant">✕</button>`;
+  } else if (isFav) {
+    statusHtml = `<button class="star-btn starred" data-naam="${escHtml(c.naam)}" title="Verwijder uit favorieten">★</button>`;
+  } else if (isOr) {
+    statusHtml = `<button class="orange-btn marked-orange" data-naam="${escHtml(c.naam)}" title="Verwijder twijfel">?</button>`;
+  } else if (isRd) {
+    statusHtml = `<button class="red-btn marked-red" data-naam="${escHtml(c.naam)}" title="Verwijder niet-interessant">✕</button>`;
+  }
 
   let h = "";
   if (opts.rang != null) h += `<td class="top15-rang">${opts.rang}</td>`;
-  h += `<td class="td-star"><button class="star-btn ${starClass}" data-naam="${escHtml(c.naam)}">${starChar}</button></td>`;
+  h += `<td class="td-status">${statusHtml}</td>`;
   h += `<td class="td-naam">${escHtml(c.naam)}${c.bron === "bizzy" ? ' <span class="bizzy-badge">B</span>' : ""}</td>`;
   h += `<td>${provLabel(c)}</td>`;
   h += `<td>${escHtml(actLabel(c))}</td>`;
