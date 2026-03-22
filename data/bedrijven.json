@@ -7,7 +7,9 @@
     "lng": 3.4318,
     "activiteiten": [
       "houthandel",
-      "terrassen"
+      "terrassen",
+      "parket",
+      "agro"
     ],
     "btw": "BE0882.268.745",
     "adres": "Industrielaan 5, 8790 Waregem",
@@ -206,7 +208,9 @@
     "lng": 3.1221,
     "activiteiten": [
       "houthandel",
-      "terrassen"
+      "terrassen",
+      "agro",
+      "paarden"
     ],
     "btw": "BE 0444.953.846",
     "adres": "Iepersestraat 459, 8800 Roeselare",
@@ -255,7 +259,8 @@
     "activiteiten": [
       "online",
       "houthandel",
-      "terrassen"
+      "terrassen",
+      "tuinhuis"
     ],
     "btw": "BE 0434.661.354",
     "adres": "Zuidstraat 7, 8560 Wevelgem",
@@ -278,7 +283,8 @@
     "lat": 50.9171,
     "lng": 3.2141,
     "activiteiten": [
-      "houthandel"
+      "houthandel",
+      "terrassen"
     ],
     "btw": "BE 0424.854.258",
     "adres": "Ambachtenstraat 22, 8870 Izegem",
@@ -303,7 +309,8 @@
     "lng": 3.0911,
     "activiteiten": [
       "dhz",
-      "houthandel"
+      "houthandel",
+      "terrassen"
     ],
     "btw": "BE 0405.143.462",
     "adres": "Gistelsteenweg 569, 8490 Jabbeke",
@@ -668,7 +675,8 @@
     "activiteiten": [
       "paarden",
       "online",
-      "import"
+      "import",
+      "agro"
     ],
     "btw": "BE0688.738.206",
     "adres": "Léon Bekaertlaan 3E, 9880 Aalter",
@@ -846,7 +854,8 @@
     "lat": 51.1851,
     "lng": 3.5741,
     "activiteiten": [
-      "houthandel"
+      "houthandel",
+      "dhz"
     ],
     "btw": "BE 0401.047.785",
     "adres": "Zuidmoerstraat 102, 9900 Eeklo",
@@ -899,7 +908,10 @@
     "lng": 3.7061,
     "activiteiten": [
       "houthandel",
-      "terrassen"
+      "terrassen",
+      "online",
+      "dhz",
+      "tuinhuis"
     ],
     "btw": "BE 0871.370.893",
     "adres": "Langendam 25A, 9940 Evergem",
@@ -983,7 +995,8 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 32,
     "rijtijd_drongen": 14,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "website": "houthandelvantornhout.be"
   },
   {
     "naam": "Prindal Hout",
@@ -1033,35 +1046,6 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 60,
     "rijtijd_drongen": 39,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "De Regge Houthandel",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 50.9281,
-    "lng": 3.6724,
-    "activiteiten": [
-      "parket",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0476.593.464",
-    "adres": "Baaigemstraat 403, 9890 Gavere",
-    "website": "http://houthandelderegge.be/",
-    "info": "Dak+tuinhout+parket. Regio Gent-Zuid. Gavere.",
-    "rechtsvorm": "BV",
-    "cw_brutomarge": 558171,
-    "cw_winst": 278849,
-    "cw_fte": 3,
-    "cw_jaar": 2024,
-    "bizzy_ebitda": 400489.37,
-    "bizzy_fte": 3,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 43,
-    "rijtijd_drongen": 22,
-    "email": "info@houthandelderegge.be",
-    "tel": "+32 466 44 92 66",
     "webshop": "Nee"
   },
   {
@@ -1865,26 +1849,6 @@
     "webshop": "Ja"
   },
   {
-    "naam": "Hout Koklenberg (import)",
-    "provincie": "ant",
-    "grootte": "Klein",
-    "lat": 51.1618,
-    "lng": 4.1521,
-    "activiteiten": [
-      "import"
-    ],
-    "btw": "BE 0873.770.258",
-    "adres": "Europark-Noord 47, 9100 Sint-Niklaas",
-    "info": "Importeur Europees hardhout, stammen rechtstreeks uit bos. B2B-only. Sint-Niklaas.",
-    "cw_brutomarge": 332270,
-    "cw_winst": 152737,
-    "cw_fte": 1.7,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 57,
-    "rijtijd_drongen": 36,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Gadero.be",
     "provincie": "ovl",
     "grootte": "Groot",
@@ -1960,34 +1924,6 @@
       "terrassen"
     ],
     "info": "Webshop groothandel tropisch + eco hardhout. Tuinhout, terrasplanken, gevelbekleding. Lovenjoel.",
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Prindal (webshop)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 50.7879,
-    "lng": 4.0177,
-    "activiteiten": [
-      "online",
-      "houthandel",
-      "terrassen"
-    ],
-    "btw": "BE 0418.995.260",
-    "adres": "Peyenbeek 4, 9400 Ninove",
-    "website": "https://www.prindalhout.com/",
-    "info": "Webshop tuinhout, rondhouten palen, weg- en waterbouw. FSC/PEFC. Denderwindeke.",
-    "medewerkers": 4.8,
-    "oprichting": "1978",
-    "rechtsvorm": "BV",
-    "cw_fte": 5.3,
-    "bizzy_ebitda": 353664.59,
-    "bizzy_fte": 5.3,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 61,
-    "rijtijd_drongen": 40,
-    "email": "info@prindalhout.com",
-    "tel": "+32 54 33 10 16",
     "webshop": "Ja"
   },
   {
@@ -2169,34 +2105,6 @@
     "webshop": "Ja"
   },
   {
-    "naam": "Tieltse Houthandel (Tielt)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 50.9931,
-    "lng": 3.3301,
-    "activiteiten": [
-      "houthandel",
-      "parket",
-      "terrassen"
-    ],
-    "btw": "BE 0421.695.127",
-    "adres": "Deinsesteenweg 8, 8700 Tielt",
-    "website": "tieltsehouthandel.be",
-    "info": "40 jaar. Constructie + buitenhout + vloeren + isolatie + deuren. Particulier + vakman. FSC. Tielt.",
-    "omzet": "€1,8 mln",
-    "medewerkers": "3 FTE",
-    "oprichting": "1981",
-    "rechtsvorm": "BV",
-    "cw_omzet": 1653000,
-    "cw_brutomarge": 287000,
-    "cw_winst": 116000,
-    "cw_fte": 2.5,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 21,
-    "rijtijd_drongen": 29,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Houthandel Decadt (Vlamertinge)",
     "provincie": "wvl",
     "grootte": "Groot",
@@ -2205,7 +2113,8 @@
     "activiteiten": [
       "parket",
       "terrassen",
-      "houthandel"
+      "houthandel",
+      "dhz"
     ],
     "btw": "BE 0415.284.714",
     "adres": "Vlamertinge (Ieper)",
@@ -2221,33 +2130,8 @@
     "rijtijd_drongen": 62,
     "email": "stefaan.decadt@decadt-hout.be",
     "tel": "+32 57 20 06 03",
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Decadt Daniel (Proven)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8501,
-    "lng": 2.7581,
-    "activiteiten": [
-      "dhz",
-      "houthandel"
-    ],
-    "btw": "BE 0415.284.714",
-    "adres": "Vlamertinge (Ieper)",
-    "website": "https://www.decadt-hout.be/",
-    "info": "DHZ + vakman. Regio Ieper-Heuvelland-Poperinge-Kust-Veurne. Levert ook Noord-Frankrijk wekelijks.",
-    "rechtsvorm": "NV",
-    "cw_fte": 16.2,
-    "bizzy_ebitda": 631729.76,
-    "bizzy_revenue": 13460407.6,
-    "bizzy_fte": 16.2,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 55,
-    "rijtijd_drongen": 64,
-    "email": "stefaan.decadt@decadt-hout.be",
-    "tel": "+32 57 20 06 03",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_omzet": 13460408
   },
   {
     "naam": "Houthandel Leirman (Diksmuide)",
@@ -2363,37 +2247,6 @@
     "groep_adres": "Industriepark De Bruwaan 39, 9700 Oudenaarde"
   },
   {
-    "naam": "De Meyer Outdoor Living (Evergem)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.1201,
-    "lng": 3.7201,
-    "activiteiten": [
-      "online",
-      "dhz",
-      "terrassen"
-    ],
-    "btw": "BE 0871.370.893",
-    "adres": "Langendam 25A, 9940 Evergem",
-    "website": "https://www.demeyertuinhout.be/",
-    "info": "Tuinhout + afsluitingen + houtskeletbouw + webshop. Evergem (Sleidinge). Plaatsingsdienst. 5-assige CNC. Brede gamma's.",
-    "medewerkers": 15.5,
-    "oprichting": "1997",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 1352082,
-    "cw_winst": 159,
-    "cw_fte": 17,
-    "cw_jaar": 2025,
-    "bizzy_ebitda": 380165.69,
-    "bizzy_fte": 17,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 15,
-    "email": "verkoop@demeyer-nv.com",
-    "tel": "+32 9 378 03 20",
-    "webshop": "Ja"
-  },
-  {
     "naam": "Valcke Tuinhout (Oudegem)",
     "provincie": "ovl",
     "grootte": "Klein",
@@ -2404,29 +2257,6 @@
       "terrassen"
     ],
     "info": "40+ jaar fabricage tuinhout. Klein familiebedrijf Oudegem (Dendermonde).",
-    "rijtijd_hertsberge": 58,
-    "rijtijd_drongen": 37,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Hertecant Hout (Dendermonde)",
-    "provincie": "ovl",
-    "grootte": "Groot",
-    "lat": 51.0291,
-    "lng": 4.1011,
-    "activiteiten": [
-      "parket",
-      "houthandel"
-    ],
-    "btw": "BE 0400.011.469",
-    "adres": "Dendermonde",
-    "info": "Constructie + schrijnwerk + interieur + parket. Schaven/drenken/kalibreren. Dendermonde (Oudegem).",
-    "rechtsvorm": "NV",
-    "cw_omzet": 15652128,
-    "cw_brutomarge": 2986650,
-    "cw_winst": 1073097,
-    "cw_fte": 15,
-    "cw_jaar": 2024,
     "rijtijd_hertsberge": 58,
     "rijtijd_drongen": 37,
     "webshop": "Nee"
@@ -2749,85 +2579,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Eurowood Wielsbeke",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9021,
-    "lng": 3.3731,
-    "activiteiten": [
-      "houthandel",
-      "import"
-    ],
-    "btw": "BE 0433.136.771",
-    "adres": "Rijksweg 442, 8710 Wielsbeke",
-    "website": "eurowoodnv.be",
-    "info": "5 generaties (1867). Specialist kwaliteitsvolle Europese eik. Wielsbeke (grens OVL/WVL).",
-    "medewerkers": 3.4,
-    "oprichting": "1867",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 754868,
-    "cw_winst": 105908,
-    "cw_fte": 3.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 37,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Van Tornhout (Vosselare)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.0051,
-    "lng": 3.5801,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "btw": "BE 0436.895.918",
-    "adres": "Landegemstraat 39, 9850 Deinze",
-    "website": "houthandelvantornhout.be",
-    "info": "Houthandel voor de vakman. Constructiehout, plaatmateriaal, isolatie, Gyproc. Vosselare (Nevele/Deinze).",
-    "medewerkers": "6 FTE",
-    "oprichting": "1989",
-    "rechtsvorm": "BV",
-    "cw_brutomarge": 906188,
-    "cw_winst": 296090,
-    "cw_fte": 5.9,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 11,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel De Regge (Baaigem)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 50.9101,
-    "lng": 3.7301,
-    "activiteiten": [
-      "parket",
-      "houthandel"
-    ],
-    "btw": "BE 0476.593.464",
-    "adres": "Baaigemstraat 403, 9890 Gavere",
-    "website": "http://houthandelderegge.be/",
-    "info": "Parketvloeren, plafondhout, dakhout, timmerhout, plaatwerk, isolatie. Baaigem (Gavere).",
-    "medewerkers": "3 FTE",
-    "oprichting": "2002",
-    "rechtsvorm": "BV",
-    "cw_brutomarge": 558171,
-    "cw_winst": 278849,
-    "cw_fte": 3,
-    "cw_jaar": 2024,
-    "bizzy_ebitda": 400489.37,
-    "bizzy_fte": 3,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 48,
-    "rijtijd_drongen": 28,
-    "email": "info@houthandelderegge.be",
-    "tel": "+32 466 44 92 66",
-    "webshop": "Nee"
-  },
-  {
     "naam": "Hub. Rouckhout (Melle)",
     "provincie": "ovl",
     "grootte": "Micro",
@@ -2847,55 +2598,6 @@
     "cw_jaar": 2025,
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 16,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Hout De Groote (Lokeren)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.1001,
-    "lng": 3.9961,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "btw": "BE 0424.810.312",
-    "adres": "Eekstraat 26, 9160 Lokeren",
-    "info": "Buitenshowroom, kraanwagen. Tuinhout + houtskeletbouw. Levert Groot-Lokeren: Sint-Niklaas, Wachtebeke, Moerbeke, Stekene, Sint-Gillis-Waas. Lokeren.",
-    "medewerkers": 11,
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 1590387,
-    "cw_winst": 789283,
-    "cw_fte": 9.1,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 49,
-    "rijtijd_drongen": 28,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Tavernier (Jabbeke)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.1871,
-    "lng": 3.0981,
-    "activiteiten": [
-      "dhz",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0405.143.462",
-    "adres": "Gistelsteenweg 569, 8490 Jabbeke",
-    "website": "houthandeltavernier.be",
-    "info": "Breed gamma: ruw+geschaafd hout, fineerplaten, tuinhout, thermowood, tropisch. Levert OVL+WVL groot regio (Aalter, Beernem, Maldegem, Zomergem, Eeklo, Torhout…). Jabbeke.",
-    "medewerkers": 9.3,
-    "oprichting": "1965",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 709878,
-    "cw_winst": 208198,
-    "cw_fte": 9.3,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 17,
-    "rijtijd_drongen": 32,
     "webshop": "Nee"
   },
   {
@@ -3061,130 +2763,6 @@
     "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
   },
   {
-    "naam": "Botanica Wood (Roeselare)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9441,
-    "lng": 3.1231,
-    "activiteiten": [
-      "agro",
-      "terrassen"
-    ],
-    "btw": "BE 0444.953.846",
-    "adres": "Iepersestraat 459, 8800 Roeselare",
-    "website": "www.botanica-wood.be",
-    "info": "Specialist tuinaannemers. Buitenhout: boompalen, tuinafsluitingen, terrasplanken, weideafsluitingen. Eigen atelier. Verkooppunten ook in FR. Roeselare.",
-    "medewerkers": "6 FTE",
-    "oprichting": "1992",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 759932,
-    "cw_winst": 58775,
-    "cw_fte": 6.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 47,
-    "webshop": "Beperkt"
-  },
-  {
-    "naam": "Houthandel Messely (Moorslede)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.8441,
-    "lng": 3.2339,
-    "activiteiten": [
-      "parket",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0873.692.856",
-    "adres": "Mellestraat 226, 8501 Heule",
-    "website": "http://www.houthandel-messely.be/",
-    "info": "Terrasplanken, thermohout, tuinhout, parket. Moorslede (WVL).",
-    "rechtsvorm": "BV",
-    "cw_brutomarge": 768033,
-    "cw_winst": 405877,
-    "cw_fte": 2,
-    "cw_jaar": 2025,
-    "bizzy_ebitda": 633131.68,
-    "bizzy_fte": 2,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 35,
-    "rijtijd_drongen": 41,
-    "email": "info@houthandel-messely.be",
-    "tel": "+32 475 62 18 46",
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Geldhof Hout (Moorslede)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.8951,
-    "lng": 3.0591,
-    "activiteiten": [
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0405.565.710",
-    "adres": "Iepersestraat 22, 8890 Moorslede",
-    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede.",
-    "medewerkers": 4.8,
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 341822,
-    "cw_winst": -110462,
-    "cw_fte": 4.8,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 52,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Beheyt (Poperinge)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 50.8561,
-    "lng": 2.7261,
-    "activiteiten": [
-      "parket",
-      "houthandel"
-    ],
-    "btw": "BE 0450.980.714",
-    "adres": "Ieperseweg 26, 8970 Poperinge",
-    "website": "www.beheyt.be",
-    "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge (WVL).",
-    "oprichting": "1993",
-    "rechtsvorm": "BV",
-    "rijtijd_hertsberge": 59,
-    "rijtijd_drongen": 68,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Steyaert (Eeklo)",
-    "provincie": "ovl",
-    "grootte": "Groot",
-    "lat": 51.1861,
-    "lng": 3.5731,
-    "activiteiten": [
-      "dhz",
-      "houthandel"
-    ],
-    "btw": "BE 0401.047.785",
-    "adres": "Zuidmoerstraat 102, 9900 Eeklo",
-    "website": "steyaerthoutshop.be",
-    "info": "Seit 1929, 4 generaties. Breed gamma: schrijnwerkers, aannemers, particulieren, dakwerkers. Regio Eeklo. FSC.",
-    "omzet": "€12 mln",
-    "medewerkers": "49 FTE",
-    "oprichting": "1929",
-    "rechtsvorm": "BV",
-    "cw_omzet": 12024123,
-    "cw_brutomarge": 3431807,
-    "cw_winst": 129314,
-    "cw_fte": 49.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 27,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Zagerij & Houthandel Van der Perre (Lennik)",
     "provincie": "vbr",
     "grootte": "Middelgroot",
@@ -3198,41 +2776,6 @@
     "rijtijd_hertsberge": 58,
     "rijtijd_drongen": 37,
     "webshop": "Nee"
-  },
-  {
-    "naam": "Cras Woodshops Heule (Kortrijk)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8651,
-    "lng": 3.2871,
-    "activiteiten": [
-      "dhz",
-      "houthandel",
-      "terrassen"
-    ],
-    "btw": "BE0882.268.745",
-    "adres": "Waterven, 8501 Heule",
-    "website": "cras.be",
-    "info": "Vestiging Cras. Breed gamma constructie+interieur+tuin. Mellestraat 226, Heule (Kortrijk).",
-    "groep": "Cras NV",
-    "omzet": "€112 mln (groep)",
-    "medewerkers": "400+ (groep)",
-    "oprichting": "1878",
-    "cw_omzet": 112336185,
-    "cw_brutomarge": 7764420,
-    "cw_winst": -4757862,
-    "cw_fte": 230.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 37,
-    "webshop": "Nee",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
   },
   {
     "naam": "Cras Woodshops Ardooie",
@@ -3323,90 +2866,6 @@
     "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
   },
   {
-    "naam": "Debeuckelaere Roeselare",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9441,
-    "lng": 3.1241,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "btw": "BE0424.964.621",
-    "adres": "Meensesteenweg 430, 8800 Roeselare",
-    "website": "debeuckelaere.com",
-    "info": "Vestiging Debeuckelaere. Meensesteenweg 430, Roeselare.",
-    "groep": "Debeuckelaere Gebroeders NV",
-    "oprichting": "1996",
-    "cw_brutomarge": 2067504,
-    "cw_winst": 509297,
-    "cw_fte": 12.9,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 47,
-    "webshop": "Nee",
-    "groep_btw": "BE 0424.964.621",
-    "groep_rechtsvorm": "NV",
-    "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
-  },
-  {
-    "naam": "Debeuckelaere Tielt",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9981,
-    "lng": 3.3301,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "btw": "BE0424.964.621",
-    "adres": "Kasteelstraat 121, 8700 Tielt",
-    "website": "debeuckelaere.com",
-    "info": "Vestiging Debeuckelaere. Kasteelstraat 121, Tielt.",
-    "groep": "Debeuckelaere Gebroeders NV",
-    "oprichting": "1996",
-    "cw_brutomarge": 2067504,
-    "cw_winst": 509297,
-    "cw_fte": 12.9,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 27,
-    "webshop": "Nee",
-    "groep_btw": "BE 0424.964.621",
-    "groep_rechtsvorm": "NV",
-    "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
-  },
-  {
-    "naam": "Debeuckelaere Gits (Hooglede)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9791,
-    "lng": 3.1601,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "btw": "BE0424.964.621",
-    "adres": "Bruggestraat 177, 8830 Gits",
-    "website": "debeuckelaere.com",
-    "info": "Vestiging Debeuckelaere. Bruggestraat 177, Gits.",
-    "groep": "Debeuckelaere Gebroeders NV",
-    "oprichting": "1996",
-    "cw_brutomarge": 2067504,
-    "cw_winst": 509297,
-    "cw_fte": 12.9,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 23,
-    "rijtijd_drongen": 38,
-    "webshop": "Nee",
-    "groep_btw": "BE 0424.964.621",
-    "groep_rechtsvorm": "NV",
-    "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
-  },
-  {
     "naam": "Debeuckelaere Oostende",
     "provincie": "wvl",
     "grootte": "Middelgroot",
@@ -3434,7 +2893,8 @@
     "lng": 3.4441,
     "activiteiten": [
       "terrassen",
-      "houthandel"
+      "houthandel",
+      "parket"
     ],
     "btw": "BE0419.536.480",
     "adres": "Doorniksesteenweg 202, 8580 Avelgem",
@@ -3447,108 +2907,6 @@
     "cw_fte": 16.7,
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 57,
-    "rijtijd_drongen": 44,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Verwée (Kuurne)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 50.8521,
-    "lng": 3.2831,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "btw": "BE 0405.379.331",
-    "adres": "Heirweg 115, 8520 Kuurne",
-    "website": "houtverwee.be",
-    "info": "Familiebedrijf 1895. 4e generatie. Hout + plaatmateriaal. Heirweg 115, Kuurne.",
-    "medewerkers": "3 FTE",
-    "oprichting": "1895",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 224821,
-    "cw_winst": 9202,
-    "cw_fte": 2.8,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 40,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "DB Hardwoods (Ledegem)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8671,
-    "lng": 3.1221,
-    "activiteiten": [
-      "houthandel",
-      "import"
-    ],
-    "btw": "BE 0425.328.370",
-    "adres": "Roeselarestraat 154, 8880 Ledegem",
-    "website": "https://www.dbhardwoods.com/",
-    "info": "Fabrikant verlijmde panelen. Europees hardhout. B2B industrie + schrijnwerkers. Rollegem-Kapelle (Ledegem).",
-    "rechtsvorm": "NV",
-    "cw_omzet": 12577720,
-    "cw_brutomarge": 1119821,
-    "cw_winst": 275331,
-    "cw_fte": 3,
-    "cw_jaar": 2024,
-    "bizzy_ebitda": 822225.92,
-    "bizzy_revenue": 12577720.07,
-    "bizzy_fte": 3,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 53,
-    "email": "info@dbhardwoods.com",
-    "tel": "+32 56 50 30 71",
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Loose (Sint-Andries/Brugge)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 51.2011,
-    "lng": 3.1874,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "btw": "BE 0414.807.335",
-    "adres": "Zandstraat 210, 8200 Sint-Andries (Brugge)",
-    "website": "houthandelmarcellose.be",
-    "info": "Drive-in werkplaats, zaag/schaaf op maat. Alle houtsoorten. Kortrijk.",
-    "medewerkers": "3 FTE",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 196121,
-    "cw_winst": 6407,
-    "cw_fte": 3,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 15,
-    "rijtijd_drongen": 30,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Vanhaverbeke (Izegem)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9141,
-    "lng": 3.2151,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "btw": "BE 0424.854.258",
-    "adres": "Ambachtenstraat 22, 8870 Izegem",
-    "website": "hout-vanhaverbeke.be",
-    "info": "5 generaties. Tuin+constructie+gevel+interieur. Drenkstation. Ambachtenstraat 22, Izegem.",
-    "medewerkers": 8.3,
-    "oprichting": "1983",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 1608000,
-    "cw_winst": 725000,
-    "cw_fte": 8.3,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 30,
     "rijtijd_drongen": 44,
     "webshop": "Nee"
   },
@@ -3577,29 +2935,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Hout Geldhof (Moorslede)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.8951,
-    "lng": 3.0641,
-    "activiteiten": [
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0405.565.710",
-    "adres": "Iepersestraat 22, 8890 Moorslede",
-    "info": "Massief hout, gevelbekleding, plaatmateriaal. Moorslede.",
-    "medewerkers": 4.8,
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 341822,
-    "cw_winst": -110462,
-    "cw_fte": 4.8,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 52,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Houtmarkt Brugge",
     "provincie": "wvl",
     "grootte": "Middelgroot",
@@ -3623,29 +2958,6 @@
     "webshop": "Ja"
   },
   {
-    "naam": "Huys Houthandel (Brugge)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.2061,
-    "lng": 3.2161,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "btw": "BE0405.118.124",
-    "adres": "Kleine Pathoekeweg 40, 8000 Brugge",
-    "website": "huys-houthandel.be",
-    "info": "Toonzaal, eiken tafels, FSC hout. Brugge.",
-    "medewerkers": "5 FTE",
-    "oprichting": "1943",
-    "cw_brutomarge": 494618,
-    "cw_winst": 24916,
-    "cw_fte": 5,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 16,
-    "rijtijd_drongen": 31,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Stock Super Shop (Gistel)",
     "provincie": "wvl",
     "grootte": "Micro",
@@ -3667,132 +2979,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Houthandel Dequidt (Veurne)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.0721,
-    "lng": 2.6641,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "btw": "BE 0405.252.340",
-    "adres": "Albert I Laan 27a, 8630 Veurne",
-    "info": "Hout voor tuin en interieur. Familiebedrijf. Veurne.",
-    "medewerkers": 7.1,
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 702373,
-    "cw_winst": 111006,
-    "cw_fte": 7,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 55,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Decadt (Vlamertinge/Ieper)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8561,
-    "lng": 2.8111,
-    "activiteiten": [
-      "parket",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE 0415.284.714",
-    "adres": "Vlamertinge (Ieper)",
-    "website": "https://www.decadt-hout.be/",
-    "info": "Groot- en kleinhandel. Specialist Oregon + Douglas dakhout. Houtzagerij, tuinhout, isolatie, parket. Vlamertinge (Ieper).",
-    "rechtsvorm": "NV",
-    "cw_fte": 16.2,
-    "bizzy_ebitda": 631729.76,
-    "bizzy_revenue": 13460407.6,
-    "bizzy_fte": 16.2,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 54,
-    "rijtijd_drongen": 63,
-    "email": "stefaan.decadt@decadt-hout.be",
-    "tel": "+32 57 20 06 03",
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel Decadt Daniel (Proven/Poperinge)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8511,
-    "lng": 2.7601,
-    "activiteiten": [
-      "dhz",
-      "houthandel"
-    ],
-    "btw": "BE 0415.284.714",
-    "adres": "Vlamertinge (Ieper)",
-    "website": "https://www.decadt-hout.be/",
-    "info": "DHZ + vakman. Regio Ieper-Heuvelland-Poperinge-Kust-Veurne. Levert ook Noord-Frankrijk wekelijks. Proven (Poperinge).",
-    "rechtsvorm": "NV",
-    "cw_omzet": 13460408,
-    "cw_fte": 16.2,
-    "bizzy_ebitda": 631729.76,
-    "bizzy_revenue": 13460407.6,
-    "bizzy_fte": 16.2,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 55,
-    "rijtijd_drongen": 64,
-    "email": "stefaan.decadt@decadt-hout.be",
-    "tel": "+32 57 20 06 03",
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Woodcenter (Wevelgem)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.8031,
-    "lng": 3.1841,
-    "activiteiten": [
-      "tuinhuis",
-      "online",
-      "terrassen"
-    ],
-    "btw": "BE 0434.661.354",
-    "adres": "Zuidstraat 7, 8560 Wevelgem",
-    "website": "www.woodcenter.be",
-    "info": "Webshop + fysieke winkel. Tuinhout, carports, tuinhuizen, speeltoestellen. Wevelgem.",
-    "medewerkers": 6.4,
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 2645702,
-    "cw_winst": 1469916,
-    "cw_fte": 6.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 45,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Eurowood (Wielsbeke)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9011,
-    "lng": 3.3741,
-    "activiteiten": [
-      "houthandel",
-      "import"
-    ],
-    "btw": "BE 0433.136.771",
-    "adres": "Rijksweg 442, 8710 Wielsbeke",
-    "website": "eurowoodnv.be",
-    "info": "5 generaties (1867). Specialist Europese eik. Wielsbeke.",
-    "medewerkers": 3.4,
-    "oprichting": "1867",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 754868,
-    "cw_winst": 105908,
-    "cw_fte": 3.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 37,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Lagae Hout (WVL — importeur)",
     "provincie": "wvl",
     "grootte": "Groot",
@@ -3805,37 +2991,6 @@
     "info": "Importeur hard- en zachthout. Exclusief importeur Benelux. Levert houthandels + industrie. West-Vlaanderen.",
     "rijtijd_hertsberge": 54,
     "rijtijd_drongen": 63,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Vandenbroucke Hout (Beernem)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.1391,
-    "lng": 3.3321,
-    "activiteiten": [
-      "dhz",
-      "houthandel"
-    ],
-    "btw": "BE 0414.141.993",
-    "adres": "Noendreef 1A, 8730 Beernem",
-    "website": "https://vandenbroucke.be/",
-    "info": "Breed gamma + zagerij. Levert OVL+WVL. DHZ + vakman. Beernem.",
-    "omzet": "€9,8 mln",
-    "medewerkers": "18 FTE",
-    "oprichting": "1974",
-    "rechtsvorm": "BV",
-    "cw_brutomarge": 1839503,
-    "cw_winst": 421003,
-    "cw_fte": 15,
-    "cw_jaar": 2024,
-    "bizzy_ebitda": 750414.37,
-    "bizzy_fte": 15,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 10,
-    "rijtijd_drongen": 23,
-    "email": "info@vandenbroucke.be",
-    "tel": "+32 50 78 84 95",
     "webshop": "Nee"
   },
   {
@@ -4015,31 +3170,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Houtmagazijn Verdonckt — parket (Avelgem)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 50.7679,
-    "lng": 3.4441,
-    "activiteiten": [
-      "parket",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE0419.536.480",
-    "adres": "Doorniksesteenweg 202, 8580 Avelgem",
-    "website": "houtmagazijnverdonckt.be",
-    "info": "Sedert 1920. Houthandel + parketvloeren toonzaal. Constructiehout, gevelbekleding, terrassen, parket. PEFC. Schaverij + drenkstation. 📍 Doorniksesteenweg 202, 8580 Avelgem 📞 056 64 40 42 🌐 houtmagazijnverdonckt.be",
-    "medewerkers": "21",
-    "oprichting": "1920",
-    "cw_brutomarge": 1068646,
-    "cw_winst": -319032,
-    "cw_fte": 16.7,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 57,
-    "rijtijd_drongen": 44,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Contesse Vloerbedekkingen (Nazareth)",
     "provincie": "ovl",
     "grootte": "Klein",
@@ -4074,31 +3204,6 @@
     "info": "Specialist massief parket. Erkend parketplaatser. Toonzaal. 📍 Mgr. Meulemanstraat 29, 9520 Sint-Lievens-Houtem",
     "rijtijd_hertsberge": 47,
     "rijtijd_drongen": 26,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Dubois-Parquet (Waregem — Cras Group)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8811,
-    "lng": 3.4341,
-    "activiteiten": [
-      "parket"
-    ],
-    "btw": "BE0882.268.745",
-    "adres": "Industrielaan 5, 8790 Waregem",
-    "website": "dubois-parquet.be",
-    "info": "Producent massief parketvloeren. Onderdeel Cras Woodgroup. Eigen productie solidevloeren. 📍 Waregem 🌐 dubois-parquet.be",
-    "omzet": "€112 mln (Cras groep)",
-    "medewerkers": "400+ (groep)",
-    "oprichting": "1878",
-    "cw_omzet": 112336185,
-    "cw_brutomarge": 7764420,
-    "cw_winst": -4757862,
-    "cw_fte": 230.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 28,
     "webshop": "Nee"
   },
   {
@@ -4245,89 +3350,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Houtland (Dendermonde) — tuinhuizen",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.0117,
-    "lng": 4.0309,
-    "activiteiten": [
-      "tuinhuis",
-      "terrassen"
-    ],
-    "btw": "BE 0419.283.884",
-    "adres": "Eegene 45, 9200 Dendermonde",
-    "website": "https://www.houtland.be/",
-    "info": "Sedert 1979 leverancier/fabrikant. Tuinpoorten, afsluitingen, terrassen, speeltoestellen, tuinhuizen, poolhouses, carports, straatmeubilair. FSC/PEFC. 📍 Dendermonde 🌐 www.houtland.be",
-    "medewerkers": 25.4,
-    "oprichting": "1979",
-    "rechtsvorm": "BV",
-    "cw_fte": 23.7,
-    "bizzy_ebitda": 833251.02,
-    "bizzy_fte": 23.7,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 55,
-    "rijtijd_drongen": 35,
-    "email": "sales@houtland.be",
-    "tel": "+32 52 42 26 06",
-    "webshop": "Nee"
-  },
-  {
-    "naam": "De Meyer Outdoor Living (Evergem) — tuinhuizen",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.1211,
-    "lng": 3.7221,
-    "activiteiten": [
-      "tuinhuis",
-      "online"
-    ],
-    "btw": "BE 0871.370.893",
-    "adres": "Langendam 25A, 9940 Evergem",
-    "website": "https://www.demeyertuinhout.be/",
-    "info": "Tuinhuisjes, garages, carports, tuinwanden, poorten op maat. 5-assige CNC. Plaatsingsdienst. Webshop. 📍 Langendam 25A, 9940 Sleidinge (Evergem) 📞 09 378 03 20 📧 verkoop@demeyer-nv.com 🌐 www.demeyer-nv.shop",
-    "medewerkers": 15.5,
-    "oprichting": "1997",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 1352082,
-    "cw_winst": 159,
-    "cw_fte": 17,
-    "cw_jaar": 2025,
-    "bizzy_ebitda": 380165.69,
-    "bizzy_fte": 17,
-    "bron": "bizzy",
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 15,
-    "email": "verkoop@demeyer-nv.com",
-    "tel": "+32 9 378 03 20",
-    "webshop": "Ja"
-  },
-  {
-    "naam": "EXZO",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 51.0829,
-    "lng": 3.4534,
-    "activiteiten": [
-      "paarden",
-      "agro",
-      "online"
-    ],
-    "btw": "BE 0688.738.206",
-    "adres": "Léon Bekaertlaan 3E, 9880 Aalter",
-    "website": "www.exzo.be",
-    "info": "Specialist robinia + kastanje paardenomheiningen, weidepoorten, hekwerk. Post & Rail. Webshop + showroom. 📍 Leon Bekaertlaan 3E, 9880 Aalter 📞 +32 (0)9 292 73 03 📧 info@robiniahout.be 🌐 www.robiniahout.be | www.ecohout.be",
-    "medewerkers": 8.9,
-    "oprichting": "2011",
-    "rechtsvorm": "BV",
-    "cw_brutomarge": 823211,
-    "cw_winst": 162788,
-    "cw_fte": 8.9,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 18,
-    "rijtijd_drongen": 14,
-    "webshop": "Ja"
-  },
-  {
     "naam": "Naturae (hekwerk — Zonnebeke)",
     "provincie": "ovl",
     "grootte": "Groot",
@@ -4360,31 +3382,6 @@
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 12,
     "webshop": "Ja"
-  },
-  {
-    "naam": "Botanica Wood (Roeselare) — weideafsluitingen",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 50.9441,
-    "lng": 3.1221,
-    "activiteiten": [
-      "paarden",
-      "agro"
-    ],
-    "btw": "BE 0444.953.846",
-    "adres": "Iepersestraat 459, 8800 Roeselare",
-    "website": "www.botanica-wood.be",
-    "info": "B2B tuinaannemer specialist. Aanbod: paardenafsluiting, weideomheiningen, Engelse poorten, gefreesde en gepelde palen. Eigen atelier. Verkooppunten ook Noord-Frankrijk. 📍 Roeselare 🌐 www.botanica-wood.be",
-    "medewerkers": "6 FTE",
-    "oprichting": "1992",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 759932,
-    "cw_winst": 58775,
-    "cw_fte": 6.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 47,
-    "webshop": "Beperkt"
   },
   {
     "naam": "Afsluitingenwoodline (OVL/WVL)",
@@ -4471,66 +3468,6 @@
     "rijtijd_hertsberge": 4,
     "rijtijd_drongen": 22,
     "webshop": "Ja"
-  },
-  {
-    "naam": "Cras Woodshops (HQ Waregem) — contact",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8812,
-    "lng": 3.4329,
-    "activiteiten": [
-      "agro",
-      "terrassen",
-      "houthandel"
-    ],
-    "btw": "BE0882.268.745",
-    "adres": "Industrielaan 5, 8790 Waregem",
-    "website": "www.craswoodshops.be",
-    "info": "HQ Cras Woodgroup. €112M+ omzet. 450+ medewerkers. 17 vestigingen België. Collstrop tuinhout, Dubois-Parquet, Brems deuren. 📍 Industrielaan 5, 8790 Waregem 📞 056 60 34 44 🌐 www.craswoodshops.be",
-    "groep": "Cras NV",
-    "omzet": "€112 mln",
-    "medewerkers": "230 FTE",
-    "oprichting": "1878",
-    "cw_omzet": 112336185,
-    "cw_brutomarge": 7764420,
-    "cw_winst": -4757862,
-    "cw_fte": 230.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 28,
-    "webshop": "Nee",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
-  },
-  {
-    "naam": "Goeminne Tuinhout (Dikkelvenne)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 50.9141,
-    "lng": 3.6975,
-    "activiteiten": [
-      "tuinhuis",
-      "terrassen"
-    ],
-    "btw": "BE 0446.722.414",
-    "adres": "Kerkstraat 88, 9890 Gavere",
-    "website": "goeminnetuinhout.be",
-    "info": "30+ jaar. Tuinhuizen, carports, poolhouses, terrassen, afsluitingen op maat. Showtuin. Kraanlevering. 📍 Dikkelvenne (Gavere) 📞 09 384 21 13 📧 goeminne.tuinhout@skynet.be 🌐 goeminnetuinhout.be",
-    "medewerkers": "5 FTE",
-    "oprichting": "1992",
-    "rechtsvorm": "BV",
-    "cw_brutomarge": 725000,
-    "cw_winst": 258000,
-    "cw_fte": 5.4,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 46,
-    "rijtijd_drongen": 25,
-    "webshop": "Nee"
   },
   {
     "naam": "Houthandel Driekoningen (Beernem)",
@@ -4733,27 +3670,6 @@
     "info": "Houthandel regio Oostkamp.",
     "rijtijd_hertsberge": 10,
     "rijtijd_drongen": 26,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Huys Concept (Brugge)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.208,
-    "lng": 3.225,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "btw": "BE 0405.118.124",
-    "adres": "Kleine Pathoekeweg 40, 8000 Brugge",
-    "info": "Houthandel. Kleine Pathoekeweg 40, 8000 Brugge.",
-    "rechtsvorm": "NV",
-    "cw_brutomarge": 494618,
-    "cw_winst": 24916,
-    "cw_fte": 5,
-    "cw_jaar": 2024,
-    "rijtijd_hertsberge": 20,
-    "rijtijd_drongen": 35,
     "webshop": "Nee"
   },
   {
@@ -5878,23 +4794,6 @@
     "cw_jaar": 2025,
     "rijtijd_hertsberge": 34,
     "rijtijd_drongen": 25,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Parketlounge (Destelbergen)",
-    "provincie": "ovl",
-    "grootte": "Micro",
-    "lat": 51.051,
-    "lng": 3.802,
-    "activiteiten": [
-      "parket"
-    ],
-    "btw": "BE0645.709.303",
-    "adres": "Dendermondesteenweg 764, 9070 Destelbergen",
-    "website": "parketlounge.be",
-    "info": "Familiebedrijf sinds 1991. Specialist gestabiliseerd parket. Showroom op afspraak in Destelbergen.",
-    "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 17,
     "webshop": "Nee"
   },
   {
