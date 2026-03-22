@@ -35,7 +35,7 @@ function renderTop25() {
   let html = `
     <div class="top15-header">
       <h2>Top 50 Overnamekandidaten</h2>
-      <p class="top15-subtitle">Rangschikking op basis van: EBITDA 150K–750K, omzet &lt;8M, groene zone, hoge marge, lage digitalisering, behapbaar voor 2 personen. Scroll voor meer.</p>
+      <p class="top15-subtitle">Automatische rangschikking op basis van: EBITDA sweet spot (150K–750K), brutomarge per FTE, teamgrootte (≤15 FTE), winstgevendheid, rijtijd, opvolgingskans en digitaliseringspotentieel. Enkel bedrijven in de groene zone met financiële data.</p>
     </div>
     <div class="top15-table-wrap">
       <table class="analyse-table top15-table">
