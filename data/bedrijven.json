@@ -177,7 +177,7 @@
     "btw": "BE 0414.141.993",
     "adres": "Noendreef 1A, 8730 Beernem",
     "rechtsvorm": "BV",
-    "website": "vandenbroucke.be",
+    "website": "https://vandenbroucke.be/",
     "activiteiten": [
       "dhz",
       "houthandel"
@@ -189,8 +189,11 @@
     "oprichting": "1974",
     "cw_brutomarge": 1839503,
     "cw_winst": 421003,
-    "cw_fte": 16.4,
-    "cw_jaar": 2024
+    "cw_fte": 15,
+    "cw_jaar": 2024,
+    "email": "info@vandenbroucke.be",
+    "tel": "+32 50 78 84 95",
+    "bizzy_ebitda": 750414.37
   },
   {
     "naam": "Botanica Wood",
@@ -404,7 +407,11 @@
     "cw_fte": 2,
     "cw_jaar": 2025,
     "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 43
+    "rijtijd_drongen": 43,
+    "email": "info@houthandel-messely.be",
+    "tel": "+32 475 62 18 46",
+    "website": "http://www.houthandel-messely.be/",
+    "bizzy_ebitda": 633131.68
   },
   {
     "naam": "Geldhof Hout",
@@ -506,12 +513,16 @@
     "rijtijd_drongen": 48,
     "omzet": "€13,7 mln",
     "medewerkers": "3 FTE",
-    "website": "dbhardwoods.com",
+    "website": "https://www.dbhardwoods.com/",
     "cw_brutomarge": 1119821,
     "cw_winst": 275331,
     "cw_omzet": 12577720,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "email": "info@dbhardwoods.com",
+    "tel": "+32 56 50 30 71",
+    "bizzy_ebitda": 822225.92,
+    "bizzy_revenue": 12577720.07
   },
   {
     "naam": "Houthandel Loose",
@@ -614,11 +625,14 @@
     "rijtijd_drongen": 23,
     "medewerkers": "3 FTE",
     "oprichting": "2002",
-    "website": "houthandelderegge.be",
+    "website": "http://houthandelderegge.be/",
     "cw_brutomarge": 558171,
     "cw_winst": 278849,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "email": "info@houthandelderegge.be",
+    "tel": "+32 466 44 92 66",
+    "bizzy_ebitda": 400489.37
   },
   {
     "naam": "Ecohout",
@@ -851,7 +865,7 @@
     "adres": "Langendam 25A, 9940 Evergem",
     "rechtsvorm": "NV",
     "medewerkers": 15.5,
-    "website": "www.demeyer-nv.shop",
+    "website": "https://www.demeyertuinhout.be/",
     "activiteiten": [
       "houthandel",
       "terrassen"
@@ -861,8 +875,11 @@
     "oprichting": "1997",
     "cw_brutomarge": 1352082,
     "cw_winst": 159,
-    "cw_fte": 15.5,
-    "cw_jaar": 2025
+    "cw_fte": 17,
+    "cw_jaar": 2025,
+    "email": "verkoop@demeyer-nv.com",
+    "tel": "+32 9 378 03 20",
+    "bizzy_ebitda": 380165.69
   },
   {
     "naam": "Hertecant Hout",
@@ -937,9 +954,13 @@
       "houthandel",
       "terrassen"
     ],
-    "website": "prindal.be",
+    "website": "https://www.prindalhout.com/",
     "rijtijd_hertsberge": 61,
-    "rijtijd_drongen": 40
+    "rijtijd_drongen": 40,
+    "email": "info@prindalhout.com",
+    "tel": "+32 54 33 10 16",
+    "bizzy_ebitda": 353664.59,
+    "cw_fte": 5.3
   },
   {
     "naam": "Verhofstede (Hout-Idee)",
@@ -980,7 +1001,11 @@
     "cw_brutomarge": 558171,
     "cw_winst": 278849,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "email": "info@houthandelderegge.be",
+    "tel": "+32 466 44 92 66",
+    "website": "http://houthandelderegge.be/",
+    "bizzy_ebitda": 400489.37
   },
   {
     "naam": "Cras Woodshops Antwerpen",
@@ -1894,7 +1919,7 @@
       "houthandel",
       "terrassen"
     ],
-    "website": "prindal.be",
+    "website": "https://www.prindalhout.com/",
     "bizzy_ebitda": 353664.59,
     "cw_fte": 5.3,
     "email": "info@prindalhout.com",
@@ -2126,7 +2151,13 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 53,
-    "rijtijd_drongen": 62
+    "rijtijd_drongen": 62,
+    "email": "stefaan.decadt@decadt-hout.be",
+    "tel": "+32 57 20 06 03",
+    "website": "https://www.decadt-hout.be/",
+    "bizzy_ebitda": 631729.76,
+    "bizzy_revenue": 13460407.6,
+    "cw_fte": 16.2
   },
   {
     "naam": "Houthandel Decadt Daniel (Proven)",
@@ -2144,7 +2175,13 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 55,
-    "rijtijd_drongen": 64
+    "rijtijd_drongen": 64,
+    "email": "stefaan.decadt@decadt-hout.be",
+    "tel": "+32 57 20 06 03",
+    "website": "https://www.decadt-hout.be/",
+    "bizzy_ebitda": 631729.76,
+    "bizzy_revenue": 13460407.6,
+    "cw_fte": 16.2
   },
   {
     "naam": "Houthandel Leirman (Diksmuide)",
@@ -2190,13 +2227,17 @@
     "rechtsvorm": "BV",
     "medewerkers": 25.4,
     "oprichting": "1979",
-    "website": "www.houtland.be",
+    "website": "https://www.houtland.be/",
     "activiteiten": [
       "tuinhuis",
       "terrassen"
     ],
     "rijtijd_hertsberge": 58,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "email": "sales@houtland.be",
+    "tel": "+32 52 42 26 06",
+    "bizzy_ebitda": 833251.02,
+    "cw_fte": 23.7
   },
   {
     "naam": "Janssens & Janssens (Aalst)",
@@ -2261,7 +2302,7 @@
     "adres": "Langendam 25A, 9940 Evergem",
     "rechtsvorm": "NV",
     "medewerkers": 15.5,
-    "website": "www.demeyer-nv.shop",
+    "website": "https://www.demeyertuinhout.be/",
     "activiteiten": [
       "online",
       "dhz",
@@ -2272,8 +2313,11 @@
     "oprichting": "1997",
     "cw_brutomarge": 1352082,
     "cw_winst": 159,
-    "cw_fte": 15.5,
-    "cw_jaar": 2025
+    "cw_fte": 17,
+    "cw_jaar": 2025,
+    "email": "verkoop@demeyer-nv.com",
+    "tel": "+32 9 378 03 20",
+    "bizzy_ebitda": 380165.69
   },
   {
     "naam": "Valcke Tuinhout (Oudegem)",
@@ -2685,7 +2729,7 @@
     "rijtijd_drongen": 28,
     "medewerkers": "3 FTE",
     "oprichting": "2002",
-    "website": "houthandelderegge.be",
+    "website": "http://houthandelderegge.be/",
     "cw_brutomarge": 558171,
     "cw_winst": 278849,
     "cw_fte": 3,
@@ -2982,7 +3026,8 @@
     "bizzy_ebitda": 633131.68,
     "email": "info@houthandel-messely.be",
     "tel": "+32 475 62 18 46",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "website": "http://www.houthandel-messely.be/"
   },
   {
     "naam": "Geldhof Hout (Moorslede)",
@@ -3380,7 +3425,9 @@
     "bizzy_ebitda": 822225.92,
     "email": "info@dbhardwoods.com",
     "tel": "+32 56 50 30 71",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "website": "https://www.dbhardwoods.com/",
+    "bizzy_revenue": 12577720.07
   },
   {
     "naam": "Houthandel Loose (Sint-Andries/Brugge)",
@@ -3572,7 +3619,13 @@
       "houthandel"
     ],
     "rijtijd_hertsberge": 54,
-    "rijtijd_drongen": 63
+    "rijtijd_drongen": 63,
+    "email": "stefaan.decadt@decadt-hout.be",
+    "tel": "+32 57 20 06 03",
+    "website": "https://www.decadt-hout.be/",
+    "bizzy_ebitda": 631729.76,
+    "bizzy_revenue": 13460407.6,
+    "cw_fte": 16.2
   },
   {
     "naam": "Houthandel Decadt Daniel (Proven/Poperinge)",
@@ -3596,7 +3649,9 @@
     "tel": "+32 57 20 06 03",
     "rijtijd_hertsberge": 55,
     "rijtijd_drongen": 64,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "website": "https://www.decadt-hout.be/",
+    "bizzy_revenue": 13460407.6
   },
   {
     "naam": "Woodcenter (Wevelgem)",
@@ -3670,7 +3725,7 @@
     "btw": "BE 0414.141.993",
     "adres": "Noendreef 1A, 8730 Beernem",
     "rechtsvorm": "BV",
-    "website": "vandenbroucke.be",
+    "website": "https://vandenbroucke.be/",
     "activiteiten": [
       "dhz",
       "houthandel"
@@ -3682,7 +3737,7 @@
     "oprichting": "1974",
     "cw_brutomarge": 1839503,
     "cw_winst": 421003,
-    "cw_fte": 16.4,
+    "cw_fte": 15,
     "cw_jaar": 2024,
     "bizzy_ebitda": 750414.37,
     "email": "info@vandenbroucke.be",
@@ -3767,13 +3822,13 @@
     ],
     "rijtijd_hertsberge": 18,
     "rijtijd_drongen": 38,
-    "website": "www.parketvanrobaeys.be",
+    "website": "https://www.parketvanrobaeys.be/",
     "btw": "BE0472.360.405",
     "oprichting": "2000",
     "adres": "Flandria 2, 8750 Zwevezele (Wingene)",
     "cw_brutomarge": 648705,
     "cw_winst": 202744,
-    "cw_fte": 3,
+    "cw_fte": 2,
     "cw_jaar": 2024,
     "bizzy_ebitda": 423137.05,
     "email": "info@parketvanrobaeys.be",
@@ -4095,7 +4150,7 @@
     "rechtsvorm": "BV",
     "medewerkers": 25.4,
     "oprichting": "1979",
-    "website": "www.houtland.be",
+    "website": "https://www.houtland.be/",
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -4120,7 +4175,7 @@
     "adres": "Langendam 25A, 9940 Evergem",
     "rechtsvorm": "NV",
     "medewerkers": 15.5,
-    "website": "www.demeyer-nv.shop",
+    "website": "https://www.demeyertuinhout.be/",
     "activiteiten": [
       "tuinhuis",
       "online"
@@ -4130,7 +4185,7 @@
     "oprichting": "1997",
     "cw_brutomarge": 1352082,
     "cw_winst": 159,
-    "cw_fte": 15.5,
+    "cw_fte": 17,
     "cw_jaar": 2025,
     "bizzy_ebitda": 380165.69,
     "email": "verkoop@demeyer-nv.com",
@@ -4688,11 +4743,11 @@
     "rijtijd_drongen": 22,
     "btw": "BE0416.083.775",
     "oprichting": "1976",
-    "website": "vanpeteghemhout.be",
+    "website": "https://vanpeteghemhout.be/",
     "adres": "Dorp-West 60, 9080 Lochristi",
     "cw_brutomarge": 1227282,
     "cw_winst": 813182,
-    "cw_fte": 3.3,
+    "cw_fte": 4,
     "cw_jaar": 2024,
     "bizzy_ebitda": 990482.01,
     "email": "info@vanpeteghemhout.be",
@@ -5460,7 +5515,7 @@
     "rijtijd_drongen": 40,
     "medewerkers": "1 FTE",
     "oprichting": "2003",
-    "website": "parketcenter.be",
+    "website": "https://www.parketcenter.be/",
     "cw_brutomarge": 440509,
     "cw_winst": 268430,
     "cw_fte": 0.8,
@@ -6227,12 +6282,13 @@
     "oprichting": "1970",
     "cw_brutomarge": 1683719,
     "cw_winst": 611982,
-    "cw_fte": 21.6,
+    "cw_fte": 20.7,
     "cw_jaar": 2024,
     "bizzy_ebitda": 776923.67,
     "email": "info@bcfv.be",
     "tel": "+32 56 67 19 25",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "website": "https://www.bcfv.be/"
   },
   {
     "naam": "Multi Bazar (Pittem)",
@@ -7207,12 +7263,13 @@
     "rijtijd_drongen": 33,
     "cw_brutomarge": 1372695,
     "cw_winst": 167528,
-    "cw_fte": 14.4,
+    "cw_fte": 15,
     "cw_jaar": 2024,
     "bizzy_ebitda": 386043.09,
     "email": "fierensbvba@skynet.be",
     "tel": "+32 50 20 95 56",
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "website": "https://www.fierensbvba.be/"
   },
   {
     "naam": "Schrijnwerken Moerman (Brugge)",
@@ -8705,7 +8762,8 @@
     "cw_fte": 68.5,
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 59,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_revenue": 10210263.79
   },
   {
     "naam": "EUROFIBA",
@@ -8805,7 +8863,8 @@
     "cw_fte": 24.6,
     "rijtijd_hertsberge": 29,
     "rijtijd_drongen": 40,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_revenue": 10510298.37
   },
   {
     "naam": "GEBROEDERS DEMASURE",
@@ -9245,7 +9304,8 @@
     "cw_fte": 1.9,
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 45,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_revenue": 1677354.05
   },
   {
     "naam": "VAN DEN NEST HOUT – BOUW & INTERIEUR",
@@ -9425,6 +9485,7 @@
     "cw_fte": 80.4,
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 38,
-    "bron": "bizzy"
+    "bron": "bizzy",
+    "bizzy_revenue": 28723613
   }
 ]
