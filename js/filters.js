@@ -67,8 +67,6 @@ function syncFilterButtons() {
 function buildLegend() {
   const el = document.getElementById("legend-content");
 
-  addLegendGroup(el, "Activiteit", categorieen.filter(c => c.type === "activiteit"));
-
   // Grootte
   const szGroup = document.createElement("div");
   szGroup.className = "legend-group";

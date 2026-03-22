@@ -161,6 +161,8 @@ function render() {
       if (starBtn) starBtn.addEventListener("click", e => {
         e.stopPropagation(); e.preventDefault();
         toggleFavorite(c);
+        m.closePopup();
+        render();
       });
 
       const orangeBtn = popup.querySelector(".orange-btn");
