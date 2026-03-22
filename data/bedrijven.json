@@ -93,29 +93,6 @@
     "groep_adres": "Industrielaan 5, 8790 Waregem"
   },
   {
-    "naam": "Cras Woodshops Menen",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.7971,
-    "lng": 3.1201,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "Vestiging Cras Woodgroup. Constructie+interieur. Menen.",
-    "groep": "Cras NV",
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 49,
-    "webshop": "Nee",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
-  },
-  {
     "naam": "Cras Woodshops Meulebeke",
     "provincie": "wvl",
     "grootte": "Groot",
@@ -148,26 +125,6 @@
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem"
-  },
-  {
-    "naam": "Groep Debeuckelaere",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.9992,
-    "lng": 2.9781,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "Groothandel + fabrikant Magnumboard. 6 vestigingen: Kortemark, Roeselare, Oostende, Tielt, Gits, Erpe-Mere. B2B constructie.",
-    "groep": "Debeuckelaere Gebroeders NV",
-    "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 55,
-    "webshop": "Nee",
-    "groep_btw": "BE 0424.964.621",
-    "groep_rechtsvorm": "NV",
-    "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
   },
   {
     "naam": "Vandenbroucke Hout",
@@ -587,10 +544,13 @@
       "import",
       "houthandel"
     ],
-    "info": "Importeur hard- en zachthout. Exclusief importeur Benelux. Levert aan houthandels + industrie. West-Vl.",
+    "info": "Houtimporteur, nu Belignum. Moeskroen.",
     "rijtijd_hertsberge": 54,
     "rijtijd_drongen": 63,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Boulevard Industriel 97B, 7700 Moeskroen",
+    "btw": "BE 0405.348.449",
+    "website": "www.belignum.be"
   },
   {
     "naam": "Hanssens Hout",
@@ -618,21 +578,6 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 11,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "V.E.H.",
-    "provincie": "ovl",
-    "grootte": "Klein",
-    "lat": 50.7451,
-    "lng": 3.6001,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "Klein- en groothandel + creatie + plaatsing houten tuinproducten. 15+ jaar. Ronse.",
-    "rijtijd_hertsberge": 60,
-    "rijtijd_drongen": 40,
     "webshop": "Nee"
   },
   {
@@ -742,30 +687,6 @@
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 16,
     "webshop": "Beperkt"
-  },
-  {
-    "naam": "Cras Woodshops Zottegem",
-    "provincie": "ovl",
-    "grootte": "Groot",
-    "lat": 50.8682,
-    "lng": 3.8118,
-    "activiteiten": [
-      "dhz",
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "Vestiging Cras Woodgroup (€112M). Breed pro gamma. Zottegem.",
-    "groep": "Cras NV",
-    "rijtijd_hertsberge": 49,
-    "rijtijd_drongen": 28,
-    "webshop": "Nee",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
   },
   {
     "naam": "Cras Woodshops Gent",
@@ -1595,7 +1516,9 @@
     "info": "100+ jaar. Distributeur hout, parket, panelen, toiture, isolatie. 500m² showroom. Lid Pluswood groep. Tournai.",
     "rijtijd_hertsberge": 56,
     "rijtijd_drongen": 58,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Avenue de Maire 9, 7500 Tournai",
+    "btw": "BE 0449.128.509"
   },
   {
     "naam": "La Boiserie",
@@ -1677,23 +1600,6 @@
       "dhz"
     ],
     "info": "DHZ-keten Gamma. 400+ soorten bouwhout. Charleroi. Webshop.",
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Brico (Tournai/Doornik)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.6041,
-    "lng": 3.3881,
-    "activiteiten": [
-      "dhz",
-      "online",
-      "terrassen",
-      "houthandel"
-    ],
-    "info": "DHZ-keten Brico. Tuinhout + constructiehout. Tournai/Doornik. Grens met WVL.",
-    "rijtijd_hertsberge": 57,
-    "rijtijd_drongen": 59,
     "webshop": "Ja"
   },
   {
@@ -1832,73 +1738,6 @@
     "webshop": "Ja"
   },
   {
-    "naam": "Tuinhout-compleet.be",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.042,
-    "lng": 3.81,
-    "activiteiten": [
-      "online",
-      "houthandel",
-      "terrassen"
-    ],
-    "website": "tuinhout-compleet.be",
-    "info": "Online houthandel (NL-gebaseerd). Douglas + eikenhout. Levert België. FSC. Zagerijservice.",
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 19,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Gadero.be",
-    "provincie": "ovl",
-    "grootte": "Groot",
-    "lat": 51.06,
-    "lng": 3.75,
-    "activiteiten": [
-      "tuinhuis",
-      "dhz",
-      "online",
-      "terrassen"
-    ],
-    "website": "gadero.be",
-    "info": "GROOTSTE ONLINE BEDREIGING. 20.000+ artikelen. Heel Vlaanderen + Wallonië. Sterke SEO. Goedkope levering. Composiet, hardhout, DHZ, tuinhuizen.",
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 18,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Houthandelbelgie.be",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.054,
-    "lng": 3.78,
-    "activiteiten": [
-      "online",
-      "houthandel"
-    ],
-    "website": "houthandelbelgie.be",
-    "info": "Online goedkoop hout. Agressieve prijscommunicatie. Levert heel België.",
-    "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 18,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "HOUTvakman.be",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.048,
-    "lng": 3.795,
-    "activiteiten": [
-      "online",
-      "terrassen"
-    ],
-    "website": "houtvakman.be",
-    "info": "Online houtspecialist België. Buitenhout: tuinhout, gevelbekleding, thermowood, eik. Levering heel België.",
-    "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 17,
-    "webshop": "Ja"
-  },
-  {
     "naam": "Bear Wood (online)",
     "provincie": "ant",
     "grootte": "Middelgroot",
@@ -1927,78 +1766,6 @@
     "webshop": "Ja"
   },
   {
-    "naam": "Leenbakker (Gent)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.0181,
-    "lng": 3.7281,
-    "activiteiten": [
-      "online",
-      "dhz",
-      "terrassen",
-      "houthandel"
-    ],
-    "website": "leenbakker.be",
-    "info": "DHZ-keten. Hout op maat, tuinhout, constructiehout. Gent. Webshop.",
-    "rijtijd_hertsberge": 34,
-    "rijtijd_drongen": 12,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Brico (Gent)",
-    "provincie": "ovl",
-    "grootte": "Groot",
-    "lat": 51.0428,
-    "lng": 3.6981,
-    "activiteiten": [
-      "online",
-      "dhz",
-      "terrassen",
-      "houthandel"
-    ],
-    "website": "brico.be",
-    "info": "DHZ-keten. Breed tuinhout + constructiehout. 152 winkels België. Webshop.",
-    "oprichting": "1973",
-    "rijtijd_hertsberge": 33,
-    "rijtijd_drongen": 9,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Gamma (Gent)",
-    "provincie": "ovl",
-    "grootte": "Groot",
-    "lat": 51.0361,
-    "lng": 3.7141,
-    "activiteiten": [
-      "online",
-      "dhz"
-    ],
-    "website": "gamma.be",
-    "info": "DHZ-keten. 400+ soorten bouwhout. 60+ winkels. Webshop + hout op maat zagen.",
-    "oprichting": "1978",
-    "rijtijd_hertsberge": 31,
-    "rijtijd_drongen": 11,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Hubo (Gent)",
-    "provincie": "ovl",
-    "grootte": "Groot",
-    "lat": 51.0298,
-    "lng": 3.7051,
-    "activiteiten": [
-      "online",
-      "dhz",
-      "terrassen"
-    ],
-    "website": "hubo.be",
-    "info": "DHZ-keten. Tuinhout, webshop, hout op maat. Heel Vlaanderen.",
-    "oprichting": "1969",
-    "rijtijd_hertsberge": 30,
-    "rijtijd_drongen": 10,
-    "webshop": "Ja"
-  },
-  {
     "naam": "Brico (Antwerpen)",
     "provincie": "ant",
     "grootte": "Groot",
@@ -2024,42 +1791,6 @@
       "dhz"
     ],
     "info": "DHZ-keten Gamma. Bouwhout. Antwerpen. Webshop.",
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Brico (Brugge)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 51.2081,
-    "lng": 3.2301,
-    "activiteiten": [
-      "dhz",
-      "online",
-      "terrassen",
-      "houthandel"
-    ],
-    "website": "brico.be",
-    "info": "DHZ-keten Brico. Tuinhout + constructiehout. Brugge.",
-    "oprichting": "1973",
-    "rijtijd_hertsberge": 19,
-    "rijtijd_drongen": 35,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Gamma (Kortrijk)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8281,
-    "lng": 3.2641,
-    "activiteiten": [
-      "dhz",
-      "online"
-    ],
-    "website": "gamma.be",
-    "info": "DHZ-keten Gamma. Bouwhout. Kortrijk.",
-    "oprichting": "1978",
-    "rijtijd_hertsberge": 42,
-    "rijtijd_drongen": 41,
     "webshop": "Ja"
   },
   {
@@ -2259,7 +1990,10 @@
     "info": "40+ jaar fabricage tuinhout. Klein familiebedrijf Oudegem (Dendermonde).",
     "rijtijd_hertsberge": 58,
     "rijtijd_drongen": 37,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Eegene 45, 9200 Oudegem",
+    "btw": "BE 0419.283.884",
+    "website": "www.houtland.be"
   },
   {
     "naam": "Durcolo (Turnhout)",
@@ -2396,21 +2130,6 @@
       "houthandel"
     ],
     "info": "Importeur/exporteur exotisch hout. B2B industrie + schrijnwerkers. Olen (Antwerpen).",
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Borremans Hout (Bornem)",
-    "provincie": "ant",
-    "grootte": "Klein",
-    "lat": 51.1001,
-    "lng": 4.2471,
-    "activiteiten": [
-      "dhz",
-      "houthandel"
-    ],
-    "info": "Breed gamma hout + plaatmateriaal. Kennis en service. Bornem (Antwerpen).",
-    "rijtijd_hertsberge": 60,
-    "rijtijd_drongen": 39,
     "webshop": "Nee"
   },
   {
@@ -2601,30 +2320,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Cras Woodshops Oostende",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 51.2341,
-    "lng": 2.9201,
-    "activiteiten": [
-      "dhz",
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "Vestiging Cras Woodgroup (€112M). Breed gamma. Oostende.",
-    "groep": "Cras NV",
-    "rijtijd_hertsberge": 28,
-    "rijtijd_drongen": 43,
-    "webshop": "Nee",
-    "groep_btw": "BE 0882.268.745",
-    "groep_omzet": "€112.336.185",
-    "groep_medewerkers": 230,
-    "groep_rechtsvorm": "NV",
-    "groep_oprichting": "2006",
-    "groep_website": "www.cras.be",
-    "groep_adres": "Industrielaan 5, 8790 Waregem"
-  },
-  {
     "naam": "Cras Woodshops Roeselare",
     "provincie": "wvl",
     "grootte": "Groot",
@@ -2743,26 +2438,6 @@
     "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
   },
   {
-    "naam": "Groep Debeuckelaere (Oostende)",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.2281,
-    "lng": 2.9141,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "Vestiging Debeuckelaere. Oostende.",
-    "groep": "Debeuckelaere Gebroeders NV",
-    "rijtijd_hertsberge": 25,
-    "rijtijd_drongen": 40,
-    "webshop": "Nee",
-    "groep_btw": "BE 0424.964.621",
-    "groep_rechtsvorm": "NV",
-    "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
-  },
-  {
     "naam": "Zagerij & Houthandel Van der Perre (Lennik)",
     "provincie": "vbr",
     "grootte": "Middelgroot",
@@ -2775,7 +2450,10 @@
     "info": "4 generaties houtzagerij. FSC. Tuinhout, terrasplanken, houten gebouwen op maat. Zonnepanelen op machines. Lennik (Vl.-Brabant).",
     "rijtijd_hertsberge": 58,
     "rijtijd_drongen": 37,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Assesteenweg 148, 1750 Lennik",
+    "btw": "BE 0446.496.146",
+    "website": "www.houtvanderperre.be"
   },
   {
     "naam": "Cras Woodshops Ardooie",
@@ -2844,46 +2522,6 @@
     "groep_oprichting": "2006",
     "groep_website": "www.cras.be",
     "groep_adres": "Industrielaan 5, 8790 Waregem"
-  },
-  {
-    "naam": "Debeuckelaere HQ (Kortemark)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 51.0041,
-    "lng": 2.9851,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "HQ + Magnumboard producent. Amersveldestraat 213, Kortemark. B2B Houtmassiefbouw.",
-    "groep": "Debeuckelaere Gebroeders NV",
-    "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 56,
-    "webshop": "Nee",
-    "groep_btw": "BE 0424.964.621",
-    "groep_rechtsvorm": "NV",
-    "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
-  },
-  {
-    "naam": "Debeuckelaere Oostende",
-    "provincie": "wvl",
-    "grootte": "Middelgroot",
-    "lat": 51.2281,
-    "lng": 2.9151,
-    "activiteiten": [
-      "houthandel",
-      "terrassen"
-    ],
-    "info": "Vestiging Debeuckelaere (Houtmarkt). Leo Baekelandlaan 1, Oostende.",
-    "groep": "Debeuckelaere Gebroeders NV",
-    "rijtijd_hertsberge": 25,
-    "rijtijd_drongen": 40,
-    "webshop": "Nee",
-    "groep_btw": "BE 0424.964.621",
-    "groep_rechtsvorm": "NV",
-    "groep_website": "www.debeuckelaere.be",
-    "groep_adres": "Amersveldestraat 213, 8610 Kortemark"
   },
   {
     "naam": "Houtmagazijn Verdonckt (Avelgem)",
@@ -2976,21 +2614,6 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 26,
     "rijtijd_drongen": 41,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Lagae Hout (WVL — importeur)",
-    "provincie": "wvl",
-    "grootte": "Groot",
-    "lat": 50.8211,
-    "lng": 2.8501,
-    "activiteiten": [
-      "import",
-      "houthandel"
-    ],
-    "info": "Importeur hard- en zachthout. Exclusief importeur Benelux. Levert houthandels + industrie. West-Vlaanderen.",
-    "rijtijd_hertsberge": 54,
-    "rijtijd_drongen": 63,
     "webshop": "Nee"
   },
   {
@@ -3367,38 +2990,6 @@
     "webshop": "Ja"
   },
   {
-    "naam": "Palenperpak (online B2B België)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.0541,
-    "lng": 3.7201,
-    "activiteiten": [
-      "paarden",
-      "agro",
-      "online"
-    ],
-    "website": "www.palenperpak.be",
-    "info": "Directe import grote hoeveelheden: kastanje/robinia/azobe/grenen palen, schapen/paardenomheiningen, weidepoorten, prikkeldraad. Laagste prijs via directe inkoop. Levert groothandels, landbouwers, particulieren. 🌐 www.palenperpak.be",
-    "rijtijd_hertsberge": 36,
-    "rijtijd_drongen": 12,
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Afsluitingenwoodline (OVL/WVL)",
-    "provincie": "ovl",
-    "grootte": "Klein",
-    "lat": 51.0431,
-    "lng": 3.7351,
-    "activiteiten": [
-      "paarden"
-    ],
-    "website": "www.afsluitingenwoodline.be",
-    "info": "Houten afsluitingen, paardenomheiningen, poorten, schuilhokken op maat. Tropisch hardhout / geïmpregneerd grenen / kastanje / acacia. Plaatsing op maat. 🌐 www.afsluitingenwoodline.be",
-    "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 12,
-    "webshop": "Nee"
-  },
-  {
     "naam": "De Houthoek (Koekelare) — paardenomheining",
     "provincie": "wvl",
     "grootte": "Middelgroot",
@@ -3430,22 +3021,6 @@
     "info": "B2B fabrikant + groothandel parketvloeren sedert 1988. Specialist Oude Vlaamse Stijl, visgraat, stijlpanelen, kopsparket. Eigen droogovens. Exclusief invoerder Solidfloor (België). Onderdeel Bremhove NV. 📍 Industriestraat 44, 9240 Zele 📞 052 44 45 57 📧 info@bjparket.be 🌐 www.bjparket.be | Omzet: brutomarge ~€589K",
     "rijtijd_hertsberge": 52,
     "rijtijd_drongen": 31,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Tuinweelde (OVL)",
-    "provincie": "ovl",
-    "grootte": "Middelgroot",
-    "lat": 51.0251,
-    "lng": 3.9501,
-    "activiteiten": [
-      "tuinhuis",
-      "terrassen"
-    ],
-    "website": "tuinweelde.be",
-    "info": "Tuinhuizen, garages, carports, schermen, terrassen. Hout geïmpregneerd onder hoge druk. Diverse afmetingen en stijlen. 🌐 tuinweelde.be",
-    "rijtijd_hertsberge": 50,
-    "rijtijd_drongen": 29,
     "webshop": "Nee"
   },
   {
@@ -3622,20 +3197,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Houthandel Anseeuw (Jabbeke)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 51.18,
-    "lng": 3.087,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "info": "Houthandel regio Jabbeke.",
-    "rijtijd_hertsberge": 16,
-    "rijtijd_drongen": 31,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Van Den Hende (Kuurne)",
     "provincie": "wvl",
     "grootte": "Middelgroot",
@@ -3656,20 +3217,6 @@
     "cw_jaar": 2025,
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 40,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Cube (Oostkamp)",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 51.156,
-    "lng": 3.239,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "info": "Houthandel regio Oostkamp.",
-    "rijtijd_hertsberge": 10,
-    "rijtijd_drongen": 26,
     "webshop": "Nee"
   },
   {
@@ -3729,7 +3276,10 @@
     "info": "Houthandel. Zottegem.",
     "rijtijd_hertsberge": 47,
     "rijtijd_drongen": 27,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Industrielaan 25, 9620 Zottegem",
+    "btw": "BE 0407.925.778",
+    "website": "www.vc-wood.com"
   },
   {
     "naam": "Van De Velde Hout (Wetteren)",
@@ -3743,7 +3293,10 @@
     "info": "Houthandel. Wetteren.",
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 20,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Zuidlaan 64, 9230 Wetteren",
+    "btw": "BE 0415.909.868",
+    "website": "www.vandevelde-hout.be"
   },
   {
     "naam": "Houthandel Mollaert (Aalst)",
@@ -3762,7 +3315,8 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 48,
     "rijtijd_drongen": 28,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Gentsesteenweg 210, 9300 Aalst"
   },
   {
     "naam": "Mannaert (Lebbeke)",
@@ -3776,7 +3330,10 @@
     "info": "Houthandel. Lebbeke.",
     "rijtijd_hertsberge": 63,
     "rijtijd_drongen": 43,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Koning Albert I-straat 19, 9280 Lebbeke",
+    "btw": "BE 0415.771.395",
+    "website": "www.houthandelmannaertlebbeke.be"
   },
   {
     "naam": "Van Peteghem Hout en Interieur (Lochristi)",
@@ -3840,21 +3397,10 @@
     "info": "Houthandel. Horebeke.",
     "rijtijd_hertsberge": 57,
     "rijtijd_drongen": 37,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Houthandel De Roose (Ninove)",
-    "provincie": "ovl",
-    "grootte": "Klein",
-    "lat": 50.837,
-    "lng": 4.024,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "info": "Houthandel. Ninove.",
-    "rijtijd_hertsberge": 55,
-    "rijtijd_drongen": 34,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Kromstraat 3, 9667 Sint-Maria-Horebeke",
+    "btw": "BE 0419.120.469",
+    "website": "www.houthandelvanimpe-moulart.be"
   },
   {
     "naam": "Dewahout (Deinze)",
@@ -3914,7 +3460,10 @@
     "info": "Houthandel. Zottegem.",
     "rijtijd_hertsberge": 48,
     "rijtijd_drongen": 27,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Steenweg op Aalst 27, 9620 Zottegem",
+    "btw": "BE 0440.690.893",
+    "website": "www.vansteenberge.be"
   },
   {
     "naam": "Lemahieu Group (Gent)",
@@ -3973,7 +3522,10 @@
     "info": "Houthandel. Dendermonde.",
     "rijtijd_hertsberge": 57,
     "rijtijd_drongen": 37,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Hoogveld 27, 9200 Dendermonde",
+    "btw": "BE 0415.781.194",
+    "website": "www.quintelier.biz"
   },
   {
     "naam": "Hout Van Acker (Melsele)",
@@ -3987,7 +3539,10 @@
     "info": "Houthandel deuren. Melsele (Beveren).",
     "rijtijd_hertsberge": 65,
     "rijtijd_drongen": 45,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Vesten 41, 9120 Melsele",
+    "btw": "BE 0411.599.110",
+    "website": "www.varip.com"
   },
   {
     "naam": "Houthandel Van Bruyssel (Lokeren)",
@@ -4011,20 +3566,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Houthandel Roger Van Acker (Beveren)",
-    "provincie": "ovl",
-    "grootte": "Klein",
-    "lat": 51.212,
-    "lng": 4.253,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "info": "Houthandel. Beveren-Waas.",
-    "rijtijd_hertsberge": 63,
-    "rijtijd_drongen": 42,
-    "webshop": "Nee"
-  },
-  {
     "naam": "Houthandel Piet Louwette (Sint-Niklaas)",
     "provincie": "ovl",
     "grootte": "Klein",
@@ -4036,21 +3577,8 @@
     "info": "Houthandel. Sint-Niklaas.",
     "rijtijd_hertsberge": 55,
     "rijtijd_drongen": 35,
-    "webshop": "Nee"
-  },
-  {
-    "naam": "Vandewalle Houthandel (Sint-Niklaas)",
-    "provincie": "ovl",
-    "grootte": "Klein",
-    "lat": 51.157,
-    "lng": 4.131,
-    "activiteiten": [
-      "houthandel"
-    ],
-    "info": "Houthandel. Europark-Zuid, Sint-Niklaas.",
-    "rijtijd_hertsberge": 58,
-    "rijtijd_drongen": 37,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Lindenstraat 125, 9100 Sint-Niklaas"
   },
   {
     "naam": "Houthandel-Zagerij De Geyter (Lede)",
@@ -4356,7 +3884,10 @@
     "info": "Terrasoverkapping, pergola, carport. Ninove.",
     "rijtijd_hertsberge": 54,
     "rijtijd_drongen": 34,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Kapittelstraat 131, 9400 Ninove",
+    "btw": "BE 0837.942.913",
+    "website": "www.cssoutdoorliving.be"
   },
   {
     "naam": "Westparket (Waregem)",
@@ -4413,7 +3944,10 @@
     "info": "Parketspecialist. Knokke-Heist.",
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 48,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "'t Walletje 14, 8300 Knokke-Heist",
+    "btw": "BE 0449.019.730",
+    "website": "www.blondeelparket.be"
   },
   {
     "naam": "Ka-parket (Blankenberge)",
@@ -4424,11 +3958,13 @@
     "activiteiten": [
       "parket"
     ],
-    "website": "ka-parket.be",
+    "website": "www.ka-parket.be",
     "info": "Parketvloeren sinds 2002. Blankenberge. 🌐 ka-parket.be",
     "rijtijd_hertsberge": 30,
     "rijtijd_drongen": 45,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Ontmijnersstraat 6, 8370 Blankenberge",
+    "btw": "BE 0478.436.365"
   },
   {
     "naam": "BV Parket (Diksmuide)",
@@ -4442,7 +3978,10 @@
     "info": "Parketvloeren. Quick-step, Parador, Parky. Beerst/Diksmuide.",
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 55,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "adres": "Wijnendalestraat 2, 8600 Beerst (Diksmuide)",
+    "btw": "BE 0838.364.664",
+    "website": "www.bvparket.be"
   },
   {
     "naam": "Renoba Parket (Brugge)",
@@ -4460,22 +3999,6 @@
     "webshop": "Nee"
   },
   {
-    "naam": "HoutOpMaatGezaagd.be",
-    "provincie": "ovl",
-    "grootte": "Klein",
-    "lat": 51.05,
-    "lng": 3.72,
-    "activiteiten": [
-      "online",
-      "houthandel"
-    ],
-    "website": "houtopmaatgezaagd.be",
-    "info": "Online hout op maat bestellen. 🌐 houtopmaatgezaagd.be",
-    "rijtijd_hertsberge": 34,
-    "rijtijd_drongen": 10,
-    "webshop": "Ja"
-  },
-  {
     "naam": "Limtrade.be",
     "provincie": "lim",
     "grootte": "Klein",
@@ -4488,22 +4011,6 @@
     ],
     "website": "limtrade.be",
     "info": "Online hout webshop. Balken, hardhout, platen, tuinhout. 🌐 limtrade.be",
-    "webshop": "Ja"
-  },
-  {
-    "naam": "Woodlet.be",
-    "provincie": "ovl",
-    "grootte": "Klein",
-    "lat": 51.05,
-    "lng": 3.73,
-    "activiteiten": [
-      "online",
-      "houthandel"
-    ],
-    "website": "woodlet.be",
-    "info": "Hout outlet / online houtverkoop. 🌐 woodlet.be",
-    "rijtijd_hertsberge": 33,
-    "rijtijd_drongen": 12,
     "webshop": "Ja"
   },
   {
@@ -7512,7 +7019,8 @@
     "rijtijd_hertsberge": 38,
     "rijtijd_drongen": 31,
     "email": "info@afsluitingen-de-soete.be",
-    "tel": "+32 56 72 83 68"
+    "tel": "+32 56 72 83 68",
+    "info": "Klein bedrijf. schrijnwerk. Waregem. 5 FTE."
   },
   {
     "naam": "Boncquet Robert",
@@ -7533,7 +7041,8 @@
     "rijtijd_hertsberge": 60,
     "rijtijd_drongen": 40,
     "email": "info@boncquet.be",
-    "tel": "+32 56 48 48 42"
+    "tel": "+32 56 48 48 42",
+    "info": "Klein bedrijf. schrijnwerk. Geraardsbergen. 7 FTE."
   },
   {
     "naam": "CALLANT LUC DECORATIETEAM",
@@ -7554,7 +7063,8 @@
     "rijtijd_hertsberge": 33,
     "rijtijd_drongen": 46,
     "email": "info@luccallant.be",
-    "tel": "+32 50 60 65 68"
+    "tel": "+32 50 60 65 68",
+    "info": "Klein bedrijf. schrijnwerk. Knokke-Heist. 5.2 FTE."
   },
   {
     "naam": "CARPENTIER KENNETH",
@@ -7575,7 +7085,8 @@
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 55,
     "email": "info@kennethcarpentier.be",
-    "tel": "+32 51 24 56 49"
+    "tel": "+32 51 24 56 49",
+    "info": "Middelgroot bedrijf. schrijnwerk. Diksmuide. 11 FTE."
   },
   {
     "naam": "CLOETENS",
@@ -7596,7 +7107,8 @@
     "rijtijd_hertsberge": 28,
     "rijtijd_drongen": 43,
     "email": "info@cloetensdeuren.be",
-    "tel": "+32 15 55 04 56"
+    "tel": "+32 15 55 04 56",
+    "info": "Middelgroot bedrijf. schrijnwerk. Blankenberge. 17.8 FTE."
   },
   {
     "naam": "CLPA",
@@ -7617,7 +7129,8 @@
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 30,
     "email": "info@clpa.be",
-    "tel": "+32 9 373 91 41"
+    "tel": "+32 9 373 91 41",
+    "info": "Microbedrijf. schrijnwerk. Kaprijke."
   },
   {
     "naam": "Cachet Schrijnwerken",
@@ -7638,7 +7151,8 @@
     "rijtijd_hertsberge": 12,
     "rijtijd_drongen": 27,
     "email": "info@cachetschrijnwerk.be",
-    "tel": "+32 51 57 10 19"
+    "tel": "+32 51 57 10 19",
+    "info": "Klein bedrijf. schrijnwerk. Wingene. 8.8 FTE."
   },
   {
     "naam": "D'HOKER & Co",
@@ -7659,7 +7173,8 @@
     "rijtijd_hertsberge": 52,
     "rijtijd_drongen": 31,
     "email": "schrijnwerkerij@dhoker.be",
-    "tel": "+32 53 66 26 48"
+    "tel": "+32 53 66 26 48",
+    "info": "Microbedrijf. schrijnwerk. Denderleeuw."
   },
   {
     "naam": "DE COENE INTERIOR DECORATION",
@@ -7680,7 +7195,8 @@
     "rijtijd_hertsberge": 44,
     "rijtijd_drongen": 40,
     "email": "info@decoene.eu",
-    "tel": "+32 56 22 15 15"
+    "tel": "+32 56 22 15 15",
+    "info": "Middelgroot bedrijf. schrijnwerk. Bellegem. 34.1 FTE."
   },
   {
     "naam": "DE LAERE DECOR",
@@ -7701,7 +7217,8 @@
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 43,
     "email": "info@delaeredecor.be",
-    "tel": "+32 56 25 77 33"
+    "tel": "+32 56 25 77 33",
+    "info": "Middelgroot bedrijf. schrijnwerk. Wevelgem. 33.8 FTE."
   },
   {
     "naam": "DEBBAUT",
@@ -7722,7 +7239,8 @@
     "rijtijd_hertsberge": 33,
     "rijtijd_drongen": 46,
     "email": "info@debbaut.be",
-    "tel": "+32 50 60 90 09"
+    "tel": "+32 50 60 90 09",
+    "info": "Klein bedrijf. schrijnwerk. Knokke-Heist. 7.2 FTE."
   },
   {
     "naam": "DHONDT INTERIEUR",
@@ -7743,7 +7261,8 @@
     "rijtijd_hertsberge": 17,
     "rijtijd_drongen": 32,
     "email": "info@dhondt.be",
-    "tel": "+32 467 09 75 88"
+    "tel": "+32 467 09 75 88",
+    "info": "Middelgroot bedrijf. schrijnwerk. Sint-Andries. 23.4 FTE."
   },
   {
     "naam": "DM - Line",
@@ -7764,7 +7283,8 @@
     "rijtijd_hertsberge": 57,
     "rijtijd_drongen": 36,
     "email": "info@dm-line.be",
-    "tel": "+32 52 39 93 00"
+    "tel": "+32 52 39 93 00",
+    "info": "Middelgroot bedrijf. schrijnwerk. Temse. 32.9 FTE."
   },
   {
     "naam": "De Ruyver",
@@ -7784,7 +7304,8 @@
     "bron": "bizzy",
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 16,
-    "tel": "+32 9 228 23 76"
+    "tel": "+32 9 228 23 76",
+    "info": "Middelgroot bedrijf. schrijnwerk. Destelbergen. 24.3 FTE."
   },
   {
     "naam": "Decruy",
@@ -7806,7 +7327,8 @@
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 59,
     "email": "alexanderdecruy@decruy.be",
-    "tel": "+32 51 70 28 01"
+    "tel": "+32 51 70 28 01",
+    "info": "Groot bedrijf. schrijnwerk. Houthulst. 68.5 FTE."
   },
   {
     "naam": "EUROFIBA",
@@ -7826,7 +7348,8 @@
     "bron": "bizzy",
     "rijtijd_hertsberge": 12,
     "rijtijd_drongen": 27,
-    "tel": "+32 51 70 00 00"
+    "tel": "+32 51 70 00 00",
+    "info": "Middelgroot bedrijf. schrijnwerk. Wingene. 14 FTE."
   },
   {
     "naam": "EUROPEN",
@@ -7847,7 +7370,8 @@
     "rijtijd_hertsberge": 49,
     "rijtijd_drongen": 25,
     "email": "info@europenramen.be",
-    "tel": "+32 9 336 26 74"
+    "tel": "+32 9 336 26 74",
+    "info": "Klein bedrijf. schrijnwerk. Desteldonk. 1 FTE."
   },
   {
     "naam": "EUROPORT COMPANY",
@@ -7868,7 +7392,8 @@
     "rijtijd_hertsberge": 20,
     "rijtijd_drongen": 31,
     "email": "info@europort.be",
-    "tel": "+32 51 46 62 83"
+    "tel": "+32 51 46 62 83",
+    "info": "Middelgroot bedrijf. schrijnwerk. Pittem. 15.2 FTE."
   },
   {
     "naam": "FLOORMASTERS",
@@ -7889,7 +7414,8 @@
     "rijtijd_hertsberge": 24,
     "rijtijd_drongen": 39,
     "email": "info@floormasters.be",
-    "tel": "+32 59 24 20 40"
+    "tel": "+32 59 24 20 40",
+    "info": "Klein bedrijf. schrijnwerk. Ostend. 2 FTE."
   },
   {
     "naam": "GEBR. HOLVOET GHV.",
@@ -7911,7 +7437,8 @@
     "rijtijd_hertsberge": 29,
     "rijtijd_drongen": 40,
     "email": "info@holvoetgebroeders.be",
-    "tel": "+32 51 31 02 06"
+    "tel": "+32 51 31 02 06",
+    "info": "Middelgroot bedrijf. schrijnwerk. Ingelmunster. 24.6 FTE."
   },
   {
     "naam": "GEBROEDERS DEMASURE",
@@ -7932,7 +7459,8 @@
     "rijtijd_hertsberge": 50,
     "rijtijd_drongen": 35,
     "email": "info@demasure.be",
-    "tel": "+32 56 68 96 58"
+    "tel": "+32 56 68 96 58",
+    "info": "Middelgroot bedrijf. schrijnwerk. Tiegem. 24.3 FTE."
   },
   {
     "naam": "GPG Deuren & Dressings",
@@ -7953,7 +7481,8 @@
     "rijtijd_hertsberge": 57,
     "rijtijd_drongen": 36,
     "email": "info@gpgdeurenendressings.be",
-    "tel": "+32 3 434 10 80"
+    "tel": "+32 3 434 10 80",
+    "info": "Klein bedrijf. schrijnwerk. Dendermonde. 4.8 FTE."
   },
   {
     "naam": "HOUTBEDRIJF DIERICK",
@@ -7974,7 +7503,8 @@
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 16,
     "email": "info@dierick.be",
-    "tel": "+32 9 385 58 13"
+    "tel": "+32 9 385 58 13",
+    "info": "Middelgroot bedrijf. schrijnwerk. Eke. 26.3 FTE."
   },
   {
     "naam": "INTERIEUR TER DOEL",
@@ -7995,7 +7525,8 @@
     "rijtijd_hertsberge": 76,
     "rijtijd_drongen": 55,
     "email": "info@terdoel.be",
-    "tel": "+32 2 451 16 16"
+    "tel": "+32 2 451 16 16",
+    "info": "Klein bedrijf. schrijnwerk. Doel. 7 FTE."
   },
   {
     "naam": "INTERIEUR VANESCH",
@@ -8016,7 +7547,8 @@
     "rijtijd_hertsberge": 34,
     "rijtijd_drongen": 49,
     "email": "info@interieurvanesch.be",
-    "tel": "+32 473 36 05 86"
+    "tel": "+32 473 36 05 86",
+    "info": "Klein bedrijf. schrijnwerk. Middelkerke. 5.9 FTE."
   },
   {
     "naam": "JACOBS BINNENDEUREN",
@@ -8037,7 +7569,8 @@
     "rijtijd_hertsberge": 56,
     "rijtijd_drongen": 36,
     "email": "info@jacobs-deuren.be",
-    "tel": "+32 54 32 63 06"
+    "tel": "+32 54 32 63 06",
+    "info": "Middelgroot bedrijf. schrijnwerk. Ninove. 16.1 FTE."
   },
   {
     "naam": "KUBRIEK",
@@ -8058,7 +7591,8 @@
     "rijtijd_hertsberge": 18,
     "rijtijd_drongen": 33,
     "email": "info@kubriek.be",
-    "tel": "+32 50 68 62 08"
+    "tel": "+32 50 68 62 08",
+    "info": "Microbedrijf. schrijnwerk. Jabbeke."
   },
   {
     "naam": "L.A. RAMEN JEAN LANSSENS",
@@ -8079,7 +7613,8 @@
     "rijtijd_hertsberge": 27,
     "rijtijd_drongen": 28,
     "email": "ferdy@laramen.be",
-    "tel": "+32 51 63 61 09"
+    "tel": "+32 51 63 61 09",
+    "info": "Middelgroot bedrijf. schrijnwerk. Dentergem. 30.3 FTE."
   },
   {
     "naam": "MEUBELEN VANDERMEEREN",
@@ -8100,7 +7635,8 @@
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 55,
     "email": "info@vandermeeren.be",
-    "tel": "+32 58 31 03 20"
+    "tel": "+32 58 31 03 20",
+    "info": "Middelgroot bedrijf. schrijnwerk. Veurne. 24.4 FTE."
   },
   {
     "naam": "MONSEREZ PROJECTS",
@@ -8121,7 +7657,8 @@
     "rijtijd_hertsberge": 20,
     "rijtijd_drongen": 31,
     "email": "info@monserez.com",
-    "tel": "+32 51 46 73 47"
+    "tel": "+32 51 46 73 47",
+    "info": "Middelgroot bedrijf. schrijnwerk. Pittem. 13 FTE."
   },
   {
     "naam": "PDV-Deuren",
@@ -8142,7 +7679,8 @@
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 47,
     "email": "info@pdvdeuren.be",
-    "tel": "+32 478 76 11 94"
+    "tel": "+32 478 76 11 94",
+    "info": "Microbedrijf. schrijnwerk. Roeselare. 0.4 FTE."
   },
   {
     "naam": "PLEYSIER STEVEN",
@@ -8163,7 +7701,8 @@
     "rijtijd_hertsberge": 32,
     "rijtijd_drongen": 48,
     "email": "info@pleysiersteven.be",
-    "tel": "+32 51 58 93 67"
+    "tel": "+32 51 58 93 67",
+    "info": "Klein bedrijf. schrijnwerk. Koekelare. 8 FTE."
   },
   {
     "naam": "PROJEKT  &  DESIGN",
@@ -8184,7 +7723,8 @@
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 49,
     "email": "info@projektdesign.be",
-    "tel": "+32 56 50 19 09"
+    "tel": "+32 56 50 19 09",
+    "info": "Klein bedrijf. schrijnwerk. Ledegem. 7.1 FTE."
   },
   {
     "naam": "Placabois",
@@ -8205,7 +7745,8 @@
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 43,
     "email": "placabois@placabois.be",
-    "tel": "+32 56 60 21 12"
+    "tel": "+32 56 60 21 12",
+    "info": "Middelgroot bedrijf. schrijnwerk. Wevelgem. 14 FTE."
   },
   {
     "naam": "R. PARREIN - BOUDEN",
@@ -8226,7 +7767,8 @@
     "rijtijd_hertsberge": 51,
     "rijtijd_drongen": 60,
     "email": "claude.marechal@trappenparrein.be",
-    "tel": "+32 57 21 90 10"
+    "tel": "+32 57 21 90 10",
+    "info": "Middelgroot bedrijf. schrijnwerk. Ieper. 16.6 FTE."
   },
   {
     "naam": "SCHRIJNWERKERIJ BORRA",
@@ -8247,7 +7789,8 @@
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 59,
     "email": "info@borra.be",
-    "tel": "+32 51 70 33 70"
+    "tel": "+32 51 70 33 70",
+    "info": "Middelgroot bedrijf. schrijnwerk. Houthulst. 30.4 FTE."
   },
   {
     "naam": "Schrijnwerk Van de Walle",
@@ -8268,7 +7811,8 @@
     "rijtijd_hertsberge": 44,
     "rijtijd_drongen": 21,
     "email": "info@schrijnwerkvandewalle.be",
-    "tel": "+32 9 355 53 63"
+    "tel": "+32 9 355 53 63",
+    "info": "Klein bedrijf. schrijnwerk. Oostakker. 7 FTE."
   },
   {
     "naam": "Schrijnwerkerij Verplancke",
@@ -8289,7 +7833,8 @@
     "rijtijd_hertsberge": 18,
     "rijtijd_drongen": 33,
     "email": "schrijnwerkerijverplancke@gmail.com",
-    "tel": "+32 498 67 07 26"
+    "tel": "+32 498 67 07 26",
+    "info": "Microbedrijf. schrijnwerk. Jabbeke."
   },
   {
     "naam": "TIMMERWERKEN JORIS",
@@ -8310,7 +7855,8 @@
     "rijtijd_hertsberge": 52,
     "rijtijd_drongen": 60,
     "email": "info@timmerwerken-joris.be",
-    "tel": "+32 475 73 35 85"
+    "tel": "+32 475 73 35 85",
+    "info": "Microbedrijf. schrijnwerk. Boezinge."
   },
   {
     "naam": "TUINEN HOFLACK",
@@ -8331,7 +7877,8 @@
     "rijtijd_hertsberge": 46,
     "rijtijd_drongen": 62,
     "email": "info@tuinenhoflack.be",
-    "tel": "+32 57 48 91 67"
+    "tel": "+32 57 48 91 67",
+    "info": "Middelgroot bedrijf. schrijnwerk. Langemark-Poelkapelle. 15.7 FTE."
   },
   {
     "naam": "TWEEPUNTEEN",
@@ -8352,7 +7899,8 @@
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 40,
     "email": "info@tweepunteen.be",
-    "tel": "+32 56 44 69 70"
+    "tel": "+32 56 44 69 70",
+    "info": "Middelgroot bedrijf. schrijnwerk. Kortrijk. 22.8 FTE."
   },
   {
     "naam": "The Veneer",
@@ -8374,7 +7922,8 @@
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 45,
     "email": "info@decospan.com",
-    "tel": "+32 56 52 88 00"
+    "tel": "+32 56 52 88 00",
+    "info": "Klein bedrijf. schrijnwerk. Menen. 1.9 FTE."
   },
   {
     "naam": "VAN DEN NEST HOUT – BOUW & INTERIEUR",
@@ -8395,7 +7944,8 @@
     "rijtijd_hertsberge": 54,
     "rijtijd_drongen": 33,
     "email": "info@vandennest.be",
-    "tel": "+32 53 21 58 43"
+    "tel": "+32 53 21 58 43",
+    "info": "Middelgroot bedrijf. schrijnwerk. Gijzegem. 17.4 FTE."
   },
   {
     "naam": "VAN RAEMDONCK INTERIEUR",
@@ -8416,7 +7966,8 @@
     "rijtijd_hertsberge": 50,
     "rijtijd_drongen": 29,
     "email": "info@vanraemdonck-haarden.be",
-    "tel": "+32 52 46 01 55"
+    "tel": "+32 52 46 01 55",
+    "info": "Klein bedrijf. schrijnwerk. Waasmunster. 2.7 FTE."
   },
   {
     "naam": "VAN dE VELDE HOUT",
@@ -8437,7 +7988,8 @@
     "rijtijd_hertsberge": 41,
     "rijtijd_drongen": 21,
     "email": "verkoop@vdvhout.be",
-    "tel": "+32 9 369 04 57"
+    "tel": "+32 9 369 04 57",
+    "info": "Klein bedrijf. schrijnwerk. Wetteren. 8 FTE."
   },
   {
     "naam": "VANHARDHOUT",
@@ -8458,7 +8010,8 @@
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 44,
     "email": "info@vanhardhout.be",
-    "tel": "+32 51 30 60 85"
+    "tel": "+32 51 30 60 85",
+    "info": "Klein bedrijf. schrijnwerk. Izegem. 3 FTE."
   },
   {
     "naam": "VANHOUTTE JEROEN",
@@ -8479,7 +8032,8 @@
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 49,
     "email": "info@paintdoors.be",
-    "tel": "+32 56 50 24 78"
+    "tel": "+32 56 50 24 78",
+    "info": "Klein bedrijf. schrijnwerk. Ledegem. 7.6 FTE."
   },
   {
     "naam": "VERADA",
@@ -8500,7 +8054,8 @@
     "rijtijd_hertsberge": 53,
     "rijtijd_drongen": 44,
     "email": "info@verada.be",
-    "tel": "+32 56 64 96 56"
+    "tel": "+32 56 64 96 56",
+    "info": "Middelgroot bedrijf. schrijnwerk. Zwevegem. 15.8 FTE."
   },
   {
     "naam": "VERHULST-DYNAMIC",
@@ -8521,7 +8076,8 @@
     "rijtijd_hertsberge": 53,
     "rijtijd_drongen": 61,
     "email": "info@verhulst.co",
-    "tel": "+32 57 20 13 28"
+    "tel": "+32 57 20 13 28",
+    "info": "Middelgroot bedrijf. schrijnwerk. Vlamertinge. 38 FTE."
   },
   {
     "naam": "Vanhoeck Flooring",
@@ -8542,7 +8098,8 @@
     "rijtijd_hertsberge": 33,
     "rijtijd_drongen": 17,
     "email": "vanhoeckflooring@gmail.com",
-    "tel": "+32 497 91 10 29"
+    "tel": "+32 497 91 10 29",
+    "info": "Microbedrijf. schrijnwerk. Deinze."
   },
   {
     "naam": "WILLEMS",
@@ -8564,6 +8121,7 @@
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 38,
     "email": "info@willems-zout.be",
-    "tel": "+32 87 78 34 77"
+    "tel": "+32 87 78 34 77",
+    "info": "Groot bedrijf. schrijnwerk. Ronse. 80.4 FTE."
   }
 ]
