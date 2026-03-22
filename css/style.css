@@ -1,19 +1,32 @@
 /* Houtkaart — Stijlen */
 
+:root {
+  --color-primary: #1a1a2e;
+  --color-primary-dark: #16213e;
+  --color-accent: #1565C0;
+  --color-success: #2E7D32;
+  --color-warning: #FF9800;
+  --color-danger: #c62828;
+  --color-star: #FFEB3B;
+  --color-bg: #f0f2f5;
+  --color-text: #333;
+  --font-main: 'Segoe UI', Arial, sans-serif;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f0f2f5;
+  font-family: var(--font-main);
+  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   height: 100vh;
-  color: #333;
+  color: var(--color-text);
 }
 
 /* Header */
 #header {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: #fff;
   padding: 5px 16px;
   flex-shrink: 0;
@@ -214,7 +227,7 @@ body {
 
 .analyse-btn {
   font-size: 11px; padding: 6px 16px; border: none; border-radius: 6px;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color: #fff;
   cursor: pointer; font-weight: 600; transition: all 0.15s; box-shadow: 0 2px 6px rgba(26,26,46,0.2);
 }
 .analyse-btn:hover { opacity: 0.9; transform: translateY(-1px); }
@@ -247,7 +260,6 @@ body {
 .analyse-opps { margin-bottom: 16px; }
 .opp-section { background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 14px 18px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
 .opp-section h3 { font-size: 14px; font-weight: 700; color: #1a1a2e; margin-bottom: 4px; padding-bottom: 6px; }
-.opp-subtitle { font-weight: 400; font-size: 11px; color: #888; }
 .opp-desc { font-size: 11px; color: #888; margin-bottom: 10px; line-height: 1.4; }
 .opp-list { display: flex; flex-direction: column; gap: 5px; }
 .opp-item {
@@ -257,12 +269,6 @@ body {
 .opp-item:hover { background: #f0f4ff; }
 .opp-name { font-size: 12px; font-weight: 700; color: #1a1a2e; white-space: nowrap; }
 .opp-detail { font-size: 11px; color: #777; flex: 1; }
-.opp-link {
-  font-size: 10px; color: #1565C0; text-decoration: none; padding: 2px 8px;
-  border: 1px solid #bbdefb; border-radius: 4px; background: #e3f2fd; transition: all 0.15s; white-space: nowrap;
-}
-.opp-link:hover { background: #bbdefb; }
-
 /* Marktverzadiging */
 .opp-saturation { margin-top: 6px; }
 .sat-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
@@ -533,3 +539,21 @@ body {
   .stat-chip { font-size: 10px; padding: 2px 6px; }
   .td-notes { min-width: 100px; width: 120px; }
 }
+
+/* ═══════════════════════════════════════════════
+   Toast notificaties
+   ═══════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════
+   Loading overlay
+   ═══════════════════════════════════════════════ */
+#loading-overlay { position: fixed; inset: 0; background: #f0f2f5; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 99999; gap: 12px; font-family: sans-serif; color: #1a1a2e; font-size: 14px; font-weight: 600; }
+.loading-spinner { width: 36px; height: 36px; border: 3px solid #e0e0e0; border-top-color: #1a1a2e; border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+#toast-container { position: fixed; bottom: 20px; right: 20px; z-index: 10000; display: flex; flex-direction: column; gap: 8px; pointer-events: none; }
+.toast { padding: 12px 20px; border-radius: 8px; font-size: 13px; font-weight: 600; color: #fff; opacity: 0; transform: translateX(100%); transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 340px; pointer-events: auto; }
+.toast-show { opacity: 1; transform: translateX(0); }
+.toast-info { background: #1a1a2e; }
+.toast-success { background: #2E7D32; }
+.toast-error { background: #c62828; }
+.toast-warning { background: #FF9800; color: #1a1a2e; }

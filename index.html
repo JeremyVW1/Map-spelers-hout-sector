@@ -10,16 +10,22 @@
 </head>
 <body>
 
+  <!-- Loading overlay -->
+  <div id="loading-overlay">
+    <div class="loading-spinner"></div>
+    <span>Laden...</span>
+  </div>
+
   <!-- Header -->
   <div id="header">
     <div class="header-left">
       <h1>🌲 Hout bedrijven → Potentiële targets</h1>
     </div>
-    <div class="header-center">
-      <button class="tab-btn active" data-tab="kaart">Kaart</button>
-      <button class="tab-btn" data-tab="analyse">Analyse</button>
-      <button class="tab-btn" data-tab="favorieten">★ Favorieten <span id="fav-count" class="fav-count">0</span></button>
-      <button class="tab-btn" data-tab="twijfel">● Twijfel <span id="orange-count" class="fav-count orange-count">0</span></button>
+    <div class="header-center" role="tablist">
+      <button class="tab-btn active" data-tab="kaart" role="tab" aria-selected="true">Kaart</button>
+      <button class="tab-btn" data-tab="analyse" role="tab" aria-selected="false">Analyse</button>
+      <button class="tab-btn" data-tab="favorieten" role="tab" aria-selected="false">★ Favorieten <span id="fav-count" class="fav-count">0</span></button>
+      <button class="tab-btn" data-tab="twijfel" role="tab" aria-selected="false">● Twijfel <span id="orange-count" class="fav-count orange-count">0</span></button>
     </div>
     <div class="header-right">
       <div class="counter"><span id="counter-num">0</span> bedrijven</div>
@@ -32,7 +38,7 @@
       <div class="search-wrap">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" id="search" placeholder="Zoek bedrijf, plaats…" autocomplete="off"/>
-        <button id="search-clear" title="Wis zoekopdracht">&times;</button>
+        <button id="search-clear" title="Wis zoekopdracht" aria-label="Wis zoekopdracht">&times;</button>
         <div id="search-suggestions" class="search-suggestions"></div>
       </div>
       <button class="fb" id="btn-all">Alles</button>

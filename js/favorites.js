@@ -67,7 +67,10 @@ function _post(data) {
     method: "POST", mode: "no-cors",
     headers: { "Content-Type": "text/plain" },
     body: JSON.stringify(data),
-  }).catch(() => {});
+  }).catch(err => {
+    console.warn("Sheet sync mislukt:", err);
+    showToast("Synchronisatie mislukt — wijzigingen staan lokaal opgeslagen.", "warning", 5000);
+  });
 }
 
 /* ════════════════════════════════════════════════════
@@ -134,6 +137,8 @@ async function _fetchSheetData() {
     ]);
     const blad1 = await res1.json();
     const top25 = await res2.json();
+    if (!Array.isArray(blad1)) throw new Error("Onverwacht formaat van Sheets (Blad1)");
+    if (!Array.isArray(top25)) throw new Error("Onverwacht formaat van Sheets (Top25)");
     _parseBlad1(blad1);
     _parseTop25(top25);
 
@@ -152,6 +157,7 @@ async function _fetchSheetData() {
     return true;
   } catch (e) {
     console.warn("Sheet sync mislukt:", e);
+    showToast("Google Sheets niet bereikbaar — lokale data wordt gebruikt.", "warning", 4000);
     return false;
   }
 }
@@ -199,10 +205,6 @@ async function _autoSync() {
 function startAutoSync() {
   if (_syncTimer) clearInterval(_syncTimer);
   _syncTimer = setInterval(_autoSync, SYNC_INTERVAL);
-}
-
-function stopAutoSync() {
-  if (_syncTimer) { clearInterval(_syncTimer); _syncTimer = null; }
 }
 
 /* ════════════════════════════════════════════════════
@@ -366,9 +368,6 @@ function updateStatusButtons(naam) {
   });
 }
 
-// Legacy alias
-function updateStarButtons(naam) { updateStatusButtons(naam); }
-
 function updateFavCount() {
   const el = document.getElementById("fav-count");
   if (el) el.textContent = favorites.size;
@@ -489,14 +488,14 @@ function _attachAllHandlers(container) {
   container.querySelectorAll(".orange-btn").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation(); e.preventDefault();
-      const c = bedrijven.find(b => b.naam === btn.dataset.naam);
+      const c = bedrijvenMap.get(btn.dataset.naam);
       if (c) toggleOrange(c);
     });
   });
   container.querySelectorAll(".red-btn").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation(); e.preventDefault();
-      const c = bedrijven.find(b => b.naam === btn.dataset.naam);
+      const c = bedrijvenMap.get(btn.dataset.naam);
       if (c) toggleRed(c);
     });
   });

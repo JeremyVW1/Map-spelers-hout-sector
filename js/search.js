@@ -77,11 +77,8 @@ function showSuggestions(val, sugBox, input) {
       updateCounter();
       map.setView([c.lat, c.lng], 14);
       setTimeout(() => {
-        const m = markers.find(mk => {
-          const ll = mk.getLatLng();
-          return Math.abs(ll.lat - c.lat) < 0.001 && Math.abs(ll.lng - c.lng) < 0.001;
-        });
-        if (m) m.openPopup();
+        const entry = allMarkers.get(c.naam);
+        if (entry && map.hasLayer(entry.marker)) entry.marker.openPopup();
       }, 100);
     });
 

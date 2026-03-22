@@ -3,6 +3,7 @@
 let bedrijven   = [];
 let categorieen = [];
 let top15       = [];
+const bedrijvenMap = new Map();
 
 async function init() {
   try {
@@ -17,6 +18,7 @@ async function init() {
     bedrijven   = await bedrijvenRes.json();
     categorieen = await catRes.json();
     top15       = top15Res.ok ? await top15Res.json() : [];
+    bedrijven.forEach(c => bedrijvenMap.set(c.naam, c));
   } catch (e) {
     console.error("Data laden mislukt:", e);
     document.body.innerHTML = `<div style="padding:2rem;color:#c62828;font-family:sans-serif">
@@ -32,11 +34,31 @@ async function init() {
   await loadFavorites();
 
   initMap();
+  createAllMarkers();
   buildFilters();
   buildLegend();
   initSearch();
   initAnalyse();
   initTabs();
+
+  // Event delegation voor popup-knoppen (eenmalig, geen memory leak)
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".leaflet-popup")) return;
+    const btn = e.target.closest(".star-btn, .orange-btn, .red-btn");
+    if (!btn) return;
+    e.stopPropagation(); e.preventDefault();
+    const naam = btn.dataset.naam;
+    const c = bedrijvenMap.get(naam);
+    if (!c) return;
+    if (btn.classList.contains("star-btn")) toggleFavorite(c);
+    else if (btn.classList.contains("orange-btn")) toggleOrange(c);
+    else if (btn.classList.contains("red-btn")) toggleRed(c);
+    refreshMarkerIcon(naam);
+    const entry = allMarkers.get(naam);
+    if (entry && entry.marker.isPopupOpen()) {
+      entry.marker.setPopupContent(buildPopup(c));
+    }
+  });
 
   activeRegios.add("groene_zone");
   activeRegios.add("wvl");
@@ -49,6 +71,11 @@ async function init() {
   document.getElementById("fav-export").addEventListener("click", exportFavCSV);
   document.getElementById("twijfel-export").addEventListener("click", exportTwijfelCSV);
   startAutoSync();
+
+  window.addEventListener("offline", () => showToast("Je bent offline. Wijzigingen worden lokaal opgeslagen.", "warning", 5000));
+  window.addEventListener("online", () => { showToast("Weer online!", "success", 3000); _autoSync(); });
+
+  document.getElementById("loading-overlay")?.remove();
 }
 
 function initTabs() {
@@ -56,8 +83,9 @@ function initTabs() {
 
   document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".tab-btn").forEach(b => { b.classList.remove("active"); b.setAttribute("aria-selected", "false"); });
       btn.classList.add("active");
+      btn.setAttribute("aria-selected", "true");
 
       const tab = btn.dataset.tab;
       kaartEls.forEach(el => el.classList.toggle("hidden", tab !== "kaart"));

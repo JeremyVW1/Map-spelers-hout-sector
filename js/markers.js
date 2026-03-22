@@ -1,6 +1,7 @@
-/* Houtkaart — Markers & popups */
+/* Houtkaart — Markers & popups (met caching) */
 
 let markers = [];
+const allMarkers = new Map(); // naam -> { marker, company }
 
 function makeIcon(col, r, isGroot, isFav, isOr, isRd) {
   const s = r * 2 + 8;
@@ -146,48 +147,42 @@ function buildPopup(c) {
 
 function getActivityColor(c) {
   const acts = c.activiteiten || [];
-  return acts.length === 0 ? "#888" : (ACT_KLEUR[acts[0]] || "#888");
+  const col = acts.length === 0 ? "#888" : (ACT_KLEUR[acts[0]] || "#888");
+  return /^#[0-9A-Fa-f]{3,6}$/.test(col) ? col : "#888";
 }
 
-function render() {
-  markers.forEach(m => map.removeLayer(m));
-  markers = [];
-
-  getVisibleCompanies().forEach(c => {
+/* ─── Eenmalig alle markers aanmaken ─── */
+function createAllMarkers() {
+  bedrijven.forEach(c => {
     const col = getActivityColor(c);
-    const r   = GROOTTE_RADIUS[c.grootte] || 7;
-    const m   = L.marker([c.lat, c.lng], {
+    const r = GROOTTE_RADIUS[c.grootte] || 7;
+    const m = L.marker([c.lat, c.lng], {
       icon: makeIcon(col, r, c.grootte === "Groot", isFavorite(c.naam), isOrange(c.naam), isRed(c.naam))
-    }).addTo(map).bindPopup(buildPopup(c), { maxWidth: 300 });
-
-    m.on("popupopen", () => {
-      const popup = document.querySelector(".leaflet-popup");
-      if (!popup) return;
-
-      const starBtn = popup.querySelector(".star-btn");
-      if (starBtn) starBtn.addEventListener("click", e => {
-        e.stopPropagation(); e.preventDefault();
-        toggleFavorite(c);
-        m.closePopup();
-        render();
-      });
-
-      const orangeBtn = popup.querySelector(".orange-btn");
-      if (orangeBtn) orangeBtn.addEventListener("click", e => {
-        e.stopPropagation(); e.preventDefault();
-        toggleOrange(c);
-        m.closePopup();
-        render();
-      });
-
-      const redBtn = popup.querySelector(".red-btn");
-      if (redBtn) redBtn.addEventListener("click", e => {
-        e.stopPropagation(); e.preventDefault();
-        toggleRed(c);
-        m.closePopup();
-        render();
-      });
     });
-    markers.push(m);
+    m.bindPopup(() => buildPopup(c), { maxWidth: 300 });
+    allMarkers.set(c.naam, { marker: m, company: c });
   });
+}
+
+/* ─── Toon/verberg markers op basis van filters (geen re-create) ─── */
+function render() {
+  const visible = new Set(getVisibleCompanies().map(c => c.naam));
+  allMarkers.forEach(({ marker }, naam) => {
+    if (visible.has(naam)) {
+      if (!map.hasLayer(marker)) map.addLayer(marker);
+    } else {
+      if (map.hasLayer(marker)) map.removeLayer(marker);
+    }
+  });
+  markers = [...visible].map(n => allMarkers.get(n)?.marker).filter(Boolean);
+}
+
+/* ─── Eén marker-icoon updaten (na status toggle) ─── */
+function refreshMarkerIcon(naam) {
+  const entry = allMarkers.get(naam);
+  if (!entry) return;
+  const c = entry.company;
+  const col = getActivityColor(c);
+  const r = GROOTTE_RADIUS[c.grootte] || 7;
+  entry.marker.setIcon(makeIcon(col, r, c.grootte === "Groot", isFavorite(naam), isOrange(naam), isRed(naam)));
 }

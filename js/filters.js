@@ -119,22 +119,6 @@ function buildLegend() {
   }
 }
 
-function addLegendGroup(parent, title, items) {
-  const group = document.createElement("div");
-  group.className = "legend-group";
-  group.innerHTML = `<span class="legend-group-title">${title}</span>`;
-  const container = document.createElement("div");
-  container.className = "legend-items";
-  items.forEach(c => {
-    const d = document.createElement("div");
-    d.className = "legend-item";
-    d.innerHTML = `<div class="legend-dot" style="background:${c.kleur}"></div><span>${c.label}</span>`;
-    container.appendChild(d);
-  });
-  group.appendChild(container);
-  parent.appendChild(group);
-}
-
 function updateCounter() {
   const el = document.getElementById("counter-num");
   if (el) el.textContent = getVisibleCompanies().length;

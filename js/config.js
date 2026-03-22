@@ -1,7 +1,6 @@
 /* Houtkaart — Configuratie, constanten & gedeelde hulpfuncties */
 
 /* ─── Constanten ─── */
-const GROENE_ZONE_KM      = 50;   // fallback voor bedrijven zonder rijtijd
 const GROENE_ZONE_MIN     = 70;   // max 70 min rijden van beide locaties
 const SEARCH_DEBOUNCE_MS  = 150;
 const SEARCH_MAX_RESULTS  = 8;
@@ -22,16 +21,6 @@ const EIGEN_LOCATIES = [
 ];
 
 /* ─── Geo ─── */
-function distKm(lat1, lng1, lat2, lng2) {
-  const R = 6371;
-  const dLat = ((lat2 - lat1) * Math.PI) / 180;
-  const dLng = ((lng2 - lng1) * Math.PI) / 180;
-  const a = Math.sin(dLat / 2) ** 2 +
-    Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) *
-    Math.sin(dLng / 2) ** 2;
-  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-}
-
 function inGroeneZone(c) {
   // Alleen bedrijven met rijtijd data — max 70 min van beide locaties
   if (c.rijtijd_hertsberge == null || c.rijtijd_drongen == null) return false;
@@ -171,7 +160,7 @@ function attachStarHandlers(container) {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
       e.preventDefault();
-      const c = bedrijven.find(b => b.naam === btn.dataset.naam);
+      const c = bedrijvenMap.get(btn.dataset.naam);
       if (c) toggleFavorite(c);
     });
   });
@@ -181,4 +170,23 @@ function attachNoteHandlers(container) {
   container.querySelectorAll(".fav-note").forEach(ta => {
     ta.addEventListener("input", () => saveNote(ta.dataset.naam, ta.value, ta.dataset.who || "jeremy"));
   });
+}
+
+/* ─── Toast notificaties ─── */
+function showToast(message, type = "info", duration = 4000) {
+  let container = document.getElementById("toast-container");
+  if (!container) {
+    container = document.createElement("div");
+    container.id = "toast-container";
+    document.body.appendChild(container);
+  }
+  const toast = document.createElement("div");
+  toast.className = `toast toast-${type}`;
+  toast.textContent = message;
+  container.appendChild(toast);
+  requestAnimationFrame(() => toast.classList.add("toast-show"));
+  setTimeout(() => {
+    toast.classList.remove("toast-show");
+    toast.addEventListener("transitionend", () => toast.remove());
+  }, duration);
 }
