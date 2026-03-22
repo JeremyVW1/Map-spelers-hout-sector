@@ -145,6 +145,15 @@ function initAnalyse() {
   });
 
   document.getElementById("analyse-export").addEventListener("click", exportAnalyseCSV);
+
+  const analyseSearchInput = document.getElementById("analyse-search");
+  analyseSearchInput.addEventListener("input", () => {
+    const q = analyseSearchInput.value.trim().toLowerCase();
+    const rows = document.querySelectorAll("#analyse-tbody tr");
+    rows.forEach(tr => {
+      tr.style.display = !q || tr.textContent.toLowerCase().includes(q) ? "" : "none";
+    });
+  });
 }
 
 /* ════════════════════════════════════════════════════

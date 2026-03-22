@@ -277,6 +277,11 @@ body {
 .sat-fill { height: 100%; border-radius: 7px; transition: width 0.3s; opacity: 0.75; }
 .sat-nums { font-size: 10px; color: #666; white-space: nowrap; width: 80px; text-align: right; }
 
+/* Zoek in analyse tabel */
+.analyse-search-wrap { margin: 0 0 10px 0; }
+.analyse-search-wrap input { width: 100%; max-width: 360px; padding: 8px 14px; border: 1.5px solid #d0d0d0; border-radius: 8px; font-size: 13px; outline: none; transition: border-color .2s; }
+.analyse-search-wrap input:focus { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(26,26,46,.08); }
+
 /* Tabel */
 .analyse-table-wrap { overflow-x: scroll; background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
 .analyse-table-wrap::-webkit-scrollbar { height: 10px; }
