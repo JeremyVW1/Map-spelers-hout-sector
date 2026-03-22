@@ -75,7 +75,7 @@ function buildPopup(c) {
     if (c.btw) {
       const btwNum = c.btw.replace(/[^0-9]/g, "");
       enrichHtml += `<a href="https://www.companyweb.be/nl/${btwNum}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 CompanyWeb</a>`;
-      enrichHtml += ` <a href="https://app.creditsafe.com/search/companies?query=${btwNum}&country=BE" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">🔍 Creditsafe</a>`;
+      enrichHtml += ` <a href="https://app.creditsafe.com/companies/BE-X-${btwNum.replace(/^0+/, "")}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">🔍 Creditsafe</a>`;
     }
     enrichHtml += "</div>";
   }
