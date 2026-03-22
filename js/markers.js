@@ -72,7 +72,11 @@ function buildPopup(c) {
     if (c.medewerkers) enrichHtml += `<b>Werknemers:</b> ${escHtml(c.medewerkers)}<br>`;
     if (c.oprichting) enrichHtml += `<b>Opgericht:</b> ${escHtml(c.oprichting)}<br>`;
     if (c.rechtsvorm) enrichHtml += `<b>Vorm:</b> ${escHtml(c.rechtsvorm)}<br>`;
-    if (c.btw)        enrichHtml += `<a href="https://www.companyweb.be/nl/${c.btw.replace(/[^0-9]/g, "")}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 Jaarrekeningen bekijken</a>`;
+    if (c.btw) {
+      const btwNum = c.btw.replace(/[^0-9]/g, "");
+      enrichHtml += `<a href="https://www.companyweb.be/nl/${btwNum}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">📊 CompanyWeb</a>`;
+      enrichHtml += ` <a href="https://app.creditsafe.com/companies/BE-${btwNum}" target="_blank" rel="noopener" class="popup-link" style="font-size:10px">🔍 Creditsafe</a>`;
+    }
     enrichHtml += "</div>";
   }
 

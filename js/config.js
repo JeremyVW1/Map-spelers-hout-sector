@@ -77,7 +77,8 @@ function webLinkHtml(c) {
 function btwLinkHtml(c) {
   if (!c.btw) return "";
   const num = c.btw.replace(/[^0-9]/g, "");
-  return `<a href="https://www.companyweb.be/nl/${num}" target="_blank" rel="noopener">${escHtml(c.btw)}</a>`;
+  return `<a href="https://www.companyweb.be/nl/${num}" target="_blank" rel="noopener" title="CompanyWeb">${escHtml(c.btw)}</a>`
+    + ` <a href="https://app.creditsafe.com/companies/BE-${num}" target="_blank" rel="noopener" class="cs-link" title="Creditsafe">CS</a>`;
 }
 
 /* ─── Gedeelde tabel-rij bouwer ─── */

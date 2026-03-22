@@ -301,7 +301,9 @@ body {
 .analyse-table tr:hover { background: #f0f4ff; }
 .td-naam { font-weight: 600; word-break: break-word; min-width: 80px; }
 .td-adres { font-size: 10px; color: #666; word-break: break-word; min-width: 80px; max-width: 140px; }
-.td-btw { font-size: 10px; word-break: break-all; min-width: 70px; }
+.td-btw { font-size: 10px; word-break: break-all; min-width: 70px; white-space: nowrap; }
+.cs-link { display: inline-block; background: #1a1a2e; color: #fff !important; font-size: 9px; font-weight: 700; padding: 1px 4px; border-radius: 3px; text-decoration: none; vertical-align: middle; margin-left: 2px; }
+.cs-link:hover { background: #2a2a4e; }
 .td-btw a, .td-web a { color: #1565C0; text-decoration: none; }
 .td-btw a:hover, .td-web a:hover { text-decoration: underline; }
 .td-web { font-size: 10px; word-break: break-all; min-width: 60px; max-width: 120px; }
