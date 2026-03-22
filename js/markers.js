@@ -15,11 +15,11 @@ function makeIcon(col, r, isGroot, isFav, isOr, isRd) {
     statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#c62828" stroke-width="2.5" opacity="0.8"/>`;
     stroke = "#c62828"; strokeW = 2;
   } else if (isOr) {
-    statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#e65100" stroke-width="2.5" opacity="0.8"/>`;
-    stroke = "#e65100"; strokeW = 2;
+    statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#FF9800" stroke-width="2.5" opacity="0.8"/>`;
+    stroke = "#FF9800"; strokeW = 2;
   } else if (isFav) {
-    statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#f9a825" stroke-width="1.5" opacity="0.5"/>`;
-    stroke = "#f9a825"; strokeW = 2.5;
+    statusRing = `<circle cx="${s / 2}" cy="${s / 2}" r="${r + 2}" fill="none" stroke="#FFEB3B" stroke-width="1.5" opacity="0.5"/>`;
+    stroke = "#FFEB3B"; strokeW = 2.5;
   }
 
   return L.divIcon({
@@ -88,6 +88,12 @@ function buildPopup(c) {
     </div>`;
   }
 
+  // Bizzy EBITDA
+  let ebitdaHtml = "";
+  if (c.bizzy_ebitda != null) {
+    ebitdaHtml = `<div class="popup-fin-item" style="margin-top:4px"><b>EBITDA (Bizzy):</b> <span style="color:#1565C0;font-weight:700">${fmtK(c.bizzy_ebitda)}</span></div>`;
+  }
+
   // Rijtijden
   let rijtijdHtml = "";
   if (c.rijtijd_hertsberge != null || c.rijtijd_drongen != null) {
@@ -126,12 +132,13 @@ function buildPopup(c) {
       </div>
       <div class="popup-actions">${actionsHtml}</div>
     </div>
-    <span class="popup-name">${escHtml(c.naam)}</span>
+    <span class="popup-name">${escHtml(c.naam)}${c.bron === "bizzy" ? ' <span class="popup-bizzy">Bizzy</span>' : ""}</span>
     ${info ? `<span class="popup-info">${escHtml(info)}</span>` : ""}
     ${acts.length > 1 ? `<span class="popup-acts">📋 ${escHtml(allActs.join(", "))}</span>` : ""}
     ${contactHtml}
     ${enrichHtml}
     ${finHtml}
+    ${ebitdaHtml}
     ${rijtijdHtml}
     <span class="popup-size ${c.grootte}">${escHtml(sizeText)}</span>
   `;

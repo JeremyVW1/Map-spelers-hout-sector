@@ -238,7 +238,7 @@ body {
 .stat-bar { flex: 1; height: 12px; background: #eee; border-radius: 6px; overflow: hidden; }
 .stat-bar-fill { height: 100%; border-radius: 6px; transition: width 0.3s; }
 .stat-bar-fill.Groot { background: #b71c1c; }
-.stat-bar-fill.Middelgroot { background: #e65100; }
+.stat-bar-fill.Middelgroot { background: #FF9800; }
 .stat-bar-fill.Klein { background: #2E7D32; }
 .stat-bar-fill.Micro { background: #1565C0; }
 .stat-bar-num { font-size: 10px; font-weight: 700; color: #555; width: 25px; text-align: right; }
@@ -318,7 +318,7 @@ body {
 .top15-header { padding: 16px 20px 8px; }
 .top15-header h2 { margin: 0; font-size: 20px; color: #1B5E20; }
 .top15-subtitle { margin: 4px 0 0; font-size: 12px; color: #666; }
-.top15-table-wrap { overflow-x: scroll; padding: 0 12px 12px; }
+.top15-table-wrap { overflow-x: scroll; overflow-y: auto; max-height: 520px; padding: 0 12px 12px; }
 .top15-table-wrap::-webkit-scrollbar { height: 10px; }
 .top15-table-wrap::-webkit-scrollbar-track { background: #f0f2f5; border-radius: 5px; }
 .top15-table-wrap::-webkit-scrollbar-thumb { background: #b0b0b0; border-radius: 5px; }
@@ -335,19 +335,21 @@ body {
 .top15-ebitda { font-weight: 700; color: #2E7D32; white-space: nowrap; }
 .top15-digitaal { font-size: 10px; color: #888; word-break: break-word; min-width: 60px; max-width: 100px; }
 .top15-notitie { font-size: 10px; color: #444; word-break: break-word; min-width: 80px; max-width: 200px; line-height: 1.3; }
+.bizzy-badge { display: inline-block; background: #1565C0; color: #fff; font-size: 9px; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; letter-spacing: 0.3px; }
+.popup-bizzy { display: inline-block; background: #1565C0; color: #fff; font-size: 9px; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; }
 
 /* Star / Favorieten */
 .star-btn {
   background: none; border: none; cursor: pointer; font-size: 18px; color: #ccc;
   padding: 0 2px; line-height: 1; transition: all 0.15s;
 }
-.star-btn:hover { color: #f9a825; transform: scale(1.2); }
-.star-btn.starred { color: #f9a825; }
+.star-btn:hover { color: #FFEB3B; transform: scale(1.2); }
+.star-btn.starred { color: #FFEB3B; }
 .td-star { width: 28px; text-align: center; padding: 2px !important; }
 .popup-header-row { display: flex; justify-content: space-between; align-items: flex-start; }
 .popup-header-row .star-btn { font-size: 28px; margin: -2px 12px 0 0; }
-.fav-count { font-size: 10px; background: #f9a825; color: #1a1a2e; border-radius: 8px; padding: 1px 5px; margin-left: 3px; font-weight: 700; }
-.orange-count { background: #e65100; color: #fff; }
+.fav-count { font-size: 10px; background: #FFEB3B; color: #1a1a2e; border-radius: 8px; padding: 1px 5px; margin-left: 3px; font-weight: 700; }
+.orange-count { background: #FF9800; color: #fff; }
 
 /* Status knoppen (oranje / rood) */
 .popup-actions { display: flex; gap: 4px; align-items: center; }
@@ -357,8 +359,8 @@ body {
   display: flex; align-items: center; justify-content: center;
   transition: all 0.15s; color: #ccc; padding: 0;
 }
-.orange-btn:hover { border-color: #e65100; color: #e65100; }
-.orange-btn.marked-orange { background: #e65100; border-color: #e65100; color: #fff; }
+.orange-btn:hover { border-color: #FF9800; color: #FF9800; }
+.orange-btn.marked-orange { background: #FF9800; border-color: #FF9800; color: #fff; }
 .red-btn:hover { border-color: #c62828; color: #c62828; }
 .red-btn.marked-red { background: #c62828; border-color: #c62828; color: #fff; }
 .td-status { width: 56px; text-align: center; padding: 2px !important; white-space: nowrap; }
@@ -379,7 +381,7 @@ body {
 #twijfel-table .td-btw { font-size: 11px; word-break: break-all; }
 #twijfel-table .td-web { font-size: 11px; word-break: break-all; max-width: 120px; }
 #twijfel-table .td-num { font-size: 12px; }
-#twijfel-table .top15-ebitda { font-weight: 700; color: #e65100; }
+#twijfel-table .top15-ebitda { font-weight: 700; color: #FF9800; }
 #twijfel-table .star-btn { font-size: 20px; }
 .fav-toolbar {
   display: flex; align-items: center; flex-wrap: wrap; gap: 10px;

@@ -102,7 +102,7 @@ function buildTableRow(c, opts) {
   let h = "";
   if (opts.rang != null) h += `<td class="top15-rang">${opts.rang}</td>`;
   h += `<td class="td-star"><button class="star-btn ${starClass}" data-naam="${escHtml(c.naam)}">${starChar}</button></td>`;
-  h += `<td class="td-naam">${escHtml(c.naam)}</td>`;
+  h += `<td class="td-naam">${escHtml(c.naam)}${c.bron === "bizzy" ? ' <span class="bizzy-badge">B</span>' : ""}</td>`;
   h += `<td>${provLabel(c)}</td>`;
   h += `<td>${escHtml(actLabel(c))}</td>`;
   h += `<td><span class="size-badge ${c.grootte}">${sizeLabel(c)}</span></td>`;

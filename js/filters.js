@@ -100,8 +100,8 @@ function buildLegend() {
   const statusItems = document.createElement("div");
   statusItems.className = "legend-items";
   statusItems.innerHTML = `
-    <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #f9a825;background:transparent"></div><span>Favoriet</span></div>
-    <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #e65100;background:transparent"></div><span>Twijfel</span></div>
+    <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #FFEB3B;background:transparent"></div><span>Favoriet</span></div>
+    <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #FF9800;background:transparent"></div><span>Twijfel</span></div>
     <div class="legend-item"><div class="legend-dot" style="border:2.5px solid #c62828;background:transparent"></div><span>Niet interessant</span></div>
   `;
   statusGroup.appendChild(statusItems);

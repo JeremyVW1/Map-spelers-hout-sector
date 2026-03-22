@@ -15,15 +15,15 @@ function renderTop25() {
 
   let html = `
     <div class="top15-header">
-      <h2>Top 25 Overnamekandidaten</h2>
-      <p class="top15-subtitle">Rangschikking op basis van: EBITDA 150K–750K, omzet &lt;8M, groene zone, hoge marge, lage digitalisering, behapbaar voor 2 personen</p>
+      <h2>Top 50 Overnamekandidaten</h2>
+      <p class="top15-subtitle">Rangschikking op basis van: EBITDA 150K–750K, omzet &lt;8M, groene zone, hoge marge, lage digitalisering, behapbaar voor 2 personen. Scroll voor meer.</p>
     </div>
     <div class="top15-table-wrap">
       <table class="analyse-table top15-table">
         <thead>
           <tr>
-            <th>#</th><th>★</th><th>Naam</th><th>Activiteit</th>
-            <th>Brutomarge</th><th>Est. EBITDA</th><th>FTE</th><th>Opgericht</th>
+            <th>#</th><th>★</th><th>Naam</th><th>Bron</th><th>Activiteit</th>
+            <th>Brutomarge</th><th>EBITDA</th><th>FTE</th><th>Opgericht</th>
             <th>Adres</th><th>BTW</th><th>Website</th>
             <th>🚗 H</th><th>🚗 D</th>
             <th>Digitaal</th><th>Beoordeling</th><th>Notes Jeremy</th><th>Notes Vincent</th>
@@ -35,15 +35,18 @@ function renderTop25() {
     const b = bedrijven.find(x => x.naam === c.naam || x.naam.startsWith(c.naam));
     const naam = b ? b.naam : c.naam;
     const on = b && isFavorite(b.naam);
+    const isBizzy = b && b.bron === "bizzy";
+    const ebitdaVal = b && b.bizzy_ebitda ? fmtK(b.bizzy_ebitda) : escHtml(c.est_ebitda);
 
     html += `
       <tr class="top15-row">
         <td class="top15-rang">${c.rang}</td>
         <td class="td-star"><button class="star-btn ${on ? "starred" : ""}" data-naam="${escHtml(naam)}">${on ? "★" : "☆"}</button></td>
         <td class="top15-naam">${escHtml(c.naam)}</td>
+        <td>${isBizzy ? '<span class="bizzy-badge">Bizzy</span>' : ""}</td>
         <td>${escHtml(c.activiteit)}</td>
         <td class="td-num">${c.brutomarge ? fmtK(c.brutomarge) : "—"}</td>
-        <td class="td-num top15-ebitda">${escHtml(c.est_ebitda)}</td>
+        <td class="td-num top15-ebitda">${ebitdaVal}</td>
         <td class="td-num">${c.fte}</td>
         <td>${escHtml(c.opgericht || "—")}</td>
         <td class="td-adres">${escHtml(c.adres)}</td>

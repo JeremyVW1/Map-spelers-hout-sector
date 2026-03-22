@@ -1,0 +1,287 @@
+[
+  {
+    "index": 0,
+    "naam": "Cras Woodshops (HQ Waregem)",
+    "stored": [
+      50.8802,
+      3.4318
+    ],
+    "geocoded": [
+      51.1591,
+      4.7959
+    ],
+    "driftKm": 100.3,
+    "query": "Cras Woodshops Waregem",
+    "display": "Cras Woodshops Atealaan Herenthout"
+  },
+  {
+    "index": 42,
+    "naam": "Prindal Hout",
+    "stored": [
+      50.8431,
+      3.8721
+    ],
+    "geocoded": [
+      50.7879,
+      4.0177
+    ],
+    "driftKm": 11.9,
+    "query": "Peyenbeek(Den) 4, 9400 Ninove",
+    "display": "Peyenbeek  Denderwindeke"
+  },
+  {
+    "index": 47,
+    "naam": "Hubo (Antwerpen)",
+    "stored": [
+      51.2041,
+      4.4301
+    ],
+    "geocoded": [
+      51.2718,
+      4.4164
+    ],
+    "driftKm": 7.6,
+    "query": "Hubo Antwerpen",
+    "display": "Hubo Ekerse Steenweg Antwerpen"
+  },
+  {
+    "index": 48,
+    "naam": "Martens Hout (HQ Schoten)",
+    "stored": [
+      51.2558,
+      4.4951
+    ],
+    "geocoded": [
+      50.8886,
+      4.7623
+    ],
+    "driftKm": 44.9,
+    "query": "Martens Hout Schoten",
+    "display": "Martens Hout Diestsesteenweg Leuven"
+  },
+  {
+    "index": 79,
+    "naam": "De Houtbeer (Limburg)",
+    "stored": [
+      50.9301,
+      5.3801
+    ],
+    "geocoded": [
+      50.6123,
+      5.9403
+    ],
+    "driftKm": 52.9,
+    "query": "De Houtbeer Limburg",
+    "display": "Limbourg  "
+  },
+  {
+    "index": 88,
+    "naam": "Brico (Mons/Bergen)",
+    "stored": [
+      50.4541,
+      3.9521
+    ],
+    "geocoded": [
+      50.8173,
+      4.2886
+    ],
+    "driftKm": 46.8,
+    "query": "Brico Mons",
+    "display": "Brico Chaussée de Mons - Bergense Steenweg Anderlecht"
+  },
+  {
+    "index": 89,
+    "naam": "Gamma (Charleroi)",
+    "stored": [
+      50.4081,
+      4.4441
+    ],
+    "geocoded": [
+      50.4551,
+      4.4332
+    ],
+    "driftKm": 5.3,
+    "query": "Gamma Charleroi",
+    "display": "Gamma Chaussée de Bruxelles Jumet"
+  },
+  {
+    "index": 96,
+    "naam": "Gamma (Wavre)",
+    "stored": [
+      50.7151,
+      4.5981
+    ],
+    "geocoded": [
+      51.07,
+      4.5322
+    ],
+    "driftKm": 39.7,
+    "query": "Gamma Wavre",
+    "display": "Sint-Katelijne-Waver  "
+  },
+  {
+    "index": 97,
+    "naam": "Carlier Bois (Namen)",
+    "stored": [
+      50.4671,
+      4.8671
+    ],
+    "geocoded": [
+      50.4861,
+      4.7952
+    ],
+    "driftKm": 5.5,
+    "query": "Carlier Bois Namen",
+    "display": "Carlier Bois Route de Louvain-la-Neuve Namur"
+  },
+  {
+    "index": 99,
+    "naam": "Gamma (Namen)",
+    "stored": [
+      50.4681,
+      4.8781
+    ],
+    "geocoded": [
+      50.9997,
+      4.8338
+    ],
+    "driftKm": 59.2,
+    "query": "Gamma Namen",
+    "display": "Gamma Herseltsesteenweg Aarschot"
+  },
+  {
+    "index": 100,
+    "naam": "Brico (Namen)",
+    "stored": [
+      50.4561,
+      4.8611
+    ],
+    "geocoded": [
+      50.4233,
+      4.458
+    ],
+    "driftKm": 28.8,
+    "query": "Brico Namen",
+    "display": "Brico Charleroi  Charleroi"
+  },
+  {
+    "index": 108,
+    "naam": "Prindal (webshop)",
+    "stored": [
+      50.8431,
+      3.8621
+    ],
+    "geocoded": [
+      50.7879,
+      4.0177
+    ],
+    "driftKm": 12.5,
+    "query": "Peyenbeek(Den) 4, 9400 Ninove",
+    "display": "Peyenbeek  Denderwindeke"
+  },
+  {
+    "index": 110,
+    "naam": "Brico (Gent)",
+    "stored": [
+      51.0428,
+      3.6981
+    ],
+    "geocoded": [
+      51.079,
+      3.7886
+    ],
+    "driftKm": 7.5,
+    "query": "Brico Gent",
+    "display": "Brico Herman Teirlinckstraat Gent"
+  },
+  {
+    "index": 114,
+    "naam": "Gamma (Antwerpen)",
+    "stored": [
+      51.2101,
+      4.4181
+    ],
+    "geocoded": [
+      51.1578,
+      4.3826
+    ],
+    "driftKm": 6.3,
+    "query": "Gamma Antwerpen",
+    "display": "Parking Gamma Boomsesteenweg Antwerpen"
+  },
+  {
+    "index": 118,
+    "naam": "Gamma (Leuven)",
+    "stored": [
+      50.8781,
+      4.7021
+    ],
+    "geocoded": [
+      50.9997,
+      4.8338
+    ],
+    "driftKm": 16.4,
+    "query": "Gamma Leuven",
+    "display": "Gamma Herseltsesteenweg Aarschot"
+  },
+  {
+    "index": 127,
+    "naam": "Janssens & Janssens (Oudenaarde)",
+    "stored": [
+      50.8501,
+      3.6001
+    ],
+    "geocoded": [
+      50.6346,
+      5.5652
+    ],
+    "driftKm": 140.3,
+    "query": "Janssens & Janssens Oudenaarde",
+    "display": "Maison du docteur Janssens-Lycops Rue du Jardin Botanique Liège"
+  },
+  {
+    "index": 129,
+    "naam": "Valcke Tuinhout (Oudegem)",
+    "stored": [
+      51.0181,
+      4.0501
+    ],
+    "geocoded": [
+      51.0806,
+      5.0207
+    ],
+    "driftKm": 68.2,
+    "query": "Valcke Tuinhout Oudegem",
+    "display": "Oud-gemeentehuis Markt Varendonk"
+  },
+  {
+    "index": 136,
+    "naam": "Houthandel Verwaest (Turnhout)",
+    "stored": [
+      51.3241,
+      4.9551
+    ],
+    "geocoded": [
+      51.0802,
+      5.0454
+    ],
+    "driftKm": 27.8,
+    "query": "Houthandel Verwaest Turnhout",
+    "display": "Coomans - Houthandel-Zagerij Borgtstraat Laakdal"
+  },
+  {
+    "index": 140,
+    "naam": "Borremans Hout (Bornem)",
+    "stored": [
+      51.1001,
+      4.2471
+    ],
+    "geocoded": [
+      50.6847,
+      3.8181
+    ],
+    "driftKm": 55.1,
+    "query": "Borremans Hout Bornem",
+    "display": "Place du Curé Borremans  Lessines"
+  }
+]
