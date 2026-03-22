@@ -41,48 +41,29 @@ function isAboveBorder(lat, lng) {
   return lat > 51.35;
 }
 
-// Doelgebied: convex hull rond alle bedrijven met rijtijd ≤70 min + marge
+// Doelgebied: strakke convex hull rond bedrijven met rijtijd ≤70 min
 function addTargetZone() {
-  // Verzamel alle bedrijven in de groene zone
   const pts = bedrijven
     .filter(c => inGroeneZone(c))
     .map(c => [c.lat, c.lng]);
 
   if (pts.length < 3) return;
 
-  // Convex hull (Graham scan)
   const hull = _convexHull(pts);
   if (hull.length < 3) return;
 
-  // Maak de vorm zachter: voeg marge toe (~5km) en smooth
+  // Clip punten boven BE-NL grens
   const center = hull.reduce((a, p) => [a[0] + p[0] / hull.length, a[1] + p[1] / hull.length], [0, 0]);
-  const expanded = hull.map(p => {
-    const dx = p[0] - center[0];
-    const dy = p[1] - center[1];
-    const dist = Math.sqrt(dx * dx + dy * dy);
-    const margin = 0.045; // ~5km in graden
-    return [
-      p[0] + (dx / dist) * margin,
-      p[1] + (dy / dist) * margin,
-    ];
+  const clipped = hull.map(p => {
+    if (!isAboveBorder(p[0], p[1])) return p;
+    let [lat, lng] = p;
+    for (let i = 0; i < 50; i++) { lat -= 0.005; if (!isAboveBorder(lat, lng)) return [lat, lng]; }
+    return [lat, lng];
   });
-
-  // Filter punten boven BE-NL grens
-  const clipped = expanded.map(p => isAboveBorder(p[0], p[1]) ? _clipToBorder(p, center) : p);
 
   L.polygon(clipped, {
     color: "#2E7D32", weight: 2, fillColor: "#4CAF50", fillOpacity: 0.08, dashArray: "8,4",
   }).addTo(map);
-}
-
-function _clipToBorder(point, center) {
-  // Schuif punt naar beneden tot net onder de grens
-  let [lat, lng] = point;
-  for (let i = 0; i < 50; i++) {
-    lat -= 0.005;
-    if (!isAboveBorder(lat, lng)) return [lat, lng];
-  }
-  return [lat, lng];
 }
 
 function _convexHull(points) {
