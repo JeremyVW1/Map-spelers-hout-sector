@@ -26,6 +26,7 @@
       <button class="tab-btn" data-tab="analyse" role="tab" aria-selected="false">Analyse</button>
       <button class="tab-btn" data-tab="favorieten" role="tab" aria-selected="false">★ Favorieten <span id="fav-count" class="fav-count">0</span></button>
       <button class="tab-btn" data-tab="twijfel" role="tab" aria-selected="false">● Twijfel <span id="orange-count" class="fav-count orange-count">0</span></button>
+      <button class="tab-btn" data-tab="bewerk" role="tab" aria-selected="false">✎ Bewerk</button>
     </div>
     <div class="header-right">
       <div class="counter"><span id="counter-num">0</span> bedrijven</div>
@@ -201,6 +202,15 @@
     </div>
   </div>
 
+  <!-- Bewerk tab -->
+  <div id="bewerk-view" class="hidden">
+    <div class="fav-toolbar">
+      <h2>✎ Bedrijfsgegevens bewerken</h2>
+      <span class="fav-subtitle">Zoek een bedrijf en vul financiële of andere gegevens aan. Wijzigingen worden lokaal opgeslagen.</span>
+    </div>
+    <div id="edit-content"></div>
+  </div>
+
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <script src="js/config.js"></script>
@@ -210,6 +220,7 @@
   <script src="js/search.js"></script>
   <script src="js/favorites.js"></script>
   <script src="js/analyse.js"></script>
+  <script src="js/edit.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

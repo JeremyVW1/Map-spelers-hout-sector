@@ -39,6 +39,7 @@ async function init() {
   buildLegend();
   initSearch();
   initAnalyse();
+  initEdit();
   initTabs();
 
   // Event delegation voor popup-knoppen (eenmalig, geen memory leak)
@@ -92,11 +93,13 @@ function initTabs() {
       document.getElementById("analyse-view").classList.toggle("hidden", tab !== "analyse");
       document.getElementById("favorieten-view").classList.toggle("hidden", tab !== "favorieten");
       document.getElementById("twijfel-view").classList.toggle("hidden", tab !== "twijfel");
+      document.getElementById("bewerk-view").classList.toggle("hidden", tab !== "bewerk");
 
       if (tab === "kaart")            setTimeout(() => map.invalidateSize(), 100);
       else if (tab === "analyse")     renderAnalyse();
       else if (tab === "favorieten")  renderFavorieten();
       else if (tab === "twijfel")     renderTwijfel();
+      else if (tab === "bewerk")      renderEdit();
     });
   });
 }

@@ -564,3 +564,59 @@ body {
 .toast-success { background: #2E7D32; }
 .toast-error { background: #c62828; }
 .toast-warning { background: #FF9800; color: #1a1a2e; }
+
+/* ════════════════════════════════════════
+   Bewerk tab
+   ════════════════════════════════════════ */
+.edit-search-wrap { position: relative; margin-bottom: 16px; }
+.edit-search-wrap input { width: 100%; padding: 12px 16px; border: 2px solid #d0d0d0; border-radius: 10px; font-size: 15px; outline: none; transition: border-color .2s; }
+.edit-search-wrap input:focus { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(26,26,46,.1); }
+
+.edit-suggestions { position: absolute; top: 100%; left: 0; right: 0; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.12); z-index: 100; display: none; max-height: 350px; overflow-y: auto; }
+.edit-suggestions.show { display: block; }
+.edit-sug-item { padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #f0f2f5; transition: background .1s; }
+.edit-sug-item:hover { background: #f0f4ff; }
+.edit-sug-item:last-child { border-bottom: none; }
+.edit-sug-naam { font-weight: 600; font-size: 13px; display: block; }
+.edit-sug-detail { font-size: 11px; color: #888; }
+.edit-sug-empty { padding: 12px 16px; color: #999; font-size: 13px; }
+
+.edit-form { background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 12px rgba(0,0,0,.06); margin-bottom: 20px; }
+.edit-form.hidden { display: none; }
+.edit-form-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; border-bottom: 2px solid #f0f2f5; padding-bottom: 12px; flex-wrap: wrap; gap: 8px; }
+.edit-form-header h3 { margin: 0; font-size: 18px; color: var(--color-primary); }
+.edit-form-links { display: flex; gap: 8px; flex-wrap: wrap; }
+.edit-link { font-size: 11px; padding: 4px 10px; border-radius: 6px; background: var(--color-primary); color: #fff; text-decoration: none; font-weight: 600; }
+.edit-link:hover { background: #2a2a4e; }
+
+.edit-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.edit-section { grid-column: 1 / -1; font-weight: 700; font-size: 13px; color: var(--color-accent); margin-top: 8px; padding-bottom: 4px; border-bottom: 1px solid #e8eaee; }
+.edit-field { display: flex; flex-direction: column; gap: 3px; }
+.edit-field label { font-size: 11px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: .3px; }
+.edit-input { padding: 8px 10px; border: 1.5px solid #d0d0d0; border-radius: 6px; font-size: 13px; outline: none; transition: border-color .2s; font-family: inherit; }
+.edit-input:focus { border-color: var(--color-accent); box-shadow: 0 0 0 2px rgba(21,101,192,.1); }
+.edit-input[readonly] { background: #f5f5f5; color: #666; }
+.edit-input.edit-changed { border-color: var(--color-success); background: #f0fdf4; }
+textarea.edit-input { min-height: 60px; resize: vertical; }
+select.edit-input { cursor: pointer; }
+
+.edit-actions { display: flex; gap: 10px; margin-top: 16px; padding-top: 12px; border-top: 1px solid #f0f2f5; }
+.edit-btn { padding: 10px 20px; border: none; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all .15s; }
+.edit-btn-save { background: var(--color-success); color: #fff; }
+.edit-btn-save:hover { background: #1b5e20; }
+.edit-btn-reset { background: #f0f2f5; color: #666; }
+.edit-btn-reset:hover { background: #e0e0e0; }
+
+.edit-recent { margin-top: 20px; }
+.edit-recent h3 { font-size: 14px; color: var(--color-primary); margin: 0 0 10px; }
+.edit-recent-empty { color: #999; font-size: 13px; padding: 20px; text-align: center; }
+.edit-recent-list { display: flex; flex-direction: column; gap: 6px; }
+.edit-recent-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; cursor: pointer; transition: all .15s; }
+.edit-recent-item:hover { background: #f0f4ff; border-color: var(--color-accent); }
+.edit-recent-naam { font-weight: 600; font-size: 13px; }
+.edit-recent-fields { font-size: 11px; color: var(--color-success); font-weight: 600; }
+
+@media (max-width: 700px) {
+  .edit-fields { grid-template-columns: 1fr; }
+  .edit-form-header { flex-direction: column; align-items: flex-start; }
+}
