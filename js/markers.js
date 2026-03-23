@@ -109,33 +109,13 @@ function buildPopup(c) {
     rijtijdHtml += "</div>";
   }
 
-  const isFav = isFavorite(c.naam);
-  const isOr  = isOrange(c.naam);
-  const isRd  = isRed(c.naam);
-  const hasStatus = isFav || isOr || isRd;
-
-  // Als er een status is: toon alleen die knop. Anders: toon alle 3.
-  let actionsHtml = "";
-  if (!hasStatus) {
-    actionsHtml = `
-      <button class="star-btn" data-naam="${escHtml(c.naam)}" title="Favoriet">☆</button>
-      <button class="orange-btn" data-naam="${escHtml(c.naam)}" title="Twijfel">?</button>
-      <button class="red-btn" data-naam="${escHtml(c.naam)}" title="Niet interessant">✕</button>`;
-  } else if (isFav) {
-    actionsHtml = `<button class="star-btn starred" data-naam="${escHtml(c.naam)}" title="Verwijder uit favorieten">★</button>`;
-  } else if (isOr) {
-    actionsHtml = `<button class="orange-btn marked-orange" data-naam="${escHtml(c.naam)}" title="Verwijder twijfel">?</button>`;
-  } else if (isRd) {
-    actionsHtml = `<button class="red-btn marked-red" data-naam="${escHtml(c.naam)}" title="Verwijder niet-interessant">✕</button>`;
-  }
-
   return `
     <div class="popup-header-row">
       <div>
         <span class="popup-badge" style="background:${col}">${escHtml(actFirst)}</span>
         <span class="popup-prov">${escHtml(prov)}</span>
       </div>
-      <div class="popup-actions">${actionsHtml}</div>
+      <div class="popup-actions">${buildStatusHtml(c.naam)}</div>
     </div>
     <span class="popup-name">${escHtml(c.naam)}${c.bron === "bizzy" ? ' <span class="popup-bizzy">Bizzy</span>' : ""}</span>
     ${info ? `<span class="popup-info">${escHtml(info)}</span>` : ""}

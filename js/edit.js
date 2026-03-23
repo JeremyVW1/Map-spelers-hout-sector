@@ -83,10 +83,12 @@ function renderEdit() {
       suggestions.querySelectorAll(".edit-sug-item").forEach(el => {
         el.addEventListener("click", () => {
           const c = bedrijvenMap.get(el.dataset.naam);
-          if (c) _openEditForm(c);
           suggestions.innerHTML = "";
           suggestions.classList.remove("show");
-          input.value = c.naam;
+          if (c) {
+            input.value = c.naam;
+            _openEditForm(c);
+          }
         });
       });
     }, 150);

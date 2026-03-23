@@ -387,27 +387,8 @@ function _top25Match(c) {
 }
 
 function _statusRow(c, t, notesJ, notesV, statusClass) {
-  const isFav = isFavorite(c.naam);
-  const isOr  = isOrange(c.naam);
-  const isRd  = isRed(c.naam);
-  const hasStatus = isFav || isOr || isRd;
-
-  let statusHtml = "";
-  if (!hasStatus) {
-    statusHtml = `
-      <button class="star-btn" data-naam="${escHtml(c.naam)}" title="Favoriet">☆</button>
-      <button class="orange-btn" data-naam="${escHtml(c.naam)}" title="Twijfel">?</button>
-      <button class="red-btn" data-naam="${escHtml(c.naam)}" title="Niet interessant">✕</button>`;
-  } else if (isFav) {
-    statusHtml = `<button class="star-btn starred" data-naam="${escHtml(c.naam)}" title="Verwijder uit favorieten">★</button>`;
-  } else if (isOr) {
-    statusHtml = `<button class="orange-btn marked-orange" data-naam="${escHtml(c.naam)}" title="Verwijder twijfel">?</button>`;
-  } else if (isRd) {
-    statusHtml = `<button class="red-btn marked-red" data-naam="${escHtml(c.naam)}" title="Verwijder niet-interessant">✕</button>`;
-  }
-
   return `
-    <td class="td-status">${statusHtml}</td>
+    <td class="td-status">${buildStatusHtml(c.naam)}</td>
     <td class="td-naam">${escHtml(c.naam)}</td>
     <td>${t ? escHtml(t.activiteit) : escHtml(actLabel(c))}</td>
     <td class="td-num">${c.cw_brutomarge ? fmtK(c.cw_brutomarge) : (t && t.brutomarge ? fmtK(t.brutomarge) : "—")}</td>
@@ -469,11 +450,8 @@ function renderTwijfel() {
     tbody.appendChild(tr);
   });
 
-  _attachAllHandlers(tbody);
-  // Override note handlers voor twijfel: opslaan in orangeNotes
-  tbody.querySelectorAll(".fav-note").forEach(ta => {
-    ta.replaceWith(ta.cloneNode(true));
-  });
+  _attachStatusHandlers(tbody);
+  // Twijfel-specifieke note handlers (opslaan in orangeNotes)
   tbody.querySelectorAll(".fav-note").forEach(ta => {
     ta.addEventListener("input", () => saveStatusNote(ta.dataset.naam, ta.value, ta.dataset.who || "jeremy", "orange"));
   });
@@ -483,8 +461,7 @@ function renderTwijfel() {
  *  Event handlers (gedeeld)
  * ════════════════════════════════════════════════════ */
 
-function _attachAllHandlers(container) {
-  attachNoteHandlers(container);
+function _attachStatusHandlers(container) {
   container.querySelectorAll(".star-btn").forEach(btn => {
     btn.addEventListener("click", e => {
       e.stopPropagation(); e.preventDefault();
@@ -506,6 +483,11 @@ function _attachAllHandlers(container) {
       if (c) { toggleRed(c); refreshMarkerIcon(c.naam); renderFavorieten(); renderTwijfel(); }
     });
   });
+}
+
+function _attachAllHandlers(container) {
+  _attachStatusHandlers(container);
+  attachNoteHandlers(container);
 }
 
 /* ════════════════════════════════════════════════════

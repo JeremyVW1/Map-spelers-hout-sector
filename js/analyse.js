@@ -5,27 +5,8 @@ let analyseSortAsc      = true;
 let analyseActiveActs   = new Set();
 let analyseActiveRegios = new Set();
 
-function _top25StatusHtml(naam) {
-  const isFav = isFavorite(naam);
-  const isOr  = isOrange(naam);
-  const isRd  = isRed(naam);
-  const hasStatus = isFav || isOr || isRd;
-  if (!hasStatus) {
-    return `<button class="star-btn" data-naam="${escHtml(naam)}" title="Favoriet">☆</button>
-      <button class="orange-btn" data-naam="${escHtml(naam)}" title="Twijfel">?</button>
-      <button class="red-btn" data-naam="${escHtml(naam)}" title="Niet interessant">✕</button>`;
-  } else if (isFav) {
-    return `<button class="star-btn starred" data-naam="${escHtml(naam)}" title="Verwijder uit favorieten">★</button>`;
-  } else if (isOr) {
-    return `<button class="orange-btn marked-orange" data-naam="${escHtml(naam)}" title="Verwijder twijfel">?</button>`;
-  } else if (isRd) {
-    return `<button class="red-btn marked-red" data-naam="${escHtml(naam)}" title="Verwijder niet-interessant">✕</button>`;
-  }
-  return "";
-}
-
 /* ════════════════════════════════════════════════════
- *  Top 25 Overnamekandidaten
+ *  Top 50 Overnamekandidaten
  * ════════════════════════════════════════════════════ */
 
 function renderTop25() {
@@ -59,7 +40,7 @@ function renderTop25() {
     html += `
       <tr class="top15-row">
         <td class="top15-rang">${c.rang}</td>
-        <td class="td-status">${_top25StatusHtml(naam)}</td>
+        <td class="td-status">${buildStatusHtml(naam)}</td>
         <td class="top15-naam">${escHtml(c.naam)}</td>
         <td>${isBizzy ? '<span class="bizzy-badge">Bizzy</span>' : ""}</td>
         <td>${escHtml(c.activiteit)}</td>

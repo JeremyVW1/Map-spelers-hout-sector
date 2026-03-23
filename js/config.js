@@ -81,33 +81,28 @@ function btwLinkHtml(c) {
     + ` <a href="https://app.creditsafe.com/companies/BE-X-${num.replace(/^0+/, "")}" target="_blank" rel="noopener" class="cs-link" title="Creditsafe">CS</a>`;
 }
 
+/* ─── Gedeelde status-knoppen (ster/oranje/rood) ─── */
+function buildStatusHtml(naam) {
+  const isFav = isFavorite(naam);
+  const isOr  = isOrange(naam);
+  const isRd  = isRed(naam);
+  if (isFav)            return `<button class="star-btn starred" data-naam="${escHtml(naam)}" title="Verwijder uit favorieten">★</button>`;
+  if (isOr)             return `<button class="orange-btn marked-orange" data-naam="${escHtml(naam)}" title="Verwijder twijfel">?</button>`;
+  if (isRd)             return `<button class="red-btn marked-red" data-naam="${escHtml(naam)}" title="Verwijder niet-interessant">✕</button>`;
+  return `<button class="star-btn" data-naam="${escHtml(naam)}" title="Favoriet">☆</button>
+    <button class="orange-btn" data-naam="${escHtml(naam)}" title="Twijfel">?</button>
+    <button class="red-btn" data-naam="${escHtml(naam)}" title="Niet interessant">✕</button>`;
+}
+
 /* ─── Gedeelde tabel-rij bouwer ─── */
 function buildTableRow(c, opts) {
   const gem = gemRijtijd(c);
   const sc  = rijtijdClass(gem);
   const st  = scoreText(c);
-  const isFav = isFavorite(c.naam);
-  const isOr  = isOrange(c.naam);
-  const isRd  = isRed(c.naam);
-  const hasStatus = isFav || isOr || isRd;
-
-  let statusHtml = "";
-  if (!hasStatus) {
-    statusHtml = `
-      <button class="star-btn" data-naam="${escHtml(c.naam)}" title="Favoriet">☆</button>
-      <button class="orange-btn" data-naam="${escHtml(c.naam)}" title="Twijfel">?</button>
-      <button class="red-btn" data-naam="${escHtml(c.naam)}" title="Niet interessant">✕</button>`;
-  } else if (isFav) {
-    statusHtml = `<button class="star-btn starred" data-naam="${escHtml(c.naam)}" title="Verwijder uit favorieten">★</button>`;
-  } else if (isOr) {
-    statusHtml = `<button class="orange-btn marked-orange" data-naam="${escHtml(c.naam)}" title="Verwijder twijfel">?</button>`;
-  } else if (isRd) {
-    statusHtml = `<button class="red-btn marked-red" data-naam="${escHtml(c.naam)}" title="Verwijder niet-interessant">✕</button>`;
-  }
 
   let h = "";
   if (opts.rang != null) h += `<td class="top15-rang">${opts.rang}</td>`;
-  h += `<td class="td-status">${statusHtml}</td>`;
+  h += `<td class="td-status">${buildStatusHtml(c.naam)}</td>`;
   h += `<td class="td-naam">${escHtml(c.naam)}${c.bron === "bizzy" ? ' <span class="bizzy-badge">B</span>' : ""}</td>`;
   h += `<td>${provLabel(c)}</td>`;
   h += `<td>${escHtml(actLabel(c))}</td>`;
@@ -172,17 +167,6 @@ function downloadCSV(csv, filename) {
 }
 
 /* ─── Gedeelde event handlers ─── */
-function attachStarHandlers(container) {
-  container.querySelectorAll(".star-btn").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      e.preventDefault();
-      const c = bedrijvenMap.get(btn.dataset.naam);
-      if (c) toggleFavorite(c);
-    });
-  });
-}
-
 function attachNoteHandlers(container) {
   container.querySelectorAll(".fav-note").forEach(ta => {
     ta.addEventListener("input", () => saveNote(ta.dataset.naam, ta.value, ta.dataset.who || "jeremy"));
