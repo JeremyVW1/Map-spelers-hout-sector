@@ -3035,7 +3035,7 @@
   {
     "naam": "Naturae (hekwerk — Zonnebeke)",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Klein",
     "lat": 50.873,
     "lng": 2.972,
     "activiteiten": [
@@ -3047,7 +3047,12 @@
     "info": "Eerste en enige fabrikant kastanje/robinia/eiken hekwerk in België. Kant-en-klare bouwpakketten. B2B + particulier + openbare besturen. Eigen productie BE. Grote stock. 🌐 www.naturae.be",
     "rijtijd_hertsberge": 53,
     "rijtijd_drongen": 62,
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "btw": "BE0760.796.635",
+    "cw_brutomarge": 149432,
+    "cw_winst": 45236,
+    "cw_fte": 0,
+    "cw_jaar": 2024
   },
   {
     "naam": "De Houthoek (Koekelare) — paardenomheining",
@@ -3092,7 +3097,7 @@
   {
     "naam": "Agrodieren.be",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Klein",
     "lat": 51.1269,
     "lng": 3.2993,
     "activiteiten": [
@@ -3100,7 +3105,7 @@
       "agro",
       "online"
     ],
-    "btw": "BE0417.360.019",
+    "btw": "BE0476.770.143",
     "adres": "Wellingstraat 109, 8730 Beernem",
     "website": "www.agrodieren.be",
     "info": "Paardenomheiningen Cambridge/Manchester/York/Kensington, weidepoorten 1-6m galvanisatie, houten palen, tuinschermen, stro/hooi. 20.000+ klanten. Webshop + fysieke winkel. 📍 Beernem 🌐 www.agrodieren.be",
@@ -3109,9 +3114,10 @@
     "rijtijd_hertsberge": 4,
     "rijtijd_drongen": 22,
     "webshop": "Ja",
-    "cw_winst": 1,
-    "cw_fte": 0,
-    "cw_jaar": 2026
+    "cw_winst": -145062,
+    "cw_fte": 5.5,
+    "cw_jaar": 2024,
+    "cw_brutomarge": 514913
   },
   {
     "naam": "Houthandel Driekoningen (Beernem)",
@@ -3237,7 +3243,7 @@
       "houthandel"
     ],
     "btw": "BE 0867.686.675",
-    "adres": "8520 Kuurne",
+    "adres": "Noordlaan 4, 8520 Kuurne",
     "info": "Houthandel/houtbewerking. 8520 Kuurne.",
     "rechtsvorm": "NV",
     "cw_brutomarge": 1038707,
@@ -3246,7 +3252,8 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 39,
     "rijtijd_drongen": 39,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "website": "www.horatec.de"
   },
   {
     "naam": "Carpentier Hout (Kortemark)",
@@ -3975,7 +3982,12 @@
     "info": "Houten garages, carports, toegangspoorten. Avelgem. 🌐 woodarts.be",
     "rijtijd_hertsberge": 57,
     "rijtijd_drongen": 44,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "btw": "BE0425.120.514",
+    "cw_brutomarge": 828020,
+    "cw_winst": 2119,
+    "cw_fte": 15,
+    "cw_jaar": 2023
   },
   {
     "naam": "CSS Outdoor Living (Ninove)",
@@ -4391,7 +4403,11 @@
     "rijtijd_drongen": 24,
     "webshop": "Nee",
     "website": "www.parketdewaegeneer.be",
-    "btw": "BE0471.775.930"
+    "btw": "BE0471.775.930",
+    "cw_brutomarge": 392294,
+    "cw_winst": 30906,
+    "cw_fte": 4.1,
+    "cw_jaar": 2024
   },
   {
     "naam": "Parket Valentin (Erembodegem/Aalst)",
@@ -4800,13 +4816,18 @@
       "parket",
       "online"
     ],
-    "adres": "Olsenestraat 27, 9800 Zulte",
+    "adres": "Olsenestraat 27, 9870 Zulte",
     "website": "floor-depot.be",
     "info": "Grootste vloerenoutlet België. Laminaat, parket, vinyl. Groothandel aan outletprijzen. Olsenestraat 27, Zulte.",
     "medewerkers": "1-20",
     "rijtijd_hertsberge": 42,
     "rijtijd_drongen": 37,
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "btw": "BE0764.407.708",
+    "cw_brutomarge": 2447815,
+    "cw_winst": 1782600,
+    "cw_fte": 3,
+    "cw_jaar": 2024
   },
   {
     "naam": "Gerko Parket (Ronse)",
@@ -4873,7 +4894,7 @@
   {
     "naam": "Ardeco Parket & Producten (Spiere-Helkijn)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.734,
     "lng": 3.348,
     "activiteiten": [
@@ -4885,7 +4906,12 @@
     "rijtijd_hertsberge": 49,
     "rijtijd_drongen": 49,
     "webshop": "Ja",
-    "website": "www.ardeco-parket.be"
+    "website": "www.ardeco-parket.be",
+    "btw": "BE0899.872.859",
+    "cw_brutomarge": 66073,
+    "cw_winst": 15268,
+    "cw_fte": 0,
+    "cw_jaar": 2024
   },
   {
     "naam": "DS Parket (Roeselare)",
@@ -5155,7 +5181,7 @@
   {
     "naam": "MBC Vloeren (Deinze)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.9833,
     "lng": 3.5333,
     "activiteiten": [
@@ -5166,7 +5192,12 @@
     "info": "PVC vloeren, parketvloeren en laminaat. Gent.",
     "rijtijd_hertsberge": 34,
     "rijtijd_drongen": 15,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "btw": "BE0770.458.132",
+    "cw_brutomarge": 81328,
+    "cw_winst": 8893,
+    "cw_fte": 1,
+    "cw_jaar": 2024
   },
   {
     "naam": "Declerck Luc (Zomergem/Lievegem)",
@@ -5641,7 +5672,7 @@
   {
     "naam": "Chaletpark (Roeselare)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.885,
     "lng": 3.123,
     "activiteiten": [
@@ -5652,7 +5683,12 @@
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 51,
     "webshop": "Nee",
-    "website": "chaletpark.be"
+    "website": "chaletpark.be",
+    "btw": "BE0474.705.726",
+    "cw_brutomarge": -7523,
+    "cw_winst": -50586,
+    "cw_fte": 0.7,
+    "cw_jaar": 2024
   },
   {
     "naam": "D&D Chalet & Tuincenter (Izegem)",
@@ -5829,7 +5865,7 @@
   {
     "naam": "Exclusive Oakwood (Vlierzele)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.94,
     "lng": 3.88,
     "activiteiten": [
@@ -5840,7 +5876,12 @@
     "rijtijd_hertsberge": 46,
     "rijtijd_drongen": 25,
     "webshop": "Nee",
-    "website": "www.exclusiveoakwood.be"
+    "website": "www.exclusiveoakwood.be",
+    "btw": "BE0559.927.451",
+    "cw_brutomarge": 26673,
+    "cw_winst": 6483,
+    "cw_fte": 0,
+    "cw_jaar": 2025
   },
   {
     "naam": "Vanhauwood (Maldegem)",
@@ -5893,7 +5934,7 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "Oost-Vlaanderen",
+    "adres": "Steenberg 8, 9660 Brakel",
     "info": "Bijgebouwen landelijk en modern: tuinhuizen, carports, terrasoverkappingen, poolhouses. Op afspraak.",
     "rijtijd_hertsberge": 47,
     "rijtijd_drongen": 27,
@@ -6121,13 +6162,17 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "Menen",
+    "adres": "Krommebeekstraat 45, 8930 Menen",
     "info": "Specialist houten bijgebouwen. Showroom Menen. Poolhouses, tuinhuizen, carports, tuinkamers. Van ontwerp tot afwerking.",
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 49,
     "webshop": "Nee",
     "btw": "BE0849.264.692",
-    "website": "www.woodproject.be"
+    "website": "www.woodproject.be",
+    "cw_brutomarge": 803540,
+    "cw_winst": 4839,
+    "cw_fte": 11.9,
+    "cw_jaar": 2023
   },
   {
     "naam": "Tuinen De Soete (Sint-Andries/Brugge)",
@@ -6214,7 +6259,7 @@
   {
     "naam": "Garden Home (Dendermonde)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.03,
     "lng": 4.1,
     "activiteiten": [
@@ -6226,7 +6271,8 @@
     "rijtijd_hertsberge": 58,
     "rijtijd_drongen": 37,
     "webshop": "Nee",
-    "website": "www.garden-home.be"
+    "website": "www.garden-home.be",
+    "btw": "BE0839.308.435"
   },
   {
     "naam": "Gardenas NV (Dendermonde)",
