@@ -7,11 +7,10 @@ const bedrijvenMap = new Map();
 
 async function init() {
   try {
-    const [bedrijvenRes, catRes, top15Res, dossiersRes] = await Promise.all([
+    const [bedrijvenRes, catRes, top15Res] = await Promise.all([
       fetch("data/bedrijven.json"),
       fetch("data/categorieen.json"),
       fetch("data/top15.json"),
-      fetch("data/dossiers.json"),
     ]);
     if (!bedrijvenRes.ok) throw new Error("bedrijven.json laden mislukt");
     if (!catRes.ok)       throw new Error("categorieen.json laden mislukt");
@@ -19,7 +18,6 @@ async function init() {
     bedrijven   = await bedrijvenRes.json();
     categorieen = await catRes.json();
     top15       = top15Res.ok ? await top15Res.json() : [];
-    dossiers    = dossiersRes.ok ? await dossiersRes.json() : [];
     bedrijven.forEach(c => bedrijvenMap.set(c.naam, c));
   } catch (e) {
     console.error("Data laden mislukt:", e);
@@ -42,7 +40,6 @@ async function init() {
   initSearch();
   initAnalyse();
   initEdit();
-  initDossiers();
   initTabs();
 
   // Event delegation voor popup-knoppen (eenmalig, geen memory leak)
@@ -97,14 +94,12 @@ function initTabs() {
       document.getElementById("favorieten-view").classList.toggle("hidden", tab !== "favorieten");
       document.getElementById("twijfel-view").classList.toggle("hidden", tab !== "twijfel");
       document.getElementById("bewerk-view").classList.toggle("hidden", tab !== "bewerk");
-      document.getElementById("dossiers-view").classList.toggle("hidden", tab !== "dossiers");
 
       if (tab === "kaart")            setTimeout(() => map.invalidateSize(), 100);
       else if (tab === "analyse")     renderAnalyse();
       else if (tab === "favorieten")  renderFavorieten();
       else if (tab === "twijfel")     renderTwijfel();
       else if (tab === "bewerk")      renderEdit();
-      else if (tab === "dossiers")    renderDossiers();
     });
   });
 }

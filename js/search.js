@@ -105,6 +105,13 @@ function matchesSearch(company) {
 
 function getVisibleCompanies() {
   return bedrijven.filter(c => {
+    // Status filter: als actief, toon ENKEL bedrijven met die status
+    if (activeStatus.size > 0) {
+      const isFav = activeStatus.has("favoriet") && isFavorite(c.naam);
+      const isTwf = activeStatus.has("twijfel") && isOrange(c.naam);
+      if (!isFav && !isTwf) return false;
+    }
+
     if (activeRegios.has("groene_zone") && !inGroeneZone(c)) return false;
 
     const regioSet = new Set([...activeRegios].filter(r => r !== "groene_zone"));

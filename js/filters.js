@@ -2,11 +2,13 @@
 
 let activeRegios = new Set();
 let activeActiviteiten = new Set();
+let activeStatus = new Set();   // "favoriet", "twijfel"
 
 function buildFilters() {
   document.getElementById("btn-all").onclick = () => {
     activeRegios.clear();
     activeActiviteiten.clear();
+    activeStatus.clear();
     syncFilterButtons();
     render();
     updateCounter();
@@ -20,6 +22,11 @@ function buildFilters() {
   const actRow = document.getElementById("filter-activiteit");
   addLabel(actRow, "Activiteit:");
   categorieen.filter(c => c.type === "activiteit").forEach(c => makeFilterBtn(actRow, c.label, c.id, c.kleur, "activiteit"));
+
+  const statusRow = document.getElementById("filter-status");
+  addLabel(statusRow, "Status:");
+  makeFilterBtn(statusRow, "★ Favorieten", "favoriet", "#DAA520", "status");
+  makeFilterBtn(statusRow, "● Twijfel", "twijfel", "#FF9800", "status");
 }
 
 function addLabel(container, text) {
@@ -37,7 +44,7 @@ function makeFilterBtn(container, label, id, col, type) {
   b.dataset.filterType = type;
   b.textContent = label;
   b.onclick = () => {
-    const set = type === "regio" ? activeRegios : activeActiviteiten;
+    const set = type === "regio" ? activeRegios : type === "status" ? activeStatus : activeActiviteiten;
     set.has(id) ? set.delete(id) : set.add(id);
     syncFilterButtons();
     render();
@@ -47,14 +54,15 @@ function makeFilterBtn(container, label, id, col, type) {
 }
 
 function syncFilterButtons() {
-  const isAll = activeRegios.size === 0 && activeActiviteiten.size === 0;
+  const isAll = activeRegios.size === 0 && activeActiviteiten.size === 0 && activeStatus.size === 0;
   const allBtn = document.getElementById("btn-all");
   allBtn.classList.toggle("on", isAll);
   if (isAll) allBtn.style.cssText = "background:#1a1a2e;color:#fff;border-color:#1a1a2e";
   else allBtn.style.cssText = "";
 
   document.querySelectorAll(".fb[data-filter-id]").forEach(btn => {
-    const set = btn.dataset.filterType === "regio" ? activeRegios : activeActiviteiten;
+    const t = btn.dataset.filterType;
+    const set = t === "regio" ? activeRegios : t === "status" ? activeStatus : activeActiviteiten;
     const active = set.has(btn.dataset.filterId);
     btn.classList.toggle("on", active);
     const col = btn.dataset.filterCol;
