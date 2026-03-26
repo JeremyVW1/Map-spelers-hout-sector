@@ -68,6 +68,12 @@ function scoreText(c) {
   return gem != null ? `⌀ ${gem}'` : "";
 }
 
+function adresLinkHtml(c) {
+  if (!c.adres) return "";
+  const q = encodeURIComponent(c.adres);
+  return `<a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">${escHtml(c.adres)}</a>`;
+}
+
 function webLinkHtml(c) {
   if (!c.website) return "";
   const url = c.website.startsWith("http") ? c.website : "https://" + c.website;
@@ -118,7 +124,7 @@ function buildTableRow(c, opts) {
   h += `<td class="td-num" style="color:#1565C0">${c.bizzy_fte != null ? c.bizzy_fte : ""}</td>`;
   h += `<td class="td-num">${c.cw_fte != null ? c.cw_fte : ""}</td>`;
 
-  h += `<td class="td-adres">${escHtml(c.adres || "")}</td>`;
+  h += `<td class="td-adres">${adresLinkHtml(c)}</td>`;
   h += `<td class="td-btw">${btwLinkHtml(c)}</td>`;
   h += `<td class="td-web">${webLinkHtml(c)}</td>`;
   h += `<td class="td-num">${c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge + "'" : ""}</td>`;

@@ -389,13 +389,13 @@ function _top25Match(c) {
 function _statusRow(c, t, notesJ, notesV, statusClass) {
   return `
     <td class="td-status">${buildStatusHtml(c.naam)}</td>
-    <td class="td-naam">${escHtml(c.naam)}</td>
+    <td class="td-naam">${escHtml(c.naam)}${c.bron === "bizzy" ? ' <span class="bizzy-badge">B</span>' : ""}</td>
     <td>${t ? escHtml(t.activiteit) : escHtml(actLabel(c))}</td>
     <td class="td-num">${c.cw_brutomarge ? fmtK(c.cw_brutomarge) : (t && t.brutomarge ? fmtK(t.brutomarge) : "—")}</td>
     <td class="td-num top15-ebitda">${t ? escHtml(t.est_ebitda) : "—"}</td>
     <td class="td-num">${c.cw_fte != null ? c.cw_fte : (t ? t.fte : "—")}</td>
     <td>${t ? escHtml(t.opgericht || "—") : (c.oprichting ? escHtml(c.oprichting) : "—")}</td>
-    <td class="td-adres">${escHtml(c.adres || "")}</td>
+    <td class="td-adres">${adresLinkHtml(c)}</td>
     <td class="td-btw">${btwLinkHtml(c)}</td>
     <td class="td-web">${webLinkHtml(c)}</td>
     <td class="td-num">${c.rijtijd_hertsberge != null ? c.rijtijd_hertsberge + "'" : "—"}</td>

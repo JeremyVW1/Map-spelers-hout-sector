@@ -48,7 +48,7 @@ function renderTop25() {
         <td class="td-num top15-ebitda">${ebitdaVal}</td>
         <td class="td-num">${c.fte}</td>
         <td>${escHtml(c.opgericht || "—")}</td>
-        <td class="td-adres">${escHtml(c.adres)}</td>
+        <td class="td-adres">${adresLinkHtml(b || c)}</td>
         <td class="td-btw">${c.btw ? btwLinkHtml({ btw: c.btw }) : ""}</td>
         <td class="td-web">${webLinkHtml(c)}</td>
         <td class="td-num">${b && b.rijtijd_hertsberge != null ? b.rijtijd_hertsberge + "'" : "—"}</td>
