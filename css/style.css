@@ -620,3 +620,83 @@ select.edit-input { cursor: pointer; }
   .edit-fields { grid-template-columns: 1fr; }
   .edit-form-header { flex-direction: column; align-items: flex-start; }
 }
+
+/* ── Dossiers tab ── */
+#dossiers-view { padding: 12px 16px; overflow-y: auto; flex: 1; }
+.dos-toolbar { display: flex; gap: 10px; margin-bottom: 12px; align-items: center; }
+.dos-search { flex: 1; padding: 8px 12px; border: 1px solid #d0d0d0; border-radius: 8px; font-size: 13px; outline: none; }
+.dos-search:focus { border-color: var(--color-accent); box-shadow: 0 0 0 2px rgba(21,101,192,0.15); }
+.dos-filter-select { padding: 8px 12px; border: 1px solid #d0d0d0; border-radius: 8px; font-size: 13px; background: #fff; cursor: pointer; }
+
+/* Score stars */
+.dos-score { font-size: 13px; letter-spacing: 1px; }
+.dos-score-5 { color: #2E7D32; }
+.dos-score-4 { color: #558B2F; }
+.dos-score-3 { color: #FF9800; }
+.dos-score-2 { color: #E65100; }
+.dos-score-1 { color: #c62828; }
+
+/* Category & model badges */
+.dos-cat { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.3px; }
+.dos-cat-parket { background: #E8F5E9; color: #2E7D32; }
+.dos-cat-bouwpakket { background: #E3F2FD; color: #1565C0; }
+.dos-model { display: inline-block; font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 4px; background: #F3E5F5; color: #7B1FA2; }
+.dos-model-b2b { background: #FFF3E0; color: #E65100; }
+.dos-model-mixed { background: #F3E5F5; color: #7B1FA2; }
+.dos-model-b2c { background: #E0F7FA; color: #00695C; }
+.dos-cat-favoriet { background: #FFF8E1; color: #F57F17; }
+.dos-score-fav { color: #F57F17; font-weight: 700; }
+.dos-row-fav { background: #FFFDE7; }
+.dos-row-fav:hover { background: #FFF9C4 !important; }
+.dos-fav-badge { display: inline-block; background: #FFEB3B; color: #333; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-left: 8px; vertical-align: middle; }
+
+/* Table rows clickable */
+.dos-row { cursor: pointer; transition: background 0.1s; }
+.dos-row:hover { background: #E3F2FD !important; }
+.dos-naam-cell { font-weight: 600; white-space: nowrap; }
+.dos-verdict-cell { font-size: 11px; color: #555; max-width: 300px; }
+
+/* Detail view */
+#dossier-detail { margin-top: 16px; }
+.dos-detail-header { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; }
+.dos-back-btn { background: none; border: 1px solid #d0d0d0; border-radius: 8px; padding: 6px 16px; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--color-accent); transition: all 0.15s; }
+.dos-back-btn:hover { background: #E3F2FD; border-color: var(--color-accent); }
+.dos-detail-title h2 { font-size: 22px; color: #1a1a2e; margin: 0; }
+.dos-detail-meta { display: flex; gap: 8px; align-items: center; margin-top: 4px; }
+.dos-detail-verdict { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 12px 16px; border-radius: 10px; font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+
+/* Grid layout */
+.dos-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.dos-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.dos-card h3 { font-size: 14px; color: var(--color-accent); margin-bottom: 10px; border-bottom: 2px solid #E3F2FD; padding-bottom: 6px; }
+.dos-card p { font-size: 13px; line-height: 1.6; color: #444; }
+.dos-card-wide { grid-column: 1 / -1; }
+
+/* Info table inside detail */
+.dos-info-table { width: 100%; font-size: 12px; }
+.dos-info-table td { padding: 4px 8px; border-bottom: 1px solid #f0f0f0; }
+.dos-info-table td:first-child { font-weight: 600; color: #666; width: 120px; }
+.dos-info-table a { color: var(--color-accent); text-decoration: none; }
+.dos-info-table a:hover { text-decoration: underline; }
+
+/* Financial table */
+.dos-fin-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.dos-fin-table th { background: #f5f5f5; padding: 6px 10px; text-align: left; font-weight: 600; font-size: 11px; color: #666; border-bottom: 2px solid #e0e0e0; }
+.dos-fin-table td { padding: 6px 10px; border-bottom: 1px solid #f0f0f0; }
+.dos-fin-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+.dos-no-data { color: #999; font-style: italic; font-size: 13px; }
+
+/* Risk colors */
+.dos-risk-high { color: #c62828; }
+.dos-risk-medium { color: #E65100; }
+.dos-risk-low { color: #2E7D32; }
+
+/* Sterktes / Zwaktes lists */
+.dos-list { list-style: none; font-size: 12px; line-height: 1.8; }
+.dos-list-plus li::before { content: "✓ "; color: #2E7D32; font-weight: 700; }
+.dos-list-minus li::before { content: "✗ "; color: #c62828; font-weight: 700; }
+
+@media (max-width: 900px) {
+  .dos-detail-grid { grid-template-columns: 1fr; }
+  .dos-toolbar { flex-direction: column; }
+}

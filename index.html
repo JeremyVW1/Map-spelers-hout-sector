@@ -27,6 +27,7 @@
       <button class="tab-btn" data-tab="favorieten" role="tab" aria-selected="false">★ Favorieten <span id="fav-count" class="fav-count">0</span></button>
       <button class="tab-btn" data-tab="twijfel" role="tab" aria-selected="false">● Twijfel <span id="orange-count" class="fav-count orange-count">0</span></button>
       <button class="tab-btn" data-tab="bewerk" role="tab" aria-selected="false">✎ Bewerk</button>
+      <button class="tab-btn" data-tab="dossiers" role="tab" aria-selected="false">📋 Dossiers <span id="dossier-count" class="fav-count" style="background:#1565C0">0</span></button>
     </div>
     <div class="header-right">
       <div class="counter"><span id="counter-num">0</span> bedrijven</div>
@@ -211,6 +212,44 @@
     <div id="edit-content"></div>
   </div>
 
+  <!-- Dossiers tab -->
+  <div id="dossiers-view" class="hidden">
+    <div class="fav-toolbar">
+      <h2 style="color:#1565C0">📋 Dossiers</h2>
+      <span class="fav-subtitle">Diepgaande analyse per bedrijf — overname targets, parket & bouwpakketten</span>
+    </div>
+    <div class="dos-toolbar">
+      <input type="text" id="dossier-search" placeholder="Zoek dossier (naam, beschrijving…)" autocomplete="off" class="dos-search"/>
+      <select id="dossier-cat-filter" class="dos-filter-select">
+        <option value="">Alle categorieën</option>
+        <option value="bouwpakket">Bouwpakket</option>
+        <option value="parket">Parket</option>
+        <option value="favoriet">Favorieten</option>
+      </select>
+    </div>
+    <div class="analyse-table-wrap">
+      <table class="analyse-table" id="dossier-table">
+        <thead>
+          <tr>
+            <th>Score</th>
+            <th>Naam</th>
+            <th>Categorie</th>
+            <th>Model</th>
+            <th>Brutomarge</th>
+            <th>Winst</th>
+            <th>EV</th>
+            <th>FTE</th>
+            <th>Regio</th>
+            <th>Rijtijd</th>
+            <th>Verdict</th>
+          </tr>
+        </thead>
+        <tbody id="dossier-tbody"></tbody>
+      </table>
+    </div>
+    <div id="dossier-detail" class="hidden"></div>
+  </div>
+
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <script src="js/config.js"></script>
@@ -221,6 +260,7 @@
   <script src="js/favorites.js"></script>
   <script src="js/analyse.js"></script>
   <script src="js/edit.js"></script>
+  <script src="js/dossiers.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
