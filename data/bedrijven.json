@@ -6475,11 +6475,12 @@
   {
     "naam": "Solid Wood Builds (Kortemark)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 51.0246,
     "lng": 3.0447,
     "activiteiten": [
-      "tuinhuis"
+      "tuinhuis",
+      "houthandel"
     ],
     "btw": "BE0424.964.621",
     "adres": "Amersveldestraat 213, 8610 Kortemark",
@@ -6487,7 +6488,16 @@
     "info": "⚙️ B2B + B2C — Debeuckelaere Gebrs. Sinds 1864, 5e generatie. Eigen zagerij + CNC-productie. Prefab eiken/douglas/dennen bijgebouwen, carports, schuren, poolhouses, bouwpakketten. Zusterbedrijf: De Huizenvakman (houtskeletbouw).",
     "webshop": "Ja",
     "rijtijd_hertsberge": 27,
-    "rijtijd_drongen": 45
+    "rijtijd_drongen": 45,
+    "rechtsvorm": "BV",
+    "oprichting": "1864",
+    "groep": "Houtmarkt / De Huizenvakman",
+    "cw_brutomarge": 2068000,
+    "cw_winst": null,
+    "cw_fte": 12.9,
+    "cw_jaar": 2025,
+    "medewerkers": "12.9 FTE",
+    "omzet": "Est. €4-8M (verkort schema)"
   },
   {
     "naam": "VEH Outdoor Living (Ronse)",
