@@ -6473,17 +6473,19 @@
     "webshop": "Nee"
   },
   {
-    "naam": "Solid Wood Builds (Kortrijk regio)",
+    "naam": "Solid Wood Builds (Kortemark)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 50.8275,
-    "lng": 3.2645,
+    "lat": 51.0246,
+    "lng": 3.0447,
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "regio Kortrijk",
-    "info": "Eiken bijgebouwen in massieve houtbouw. Bouwpakketten. Regio Kortrijk.",
-    "webshop": "Nee"
+    "btw": "BE0424.964.621",
+    "adres": "Amersveldestraat 213, 8610 Kortemark",
+    "website": "www.solidwoodbuilds.com",
+    "info": "⚙️ B2B + B2C — Debeuckelaere Gebrs. Sinds 1864, 5e generatie. Eigen zagerij + CNC-productie. Prefab eiken/douglas/dennen bijgebouwen, carports, schuren, poolhouses, bouwpakketten. Zusterbedrijf: De Huizenvakman (houtskeletbouw).",
+    "webshop": "Ja"
   },
   {
     "naam": "VEH Outdoor Living (Ronse)",
