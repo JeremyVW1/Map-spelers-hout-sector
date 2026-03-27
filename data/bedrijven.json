@@ -2875,7 +2875,8 @@
     "rijtijd_hertsberge": 47,
     "rijtijd_drongen": 26,
     "webshop": "Nee",
-    "btw": "BE0478.973.528"
+    "btw": "BE0478.973.528",
+    "cw_fte": 1
   },
   {
     "naam": "Yvan Christiaens Tuinhuizen (Kaster/WVL)",
@@ -2967,7 +2968,7 @@
     "cw_brutomarge": 342272,
     "cw_winst": 15055,
     "cw_fte": 7,
-    "cw_jaar": 2023
+    "cw_jaar": 2025
   },
   {
     "naam": "Filip Valcke Tuinhuizen (Diksmuide)",
@@ -3070,7 +3071,10 @@
     "rijtijd_hertsberge": 29,
     "rijtijd_drongen": 46,
     "webshop": "Nee",
-    "btw": "BE0436.439.523"
+    "btw": "BE0436.439.523",
+    "cw_brutomarge": 342272,
+    "cw_fte": 7,
+    "cw_jaar": 2025
   },
   {
     "naam": "BJ Parket (Zele — OVL)",
@@ -3722,7 +3726,8 @@
     "rijtijd_drongen": 16,
     "webshop": "Nee",
     "cw_fte": 0,
-    "cw_jaar": 2026
+    "cw_jaar": 2026,
+    "status_detail": "gesloten (liquidatie)"
   },
   {
     "naam": "Tilborghs Hout en Interieur (Kalmthout)",
@@ -3784,7 +3789,9 @@
     "btw": "BE 0474.349.103",
     "info": "Houthandel. Schoten.",
     "rechtsvorm": "BV",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 7.5,
+    "cw_jaar": 2025
   },
   {
     "naam": "Houthandel Marijnissen (Rijkevorsel)",
@@ -3798,7 +3805,9 @@
     "btw": "BE 0465.993.740",
     "info": "Houthandel. Rijkevorsel.",
     "rechtsvorm": "BV",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 7,
+    "cw_jaar": 2025
   },
   {
     "naam": "Houtzagerij Van Mechgelen (Arendonk)",
@@ -3812,7 +3821,9 @@
     "btw": "BE 0423.468.643",
     "info": "Houtzagerij en houthandel. Arendonk.",
     "rechtsvorm": "BV",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 9.8,
+    "cw_jaar": 2025
   },
   {
     "naam": "Houthandel Reynders (Meerhout)",
@@ -3886,7 +3897,10 @@
     "btw": "BE 0471.393.175",
     "info": "Houthandel. Retie.",
     "rechtsvorm": "BV",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 13,
+    "cw_brutomarge": 2137925,
+    "cw_jaar": 2024
   },
   {
     "naam": "Houtbedrijf Van Den Broeck (Retie)",
@@ -4092,7 +4106,8 @@
     "adres": "Ontmijnersstraat 6, 8370 Blankenberge",
     "btw": "BE 0478.436.365",
     "cw_fte": 0,
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "cw_brutomarge": 19910
   },
   {
     "naam": "BV Parket (Diksmuide)",
@@ -4572,7 +4587,8 @@
     "rijtijd_drongen": 46,
     "webshop": "Nee",
     "btw": "BE0439.432.170",
-    "website": "www.emex.be"
+    "website": "www.emex.be",
+    "cw_jaar": 2025
   },
   {
     "naam": "Proworks (Poelkapelle)",
@@ -5922,7 +5938,10 @@
     "rijtijd_drongen": 27,
     "webshop": "Ja",
     "website": "chalets-baka.be",
-    "btw": "BE0430.013.074"
+    "btw": "BE0430.013.074",
+    "cw_fte": 46.2,
+    "cw_omzet": 15100000,
+    "cw_jaar": 2025
   },
   {
     "naam": "Callewood (Oost-Vlaanderen)",
@@ -5977,7 +5996,8 @@
     "cw_brutomarge": 3592606,
     "cw_winst": 137072,
     "cw_fte": 46.2,
-    "cw_jaar": 2023
+    "cw_jaar": 2025,
+    "cw_omzet": 15100000
   },
   {
     "naam": "Primewood (Westmalle)",
@@ -6045,7 +6065,9 @@
     "info": "Pionier in houten constructies WVL. Houthandel + zusterbedrijf Decadt Construct. Tuinhuizen, poolhouses, carports op maat. Roesbruggestraat 5, 8972 Proven. BTW: BE 0450.706.045.",
     "rijtijd_hertsberge": 63,
     "rijtijd_drongen": 74,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 11,
+    "cw_jaar": 2025
   },
   {
     "naam": "Geoff's Eiken Bijgebouwen (Ooigem/Wielsbeke)",
@@ -6150,7 +6172,9 @@
     "rijtijd_drongen": 46,
     "webshop": "Nee",
     "btw": "BE0422.035.122",
-    "website": "www.verde.be"
+    "website": "www.verde.be",
+    "cw_fte": 7.8,
+    "cw_jaar": 2025
   },
   {
     "naam": "Woodproject (Menen)",
@@ -6433,7 +6457,9 @@
     "info": "Tuinhuizen, carports, poolhouses, houten terrassen, houtskeletbouw. Ooststraat 37, 9180 Moerbeke-Waas. BTW: BE 0828.419.293.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 51,
-    "rijtijd_drongen": 32
+    "rijtijd_drongen": 32,
+    "cw_fte": 3,
+    "cw_jaar": 2024
   },
   {
     "naam": "De Wilde Houtconstructies (Staden)",
@@ -6525,7 +6551,9 @@
     "info": "Tuinhuizen, poolhouses, terrassen, carports, poorten, afsluitingen. 25+ jaar ervaring. Webshop tuinmeubels. Nieuwe Pontstraat 2, 9600 Ronse. BTW: BE 0462.924.481.",
     "webshop": "Ja",
     "rijtijd_hertsberge": 49,
-    "rijtijd_drongen": 36
+    "rijtijd_drongen": 36,
+    "cw_fte": 4.4,
+    "cw_jaar": 2025
   },
   {
     "naam": "Felke (Stekene)",
@@ -6572,7 +6600,8 @@
     "info": "Carports, poolhouses, tuinhuizen, pergola's, bijgebouwen. Oude Heirbaan 70, 9100 Sint-Niklaas. BTW: BE 0788.707.988.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 60,
-    "rijtijd_drongen": 40
+    "rijtijd_drongen": 40,
+    "cw_jaar": 2024
   },
   {
     "naam": "De Saegher (Moerbeke-Waas) — T Houtproject",
@@ -6604,7 +6633,8 @@
     "info": "Schrijnwerkerij sinds 1988. Houten bijgebouwen, ramen, deuren, dakkapellen, keukens, interieur. Brandhout. Torhoutse Baan 97, 8470 Gistel. BTW: BE 0433.187.251.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 30,
-    "rijtijd_drongen": 49
+    "rijtijd_drongen": 49,
+    "cw_jaar": 2025
   },
   {
     "naam": "Decadt Construct (Proven/Poperinge)",
@@ -6621,7 +6651,8 @@
     "info": "Zusterbedrijf Daniel Decadt houthandel. Ontwerp en bouw houten tuinhuizen, bijgebouwen, garages, carports op maat. 9.5 VTE. Roesbruggestraat 9, 8972 Poperinge. BTW: BE 0795.107.020.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 49,
-    "rijtijd_drongen": 65
+    "rijtijd_drongen": 65,
+    "cw_fte": 9.5
   },
   {
     "naam": "Jadimex (Lovenjoel — Vlaams-Brabant)",
@@ -6638,7 +6669,10 @@
     "adres": "Tiensesteenweg 225, 3360 Lovenjoel",
     "website": "jadimex.be",
     "info": "Groothandel duurzaam tropisch hardhout. FSC-gecertificeerd. Paardenomheiningen, tuinhout, gevelbekleding, terrashout. Showroom Lovenjoel.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "cw_fte": 5.2,
+    "cw_brutomarge": 942883,
+    "cw_jaar": 2025
   },
   {
     "naam": "Vernafix (Kortemark/Houthulst)",
@@ -6657,7 +6691,10 @@
     "info": "Fabrikant tuinhout en houtconstructies. Carports, tuinhuizen, paardenafsluitingen, weidepoorten. FSC. Eigen productie in Houthulst. Catalogus paardenomheiningen.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 32,
-    "rijtijd_drongen": 49
+    "rijtijd_drongen": 49,
+    "cw_fte": 20.2,
+    "cw_omzet": 10469747,
+    "cw_jaar": 2025
   },
   {
     "naam": "De Sutter Naturally (Kampenhout)",
@@ -6674,7 +6711,10 @@
     "website": "desutter-naturally.be",
     "info": "Fabrikant houten omheiningen, poorten en schuilstallen sinds 1977. Eigen productie Kampenhout. Densiforce-impregnatie. Doorsteekomheiningen zonder nagels. Post & Rail. Levert heel BE + NL.",
     "oprichting": "1977",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "cw_fte": 24.2,
+    "cw_omzet": 12373969,
+    "cw_jaar": 2025
   },
   {
     "naam": "Boerderijshop / Wilbos (Sint-Laureins)",
@@ -6713,7 +6753,8 @@
     "adres": "Esdoornlaan 3, 2382 Ravels",
     "website": "kempischdomein.com",
     "info": "Specialist kastanje, eiken en robinia hekwerk. Tuinpoorten, paardenomheiningen, schapenhekken. Eigen stock. B2B + particulier + openbare besturen.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "cw_jaar": 2025
   },
   {
     "naam": "Tuymans Omheiningen (Malle/Lille)",
@@ -6728,7 +6769,9 @@
     "adres": "Broekzijstraat 60, 2275 Lille",
     "website": "tuymansomheiningen.be",
     "info": "Professioneel geplaatste houten paardenomheiningen. Machine-geslaan met lasergeleiding. Actief in heel Vlaanderen + Wallonië.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 3,
+    "cw_jaar": 2025
   },
   {
     "naam": "Houtstock (België)",
@@ -6759,7 +6802,10 @@
     "adres": "Kieleberg 20, 3740 Bilzen",
     "website": "deslagmolen.be",
     "info": "Houthandel Bilzen, Limburg. Eigen vierkantschaaf- en cirkelzaagmachines. Eik, douglas, populier op maat. ~23 medewerkers.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 22.9,
+    "cw_omzet": 12753349,
+    "cw_jaar": 2025
   },
   {
     "naam": "Timberfence",
@@ -6875,7 +6921,10 @@
     "adres": "Industrieweg 11, 2340 Beerse",
     "website": "eddydeprins.be",
     "info": "Familiebedrijf schrijnwerkerij. Houten terrassen (eik, HOTwood, Kebony, Accoya), gevelbekleding. Beerse.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 22.7,
+    "cw_brutomarge": 1953680,
+    "cw_jaar": 2024
   },
   {
     "naam": "Scierie Hontoir",
@@ -6906,7 +6955,9 @@
     "adres": "Rue du Moulin 85, 6921 Chanly",
     "website": "mahy.be",
     "info": "Zagerij eik en beuk sinds 1901. Chanly (Wellin), prov. Luxemburg. Waterkrachtcentrale. FSC.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 1,
+    "cw_jaar": 2024
   },
   {
     "naam": "Pirson Bois",
@@ -6935,7 +6986,9 @@
     "adres": "Vennekeslaan 9, 3665 As",
     "website": "nowak.be",
     "info": "Ontwerp, fabricage en plaatsing tuinhuizen, carports, garages, cottages, poolhouses. As, Limburg. +30 jaar.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 2.1,
+    "cw_jaar": 2025
   },
   {
     "naam": "Houthandel Wienen",
@@ -6950,7 +7003,9 @@
     "adres": "Senator A. Jeurissenlaan 1050, 3520 Zonhoven",
     "website": "houthandelwienen.be",
     "info": "Houtgroothandel sinds 1991. Daktimmer, tuinhout, plaatmateriaal. Zonhoven, Limburg.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 4.8,
+    "cw_jaar": 2025
   },
   {
     "naam": "Muffels Leon Bosontginning",
@@ -6966,7 +7021,10 @@
     "adres": "Geleenlaan 15, 3600 Genk",
     "website": "muffelsleon.be",
     "info": "Bosontginning & houthandel sinds jaren 80. Brandhout, tuinhout, carports, blokhutten. Genk, Limburg.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 10.1,
+    "cw_omzet": 895900,
+    "cw_jaar": 2023
   },
   {
     "naam": "D'Hont Houtimport",
@@ -7031,7 +7089,9 @@
     "adres": "Grand-Route 80, 4500 Huy",
     "website": "parquet-philippe.be",
     "info": "Parketspecialist +20 jaar ervaring. Schuren, strippen, onderhoud parket en houten trappen. Huy, Luik.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 1,
+    "cw_jaar": 2025
   },
   {
     "naam": "Parquet Beaudry",
@@ -7150,7 +7210,10 @@
     "adres": "Rue Saint Isidore 3, 6900 Marloie",
     "website": "fruytier.com",
     "info": "Top-20 Europese naaldhout-zagerij. 1M+ m3/jaar. Sparren, douglas. 5 zagerijen in BE. Marloie (Marche-en-Famenne). Sinds 1942.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 134.5,
+    "cw_omzet": 25730789,
+    "cw_jaar": 2025
   },
   {
     "naam": "Barthel Pauls Sohne",
@@ -7180,7 +7243,8 @@
     "adres": "Rue des Corettes 56, 6880 Bertrix",
     "website": "scierieservais.be",
     "info": "Zagerij en houthandel Bertrix. Constructiehout, dakbalken. Verkoop aan particulieren en professionals.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_jaar": 2023
   },
   {
     "naam": "Le Bois au Jardin",
@@ -7212,7 +7276,8 @@
     "btw": "BE0445.209.610",
     "adres": "Buchenweg 30, 4700 Eupen",
     "info": "Houthandel rondhout. Duurzaam bosbeheer. Bosexploitatie, meten en transport. Eupen, Ostbelgien.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 3.7
   },
   {
     "naam": "Scierie Poncelet",
@@ -7226,7 +7291,9 @@
     "btw": "BE0860.273.697",
     "adres": "Bertrix, 6880",
     "info": "Zagerij Bertrix, provincie Luxemburg. Naaldhout verwerking.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 6,
+    "cw_jaar": 2025
   },
   {
     "naam": "Durafence / Peter Müller",
@@ -7241,7 +7308,8 @@
     "adres": "Zur Morsheck 49, 4770 Möderscheid (Amel)",
     "website": "durafence.be",
     "info": "Paardenomheiningen in hout, gespecialiseerd in post-and-rail systemen. Duitstalig België.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 22.3
   },
   {
     "naam": "Natuurhout",
@@ -7259,7 +7327,8 @@
     "info": "Houten omheiningen, paardenstallen en bijgebouwen. Kastanjehout specialist.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 55,
-    "rijtijd_drongen": 32
+    "rijtijd_drongen": 32,
+    "cw_fte": 1
   },
   {
     "naam": "Afsluitingen Van Eecke",
@@ -7294,7 +7363,8 @@
     "info": "Houten afsluitingen, paardenomheiningen, tuinconstructies. Familiebedrijf.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 48,
-    "rijtijd_drongen": 28
+    "rijtijd_drongen": 28,
+    "cw_jaar": 2024
   },
   {
     "naam": "Schuilhokken.be",
@@ -7327,7 +7397,8 @@
     "adres": "De Weven 11, 3583 Paal-Beringen",
     "website": "draadmagazijn.be",
     "info": "Breed assortiment omheiningen incl. houten paardenafsluitingen. Webshop aanwezig.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "cw_fte": 3.6
   },
   {
     "naam": "AFSLUITINGEN DE SOETE",
@@ -7519,7 +7590,8 @@
     "email": "schrijnwerkerij@dhoker.be",
     "tel": "+32 53 66 26 48",
     "info": "Microbedrijf. schrijnwerk. Denderleeuw.",
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "cw_brutomarge": 688945
   },
   {
     "naam": "DE COENE INTERIOR DECORATION",
@@ -8879,7 +8951,10 @@
     "info": "PRODUCENT fineer-parketvloeren met Uniclic kliksysteem. 0.6mm echt hout toplaag. Ook fineerwandpanelen. Custom kleuren voor projecten. Verbonden aan Delospan International.",
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 30,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 8,
+    "cw_brutomarge": 568156,
+    "cw_jaar": 2024
   },
   {
     "naam": "BerryAlloc (Menen)",
@@ -8898,7 +8973,10 @@
     "medewerkers": "199",
     "rijtijd_hertsberge": 40,
     "rijtijd_drongen": 49,
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "cw_fte": 199.3,
+    "cw_omzet": 104624862,
+    "cw_jaar": 2025
   },
   {
     "naam": "Lamett (Deerlijk)",
@@ -8917,7 +8995,10 @@
     "medewerkers": "350",
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 28,
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "cw_fte": 32.9,
+    "cw_omzet": 60720715,
+    "cw_jaar": 2024
   },
   {
     "naam": "Kerkhofs Parket (Peer)",
@@ -8933,7 +9014,9 @@
     "adres": "Ambachtslaan 1013, 3990 Peer",
     "website": "parketkerkhofs.be",
     "info": "PRODUCENT massief parket in 35 houtsoorten. Types: massief, tapis, Bourgondisch, verouderd. Alles in eigen werkplaats. 4e generatie familiebedrijf. 800+ professionele klanten.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 12.4,
+    "cw_jaar": 2024
   },
   {
     "naam": "Z-Parket (Genk)",
@@ -8948,7 +9031,10 @@
     "adres": "Jan Latoslaan 9, 3600 Genk",
     "website": "z-parket.be",
     "info": "PRODUCENT pre-finished hardwood vloeren, plinten, tafels, banken, traptreden. Premium kwaliteit. Opgericht 2004. ~9-20 FTE.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 9.4,
+    "cw_omzet": 319103,
+    "cw_jaar": 2023
   },
   {
     "naam": "Arbony (Flemalle)",
@@ -8963,7 +9049,10 @@
     "adres": "Rue des Semailles 31, 4400 Flemalle",
     "website": "arbony.com",
     "info": "PRODUCENT verouderd Frans eiken parket. Volledige productieketen in-house: schaven, afwerken, verouderen, kleuren, engineered assemblage. Geen synthetische kleurstoffen. Marktleider vintage vloeren. Sinds 2001.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 36.1,
+    "cw_omzet": 11049390,
+    "cw_jaar": 2025
   },
   {
     "naam": "Logic Nature Parquets (Doornik)",
@@ -8978,7 +9067,9 @@
     "adres": "Place de Saint-Maur 15, 7500 Tournai",
     "website": "logicnature.com",
     "info": "PRODUCENT massief & engineered parket. Made in Belgium 25+ jaar. FSC-gecertificeerd eiken. Elk hout geschaafd op maat per klant. Scandinavische olie-afwerking. Familiebedrijf.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_brutomarge": 17783,
+    "cw_jaar": 2023
   },
   {
     "naam": "Brabo Flooring (Antwerpen)",
@@ -8993,7 +9084,9 @@
     "adres": "Godefriduskaai 20A, 2000 Antwerpen",
     "website": "braboflooring.be",
     "info": "PRODUCENT massief parketvloeren in eigen werkplaats. Ook maatwerk: convectorroosters, trapbekleding, sterpatronen. Opgericht 1936. Dubbel beroep: fabricage en plaatsing.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 4,
+    "cw_jaar": 2025
   },
   {
     "naam": "De Wijn Parket Projecten (Hemiksem)",
@@ -9048,7 +9141,8 @@
     "adres": "Dorenstraat 30, 3020 Herent",
     "website": "buytenhuys.be",
     "info": "⚙️ B2B+B2C bouwpakketten eiken bijgebouwen. Handcrafted oak frames met pen-en-gatverbindingen. Poolhouses, carports, extensions. Sinds 2010.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_jaar": 2025
   },
   {
     "naam": "Claeys Houtconstructies (Hasselt)",
@@ -9064,7 +9158,9 @@
     "adres": "Cijnsbroekstraat 5, 3512 Stevoort",
     "website": "claeys-houtconstructies.be",
     "info": "⚙️ B2B+B2C bouwpakketten. Eiken bijgebouwen, carports, poolhouses, tuinkantoren. Eigen atelier + webshop eikenhout. 30+ jaar. Handmade in Belgium.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "cw_fte": 10.6,
+    "cw_jaar": 2025
   },
   {
     "naam": "Tronco / Ecohuis Groep (Dessel)",
@@ -9080,7 +9176,9 @@
     "adres": "Dessel",
     "website": "tronco.be",
     "info": "HSB-elementen + prefab bijgebouwen (poolhouses, tuinkantoren, carports, garages). B2B voor houtbouwers/aannemers. 12.000+ m² productie-atelier.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 18,
+    "cw_jaar": 2025
   },
   {
     "naam": "Russell Woods (s Gravenwezel)",
@@ -9127,7 +9225,10 @@
     "adres": "Kapelstraat 19, 2200 Morkhoven",
     "website": "candek-oak.be",
     "info": "Eiken bijgebouwen op maat: poolhouses, carports, garages, overkappingen, terrassen, hekwerk. Kempens familiebedrijf.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 1.3,
+    "cw_brutomarge": 107674,
+    "cw_jaar": 2024
   },
   {
     "naam": "Oak Construct (Kaprijke)",
@@ -9159,7 +9260,8 @@
     "adres": "Gentsesteenweg 153, 2800 Mechelen",
     "website": "tuinhuizencockaerts.be",
     "info": "Eiken bijgebouwen (Franse eik), tuinhuizen, carports. Eigen vakwerk + showroom. 5 FTE. Sinds 2016.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 5.1
   },
   {
     "naam": "MasterOak (Kapellen)",
@@ -9174,7 +9276,9 @@
     "adres": "Energielaan 10/F, 2950 Kapellen",
     "website": "masteroak.be",
     "info": "Eiken bijgebouwen klassiek & modern. Dakwerken, timmerwerk, isolatie. Eigen productie.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 0.8,
+    "cw_jaar": 2025
   },
   {
     "naam": "Meeus Houtconstructies (Retie)",
@@ -9189,7 +9293,9 @@
     "adres": "Kelderbeemd 18, 2470 Retie",
     "website": "meeus-houtconstructies.be",
     "info": "Houten poorten + eiken bijgebouwen (poolhouses, moderne stijl). Terrasoverkappingen, woninguitbreidingen. Familiebedrijf Danny + Jasper Meeus. 6 FTE.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 6.3,
+    "cw_brutomarge": 540317
   },
   {
     "naam": "Schrijnwerkerij MB (Heist-op-den-Berg)",
@@ -9234,7 +9340,8 @@
     "adres": "Hellestraat 6, 3670 Ellikom",
     "website": "woodprojectsvandyck.com",
     "info": "Eiken bijgebouwen, poolhouses, carports, overkappingen, ramen en deuren. Wouter & Pieter Vandyck. Sinds 2021.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_brutomarge": 64364
   },
   {
     "naam": "Hogerhuis / Hofheren (Merelbeke)",
@@ -9267,7 +9374,9 @@
     "adres": "Rue du Parc Industriel 2, 5590 Achène",
     "website": "chimsco.be",
     "info": "PRODUCENT dakspanten hout (CNC) + bijgebouwen: carports, poolhouses, pergola's, HSB. 800+ dakspanten/jaar. 20+ jaar.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 69.2,
+    "cw_jaar": 2024
   },
   {
     "naam": "Brunet SA (Mariembourg)",
@@ -9283,7 +9392,10 @@
     "adres": "Chaussée de Philippeville 60, 5660 Mariembourg",
     "website": "brunet-sa.be",
     "info": "Charpentes traditionnelles en chêne + HSB. Specialist sinds 1837. Heel België + Noord-Frankrijk.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 23.5,
+    "cw_brutomarge": 2207365,
+    "cw_jaar": 2024
   },
   {
     "naam": "EMAC in Wood (Grez-Doiceau)",
@@ -9298,7 +9410,8 @@
     "adres": "Allée Bois de Bercuit 77, 1390 Grez-Doiceau",
     "website": "emacinvest.com",
     "info": "100% eiken woningen, annexes, poolhouses, carports. Engelse vakmanschap, pen-en-gat zonder schroeven. Voorgemonteerd in fabriek.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_jaar": 2024
   },
   {
     "naam": "CCBois (Braine-le-Château)",
@@ -9313,7 +9426,9 @@
     "adres": "Rue de l'Abbaye 14, 1440 Braine-le-Château",
     "website": "charpente-construction-bois.be",
     "info": "Charpentes hout, sporthallen, portiques, granges. Projecten voor o.a. Pairi Daiza. 10-20 FTE.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 13.7,
+    "cw_jaar": 2025
   },
   {
     "naam": "Manandise Construction (La Roche)",
