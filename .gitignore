@@ -1,0 +1,14 @@
+# Claude Code / MCP tool config
+.claude/
+.claude-flow/
+.mcp.json
+CLAUDE.md
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
