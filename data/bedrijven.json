@@ -6413,7 +6413,9 @@
     "cw_winst": -26983,
     "cw_fte": 4.5,
     "cw_jaar": 2024,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 43,
+    "rijtijd_drongen": 22
   },
   {
     "naam": "SDP Schrijnwerken (Moerbeke-Waas)",
@@ -6429,7 +6431,9 @@
     "btw": "BE 0828.419.293",
     "adres": "Ooststraat 37, 9180 Moerbeke-Waas",
     "info": "Tuinhuizen, carports, poolhouses, houten terrassen, houtskeletbouw. Ooststraat 37, 9180 Moerbeke-Waas. BTW: BE 0828.419.293.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 51,
+    "rijtijd_drongen": 32
   },
   {
     "naam": "De Wilde Houtconstructies (Staden)",
@@ -6443,7 +6447,9 @@
     ],
     "adres": "Kapelleriestraat 28, 8840 Staden",
     "info": "Familiebedrijf, 30+ jaar. Houten dakconstructies, eiken bijgebouwen, gevelbekleding. Eik, thermowood, ceder, oregon. Kapelleriestraat 28, 8840 Staden.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 46
   },
   {
     "naam": "DB Chalets / Tuinhuizen Deinze",
@@ -6456,7 +6462,9 @@
     ],
     "adres": "Kapellestraat 98C, 9800 Deinze",
     "info": "Officieel Christiaens Yvan dealer. Van tuinhuis tot poolhouse. Expo terrein. Kapellestraat 98C, 9800 Deinze.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 18
   },
   {
     "naam": "Vergo Tuinen (Waregem)",
@@ -6470,7 +6478,9 @@
     ],
     "adres": "Waregem",
     "info": "Tuinaannemer. Tuinhuizen op maat, houten gebouwen, zwemvijvers. Regio Waregem-Kortrijk.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 30
   },
   {
     "naam": "Solid Wood Builds (Kortemark)",
@@ -6513,7 +6523,9 @@
     "btw": "BE 0462.924.481",
     "adres": "Nieuwe Pontstraat 2, 9600 Ronse",
     "info": "Tuinhuizen, poolhouses, terrassen, carports, poorten, afsluitingen. 25+ jaar ervaring. Webshop tuinmeubels. Nieuwe Pontstraat 2, 9600 Ronse. BTW: BE 0462.924.481.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 36
   },
   {
     "naam": "Felke (Stekene)",
@@ -6526,7 +6538,9 @@
     ],
     "adres": "Stekene",
     "info": "Producent houten bijgebouwen en woonuitbreidingen. 30+ jaar expertise. Belevingspark. Stekene. Zusterbedrijf Bogarden.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 56,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "Bogarden (Stekene)",
@@ -6539,7 +6553,9 @@
     ],
     "adres": "Stekene",
     "info": "Exclusief design houten bijgebouwen: poolhouses, gastenverblijven, buitenkeukens, carports. Kantoren Stekene + Knokke. Zusterbedrijf Felke.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 56,
+    "rijtijd_drongen": 37
   },
   {
     "naam": "JT Renovaties & Tuinconcepten (Sint-Niklaas)",
@@ -6554,7 +6570,9 @@
     "btw": "BE 0788.707.988",
     "adres": "Oude Heirbaan 70, 9100 Sint-Niklaas",
     "info": "Carports, poolhouses, tuinhuizen, pergola's, bijgebouwen. Oude Heirbaan 70, 9100 Sint-Niklaas. BTW: BE 0788.707.988.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 60,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "De Saegher (Moerbeke-Waas) — T Houtproject",
@@ -6567,7 +6585,9 @@
     ],
     "adres": "Bergstraat 81, 9180 Moerbeke-Waas",
     "info": "Alias: T Houtproject. Poolhouses, tuinhuizen, carports, 3D-ontwerp. Bergstraat 81, 9180 Moerbeke-Waas.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 52,
+    "rijtijd_drongen": 32
   },
   {
     "naam": "Vandenauweele (Gistel)",
@@ -6582,7 +6602,9 @@
     "btw": "BE 0433.187.251",
     "adres": "Torhoutse Baan 97, 8470 Gistel",
     "info": "Schrijnwerkerij sinds 1988. Houten bijgebouwen, ramen, deuren, dakkapellen, keukens, interieur. Brandhout. Torhoutse Baan 97, 8470 Gistel. BTW: BE 0433.187.251.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 49
   },
   {
     "naam": "Decadt Construct (Proven/Poperinge)",
@@ -6597,7 +6619,9 @@
     "btw": "BE 0795.107.020",
     "adres": "Roesbruggestraat 9, 8972 Poperinge",
     "info": "Zusterbedrijf Daniel Decadt houthandel. Ontwerp en bouw houten tuinhuizen, bijgebouwen, garages, carports op maat. 9.5 VTE. Roesbruggestraat 9, 8972 Poperinge. BTW: BE 0795.107.020.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 49,
+    "rijtijd_drongen": 65
   },
   {
     "naam": "Jadimex (Lovenjoel — Vlaams-Brabant)",
@@ -6631,7 +6655,9 @@
     "adres": "Koekelarestraat 78, 8610 Kortemark",
     "website": "vernafix.be",
     "info": "Fabrikant tuinhout en houtconstructies. Carports, tuinhuizen, paardenafsluitingen, weidepoorten. FSC. Eigen productie in Houthulst. Catalogus paardenomheiningen.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 32,
+    "rijtijd_drongen": 49
   },
   {
     "naam": "De Sutter Naturally (Kampenhout)",
@@ -6669,7 +6695,9 @@
     "cw_winst": -122116,
     "cw_fte": 0.1,
     "cw_jaar": 2024,
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "rijtijd_hertsberge": 30,
+    "rijtijd_drongen": 26
   },
   {
     "naam": "'t Kempisch Domein (Ravels)",
@@ -6714,7 +6742,9 @@
     ],
     "website": "houtstock.be",
     "info": "Webshop duurzaam kwaliteitshout. Weidepoorten, paardenomheiningen, kastanje hekwerk, palen. Levering heel België.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "rijtijd_hertsberge": 38,
+    "rijtijd_drongen": 14
   },
   {
     "naam": "De Slagmolen",
@@ -6745,7 +6775,9 @@
     "adres": "Ieperstraat 213, 8940 Geluwe",
     "website": "timberfence.be",
     "info": "Specialist houten omheiningen, poorten en schuilstallen. Tropisch hardhout, geimpregneerd naaldhout, acacia. Geluwe (Wervik).",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 41,
+    "rijtijd_drongen": 51
   },
   {
     "naam": "MKS Omheiningen",
@@ -6792,7 +6824,9 @@
     "adres": "Frezenbergstraat 17, 8980 Zonnebeke",
     "website": "afsluitingenwoodline.be",
     "info": "Duurzame houten omheiningen op maat voor heel Vlaanderen. Paardenomheiningen, weideafsluitingen, tuinafsluitingen.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 51
   },
   {
     "naam": "Stevens Gates & Fences",
@@ -6808,7 +6842,9 @@
     "adres": "Dorpvaart 2A, 9180 Moerbeke-Waas",
     "website": "houtenweide-omheining.be",
     "info": "Houten weidepoorten, afsluitingen, weidepalen, kastanjehouten rollen. Webshop + plaatsing. Moerbeke-Waas.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "rijtijd_hertsberge": 51,
+    "rijtijd_drongen": 31
   },
   {
     "naam": "Horse Facilities",
@@ -6978,7 +7014,9 @@
     "adres": "Ieperstraat 193, 8980 Zonnebeke",
     "website": "naturae.be",
     "info": "Eerste en enige fabrikant van omheiningen in Belgie. Kastanje, robinia, eik. Bouwpakketten. Zonnebeke.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "rijtijd_hertsberge": 40,
+    "rijtijd_drongen": 52
   },
   {
     "naam": "Parquet Philippe",
@@ -7035,7 +7073,9 @@
     ],
     "adres": "Oostkamp, 8020",
     "info": "Parket en parketvloeren, parketrenovatie. Oostkamp, West-Vlaanderen.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 16,
+    "rijtijd_drongen": 34
   },
   {
     "naam": "Parket Service Antwerpen",
@@ -7092,7 +7132,9 @@
     "adres": "België",
     "website": "tuinhuisstore.be",
     "info": "Online specialist tuinhuizen, blokhutten, tuinbergingen. +10 jaar expertise. Showrooms WVL en OVL.",
-    "webshop": "Ja"
+    "webshop": "Ja",
+    "rijtijd_hertsberge": 38,
+    "rijtijd_drongen": 14
   },
   {
     "naam": "Fruytier Scierie",
@@ -7215,7 +7257,9 @@
     "adres": "Adolf Van Der Moerenstraat 39, 9240 Zele",
     "website": "natuurhout.be",
     "info": "Houten omheiningen, paardenstallen en bijgebouwen. Kastanjehout specialist.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 55,
+    "rijtijd_drongen": 32
   },
   {
     "naam": "Afsluitingen Van Eecke",
@@ -7231,7 +7275,9 @@
     "adres": "Amersveldestraat 177A, 8610 Handzame (Kortemark)",
     "website": "afsluitingenvaneecke.be",
     "info": "Houten paardenomheiningen, draadafsluitingen, poorten. Plaatsing en levering.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 31,
+    "rijtijd_drongen": 48
   },
   {
     "naam": "Gebroeders Van Cleemputte",
@@ -7246,7 +7292,9 @@
     "btw": "BE0842.612.769",
     "adres": "Pelgrimsweg 1, 9620 Zottegem",
     "info": "Houten afsluitingen, paardenomheiningen, tuinconstructies. Familiebedrijf.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 48,
+    "rijtijd_drongen": 28
   },
   {
     "naam": "Schuilhokken.be",
@@ -7261,7 +7309,9 @@
     "adres": "Astweg 2, 8570 Anzegem",
     "website": "schuilhokken.be",
     "info": "Schuilhokken, paardenstallen, houten omheiningen. Ook tuinhuizen en carports.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 37,
+    "rijtijd_drongen": 30
   },
   {
     "naam": "Draadmagazijn",
@@ -8819,7 +8869,10 @@
     "grootte": "Klein",
     "lat": 50.876,
     "lng": 3.365,
-    "activiteiten": ["parket", "import"],
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
     "btw": "BE0732.674.355",
     "adres": "Schoendalestraat 306, 8792 Desselgem",
     "website": "flexura-floors.be",
@@ -8833,8 +8886,11 @@
     "provincie": "wvl",
     "grootte": "Groot",
     "lat": 50.795,
-    "lng": 3.130,
-    "activiteiten": ["parket", "import"],
+    "lng": 3.13,
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
     "btw": "BE0463.120.461",
     "adres": "Industrielaan 100, 8930 Menen",
     "website": "berryalloc.com",
@@ -8849,8 +8905,11 @@
     "provincie": "wvl",
     "grootte": "Groot",
     "lat": 50.852,
-    "lng": 3.350,
-    "activiteiten": ["parket", "import"],
+    "lng": 3.35,
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
     "btw": "BE0871.715.244",
     "adres": "Ter Donkt 2, 8540 Deerlijk",
     "website": "lamett.com",
@@ -8866,7 +8925,10 @@
     "grootte": "Klein",
     "lat": 51.133,
     "lng": 5.461,
-    "activiteiten": ["parket", "import"],
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
     "btw": "BE0451.663.969",
     "adres": "Ambachtslaan 1013, 3990 Peer",
     "website": "parketkerkhofs.be",
@@ -8879,7 +8941,9 @@
     "grootte": "Klein",
     "lat": 50.968,
     "lng": 5.502,
-    "activiteiten": ["parket"],
+    "activiteiten": [
+      "parket"
+    ],
     "btw": "BE0865.027.093",
     "adres": "Jan Latoslaan 9, 3600 Genk",
     "website": "z-parket.be",
@@ -8892,7 +8956,9 @@
     "grootte": "Klein",
     "lat": 50.601,
     "lng": 5.461,
-    "activiteiten": ["parket"],
+    "activiteiten": [
+      "parket"
+    ],
     "btw": "BE0474.351.873",
     "adres": "Rue des Semailles 31, 4400 Flemalle",
     "website": "arbony.com",
@@ -8905,7 +8971,9 @@
     "grootte": "Micro",
     "lat": 50.607,
     "lng": 3.389,
-    "activiteiten": ["parket"],
+    "activiteiten": [
+      "parket"
+    ],
     "btw": "BE0870.812.253",
     "adres": "Place de Saint-Maur 15, 7500 Tournai",
     "website": "logicnature.com",
@@ -8918,7 +8986,9 @@
     "grootte": "Klein",
     "lat": 51.228,
     "lng": 4.393,
-    "activiteiten": ["parket"],
+    "activiteiten": [
+      "parket"
+    ],
     "btw": "BE0417.671.409",
     "adres": "Godefriduskaai 20A, 2000 Antwerpen",
     "website": "braboflooring.be",
@@ -8930,8 +9000,10 @@
     "provincie": "ant",
     "grootte": "Micro",
     "lat": 51.143,
-    "lng": 4.340,
-    "activiteiten": ["parket"],
+    "lng": 4.34,
+    "activiteiten": [
+      "parket"
+    ],
     "btw": "BE0544.945.703",
     "adres": "Bouwerijstraat 1, 2620 Hemiksem",
     "website": "dewijnparket.be",
@@ -8944,7 +9016,10 @@
     "grootte": "Middelgroot",
     "lat": 51.059,
     "lng": 3.275,
-    "activiteiten": ["parket", "import"],
+    "activiteiten": [
+      "parket",
+      "import"
+    ],
     "btw": "BE0475.685.723",
     "adres": "Ratelingestraat 32, 8750 Wingene",
     "website": "vanlandschoothout.com",
@@ -8966,7 +9041,9 @@
     "grootte": "Klein",
     "lat": 50.898,
     "lng": 4.672,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0823.078.454",
     "adres": "Dorenstraat 30, 3020 Herent",
     "website": "buytenhuys.be",
@@ -8978,8 +9055,11 @@
     "provincie": "lim",
     "grootte": "Klein",
     "lat": 50.925,
-    "lng": 5.370,
-    "activiteiten": ["tuinhuis", "import"],
+    "lng": 5.37,
+    "activiteiten": [
+      "tuinhuis",
+      "import"
+    ],
     "btw": "BE0810.220.709",
     "adres": "Cijnsbroekstraat 5, 3512 Stevoort",
     "website": "claeys-houtconstructies.be",
@@ -8992,7 +9072,10 @@
     "grootte": "Middelgroot",
     "lat": 51.238,
     "lng": 5.117,
-    "activiteiten": ["tuinhuis", "import"],
+    "activiteiten": [
+      "tuinhuis",
+      "import"
+    ],
     "btw": "BE0769.595.228",
     "adres": "Dessel",
     "website": "tronco.be",
@@ -9005,7 +9088,9 @@
     "grootte": "Middelgroot",
     "lat": 51.244,
     "lng": 4.504,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0548.711.083",
     "adres": "Kerkstraat 13 B.1, 2970 's Gravenwezel",
     "website": "russellwoods.be",
@@ -9018,12 +9103,16 @@
     "grootte": "Middelgroot",
     "lat": 51.207,
     "lng": 4.107,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0440.559.647",
     "adres": "Kluizenhof 27, 9170 Sint-Gillis-Waas",
     "website": "luxurywoodconcepts.com",
     "info": "Eiken bijgebouwen Engelse cottagestijl. Poolhouses, gastverblijven, stallingen, carports. Eigen productie. Familiebedrijf Van Eetvelde sinds 1990. ~40 woningen/jaar.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 59,
+    "rijtijd_drongen": 40
   },
   {
     "naam": "CanDek Oak (Morkhoven)",
@@ -9031,7 +9120,9 @@
     "grootte": "Klein",
     "lat": 51.148,
     "lng": 4.845,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0503.894.214",
     "adres": "Kapelstraat 19, 2200 Morkhoven",
     "website": "candek-oak.be",
@@ -9044,20 +9135,26 @@
     "grootte": "Micro",
     "lat": 51.224,
     "lng": 3.705,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0464.858.147",
     "adres": "Weststraat 7, 9971 Kaprijke",
     "website": "oakconstruct.be",
     "info": "Eiken en houtskelet constructies op maat. Bijgebouwen, aanbouwen, gevelbekleding. Ambachtelijk maatwerk.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 39,
+    "rijtijd_drongen": 26
   },
   {
     "naam": "Tuinhuizen Cockaerts (Mechelen)",
     "provincie": "ant",
     "grootte": "Klein",
     "lat": 51.026,
-    "lng": 4.480,
-    "activiteiten": ["tuinhuis"],
+    "lng": 4.48,
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0666.949.333",
     "adres": "Gentsesteenweg 153, 2800 Mechelen",
     "website": "tuinhuizencockaerts.be",
@@ -9069,8 +9166,10 @@
     "provincie": "ant",
     "grootte": "Klein",
     "lat": 51.313,
-    "lng": 4.430,
-    "activiteiten": ["tuinhuis"],
+    "lng": 4.43,
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0540.815.976",
     "adres": "Energielaan 10/F, 2950 Kapellen",
     "website": "masteroak.be",
@@ -9083,7 +9182,9 @@
     "grootte": "Klein",
     "lat": 51.268,
     "lng": 5.081,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0535.950.833",
     "adres": "Kelderbeemd 18, 2470 Retie",
     "website": "meeus-houtconstructies.be",
@@ -9096,7 +9197,9 @@
     "grootte": "Micro",
     "lat": 51.075,
     "lng": 4.726,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0866.585.825",
     "adres": "Liersesteenweg 240 B bus 3, 2220 Heist-op-den-Berg",
     "website": "schrijnwerkerijmb.be",
@@ -9109,7 +9212,9 @@
     "grootte": "Micro",
     "lat": 51.098,
     "lng": 4.765,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0748.430.521",
     "adres": "Heerweg 75, 2222 Wiekevorst",
     "website": "yvwoodconcepts.be",
@@ -9121,8 +9226,10 @@
     "provincie": "lim",
     "grootte": "Micro",
     "lat": 51.099,
-    "lng": 5.570,
-    "activiteiten": ["tuinhuis"],
+    "lng": 5.57,
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0762.698.132",
     "adres": "Hellestraat 6, 3670 Ellikom",
     "website": "woodprojectsvandyck.com",
@@ -9135,20 +9242,27 @@
     "grootte": "Klein",
     "lat": 51.003,
     "lng": 3.752,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0837.097.627",
     "adres": "Nijverheidsweg 18, 9820 Merelbeke",
     "website": "hogerhuis.be",
     "info": "Houten bijgebouwen, boomhutten, tuinkantoren, ramen/deuren, interieurschrijnwerk. Groeiend bedrijf.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "rijtijd_hertsberge": 41,
+    "rijtijd_drongen": 17
   },
   {
     "naam": "Chimsco (Achène)",
     "provincie": "nam",
     "grootte": "Middelgroot",
-    "lat": 50.290,
+    "lat": 50.29,
     "lng": 5.078,
-    "activiteiten": ["tuinhuis", "import"],
+    "activiteiten": [
+      "tuinhuis",
+      "import"
+    ],
     "btw": "BE0477.199.121",
     "adres": "Rue du Parc Industriel 2, 5590 Achène",
     "website": "chimsco.be",
@@ -9160,8 +9274,11 @@
     "provincie": "nam",
     "grootte": "Middelgroot",
     "lat": 50.098,
-    "lng": 4.520,
-    "activiteiten": ["tuinhuis", "houthandel"],
+    "lng": 4.52,
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
     "btw": "BE0432.757.877",
     "adres": "Chaussée de Philippeville 60, 5660 Mariembourg",
     "website": "brunet-sa.be",
@@ -9174,7 +9291,9 @@
     "grootte": "Micro",
     "lat": 50.736,
     "lng": 4.696,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0434.074.109",
     "adres": "Allée Bois de Bercuit 77, 1390 Grez-Doiceau",
     "website": "emacinvest.com",
@@ -9186,8 +9305,10 @@
     "provincie": "bwa",
     "grootte": "Klein",
     "lat": 50.685,
-    "lng": 4.270,
-    "activiteiten": ["tuinhuis"],
+    "lng": 4.27,
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0475.170.435",
     "adres": "Rue de l'Abbaye 14, 1440 Braine-le-Château",
     "website": "charpente-construction-bois.be",
@@ -9200,11 +9321,40 @@
     "grootte": "Klein",
     "lat": 50.183,
     "lng": 5.576,
-    "activiteiten": ["tuinhuis"],
+    "activiteiten": [
+      "tuinhuis"
+    ],
     "btw": "BE0874.327.415",
     "adres": "Mierchamps 10a, 6980 La Roche-en-Ardenne",
     "website": "construction-manandise.be",
     "info": "Charpentes traditionnelles en chêne massif. Manèges, halls industriels, carports, abris de jardin. Ambachtelijk.",
     "webshop": "Nee"
+  },
+  {
+    "naam": "Collstrop Garden (Cras Waregem)",
+    "provincie": "wvl",
+    "grootte": "Groot",
+    "lat": 50.8802,
+    "lng": 3.4318,
+    "activiteiten": [
+      "tuinhuis",
+      "houthandel"
+    ],
+    "btw": "BE0882.268.745",
+    "adres": "Industrielaan 5, 8790 Waregem",
+    "website": "collstrop.com",
+    "info": "Productiemerk van Cras Woodgroup. Tuinhout met 25 jaar garantie tegen houtrot. Tuinhuizen, carports, poorten, schermen, terrassen. Productie in Waregem. FSC-gecertificeerd. Sinds 1756 (Denemarken), productie in BE sinds 1991. Dealernetwerk heel Europa.",
+    "webshop": "Nee",
+    "groep": "Cras NV",
+    "oprichting": "1756",
+    "rechtsvorm": "NV",
+    "medewerkers": "230 FTE (Cras groep)",
+    "omzet": "€120M (Cras groep)",
+    "cw_omzet": 120794370,
+    "cw_brutomarge": 7764420,
+    "cw_fte": 230.7,
+    "cw_jaar": 2023,
+    "rijtijd_hertsberge": 34,
+    "rijtijd_drongen": 30
   }
 ]
