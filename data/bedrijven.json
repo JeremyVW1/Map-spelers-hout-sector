@@ -4306,7 +4306,10 @@
     "rijtijd_drongen": 32,
     "webshop": "Nee",
     "cw_omzet": 18036278,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "cw_fte": 15,
+    "cw_brutomarge": 1692644,
+    "cw_winst": 55466
   },
   {
     "naam": "Cappelle Marnix Parket (Tielt)",
@@ -9263,7 +9266,11 @@
     "info": "Eiken en houtskelet constructies op maat. Bijgebouwen, aanbouwen, gevelbekleding. Ambachtelijk maatwerk.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 39,
-    "rijtijd_drongen": 26
+    "rijtijd_drongen": 26,
+    "cw_fte": 1,
+    "cw_brutomarge": 688232,
+    "cw_winst": 37549,
+    "cw_jaar": 2024
   },
   {
     "naam": "Tuinhuizen Cockaerts (Mechelen)",
@@ -9367,7 +9374,7 @@
   {
     "naam": "Hogerhuis / Hofheren (Merelbeke)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 51.003,
     "lng": 3.752,
     "activiteiten": [
@@ -9381,7 +9388,9 @@
     "rijtijd_hertsberge": 41,
     "rijtijd_drongen": 17,
     "cw_brutomarge": 1603195,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "cw_fte": 26.6,
+    "cw_winst": -763284
   },
   {
     "naam": "Chimsco (Achène)",
