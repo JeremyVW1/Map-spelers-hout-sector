@@ -4588,7 +4588,8 @@
     "webshop": "Nee",
     "btw": "BE0439.432.170",
     "website": "www.emex.be",
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "cw_brutomarge": 63326
   },
   {
     "naam": "Proworks (Poelkapelle)",
@@ -5457,7 +5458,9 @@
     "rijtijd_drongen": 45,
     "webshop": "Nee",
     "btw": "BE0737.833.963",
-    "website": "www.revan.be"
+    "website": "www.revan.be",
+    "cw_fte": 3.6,
+    "cw_jaar": 2025
   },
   {
     "naam": "Antiek Bouw (Ieper)",
@@ -6601,7 +6604,8 @@
     "webshop": "Nee",
     "rijtijd_hertsberge": 60,
     "rijtijd_drongen": 40,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "cw_fte": 0
   },
   {
     "naam": "De Saegher (Moerbeke-Waas) — T Houtproject",
@@ -6634,7 +6638,9 @@
     "webshop": "Nee",
     "rijtijd_hertsberge": 30,
     "rijtijd_drongen": 49,
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "cw_fte": 0,
+    "cw_brutomarge": 27902
   },
   {
     "naam": "Decadt Construct (Proven/Poperinge)",
@@ -7262,7 +7268,9 @@
     "adres": "Rue des Deux Provinces 5, 6900 Marche-en-Famenne",
     "website": "leboisaujardin.be",
     "info": "Specialist bois et amenagement jardin. Terrassen, bardage, tuinhuizen, carports. +20 jaar. Marche-en-Famenne.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 4.6,
+    "cw_jaar": 2025
   },
   {
     "naam": "Comptoir Commercial du Bois",
@@ -7365,7 +7373,8 @@
     "webshop": "Nee",
     "rijtijd_hertsberge": 48,
     "rijtijd_drongen": 28,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "cw_fte": 0
   },
   {
     "naam": "Schuilhokken.be",
@@ -8319,7 +8328,8 @@
     "email": "schrijnwerkerijverplancke@gmail.com",
     "tel": "+32 498 67 07 26",
     "info": "Microbedrijf. schrijnwerk. Jabbeke.",
-    "cw_jaar": 2025
+    "cw_jaar": 2021,
+    "cw_omzet": 217000
   },
   {
     "naam": "TIMMERWERKEN JORIS",
@@ -9143,7 +9153,8 @@
     "website": "buytenhuys.be",
     "info": "⚙️ B2B+B2C bouwpakketten eiken bijgebouwen. Handcrafted oak frames met pen-en-gatverbindingen. Poolhouses, carports, extensions. Sinds 2010.",
     "webshop": "Nee",
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "cw_fte": 0
   },
   {
     "naam": "Claeys Houtconstructies (Hasselt)",
@@ -9194,7 +9205,9 @@
     "adres": "Kerkstraat 13 B.1, 2970 's Gravenwezel",
     "website": "russellwoods.be",
     "info": "Eiken bijgebouwen: carports, garages, tuinhuizen, poolhouses, gastverblijven. 450+ standaardontwerpen + maatwerk. Frans eik, pengatverbindingen. Familiebedrijf.",
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_fte": 0,
+    "cw_jaar": 2025
   },
   {
     "naam": "Luxury Wood Concepts (Sint-Gillis-Waas)",
@@ -9211,7 +9224,10 @@
     "info": "Eiken bijgebouwen Engelse cottagestijl. Poolhouses, gastverblijven, stallingen, carports. Eigen productie. Familiebedrijf Van Eetvelde sinds 1990. ~40 woningen/jaar.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 59,
-    "rijtijd_drongen": 40
+    "rijtijd_drongen": 40,
+    "cw_fte": 21.8,
+    "cw_brutomarge": 2027668,
+    "cw_jaar": 2025
   },
   {
     "naam": "CanDek Oak (Morkhoven)",
@@ -9356,7 +9372,7 @@
     "btw": "BE0837.097.627",
     "adres": "Nijverheidsweg 18, 9820 Merelbeke",
     "website": "hogerhuis.be",
-    "info": "Houten bijgebouwen, boomhutten, tuinkantoren, ramen/deuren, interieurschrijnwerk. Groeiend bedrijf.",
+    "info": "Houten bijgebouwen, boomhutten, tuinkantoren, ramen/deuren, interieurschrijnwerk. Groeiend bedrijf. NB: BTW BE0837097627 = Brunic Resources (holding). Hogerhuis Interior = apart bedrijf BE0661633040, 4.4 FTE.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 41,
     "rijtijd_drongen": 17
@@ -9412,7 +9428,8 @@
     "website": "emacinvest.com",
     "info": "100% eiken woningen, annexes, poolhouses, carports. Engelse vakmanschap, pen-en-gat zonder schroeven. Voorgemonteerd in fabriek.",
     "webshop": "Nee",
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "cw_fte": 0
   },
   {
     "naam": "CCBois (Braine-le-Château)",
