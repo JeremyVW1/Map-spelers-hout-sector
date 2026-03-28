@@ -4147,7 +4147,7 @@
   },
   {
     "naam": "Limtrade.be",
-    "provincie": "lim",
+    "provincie": "nl",
     "grootte": "Klein",
     "lat": 50.99,
     "lng": 5.35,
@@ -4157,12 +4157,13 @@
       "terrassen"
     ],
     "website": "limtrade.be",
-    "info": "Online hout webshop. Balken, hardhout, platen, tuinhout. 🌐 limtrade.be",
-    "webshop": "Ja"
+    "info": "Online hout webshop. Balken, hardhout, platen, tuinhout. 🌐 limtrade.be NEDERLANDS BEDRIJF (Echt, Limburg NL), levert aan België.",
+    "webshop": "Ja",
+    "adres": "Palmbrugweg 20-24, 6101 AJ Echt, Nederland"
   },
   {
     "naam": "De Houtboer (online)",
-    "provincie": "lim",
+    "provincie": "nl",
     "grootte": "Klein",
     "lat": 50.95,
     "lng": 5.47,
@@ -4171,8 +4172,9 @@
       "import"
     ],
     "website": "dehoutboer.com",
-    "info": "Online hout webshop B2B en B2C. 🌐 dehoutboer.com",
-    "webshop": "Ja"
+    "info": "Online hout webshop B2B en B2C. 🌐 dehoutboer.com NEDERLANDS BEDRIJF (Drachten, Friesland NL).",
+    "webshop": "Ja",
+    "adres": "De Giek 23, 9206 AS Drachten, Nederland"
   },
   {
     "naam": "Parket Reyserhove (Jabbeke)",
@@ -5060,7 +5062,7 @@
       "agro"
     ],
     "btw": "BE0407.113.156",
-    "adres": "Oostrozebeke",
+    "adres": "Ingelmunstersteenweg 72, 8780 Oostrozebeke",
     "website": "https://www.bcfv.be/",
     "info": "Bouwmaterialen en Lalegno parketdealer. Oostrozebeke.",
     "oprichting": "1970",
@@ -5089,7 +5091,7 @@
       "houthandel"
     ],
     "btw": "BE0447.077.057",
-    "adres": "Brugsesteenweg 201, 8740 Pittem",
+    "adres": "Brugsesteenweg 199-201, 8740 Pittem (Egem)",
     "website": "multibazar.be",
     "info": "Doe-het-zelf en bouwmaterialen. Lalegno parketdealer. Pittem.",
     "cw_omzet": 28601264,
@@ -5251,7 +5253,7 @@
       "dhz"
     ],
     "btw": "BE0469.391.809",
-    "adres": "Veerweg 54, 9090 Melle",
+    "adres": "Pontstraat 54, 9090 Melle",
     "website": "leus.be",
     "info": "Bouwmaterialen sinds 1890. Showrooms Melle + Sleidinge. Tegels, vloeren, parket. Veerweg 54, Melle.",
     "medewerkers": "5 FTE",
@@ -5287,7 +5289,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Knokke-Heist",
+    "adres": "Natiënlaan 37, 8300 Knokke-Heist",
     "info": "Parketwerken. Lalegno dealer. Knokke.",
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 47,
@@ -5628,7 +5630,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Dendermonde",
+    "adres": "Gravenhuisstraat 43, 9200 Dendermonde",
     "info": "Parketlegger Dendermonde.",
     "rijtijd_hertsberge": 58,
     "rijtijd_drongen": 37,
@@ -5890,7 +5892,7 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Sint-Fledericusstraat 29B, 9520 Vlierzele",
+    "adres": "Sint-Fledericusstraat 29 B, 9520 Vlierzele",
     "info": "Familiebedrijf. Eiken carports, poolhouses, stallingen, garages. Ook zelfbouwpakketten. Sint-Fledericusstraat 29B, Vlierzele.",
     "rijtijd_hertsberge": 46,
     "rijtijd_drongen": 25,
@@ -6020,12 +6022,12 @@
     "naam": "Royal Oak Buildings (Kalmthout)",
     "provincie": "ant",
     "grootte": "Middelgroot",
-    "lat": 51.3833,
-    "lng": 4.4763,
+    "lat": 51.3858,
+    "lng": 4.4422,
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Kalmthout",
+    "adres": "Franselei 14/1, 2950 Kapellen",
     "info": "Exclusieve eiken bijgebouwen, 27 jaar, 2700+ realisaties. Carports, poolhouses, gastverblijven, woninguitbreidingen. Kalmthout + kantoor Schoten.",
     "webshop": "Nee"
   },
@@ -6064,7 +6066,7 @@
       "terrassen"
     ],
     "btw": "BE 0450.706.045",
-    "adres": "Roesbruggestraat 5, 8972 Proven",
+    "adres": "Roesbruggestraat 5, 8972 Proven (Poperinge)",
     "info": "Pionier in houten constructies WVL. Houthandel + zusterbedrijf Decadt Construct. Tuinhuizen, poolhouses, carports op maat. Roesbruggestraat 5, 8972 Proven. BTW: BE 0450.706.045.",
     "rijtijd_hertsberge": 63,
     "rijtijd_drongen": 74,
@@ -6149,7 +6151,7 @@
       "terrassen"
     ],
     "btw": "BE0673.191.381",
-    "adres": "Baliebrugstraat 10, 8020 Ruddervoorde",
+    "adres": "Baliebrugstraat 10, 8020 Oostkamp (Ruddervoorde)",
     "website": "marnixverkain.be",
     "info": "Tuinhout specialist. Carports, tuinhuizen, poorten, afsluitingen, terrassen, zwembaden. Baliebrugstraat 10, 8020 Ruddervoorde.",
     "oprichting": "1988",
@@ -6244,14 +6246,14 @@
     "naam": "Tuinen Vandemaele (Zedelgem regio)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 51.139,
-    "lng": 3.1396,
+    "lat": 50.8736,
+    "lng": 3.1742,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
     ],
     "btw": "BE0878.594.029",
-    "adres": "Vlinderbeekstraat 2, 8880 Sint-Eloois-Winkel",
+    "adres": "Vlinderbeekstraat 2, 8880 Sint-Eloois-Winkel (Ledegem)",
     "website": "tuinen-vandemaele.be",
     "info": "Tuinaanleg. Poolhouses, tuinhuizen, houten bijgebouwen op maat. Actief in heel WVL.",
     "cw_brutomarge": 824836,
