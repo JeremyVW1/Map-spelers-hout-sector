@@ -38,7 +38,7 @@
   {
     "naam": "Houthandel Dequidt",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.0721,
     "lng": 2.6611,
     "activiteiten": [
@@ -161,7 +161,7 @@
   {
     "naam": "Botanica Wood",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.9441,
     "lng": 3.1221,
     "activiteiten": [
@@ -211,7 +211,7 @@
   {
     "naam": "Woodcenter",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.8031,
     "lng": 3.1831,
     "activiteiten": [
@@ -237,7 +237,7 @@
   {
     "naam": "Houthandel Vanhaverbeke",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.9171,
     "lng": 3.2141,
     "activiteiten": [
@@ -262,7 +262,7 @@
   {
     "naam": "Houthandel Tavernier",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.1751,
     "lng": 3.0911,
     "activiteiten": [
@@ -288,7 +288,7 @@
   {
     "naam": "Eurowood",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.9011,
     "lng": 3.3741,
     "activiteiten": [
@@ -365,7 +365,7 @@
   {
     "naam": "Houthandel Messely",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.856,
     "lng": 3.24,
     "activiteiten": [
@@ -394,7 +394,7 @@
   {
     "naam": "Geldhof Hout",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.8981,
     "lng": 3.0501,
     "activiteiten": [
@@ -418,7 +418,7 @@
   {
     "naam": "Huys Houthandel",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.2041,
     "lng": 3.2121,
     "activiteiten": [
@@ -475,7 +475,7 @@
     "btw": "BE 0450.980.714",
     "adres": "Ieperseweg 26, 8970 Poperinge",
     "website": "www.beheyt.be",
-    "info": "Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
+    "info": "STOPGEZET (2018). Hout, platen, isolatie, dakmaterialen, parket. Poperinge.",
     "oprichting": "1993",
     "rechtsvorm": "BV",
     "rijtijd_hertsberge": 60,
@@ -489,7 +489,7 @@
   {
     "naam": "Db Hardwoods",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Klein",
     "lat": 50.8881,
     "lng": 3.1581,
     "activiteiten": [
@@ -544,7 +544,7 @@
   {
     "naam": "Lagae Hout",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 50.8211,
     "lng": 2.8491,
     "activiteiten": [
@@ -566,7 +566,7 @@
   {
     "naam": "Hanssens Hout",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.0612,
     "lng": 3.7098,
     "activiteiten": [
@@ -594,7 +594,7 @@
   {
     "naam": "Houthandel De Regge Gavere",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.9151,
     "lng": 3.6681,
     "activiteiten": [
@@ -676,7 +676,7 @@
   {
     "naam": "'t Houtboerke",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.1166,
     "lng": 3.7485,
     "activiteiten": [
@@ -737,7 +737,7 @@
   {
     "naam": "Hout De Groote",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.1002,
     "lng": 3.9941,
     "activiteiten": [
@@ -784,7 +784,7 @@
   {
     "naam": "Houthandel Steyaert",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.1851,
     "lng": 3.5741,
     "activiteiten": [
@@ -811,7 +811,7 @@
   {
     "naam": "Houtshop Van der Gucht",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.1231,
     "lng": 4.2141,
     "activiteiten": [
@@ -871,7 +871,7 @@
   {
     "naam": "Hertecant Hout",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.0281,
     "lng": 4.1008,
     "activiteiten": [
@@ -895,7 +895,7 @@
   {
     "naam": "Hout Koklenberg",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.1618,
     "lng": 4.1421,
     "activiteiten": [
@@ -916,7 +916,7 @@
   {
     "naam": "Van Tornhout",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.0011,
     "lng": 3.5412,
     "activiteiten": [
@@ -938,7 +938,7 @@
   {
     "naam": "Prindal Hout",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.7879,
     "lng": 4.0177,
     "activiteiten": [
@@ -969,7 +969,7 @@
   {
     "naam": "Verhofstede (Hout-Idee)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.1181,
     "lng": 4.2081,
     "activiteiten": [
@@ -1865,7 +1865,7 @@
   {
     "naam": "Houthandel Decadt (Vlamertinge)",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 50.8521,
     "lng": 2.8021,
     "activiteiten": [
@@ -1963,7 +1963,7 @@
   {
     "naam": "Janssens & Janssens (Aalst)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.942,
     "lng": 4.042,
     "activiteiten": [
@@ -1989,7 +1989,7 @@
   {
     "naam": "Janssens & Janssens (Oudenaarde)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.8501,
     "lng": 3.6001,
     "activiteiten": [
@@ -2014,7 +2014,7 @@
   {
     "naam": "Valcke Tuinhout (Oudegem)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 51.0181,
     "lng": 4.0501,
     "activiteiten": [
@@ -2047,7 +2047,7 @@
   {
     "naam": "Janssens & Janssens (Hoogstraten)",
     "provincie": "ant",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.4001,
     "lng": 4.7651,
     "activiteiten": [
@@ -2070,7 +2070,7 @@
   {
     "naam": "Janssens & Janssens (Turnhout)",
     "provincie": "ant",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.322,
     "lng": 4.944,
     "activiteiten": [
@@ -2218,7 +2218,7 @@
   {
     "naam": "Sackx-Coussement Houthandel",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.918,
     "lng": 3.744,
     "activiteiten": [
@@ -2241,7 +2241,7 @@
   {
     "naam": "N.V. Houthandel De Sutter",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Micro",
     "lat": 50.9191,
     "lng": 3.8671,
     "activiteiten": [
@@ -2266,7 +2266,7 @@
   {
     "naam": "Houthandel Waasland (Moerbeke)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.1831,
     "lng": 3.9581,
     "activiteiten": [
@@ -2283,7 +2283,8 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 56,
     "rijtijd_drongen": 35,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "website": "hiwaasland.be"
   },
   {
     "naam": "Houthandel Desmet (Meulebeke)",
@@ -2312,7 +2313,7 @@
   {
     "naam": "Houtvercruysse",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.837,
     "lng": 3.211,
     "activiteiten": [
@@ -2338,7 +2339,7 @@
   {
     "naam": "Hub. Rouckhout (Melle)",
     "provincie": "ovl",
-    "grootte": "Micro",
+    "grootte": "Klein",
     "lat": 51.0001,
     "lng": 3.8121,
     "activiteiten": [
@@ -2479,7 +2480,7 @@
   {
     "naam": "Zagerij & Houthandel Van der Perre (Lennik)",
     "provincie": "vbr",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.8381,
     "lng": 4.1521,
     "activiteiten": [
@@ -2594,7 +2595,7 @@
   {
     "naam": "Belgian Timber (Waregem)",
     "provincie": "wvl",
-    "grootte": "Micro",
+    "grootte": "Klein",
     "lat": 50.8801,
     "lng": 3.4321,
     "activiteiten": [
@@ -2687,7 +2688,7 @@
   {
     "naam": "Willton Parketvloeren (Ruddervoorde)",
     "provincie": "wvl",
-    "grootte": "Micro",
+    "grootte": "Klein",
     "lat": 51.0921,
     "lng": 3.2481,
     "activiteiten": [
@@ -2709,7 +2710,7 @@
   {
     "naam": "Quadrowood",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Micro",
     "lat": 51.2194,
     "lng": 2.9283,
     "activiteiten": [
@@ -2732,7 +2733,7 @@
   {
     "naam": "Parket Vanrobaeys (Zwevezele/Wingene)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.0111,
     "lng": 3.2251,
     "activiteiten": [
@@ -2842,7 +2843,7 @@
   {
     "naam": "Contesse Vloerbedekkingen (Nazareth)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.9571,
     "lng": 3.6081,
     "activiteiten": [
@@ -2863,7 +2864,7 @@
   {
     "naam": "Parket Danny Verliefde (Sint-Lievens-Houtem)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.9001,
     "lng": 3.8741,
     "activiteiten": [
@@ -2876,12 +2877,13 @@
     "rijtijd_drongen": 26,
     "webshop": "Nee",
     "btw": "BE0478.973.528",
-    "cw_fte": 1
+    "cw_fte": 1,
+    "cw_jaar": 2023
   },
   {
     "naam": "Yvan Christiaens Tuinhuizen (Kaster/WVL)",
     "provincie": "ovl",
-    "grootte": "Micro",
+    "grootte": "Klein",
     "lat": 50.8591,
     "lng": 3.5271,
     "activiteiten": [
@@ -2902,7 +2904,7 @@
   {
     "naam": "Goeminne Tuinhout (Dikkelvenne/Gavere)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.9141,
     "lng": 3.6975,
     "activiteiten": [
@@ -2950,7 +2952,7 @@
   {
     "naam": "De Houthoek (Koekelare)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.0701,
     "lng": 3.0131,
     "activiteiten": [
@@ -3036,12 +3038,13 @@
   {
     "naam": "Naturae (hekwerk — Zonnebeke)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.873,
     "lng": 2.972,
     "activiteiten": [
       "paarden",
-      "online"
+      "online",
+      "agro"
     ],
     "adres": "Ieperstraat 193, 8980 Zonnebeke",
     "website": "www.naturae.be",
@@ -3058,7 +3061,7 @@
   {
     "naam": "De Houthoek (Koekelare) — paardenomheining",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.0711,
     "lng": 3.0141,
     "activiteiten": [
@@ -3079,7 +3082,7 @@
   {
     "naam": "BJ Parket (Zele — OVL)",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Klein",
     "lat": 51.1041,
     "lng": 4.0411,
     "activiteiten": [
@@ -3126,7 +3129,7 @@
   {
     "naam": "Houthandel Driekoningen (Beernem)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.1339,
     "lng": 3.3386,
     "activiteiten": [
@@ -3149,7 +3152,7 @@
   {
     "naam": "Houthandel Himpe (Brugge)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.2023,
     "lng": 3.2074,
     "activiteiten": [
@@ -3240,7 +3243,7 @@
   {
     "naam": "Horatec (Kuurne)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.852,
     "lng": 3.281,
     "activiteiten": [
@@ -3262,7 +3265,7 @@
   {
     "naam": "Carpentier Hout (Kortemark)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.024,
     "lng": 3.044,
     "activiteiten": [
@@ -3291,7 +3294,7 @@
     ],
     "btw": "BE0415.150.102",
     "adres": "Sint-Katriensteenweg 57, 8520 Kuurne",
-    "website": "",
+    "website": "www.vandenhende.be",
     "info": "Houthandel. Vlamingstraat 4, 8520 Kuurne.",
     "medewerkers": "10-19",
     "oprichting": "1975",
@@ -3306,7 +3309,7 @@
   {
     "naam": "Houthandel Leirman en Zonen (Gistel)",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.1538,
     "lng": 2.9552,
     "activiteiten": [
@@ -3329,7 +3332,7 @@
   {
     "naam": "Houthandel Deville-Claeys (Gent)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.054,
     "lng": 3.727,
     "activiteiten": [
@@ -3352,7 +3355,7 @@
   {
     "naam": "VC Wood Zottegem",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.872,
     "lng": 3.811,
     "activiteiten": [
@@ -3436,7 +3439,7 @@
   {
     "naam": "Van Peteghem Hout en Interieur (Lochristi)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.099,
     "lng": 3.831,
     "activiteiten": [
@@ -3486,7 +3489,7 @@
   {
     "naam": "Van Impe-Moulart (Horebeke)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.836,
     "lng": 3.689,
     "activiteiten": [
@@ -3507,7 +3510,7 @@
   {
     "naam": "Dewahout (Deinze)",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 50.982,
     "lng": 3.525,
     "activiteiten": [
@@ -3553,7 +3556,7 @@
   {
     "naam": "Hout-Bois Van Steenberge (Zottegem)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.868,
     "lng": 3.815,
     "activiteiten": [
@@ -3619,7 +3622,7 @@
   {
     "naam": "Quintelier (Dendermonde)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 51.028,
     "lng": 4.1,
     "activiteiten": [
@@ -3661,7 +3664,7 @@
   {
     "naam": "Houthandel Van Bruyssel (Lokeren)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.102,
     "lng": 3.987,
     "activiteiten": [
@@ -3721,7 +3724,7 @@
     ],
     "btw": "BE0419.657.731",
     "adres": "Boeregemstraat 22, 9810 Nazareth",
-    "info": "Houthandel. Boeregemstraat 22, 9810 Nazareth.",
+    "info": "STOPGEZET (vereffend). Houthandel. Boeregemstraat 22, 9810 Nazareth.",
     "rijtijd_hertsberge": 36,
     "rijtijd_drongen": 16,
     "webshop": "Nee",
@@ -3780,7 +3783,7 @@
   {
     "naam": "Houthandel Segers (Schoten)",
     "provincie": "ant",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.253,
     "lng": 4.497,
     "activiteiten": [
@@ -3796,7 +3799,7 @@
   {
     "naam": "Houthandel Marijnissen (Rijkevorsel)",
     "provincie": "ant",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.348,
     "lng": 4.759,
     "activiteiten": [
@@ -3812,7 +3815,7 @@
   {
     "naam": "Houtzagerij Van Mechgelen (Arendonk)",
     "provincie": "ant",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.321,
     "lng": 5.084,
     "activiteiten": [
@@ -3942,7 +3945,7 @@
   {
     "naam": "DG Wood Construct (Izegem)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.915,
     "lng": 3.216,
     "activiteiten": [
@@ -3985,7 +3988,7 @@
   {
     "naam": "Wood Arts (Avelgem)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.774,
     "lng": 3.444,
     "activiteiten": [
@@ -4006,7 +4009,7 @@
   {
     "naam": "CSS Outdoor Living (Ninove)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.834,
     "lng": 4.028,
     "activiteiten": [
@@ -4071,7 +4074,7 @@
   {
     "naam": "Blondeel Parket (Knokke-Heist)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.347,
     "lng": 3.264,
     "activiteiten": [
@@ -4092,7 +4095,7 @@
   {
     "naam": "Ka-parket (Blankenberge)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.313,
     "lng": 3.131,
     "activiteiten": [
@@ -4112,7 +4115,7 @@
   {
     "naam": "BV Parket (Diksmuide)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.033,
     "lng": 2.864,
     "activiteiten": [
@@ -4216,7 +4219,7 @@
   {
     "naam": "Parket Center (Kuurne)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.854,
     "lng": 3.2785,
     "activiteiten": [
@@ -4292,7 +4295,7 @@
       "parket",
       "import"
     ],
-    "btw": "BE 0462.371.281",
+    "btw": "BE0891.779.297",
     "adres": "Sprietestraat 326, 8792 Waregem",
     "website": "lalegno.com",
     "info": "PRODUCENT engineered/meerlagig parket. Eik, bamboe, exotisch. Duurzaam, FSC. Uitgebreid dealernetwerk in België. ~100 FTE.",
@@ -4301,12 +4304,14 @@
     "oprichting": "2003",
     "rijtijd_hertsberge": 41,
     "rijtijd_drongen": 32,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "cw_omzet": 18036278,
+    "cw_jaar": 2024
   },
   {
     "naam": "Cappelle Marnix Parket (Tielt)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 51.0002,
     "lng": 3.3226,
     "activiteiten": [
@@ -4327,7 +4332,7 @@
   {
     "naam": "Strolé Parket (Waregem)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.8822,
     "lng": 3.4178,
     "activiteiten": [
@@ -4408,7 +4413,7 @@
   {
     "naam": "De Waegeneer Parketvloeren (Aalst)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.919,
     "lng": 4.0291,
     "activiteiten": [
@@ -4555,7 +4560,7 @@
   {
     "naam": "B&N Hout (Wevelgem)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.8097,
     "lng": 3.195,
     "activiteiten": [
@@ -4801,7 +4806,8 @@
     "cw_brutomarge": 29623229,
     "cw_winst": 6475217,
     "cw_fte": 237,
-    "cw_jaar": 2023
+    "cw_jaar": 2023,
+    "cw_omzet": 145200000
   },
   {
     "naam": "Deco-Floor Parketvloeren (Oostrozebeke)",
@@ -4828,7 +4834,7 @@
   {
     "naam": "Floor Depot (Zulte)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.935,
     "lng": 3.45,
     "activiteiten": [
@@ -4851,7 +4857,7 @@
   {
     "naam": "Gerko Parket (Ronse)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.75,
     "lng": 3.605,
     "activiteiten": [
@@ -5082,7 +5088,7 @@
   {
     "naam": "Multi Bazar (Pittem)",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.0129,
     "lng": 3.2352,
     "activiteiten": [
@@ -5106,7 +5112,7 @@
   {
     "naam": "Stove Decor (Ingelmunster)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.904,
     "lng": 3.2634,
     "activiteiten": [
@@ -5155,7 +5161,7 @@
   {
     "naam": "Impermo (Wevelgem)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Groot",
     "lat": 50.813,
     "lng": 3.192,
     "activiteiten": [
@@ -5221,7 +5227,7 @@
   {
     "naam": "Declerck Luc (Zomergem/Lievegem)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.1167,
     "lng": 3.5583,
     "activiteiten": [
@@ -5421,7 +5427,7 @@
   {
     "naam": "Solid International (Brugge)",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.2404,
     "lng": 3.2176,
     "activiteiten": [
@@ -5448,7 +5454,7 @@
   {
     "naam": "Revan Flooring (Oostende)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.2055,
     "lng": 2.876,
     "activiteiten": [
@@ -5484,7 +5490,7 @@
   {
     "naam": "Cornilly (Moerkerke/Damme)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.24,
     "lng": 3.355,
     "activiteiten": [
@@ -5737,7 +5743,7 @@
   {
     "naam": "Livinlodge (Meulebeke)",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 50.9486,
     "lng": 3.2864,
     "activiteiten": [
@@ -5847,7 +5853,7 @@
   {
     "naam": "Cornelis Hout (Evergem)",
     "provincie": "ovl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 51.105,
     "lng": 3.71,
     "activiteiten": [
@@ -5907,7 +5913,7 @@
   {
     "naam": "Vanhauwood (Maldegem)",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.205,
     "lng": 3.435,
     "activiteiten": [
@@ -5984,7 +5990,7 @@
   {
     "naam": "Chalet Center (Elversele/Temse)",
     "provincie": "ovl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 51.12,
     "lng": 4.105,
     "activiteiten": [
@@ -6165,7 +6171,7 @@
   {
     "naam": "Verde Tuinhuizen (Rekkem/Menen)",
     "provincie": "wvl",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.8081,
     "lng": 3.1252,
     "activiteiten": [
@@ -6245,7 +6251,7 @@
   {
     "naam": "Tuinen Vandemaele (Zedelgem regio)",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.8736,
     "lng": 3.1742,
     "activiteiten": [
@@ -6370,7 +6376,7 @@
   {
     "naam": "De Saegher Construction (Moerbeke-Waas)",
     "provincie": "ovl",
-    "grootte": "Micro",
+    "grootte": "Klein",
     "lat": 51.175,
     "lng": 3.97,
     "activiteiten": [
@@ -6464,7 +6470,8 @@
     "rijtijd_hertsberge": 51,
     "rijtijd_drongen": 32,
     "cw_fte": 3,
-    "cw_jaar": 2024
+    "cw_jaar": 2024,
+    "website": "www.sdp-schrijnwerken.be"
   },
   {
     "naam": "De Wilde Houtconstructies (Staden)",
@@ -6558,7 +6565,8 @@
     "rijtijd_hertsberge": 49,
     "rijtijd_drongen": 36,
     "cw_fte": 4.4,
-    "cw_jaar": 2025
+    "cw_jaar": 2025,
+    "website": "veh.be"
   },
   {
     "naam": "Felke (Stekene)",
@@ -6607,7 +6615,8 @@
     "rijtijd_hertsberge": 60,
     "rijtijd_drongen": 40,
     "cw_jaar": 2024,
-    "cw_fte": 0
+    "cw_fte": 0,
+    "website": "www.jtrenovatiestuinconcepten.be"
   },
   {
     "naam": "De Saegher (Moerbeke-Waas) — T Houtproject",
@@ -6642,7 +6651,8 @@
     "rijtijd_drongen": 49,
     "cw_jaar": 2025,
     "cw_fte": 0,
-    "cw_brutomarge": 27902
+    "cw_brutomarge": 27902,
+    "website": "www.vandenauweele.com"
   },
   {
     "naam": "Decadt Construct (Proven/Poperinge)",
@@ -6660,12 +6670,14 @@
     "webshop": "Nee",
     "rijtijd_hertsberge": 49,
     "rijtijd_drongen": 65,
-    "cw_fte": 9.5
+    "cw_fte": 9.5,
+    "cw_jaar": 2023,
+    "website": "decadt-proven.be"
   },
   {
     "naam": "Jadimex (Lovenjoel — Vlaams-Brabant)",
     "provincie": "vbr",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.8756,
     "lng": 4.7725,
     "activiteiten": [
@@ -6707,7 +6719,7 @@
   {
     "naam": "De Sutter Naturally (Kampenhout)",
     "provincie": "vbr",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 50.9565,
     "lng": 4.5467,
     "activiteiten": [
@@ -6801,7 +6813,7 @@
   {
     "naam": "De Slagmolen",
     "provincie": "lim",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 50.8768,
     "lng": 5.5174,
     "activiteiten": [
@@ -7002,7 +7014,7 @@
   {
     "naam": "Houthandel Wienen",
     "provincie": "lim",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.9927,
     "lng": 5.351,
     "activiteiten": [
@@ -7065,25 +7077,6 @@
     "website": "lemercier.be",
     "info": "Zagerij en verkoop zaagmachines. Hout op maat, beuk, eik. Braine-l'Alleud, Waals-Brabant. Sinds 1992.",
     "webshop": "Nee"
-  },
-  {
-    "naam": "Naturae Omheiningen",
-    "provincie": "wvl",
-    "grootte": "Klein",
-    "lat": 50.862,
-    "lng": 2.948,
-    "activiteiten": [
-      "paarden",
-      "agro",
-      "online"
-    ],
-    "btw": "BE0760.796.635",
-    "adres": "Ieperstraat 193, 8980 Zonnebeke",
-    "website": "naturae.be",
-    "info": "Eerste en enige fabrikant van omheiningen in Belgie. Kastanje, robinia, eik. Bouwpakketten. Zonnebeke.",
-    "webshop": "Ja",
-    "rijtijd_hertsberge": 40,
-    "rijtijd_drongen": 52
   },
   {
     "naam": "Parquet Philippe",
@@ -7197,7 +7190,6 @@
       "tuinhuis",
       "online"
     ],
-    "btw": "BE0440.072.766",
     "adres": "België",
     "website": "tuinhuisstore.be",
     "info": "Online specialist tuinhuizen, blokhutten, tuinbergingen. +10 jaar expertise. Showrooms WVL en OVL.",
@@ -7258,7 +7250,7 @@
   {
     "naam": "Le Bois au Jardin",
     "provincie": "lux",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.2431,
     "lng": 5.3369,
     "activiteiten": [
@@ -7277,7 +7269,7 @@
   {
     "naam": "Comptoir Commercial du Bois",
     "provincie": "lui",
-    "grootte": "Middelgroot",
+    "grootte": "Klein",
     "lat": 50.6283,
     "lng": 6.0333,
     "activiteiten": [
@@ -7288,7 +7280,8 @@
     "adres": "Buchenweg 30, 4700 Eupen",
     "info": "Houthandel rondhout. Duurzaam bosbeheer. Bosexploitatie, meten en transport. Eupen, Ostbelgien.",
     "webshop": "Nee",
-    "cw_fte": 3.7
+    "cw_fte": 3.7,
+    "cw_jaar": 2023
   },
   {
     "naam": "Scierie Poncelet",
@@ -7320,7 +7313,8 @@
     "website": "durafence.be",
     "info": "Paardenomheiningen in hout, gespecialiseerd in post-and-rail systemen. Duitstalig België.",
     "webshop": "Nee",
-    "cw_fte": 22.3
+    "cw_fte": 22.3,
+    "cw_jaar": 2023
   },
   {
     "naam": "Natuurhout",
@@ -7339,7 +7333,8 @@
     "webshop": "Nee",
     "rijtijd_hertsberge": 55,
     "rijtijd_drongen": 32,
-    "cw_fte": 1
+    "cw_fte": 1,
+    "cw_jaar": 2023
   },
   {
     "naam": "Afsluitingen Van Eecke",
@@ -7362,7 +7357,7 @@
   {
     "naam": "Gebroeders Van Cleemputte",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.8667,
     "lng": 3.7833,
     "activiteiten": [
@@ -7376,7 +7371,8 @@
     "rijtijd_hertsberge": 48,
     "rijtijd_drongen": 28,
     "cw_jaar": 2024,
-    "cw_fte": 0
+    "cw_fte": 0,
+    "website": "gebr-vancleemputte.be"
   },
   {
     "naam": "Schuilhokken.be",
@@ -7410,7 +7406,8 @@
     "website": "draadmagazijn.be",
     "info": "Breed assortiment omheiningen incl. houten paardenafsluitingen. Webshop aanwezig.",
     "webshop": "Ja",
-    "cw_fte": 3.6
+    "cw_fte": 3.6,
+    "cw_jaar": 2023
   },
   {
     "naam": "AFSLUITINGEN DE SOETE",
@@ -7807,7 +7804,7 @@
   {
     "naam": "EUROPEN",
     "provincie": "ovl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.126109,
     "lng": 3.8003582,
     "activiteiten": [
@@ -7994,7 +7991,8 @@
     "rijtijd_drongen": 55,
     "email": "info@terdoel.be",
     "tel": "+32 2 451 16 16",
-    "info": "Klein bedrijf. schrijnwerk. Doel. 7 FTE."
+    "info": "Klein bedrijf. schrijnwerk. Doel. 7 FTE.",
+    "cw_jaar": 2023
   },
   {
     "naam": "INTERIEUR VANESCH",
@@ -8409,7 +8407,7 @@
   {
     "naam": "The Veneer",
     "provincie": "wvl",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.7937353,
     "lng": 3.1670445,
     "activiteiten": [
@@ -8994,7 +8992,7 @@
   {
     "naam": "Lamett (Deerlijk)",
     "provincie": "wvl",
-    "grootte": "Groot",
+    "grootte": "Middelgroot",
     "lat": 50.852,
     "lng": 3.35,
     "activiteiten": [
@@ -9016,7 +9014,7 @@
   {
     "naam": "Kerkhofs Parket (Peer)",
     "provincie": "lim",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 51.133,
     "lng": 5.461,
     "activiteiten": [
@@ -9052,7 +9050,7 @@
   {
     "naam": "Arbony (Flemalle)",
     "provincie": "lui",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.601,
     "lng": 5.461,
     "activiteiten": [
@@ -9144,7 +9142,7 @@
   {
     "naam": "Buytenhuys (Herent)",
     "provincie": "vbr",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 50.898,
     "lng": 4.672,
     "activiteiten": [
@@ -9161,7 +9159,7 @@
   {
     "naam": "Claeys Houtconstructies (Hasselt)",
     "provincie": "lim",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.925,
     "lng": 5.37,
     "activiteiten": [
@@ -9197,7 +9195,7 @@
   {
     "naam": "Russell Woods (s Gravenwezel)",
     "provincie": "ant",
-    "grootte": "Middelgroot",
+    "grootte": "Micro",
     "lat": 51.244,
     "lng": 4.504,
     "activiteiten": [
@@ -9234,7 +9232,7 @@
   {
     "naam": "CanDek Oak (Morkhoven)",
     "provincie": "ant",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.148,
     "lng": 4.845,
     "activiteiten": [
@@ -9280,12 +9278,13 @@
     "website": "tuinhuizencockaerts.be",
     "info": "Eiken bijgebouwen (Franse eik), tuinhuizen, carports. Eigen vakwerk + showroom. 5 FTE. Sinds 2016.",
     "webshop": "Nee",
-    "cw_fte": 5.1
+    "cw_fte": 5.1,
+    "cw_jaar": 2023
   },
   {
     "naam": "MasterOak (Kapellen)",
     "provincie": "ant",
-    "grootte": "Klein",
+    "grootte": "Micro",
     "lat": 51.313,
     "lng": 4.43,
     "activiteiten": [
@@ -9314,7 +9313,8 @@
     "info": "Houten poorten + eiken bijgebouwen (poolhouses, moderne stijl). Terrasoverkappingen, woninguitbreidingen. Familiebedrijf Danny + Jasper Meeus. 6 FTE.",
     "webshop": "Nee",
     "cw_fte": 6.3,
-    "cw_brutomarge": 540317
+    "cw_brutomarge": 540317,
+    "cw_jaar": 2023
   },
   {
     "naam": "Schrijnwerkerij MB (Heist-op-den-Berg)",
@@ -9360,7 +9360,8 @@
     "website": "woodprojectsvandyck.com",
     "info": "Eiken bijgebouwen, poolhouses, carports, overkappingen, ramen en deuren. Wouter & Pieter Vandyck. Sinds 2021.",
     "webshop": "Nee",
-    "cw_brutomarge": 64364
+    "cw_brutomarge": 64364,
+    "cw_jaar": 2023
   },
   {
     "naam": "Hogerhuis / Hofheren (Merelbeke)",
@@ -9377,12 +9378,14 @@
     "info": "Houten bijgebouwen, boomhutten, tuinkantoren, ramen/deuren, interieurschrijnwerk. Groeiend bedrijf. NB: BTW BE0837097627 = Brunic Resources (holding). Hogerhuis Interior = apart bedrijf BE0661633040, 4.4 FTE.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 41,
-    "rijtijd_drongen": 17
+    "rijtijd_drongen": 17,
+    "cw_brutomarge": 1603195,
+    "cw_jaar": 2024
   },
   {
     "naam": "Chimsco (Achène)",
     "provincie": "nam",
-    "grootte": "Middelgroot",
+    "grootte": "Groot",
     "lat": 50.29,
     "lng": 5.078,
     "activiteiten": [
@@ -9436,7 +9439,7 @@
   {
     "naam": "CCBois (Braine-le-Château)",
     "provincie": "bwa",
-    "grootte": "Klein",
+    "grootte": "Middelgroot",
     "lat": 50.685,
     "lng": 4.27,
     "activiteiten": [
