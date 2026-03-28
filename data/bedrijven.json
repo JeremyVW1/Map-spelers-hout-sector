@@ -14,10 +14,10 @@
     "btw": "BE0882.268.745",
     "adres": "Industrielaan 5, 8790 Waregem",
     "website": "cras.be",
-    "info": "PRODUCENT (Dubois-Parquet) + marktleider houthandel België. €112M omzet. 12+ vestigingen, 400+ medewerkers. Parketproductie sinds 1897 (merk Dubois-Parquet): massief Frans eiken + exotisch + meerlaags. Houthandel v/h Jaar.",
+    "info": "PRODUCENT (Dubois-Parquet) + marktleider houthandel België. €146M omzet (2024, was €158M). 17 vestigingen, 400+ medewerkers. Parketproductie sinds 1897 (merk Dubois-Parquet): massief Frans eiken + exotisch + meerlaags. Recente overnames: Steenhoudt (Evere), dealer Bierghes.",
     "groep": "Cras NV",
-    "omzet": "€112 mln",
-    "medewerkers": "230 FTE",
+    "omzet": "€146 mln (2024)",
+    "medewerkers": "400+ FTE",
     "oprichting": "1878",
     "cw_omzet": 112336185,
     "cw_brutomarge": 7764420,
@@ -3035,7 +3035,7 @@
   },
   {
     "naam": "Naturae (hekwerk — Zonnebeke)",
-    "provincie": "ovl",
+    "provincie": "wvl",
     "grootte": "Klein",
     "lat": 50.873,
     "lng": 2.972,
@@ -3307,8 +3307,8 @@
     "naam": "Houthandel Leirman en Zonen (Gistel)",
     "provincie": "wvl",
     "grootte": "Groot",
-    "lat": 51.16,
-    "lng": 2.9569,
+    "lat": 51.1538,
+    "lng": 2.9552,
     "activiteiten": [
       "houthandel"
     ],
@@ -3533,8 +3533,8 @@
     "naam": "Grimwood (Zulte)",
     "provincie": "ovl",
     "grootte": "Micro",
-    "lat": 50.92,
-    "lng": 3.45,
+    "lat": 50.9275,
+    "lng": 3.455,
     "activiteiten": [
       "houthandel"
     ],
@@ -4149,7 +4149,7 @@
     "naam": "Limtrade.be",
     "provincie": "lim",
     "grootte": "Klein",
-    "lat": 51,
+    "lat": 50.99,
     "lng": 5.35,
     "activiteiten": [
       "online",
@@ -4164,7 +4164,7 @@
     "naam": "De Houtboer (online)",
     "provincie": "lim",
     "grootte": "Klein",
-    "lat": 51.5,
+    "lat": 50.95,
     "lng": 5.47,
     "activiteiten": [
       "online",
@@ -5051,8 +5051,8 @@
     "naam": "Bouwcenter Frans Vlaeminck (Oostrozebeke)",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 50.93,
-    "lng": 3.34,
+    "lat": 50.9204,
+    "lng": 3.3347,
     "activiteiten": [
       "houthandel",
       "parket",
@@ -5080,8 +5080,8 @@
     "naam": "Multi Bazar (Pittem)",
     "provincie": "wvl",
     "grootte": "Groot",
-    "lat": 51,
-    "lng": 3.27,
+    "lat": 51.0129,
+    "lng": 3.2352,
     "activiteiten": [
       "dhz",
       "parket",
@@ -5104,8 +5104,8 @@
     "naam": "Stove Decor (Ingelmunster)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 50.92,
-    "lng": 3.25,
+    "lat": 50.904,
+    "lng": 3.2634,
     "activiteiten": [
       "parket"
     ],
@@ -5242,8 +5242,8 @@
     "naam": "Bouwmaterialen Leus (Melle)",
     "provincie": "ovl",
     "grootte": "Klein",
-    "lat": 51,
-    "lng": 3.8,
+    "lat": 51.0017,
+    "lng": 3.8085,
     "activiteiten": [
       "houthandel",
       "parket",
@@ -5281,8 +5281,8 @@
     "naam": "Janssen Parketwerken (Knokke)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 51.35,
-    "lng": 3.29,
+    "lat": 51.3434,
+    "lng": 3.2885,
     "activiteiten": [
       "parket"
     ],
@@ -5419,8 +5419,8 @@
     "naam": "Solid International (Brugge)",
     "provincie": "wvl",
     "grootte": "Groot",
-    "lat": 51.2,
-    "lng": 3.22,
+    "lat": 51.2404,
+    "lng": 3.2176,
     "activiteiten": [
       "parket",
       "import",
@@ -5463,8 +5463,8 @@
     "naam": "Antiek Bouw (Ieper)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 50.8503,
-    "lng": 2.885,
+    "lat": 50.8523,
+    "lng": 2.887,
     "activiteiten": [
       "parket",
       "houthandel"
@@ -5620,8 +5620,8 @@
     "naam": "DL Parket (Dendermonde)",
     "provincie": "ovl",
     "grootte": "Klein",
-    "lat": 51.03,
-    "lng": 4.1,
+    "lat": 51.0312,
+    "lng": 4.0981,
     "activiteiten": [
       "parket"
     ],
@@ -5733,8 +5733,8 @@
     "naam": "Livinlodge (Meulebeke)",
     "provincie": "wvl",
     "grootte": "Groot",
-    "lat": 50.951,
-    "lng": 3.287,
+    "lat": 50.9486,
+    "lng": 3.2864,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -5783,8 +5783,8 @@
     "naam": "Oakwood Projects (Waregem)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 50.8822,
-    "lng": 3.4178,
+    "lat": 50.8875,
+    "lng": 3.4577,
     "activiteiten": [
       "tuinhuis"
     ],
@@ -5805,8 +5805,8 @@
     "naam": "Tuinen Huyghe (Roeselare regio)",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 50.947,
-    "lng": 3.126,
+    "lat": 50.8754,
+    "lng": 2.9285,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -5882,8 +5882,8 @@
     "naam": "Exclusive Oakwood (Vlierzele)",
     "provincie": "ovl",
     "grootte": "Micro",
-    "lat": 50.94,
-    "lng": 3.88,
+    "lat": 50.9412,
+    "lng": 3.8978,
     "activiteiten": [
       "tuinhuis"
     ],
@@ -5926,8 +5926,8 @@
     "naam": "Chalets Baka (Aalst/Erembodegem)",
     "provincie": "ovl",
     "grootte": "Middelgroot",
-    "lat": 50.923,
-    "lng": 4.0195,
+    "lat": 50.9156,
+    "lng": 4.0492,
     "activiteiten": [
       "tuinhuis",
       "online"
@@ -6017,8 +6017,8 @@
     "naam": "Royal Oak Buildings (Kalmthout)",
     "provincie": "ant",
     "grootte": "Middelgroot",
-    "lat": 51.38,
-    "lng": 4.47,
+    "lat": 51.3833,
+    "lng": 4.4763,
     "activiteiten": [
       "tuinhuis"
     ],
@@ -6053,8 +6053,8 @@
     "naam": "Daniel Decadt Houthandel (Proven/Poperinge)",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 50.9,
-    "lng": 2.7,
+    "lat": 50.895,
+    "lng": 2.6494,
     "activiteiten": [
       "tuinhuis",
       "houthandel",
@@ -6090,8 +6090,8 @@
     "naam": "Fierens BVBA (Zedelgem)",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 51.1372,
-    "lng": 3.1375,
+    "lat": 51.122,
+    "lng": 3.1457,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -6117,8 +6117,8 @@
     "naam": "Schrijnwerken Moerman (Brugge)",
     "provincie": "wvl",
     "grootte": "Micro",
-    "lat": 51.2,
-    "lng": 3.22,
+    "lat": 51.2144,
+    "lng": 3.2592,
     "activiteiten": [
       "tuinhuis",
       "houthandel"
@@ -6139,8 +6139,8 @@
     "naam": "Marnix Verkain Tuinhout (Ruddervoorde/Oostkamp)",
     "provincie": "wvl",
     "grootte": "Micro",
-    "lat": 51.11,
-    "lng": 3.18,
+    "lat": 51.0748,
+    "lng": 3.1671,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -6180,8 +6180,8 @@
     "naam": "Woodproject (Menen)",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 50.7958,
-    "lng": 3.1218,
+    "lat": 50.8151,
+    "lng": 3.1213,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -6241,8 +6241,8 @@
     "naam": "Tuinen Vandemaele (Zedelgem regio)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 51.14,
-    "lng": 3.13,
+    "lat": 51.139,
+    "lng": 3.1396,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -6284,8 +6284,8 @@
     "naam": "Garden Home (Dendermonde)",
     "provincie": "ovl",
     "grootte": "Micro",
-    "lat": 51.03,
-    "lng": 4.1,
+    "lat": 51.0121,
+    "lng": 4.1097,
     "activiteiten": [
       "tuinhuis",
       "houthandel"
@@ -6324,8 +6324,8 @@
     "naam": "Steyaert Meubelen (Aalter)",
     "provincie": "ovl",
     "grootte": "Micro",
-    "lat": 51.0895,
-    "lng": 3.432,
+    "lat": 51.1099,
+    "lng": 3.4328,
     "activiteiten": [
       "tuinhuis",
       "houthandel"
@@ -6346,8 +6346,8 @@
     "naam": "VDB Woodsolutions (Maldegem)",
     "provincie": "ovl",
     "grootte": "Micro",
-    "lat": 51.205,
-    "lng": 3.435,
+    "lat": 51.2404,
+    "lng": 3.4408,
     "activiteiten": [
       "tuinhuis"
     ],
@@ -6445,8 +6445,8 @@
     "naam": "SDP Schrijnwerken (Moerbeke-Waas)",
     "provincie": "ovl",
     "grootte": "Klein",
-    "lat": 51.175,
-    "lng": 3.97,
+    "lat": 51.2044,
+    "lng": 3.9424,
     "activiteiten": [
       "tuinhuis",
       "terrassen",
@@ -6496,8 +6496,8 @@
     "naam": "Vergo Tuinen (Waregem)",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 50.876,
-    "lng": 3.4055,
+    "lat": 50.8868,
+    "lng": 3.4324,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -6539,8 +6539,8 @@
     "naam": "VEH Outdoor Living (Ronse)",
     "provincie": "ovl",
     "grootte": "Klein",
-    "lat": 50.751,
-    "lng": 3.601,
+    "lat": 50.7373,
+    "lng": 3.5806,
     "activiteiten": [
       "tuinhuis",
       "terrassen",
@@ -6574,8 +6574,8 @@
     "naam": "Bogarden (Stekene)",
     "provincie": "ovl",
     "grootte": "Middelgroot",
-    "lat": 51.21,
-    "lng": 4.035,
+    "lat": 51.2062,
+    "lng": 4.0397,
     "activiteiten": [
       "tuinhuis"
     ],
@@ -6589,8 +6589,8 @@
     "naam": "JT Renovaties & Tuinconcepten (Sint-Niklaas)",
     "provincie": "ovl",
     "grootte": "Micro",
-    "lat": 51.155,
-    "lng": 4.133,
+    "lat": 51.1378,
+    "lng": 4.1601,
     "activiteiten": [
       "tuinhuis",
       "terrassen"
@@ -6775,10 +6775,10 @@
   },
   {
     "naam": "Houtstock (België)",
-    "provincie": "ovl",
+    "provincie": "vbr",
     "grootte": "Klein",
-    "lat": 51.05,
-    "lng": 3.72,
+    "lat": 50.9378,
+    "lng": 4.3279,
     "activiteiten": [
       "paarden",
       "online"
@@ -6786,8 +6786,9 @@
     "website": "houtstock.be",
     "info": "Webshop duurzaam kwaliteitshout. Weidepoorten, paardenomheiningen, kastanje hekwerk, palen. Levering heel België.",
     "webshop": "Ja",
-    "rijtijd_hertsberge": 38,
-    "rijtijd_drongen": 14
+    "rijtijd_hertsberge": 75,
+    "rijtijd_drongen": 40,
+    "adres": "Londerzeelsesteenweg 1, 1861 Meise"
   },
   {
     "naam": "De Slagmolen",
@@ -7250,8 +7251,8 @@
     "naam": "Le Bois au Jardin",
     "provincie": "lux",
     "grootte": "Middelgroot",
-    "lat": 50.2267,
-    "lng": 5.3433,
+    "lat": 50.2431,
+    "lng": 5.3369,
     "activiteiten": [
       "terrassen",
       "tuinhuis",
@@ -7283,8 +7284,8 @@
     "naam": "Scierie Poncelet",
     "provincie": "lux",
     "grootte": "Klein",
-    "lat": 49.8614,
-    "lng": 5.2253,
+    "lat": 49.8547,
+    "lng": 5.2529,
     "activiteiten": [
       "houthandel"
     ],
@@ -7647,8 +7648,8 @@
     "naam": "DEBBAUT",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 51.3433866,
-    "lng": 3.2884738,
+    "lat": 51.3454,
+    "lng": 3.2905,
     "activiteiten": [
       "schrijnwerk"
     ],
@@ -7772,8 +7773,8 @@
     "naam": "EUROFIBA",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 51.0601502,
-    "lng": 3.3070748,
+    "lat": 51.0622,
+    "lng": 3.3091,
     "activiteiten": [
       "schrijnwerk"
     ],
@@ -8109,8 +8110,8 @@
     "naam": "MONSEREZ PROJECTS",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 50.99519,
-    "lng": 3.2667652,
+    "lat": 50.9972,
+    "lng": 3.2688,
     "activiteiten": [
       "schrijnwerk"
     ],
@@ -8203,8 +8204,8 @@
     "naam": "Placabois",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 50.8089591,
-    "lng": 3.1841013,
+    "lat": 50.811,
+    "lng": 3.1861,
     "activiteiten": [
       "schrijnwerk"
     ],
@@ -8253,8 +8254,8 @@
     "naam": "SCHRIJNWERKERIJ BORRA",
     "provincie": "wvl",
     "grootte": "Middelgroot",
-    "lat": 50.977425,
-    "lng": 2.9524442,
+    "lat": 50.9794,
+    "lng": 2.9544,
     "activiteiten": [
       "schrijnwerk"
     ],
@@ -8301,8 +8302,8 @@
     "naam": "Schrijnwerkerij Verplancke",
     "provincie": "wvl",
     "grootte": "Micro",
-    "lat": 51.1912194,
-    "lng": 3.1007692,
+    "lat": 51.1932,
+    "lng": 3.1028,
     "activiteiten": [
       "schrijnwerk"
     ],
@@ -8517,8 +8518,8 @@
     "naam": "VANHOUTTE JEROEN",
     "provincie": "wvl",
     "grootte": "Klein",
-    "lat": 50.8530626,
-    "lng": 3.1260861,
+    "lat": 50.8551,
+    "lng": 3.1281,
     "activiteiten": [
       "schrijnwerk"
     ],
@@ -8811,7 +8812,7 @@
   },
   {
     "naam": "Brico (Tournai/Doornik)",
-    "provincie": "wvl",
+    "provincie": "wal",
     "grootte": "Groot",
     "lat": 50.6041,
     "lng": 3.3881,
@@ -9449,8 +9450,8 @@
     "naam": "Collstrop Garden (Cras Waregem)",
     "provincie": "wvl",
     "grootte": "Groot",
-    "lat": 50.8802,
-    "lng": 3.4318,
+    "lat": 50.8643,
+    "lng": 3.4426,
     "activiteiten": [
       "tuinhuis",
       "houthandel"
