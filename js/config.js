@@ -77,7 +77,7 @@ function adresLinkHtml(c) {
 function webLinkHtml(c) {
   if (!c.website) return "";
   const url = c.website.startsWith("http") ? c.website : "https://" + c.website;
-  return `<a href="${url}" target="_blank" rel="noopener">${escHtml(c.website)}</a>`;
+  return `<a href="${escHtml(url)}" target="_blank" rel="noopener">${escHtml(c.website)}</a>`;
 }
 
 function btwLinkHtml(c) {

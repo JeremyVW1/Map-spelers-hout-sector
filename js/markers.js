@@ -59,7 +59,7 @@ function buildPopup(c) {
   let contactHtml = '<div class="popup-contact">';
   if (adres)   contactHtml += `<a href="https://www.google.com/maps/search/${encodeURIComponent(adres + ", België")}" target="_blank" rel="noopener" class="popup-link">📍 ${escHtml(adres)}</a>`;
   if (tel)     contactHtml += `<a href="tel:${tel.replace(/[^+\d]/g, "")}" class="popup-link">📞 ${escHtml(tel)}</a>`;
-  if (website) { const url = website.startsWith("http") ? website : "https://" + website; contactHtml += `<a href="${url}" target="_blank" rel="noopener" class="popup-link">🌐 ${escHtml(website)}</a>`; }
+  if (website) { const url = website.startsWith("http") ? website : "https://" + website; contactHtml += `<a href="${escHtml(url)}" target="_blank" rel="noopener" class="popup-link">🌐 ${escHtml(website)}</a>`; }
   contactHtml += "</div>";
 
   // Verrijkte bedrijfsdata

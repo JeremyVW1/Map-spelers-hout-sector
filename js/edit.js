@@ -94,13 +94,7 @@ function renderEdit() {
     }, 150);
   });
 
-  // Sluit suggesties bij klik buiten
-  document.addEventListener("click", (e) => {
-    if (!e.target.closest(".edit-search-wrap")) {
-      suggestions.innerHTML = "";
-      suggestions.classList.remove("show");
-    }
-  });
+  // Sluit suggesties bij klik buiten (listener in initEdit, niet hier)
 }
 
 /* ─── Formulier ─── */
@@ -291,4 +285,12 @@ function _renderRecent(container) {
 function initEdit() {
   _loadOverrides();
   _applyOverrides();
+
+  // Sluit edit-suggesties bij klik buiten (eenmalig, geen leak)
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".edit-search-wrap")) {
+      const sug = document.getElementById("edit-suggestions");
+      if (sug) { sug.innerHTML = ""; sug.classList.remove("show"); }
+    }
+  });
 }

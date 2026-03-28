@@ -53,7 +53,6 @@ function addTargetZone() {
   if (hull.length < 3) return;
 
   // Clip punten boven BE-NL grens
-  const center = hull.reduce((a, p) => [a[0] + p[0] / hull.length, a[1] + p[1] / hull.length], [0, 0]);
   const clipped = hull.map(p => {
     if (!isAboveBorder(p[0], p[1])) return p;
     let [lat, lng] = p;

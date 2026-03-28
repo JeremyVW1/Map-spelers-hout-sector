@@ -21,8 +21,9 @@ async function init() {
     bedrijven.forEach(c => bedrijvenMap.set(c.naam, c));
   } catch (e) {
     console.error("Data laden mislukt:", e);
+    const safeMsg = (e.message || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
     document.body.innerHTML = `<div style="padding:2rem;color:#c62828;font-family:sans-serif">
-      <h2>Fout bij laden</h2><p>${e.message}</p></div>`;
+      <h2>Fout bij laden</h2><p>${safeMsg}</p></div>`;
     return;
   }
 

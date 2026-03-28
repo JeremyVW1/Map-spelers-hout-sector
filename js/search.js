@@ -99,7 +99,7 @@ function highlightMatch(text, words) {
 
 function matchesSearch(company) {
   if (!searchTerm) return true;
-  const haystack = (company.naam + " " + (company.info || "")).toLowerCase();
+  const haystack = (company.naam + " " + (company.adres || "") + " " + (company.info || "")).toLowerCase();
   return searchTerm.split(/\s+/).filter(Boolean).every(w => haystack.includes(w));
 }
 
