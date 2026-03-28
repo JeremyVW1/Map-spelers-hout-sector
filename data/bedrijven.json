@@ -4214,7 +4214,8 @@
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 42,
     "webshop": "Nee",
-    "website": "www.parketvanackere.be"
+    "website": "www.parketvanackere.be",
+    "btw": "BE0451.608.343"
   },
   {
     "naam": "Parket Center (Kuurne)",
@@ -4691,7 +4692,8 @@
     "rijtijd_hertsberge": 60,
     "rijtijd_drongen": 39,
     "webshop": "Nee",
-    "website": "www.floor-design.be"
+    "website": "www.floor-design.be",
+    "btw": "BE0792.785.948"
   },
   {
     "naam": "Parket Idee (Sint-Niklaas)",
@@ -4728,7 +4730,8 @@
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 38,
     "webshop": "Nee",
-    "website": "www.pdwparketvloeren.be"
+    "website": "www.pdwparketvloeren.be",
+    "btw": "BE0646.578.046"
   },
   {
     "naam": "Heylen & Co Parket (Scheldewindeke)",
@@ -5852,7 +5855,8 @@
     "info": "Tuinhuizen, blokhutten, carports. Torhout.",
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 52,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "btw": "BE0466.040.062"
   },
   {
     "naam": "Cornelis Hout (Evergem)",
@@ -5891,7 +5895,8 @@
     "info": "Exclusieve eiken bijgebouwen. Bouwpakketten of volledige uitvoering incl. grondwerk, metselwerk, montage. Ring Oost 13/A, 9400 Ninove.",
     "rijtijd_hertsberge": 54,
     "rijtijd_drongen": 33,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "btw": "BE1003.312.273"
   },
   {
     "naam": "Exclusive Oakwood (Vlierzele)",
@@ -5989,7 +5994,8 @@
     "rijtijd_hertsberge": 44,
     "rijtijd_drongen": 23,
     "webshop": "Nee",
-    "website": "www.renovatiewerkenvolckaert.be"
+    "website": "www.renovatiewerkenvolckaert.be",
+    "btw": "BE0672.918.791"
   },
   {
     "naam": "Chalet Center (Elversele/Temse)",
@@ -6250,7 +6256,8 @@
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 28,
     "webshop": "Nee",
-    "website": "espeel-jonas.be"
+    "website": "espeel-jonas.be",
+    "btw": "BE1003.593.276"
   },
   {
     "naam": "Tuinen Vandemaele (Zedelgem regio)",
@@ -6433,7 +6440,8 @@
     "info": "Architecturale houten bijgebouwen en tuinkantoren. Onderdeel Aktual groep (40 jaar ervaring). Experience center Evergem. Noorwegenstraat 22, 9940 Evergem.",
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 11,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "btw": "BE0427.103.470"
   },
   {
     "naam": "Tuincenter De Stercke (Lochristi)",
@@ -6491,7 +6499,8 @@
     "info": "Familiebedrijf, 30+ jaar. Houten dakconstructies, eiken bijgebouwen, gevelbekleding. Eik, thermowood, ceder, oregon. Kapelleriestraat 28, 8840 Staden.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 30,
-    "rijtijd_drongen": 46
+    "rijtijd_drongen": 46,
+    "btw": "BE0884.648.314"
   },
   {
     "naam": "DB Chalets / Tuinhuizen Deinze",
@@ -6585,7 +6594,8 @@
     "info": "Producent houten bijgebouwen en woonuitbreidingen. 30+ jaar expertise. Belevingspark. Stekene. Zusterbedrijf Bogarden.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 56,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "btw": "BE0534.846.419"
   },
   {
     "naam": "Bogarden (Stekene)",
@@ -6600,7 +6610,8 @@
     "info": "Exclusief design houten bijgebouwen: poolhouses, gastenverblijven, buitenkeukens, carports. Kantoren Stekene + Knokke. Zusterbedrijf Felke.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 56,
-    "rijtijd_drongen": 37
+    "rijtijd_drongen": 37,
+    "btw": "BE0470.158.604"
   },
   {
     "naam": "JT Renovaties & Tuinconcepten (Sint-Niklaas)",
@@ -7066,7 +7077,8 @@
     "info": "Houtzagerij & houttransport sinds 1938. Exotisch hout, eik en beuk import uit Frankrijk. Galmaarden.",
     "rijtijd_hertsberge": 67,
     "rijtijd_drongen": 46,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "btw": "BE0747.391.433"
   },
   {
     "naam": "Scierie Lemercier",
@@ -7393,7 +7405,8 @@
     "info": "Schuilhokken, paardenstallen, houten omheiningen. Ook tuinhuizen en carports.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 37,
-    "rijtijd_drongen": 30
+    "rijtijd_drongen": 30,
+    "btw": "BE0842.550.116"
   },
   {
     "naam": "Draadmagazijn",
