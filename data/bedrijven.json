@@ -879,7 +879,7 @@
       "houthandel"
     ],
     "btw": "BE 0400.011.469",
-    "adres": "Dendermonde",
+    "adres": "Eegene 19, 9200 Oudegem (Dendermonde)",
     "info": "Constructie + schrijnwerk, interieur, parket. B2B. Dendermonde.",
     "rechtsvorm": "NV",
     "cw_omzet": 15652128,
@@ -1875,7 +1875,7 @@
       "dhz"
     ],
     "btw": "BE 0415.284.714",
-    "adres": "Vlamertinge (Ieper)",
+    "adres": "Rodenbachstraat 19, 8908 Vlamertinge",
     "website": "https://www.decadt-hout.be/",
     "info": "Groot- en kleinhandel. Specialist Oregon + Douglas dakhout. Houtzagerij. Tuinhout, isolatie, parket. Regio Ieper-Poperinge.",
     "rechtsvorm": "NV",
@@ -2937,7 +2937,7 @@
       "tuinhuis",
       "houthandel"
     ],
-    "adres": "Avelgem (WVL)",
+    "adres": "Knobbelstraat 63, 8580 Avelgem",
     "website": "www.woodstar.be",
     "info": "Fabrikant tuinhuizen, poolhouses, carports, bijgebouwen. Modern/landelijk/rustiek maatwerk. Eigen schrijnwerkers. Dealer netwerk gans BE. 📍 Avelgem (WVL) 🌐 www.woodstar.be",
     "rijtijd_hertsberge": 66,
@@ -3028,7 +3028,7 @@
       "tuinhuis",
       "houthandel"
     ],
-    "adres": "Deerlijk",
+    "adres": "Deerlijk (regio West-Vlaanderen)",
     "website": "tuinconstructiesolieux.be",
     "info": "Maatwerk tuinhuizen, poolhouses, carports. Thermo Ayous. WVL + OVL. 📍 Deerlijk 🌐 tuinconstructiesolieux.be",
     "rijtijd_hertsberge": 43,
@@ -3068,7 +3068,7 @@
       "tuinhuis",
       "paarden"
     ],
-    "adres": "Koekelare",
+    "adres": "Provinciebaan 6, 8680 Koekelare",
     "website": "www.houthoek.be",
     "info": "30+ jaar. Tuinhuizen + paardenomheiningen + windschermen op maat. Eigen atelier WVL. 📍 Koekelare 🌐 www.houthoek.be",
     "rijtijd_hertsberge": 29,
@@ -3281,7 +3281,8 @@
     "cw_jaar": 2024,
     "rijtijd_hertsberge": 27,
     "rijtijd_drongen": 45,
-    "webshop": "Nee"
+    "webshop": "Nee",
+    "website": "www.debeuckelaere.com"
   },
   {
     "naam": "Van Den Hende (Kuurne)",
@@ -4386,7 +4387,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Nieuwpoort",
+    "adres": "Albert I Laan 293, 8620 Nieuwpoort",
     "info": "Parketlegger en vloercontractor. Regio Nieuwpoort-Kust.",
     "rijtijd_hertsberge": 33,
     "rijtijd_drongen": 48,
@@ -4612,7 +4613,7 @@
       "parket",
       "terrassen"
     ],
-    "adres": "Poelkapelle",
+    "adres": "Stadensteenweg 72, 8920 Langemark-Poelkapelle",
     "info": "Parket, houten terrassen, gevelbekleding, houten poorten. Meesters in hout.",
     "rijtijd_hertsberge": 45,
     "rijtijd_drongen": 60,
@@ -4742,7 +4743,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Scheldewindeke",
+    "adres": "Gaverse Steenweg 78, 9860 Scheldewindeke",
     "info": "Parketspecialist regio Scheldewindeke/Oosterzele.",
     "rijtijd_hertsberge": 41,
     "rijtijd_drongen": 20,
@@ -4758,7 +4759,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Knokke-Heist",
+    "adres": "'t Walletje 107/zone E, 8300 Knokke-Heist",
     "info": "Decoratiewinkel Knokke. Parketplaatsing, herstelling en onderhoud.",
     "rijtijd_hertsberge": 35,
     "rijtijd_drongen": 48,
@@ -5038,7 +5039,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Knokke-Heist",
+    "adres": "'t Walletje 27, 8300 Knokke-Heist",
     "info": "Verf- en decoratiespecialist. Parket, vloeren, raamdecoratie. Lalegno dealer. Vestigingen Knokke + Maldegem.",
     "rijtijd_hertsberge": 34,
     "rijtijd_drongen": 47,
@@ -5055,7 +5056,7 @@
       "houthandel",
       "parket"
     ],
-    "adres": "Poperinge",
+    "adres": "Ouderdomseweg 2, 8970 Poperinge",
     "info": "Houthandel en bouwmaterialen. Lalegno parketdealer. Poperinge.",
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 68,
@@ -5286,7 +5287,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Ronse",
+    "adres": "Leuzesesteenweg 257, 9600 Ronse",
     "info": "Renovatieprojecten en Lalegno parketdealer. Ronse.",
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 38,
@@ -5388,7 +5389,7 @@
       "parket"
     ],
     "btw": "BE0837.532.840",
-    "adres": "Izegem",
+    "adres": "Roeselaarsestraat 503, 8870 Izegem",
     "info": "Parketlegger regio Izegem.",
     "cw_brutomarge": 160916,
     "cw_winst": 6264,
@@ -5408,7 +5409,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Roeselare",
+    "adres": "Westlaan 270, 8800 Roeselare",
     "info": "Parket bij de vakman. Breed assortiment parketvloeren, van modern tot klassiek. Eigen plaatsingsteam. Roeselare.",
     "rijtijd_hertsberge": 31,
     "rijtijd_drongen": 46,
@@ -5486,7 +5487,7 @@
       "parket",
       "houthandel"
     ],
-    "adres": "Ieper",
+    "adres": "Sint-Krispijnstraat 9, 8900 Ieper",
     "info": "Hout, parket, antieke bouwmaterialen. Lalegno dealer. Ieper.",
     "rijtijd_hertsberge": 50,
     "rijtijd_drongen": 59,
@@ -5658,7 +5659,7 @@
     "activiteiten": [
       "parket"
     ],
-    "adres": "Ronse",
+    "adres": "Edouard Jolystraat 9, 9600 Ronse",
     "info": "Parket en vloeren. Ronse.",
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 38,
@@ -5896,7 +5897,8 @@
     "rijtijd_hertsberge": 54,
     "rijtijd_drongen": 33,
     "webshop": "Nee",
-    "btw": "BE1003.312.273"
+    "btw": "BE1003.312.273",
+    "website": "www.greenoakbuildings.com"
   },
   {
     "naam": "Exclusive Oakwood (Vlierzele)",
@@ -5989,7 +5991,7 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Gavere",
+    "adres": "Opperweg 60, 9890 Gavere",
     "info": "Tuinhuizen en carports. Renovatiewerken. Gavere.",
     "rijtijd_hertsberge": 44,
     "rijtijd_drongen": 23,
@@ -6251,7 +6253,7 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "regio Waregem",
+    "adres": "Tieltsteenweg 115, 8780 Oostrozebeke",
     "info": "Carports en houten bijgebouwen in eigen beheer. Padouk, eik, ceder, thermowood. Regio Waregem-Kortrijk-Meulebeke.",
     "rijtijd_hertsberge": 37,
     "rijtijd_drongen": 28,
@@ -6500,7 +6502,8 @@
     "webshop": "Nee",
     "rijtijd_hertsberge": 30,
     "rijtijd_drongen": 46,
-    "btw": "BE0884.648.314"
+    "btw": "BE0884.648.314",
+    "website": "www.dewildehoutconstructies.be"
   },
   {
     "naam": "DB Chalets / Tuinhuizen Deinze",
@@ -6527,7 +6530,7 @@
       "tuinhuis",
       "terrassen"
     ],
-    "adres": "Waregem",
+    "adres": "Gewad 4, 8792 Waregem",
     "info": "Tuinaannemer. Tuinhuizen op maat, houten gebouwen, zwemvijvers. Regio Waregem-Kortrijk.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 34,
@@ -6590,12 +6593,13 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Stekene",
+    "adres": "Zavelstraat 3, 9190 Stekene",
     "info": "Producent houten bijgebouwen en woonuitbreidingen. 30+ jaar expertise. Belevingspark. Stekene. Zusterbedrijf Bogarden.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 56,
     "rijtijd_drongen": 37,
-    "btw": "BE0534.846.419"
+    "btw": "BE0534.846.419",
+    "website": "www.felke.be"
   },
   {
     "naam": "Bogarden (Stekene)",
@@ -6606,12 +6610,13 @@
     "activiteiten": [
       "tuinhuis"
     ],
-    "adres": "Stekene",
+    "adres": "Trompstraat 26, 9190 Stekene",
     "info": "Exclusief design houten bijgebouwen: poolhouses, gastenverblijven, buitenkeukens, carports. Kantoren Stekene + Knokke. Zusterbedrijf Felke.",
     "webshop": "Nee",
     "rijtijd_hertsberge": 56,
     "rijtijd_drongen": 37,
-    "btw": "BE0470.158.604"
+    "btw": "BE0470.158.604",
+    "website": "www.bogarden.be"
   },
   {
     "naam": "JT Renovaties & Tuinconcepten (Sint-Niklaas)",
@@ -7436,7 +7441,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0847.512.853",
-    "adres": "Waregem",
+    "adres": "Groenbek 50, 8790 Waregem",
     "website": "https://www.afsluitingen-de-soete.be/",
     "cw_fte": 5,
     "bizzy_ebitda": 859823.4,
@@ -7459,7 +7464,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0417.013.886",
-    "adres": "Geraardsbergen",
+    "adres": "Gentseweg 518, 8793 Waregem",
     "website": "https://boncquet.be/",
     "cw_fte": 6.5,
     "bizzy_ebitda": 424279.34,
@@ -7484,7 +7489,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0836.883.435",
-    "adres": "Knokke-Heist",
+    "adres": "'t Walletje 107, 8300 Knokke-Heist",
     "website": "https://luccallant.be/",
     "cw_fte": 5.1,
     "bizzy_ebitda": 357130.97,
@@ -7507,7 +7512,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0661.774.580",
-    "adres": "Diksmuide",
+    "adres": "Pervijzestraat 72, 8600 Diksmuide",
     "website": "https://winsolcarpentier.be/",
     "cw_fte": 12.4,
     "bizzy_ebitda": 350132.41,
@@ -7532,7 +7537,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0454.032.056",
-    "adres": "Blankenberge",
+    "adres": "Schaapstraat 101, 8370 Blankenberge",
     "website": "https://www.cloetensdeuren.be/",
     "cw_fte": 16.5,
     "bizzy_ebitda": 377161.69,
@@ -7557,7 +7562,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0476.213.877",
-    "adres": "Kaprijke",
+    "adres": "Plein 21, 9970 Kaprijke",
     "website": "https://www.clpa.be/",
     "cw_fte": 1,
     "bizzy_ebitda": 555233.8,
@@ -7580,7 +7585,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0635.583.887",
-    "adres": "Wingene",
+    "adres": "Klokhof 2, 8750 Wingene",
     "website": "https://cachetschrijnwerk.be/",
     "cw_fte": 9,
     "bizzy_ebitda": 584405.83,
@@ -7605,7 +7610,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0862.588.732",
-    "adres": "Denderleeuw",
+    "adres": "Steenweg 615, 9470 Denderleeuw",
     "website": "http://dhoker.be/",
     "cw_fte": 0,
     "bizzy_ebitda": 681681.49,
@@ -7629,7 +7634,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0649.598.310",
-    "adres": "Bellegem",
+    "adres": "Hospitaalweg 1A, 8510 Kortrijk",
     "website": "https://www.decoene.eu/",
     "cw_fte": 33.9,
     "bizzy_ebitda": 503122.74,
@@ -7654,7 +7659,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0429.262.216",
-    "adres": "Wevelgem",
+    "adres": "Vliegveld 33, 8560 Wevelgem",
     "website": "https://delaeredecor.be/",
     "cw_fte": 32.8,
     "bizzy_ebitda": 584905.11,
@@ -7679,7 +7684,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0426.332.024",
-    "adres": "Knokke-Heist",
+    "adres": "Herenweg 6, 8300 Knokke-Heist",
     "website": "https://www.debbaut.be/",
     "cw_fte": 7.2,
     "bizzy_ebitda": 409680.51,
@@ -7704,7 +7709,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0865.787.950",
-    "adres": "Sint-Andries",
+    "adres": "Torhoutsesteenweg 100, 8200 Sint-Andries",
     "website": "https://www.dhondt.be/",
     "cw_fte": 24.4,
     "bizzy_ebitda": 489477.31,
@@ -7729,7 +7734,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0454.833.592",
-    "adres": "Temse",
+    "adres": "Hoogkamerstraat 337 bus 9, 9140 Temse",
     "website": "https://www.dm-line.be/",
     "cw_fte": 20,
     "bizzy_ebitda": 498585.57,
@@ -7754,7 +7759,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0424.912.359",
-    "adres": "Destelbergen",
+    "adres": "Dendermondesteenweg 388, 9070 Destelbergen",
     "website": "https://www.deruyvernv.be/",
     "cw_fte": 25,
     "bizzy_ebitda": 396291.57,
@@ -7778,7 +7783,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0407.172.049",
-    "adres": "Houthulst",
+    "adres": "Poelkapellestraat 40, 8650 Houthulst",
     "website": "https://www.decruy.be/",
     "cw_fte": 71,
     "bizzy_ebitda": 415232.78,
@@ -7804,7 +7809,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0448.244.324",
-    "adres": "Wingene",
+    "adres": "Hille 189, 8750 Wingene",
     "website": "https://www.eurofiba.be/",
     "cw_fte": 14.4,
     "bizzy_ebitda": 659601.36,
@@ -7828,7 +7833,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0480.111.693",
-    "adres": "Desteldonk",
+    "adres": "Terdonkplein 10, 9042 Gent (Desteldonk)",
     "website": "https://europenramen.be/",
     "cw_fte": 0.1,
     "bizzy_ebitda": 532751.35,
@@ -7851,7 +7856,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0423.861.690",
-    "adres": "Pittem",
+    "adres": "Brugsesteenweg 100, 8740 Pittem",
     "website": "https://www.europort.be/",
     "cw_fte": 14.6,
     "bizzy_ebitda": 570857.47,
@@ -7876,7 +7881,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0795.175.316",
-    "adres": "Ostend",
+    "adres": "Brugsesteenweg 101, 8450 Bredene",
     "website": "https://floormasters.be/",
     "cw_fte": 2.8,
     "bizzy_ebitda": 375490.26,
@@ -7899,7 +7904,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0428.253.713",
-    "adres": "Ingelmunster",
+    "adres": "Groenstraat 4, 8770 Ingelmunster",
     "website": "https://www.holvoetgebroeders.be/",
     "cw_fte": 23.2,
     "bizzy_ebitda": 375460.88,
@@ -7925,7 +7930,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0420.846.772",
-    "adres": "Tiegem",
+    "adres": "Zonnestraat 3, 8573 Tiegem",
     "website": "https://www.demasure.be/",
     "cw_fte": 24.3,
     "bizzy_ebitda": 847073.63,
@@ -7950,7 +7955,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0656.922.503",
-    "adres": "Dendermonde",
+    "adres": "Eegene 15/17, 9200 Dendermonde",
     "website": "https://www.gpgdeurenendressings.be/",
     "cw_fte": 4,
     "bizzy_ebitda": 360599.19,
@@ -7973,7 +7978,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0428.183.437",
-    "adres": "Eke",
+    "adres": "Begoniastraat 26, 9810 Eke",
     "website": "https://www.dierick.be/",
     "cw_fte": 26.9,
     "bizzy_ebitda": 983682.51,
@@ -8021,7 +8026,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0659.791.426",
-    "adres": "Middelkerke",
+    "adres": "Kalkaert 19, 8430 Middelkerke",
     "website": "http://www.interieurvanesch.be/",
     "cw_fte": 6.7,
     "bizzy_ebitda": 350361.16,
@@ -8044,7 +8049,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0837.442.768",
-    "adres": "Ninove",
+    "adres": "Brakelsesteenweg 444, 9400 Ninove",
     "website": "https://www.jacobs-deuren.be/",
     "cw_fte": 15.7,
     "bizzy_ebitda": 520125.72,
@@ -8069,7 +8074,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0737.772.201",
-    "adres": "Jabbeke",
+    "adres": "Eernegemweg 106, 8490 Jabbeke",
     "website": "https://www.kubriek.be/",
     "cw_fte": 0,
     "bizzy_ebitda": 415462.16,
@@ -8092,7 +8097,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0412.458.054",
-    "adres": "Dentergem",
+    "adres": "Meulebekesteenweg 6, 8720 Dentergem",
     "website": "https://www.laramen.be/",
     "cw_fte": 31.2,
     "bizzy_ebitda": 363397.81,
@@ -8117,7 +8122,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0432.858.738",
-    "adres": "Veurne",
+    "adres": "Pannestraat 237, 8630 Veurne",
     "website": "https://www.vandermeeren.be/",
     "cw_fte": 22.8,
     "bizzy_ebitda": 708652.97,
@@ -8142,7 +8147,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0424.724.792",
-    "adres": "Pittem",
+    "adres": "Nijverheidsstraat 5, 8740 Pittem",
     "website": "http://www.monserez.com/",
     "cw_fte": 12.8,
     "bizzy_ebitda": 596224.46,
@@ -8167,7 +8172,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0637.940.987",
-    "adres": "Roeselare",
+    "adres": "Ovenhoek 13, 8800 Roeselare",
     "website": "https://www.pdvdeuren.be/",
     "cw_fte": 0.4,
     "bizzy_ebitda": 400282.18,
@@ -8190,7 +8195,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0883.160.452",
-    "adres": "Koekelare",
+    "adres": "Belhuttebaan 61, 8680 Koekelare",
     "website": "https://www.pleysiersteven.be/",
     "cw_fte": 8.1,
     "bizzy_ebitda": 419841,
@@ -8213,7 +8218,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0439.155.523",
-    "adres": "Ledegem",
+    "adres": "'t Lindeke 3, 8880 Ledegem",
     "website": "https://www.projektdesign.be/",
     "cw_fte": 7,
     "bizzy_ebitda": 400360.28,
@@ -8236,7 +8241,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0405.435.353",
-    "adres": "Wevelgem",
+    "adres": "Oostlaan 4, 8560 Gullegem",
     "website": "http://www.placabois.be/",
     "cw_fte": 14.8,
     "bizzy_ebitda": 781865.85,
@@ -8261,7 +8266,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0434.673.331",
-    "adres": "Ieper",
+    "adres": "Rozendaalstraat 9, 8900 Ieper",
     "website": "https://www.parreinbouden.be/",
     "cw_fte": 18,
     "bizzy_ebitda": 367646.29,
@@ -8286,7 +8291,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0466.586.727",
-    "adres": "Houthulst",
+    "adres": "Nijverheidsstraat 24, 8650 Houthulst",
     "website": "https://borra.be/",
     "cw_fte": 32.9,
     "bizzy_ebitda": 535084.34,
@@ -8311,7 +8316,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0429.946.659",
-    "adres": "Oostakker",
+    "adres": "Antwerpsesteenweg 873, 9041 Oostakker",
     "website": "https://schrijnwerkvandewalle.be/",
     "cw_fte": 7.2,
     "bizzy_ebitda": 778802.76,
@@ -8334,7 +8339,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0633.496.013",
-    "adres": "Jabbeke",
+    "adres": "Noordstraat 16, 8490 Jabbeke",
     "website": "http://schrijnwerkerijverplancke.be/",
     "cw_fte": 0,
     "bizzy_ebitda": 352820.95,
@@ -8358,7 +8363,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0866.439.830",
-    "adres": "Boezinge",
+    "adres": "Langemarkseweg 10/G, 8904 Boezinge",
     "website": "https://www.timmerwerken-joris.be/",
     "cw_fte": 1,
     "bizzy_ebitda": 646386,
@@ -8381,7 +8386,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0871.273.301",
-    "adres": "Langemark-Poelkapelle",
+    "adres": "Poelkapellestraat 72, 8920 Langemark",
     "website": "https://www.tuinenhoflack.be/",
     "cw_fte": 10,
     "bizzy_ebitda": 546894.9,
@@ -8406,7 +8411,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0644.854.218",
-    "adres": "Kortrijk",
+    "adres": "Stasegemsesteenweg 80, 8500 Kortrijk",
     "website": "http://www.tweepunteen.be/",
     "cw_fte": 23.8,
     "bizzy_ebitda": 439849.38,
@@ -8431,7 +8436,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0679.599.519",
-    "adres": "Menen",
+    "adres": "Lageweg 33, 8930 Menen",
     "website": "https://www.theveneer.com/",
     "cw_fte": 1.9,
     "bizzy_ebitda": 388774.68,
@@ -8455,7 +8460,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0422.486.765",
-    "adres": "Gijzegem",
+    "adres": "Doorsteeklaan 1, 9308 Hofstade",
     "website": "https://www.vandennest.be/",
     "cw_fte": 18.2,
     "bizzy_ebitda": 591707.84,
@@ -8480,7 +8485,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0452.406.416",
-    "adres": "Waasmunster",
+    "adres": "Manta 13-14, 9250 Waasmunster",
     "website": "https://www.vanraemdonck-haarden.be/",
     "cw_fte": 2.9,
     "bizzy_ebitda": 486870.83,
@@ -8503,7 +8508,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0415.909.868",
-    "adres": "Wetteren",
+    "adres": "Zuidlaan 64, 9230 Wetteren",
     "website": "https://www.vandevelde-hout.be/",
     "cw_fte": 8.1,
     "bizzy_ebitda": 542907.26,
@@ -8528,7 +8533,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0454.797.069",
-    "adres": "Izegem",
+    "adres": "Prins Albertlaan 100, 8870 Izegem",
     "website": "https://www.vanhardhout.be/",
     "cw_fte": 2.5,
     "bizzy_ebitda": 353179.51,
@@ -8551,7 +8556,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0882.449.976",
-    "adres": "Ledegem",
+    "adres": "Nijverheidslaan 33, 8880 Ledegem",
     "website": "https://www.paintdoors.be/",
     "cw_fte": 8,
     "bizzy_ebitda": 603049,
@@ -8574,7 +8579,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0844.802.890",
-    "adres": "Zwevegem",
+    "adres": "Harelbeekstraat 104 F, 8550 Zwevegem",
     "website": "https://www.verada.be/",
     "cw_fte": 15.5,
     "bizzy_ebitda": 633021.6,
@@ -8599,7 +8604,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0438.309.247",
-    "adres": "Vlamertinge",
+    "adres": "A. Porreyestraat 13, 8908 Vlamertinge",
     "website": "https://www.verhulst.co/",
     "cw_fte": 37.1,
     "bizzy_ebitda": 667157.63,
@@ -8624,7 +8629,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0474.745.912",
-    "adres": "Deinze",
+    "adres": "E3-laan 59, 9800 Deinze",
     "website": "http://www.vanhoeckflooring.com/",
     "cw_fte": 1,
     "bizzy_ebitda": 363138.09,
@@ -8647,8 +8652,7 @@
       "schrijnwerk"
     ],
     "btw": "BE0425.385.283",
-    "adres": "Ronse",
-    "website": "https://willems-zout.be/",
+    "adres": "Lievensveld 7, 9600 Ronse",
     "cw_fte": 84.3,
     "bizzy_ebitda": 848635,
     "bizzy_revenue": 28723613,
@@ -8656,8 +8660,8 @@
     "bron": "bizzy",
     "rijtijd_hertsberge": 59,
     "rijtijd_drongen": 38,
-    "email": "info@willems-zout.be",
-    "tel": "+32 87 78 34 77",
+    "email": "",
+    "tel": "",
     "info": "Groot bedrijf. schrijnwerk. Ronse. 80.4 FTE.",
     "cw_jaar": 2024,
     "cw_brutomarge": 6633019,
@@ -8673,6 +8677,7 @@
       "houthandel",
       "terrassen"
     ],
+    "adres": "Waterven, 8501 Heule (dichtstbijzijnde Cras vestiging)",
     "info": "Vestiging Cras Woodgroup. Constructie+interieur. Menen.",
     "groep": "Cras NV",
     "rijtijd_hertsberge": 40,
@@ -8698,6 +8703,7 @@
       "houthandel",
       "terrassen"
     ],
+    "adres": "Burgemeester Maenhautstraat 68, 9820 Merelbeke (dichtstbijzijnde Cras vestiging)",
     "info": "Vestiging Cras Woodgroup (€112M). Breed pro gamma. Zottegem.",
     "groep": "Cras NV",
     "rijtijd_hertsberge": 49,
@@ -8723,6 +8729,7 @@
       "houthandel",
       "terrassen"
     ],
+    "adres": "John Cordierlaan 6, 8400 Oostende",
     "info": "Vestiging Cras Woodgroup (€112M). Breed gamma. Oostende.",
     "groep": "Cras NV",
     "rijtijd_hertsberge": 28,
@@ -8747,6 +8754,7 @@
       "houthandel",
       "terrassen"
     ],
+    "adres": "Amersveldestraat 213, 8610 Kortemark",
     "info": "Groothandel + fabrikant Magnumboard. 6 vestigingen: Kortemark, Roeselare, Oostende, Tielt, Gits, Erpe-Mere. B2B constructie.",
     "groep": "Debeuckelaere Gebroeders NV",
     "rijtijd_hertsberge": 36,
@@ -8768,6 +8776,7 @@
       "houthandel",
       "terrassen"
     ],
+    "adres": "Leo Baekelandlaan 1, 8400 Oostende",
     "info": "Vestiging Debeuckelaere. Oostende.",
     "groep": "Debeuckelaere Gebroeders NV",
     "rijtijd_hertsberge": 25,
@@ -8789,6 +8798,7 @@
       "houthandel",
       "terrassen"
     ],
+    "adres": "Amersveldestraat 213, 8610 Kortemark",
     "info": "HQ + Magnumboard producent. Amersveldestraat 213, Kortemark. B2B Houtmassiefbouw.",
     "groep": "Debeuckelaere Gebroeders NV",
     "rijtijd_hertsberge": 37,
@@ -8810,6 +8820,7 @@
       "houthandel",
       "terrassen"
     ],
+    "adres": "Leo Baekelandlaan 1, 8400 Oostende",
     "info": "Vestiging Debeuckelaere (Houtmarkt). Leo Baekelandlaan 1, Oostende.",
     "groep": "Debeuckelaere Gebroeders NV",
     "rijtijd_hertsberge": 25,
