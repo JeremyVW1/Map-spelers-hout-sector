@@ -247,7 +247,7 @@
     "btw": "BE 0424.854.258",
     "adres": "Ambachtenstraat 22, 8870 Izegem",
     "website": "hout-vanhaverbeke.be",
-    "info": "5 generaties. Vanhardhout tak. Schrijnwerkers + aannemers + particulier + industrie. Izegem.",
+    "info": "5 generaties. Schrijnwerkers + aannemers + particulier + industrie. Izegem.",
     "medewerkers": 8.3,
     "oprichting": "1983",
     "rechtsvorm": "NV",
@@ -8524,13 +8524,13 @@
     "cw_winst": 55059
   },
   {
-    "naam": "VANHARDHOUT",
+    "naam": "Vanhardhout",
     "provincie": "wvl",
     "grootte": "Klein",
     "lat": 50.9198305,
     "lng": 3.215435,
     "activiteiten": [
-      "schrijnwerk"
+      "parket"
     ],
     "btw": "BE0454.797.069",
     "adres": "Prins Albertlaan 100, 8870 Izegem",
@@ -8543,7 +8543,7 @@
     "rijtijd_drongen": 44,
     "email": "info@vanhardhout.be",
     "tel": "+32 51 30 60 85",
-    "info": "Klein bedrijf. schrijnwerk. Izegem. 3 FTE.",
+    "info": "Houthandel gespecialiseerd in hardhout. Apart bedrijf, niet gelinkt aan Houthandel Vanhaverbeke. Izegem. 3 FTE.",
     "cw_jaar": 2025
   },
   {
