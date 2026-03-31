@@ -101,6 +101,21 @@ function buildLegend() {
     <div class="legend-item"><div style="color:#8B1A1A;font-size:12px;font-weight:700;flex-shrink:0;width:12px;text-align:center">&#9660;</div><span>Eigen locatie</span></div>
   `;
 
+  // Activiteiten
+  const actGroup = document.createElement("div");
+  actGroup.className = "legend-group";
+  actGroup.innerHTML = '<span class="legend-group-title">Activiteiten</span>';
+  const actItems = document.createElement("div");
+  actItems.className = "legend-items";
+  categorieen.filter(c => c.type === "activiteit").forEach(c => {
+    const d = document.createElement("div");
+    d.className = "legend-item";
+    d.innerHTML = `<div class="legend-dot" style="background:${c.kleur}"></div><span>${c.label}</span>`;
+    actItems.appendChild(d);
+  });
+  actGroup.appendChild(actItems);
+  el.appendChild(actGroup);
+
   // Status
   const statusGroup = document.createElement("div");
   statusGroup.className = "legend-group";

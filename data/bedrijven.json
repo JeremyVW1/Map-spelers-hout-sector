@@ -8,7 +8,7 @@
     "activiteiten": [
       "houthandel",
       "terrassen",
-      "parket",
+      "parket_producent",
       "agro"
     ],
     "btw": "BE0882.268.745",
@@ -2692,7 +2692,7 @@
     "lat": 51.0921,
     "lng": 3.2481,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0444.059.862",
     "adres": "Kortrijksestraat 477, 8020 Ruddervoorde (Oostkamp)",
@@ -2737,7 +2737,7 @@
     "lat": 51.0111,
     "lng": 3.2251,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0472.360.405",
     "adres": "Flandria 2, 8750 Zwevezele (Wingene)",
@@ -2764,7 +2764,7 @@
     "lat": 50.9421,
     "lng": 3.1251,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0645.709.303",
     "adres": "Dendermondesteenweg 764, 9070 Destelbergen",
@@ -2784,7 +2784,7 @@
     "lat": 51.2101,
     "lng": 3.2241,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0507.715.321",
     "adres": "Pathoekeweg 9/A008, 8000 Brugge",
@@ -2805,7 +2805,7 @@
     "lat": 51.105,
     "lng": 3.994,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0450.745.736",
     "adres": "Voshol 6, 9160 Lokeren",
@@ -2826,7 +2826,7 @@
     "lat": 51.101,
     "lng": 3.828,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0442.151.932",
     "adres": "Antwerpse Steenweg 148, 9080 Lochristi",
@@ -2847,7 +2847,7 @@
     "lat": 50.9571,
     "lng": 3.6081,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0899.257.997",
     "adres": "Tulpenstraat 8, 9810 Nazareth",
@@ -2868,7 +2868,7 @@
     "lat": 50.9001,
     "lng": 3.8741,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Mgr. Meulemanstraat 29, 9520 Sint-Lievens-Houtem",
     "website": "parketvloerenverliefde.be",
@@ -3086,7 +3086,7 @@
     "lat": 51.1041,
     "lng": 4.0411,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "houthandel"
     ],
     "adres": "Industriestraat 44, 9240 Zele",
@@ -3606,7 +3606,7 @@
     "lat": 51.143,
     "lng": 3.431,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0472.899.447",
     "adres": "Kerkstraat 42, 9910 Knesselare",
@@ -4036,7 +4036,7 @@
     "lat": 50.88,
     "lng": 3.427,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0826.402.386",
     "adres": "Libelstraat 7, 8792 Waregem",
@@ -4058,7 +4058,7 @@
     "lat": 50.878,
     "lng": 3.431,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0808.801.440",
     "adres": "Grasdreef 20, 8790 Waregem",
@@ -4079,7 +4079,7 @@
     "lat": 51.347,
     "lng": 3.264,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "info": "Parketspecialist. Knokke-Heist.",
     "rijtijd_hertsberge": 35,
@@ -4100,7 +4100,7 @@
     "lat": 51.313,
     "lng": 3.131,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "website": "www.ka-parket.be",
     "info": "Parketvloeren sinds 2002. Blankenberge. 🌐 ka-parket.be",
@@ -4120,7 +4120,7 @@
     "lat": 51.033,
     "lng": 2.864,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "info": "Parketvloeren. Quick-step, Parador, Parky. Beerst/Diksmuide.",
     "rijtijd_hertsberge": 40,
@@ -4140,7 +4140,7 @@
     "lat": 51.209,
     "lng": 3.224,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Astridlaan 232, 8310 Assebroek (Brugge)",
     "info": "Houten vloeren en parket. Brugge.",
@@ -4187,7 +4187,8 @@
     "lat": 51.1923,
     "lng": 3.1592,
     "activiteiten": [
-      "parket"
+      "parket_producent",
+      "parket_plaatser"
     ],
     "btw": "BE0520.371.841",
     "adres": "Gistelsteenweg 2B, 8490 Jabbeke",
@@ -4208,7 +4209,7 @@
     "lat": 50.8097,
     "lng": 3.1862,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Roeselarestraat 305, 8560 Wevelgem",
     "info": "Parketshowroom en plaatsing. Roeselarestraat 305, 8560 Wevelgem.",
@@ -4225,7 +4226,7 @@
     "lat": 50.854,
     "lng": 3.2785,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE 0479.474.463",
     "adres": "Ter Ferrants 16, 8520 Kuurne",
@@ -4253,7 +4254,7 @@
     "lat": 51.0588,
     "lng": 3.3875,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "terrassen"
     ],
     "adres": "8510 Ruiselede",
@@ -4270,7 +4271,7 @@
     "lat": 50.7978,
     "lng": 3.131,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "terrassen",
       "import"
     ],
@@ -4294,7 +4295,7 @@
     "lat": 50.8728,
     "lng": 3.3861,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE0891.779.297",
@@ -4320,7 +4321,7 @@
     "lat": 51.0002,
     "lng": 3.3226,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE 0479.332.527",
     "adres": "Galgenveldstraat 15, 8700 Tielt",
@@ -4341,7 +4342,7 @@
     "lat": 50.8822,
     "lng": 3.4178,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "agro"
     ],
     "btw": "BE 0744.618.025",
@@ -4363,7 +4364,7 @@
     "lat": 50.876,
     "lng": 3.4055,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "agro"
     ],
     "btw": "BE 0704.644.721",
@@ -4385,7 +4386,7 @@
     "lat": 51.1262,
     "lng": 2.7498,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Albert I Laan 293, 8620 Nieuwpoort",
     "info": "Parketlegger en vloercontractor. Regio Nieuwpoort-Kust.",
@@ -4401,7 +4402,7 @@
     "lat": 51.21,
     "lng": 4.251,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE 0641.748.337",
     "adres": "Zillebeek 26, 9120 Beveren",
@@ -4422,7 +4423,7 @@
     "lat": 50.919,
     "lng": 4.0291,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Erembodegem, 9320 Aalst",
     "info": "Familiebedrijf, 75+ jaar ervaring. Toonzaal Erembodegem. Levering, plaatsing en renovatie parket.",
@@ -4443,7 +4444,7 @@
     "lat": 50.923,
     "lng": 4.0195,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "terrassen",
       "houthandel"
     ],
@@ -4466,7 +4467,7 @@
     "lat": 51.1872,
     "lng": 3.5656,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0820.804.496",
     "adres": "Boelare 114, 9900 Eeklo",
@@ -4486,7 +4487,7 @@
     "lat": 51.1372,
     "lng": 3.1375,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE 0684.639.757",
     "adres": "Torhoutsesteenweg 155, 8210 Zedelgem",
@@ -4509,7 +4510,7 @@
     "lat": 50.9128,
     "lng": 3.2113,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0643.989.334",
     "adres": "Mandelstraat 69, 8870 Izegem",
@@ -4530,7 +4531,7 @@
     "lat": 51.3433,
     "lng": 3.287,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "houthandel"
     ],
     "adres": "'t Walletje 80, 8300 Knokke-Heist",
@@ -4547,7 +4548,7 @@
     "lat": 50.9292,
     "lng": 3.346,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "agro"
     ],
     "btw": "BE 0588.970.835",
@@ -4569,7 +4570,7 @@
     "lat": 50.8097,
     "lng": 3.195,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "terrassen"
     ],
     "btw": "BE 0892.082.472",
@@ -4591,7 +4592,7 @@
     "lat": 51.3363,
     "lng": 3.2917,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Natiënlaan 201, 8300 Knokke-Heist",
     "info": "Haarden, parket, natuursteen, vloeren en interieur. 30+ jaar. Showrooms Knokke + Meulebeke. Natiënlaan 201, 8300 Knokke-Heist.",
@@ -4610,7 +4611,7 @@
     "lat": 50.9083,
     "lng": 2.9497,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "terrassen"
     ],
     "adres": "Stadensteenweg 72, 8920 Langemark-Poelkapelle",
@@ -4627,7 +4628,7 @@
     "lat": 50.9703,
     "lng": 3.2119,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "houthandel"
     ],
     "adres": "Ardooie",
@@ -4644,7 +4645,7 @@
     "lat": 51.143,
     "lng": 3.359,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0885.358.986",
     "adres": "Tinhoutstraat 61, 8730 Oedelem",
@@ -4664,7 +4665,7 @@
     "lat": 50.9245,
     "lng": 3.9478,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import",
       "online"
     ],
@@ -4686,7 +4687,7 @@
     "lat": 50.7815,
     "lng": 3.878,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Aalstsesteenweg 168, 9506 Smeerebbe-Vloerzegem",
     "info": "Parketlegger en renovatie. Eigen showroom. Aalstsesteenweg 168, 9506 Smeerebbe-Vloerzegem. 8+ jaar ervaring.",
@@ -4703,7 +4704,7 @@
     "lat": 51.189,
     "lng": 4.1802,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE 0840.910.519",
     "adres": "Nieuwkerkenstraat 129, 9100 Sint-Niklaas",
@@ -4724,7 +4725,7 @@
     "lat": 51.0958,
     "lng": 4.135,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Roodkruisstraat 100, 9220 Hamme",
     "info": "Familiebedrijf, 70+ jaar ervaring. Verkoop, plaatsing en restauratie parket. Roodkruisstraat 100, 9220 Hamme.",
@@ -4741,7 +4742,7 @@
     "lat": 50.9465,
     "lng": 3.795,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Gaverse Steenweg 78, 9860 Scheldewindeke",
     "info": "Parketspecialist regio Scheldewindeke/Oosterzele.",
@@ -4757,7 +4758,7 @@
     "lat": 51.347,
     "lng": 3.265,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "'t Walletje 107/zone E, 8300 Knokke-Heist",
     "info": "Decoratiewinkel Knokke. Parketplaatsing, herstelling en onderhoud.",
@@ -4773,7 +4774,7 @@
     "lat": 50.9042,
     "lng": 3.3755,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import",
       "online"
     ],
@@ -4800,7 +4801,7 @@
     "lat": 50.7958,
     "lng": 3.1218,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "adres": "Lageweg 33, 8930 Menen",
@@ -4823,7 +4824,7 @@
     "lat": 50.9305,
     "lng": 3.343,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "agro"
     ],
     "btw": "BE 0836.908.080",
@@ -4868,7 +4869,7 @@
     "lat": 50.75,
     "lng": 3.605,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE 0449.721.791",
@@ -4890,7 +4891,7 @@
     "lat": 50.8656,
     "lng": 3.1808,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "terrassen"
     ],
     "adres": "'t Lindeke 31, 8880 Sint-Eloois-Winkel",
@@ -4930,7 +4931,7 @@
     "lat": 50.734,
     "lng": 3.348,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "online"
     ],
     "adres": "Industripark 12a bus 7, 8587 Spiere-Helkijn",
@@ -4952,7 +4953,7 @@
     "lat": 50.9463,
     "lng": 3.1245,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Stormstraat 28, 8800 Roeselare",
     "info": "Parketlegger. Stormstraat 28, Roeselare.",
@@ -4968,7 +4969,7 @@
     "lat": 50.922,
     "lng": 3.259,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0667.888.847",
     "adres": "Bruggestraat 279, 8770 Ingelmunster",
@@ -4989,7 +4990,7 @@
     "lat": 50.8275,
     "lng": 3.2645,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Hoevestraat 17-A1, 8500 Kortrijk",
     "info": "Vloerbekleding: tapijt, parket, vinyl en meer. Hoevestraat 17-A1, 8500 Kortrijk.",
@@ -5005,7 +5006,7 @@
     "lat": 51.212,
     "lng": 2.895,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Nieuwpoortsesteenweg, 8400 Oostende",
     "info": "Interieur, meubelen, parket, vinyl, laminaat. 2 showrooms Nieuwpoortsesteenweg, Oostende. Quick-Step dealer.",
@@ -5021,7 +5022,7 @@
     "lat": 51.2093,
     "lng": 3.2247,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Brugge",
     "info": "Expert parketrenovatie. Renoveren, restaureren, schuren, herstellen en afwerken houten vloeren.",
@@ -5037,7 +5038,7 @@
     "lat": 51.348,
     "lng": 3.278,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "'t Walletje 27, 8300 Knokke-Heist",
     "info": "Verf- en decoratiespecialist. Parket, vloeren, raamdecoratie. Lalegno dealer. Vestigingen Knokke + Maldegem.",
@@ -5217,7 +5218,7 @@
     "lat": 50.9833,
     "lng": 3.5333,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Ooidonkdreef 12, 9800 Deinze",
     "website": "mbc-vloeren.be",
@@ -5285,7 +5286,7 @@
     "lat": 50.752,
     "lng": 3.6,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Leuzesesteenweg 257, 9600 Ronse",
     "info": "Renovatieprojecten en Lalegno parketdealer. Ronse.",
@@ -5300,7 +5301,7 @@
     "lat": 51.3434,
     "lng": 3.2885,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Natiënlaan 37, 8300 Knokke-Heist",
     "info": "Parketwerken. Lalegno dealer. Knokke.",
@@ -5316,7 +5317,7 @@
     "lat": 50.901,
     "lng": 3.354,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE0441.533.409",
@@ -5342,7 +5343,7 @@
     "lat": 50.8545,
     "lng": 3.305,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0461.058.519",
     "adres": "Kortrijksesteenweg 20, 8530 Harelbeke",
@@ -5364,7 +5365,7 @@
     "lat": 50.951,
     "lng": 3.287,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0870.825.517",
     "adres": "Nijverheidsstraat 32, 8760 Meulebeke",
@@ -5386,7 +5387,7 @@
     "lat": 50.913,
     "lng": 3.215,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0837.532.840",
     "adres": "Roeselaarsestraat 503, 8870 Izegem",
@@ -5407,7 +5408,7 @@
     "lat": 50.947,
     "lng": 3.126,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Westlaan 270, 8800 Roeselare",
     "info": "Parket bij de vakman. Breed assortiment parketvloeren, van modern tot klassiek. Eigen plaatsingsteam. Roeselare.",
@@ -5423,7 +5424,7 @@
     "lat": 51.346,
     "lng": 3.292,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Knokke-Heist",
     "info": "Parketlegger Westkapelle, Knokke-Heist.",
@@ -5465,7 +5466,7 @@
     "lat": 51.2055,
     "lng": 2.876,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Torhoutsesteenweg 649, 8400 Oostende",
     "info": "Vloeren: parket, vinyl, kurk, spuitkurk, traprenovatie. Torhoutsesteenweg 649, Oostende. Vestiging ook in Roeselare.",
@@ -5484,7 +5485,7 @@
     "lat": 50.8523,
     "lng": 2.887,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "houthandel"
     ],
     "adres": "Sint-Krispijnstraat 9, 8900 Ieper",
@@ -5501,7 +5502,8 @@
     "lat": 51.24,
     "lng": 3.355,
     "activiteiten": [
-      "parket"
+      "parket_producent",
+      "parket_plaatser"
     ],
     "btw": "BE0812.053.613",
     "adres": "Kalkersstraat 5, 8340 Moerkerke (Damme)",
@@ -5524,7 +5526,7 @@
     "lat": 50.915,
     "lng": 2.993,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "agro"
     ],
     "adres": "Westrozebeke",
@@ -5541,7 +5543,7 @@
     "lat": 50.982,
     "lng": 3.105,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0461.766.520",
     "adres": "Gits, 8830 Hooglede",
@@ -5564,7 +5566,7 @@
     "lat": 51.0895,
     "lng": 3.432,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Lostraat 17, 9880 Aalter",
     "website": "hoorewege.be",
@@ -5603,7 +5605,7 @@
     "lat": 50.845,
     "lng": 3.605,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "houthandel"
     ],
     "btw": "BE0867.442.492",
@@ -5626,7 +5628,7 @@
     "lat": 51.155,
     "lng": 4.133,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Driekoningenstraat 101, 9100 Sint-Niklaas",
     "info": "Interieurprojecten en decoratie. Laminaat, parket, vloeren, keukens. Driekoningenstraat 101, Sint-Niklaas.",
@@ -5642,7 +5644,7 @@
     "lat": 51.0312,
     "lng": 4.0981,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Gravenhuisstraat 43, 9200 Dendermonde",
     "info": "Parketlegger Dendermonde.",
@@ -5657,7 +5659,7 @@
     "lat": 50.751,
     "lng": 3.601,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Edouard Jolystraat 9, 9600 Ronse",
     "info": "Parket en vloeren. Ronse.",
@@ -5673,7 +5675,7 @@
     "lat": 50.855,
     "lng": 3.28,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Kuurne",
     "info": "Parketbedrijf Kuurne.",
@@ -7106,7 +7108,7 @@
     "lat": 50.5175,
     "lng": 5.2372,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "btw": "BE0674.963.216",
     "adres": "Grand-Route 80, 4500 Huy",
@@ -7123,7 +7125,7 @@
     "lat": 50.5225,
     "lng": 5.243,
     "activiteiten": [
-      "parket",
+      "parket_plaatser",
       "terrassen"
     ],
     "adres": "Rue Joseph Wauters 60, 4500 Ben-Ahin",
@@ -7138,7 +7140,7 @@
     "lat": 50.6318,
     "lng": 4.8027,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Thorembais-Saint-Trond, 1360 Perwez",
     "website": "parquets-buyse.be",
@@ -7152,7 +7154,7 @@
     "lat": 51.097,
     "lng": 3.216,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Oostkamp, 8020",
     "info": "Parket en parketvloeren, parketrenovatie. Oostkamp, West-Vlaanderen.",
@@ -7167,7 +7169,7 @@
     "lat": 51.2194,
     "lng": 4.4025,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Antwerpen",
     "website": "parketservice.be",
@@ -7181,7 +7183,7 @@
     "lat": 51.2623,
     "lng": 4.7091,
     "activiteiten": [
-      "parket"
+      "parket_plaatser"
     ],
     "adres": "Zoersel, 2980",
     "info": "Parketlegger Zoersel, Antwerpen. Vloeren leggen, renoveren, onderhouden.",
@@ -8530,7 +8532,7 @@
     "lat": 50.9198305,
     "lng": 3.215435,
     "activiteiten": [
-      "parket"
+      "parket_producent"
     ],
     "btw": "BE0454.797.069",
     "adres": "Prins Albertlaan 100, 8870 Izegem",
@@ -8981,7 +8983,7 @@
     "lat": 50.876,
     "lng": 3.365,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE0732.674.355",
@@ -9002,7 +9004,7 @@
     "lat": 50.795,
     "lng": 3.13,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE0463.120.461",
@@ -9024,7 +9026,7 @@
     "lat": 50.852,
     "lng": 3.35,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE0871.715.244",
@@ -9046,7 +9048,7 @@
     "lat": 51.133,
     "lng": 5.461,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE0451.663.969",
@@ -9064,7 +9066,7 @@
     "lat": 50.968,
     "lng": 5.502,
     "activiteiten": [
-      "parket"
+      "parket_producent"
     ],
     "btw": "BE0865.027.093",
     "adres": "Jan Latoslaan 9, 3600 Genk",
@@ -9082,7 +9084,7 @@
     "lat": 50.601,
     "lng": 5.461,
     "activiteiten": [
-      "parket"
+      "parket_producent"
     ],
     "btw": "BE0474.351.873",
     "adres": "Rue des Semailles 31, 4400 Flemalle",
@@ -9100,7 +9102,7 @@
     "lat": 50.607,
     "lng": 3.389,
     "activiteiten": [
-      "parket"
+      "parket_producent"
     ],
     "btw": "BE0870.812.253",
     "adres": "Place de Saint-Maur 15, 7500 Tournai",
@@ -9117,7 +9119,7 @@
     "lat": 51.228,
     "lng": 4.393,
     "activiteiten": [
-      "parket"
+      "parket_producent"
     ],
     "btw": "BE0417.671.409",
     "adres": "Godefriduskaai 20A, 2000 Antwerpen",
@@ -9134,7 +9136,7 @@
     "lat": 51.143,
     "lng": 4.34,
     "activiteiten": [
-      "parket"
+      "parket_producent"
     ],
     "btw": "BE0544.945.703",
     "adres": "Bouwerijstraat 1, 2620 Hemiksem",
@@ -9149,7 +9151,7 @@
     "lat": 51.059,
     "lng": 3.275,
     "activiteiten": [
-      "parket",
+      "parket_producent",
       "import"
     ],
     "btw": "BE0475.685.723",
@@ -9528,5 +9530,492 @@
     "cw_jaar": 2023,
     "rijtijd_hertsberge": 34,
     "rijtijd_drongen": 30
+  },
+  {
+    "naam": "Parket Line (Roeselare)",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "lat": 50.937,
+    "lng": 3.119,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0836.321.924",
+    "adres": "Onledegoedstraat 76b, 8800 Roeselare",
+    "website": "parketline.be",
+    "info": "Massieve planken- en parketvloeren, trappen, terrassen, gevelbekleding. 25+ jaar ervaring. Team van 6."
+  },
+  {
+    "naam": "Parket Devlieghere Arnaud (Lichtervelde)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 51.028,
+    "lng": 3.141,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Stegelstraat 96, 8810 Lichtervelde",
+    "info": "Parketplaatser regio Lichtervelde-Roeselare."
+  },
+  {
+    "naam": "Houwaart Parket (Torhout)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 51.0641,
+    "lng": 3.1043,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0477.828.829",
+    "adres": "Wijnendalestraat 106, 8820 Torhout",
+    "info": "Parketplaatser Torhout. Interieurafwerking, schrijnwerk, vloer- en wandbekleding."
+  },
+  {
+    "naam": "Parket & Interieur Corneillie (Lissewege)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 51.289,
+    "lng": 3.178,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Rademakersstraat 7, 8380 Lissewege (Brugge)",
+    "website": "parketeninterieurcorneillie.be",
+    "info": "Plaatsing nieuwbouw- en renovatieparket. Puur installatiebedrijf."
+  },
+  {
+    "naam": "Pure Parket (Brugge)",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "lat": 51.2015,
+    "lng": 3.2025,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0507.715.321",
+    "adres": "Pathoekeweg 9/A008, 8000 Brugge",
+    "info": "Installatiespecialist parketvloeren. 6 FTE. Opgericht 2014."
+  },
+  {
+    "naam": "Bert Defrancq Parket (Zwevezele)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 50.978,
+    "lng": 3.218,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Kasteelstraat 64, 8750 Zwevezele (Wingene)",
+    "website": "timmerwerkendefrancq.be",
+    "info": "Parketvloeren nieuw en renovatie, laminaat, click PVC, houten terrassen, traprenovatie."
+  },
+  {
+    "naam": "Vantyghem Fashionable Flooring (Ichtegem)",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "lat": 51.087,
+    "lng": 3.022,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0444.367.490",
+    "adres": "Torhoutbaan 1, 8480 Ichtegem",
+    "website": "vantyghem.com",
+    "info": "Tapijten, parket en vinylvloeren. Plaatsing en verkoop sinds 1992."
+  },
+  {
+    "naam": "GT Parket (Roeselare)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 50.942,
+    "lng": 3.124,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Flandriastraat 16, 8800 Roeselare",
+    "info": "Parketplaatser regio Roeselare."
+  },
+  {
+    "naam": "Vandenberghe Parket (Gits)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 50.975,
+    "lng": 3.083,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Grijspeerdstraat 52, 8830 Gits (Hooglede)",
+    "info": "Parketplaatser regio Roeselare-Hooglede."
+  },
+  {
+    "naam": "Verlinde Parket (Koolskamp)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 50.972,
+    "lng": 3.165,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Diksmuidse Boterweg 4B, 8851 Koolskamp (Ardooie)",
+    "info": "Parketplaatser regio Ardooie-Tielt."
+  },
+  {
+    "naam": "Desmet Juri Parket (Koolskamp)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 50.971,
+    "lng": 3.164,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Meiboomstraat 6, 8851 Koolskamp (Ardooie)",
+    "info": "Parketplaatser regio Ardooie."
+  },
+  {
+    "naam": "Lecomte Parket (Torhout)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 51.065,
+    "lng": 3.095,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Korenbloemstraat 60, 8820 Torhout",
+    "info": "Parketplaatser regio Torhout. 25 jaar ervaring."
+  },
+  {
+    "naam": "C-Ling Parket (Ardooie)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 50.968,
+    "lng": 3.156,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Bessenstraat 17, 8850 Ardooie",
+    "info": "Parketplaatser regio Ardooie-Tielt."
+  },
+  {
+    "naam": "Kevin Tanghe Parket (Veldegem)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 51.124,
+    "lng": 3.151,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Stroelputstraat 80, 8210 Veldegem (Zedelgem)",
+    "info": "Eenmanszaak parketplaatser regio Zedelgem-Brugge."
+  },
+  {
+    "naam": "Vanderleyden Fabrice (Middelkerke)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 51.182,
+    "lng": 2.812,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0782.653.012",
+    "adres": "Oostendelaan 188, 8430 Middelkerke",
+    "website": "vanderleydenfabrice.be",
+    "info": "Parket- en laminaatvloeren. Service in 50 km radius."
+  },
+  {
+    "naam": "Opsomer Parket (Brugge)",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "lat": 51.198,
+    "lng": 3.231,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Dampoortstraat 257, 8310 Sint-Kruis (Brugge)",
+    "website": "opsomer-parket.be",
+    "info": "Parketplaatser Brugge. 25+ jaar ervaring."
+  },
+  {
+    "naam": "Natuurhoutvloeren (Rumbeke)",
+    "provincie": "wvl",
+    "grootte": "Micro",
+    "lat": 50.905,
+    "lng": 3.103,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Izegemsestraat 60A, 8800 Rumbeke (Roeselare)",
+    "info": "Specialist massieve houten vloeren regio Roeselare."
+  },
+  {
+    "naam": "Parket Matthys (Brugge)",
+    "provincie": "wvl",
+    "grootte": "Klein",
+    "lat": 51.208,
+    "lng": 3.224,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "website": "parketmatthys.com",
+    "adres": "Brugge",
+    "info": "Massief, traditioneel en halfmassief eiken parket. Plaatsing, renovatie, restauratie."
+  },
+  {
+    "naam": "Art Parket (Oostakker)",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "lat": 51.089,
+    "lng": 3.763,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Groenstraat 266E, 9041 Oostakker (Gent)",
+    "website": "artparket.be",
+    "info": "35+ jaar referentie in massief parket. Plaatsing, onderhoud, afwerking. 400+ m2 showroom."
+  },
+  {
+    "naam": "Belle Parket (Evergem)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.117,
+    "lng": 3.707,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0897.376.593",
+    "adres": "Kramershoek 19, 9940 Evergem",
+    "website": "belleparket.be",
+    "info": "25+ jaar ervaring. Massief, halfmassief en bamboe parket. Gevelbekleding en terrassen."
+  },
+  {
+    "naam": "Parketvloeren Van Vynckt (Landegem)",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "lat": 51.033,
+    "lng": 3.569,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0822.963.935",
+    "adres": "Poeldendries 27, 9850 Landegem (Deinze)",
+    "website": "vanvynckt.be",
+    "info": "Familiebedrijf. Handgeschraapt parket, plaatsing, herstelling, schuren. Toonzaal Gent."
+  },
+  {
+    "naam": "Constantin Parket (Sint-Denijs-Westrem)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.025,
+    "lng": 3.676,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0835.467.829",
+    "adres": "Steppestede 57, 9051 Sint-Denijs-Westrem (Gent)",
+    "website": "constantinparket.com",
+    "info": "30+ jaar ervaring. Plaatsing, schuren en behandeling traditionele houten vloeren."
+  },
+  {
+    "naam": "H&C Parket (Ledeberg)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.038,
+    "lng": 3.743,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0761.480.187",
+    "adres": "Frederik Burvenichstraat 80, 9050 Ledeberg (Gent)",
+    "website": "hcparket.be",
+    "info": "Parketplaatser regio Gent-Ledeberg."
+  },
+  {
+    "naam": "Parketvloeren Claus (Gent)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.054,
+    "lng": 3.728,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0475.891.007",
+    "adres": "Oktrooiplein 1 bus 201, 9000 Gent",
+    "website": "clausparket.be",
+    "info": "25 jaar passie en vakmanschap. Parket en houtoplossingen. Opgericht 2001."
+  },
+  {
+    "naam": "Parket De Mulder (Ninove)",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "lat": 50.836,
+    "lng": 3.964,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0473.568.945",
+    "adres": "Camberg 44C, 9400 Voorde (Ninove)",
+    "website": "parketdemulder.be",
+    "info": "Handgeschraapt parket, mozaiekparket, luxe massief parket. Verkoop en plaatsing. Opgericht 2000."
+  },
+  {
+    "naam": "Parket Allaer (Ninove)",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "lat": 50.841,
+    "lng": 4.025,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0422.032.350",
+    "adres": "Brakelsesteenweg 440, 9400 Ninove",
+    "website": "parket-allaer.be",
+    "info": "Levering en plaatsing parketvloeren (massief, meerlaags, fineer). Showroom."
+  },
+  {
+    "naam": "Impens Parket (Destelbergen)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.062,
+    "lng": 3.787,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0835.244.432",
+    "adres": "Damvalleistraat 12, 9070 Destelbergen",
+    "website": "impensparket.be",
+    "info": "20+ jaar ervaring. Plaatsing, schuren, vernissen, renovatie. 700+ tevreden klanten."
+  },
+  {
+    "naam": "Cormier Parket (Lochristi)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.098,
+    "lng": 3.835,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Loboslaan 9, 9080 Lochristi",
+    "website": "cormier-parket.be",
+    "info": "Ervaring sinds 2000. Levering, plaatsing, restauratie en onderhoud parket en laminaat."
+  },
+  {
+    "naam": "Alternative Flooring (Semmerzake)",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "lat": 50.949,
+    "lng": 3.648,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Dorpstraat 76, 9890 Semmerzake (Gavere)",
+    "website": "alternativeflooring.be",
+    "info": "15+ jaar verkoop, levering en plaatsing parket, fineerparket, laminaat, vinyl. Quick-Step dealer."
+  },
+  {
+    "naam": "Mapadecor (Haaltert)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 50.901,
+    "lng": 3.967,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0459.070.316",
+    "adres": "Mosveldstraat 2, 9450 Haaltert",
+    "website": "mapadecor.be",
+    "info": "25+ jaar ervaring. Plaatsing parket regio Aalst."
+  },
+  {
+    "naam": "Red Mijn Parket (Zwijnaarde)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.012,
+    "lng": 3.705,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0741.707.134",
+    "adres": "Laurierstraat 47, 9052 Zwijnaarde (Gent)",
+    "website": "redmijnparket.be",
+    "info": "Specialist parketrenovatie, reiniging en onderhoud. Minimaal invasief schuren."
+  },
+  {
+    "naam": "Franks Parketvloeren (Geraardsbergen)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 50.762,
+    "lng": 3.878,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Spekgatstraat 22, 9506 Zandbergen (Geraardsbergen)",
+    "info": "40+ jaar eigen ervaring. Massief parket, plankenvloeren, laminaat, borders, inlegwerk."
+  },
+  {
+    "naam": "Vannieuwenhuyse Xavier (Gent)",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "lat": 51.088,
+    "lng": 3.758,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "H.B. De Tracylaan 37b, 9041 Oostakker (Gent)",
+    "website": "xavier-vannieuwenhuyse.be",
+    "info": "Erkend aannemer klasse 1D15 (parket) en 1D24 (restauratie monumenten). Massief en brede plankvloeren op maat."
+  },
+  {
+    "naam": "Bruggeman S Parket (Desteldonk)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.115,
+    "lng": 3.775,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "adres": "Moleneinde 7, 9042 Desteldonk (Gent)",
+    "website": "bruggemanbv.be",
+    "info": "Parketplaatser regio Gent-Desteldonk."
+  },
+  {
+    "naam": "Uw Parketspecialist (Sint-Niklaas)",
+    "provincie": "ovl",
+    "grootte": "Micro",
+    "lat": 51.156,
+    "lng": 4.14,
+    "activiteiten": [
+      "parket_plaatser"
+    ],
+    "btw": "BE 0414.250.772",
+    "adres": "Hoge Bokstraat 125a, 9100 Sint-Niklaas",
+    "website": "uwparketspecialist.be",
+    "info": "45+ jaar ervaring. Nieuw parket, restauratie en renovatie. Massief, meerlaags en traditioneel parket."
+  },
+  {
+    "naam": "Belgiqa / MIVA Parket (Ledegem)",
+    "provincie": "wvl",
+    "grootte": "Middelgroot",
+    "lat": 50.8668,
+    "lng": 3.1117,
+    "activiteiten": [
+      "parket_producent"
+    ],
+    "btw": "BE 0863.316.331",
+    "adres": "Nijverheidslaan 28, 8880 Ledegem",
+    "website": "belgiqa.com",
+    "info": "PRODUCENT premium engineered/meerlagig parket. Verouderd en geborsteld eiken, Volcano collectie. 30 FTE, 7.000+ m2 productiehal. Onderdeel Highway Group (Woodstoxx/Vanlandschoot)."
+  },
+  {
+    "naam": "Albafloors (Erpe-Mere)",
+    "provincie": "ovl",
+    "grootte": "Klein",
+    "lat": 50.8862,
+    "lng": 3.8944,
+    "activiteiten": [
+      "parket_producent"
+    ],
+    "btw": "BE 0819.823.115",
+    "adres": "Oudenaardsesteenweg 253, 9420 Erpe-Mere",
+    "website": "albafloors.be",
+    "info": "PRODUCENT parketvloeren, terrashout en gevelhout op maat. Eigen finishing atelier. Massief eik en exotisch hout."
   }
 ]
