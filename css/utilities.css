@@ -100,6 +100,51 @@
 .toast-warning { background: var(--amber-500); color: var(--timber-900); }
 
 /* ═══════════════════════════════════════
+   Laptop-friendly: max vertical space for map
+   ═══════════════════════════════════════ */
+@media (max-height: 900px) {
+  #header { min-height: 36px; }
+  #header .header-left h1 { font-size: 15px; }
+  .tab-btn { padding: 4px 12px; font-size: 10px; }
+  .counter { padding: 3px 12px; font-size: 11px; }
+
+  #controls { padding: 3px 10px; gap: 1px; }
+  .controls-top { gap: 6px; }
+  #search { padding: 4px 26px 4px 30px; font-size: 11px; }
+  .search-wrap { min-width: 160px; }
+  .search-wrap svg { width: 12px; height: 12px; left: 10px; }
+  .fb { font-size: 9.5px; padding: 2px 8px; }
+  .filter-group-label { font-size: 8px; }
+  .filter-row { gap: 2px; padding: 0; }
+
+  #legend { padding: 1px 10px; }
+  .legend-group { gap: 4px; padding: 0 6px; }
+  .legend-group-title { font-size: 6px; }
+  .legend-items { gap: 1px 4px; }
+  .legend-item { font-size: 8px; gap: 2px; }
+  .legend-dot { width: 6px; height: 6px; }
+}
+
+/* Extra compact for small laptops (1366x768) */
+@media (max-height: 768px) {
+  #header { min-height: 32px; padding: 0 10px; }
+  #header .header-left h1 { font-size: 14px; }
+  .header-center { gap: 1px; padding: 2px; }
+  .tab-btn { padding: 3px 10px; font-size: 9px; }
+  .fav-count { font-size: 8px; padding: 0 4px; min-width: 14px; }
+
+  #controls { padding: 2px 8px; gap: 0; }
+  .fb { font-size: 9px; padding: 2px 7px; border-width: 1px; }
+  .filter-group-label { font-size: 7px; padding: 0 1px; }
+  #search { padding: 3px 24px 3px 28px; font-size: 11px; }
+
+  #legend { padding: 1px 8px; }
+  .legend-group { gap: 3px; padding: 0 5px; }
+  .legend-item { font-size: 7px; }
+  .legend-dot { width: 5px; height: 5px; }
+}
+
+/* ═══════════════════════════════════════
    Responsive — large screens
    ═══════════════════════════════════════ */
 @media (max-width: 1600px) {

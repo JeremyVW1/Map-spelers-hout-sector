@@ -136,13 +136,13 @@ body > * { position: relative; z-index: 1; }
 #header {
   background: linear-gradient(135deg, var(--timber-900) 0%, var(--timber-800) 40%, var(--timber-700) 100%);
   color: var(--timber-100);
-  padding: 0 var(--space-lg);
+  padding: 0 var(--space-md);
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-md);
-  min-height: 56px;
+  gap: var(--space-sm);
+  min-height: 42px;
   border-bottom: 2px solid var(--timber-600);
   position: relative;
   overflow: hidden;
@@ -167,9 +167,9 @@ body > * { position: relative; z-index: 1; }
 
 #header .header-left h1 {
   font-family: var(--font-display);
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 400;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   color: var(--timber-100);
   line-height: 1.2;
 }
@@ -207,9 +207,9 @@ body > * { position: relative; z-index: 1; }
   background: transparent;
   border: none;
   color: rgba(237,224,212,0.5);
-  padding: 8px 24px;
+  padding: 5px 16px;
   font-family: var(--font-body);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 700;
   cursor: pointer;
   border-radius: 7px;
@@ -254,11 +254,11 @@ body > * { position: relative; z-index: 1; }
    ═══════════════════════════════════════ */
 #controls {
   background: var(--color-surface);
-  padding: 6px 16px;
+  padding: 4px 12px;
   border-bottom: 1px solid var(--timber-200);
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
   flex-shrink: 0;
   box-shadow: 0 2px 8px rgba(26,18,11,0.04);
 }
@@ -272,12 +272,13 @@ body > * { position: relative; z-index: 1; }
 .filter-row {
   display: flex;
   flex-wrap: nowrap;
-  gap: 4px;
+  gap: 3px;
   align-items: center;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  padding: 2px 0;
+  padding: 1px 0;
 }
+.filter-row:empty { display: none; }
 .filter-row::-webkit-scrollbar { height: 3px; }
 .filter-row::-webkit-scrollbar-thumb { background: var(--timber-300); border-radius: 3px; }
 
@@ -285,7 +286,7 @@ body > * { position: relative; z-index: 1; }
 .search-wrap {
   position: relative;
   flex-shrink: 0;
-  min-width: 220px;
+  min-width: 180px;
 }
 .search-wrap svg {
   position: absolute;
@@ -298,11 +299,11 @@ body > * { position: relative; z-index: 1; }
 }
 #search {
   width: 100%;
-  padding: 7px 32px 7px 36px;
+  padding: 5px 28px 5px 32px;
   border: 1.5px solid var(--timber-200);
   border-radius: var(--radius-full);
   font-family: var(--font-body);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   outline: none;
   transition: all 0.25s var(--ease-out);
@@ -360,8 +361,8 @@ body > * { position: relative; z-index: 1; }
 /* ─── Filter buttons ─── */
 .fb {
   font-family: var(--font-body);
-  font-size: 12px;
-  padding: 5px 14px;
+  font-size: 10.5px;
+  padding: 3px 10px;
   border-radius: var(--radius-full);
   border: 1.5px solid var(--timber-200);
   background: #fff;
@@ -387,11 +388,11 @@ body > * { position: relative; z-index: 1; }
 }
 
 .filter-group-label {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 800;
   color: var(--timber-400);
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.6px;
   flex-shrink: 0;
-  padding: 0 4px;
+  padding: 0 2px;
 }
