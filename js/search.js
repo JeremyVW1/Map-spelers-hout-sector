@@ -104,6 +104,8 @@ function matchesSearch(company) {
 }
 
 function getVisibleCompanies() {
+  const isAllesMode = activeRegios.size === 0 && activeActiviteiten.size === 0 && activeStatus.size === 0;
+
   return bedrijven.filter(c => {
     // Status filter: als actief, toon ENKEL bedrijven met die status
     if (activeStatus.size > 0) {
@@ -111,6 +113,10 @@ function getVisibleCompanies() {
       const isTwf = activeStatus.has("twijfel") && isOrange(c.naam);
       if (!isFav && !isTwf) return false;
     }
+
+    // Als niet in "Alles" modus en geen enkele activiteit geselecteerd → verberg alle houtspelers
+    // Zo kan de gebruiker enkel de concurrentenlaag (diamanten) bekijken
+    if (!isAllesMode && activeActiviteiten.size === 0) return false;
 
     if (activeRegios.has("groene_zone") && !inGroeneZone(c)) return false;
 
