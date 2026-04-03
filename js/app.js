@@ -18,6 +18,7 @@ async function init() {
     bedrijven   = await bedrijvenRes.json();
     categorieen = await catRes.json();
     top15       = top15Res.ok ? await top15Res.json() : [];
+    await loadConcurrenten();
     bedrijven.forEach(c => bedrijvenMap.set(c.naam, c));
   } catch (e) {
     console.error("Data laden mislukt:", e);
@@ -36,8 +37,12 @@ async function init() {
 
   initMap();
   createAllMarkers();
+  createConcurrentMarkers();
+  addNieuwParketMarker();
   buildFilters();
+  buildConcurrentFilters();
   buildLegend();
+  buildConcurrentLegend();
   initSearch();
   initAnalyse();
   initEdit();
@@ -68,6 +73,7 @@ async function init() {
   categorieen.filter(c => c.type === "activiteit").forEach(c => activeActiviteiten.add(c.id));
   syncFilterButtons();
   render();
+  renderConcurrenten();
   updateCounter();
 
   document.getElementById("fav-export").addEventListener("click", exportFavCSV);

@@ -184,3 +184,46 @@
   flex-shrink: 0;
   border: 1px solid rgba(0,0,0,0.06);
 }
+
+/* ═══════════════════════════════════════
+   Concurrenten NieuwParket — popup extras
+   ═══════════════════════════════════════ */
+.conc-bewijs {
+  font-size: 11px;
+  color: var(--slate-600);
+  background: #fef3e2;
+  border: 1px solid #fdd89b;
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  margin: 6px 0;
+  line-height: 1.6;
+}
+.conc-bewijs b { color: #bf360c; }
+
+.conc-afstand {
+  font-size: 11px;
+  color: var(--forest-700);
+  background: var(--forest-50);
+  border: 1px solid var(--forest-200);
+  border-radius: var(--radius-sm);
+  padding: 4px 8px;
+  margin: 6px 0;
+  text-align: center;
+}
+
+.conc-overlap {
+  font-size: 11px;
+  display: block;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  margin-top: 6px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+.conc-overlap-hoog   { background: #fde8e8; color: #c62828; }
+.conc-overlap-midden { background: #fff3e0; color: #e65100; }
+.conc-overlap-laag   { background: #e8f5e9; color: #2e7d32; }
+
+/* Concurrenten filter toggle */
+.conc-toggle { font-weight: 700 !important; }
